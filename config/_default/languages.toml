@@ -1,0 +1,5 @@
+[en]
+title = "A blog about Data Science and MLOps"
+weight = 1
+LanguageName = "EN"
+contentDir = "content/english"
