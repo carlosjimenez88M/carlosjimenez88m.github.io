@@ -2,6 +2,7 @@
 
 Information in accordance with the applicable law
 
-Carlos Daniel Jiménez\
-2024 GoHugo\
-Colombia
+Jane Doe\
+Anatole Street 10\
+2016 GoHugo\
+Germany
