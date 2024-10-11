@@ -1,5 +1,14 @@
 [en]
-title = "A blog about Data Science and MLOps"
+title = "My blog"
 weight = 1
 LanguageName = "EN"
 contentDir = "content/english"
+
+[ar]
+title = "فلانة الفلانية"
+contentDir = "content/arabic" 
+weight = 2
+LanguageDirection = "rtl" 
+LanguageName = "AR"
+[ar.params]
+description = "أنا أعمل كمطورة ويب في شركة س"
