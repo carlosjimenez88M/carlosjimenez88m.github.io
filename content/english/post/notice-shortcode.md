@@ -1,5 +1,5 @@
 ---
-title: 'The Notice Shortcode changes'
+title: 'The Notice Shortcode changes #2'
 date: 2022-03-18T21:47:41+00:00
 draft: false
 tags:
@@ -9,7 +9,7 @@ tags:
 
 The notice shortcode supports three different types of disclaimers. These are as following:
 
-## Info Notice
+## Info Notice #2
 
 ```
 {{%/* notice info */%}}
