@@ -4,7 +4,7 @@ copyright = "2024-2025"
 description = "A blog about Data Science and MLOps"
 profilePicture = "https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/images/profile3.jpeg?raw=true"
 keywords = ""
-favicon = "favicons/"
+favicon = "https://raw.githubusercontent.com/carlosjimenez88M/carlosjimenez88m.github.io/refs/heads/master/favicons/"
 # example ["css/custom.css"]
 customCss = []
 # example ["js/custom.js"]
