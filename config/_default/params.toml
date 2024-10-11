@@ -2,7 +2,7 @@ title = "The Probability and the Word"
 author = "Carlos Daniel Jiménez"
 copyright = "2024-2025"
 description = "A blog about Data Science and MLOps"
-profilePicture = "images/profile3.jpg"
+profilePicture = "https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/images/profile3.jpeg?raw=true"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
