@@ -2,9 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on A blog about Data Science and MLOps</title>
-    <link>carlosjimenez88m.github.io/series/</link>
+    <link>https://carlosdanieljimenez.com/series/</link>
     <description>Recent content in Series on A blog about Data Science and MLOps</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="carlosjimenez88m.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://carlosdanieljimenez.com/series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Series-Setup</title>
+      <link>https://carlosdanieljimenez.com/series/series-setup/</link>
+      <pubDate>Sun, 15 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlosdanieljimenez.com/series/series-setup/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Themes Guide</title>
+      <link>https://carlosdanieljimenez.com/series/themes-guide/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlosdanieljimenez.com/series/themes-guide/</guid>
+      
+        <description></description>
+      
+    </item>
+    
   </channel>
 </rss>

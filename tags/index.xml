@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on A blog about Data Science and MLOps</title>
-    <link>carlosjimenez88m.github.io/tags/</link>
+    <link>https://carlosdanieljimenez.com/tags/</link>
     <description>Recent content in Tags on A blog about Data Science and MLOps</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Mar 2022 21:47:41 +0000</lastBuildDate><atom:link href="carlosjimenez88m.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Mar 2022 21:47:41 +0000</lastBuildDate><atom:link href="https://carlosdanieljimenez.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Demo</title>
-      <link>carlosjimenez88m.github.io/tags/demo/</link>
+      <link>https://carlosdanieljimenez.com/tags/demo/</link>
       <pubDate>Fri, 18 Mar 2022 21:47:41 +0000</pubDate>
       
-      <guid>carlosjimenez88m.github.io/tags/demo/</guid>
+      <guid>https://carlosdanieljimenez.com/tags/demo/</guid>
       
         <description></description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>Index</title>
-      <link>carlosjimenez88m.github.io/tags/index/</link>
+      <link>https://carlosdanieljimenez.com/tags/index/</link>
       <pubDate>Fri, 18 Mar 2022 21:47:41 +0000</pubDate>
       
-      <guid>carlosjimenez88m.github.io/tags/index/</guid>
+      <guid>https://carlosdanieljimenez.com/tags/index/</guid>
       
         <description></description>
       
@@ -31,10 +31,120 @@
     
     <item>
       <title>Shortcode</title>
-      <link>carlosjimenez88m.github.io/tags/shortcode/</link>
+      <link>https://carlosdanieljimenez.com/tags/shortcode/</link>
       <pubDate>Fri, 18 Mar 2022 21:47:41 +0000</pubDate>
       
-      <guid>carlosjimenez88m.github.io/tags/shortcode/</guid>
+      <guid>https://carlosdanieljimenez.com/tags/shortcode/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Redirect</title>
+      <link>https://carlosdanieljimenez.com/tags/redirect/</link>
+      <pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlosdanieljimenez.com/tags/redirect/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>RedirectUrl</title>
+      <link>https://carlosdanieljimenez.com/tags/redirecturl/</link>
+      <pubDate>Sun, 20 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlosdanieljimenez.com/tags/redirecturl/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Css</title>
+      <link>https://carlosdanieljimenez.com/tags/css/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlosdanieljimenez.com/tags/css/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Html</title>
+      <link>https://carlosdanieljimenez.com/tags/html/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlosdanieljimenez.com/tags/html/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://carlosdanieljimenez.com/tags/markdown/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlosdanieljimenez.com/tags/markdown/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Privacy</title>
+      <link>https://carlosdanieljimenez.com/tags/privacy/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlosdanieljimenez.com/tags/privacy/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Shortcodes</title>
+      <link>https://carlosdanieljimenez.com/tags/shortcodes/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlosdanieljimenez.com/tags/shortcodes/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Text</title>
+      <link>https://carlosdanieljimenez.com/tags/text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlosdanieljimenez.com/tags/text/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Emoji</title>
+      <link>https://carlosdanieljimenez.com/tags/emoji/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlosdanieljimenez.com/tags/emoji/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Thumbnail</title>
+      <link>https://carlosdanieljimenez.com/tags/thumbnail/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlosdanieljimenez.com/tags/thumbnail/</guid>
       
         <description></description>
       
