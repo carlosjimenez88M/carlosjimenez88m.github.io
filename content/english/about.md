@@ -8,7 +8,6 @@ author = "Hugo Authors"
 
 ### Who is Carlos Daniel?
 
-![](../images/raspberry.jpeg)
 
 * Father of two princesses
 
