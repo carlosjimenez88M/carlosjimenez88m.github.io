@@ -1,9 +1,8 @@
-
-title = "I'm Jane Doe"
-author = "Jane Doe"
-#copyright = "2020-2021"
-description = "Call me Jane"
-profilePicture = "images/profile.jpg"
+title = "The Probability and the Word"
+author = "Carlos Daniel Jiménez"
+copyright = "2024-2025"
+description = "A blog about Data Science and MLOps"
+profilePicture = "images/profile2.jpg"
 keywords = ""
 favicon = "favicons/"
 # example ["css/custom.css"]
@@ -59,22 +58,19 @@ use = "katex"  # options: "katex", "mathjax". default is "katex".
 [[socialIcons]]
 icon = "fa-brands fa-linkedin"
 title = "Linkedin"
-url = "https://de.linkedin.com/"
+url = "https://www.linkedin.com/in/djimenezm/"
 
 [[socialIcons]]
 icon = "fa-brands fa-github"
 title = "GitHub"
-url = "https://github.com/lxndrblz/anatole/"
+url = "https://github.com/carlosjimenez88M"
 
-[[socialIcons]]
-icon = "fa-brands fa-instagram"
-title = "instagram"
-url = "https://www.instagram.com/"
+
 
 [[socialIcons]]
 icon = "fa-solid fa-envelope"
 title = "e-mail"
-url = "mailto:mail@example.com"
+url = "mailto:danieljimenez88m@gmail.com"
 
 [mermaid]
 # enable = true
