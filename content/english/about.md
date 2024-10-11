@@ -9,7 +9,7 @@ author = "Hugo Authors"
 
 
 
-![](https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/images/raspberry.jpeg)
+![](https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/images/raspberry.jpeg?raw=true)
 
 * Father of two princesses
 
