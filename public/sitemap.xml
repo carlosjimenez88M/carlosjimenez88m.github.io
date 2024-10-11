@@ -2,46 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>carlosjimenez88m.github.io/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2022-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>carlosjimenez88m.github.io/awards/</loc>
+    <loc>//localhost:1313/awards/</loc>
     <lastmod>2022-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>carlosjimenez88m.github.io/certifications/</loc>
+    <loc>//localhost:1313/certifications/</loc>
     <lastmod>2022-04-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>carlosjimenez88m.github.io/tags/demo/</loc>
+    <loc>//localhost:1313/tags/demo/</loc>
     <lastmod>2022-03-18T21:47:41+00:00</lastmod>
   </url><url>
-    <loc>carlosjimenez88m.github.io/tags/index/</loc>
+    <loc>//localhost:1313/tags/index/</loc>
     <lastmod>2022-03-18T21:47:41+00:00</lastmod>
   </url><url>
-    <loc>carlosjimenez88m.github.io/post/</loc>
+    <loc>//localhost:1313/post/</loc>
     <lastmod>2022-03-18T21:47:41+00:00</lastmod>
   </url><url>
-    <loc>carlosjimenez88m.github.io/tags/shortcode/</loc>
+    <loc>//localhost:1313/tags/shortcode/</loc>
     <lastmod>2022-03-18T21:47:41+00:00</lastmod>
   </url><url>
-    <loc>carlosjimenez88m.github.io/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2022-03-18T21:47:41+00:00</lastmod>
   </url><url>
-    <loc>carlosjimenez88m.github.io/post/notice-shortcode/</loc>
+    <loc>//localhost:1313/post/notice-shortcode/</loc>
     <lastmod>2022-03-18T21:47:41+00:00</lastmod>
   </url><url>
-    <loc>carlosjimenez88m.github.io/archives/</loc>
+    <loc>//localhost:1313/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>carlosjimenez88m.github.io/contact/</loc>
+    <loc>//localhost:1313/contact/</loc>
     <lastmod>2019-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>carlosjimenez88m.github.io/about/</loc>
+    <loc>//localhost:1313/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>carlosjimenez88m.github.io/imprint/</loc>
+    <loc>//localhost:1313/imprint/</loc>
   </url><url>
-    <loc>carlosjimenez88m.github.io/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>carlosjimenez88m.github.io/series/</loc>
+    <loc>//localhost:1313/series/</loc>
   </url>
 </urlset>
