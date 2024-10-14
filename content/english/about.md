@@ -9,7 +9,7 @@ author = "Hugo Authors"
 
 
 
-![](https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/images/raspberry.jpeg?raw=true)
+![](https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/images/WhatsApp%20Image%202024-10-14%20at%2016.49.46.jpeg?raw=true)
 
 ### Who is this blog for?
 

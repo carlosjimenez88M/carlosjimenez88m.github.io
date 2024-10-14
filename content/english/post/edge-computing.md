@@ -5,9 +5,9 @@ date: 2024-10-14
 description: A Brief Introduction to AI/Edge Computing
 series:
   - edge computing
-tags:
-  - edge computing
 ---
+
+![](https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/images/WhatsApp%20Image%202024-10-14%20at%2016.46.42.jpeg?raw=true)
 
 ### Introduction 
 
@@ -35,7 +35,7 @@ Now, this raises several considerations for the inference process, such as inter
 
 In the last two points, we can talk about two types of devices: the Raspberry Pi and the Jetson Nano.
 
-### Raspberry Pi
+### Raspberry Pi (micro-Controler)
 
 - Recently popularized in Edge Machine Learning, particularly for Computer Vision (though it has limited power) and software development.
 - The Raspberry Pi 5 version features an ARM Cortex-A67 CPU, offering greater energy efficiency and improved performance for tasks related to ML solutions.
@@ -45,7 +45,7 @@ In the last two points, we can talk about two types of devices: the Raspberry Pi
 
 The Raspberry Pi is ideal for software development contexts, and with inference accelerators like Coral TPU, Yolo-based solutions can perform well, achieving a refresh rate of up to 15 frames per second for analysis (compared to 30 fps with the Jetson Nano).
 
-### Jetson Nano
+### Jetson Nano (Edge Machine Learning)
 
 - It features an ARM Cortex-A57 CPU, fundamental for intensive processing (the main architectural difference compared to the Raspberry Pi 5).
 - Designed for parallel computing.
