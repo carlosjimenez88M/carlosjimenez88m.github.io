@@ -14,7 +14,7 @@
   name = "Portfolio"
   weight = 300
   identifier = "portfolio"
-  url = "/portfolio/"
+  url = "https://www.databotics.ai/"
 
   [[main]]
   name = "About"
@@ -23,22 +23,22 @@
   url = "/about/"
 
   [[main]]
-  name = "Accomplishments"
+  name = "Conferences and Courses"
   weight = 500
   identifier = "accomplishments"
 
   [[main]]
-  name = "Awards"
+  name = "Conferences"
   weight = 510
   identifier = "awards"
-  url = "/awards/"
+  url = "https://github.com/carlosjimenez88M/talks"
   parent = "accomplishments"  
 
   [[main]]
-  name = "Certifications"
+  name = "Courses"
   weight = 520
   identifier = "certifications"
-  url = "/certifications/"
+  url = "https://github.com/carlosjimenez88M/Courses"
   parent = "accomplishments"
 
   [[main]]
