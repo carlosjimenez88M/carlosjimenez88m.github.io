@@ -18,6 +18,12 @@ author = "Hugo Authors"
 * Two main points to highlight: this project, ‘The Probability and the Word’, has two main focuses. The first is related to LLMs (Large Language Models), and the second is focused on MLOps, particularly thinking about many applications in terms of Edge Computing and, more specifically, Edge Machine Learning.
   * There’s a fundamental aspect to mention: I want to take a project or two into the context of Software Engineering. I want to emphasize how to develop good system distributions, optimize images (Docker, Kubernetes), and talk about deployments.
 
+
+### Why Probability and Words?
+
+I believe I spend 90% of my time developing NLP and LLM solutions, and I’ve always been a lover of literature. That’s why many of the explanations I will bring to this blog will be connected to that—the value of words when developing solutions!
+
+
 ### Who is Carlos Daniel?
 
 Hello, I’m Carlos Daniel! I define myself by my obsessions, which include computer science applied to the world of data, followed closely by AI applied to neuroscience topics, and lastly, the history of religion and its role in the macro-historical context of how these influences shape societies' behaviors. These topics cover the two sides of the coin regarding what I think about and what I develop.
