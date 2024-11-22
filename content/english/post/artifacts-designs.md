@@ -1,6 +1,6 @@
 ---
 author: Carlos Daniel Jiménez
-title: Edge Computing and Edge Machine Learning
+title: Artifact Design
 date: 2024-11-21
 description: Introduction to Artifacts designs
 series:
