@@ -1,6 +1,5 @@
 ---
 author: Carlos Daniel Jiménez
-title: Artifact Design
 date: 2024-11-21
 description: Introduction to Artifacts designs
 series:
