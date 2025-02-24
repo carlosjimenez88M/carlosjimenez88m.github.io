@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Edge Machine Learning on The Probability and the Word</title>
-    <link>https://carlosdanieljimenez.com/series/edge-machine-learning/</link>
+    <link>http://localhost:1313/series/edge-machine-learning/</link>
     <description>Recent content in Edge Machine Learning on The Probability and the Word</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://carlosdanieljimenez.com/series/edge-machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/edge-machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MLops into Raspberry pi 5</title>
-      <link>https://carlosdanieljimenez.com/post/mlops_raspberrypi5/</link>
+      <link>http://localhost:1313/post/mlops_raspberrypi5/</link>
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://carlosdanieljimenez.com/post/mlops_raspberrypi5/</guid>
+      <guid>http://localhost:1313/post/mlops_raspberrypi5/</guid>
       
         <description>A robust implementation of facilities for MLOps development</description>
       
