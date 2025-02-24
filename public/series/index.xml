@@ -6,46 +6,24 @@
     <description>Recent content in Series on The Probability and the Word</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://carlosdanieljimenez.com/series/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Edge Computing</title>
-      <link>https://carlosdanieljimenez.com/series/edge-computing/</link>
-      <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://carlosdanieljimenez.com/series/edge-computing/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Edge Machine Learning</title>
-      <link>https://carlosdanieljimenez.com/series/edge-machine-learning/</link>
-      <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://carlosdanieljimenez.com/series/edge-machine-learning/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Software Desgin</title>
-      <link>https://carlosdanieljimenez.com/series/software-desgin/</link>
-      <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://carlosdanieljimenez.com/series/software-desgin/</guid>
-      
-        <description></description>
-      
-    </item>
-    
+    <lastBuildDate>Thu, 21 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://carlosdanieljimenez.com/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mlops</title>
       <link>https://carlosdanieljimenez.com/series/mlops/</link>
       <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
       
       <guid>https://carlosdanieljimenez.com/series/mlops/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Edge Computing</title>
+      <link>https://carlosdanieljimenez.com/series/edge-computing/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://carlosdanieljimenez.com/series/edge-computing/</guid>
       
         <description></description>
       

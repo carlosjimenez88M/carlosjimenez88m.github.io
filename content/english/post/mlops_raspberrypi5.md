@@ -1,14 +1,11 @@
 ---
-author: Carlos Daniel Jiménez
-title: MLops into Raspberry pi 5
-date: 2025-02-23
-description: A robust implementation of facilities for MLOps development
-series:
-  - edge computing
-  - edge machine learning
-  - software desgin 
+title: "MLops into Raspberry Pi 5"
+date: 2024-02-23
+draft: false
+description: "A robust implementation of facilities for MLOps development"
+categories: ["Edge Computing", "MLOps"]
+tags: ["raspberry-pi", "mlflow", "edge-ai"]
 ---
-
 
 
 One of the tools I use most for practicing **MLOps**, both for designing pipelines and APIs (for inference), is the **Raspberry Pi**. Today, I spent several hours trying to install **Visual Studio Code** to complement my **iPad Pro** as a development tool.
