@@ -1,6 +1,6 @@
 ---
 title: "MLops into Raspberry Pi 5"
-date: 2024-02-23
+date: 2025-02-23
 draft: false
 description: "A robust implementation of facilities for MLOps development"
 categories: ["Edge Computing", "MLOps"]

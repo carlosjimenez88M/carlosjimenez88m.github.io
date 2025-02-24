@@ -3,24 +3,45 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://carlosdanieljimenez.com/</loc>
-    <lastmod>2024-11-21T00:00:00+00:00</lastmod>
+    <lastmod>2025-02-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://carlosdanieljimenez.com/post/artifacts-designs/</loc>
-    <lastmod>2024-11-21T00:00:00+00:00</lastmod>
+    <loc>https://carlosdanieljimenez.com/categories/</loc>
+    <lastmod>2025-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://carlosdanieljimenez.com/categories/edge-computing/</loc>
+    <lastmod>2025-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://carlosdanieljimenez.com/tags/edge-ai/</loc>
+    <lastmod>2025-02-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://carlosdanieljimenez.com/tags/index/</loc>
+    <lastmod>2025-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://carlosdanieljimenez.com/tags/mlflow/</loc>
+    <lastmod>2025-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://carlosdanieljimenez.com/categories/mlops/</loc>
+    <lastmod>2025-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://carlosdanieljimenez.com/post/mlops_raspberrypi5/</loc>
+    <lastmod>2025-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://carlosdanieljimenez.com/post/</loc>
+    <lastmod>2025-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://carlosdanieljimenez.com/tags/raspberry-pi/</loc>
+    <lastmod>2025-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://carlosdanieljimenez.com/tags/</loc>
+    <lastmod>2025-02-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://carlosdanieljimenez.com/post/artifacts-designs/</loc>
     <lastmod>2024-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://carlosdanieljimenez.com/series/mlops/</loc>
     <lastmod>2024-11-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://carlosdanieljimenez.com/post/</loc>
-    <lastmod>2024-11-21T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://carlosdanieljimenez.com/series/</loc>
-    <lastmod>2024-11-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://carlosdanieljimenez.com/tags/</loc>
     <lastmod>2024-11-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://carlosdanieljimenez.com/about/</loc>
@@ -31,27 +52,6 @@
   </url><url>
     <loc>https://carlosdanieljimenez.com/post/edge-computing/</loc>
     <lastmod>2024-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://carlosdanieljimenez.com/categories/</loc>
-    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://carlosdanieljimenez.com/categories/edge-computing/</loc>
-    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://carlosdanieljimenez.com/tags/edge-ai/</loc>
-    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://carlosdanieljimenez.com/tags/mlflow/</loc>
-    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://carlosdanieljimenez.com/categories/mlops/</loc>
-    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://carlosdanieljimenez.com/post/mlops_raspberrypi5/</loc>
-    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://carlosdanieljimenez.com/tags/raspberry-pi/</loc>
-    <lastmod>2024-02-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://carlosdanieljimenez.com/awards/</loc>
     <lastmod>2022-04-10T00:00:00+00:00</lastmod>
