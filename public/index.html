@@ -11,8 +11,6 @@
   <title>
     
       
-        Categories |
-      
       Carlos Daniel Jiménez
     
   </title>
@@ -47,11 +45,11 @@
   <link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/carlosjimenez88M/carlosjimenez88m.github.io/refs/heads/master/favicons/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/carlosjimenez88M/carlosjimenez88m.github.io/refs/heads/master/favicons/favicon-16x16.png" />
 
-  <link rel="canonical" href="https://carlosdanieljimenez.com/categories/" />
+  <link rel="canonical" href="https://carlosdanieljimenez.com/" />
 
   
   
-    <link rel="alternate" type="application/rss+xml" title="The Probability and the Word" href="/categories/index.xml" />
+    <link rel="alternate" type="application/rss+xml" title="The Probability and the Word" href="/index.xml" />
   
 
   
@@ -64,17 +62,27 @@
   
 
   
-  <meta property="og:url" content="https://carlosdanieljimenez.com/categories/">
+  <meta property="og:url" content="https://carlosdanieljimenez.com/">
   <meta property="og:site_name" content="The Probability and the Word">
-  <meta property="og:title" content="Categories">
-  <meta property="og:description" content="A blog about MLOps">
+  <meta property="og:title" content="The Probability and the Word">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
     <meta property="og:image" content="https://carlosdanieljimenez.com/images/site-feature-image.png">
 
 
   
-  
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "WebSite",
+      "name": "The Probability and the Word",
+      "url": "https:\/\/carlosdanieljimenez.com\/",
+      "description": "A blog about MLOps",
+      "thumbnailUrl": "https:\/\/carlosdanieljimenez.com\/",
+      "license": "2024-2026"
+    }
+  </script>
+
 
 </head>
 <body class="body">
@@ -97,7 +105,9 @@
       />
       
         <div class="sidebar__introduction-title">
-          <a href="/">The Probability and the Word</a>
+          <h1>
+            <a href="/">The Probability and the Word</a>
+          </h1>
         </div>
       
       <div class="sidebar__introduction-description">
@@ -197,6 +207,8 @@
           <li class="nav__list-item">
             
             <a
+              
+                class="nav__link--active"
               
               href="/"
               
@@ -340,47 +352,146 @@
 </div>
 </header>
   <div
-    class="archive 
+    class="post 
       animated fadeInDown
     "
   >
-    
-      <div class="archive__heading">2025</div>
-      
-        <ul class="archive__list">
-          <li class="archive__list-item">
-            
-              <a class="archive__list-title" href="/categories/mlops/" title="MLOps">MLOPS</a>
-            
-            <div class="archive__list-date">
-              
-                
-                  23/2/2025
-                
+    <div class="post__content">
+      <!--
+This file is left intentionally empty by default to be backwards compatible with the initial theme setup.
 
-              
-            </div>
-          </li>
-        </ul>
-      
-        <ul class="archive__list">
-          <li class="archive__list-item">
-            
-              <a class="archive__list-title" href="/categories/edge-computing/" title="Edge Computing">EDGE COMPUTING</a>
-            
-            <div class="archive__list-date">
-              
-                
-                  23/2/2025
-                
+Although the theme has advanced a little bit and it now allows to specify the content on the main page (even if the list of posts/articles is not intended).
+This can be:
+- with the list of posts/articles (default: `mainSections = ["post"]) or
+- without the list of posts/articles (by setting `mainSections = [""]`)
 
-              
-            </div>
-          </li>
-        </ul>
-      
+Markdown supported, ie:
+
+```
+# Welcome
+
+- Hugo :rocket:
+- Hugo theme :rocket:
+
+Don't forget to check the README.md file!
+```
+
+Remember that you can also specify a section header for the posts below by configuring the `mainSectionsTitle` parameter in the front matter of this file.
+-->
+
+    </div>
 
     
+  </div>
+
+  
+
+  
+  
+    <div
+      class="post 
+        animated fadeInDown
+      "
+    >
+      
+      <div class="post__content">
+        <h3><a href="/post/mlops_raspberrypi5/">MLOPS INTO RASPBERRY PI 5</a></h3>
+        
+          <p>One of the tools I use most for practicing <strong>MLOps</strong>, both for designing pipelines and APIs (for inference), is the <strong>Raspberry Pi</strong>. Today, I spent several hours trying to install <strong>Visual Studio Code</strong> to complement my <strong>iPad Pro</strong> as a development tool.</p>
+        
+        </div>
+
+      
+      <div class="post__footer">
+        <em class="fas fa-calendar-day"></em>
+        <span class="post__footer-date"
+          >
+            
+              23/2/2025
+            
+
+          </span
+        >
+        
+          <span><a class="category" href="/categories/edge-computing/">Edge Computing</a><a class="category" href="/categories/mlops/">MLOps</a></span>
+
+
+        
+
+        
+          <span><a class="tag" href="/tags/raspberry-pi/">raspberry-pi</a><a class="tag" href="/tags/mlflow/">mlflow</a><a class="tag" href="/tags/edge-ai/">edge-ai</a></span>
+
+
+        
+      </div>
+    </div>
+  
+    <div
+      class="post 
+        animated fadeInDown
+      "
+    >
+      
+      <div class="post__content">
+        <h3><a href="/post/artifacts-designs/"></a></h3>
+        
+          <p><h2 id="artifact-design-and-pipeline-in-mlops-part-i">Artifact Design and Pipeline in MLOps Part I</h2>
+<p>In MLOps, most of the work focuses on the <strong>inference stage</strong>, specifically the development of microservices. However, the broader picture goes beyond this—it includes aspects ranging from programming practices to resource utilization that need to be evaluated. This is where the role of a <strong>Machine Learning DevOps Engineer</strong> becomes crucial. In this post, I want to address this profile by approaching it from the perspective of designing a model.</p></p>
+        
+        </div>
+
+      
+      <div class="post__footer">
+        <em class="fas fa-calendar-day"></em>
+        <span class="post__footer-date"
+          >
+            
+              21/11/2024
+            
+
+          </span
+        >
+        
+
+        
+      </div>
+    </div>
+  
+    <div
+      class="post 
+        animated fadeInDown
+      "
+    >
+      
+      <div class="post__content">
+        <h3><a href="/post/edge-computing/">EDGE COMPUTING AND EDGE MACHINE LEARNING</a></h3>
+        
+          <p><p><img src="https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/images/WhatsApp%20Image%202024-10-14%20at%2016.46.42.jpeg?raw=true" alt=""></p>
+<h3 id="introduction">Introduction</h3>
+<p>Data scientists often face three possibilities when deploying our products into production: through the cloud, edge computing, or the more recent variant, Edge Machine Learning. To introduce these concepts and provide context for this post, I will start by discussing the foundation—AI Computing.</p></p>
+        
+        </div>
+
+      
+      <div class="post__footer">
+        <em class="fas fa-calendar-day"></em>
+        <span class="post__footer-date"
+          >
+            
+              14/10/2024
+            
+
+          </span
+        >
+        
+
+        
+      </div>
+    </div>
+  
+  <div class="pagination">
+    
+
   </div>
 
       </main>
