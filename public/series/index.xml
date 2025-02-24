@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on The Probability and the Word</title>
-    <link>http://localhost:1313/series/</link>
+    <link>https://carlosdanieljimenez.com/series/</link>
     <description>Recent content in Series on The Probability and the Word</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://carlosdanieljimenez.com/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Edge Computing</title>
-      <link>http://localhost:1313/series/edge-computing/</link>
+      <link>https://carlosdanieljimenez.com/series/edge-computing/</link>
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/series/edge-computing/</guid>
+      <guid>https://carlosdanieljimenez.com/series/edge-computing/</guid>
       
         <description></description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>Edge Machine Learning</title>
-      <link>http://localhost:1313/series/edge-machine-learning/</link>
+      <link>https://carlosdanieljimenez.com/series/edge-machine-learning/</link>
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/series/edge-machine-learning/</guid>
+      <guid>https://carlosdanieljimenez.com/series/edge-machine-learning/</guid>
       
         <description></description>
       
@@ -31,10 +31,10 @@
     
     <item>
       <title>Software Desgin</title>
-      <link>http://localhost:1313/series/software-desgin/</link>
+      <link>https://carlosdanieljimenez.com/series/software-desgin/</link>
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/series/software-desgin/</guid>
+      <guid>https://carlosdanieljimenez.com/series/software-desgin/</guid>
       
         <description></description>
       
@@ -42,10 +42,10 @@
     
     <item>
       <title>Mlops</title>
-      <link>http://localhost:1313/series/mlops/</link>
+      <link>https://carlosdanieljimenez.com/series/mlops/</link>
       <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/series/mlops/</guid>
+      <guid>https://carlosdanieljimenez.com/series/mlops/</guid>
       
         <description></description>
       
