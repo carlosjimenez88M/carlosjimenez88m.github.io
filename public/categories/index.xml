@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on The Probability and the Word</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://carlosdanieljimenez.com/categories/</link>
     <description>Recent content in Categories on The Probability and the Word</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://carlosdanieljimenez.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Edge Computing</title>
-      <link>http://localhost:1313/categories/edge-computing/</link>
+      <link>https://carlosdanieljimenez.com/categories/edge-computing/</link>
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/edge-computing/</guid>
+      <guid>https://carlosdanieljimenez.com/categories/edge-computing/</guid>
       
         <description></description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>MLOps</title>
-      <link>http://localhost:1313/categories/mlops/</link>
+      <link>https://carlosdanieljimenez.com/categories/mlops/</link>
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/mlops/</guid>
+      <guid>https://carlosdanieljimenez.com/categories/mlops/</guid>
       
         <description></description>
       
