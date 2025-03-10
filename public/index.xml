@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Probability and the Word</title>
-    <link>http://localhost:1313/</link>
+    <link>https://carlosdanieljimenez.com/</link>
     <description>Recent content on The Probability and the Word</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://carlosdanieljimenez.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Raspberry Pi 16GB, Servers, and MLOps</title>
-      <link>http://localhost:1313/post/mlops-servers-raspberry/</link>
+      <link>https://carlosdanieljimenez.com/post/mlops-servers-raspberry/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/mlops-servers-raspberry/</guid>
+      <guid>https://carlosdanieljimenez.com/post/mlops-servers-raspberry/</guid>
       
         <description>Raspberry Pi 5 (16 Gbs) like a Server</description>
       
@@ -20,10 +20,10 @@
     
     <item>
       <title>MLops into Raspberry Pi 5</title>
-      <link>http://localhost:1313/post/mlops_raspberrypi5/</link>
+      <link>https://carlosdanieljimenez.com/post/mlops_raspberrypi5/</link>
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/mlops_raspberrypi5/</guid>
+      <guid>https://carlosdanieljimenez.com/post/mlops_raspberrypi5/</guid>
       
         <description>A robust implementation of facilities for MLOps development</description>
       
@@ -31,10 +31,10 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/post/artifacts-designs/</link>
+      <link>https://carlosdanieljimenez.com/post/artifacts-designs/</link>
       <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/artifacts-designs/</guid>
+      <guid>https://carlosdanieljimenez.com/post/artifacts-designs/</guid>
       
         <description>Introduction to Artifacts designs</description>
       
@@ -42,10 +42,10 @@
     
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://carlosdanieljimenez.com/about/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://carlosdanieljimenez.com/about/</guid>
       
         <description>Hugo, the world&#39;s fastest framework for building websites</description>
       
@@ -53,10 +53,10 @@
     
     <item>
       <title>Edge Computing and Edge Machine Learning</title>
-      <link>http://localhost:1313/post/edge-computing/</link>
+      <link>https://carlosdanieljimenez.com/post/edge-computing/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/edge-computing/</guid>
+      <guid>https://carlosdanieljimenez.com/post/edge-computing/</guid>
       
         <description>A Brief Introduction to AI/Edge Computing</description>
       
@@ -64,10 +64,10 @@
     
     <item>
       <title>Awards</title>
-      <link>http://localhost:1313/awards/</link>
+      <link>https://carlosdanieljimenez.com/awards/</link>
       <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/awards/</guid>
+      <guid>https://carlosdanieljimenez.com/awards/</guid>
       
         <description>Hugo Awards, an annual literary award for the best science fiction or fantasy works</description>
       
@@ -75,10 +75,10 @@
     
     <item>
       <title>Certifications</title>
-      <link>http://localhost:1313/certifications/</link>
+      <link>https://carlosdanieljimenez.com/certifications/</link>
       <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/certifications/</guid>
+      <guid>https://carlosdanieljimenez.com/certifications/</guid>
       
         <description>Hugo Certifications</description>
       
@@ -86,10 +86,10 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/archives/</link>
+      <link>https://carlosdanieljimenez.com/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/archives/</guid>
+      <guid>https://carlosdanieljimenez.com/archives/</guid>
       
         <description></description>
       
@@ -97,10 +97,10 @@
     
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>https://carlosdanieljimenez.com/contact/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>https://carlosdanieljimenez.com/contact/</guid>
       
         <description>Contact Page</description>
       
@@ -108,10 +108,10 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/imprint/</link>
+      <link>https://carlosdanieljimenez.com/imprint/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/imprint/</guid>
+      <guid>https://carlosdanieljimenez.com/imprint/</guid>
       
         <description>&lt;h1 id=&#34;legal-disclosure&#34;&gt;Legal Disclosure&lt;/h1&gt;
 &lt;p&gt;Information in accordance with the applicable law&lt;/p&gt;
