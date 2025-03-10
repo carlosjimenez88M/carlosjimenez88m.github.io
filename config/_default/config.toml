@@ -54,3 +54,4 @@ localizedDates = false
 
 [params]
   numberOfPostsOnHomePage = 10
+  mainSections = ["post"]
