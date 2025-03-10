@@ -1,0 +1,672 @@
+<!doctype html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme=""
+  
+    class="html theme--light"
+  
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <title>
+    
+      
+        MLops into Raspberry Pi 5 |
+      
+      Carlos Daniel Jiménez
+    
+  </title>
+
+  <meta name="generator" content="Hugo 0.144.2"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="author" content="Carlos Daniel Jiménez" />
+  <meta name="description" content="A robust implementation of facilities for MLOps development" />
+
+  
+  
+
+  
+  
+    
+    
+    <link rel="stylesheet" href="/scss/anatole.min.8d4fad7e6916ad2e291e8d97ada157c70350d6d7150fea137e7243340967befb.css" integrity="sha256-jU&#43;tfmkWrS4pHo2XraFXxwNQ1tcVD&#43;oTfnJDNAlnvvs=" crossorigin="anonymous" type="text/css" />
+  
+
+  
+  <link rel="stylesheet" href="/css/markupHighlight.min.73ccfdf28df555e11009c13c20ced067af3cb021504cba43644c705930428b00.css" integrity="sha256-c8z98o31VeEQCcE8IM7QZ688sCFQTLpDZExwWTBCiwA=" crossorigin="anonymous" />
+
+  
+
+  
+  
+  <link rel="stylesheet" href="/fontawesome/css/fontawesome.min.137b1cf3cea9a8adb7884343a9a5ddddf4280f59153f74dc782fb7f7bf0d0519.css" integrity="sha256-E3sc886pqK23iENDqaXd3fQoD1kVP3TceC&#43;3978NBRk=" crossorigin="anonymous" />
+  
+  
+  <link rel="stylesheet" href="/fontawesome/css/solid.min.e65dc5b48fb5f39b142360c57c3a215744c94e56c755c929cc3e88fe12aab4d3.css" integrity="sha256-5l3FtI&#43;185sUI2DFfDohV0TJTlbHVckpzD6I/hKqtNM=" crossorigin="anonymous" />
+
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="https://raw.githubusercontent.com/carlosjimenez88M/carlosjimenez88m.github.io/refs/heads/master/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="https://raw.githubusercontent.com/carlosjimenez88M/carlosjimenez88m.github.io/refs/heads/master/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="http://localhost:1313/post/mlops_raspberrypi5/" />
+
+  
+  
+
+  
+  
+  <script src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js" integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI=" crossorigin="anonymous"></script>
+
+  
+    
+    <script src="/js/anatole-theme-switcher.min.d6d329d93844b162e8bed1e915619625ca91687952177552b9b3e211014a2957.js" integrity="sha256-1tMp2ThEsWLovtHpFWGWJcqRaHlSF3VSubPiEQFKKVc=" crossorigin="anonymous"></script>
+  
+
+  
+  <meta property="og:url" content="http://localhost:1313/post/mlops_raspberrypi5/">
+  <meta property="og:site_name" content="The Probability and the Word">
+  <meta property="og:title" content="MLops into Raspberry Pi 5">
+  <meta property="og:description" content="A robust implementation of facilities for MLOps development">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2025-02-23T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-02-23T00:00:00+00:00">
+    <meta property="article:tag" content="Raspberry-Pi">
+    <meta property="article:tag" content="Mlflow">
+    <meta property="article:tag" content="Edge-Ai">
+    <meta property="og:image" content="http://localhost:1313/images/site-feature-image.png">
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "post",
+        "name": "MLops into Raspberry Pi 5",
+        "headline": "MLops into Raspberry Pi 5",
+        "alternativeHeadline": "",
+        "description": "
+      A robust implementation of facilities for MLOps development
+
+
+    ",
+        "inLanguage": "en",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/post\/mlops_raspberrypi5\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Carlos Daniel Jiménez"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Carlos Daniel Jiménez"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Carlos Daniel Jiménez"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Carlos Daniel Jiménez"
+        },
+        "copyrightYear" : "2025",
+        "dateCreated": "2025-02-23T00:00:00.00Z",
+        "datePublished": "2025-02-23T00:00:00.00Z",
+        "dateModified": "2025-02-23T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Carlos Daniel Jiménez",
+            "url": "http://localhost:1313/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/raw.githubusercontent.com\/carlosjimenez88M\/carlosjimenez88m.github.io\/refs\/heads\/master\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+        
+        "http://localhost:1313/images/site-feature-image.png"
+
+
+      
+      ]
+
+    ,
+        "url" : "http:\/\/localhost:1313\/post\/mlops_raspberrypi5\/",
+        "wordCount" : "768",
+        "genre" : [ 
+      
+      "Edge Computing"
+
+    
+      
+        ,
+
+      
+      "MLOps"
+
+    ],
+        "keywords" : [ 
+      
+      "raspberry-pi"
+
+    
+      
+        ,
+
+      
+      "mlflow"
+
+    
+      
+        ,
+
+      
+      "edge-ai"
+
+    ]
+    }
+  </script>
+
+
+</head>
+<body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    animated fadeInDown
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      <img
+        class="sidebar__introduction-profileimage"
+        src="https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/images/profile3.jpeg?raw=true"
+        alt="profile picture"
+      />
+      
+        <div class="sidebar__introduction-title">
+          <a href="/">The Probability and the Word</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>A blog about MLOps</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://www.linkedin.com/in/djimenezm/"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Linkedin"
+            title="Linkedin"
+          >
+            <i class="fa-brands fa-linkedin fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://github.com/carlosjimenez88M"
+            target="_blank"
+            rel="noopener me"
+            aria-label="GitHub"
+            title="GitHub"
+          >
+            <i class="fa-brands fa-github fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="mailto:danieljimenez88m@gmail.com"
+            target="_blank"
+            rel="noopener me"
+            aria-label="e-mail"
+            title="e-mail"
+          >
+            <i class="fa-solid fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        2024-2026
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    animated fadeInDown
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/"
+              
+              title=""
+              >Home</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/post/"
+              
+              title=""
+              >Posts</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="https://www.databotics.ai/"
+              
+                target="_blank" rel="noopener noreferrer"
+              
+              title=""
+              >Portfolio</a
+            >
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/about/"
+              
+              title=""
+              >About</a
+            >
+          </li>
+        
+
+      
+        
+        
+
+          <li class="nav__list-item">
+            <div class="optionswitch">
+              <input class="optionswitch__picker" type="checkbox" id="4" hidden />
+
+              
+              
+                
+
+              
+                
+
+              
+
+
+              <label class="optionswitch__label" for="4"
+                >Conferences and Courses <i class="fa fa-angle-down" aria-hidden="true"></i
+              ></label>
+
+              <div class="optionswitch__triangle"></div>
+              <ul class="optionswitch__list">
+                
+                  <li class="optionswitch__list-item">
+                    
+                    <a
+                      href="https://github.com/carlosjimenez88M/talks"
+                      
+                        target="_blank" rel="noopener noreferrer"
+                      
+                      title=""
+                      >Conferences</a
+                    >
+                  </li>
+                
+                  <li class="optionswitch__list-item">
+                    
+                    <a
+                      href="https://github.com/carlosjimenez88M/Courses"
+                      
+                        target="_blank" rel="noopener noreferrer"
+                      
+                      title=""
+                      >Courses</a
+                    >
+                  </li>
+                
+              </ul>
+            </div>
+          </li>
+        
+
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/contact/"
+              
+              title=""
+              >Contact</a
+            >
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      animated fadeInDown
+    "
+  >
+    
+    <div class="post__content">
+      
+        <h1>MLops Into Raspberry Pi 5</h1>
+      
+      
+        <ul class="post__meta">
+          <li class="post__meta-item">
+            <em class="fas fa-calendar-day post__meta-icon"></em>
+            <span class="post__meta-text"
+              >
+                
+                  23/2/2025
+                
+
+              
+            </span>
+          </li>
+          <li class="post__meta-item">
+            <em class="fas fa-stopwatch post__meta-icon"></em>
+            <span class="post__meta-text">4-minute read</span>
+          </li>
+        </ul>
+      <p>One of the tools I use most for practicing <strong>MLOps</strong>, both for designing pipelines and APIs (for inference), is the <strong>Raspberry Pi</strong>. Today, I spent several hours trying to install <strong>Visual Studio Code</strong> to complement my <strong>iPad Pro</strong> as a development tool.</p>
+<h2 id="why-this-setup-"><strong>Why this setup?</strong> 🤔</h2>
+<ul>
+<li>Improve programming skills—I am a big fan of using <strong>Weights &amp; Biases (W&amp;B)</strong> to monitor the resource usage of each service I create.</li>
+<li>Using the <strong>Raspberry Pi as a server</strong> allows me to test <strong>Edge computing</strong> deployments.</li>
+<li>For <strong>scalable prototype development</strong>, it’s a great way to test artifacts and the <strong>lifecycle of models</strong>.</li>
+<li>When designing a model from <strong>hyperparameters</strong>, it helps me fine-tune <strong>grid search</strong> or <strong>Bayesian methods</strong> efficiently to optimize experimentation.</li>
+<li>Running <strong>MLflow on Edge computing</strong> enables <strong>optimization</strong> in model registry and updates.</li>
+<li><strong>Using Docker and Kubernetes</strong> helps ensure <strong>clean code</strong> before committing changes.</li>
+</ul>
+<p>There are many more reasons, but these are the main ones. Now, how do you set up <strong>Raspberry Pi</strong> to unlock its full power for MLOps?</p>
+<hr>
+<h2 id="-setting-up-raspberry-pi-for-mlops"><strong>🔧 Setting Up Raspberry Pi for MLOps</strong></h2>
+<p>First, install the <strong>Raspberry Pi OS</strong>. There are many tutorials, but I prefer the <strong>official documentation</strong>:</p>
+<p>🔗 <a href="https://www.raspberrypi.com/software/">Raspberry Pi OS Installation</a></p>
+<p>Next, <strong>find the Raspberry Pi’s IP address</strong> to connect to it from the iPad or another computer:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hostname -I
+</span></span></code></pre></div><p>This will return something like <code>192.168.1.100 2601:123456</code>. You can then connect via SSH:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh pi@192.168.1.100
+</span></span></code></pre></div><p>After entering the password (set during installation), <strong>welcome to your new server</strong>! 🎉</p>
+<hr>
+<h2 id="1-installing-conda-on-raspberry-pi"><strong>1️⃣ Installing Conda on Raspberry Pi</strong></h2>
+<p>By default, <strong>Python</strong> comes pre-installed. Now, install <strong>Conda</strong> using:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-aarch64.sh
+</span></span><span class="line"><span class="cl">bash Miniforge3-Linux-aarch64.sh
+</span></span></code></pre></div><hr>
+<h2 id="2-installing-mlflow"><strong>2️⃣ Installing MLflow</strong></h2>
+<p>Once Conda is installed, install <strong>MLflow</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pip install mlflow
+</span></span></code></pre></div><hr>
+<h2 id="3-installing-docker"><strong>3️⃣ Installing Docker</strong></h2>
+<p>To set up <strong>Docker</strong>, use:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt update <span class="o">&amp;&amp;</span> sudo apt upgrade -y
+</span></span><span class="line"><span class="cl">sudo apt install -y docker.io
+</span></span></code></pre></div><p>For <strong>advanced edge computing</strong>, you can explore <strong>DockerPi</strong>:
+🔗 <a href="https://github.com/lukechilds/dockerpi">DockerPi</a></p>
+<hr>
+<h2 id="4-installing-tmux-and-neovim"><strong>4️⃣ Installing Tmux and Neovim</strong></h2>
+<p>To improve terminal workflow and coding experience, install <strong>Tmux</strong> and <strong>Neovim</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt update <span class="o">&amp;&amp;</span> sudo apt install -y tmux
+</span></span></code></pre></div><p>For <strong>Neovim</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt update
+</span></span><span class="line"><span class="cl">sudo apt install -y neovim python3-neovim
+</span></span></code></pre></div><h3 id="-neovim-configuration-for-python-development"><strong>🔹 Neovim Configuration for Python Development</strong></h3>
+<p>To configure <strong>Neovim</strong> for a better coding experience:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir -p ~/.config/nvim
+</span></span><span class="line"><span class="cl">nano ~/.config/nvim/init.vim
+</span></span></code></pre></div><p>Paste the following <strong>Neovim config</strong> for <strong>line numbers, syntax highlighting, and autocompletion</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-vim" data-lang="vim"><span class="line"><span class="cl"><span class="c">&#34; --- General Settings ---</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">number</span>            <span class="c">&#34; Show line numbers</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">mouse</span><span class="p">=</span><span class="nx">a</span>           <span class="c">&#34; Enable mouse support</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">cursorline</span>        <span class="c">&#34; Highlight the current line</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">expandtab</span>         <span class="c">&#34; Use spaces instead of tabs</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">shiftwidth</span><span class="p">=</span><span class="m">4</span>      <span class="c">&#34; Indentation size</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">tabstop</span><span class="p">=</span><span class="m">4</span>         <span class="c">&#34; Tab size</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">autoindent</span>        <span class="c">&#34; Maintain indentation</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">smartindent</span>       <span class="c">&#34; Smart indentation</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">background</span><span class="p">=</span><span class="nb">dark</span>   <span class="c">&#34; Dark theme</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">termguicolors</span>     <span class="c">&#34; Enable true colors</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">encoding</span><span class="p">=</span><span class="nx">utf</span><span class="m">-8</span>    <span class="c">&#34; UTF-8 support</span>
+</span></span><span class="line"><span class="cl"><span class="k">syntax</span> <span class="nx">on</span>             <span class="c">&#34; Enable syntax highlighting</span>
+</span></span><span class="line"><span class="cl"><span class="k">filetype</span> <span class="nx">plugin</span> <span class="nx">indent</span> <span class="nx">on</span> <span class="c">&#34; Enable plugins and indentation</span>
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">&#34; --- Plugins ---</span>
+</span></span><span class="line"><span class="cl"><span class="nx">call</span> <span class="nx">plug</span>#<span class="nx">begin</span><span class="p">(</span><span class="s1">&#39;~/.vim/plugged&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">&#34; File explorer</span>
+</span></span><span class="line"><span class="cl"><span class="nx">Plug</span> <span class="s1">&#39;preservim/nerdtree&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">&#34; Autocompletion</span>
+</span></span><span class="line"><span class="cl"><span class="nx">Plug</span> <span class="s1">&#39;neoclide/coc.nvim&#39;</span><span class="p">,</span> {<span class="s1">&#39;branch&#39;</span>: <span class="s1">&#39;release&#39;</span>}
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">&#34; Language server support</span>
+</span></span><span class="line"><span class="cl"><span class="nx">Plug</span> <span class="s1">&#39;neovim/nvim-lspconfig&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">&#34; Improved syntax highlighting</span>
+</span></span><span class="line"><span class="cl"><span class="nx">Plug</span> <span class="s1">&#39;nvim-treesitter/nvim-treesitter&#39;</span><span class="p">,</span> {<span class="s1">&#39;do&#39;</span>: <span class="s1">&#39;:TSUpdate&#39;</span>}
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">&#34; Status bar</span>
+</span></span><span class="line"><span class="cl"><span class="nx">Plug</span> <span class="s1">&#39;vim-airline/vim-airline&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">call</span> <span class="nx">plug</span>#<span class="nx">end</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">&#34; --- Keybindings ---</span>
+</span></span><span class="line"><span class="cl"><span class="nx">nnoremap</span> <span class="p">&lt;</span><span class="nx">C</span><span class="p">-</span><span class="nx">n</span><span class="p">&gt;</span> :<span class="nx">NERDTreeToggle</span><span class="p">&lt;</span><span class="nx">CR</span><span class="p">&gt;</span> <span class="c">&#34; Open/close file explorer</span>
+</span></span><span class="line"><span class="cl"><span class="nx">nnoremap</span> <span class="p">&lt;</span><span class="nx">C</span><span class="p">-</span><span class="nx">p</span><span class="p">&gt;</span> :<span class="nx">Files</span><span class="p">&lt;</span><span class="nx">CR</span><span class="p">&gt;</span> <span class="c">&#34; Quick file search</span>
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">&#34; --- coc.nvim Configuration ---</span>
+</span></span><span class="line"><span class="cl"><span class="k">let</span> <span class="nx">g</span>:<span class="nx">coc_global_extensions</span> <span class="p">=</span> [<span class="s1">&#39;coc-python&#39;</span><span class="p">,</span> <span class="s1">&#39;coc-json&#39;</span><span class="p">,</span> <span class="s1">&#39;coc-html&#39;</span><span class="p">,</span> <span class="s1">&#39;coc-tsserver&#39;</span>]
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">&#34; Auto-format Python code on save</span>
+</span></span><span class="line"><span class="cl"><span class="k">autocmd</span> <span class="nx">BufWritePre</span> *.<span class="nx">py</span> :<span class="nx">Black</span>
+</span></span></code></pre></div><hr>
+<h2 id="5-installing-and-configuring-vs-code-"><strong>5️⃣ Installing and Configuring VS Code (<code>code-server</code>)</strong></h2>
+<h3 id="-installing"><strong>🚀 Installing <code>code-server</code></strong></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -fsSL https://code-server.dev/install.sh <span class="p">|</span> sh
+</span></span></code></pre></div><h3 id="-enabling"><strong>🚀 Enabling <code>code-server</code></strong></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl <span class="nb">enable</span> --now code-server@<span class="nv">$USER</span>
+</span></span></code></pre></div><p>If the service is masked:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl unmask code-server@<span class="nv">$USER</span>
+</span></span><span class="line"><span class="cl">sudo systemctl restart code-server@<span class="nv">$USER</span>
+</span></span></code></pre></div><h3 id="-checking"><strong>🚀 Checking <code>code-server</code> status</strong></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl status code-server@<span class="nv">$USER</span>
+</span></span></code></pre></div><p>If <strong>active (running)</strong> appears, <code>code-server</code> is working.</p>
+<hr>
+<h2 id="6-configuring"><strong>6️⃣ Configuring <code>code-server</code> for iPad Access</strong></h2>
+<p>Edit the config file:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nano ~/.config/code-server/config.yaml
+</span></span></code></pre></div><p>Set the following configuration:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">bind-addr</span><span class="p">:</span><span class="w"> </span><span class="m">0.0.0.0</span><span class="p">:</span><span class="m">8080</span><span class="w">  </span><span class="c"># Change port if needed</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">auth</span><span class="p">:</span><span class="w"> </span><span class="l">none              </span><span class="w"> </span><span class="c"># Disable authentication (or use password)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">cert</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">              </span><span class="c"># No HTTPS</span><span class="w">
+</span></span></span></code></pre></div><p>Save (<code>Ctrl + X</code>, <code>Y</code>, <code>Enter</code>), then restart:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl restart code-server@<span class="nv">$USER</span>
+</span></span></code></pre></div><p>Check the correct port:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo netstat -tulpn <span class="p">|</span> grep LISTEN
+</span></span></code></pre></div><hr>
+<h2 id="7-accessing-vs-code-from-the-ipad"><strong>7️⃣ Accessing VS Code from the iPad</strong></h2>
+<p>Open <strong>Safari or Chrome</strong> on the iPad and enter:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">http://&lt;RASPBERRY_PI_IP&gt;:8080
+</span></span></code></pre></div><p>For example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">http://192.179.1.100:8080
+</span></span></code></pre></div><p>To find your Raspberry Pi’s IP:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hostname -I
+</span></span></code></pre></div><p>✅ If everything is correct, <strong>VS Code (<code>code-server</code>) will open in the browser</strong>.</p>
+<hr>
+<h2 id="8-troubleshooting"><strong>8️⃣ Troubleshooting</strong></h2>
+<h3 id="-if"><strong>🔹 If <code>code-server</code> doesn’t load</strong></h3>
+<ol>
+<li>Check if <code>code-server</code> is running:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl status code-server@<span class="nv">$USER</span>
+</span></span></code></pre></div></li>
+<li>Try accessing from Raspberry Pi itself:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -v http://127.0.0.1:8080
+</span></span></code></pre></div></li>
+<li>Ensure Raspberry Pi and iPad are on the <strong>same network</strong>.</li>
+</ol>
+<h3 id="-if-the-port-is-occupied-"><strong>🔹 If the port is occupied (<code>EADDRINUSE</code>)</strong></h3>
+<ol>
+<li>Kill previous processes:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pkill -f code-server
+</span></span></code></pre></div></li>
+<li>Restart <code>code-server</code>:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl restart code-server@<span class="nv">$USER</span>
+</span></span></code></pre></div></li>
+<li>Verify the port:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo netstat -tulpn <span class="p">|</span> grep LISTEN
+</span></span></code></pre></div></li>
+</ol>
+<hr>
+<p>With this setup, your <strong>Raspberry Pi 5</strong> becomes a <strong>powerful MLOps workstation</strong>. 🚀🔥<br>
+Let me know in the comments if you have questions!</p>
+</div>
+    <div class="post__footer">
+      
+        <span><a class="category" href="/categories/edge-computing/">Edge Computing</a><a class="category" href="/categories/mlops/">MLOps</a></span>
+
+
+      
+
+      
+        <span><a class="tag" href="/tags/raspberry-pi/">raspberry-pi</a><a class="tag" href="/tags/mlflow/">mlflow</a><a class="tag" href="/tags/edge-ai/">edge-ai</a></span>
+
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        2024-2026
+      
+    </li>
+    
+      <li class="footer__item">
+        <a
+          class="link"
+          href="/imprint/"
+          
+          title=""
+        >
+          imprint
+        </a>
+      </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></body>
+</html>
