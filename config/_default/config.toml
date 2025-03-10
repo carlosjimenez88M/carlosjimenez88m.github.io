@@ -50,3 +50,7 @@ localizedDates = false
 # Google Analytics
   [services.googleAnalytics]
     #ID = 'G-MEASUREMENT_ID'
+
+
+[params]
+  numberOfPostsOnHomePage = 10

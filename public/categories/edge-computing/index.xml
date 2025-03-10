@@ -6,18 +6,7 @@
     <description>Recent content in Edge Computing on The Probability and the Word</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/edge-computing/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Raspberry Pi 16GB, Servers, and MLOps</title>
-      <link>http://localhost:1313/post/mlops-servers-raspberry/</link>
-      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/post/mlops-servers-raspberry/</guid>
-      
-        <description>Raspberry Pi 5 (16 Gbs) like a Server</description>
-      
-    </item>
-    
+    <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/edge-computing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MLops into Raspberry Pi 5</title>
       <link>http://localhost:1313/post/mlops_raspberrypi5/</link>

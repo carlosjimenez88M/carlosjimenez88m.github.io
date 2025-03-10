@@ -3,7 +3,7 @@ title: "Raspberry Pi 16GB, Servers, and MLOps"
 date: 2025-03-10
 draft: false
 description: "Raspberry Pi 5 (16 Gbs) like a Server"
-categories: ["Edge Computing", "MLOps"]
+categories: ["Blog"]
 tags: ["raspberry-pi", "mlflow", "edge-ai", "Llms"]
 ---
 
