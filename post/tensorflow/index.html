@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="The Probability and the Word">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="https://carlosdanieljimenez.com//img/template.jpeg">
+    <meta property="twitter:image" content="https://carlosdanieljimenez.com//img/template.jpeg" />
+    
+
+    
+    <meta name="title" content="The Decline of a Framework" />
+    <meta property="og:title" content="The Decline of a Framework" />
+    <meta property="twitter:title" content="The Decline of a Framework" />
+    
+
+    
+    <meta name="description" content="Reflections on TensorFlow in the context of the modern AI engine and the evolving role of Data Scientists">
+    <meta property="og:description" content="Reflections on TensorFlow in the context of the modern AI engine and the evolving role of Data Scientists" />
+    <meta property="twitter:description" content="Reflections on TensorFlow in the context of the modern AI engine and the evolving role of Data Scientists" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>The Decline of a Framework | A blog about MLOps, LLMs and Apis</title>
+
+    <link rel="canonical" href="/post/tensorflow/">
+
+    
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
+
+    
+    
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    <script src="/js/lazysizes.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">The Probability and the Word</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">All Posts</a>
+                    </li>
+                    
+                        
+                        <li>
+                            <a href="/categories/blog/">blog</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/deep-learning/">deep learning</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/edge-computing/">edge computing</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/categories/mlops/">mlops</a>
+                        </li>
+                        
+                    
+                    
+		    
+                        <li><a href="/archive//">ARCHIVE</a></li>
+                    
+                        <li><a href="/notes//">NOTES</a></li>
+                    
+                        <li><a href="/about//">ABOUT</a></li>
+                    
+		            <li>
+                        <a href="/search"><i class="fa fa-search"></i></a>
+		           </li>
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+<header class="intro-header" style="background-image: url('/img/template.jpeg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading">
+                    <h1>The Probability and the Word </h1>
+                    
+		    <span class="subheading"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+<article>
+    <div class="container">
+        <div class="row">
+            
+            <div class="
+            col-lg-8 col-lg-offset-1
+            col-md-8 col-md-offset-1
+            col-sm-12
+            col-xs-12
+            post-container">
+            
+                <h3 id="reflections-on-tensorflow-in-the-context-of-the-modern-ai-engine-and-the-evolving-role-of-data-scientists">Reflections on TensorFlow in the context of the modern AI engine and the evolving role of Data Scientists</h3>
+<p>Throughout my journey in the world of data, I’ve witnessed many changes — some tools fading out of popularity while others take the spotlight. R, for example, has become more niche, used mostly by statisticians and academics. Flask, once a common choice for lightweight APIs, gradually gave way to FastAPI thanks to its modularity and support for asynchronous features, redefining how APIs are designed and deployed.</p>
+<p>While these shifts are worth noting, today’s post focuses on TensorFlow, not just as a framework, but as a case study of how the need for rapid experimentation and testing environments is reshaping the AI landscape. Ultimately, it’s a reflection on innovation and the importance of tools that are close to deployment, yet don’t require massive compute power to start building.</p>
+<h3 id="the-book-that-started-it-all">The Book That Started It All</h3>
+<p>One book that significantly influenced my career as a data scientist is Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow by Aurélien Géron. In fact, I own all three editions, and I frequently revisit them both for my work as an MLOps engineer—when optimizing models—and in my role as an educator.</p>
+<p>Thanks to this book, I was able to internalize critical concepts such as:</p>
+<ul>
+<li>
+<p>How do you know when a model has reached its performance ceiling?</p>
+</li>
+<li>
+<p>How do you update a model when the data distribution shifts?</p>
+</li>
+</ul>
+<p>This foundational knowledge led me into the world of Deep Learning, which continues to dominate the market today, especially with the rise of LLMs.</p>
+<h3 id="tensorflow-a-defining-path">TensorFlow: A Defining Path</h3>
+<p>That book also introduced me to TensorFlow, a robust and well-documented framework backed by Google. It proved invaluable in my early Edge Machine Learning projects—an area I remain passionate about.</p>
+<p>But not everything was smooth. TensorFlow 1.x had several major drawbacks: static graphs made debugging difficult, the syntax lacked the clarity of idiomatic Python, and the learning curve was steep. While TensorFlow 2.x addressed many of these issues, it didn’t offer seamless migration for TF1 projects, creating additional friction within the community.</p>
+<p>Its technical complexity and tightly coupled architecture ultimately hindered broader adoption, especially in a Python-dominated developer ecosystem.</p>
+<h3 id="the-rise-of-pytorch">The Rise of PyTorch</h3>
+<p>A turning point came in May 2021, when PyTorch overtook TensorFlow in search volume. Several factors contributed to this shift:</p>
+<ol>
+<li>
+<p>NLP and LLMs: Most models on Hugging Face were built with PyTorch.</p>
+</li>
+<li>
+<p>Academic Research: Over 95% of models on Papers with Code used PyTorch, compared to only 5% with TensorFlow.</p>
+</li>
+<li>
+<p>Startups and Innovation: PyTorch’s dynamic graph execution, fully Pythonic design, and ease of debugging made it the go-to choice for rapid prototyping. It became the standard in agile environments, giving rise to the famous quote: &ldquo;We went from experimenting in weeks to days.&rdquo;</p>
+</li>
+</ol>
+<h3 id="2022-the-tipping-point">2022: The Tipping Point</h3>
+<p>By 2022, PyTorch had clearly become the dominant framework. According to Hugging Face:</p>
+<ul>
+<li>
+<p>92% of models were trained using PyTorch.</p>
+</li>
+<li>
+<p>Only 14% supported TensorFlow.</p>
+</li>
+</ul>
+<p>Companies like OpenAI had already migrated completely to PyTorch by 2020, with many others following suit. Even in fields like Computer Vision, PyTorch established itself as the framework of choice (a topic for another post).</p>
+<h3 id="googles-shift-toward-jax">Google’s Shift Toward JAX</h3>
+<p>In parallel, Google began focusing its efforts on JAX/Flax, a framework geared more toward research. While JAX has not yet achieved mainstream adoption or stood out in model competitions, its emergence marked a strategic pivot—Google began moving away from TensorFlow as its default deep learning platform.</p>
+<p>A telling sign: the official TensorFlow YouTube channel significantly reduced its publishing frequency, and newer Google research releases were already being built with JAX.</p>
+<h3 id="keras-new-role-beyond-tensorflow">Keras’ New Role: Beyond TensorFlow</h3>
+<p>One final point worth noting is the evolution of Keras. With version 3, it’s no longer exclusive to TensorFlow. It is now multi-backend, supporting PyTorch, JAX, and of course, TensorFlow. This change allows tools like Keras Tuner to be used across different frameworks, promoting more flexible, framework-agnostic development workflows.</p>
+<h3 id="why-tensorflow-lost-ground-my-perspective">Why TensorFlow Lost Ground (My Perspective)</h3>
+<p>Taken together, these shifts led to TensorFlow’s gradual decline in both research and production. Despite Google’s powerful TPU infrastructure—which works well with TensorFlow—the broader market and research community moved in a different direction.</p>
+<p>To me, the breaking point wasn’t just the lack of backward compatibility or internal complexity—it was the lack of Pythonic elegance. In a field dominated by Python developers, this became a critical flaw.</p>
+<p>The battle may have been lost—not because TensorFlow lacked potential, but because the needs of the ecosystem evolved faster than the framework itself.</p>
+<h3 id="final-thoughts">Final Thoughts</h3>
+<ul>
+<li>
+<p>Deep Learning reached a stage where graph flexibility and computational efficiency became decisive factors in framework adoption.</p>
+</li>
+<li>
+<p>As in all things, technological Darwinism prevailed—driven by LLMs, agentic systems, and RAG-based architectures, experimentation speed and model development agility became more valuable than raw power.</p>
+</li>
+<li>
+<p>Startups and the industry as a whole paved the path toward innovation, and while TensorFlow fought many worthy battles, its future might lie in niche areas like domotics and Edge AI.</p>
+</li>
+<li>
+<p>The key takeaway is this: in machine learning, development speed and team-wide standardization outweigh personal preferences. I may personally enjoy working with TensorFlow, but in production environments, that choice could come at a cost if it’s not aligned with the team&rsquo;s common stack.</p>
+</li>
+</ul>
+<p>That’s all for this entry—
+I hope you enjoyed these reflections!</p>
+
+            
+             
+            
+
+
+
+
+            
+            </div>
+            
+            
+
+<div class="
+    col-lg-3 col-lg-offset-0
+    col-md-3 col-md-offset-0
+    col-sm-12
+    col-xs-12
+    sidebar-container
+">
+    
+	
+    <section class="visible-md visible-lg">
+	
+        <div class="short-about">
+            
+            <a href="/about">
+               <img src="/img/profile.jpeg" alt="avatar" style="cursor: pointer" />
+            </a>
+            
+            
+                <p>ML Devops Engineer Advocated 🥑, Open Source Enthusiast and Father</p>
+            
+           
+           <ul class="list-inline">
+               
+               <li>
+                   <a href="mailto:danieljimenez88m@gmail.com">
+                      <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                      </span>
+                   </a>
+               </li>
+               
+               
+               <li>
+                   <a href="https://x.com/DanielJimenezM9">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               
+               
+               
+               
+               <li>
+                   <a target="_blank" href="https://github.com/carlosjimenez88M">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               
+               
+               <li>
+                   <a target="_blank" href="https://github.com/carlosjimenez88M">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               
+            
+            
+               
+               
+               
+               
+                </ul>
+            </div>
+    </section>
+	
+    
+    
+    
+    
+    <section>
+        <hr class="hidden-sm hidden-xs">
+        <h5>FEATURED TAGS</h5>
+        <div class="tags">
+            
+            
+               
+                    <a href="/tags/edge-ai" title="edge-ai">
+                        edge-ai
+                    </a>
+               
+            
+               
+            
+               
+                    <a href="/tags/mlflow" title="mlflow">
+                        mlflow
+                    </a>
+               
+            
+               
+                    <a href="/tags/raspberry-pi" title="raspberry-pi">
+                        raspberry-pi
+                    </a>
+               
+            
+               
+            
+        </div>
+    </section>
+    
+
+    
+    
+    
+</div>
+
+        </div>
+    </div>
+</article>
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    <li>
+                        <a href="mailto:danieljimenez88m@gmail.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
+                    
+                    <li>
+                        <a href="https://x.com/DanielJimenezM9">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+
+		            
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/carlosjimenez88M">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		            
+                    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/carlosjimenez88M">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
+                    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+           
+                   <li>
+                       <a href='' rel="alternate" type="application/rss+xml" title="The Probability and the Word" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fas fa-circle fa-stack-2x"></i>
+                               <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+            
+             </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; The Probability and the Word 2025
+                    
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow" title="' + t + '">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>
