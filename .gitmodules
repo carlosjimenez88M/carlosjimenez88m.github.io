@@ -1,4 +1,4 @@
-[submodule "themes/anatole"]
-    path = themes/anatole
-    url = https://github.com/lxndrblz/anatole.git
+[submodule "themes/hugo-theme-cleanwhite"]
+  path = themes/hugo-theme-cleanwhite
+  url = https://github.com/zhaohuabing/hugo-theme-cleanwhite.git
 
