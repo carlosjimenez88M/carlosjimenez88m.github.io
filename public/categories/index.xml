@@ -6,13 +6,13 @@
     <description>Recent content in Categories on The Probability and the Word</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blog</title>
-      <link>http://localhost:1313/categories/blog/</link>
-      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      <title>Deep Learning</title>
+      <link>http://localhost:1313/categories/deep-learning/</link>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/blog/</guid>
+      <guid>http://localhost:1313/categories/deep-learning/</guid>
       
         <description></description>
       
@@ -21,9 +21,20 @@
     <item>
       <title>Edge Computing</title>
       <link>http://localhost:1313/categories/edge-computing/</link>
-      <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/categories/edge-computing/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blog</title>
+      <link>http://localhost:1313/categories/blog/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/blog/</guid>
       
         <description></description>
       

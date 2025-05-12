@@ -1,10 +1,4 @@
-<div
-  class="sidebar{{ with .Site.Params.doNotLoadAnimations }}
-    .
-  {{ else }}
-    animated fadeInDown
-  {{ end }}"
->
+<div class="sidebar{{ with .Site.Params.doNotLoadAnimations }}.{{ else }} animated fadeInDown{{ end }}">
   <div class="sidebar__content">
     <div class="sidebar__introduction">
       <img
@@ -43,5 +37,5 @@
       {{ end }}
     </ul>
   </div>
-  {{- partial "footer.html" (dict "context" . "footerClassModifier" "sidebar") -}}
+  {{ partial "footer.html" (dict "footerClassModifier" "sidebar" "context" .) }}
 </div>
