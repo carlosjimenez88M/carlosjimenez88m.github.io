@@ -65,6 +65,14 @@ To me, the breaking point wasn’t just the lack of backward compatibility or in
 
 The battle may have been lost—not because TensorFlow lacked potential, but because the needs of the ecosystem evolved faster than the framework itself.
 
+
+### A fun fact (interesting tidbit)
+There's something that caught my attention - I'm going to present two graphs. The first one shows the trend according to Google Trends, where the blue line is TensorFlow and the red one is PyTorch. I had talked about the decline in usage of the framework, and you can see how it's falling, but what particularly catches my attention is that there's a downward trend for PyTorch in 2025. I don't know if it has something to do with Rust, or if researchers and developers have fewer publications, considering we're in an era where model releases or versions are an everyday occurrence.
+![](https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/img/comparative.png?raw=true)
+
+In the second graph, also obtained from Google Trends, something else caught my attention even more: In Latin America, Africa, and Eastern Europe, TensorFlow still predominates (there's something to infer from that), although in India's case, usage is 59% TF and the rest PyTorch, which means that in industry it continues to be applied aggressively. It would be worth analyzing which industries these are. I don't know if it has something to do with Vision Language Models, but well, these are the data points and they should be shared.
+![](https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/img/tf2.png?raw=true)
+
 ### Final Thoughts
 * Deep Learning reached a stage where graph flexibility and computational efficiency became decisive factors in framework adoption.
 
