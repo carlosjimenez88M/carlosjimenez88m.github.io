@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tensorflow on The Probability and the Word</title>
-    <link>https://carlosdanieljimenez.com/tags/tensorflow/</link>
+    <link>http://localhost:1313/tags/tensorflow/</link>
     <description>Recent content in Tensorflow on The Probability and the Word</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://carlosdanieljimenez.com/tags/tensorflow/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/tensorflow/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Decline of a Framework</title>
-      <link>https://carlosdanieljimenez.com/post/tensorflow/</link>
+      <link>http://localhost:1313/post/tensorflow/</link>
       <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://carlosdanieljimenez.com/post/tensorflow/</guid>
+      <guid>http://localhost:1313/post/tensorflow/</guid>
       
         <description>Reflections on TensorFlow in the context of the modern AI engine and the evolving role of Data Scientists</description>
       
