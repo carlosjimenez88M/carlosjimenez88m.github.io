@@ -2,136 +2,81 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Probability and the Word</title>
-    <link>https://carlosdanieljimenez.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on The Probability and the Word</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://carlosdanieljimenez.com/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Decline of a Framework</title>
-      <link>https://carlosdanieljimenez.com/post/tensorflow/</link>
+      <link>http://localhost:1313/post/tensorflow/</link>
       <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://carlosdanieljimenez.com/post/tensorflow/</guid>
-      
-        <description>Reflections on TensorFlow in the context of the modern AI engine and the evolving role of Data Scientists</description>
-      
+      <guid>http://localhost:1313/post/tensorflow/</guid>
+      <description>&lt;h3 id=&#34;reflections-on-tensorflow-in-the-context-of-the-modern-ai-engine-and-the-evolving-role-of-data-scientists&#34;&gt;Reflections on TensorFlow in the context of the modern AI engine and the evolving role of Data Scientists&lt;/h3&gt;&#xA;&lt;p&gt;Throughout my journey in the world of data, I’ve witnessed many changes — some tools fading out of popularity while others take the spotlight. R, for example, has become more niche, used mostly by statisticians and academics. Flask, once a common choice for lightweight APIs, gradually gave way to FastAPI thanks to its modularity and support for asynchronous features, redefining how APIs are designed and deployed.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Raspberry Pi 16GB, Servers, and MLOps</title>
-      <link>https://carlosdanieljimenez.com/post/mlops-servers-raspberry/</link>
+      <link>http://localhost:1313/post/mlops-servers-raspberry/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://carlosdanieljimenez.com/post/mlops-servers-raspberry/</guid>
-      
-        <description>Raspberry Pi 5 (16 Gbs) like a Server</description>
-      
+      <guid>http://localhost:1313/post/mlops-servers-raspberry/</guid>
+      <description>&lt;p&gt;Less than two months ago, the most powerful version of the Raspberry Pi 5 hit the market, featuring 16GB of RAM. While its price ($120 USD) is a valid discussion point, as someone who uses these devices as servers for deployment testing and efficiency evaluation at the code level, I want to explore its utility from a &lt;strong&gt;computer science perspective&lt;/strong&gt; in the context of &lt;strong&gt;MLOps and LLMs testing&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;raspberry-pi-utility&#34;&gt;Raspberry Pi Utility&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s start with some common applications to build on ideas:&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>MLops into Raspberry Pi 5</title>
-      <link>https://carlosdanieljimenez.com/post/mlops_raspberrypi5/</link>
+      <link>http://localhost:1313/post/mlops_raspberrypi5/</link>
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://carlosdanieljimenez.com/post/mlops_raspberrypi5/</guid>
-      
-        <description>A robust implementation of facilities for MLOps development</description>
-      
+      <guid>http://localhost:1313/post/mlops_raspberrypi5/</guid>
+      <description>&lt;p&gt;One of the tools I use most for practicing &lt;strong&gt;MLOps&lt;/strong&gt;, both for designing pipelines and APIs (for inference), is the &lt;strong&gt;Raspberry Pi&lt;/strong&gt;. Today, I spent several hours trying to install &lt;strong&gt;Visual Studio Code&lt;/strong&gt; to complement my &lt;strong&gt;iPad Pro&lt;/strong&gt; as a development tool.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-this-setup-&#34;&gt;&lt;strong&gt;Why this setup?&lt;/strong&gt; 🤔&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Improve programming skills—I am a big fan of using &lt;strong&gt;Weights &amp;amp; Biases (W&amp;amp;B)&lt;/strong&gt; to monitor the resource usage of each service I create.&lt;/li&gt;&#xA;&lt;li&gt;Using the &lt;strong&gt;Raspberry Pi as a server&lt;/strong&gt; allows me to test &lt;strong&gt;Edge computing&lt;/strong&gt; deployments.&lt;/li&gt;&#xA;&lt;li&gt;For &lt;strong&gt;scalable prototype development&lt;/strong&gt;, it’s a great way to test artifacts and the &lt;strong&gt;lifecycle of models&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;When designing a model from &lt;strong&gt;hyperparameters&lt;/strong&gt;, it helps me fine-tune &lt;strong&gt;grid search&lt;/strong&gt; or &lt;strong&gt;Bayesian methods&lt;/strong&gt; efficiently to optimize experimentation.&lt;/li&gt;&#xA;&lt;li&gt;Running &lt;strong&gt;MLflow on Edge computing&lt;/strong&gt; enables &lt;strong&gt;optimization&lt;/strong&gt; in model registry and updates.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Using Docker and Kubernetes&lt;/strong&gt; helps ensure &lt;strong&gt;clean code&lt;/strong&gt; before committing changes.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;There are many more reasons, but these are the main ones. Now, how do you set up &lt;strong&gt;Raspberry Pi&lt;/strong&gt; to unlock its full power for MLOps?&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title></title>
-      <link>https://carlosdanieljimenez.com/post/artifacts-designs/</link>
+      <link>http://localhost:1313/post/artifacts-designs/</link>
       <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://carlosdanieljimenez.com/post/artifacts-designs/</guid>
-      
-        <description>Introduction to Artifacts designs</description>
-      
+      <guid>http://localhost:1313/post/artifacts-designs/</guid>
+      <description>&lt;h2 id=&#34;artifact-design-and-pipeline-in-mlops-part-i&#34;&gt;Artifact Design and Pipeline in MLOps Part I&lt;/h2&gt;&#xA;&lt;p&gt;In MLOps, most of the work focuses on the &lt;strong&gt;inference stage&lt;/strong&gt;, specifically the development of microservices. However, the broader picture goes beyond this—it includes aspects ranging from programming practices to resource utilization that need to be evaluated. This is where the role of a &lt;strong&gt;Machine Learning DevOps Engineer&lt;/strong&gt; becomes crucial. In this post, I want to address this profile by approaching it from the perspective of designing a model.&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://carlosdanieljimenez.com/about/</link>
-      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://carlosdanieljimenez.com/about/</guid>
-      
-        <description>Hugo, the world&#39;s fastest framework for building websites</description>
-      
-    </item>
-    
     <item>
       <title>Edge Computing and Edge Machine Learning</title>
-      <link>https://carlosdanieljimenez.com/post/edge-computing/</link>
+      <link>http://localhost:1313/post/edge-computing/</link>
       <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://carlosdanieljimenez.com/post/edge-computing/</guid>
-      
-        <description>A Brief Introduction to AI/Edge Computing</description>
-      
+      <guid>http://localhost:1313/post/edge-computing/</guid>
+      <description>&lt;p&gt;&#xA;  &lt;img src=&#34;https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/images/WhatsApp%20Image%202024-10-14%20at%2016.46.42.jpeg?raw=true&#34; alt=&#34;&#34;&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;&#xA;&lt;p&gt;Data scientists often face three possibilities when deploying our products into production: through the cloud, edge computing, or the more recent variant, Edge Machine Learning. To introduce these concepts and provide context for this post, I will start by discussing the foundation—AI Computing.&lt;/p&gt;&#xA;&lt;h3 id=&#34;ai-computing-and-the-rigor-of-mathematics&#34;&gt;AI Computing and the Rigor of Mathematics&lt;/h3&gt;&#xA;&lt;p&gt;A promise of computing is to make machines learn, and this is the job of the data scientist. When applying a model to data, Alan Turing&amp;rsquo;s insight from 1947 remains highly relevant. He simply stated that &amp;ldquo;machines learn from experience&amp;rdquo; (train set), a concept now popularized as data-driven methods.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>Awards</title>
-      <link>https://carlosdanieljimenez.com/awards/</link>
-      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://carlosdanieljimenez.com/awards/</guid>
-      
-        <description>Hugo Awards, an annual literary award for the best science fiction or fantasy works</description>
-      
+      <title>Clean White Theme for Hugo</title>
+      <link>http://localhost:1313/post/readme/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/readme/</guid>
+      <description>&lt;h1 id=&#34;clean-white-theme-for-hugo&#34;&gt;Clean White Theme for Hugo&lt;/h1&gt;&#xA;&lt;p&gt;CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live &lt;a href=&#34;https://zhaohuabing.com&#34;&gt;demo site&lt;/a&gt; using this theme.&lt;/p&gt;&#xA;&lt;p&gt;It is based on &lt;a href=&#34;https://github.com/Huxpro/huxpro.github.io&#34;&gt;huxblog Jekyll Theme&lt;/a&gt;&#xA;and &lt;a href=&#34;https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll&#34;&gt;Clean Blog Jekyll Theme&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;These two upstream projects have done awesome jobs to create a blog theme, what I&amp;rsquo;m doing here is porting it to Hugo, of which I like the simplicity and the much faster compiling speed. Some other features which I think could be useful, such as site search with algolia and proxy for Disqus access in China, have also been built in the CleanWhite theme. Other fancy features of upstream projects are not supported by this Hugo theme, I&amp;rsquo;d like to make it as simple as possible and only focus on blog purpose, at least for now.&#xA;While I created this theme, I followed the Hugo theme best practice and tried to make every part of the template as a replaceable partial html, so it could be much easier for you to make your customization based on it.&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Certifications</title>
-      <link>https://carlosdanieljimenez.com/certifications/</link>
-      <pubDate>Sun, 10 Apr 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://carlosdanieljimenez.com/certifications/</guid>
-      
-        <description>Hugo Certifications</description>
-      
-    </item>
-    
     <item>
       <title></title>
-      <link>https://carlosdanieljimenez.com/archives/</link>
-      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://carlosdanieljimenez.com/archives/</guid>
-      
-        <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://carlosdanieljimenez.com/contact/</link>
-      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://carlosdanieljimenez.com/contact/</guid>
-      
-        <description>Contact Page</description>
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://carlosdanieljimenez.com/imprint/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://carlosdanieljimenez.com/imprint/</guid>
-      
-        <description>&lt;h1 id=&#34;legal-disclosure&#34;&gt;Legal Disclosure&lt;/h1&gt;
-&lt;p&gt;Information in accordance with the applicable law&lt;/p&gt;
-&lt;p&gt;Jane Doe&lt;br&gt;
-Anatole Street 10&lt;br&gt;
-2016 GoHugo&lt;br&gt;
-Germany&lt;/p&gt;</description>
-      
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I&amp;rsquo;m Colombian!&lt;/li&gt;&#xA;&lt;li&gt;I’m currently a Machine Learning DevOps Engineer Lead Advocate 🥑 and AI Programmer.&lt;/li&gt;&#xA;&lt;li&gt;I studied Philosophy and History, Economics, Computer Science, and of course, Artificial Intelligence.&lt;/li&gt;&#xA;&lt;li&gt;I have an obsession with vinyl records, books, and own an unnecessarily large guitar collection.&lt;/li&gt;&#xA;&lt;li&gt;I’ve lived in the USA, Chile, Mexico, Spain, and Colombia.&lt;/li&gt;&#xA;&lt;li&gt;I’m a teacher in two specific subjects: Applied Statistics for Machine Learning and Economic History.&lt;/li&gt;&#xA;&lt;li&gt;I love Edge Computing and work with a Jetson Nano for Computer Vision and some LLM applications, and with a Raspberry Pi for MLOps and AI Programming with different HATs (I also use it as my personal server, often paired with my iPad).&lt;/li&gt;&#xA;&lt;li&gt;My research focuses on computational methods applied to Health Sciences, and on sampling strategies for segmentation control in training data.&lt;/li&gt;&#xA;&lt;li&gt;I’m currently migrating all my applications to CUDA to make them more efficient.&lt;/li&gt;&#xA;&lt;li&gt;Fun fact: I’m building a library dedicated to Jules Verne.&lt;/li&gt;&#xA;&lt;li&gt;What I enjoy most in life is being a father, so all my time outside of work is with my daughters.&lt;/li&gt;&#xA;&lt;li&gt;As a child, I wanted to be a tattoo artist and musician—now, as an adult, I want to open my own school in the Caribbean.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
-    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/</guid>
+      <description>&lt;h2 id=&#34;go-语言学习笔记&#34;&gt;&lt;a href=&#34;https://zhaohuabing.com/learning-golang&#34;&gt;Go 语言学习笔记&lt;/a&gt;&lt;/h2&gt;&#xA;&lt;h2 id=&#34;envoy-学习笔记&#34;&gt;&lt;a href=&#34;https://zhaohuabing.com/learning-envoy&#34;&gt;Envoy 学习笔记&lt;/a&gt;&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/search/placeholder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/search/placeholder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Posts Archive</title>
+      <link>http://localhost:1313/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archive/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
