@@ -42,9 +42,9 @@ home = ["HTML", "RSS", "Algolia"]
   algolia_apiKey = ""
 
   # Sidebar settings
-  sidebar_about_description = "ML Devops Engineer Advocated 🥑, Open Source Enthusiast and Father"
+  sidebar_about_description = "ML Devops Engineer Advocated| Agentic AI Engineer|Father"
 
-  sidebar_avatar = "img/profile.jpeg"
+  sidebar_avatar = "img/perfil_serio.jpeg"
 
   featured_tags = true
   featured_condition_size = 1
