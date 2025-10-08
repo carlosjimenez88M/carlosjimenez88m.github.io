@@ -19,7 +19,7 @@ hasCJKLanguage = true
 home = ["HTML", "RSS", "Algolia"]
 
 [params]
-  header_image = "img/template.jpeg"
+  header_image = "img/nvidia.jpg"
   SEOTitle = "A blog about MLOps, LLMs and Apis"
   description = "A blog about MLOps, LLMs and Apis"
   keyword = ""
