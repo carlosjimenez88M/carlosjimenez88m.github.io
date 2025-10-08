@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Edge-Ai on The Probability and the Word</title>
-    <link>http://localhost:1313/tags/edge-ai/</link>
+    <link>https://carlosdanieljimenez.com/tags/edge-ai/</link>
     <description>Recent content in Edge-Ai on The Probability and the Word</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/edge-ai/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://carlosdanieljimenez.com/tags/edge-ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Decline of a Framework</title>
-      <link>http://localhost:1313/post/tensorflow/</link>
+      <link>https://carlosdanieljimenez.com/post/tensorflow/</link>
       <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/tensorflow/</guid>
+      <guid>https://carlosdanieljimenez.com/post/tensorflow/</guid>
       <description>&lt;h3 id=&#34;reflections-on-tensorflow-in-the-context-of-the-modern-ai-engine-and-the-evolving-role-of-data-scientists&#34;&gt;Reflections on TensorFlow in the context of the modern AI engine and the evolving role of Data Scientists&lt;/h3&gt;&#xA;&lt;p&gt;Throughout my journey in the world of data, I’ve witnessed many changes — some tools fading out of popularity while others take the spotlight. R, for example, has become more niche, used mostly by statisticians and academics. Flask, once a common choice for lightweight APIs, gradually gave way to FastAPI thanks to its modularity and support for asynchronous features, redefining how APIs are designed and deployed.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Raspberry Pi 16GB, Servers, and MLOps</title>
-      <link>http://localhost:1313/post/mlops-servers-raspberry/</link>
+      <link>https://carlosdanieljimenez.com/post/mlops-servers-raspberry/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/mlops-servers-raspberry/</guid>
+      <guid>https://carlosdanieljimenez.com/post/mlops-servers-raspberry/</guid>
       <description>&lt;p&gt;Less than two months ago, the most powerful version of the Raspberry Pi 5 hit the market, featuring 16GB of RAM. While its price ($120 USD) is a valid discussion point, as someone who uses these devices as servers for deployment testing and efficiency evaluation at the code level, I want to explore its utility from a &lt;strong&gt;computer science perspective&lt;/strong&gt; in the context of &lt;strong&gt;MLOps and LLMs testing&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;raspberry-pi-utility&#34;&gt;Raspberry Pi Utility&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s start with some common applications to build on ideas:&lt;/p&gt;</description>
     </item>
     <item>
       <title>MLops into Raspberry Pi 5</title>
-      <link>http://localhost:1313/post/mlops_raspberrypi5/</link>
+      <link>https://carlosdanieljimenez.com/post/mlops_raspberrypi5/</link>
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/mlops_raspberrypi5/</guid>
+      <guid>https://carlosdanieljimenez.com/post/mlops_raspberrypi5/</guid>
       <description>&lt;p&gt;One of the tools I use most for practicing &lt;strong&gt;MLOps&lt;/strong&gt;, both for designing pipelines and APIs (for inference), is the &lt;strong&gt;Raspberry Pi&lt;/strong&gt;. Today, I spent several hours trying to install &lt;strong&gt;Visual Studio Code&lt;/strong&gt; to complement my &lt;strong&gt;iPad Pro&lt;/strong&gt; as a development tool.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-this-setup-&#34;&gt;&lt;strong&gt;Why this setup?&lt;/strong&gt; 🤔&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Improve programming skills—I am a big fan of using &lt;strong&gt;Weights &amp;amp; Biases (W&amp;amp;B)&lt;/strong&gt; to monitor the resource usage of each service I create.&lt;/li&gt;&#xA;&lt;li&gt;Using the &lt;strong&gt;Raspberry Pi as a server&lt;/strong&gt; allows me to test &lt;strong&gt;Edge computing&lt;/strong&gt; deployments.&lt;/li&gt;&#xA;&lt;li&gt;For &lt;strong&gt;scalable prototype development&lt;/strong&gt;, it’s a great way to test artifacts and the &lt;strong&gt;lifecycle of models&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;When designing a model from &lt;strong&gt;hyperparameters&lt;/strong&gt;, it helps me fine-tune &lt;strong&gt;grid search&lt;/strong&gt; or &lt;strong&gt;Bayesian methods&lt;/strong&gt; efficiently to optimize experimentation.&lt;/li&gt;&#xA;&lt;li&gt;Running &lt;strong&gt;MLflow on Edge computing&lt;/strong&gt; enables &lt;strong&gt;optimization&lt;/strong&gt; in model registry and updates.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Using Docker and Kubernetes&lt;/strong&gt; helps ensure &lt;strong&gt;clean code&lt;/strong&gt; before committing changes.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;There are many more reasons, but these are the main ones. Now, how do you set up &lt;strong&gt;Raspberry Pi&lt;/strong&gt; to unlock its full power for MLOps?&lt;/p&gt;</description>
     </item>
   </channel>
