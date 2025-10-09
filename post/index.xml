@@ -6,8 +6,15 @@
     <description>Recent content in Posts on The Probability and the Word</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://carlosdanieljimenez.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://carlosdanieljimenez.com/post/mlflow_genai/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://carlosdanieljimenez.com/post/mlflow_genai/</guid>
+      <description>&lt;h1 id=&#34;mlflow-for-generative-ai-systems&#34;&gt;MLflow for Generative AI Systems&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll start this post by recalling what Hayen said in her book &lt;strong&gt;Designing Machine Learning Systems (2022): &amp;lsquo;Systems are meant to learn&amp;rsquo;.&lt;/strong&gt; This statement reflects a simple fact: today, LLMs and to a lesser extent vision language models are winning in the Data Science world. But how do we measure this learning? RLHF work is always a good indicator that perplexity will improve, but let&amp;rsquo;s return to a key point: LLMs must work as a system, therefore debugging is important, and that&amp;rsquo;s where the necessary tool for every Data Scientist, AI Engineer, ML Engineer, and MLOps Engineer comes in: MLflow.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Decline of a Framework</title>
       <link>https://carlosdanieljimenez.com/post/tensorflow/</link>

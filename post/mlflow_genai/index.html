@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-	<meta name="generator" content="Hugo 0.149.0">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,9 +21,9 @@
     
 
     
-    <meta name="description" content="A blog about MLOps, LLMs and Apis">
-    <meta property="og:description" content="A blog about MLOps, LLMs and Apis" />
-    <meta property="twitter:description" content="A blog about MLOps, LLMs and Apis" />
+    <meta name="description" content="MLflow for Generative AI Systems">
+    <meta property="og:description" content="MLflow for Generative AI Systems" />
+    <meta property="twitter:description" content="MLflow for Generative AI Systems" />
     
 
     
@@ -35,9 +34,9 @@
     <meta name="keyword"  content="">
     <link rel="shortcut icon" href="/img/favicon.ico">
 
-    <title>The Probability and the Word | A blog about MLOps, LLMs and Apis</title>
+    <title>A blog about MLOps, LLMs and Apis</title>
 
-    <link rel="canonical" href="/">
+    <link rel="canonical" href="/post/mlflow_genai/">
 
     
     
@@ -184,93 +183,141 @@
 
 
 
-  
-<div data-pagefind-ignore="all" class="container">
-    <div class="row">
-        
-        
-   	    <div class="
+
+<article>
+    <div class="container">
+        <div class="row">
+            
+            <div class="
             col-lg-8 col-lg-offset-1
             col-md-8 col-md-offset-1
             col-sm-12
             col-xs-12
-            post-container
-        ">
+            post-container">
             
-<div data-pagefind-ignore="all">
-
-<div class="post-preview">
-    <a href="https://carlosdanieljimenez.com/post/edge-computing/">
-        <h2 class="post-title">
-            Edge Computing and Edge Machine Learning
-        </h2>
-	
-        <div class="post-content-preview">
-	
-            A Brief Introduction to AI/Edge Computing
-        
-        </div>
-    </a>
-    <p class="post-meta">
-    
-        Posted by Carlos Daniel Jiménez on Monday, October 14, 2024
-        
-        
-    
-    </p>
-
-</div>
-<hr>
-
-<div class="post-preview">
-    <a href="https://carlosdanieljimenez.com/post/readme/">
-        <h2 class="post-title">
-            Clean White Theme for Hugo
-        </h2>
-	
-        <h3 class="post-subtitle">
-            How to set up this theme
-        </h3>
-	
-        <div class="post-content-preview">
-	
-            <h1 id="clean-white-theme-for-hugo">Clean White Theme for Hugo</h1>
-<p>CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live <a href="https://zhaohuabing.com">demo site</a> using this theme.</p>
-<p>It is based on <a href="https://github.com/Huxpro/huxpro.github.io">huxblog Jekyll Theme</a>
-and <a href="https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll">Clean Blog Jekyll Theme</a>.</p>
-<p>These two upstream projects have done awesome jobs to create a blog theme, what I&rsquo;m doing here is porting it to Hugo, of which I like the simplicity and the much faster compiling speed. Some other features which I think could be useful, such as site search with algolia and proxy for Disqus access in China, have also been built in the CleanWhite theme. Other fancy features of upstream projects are not supported by this Hugo theme, I&rsquo;d like to make it as simple as possible and only focus on blog purpose, at least for now.
-While I created this theme, I followed the Hugo theme best practice and tried to make every part of the template as a replaceable partial html, so it could be much easier for you to make your customization based on it.</p>
-       
-        </div>
-    </a>
-    <p class="post-meta">
-    
-        Posted by 赵化冰 on Wednesday, January 9, 2019
-        
-        
-    
-    </p>
-
-</div>
-<hr>
-
-</div>
-
-            
-
-
-<ul class="pager" data-pagefind-ignore="all">
-    
-    <li class="previous">
-        <a href="/">&larr; Newer Posts</a>
-    </li>
-    
-    
+                <h1 id="mlflow-for-generative-ai-systems">MLflow for Generative AI Systems</h1>
+<p>I&rsquo;ll start this post by recalling what Hayen said in her book <strong>Designing Machine Learning Systems (2022): &lsquo;Systems are meant to learn&rsquo;.</strong> This statement reflects a simple fact: today, LLMs and to a lesser extent vision language models are winning in the Data Science world. But how do we measure this learning? RLHF work is always a good indicator that perplexity will improve, but let&rsquo;s return to a key point: LLMs must work as a system, therefore debugging is important, and that&rsquo;s where the necessary tool for every Data Scientist, AI Engineer, ML Engineer, and MLOps Engineer comes in: MLflow.</p>
+<h2 id="what-problems-can-mlflow-solve-at-the-generative-ai-level">What problems can MLflow solve at the Generative AI level?</h2>
+<p>Working with GenAI is qualitatively different from traditional ML:</p>
+<ul>
+<li><strong>You can&rsquo;t debug easily.</strong> A single query can trigger 15 different operations (LLM → retrieval → ranking → LLM again). When something fails, where?</li>
+<li><strong>Traditional metrics don&rsquo;t apply.</strong> There&rsquo;s no single <strong>&ldquo;correct value&rdquo;</strong> — remember this always. The answer can be good in multiple ways.</li>
+<li><strong>A &ldquo;model&rdquo; is no longer a file.</strong> It&rsquo;s code + prompts + tools + configuration. Everything must move together.</li>
+</ul>
+<h2 id="three-new-capabilities">Three new capabilities</h2>
+<h3 id="1-tracing-seeing-whats-happening">1. Tracing: Seeing what&rsquo;s happening</h3>
+<p>The idea is simple: capture each step of your GenAI application as a hierarchical structure.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ff79c6">import</span> mlflow
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># For LangChain or LlamaIndex: one line</span>
+</span></span><span style="display:flex;"><span>mlflow<span style="color:#ff79c6">.</span>langchain<span style="color:#ff79c6">.</span>autolog()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#6272a4"># For your custom code: a decorator</span>
+</span></span><span style="display:flex;"><span>@mlflow.trace 
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">my_retrieval_function</span>(query):
+</span></span><span style="display:flex;"><span>    <span style="color:#6272a4"># your logic here</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">return</span> results
+</span></span></code></pre></div><p>This gives you:</p>
+<ul>
+<li>A view of all steps in order</li>
+<li>Latency of each operation</li>
+<li>Tokens consumed (costs) → important for control and evaluation of each run at the operation level</li>
+<li>Inputs and outputs at each point</li>
+</ul>
+<p><strong>When to use it:</strong> Always. The overhead is minimal and the visibility is invaluable.</p>
+<h3 id="2-systematic-evaluation-with-llms">2. Systematic evaluation with LLMs</h3>
+<p>You can&rsquo;t use accuracy to evaluate &ldquo;is this response useful?&rdquo;. MLflow uses LLMs as evaluators.</p>
+<p>There are four approaches, ordered by complexity:</p>
+<ol>
+<li>
+<p><strong>Predefined scorers</strong> → Standard metrics already configured</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#ff79c6">from</span> mlflow.metrics.genai <span style="color:#ff79c6">import</span> relevance
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Guidelines</strong> → Rules in natural language</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>guidelines <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;The response must be concise and not mention prices&#34;</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>make_judge()</strong> → Your own custom evaluator</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>judge <span style="color:#ff79c6">=</span> mlflow<span style="color:#ff79c6">.</span>metrics<span style="color:#ff79c6">.</span>genai<span style="color:#ff79c6">.</span>make_judge(
+</span></span><span style="display:flex;"><span>    definition<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;Evaluate if the response directly answers the question&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Agent-as-a-Judge</strong> → Evaluates the complete process, not just the output</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>judge <span style="color:#ff79c6">=</span> make_judge(
+</span></span><span style="display:flex;"><span>    definition<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;Evaluate if the agent used the correct tool&#34;</span>,
+</span></span><span style="display:flex;"><span>    trace_aware<span style="color:#ff79c6">=</span><span style="color:#ff79c6">True</span>
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></div></li>
+</ol>
+<p>You can also capture human feedback and attach it to traces. This is useful for:</p>
+<ul>
+<li>Validating your automated evaluators</li>
+<li>Building evaluation datasets from real cases</li>
+<li>Iterating on problems that users actually encounter</li>
+</ul>
+<h3 id="3-versioning-complete-applications">3. Versioning complete applications</h3>
+<p>The problem: your &ldquo;model&rdquo; is now Python code that defines an agent. Serializing the object doesn&rsquo;t work well.</p>
+<p>The solution: version the code directly.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>mlflow<span style="color:#ff79c6">.</span>langchain<span style="color:#ff79c6">.</span>log_model(
+</span></span><span style="display:flex;"><span>    lc_model<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;agent.py&#34;</span>,  <span style="color:#6272a4"># Path to file</span>
+</span></span><span style="display:flex;"><span>    artifact_path<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;agent&#34;</span>
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></div><p>MLflow packages:</p>
+<ul>
+<li>The source code</li>
+<li>Dependencies (conda.yaml, requirements.txt)</li>
+<li>Everything needed to reproduce the behavior</li>
+</ul>
+<p>When you load the model, you get exactly what you saved.</p>
+<p><strong>Bonus:</strong> Model registry webhooks for automation. When you mark a version as &ldquo;production&rdquo;, you can automatically trigger your deployment pipeline. I&rsquo;ll talk about MLproject, which is a contract manager, in another post.</p>
+<h2 id="how-to-get-started">How to get started</h2>
+<p><strong>Step 1:</strong> Add tracing to your existing application</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>mlflow<span style="color:#ff79c6">.</span>langchain<span style="color:#ff79c6">.</span>autolog()
+</span></span></code></pre></div><p><strong>Step 2:</strong> Run your application and look at traces in the MLflow UI. Identify bottlenecks.</p>
+<p><strong>Step 3:</strong> Set up basic evaluation with predefined scorers</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>result <span style="color:#ff79c6">=</span> mlflow<span style="color:#ff79c6">.</span>evaluate(
+</span></span><span style="display:flex;"><span>    model<span style="color:#ff79c6">=</span>my_agent,
+</span></span><span style="display:flex;"><span>    data<span style="color:#ff79c6">=</span>test_cases,
+</span></span><span style="display:flex;"><span>    metrics<span style="color:#ff79c6">=</span>[relevance(), correctness()]
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></div><p><strong>Step 4:</strong> When you have a working agent, version it with &ldquo;Models from Code&rdquo;</p>
+<p><strong>Step 5:</strong> Iterate. Add custom judges as you understand which metrics really matter for your use case.</p>
+<h2 id="limitations-and-trade-offs">Limitations and trade-offs</h2>
+<p>Some things you should know:</p>
+<ul>
+<li><strong>LLM-as-a-Judge isn&rsquo;t perfect.</strong> Evaluators can be biased or wrong. Always validate with human feedback on a sample.</li>
+<li><strong>Tracing adds overhead.</strong> It&rsquo;s small, but it exists. For high-volume production, consider sampling and especially post-stratified representation issues.</li>
+<li><strong>Evaluation has a cost.</strong> Each evaluation with an LLM consumes tokens. For large datasets, this adds up.</li>
+<li><strong>Integration isn&rsquo;t magic.</strong> If you use unsupported libraries, you need manual tracing.</li>
+</ul>
+<h2 id="why-this-matters">Why this matters</h2>
+<p>I&rsquo;ve seen teams build their own ad-hoc solutions for these problems. They usually end up with:</p>
+<ul>
+<li>Custom logging scripts that nobody else understands</li>
+<li>Manual evaluation that doesn&rsquo;t scale</li>
+<li>Versioning that consists of &ldquo;copying the folder with a timestamp&rdquo;</li>
+</ul>
+<p>MLflow isn&rsquo;t perfect, but it provides sensible primitives for these common problems. It&rsquo;s better to have an imperfect system that everyone uses than ten perfect systems that nobody shares.</p>
+<h2 id="resources">Resources</h2>
+<ul>
+<li>Tracing documentation: <code>mlflow.org/docs/latest/tracing</code></li>
+<li>Evaluation guide: <code>mlflow.org/docs/latest/llm-eval</code></li>
+<li>Examples on GitHub: <code>mlflow/mlflow-examples</code></li>
 </ul>
 
+            
+             
+            
 
-       	</div>
-        
+
+
+
+            
+            </div>
+            
+            
 
 <div class="
     col-lg-3 col-lg-offset-0
@@ -393,9 +440,9 @@ While I created this theme, I followed the Hugo theme best practice and tried to
     
 </div>
 
-	</div>
-</div>
-
+        </div>
+    </div>
+</article>
 
 
 
@@ -464,7 +511,7 @@ While I created this theme, I followed the Hugo theme best practice and tried to
             
            
                    <li>
-                       <a href='/index.xml' rel="alternate" type="application/rss+xml" title="The Probability and the Word" >
+                       <a href='' rel="alternate" type="application/rss+xml" title="The Probability and the Word" >
                            <span class="fa-stack fa-lg">
                                <i class="fas fa-circle fa-stack-2x"></i>
                                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
