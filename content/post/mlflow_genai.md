@@ -1,7 +1,7 @@
 ---
 author: Carlos Daniel Jiménez
 date: 2025-10-08
-description: MLflow for Generative AI Systems
+title: MLflow for Generative AI Systems
 series:
   - mlops
   - genai
