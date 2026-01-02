@@ -4,7 +4,7 @@ date: 2025-02-23
 draft: false
 description: "A robust implementation of facilities for MLOps development"
 categories: ["Edge Computing", "MLOps"]
-tags: ["raspberry-pi", "mlflow", "edge-ai"]
+tags: ["raspberry-pi", "mlflow", "edge-ai", "docker", "kubernetes", "vscode"]
 ---
 
 

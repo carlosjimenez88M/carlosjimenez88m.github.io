@@ -3,8 +3,8 @@ title: "The Decline of a Framework"
 date: 2025-05-12
 draft: false
 description: "Reflections on TensorFlow in the context of the modern AI engine and the evolving role of Data Scientists"
-categories: ["Edge Computing", "Deep Learning"]
-tags: ["Tensorflow", "mlflow", "edge-ai"]
+categories: ["MLOps", "Edge Computing"]
+tags: ["tensorflow", "pytorch", "mlflow", "edge-ai", "deep-learning"]
 ---
 
 ### Reflections on TensorFlow in the context of the modern AI engine and the evolving role of Data Scientists

@@ -1,7 +1,10 @@
 ---
 author: Carlos Daniel Jiménez
 date: 2024-11-21
+title: "Artifact Design and Pipeline in MLOps Part I"
 description: Introduction to Artifacts designs
+categories: ["MLOps"]
+tags: ["mlflow", "artifacts", "pipeline", "mlproject", "argparse"]
 series:
   - mlops
 ---
