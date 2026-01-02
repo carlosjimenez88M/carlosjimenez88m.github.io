@@ -1,0 +1,134 @@
+{{- /* Newsletter CTA Footer */ -}}
+<div class="newsletter-cta">
+  <div class="newsletter-content">
+    <h3>📬 ¿Te sirvió esto?</h3>
+    <p>
+      Escribo sobre MLOps, Edge AI y cómo hacer que los modelos funcionen fuera del laboratorio.
+      Un email al mes, máximo. Sin spam, sin pitch de cursos, solo contenido técnico.
+    </p>
+
+    <form
+      action="https://buttondown.com/api/emails/embed-subscribe/carlosjimenez88m"
+      method="post"
+      class="newsletter-form"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.com/carlosjimenez88m', 'popupwindow')"
+    >
+      <div class="form-group">
+        <input
+          type="email"
+          name="email"
+          id="bd-email"
+          placeholder="tu@email.com"
+          required
+          aria-label="Email address"
+        />
+        <input type="submit" value="Suscribirse" />
+      </div>
+    </form>
+
+    <p class="newsletter-stats">
+      Ya somos ingenieros construyendo ML y sistemas basados en Edge Computing.
+    </p>
+  </div>
+</div>
+
+<style>
+.newsletter-cta {
+  margin: 3rem auto 2rem;
+  padding: 2rem;
+  max-width: 650px;
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.newsletter-content h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+.newsletter-content p {
+  margin: 0 0 1.5rem 0;
+  color: var(--secondary);
+  line-height: 1.6;
+}
+
+.newsletter-form {
+  margin: 1.5rem 0;
+}
+
+.form-group {
+  display: flex;
+  gap: 0.5rem;
+  max-width: 500px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.newsletter-form input[type="email"] {
+  flex: 1;
+  min-width: 250px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--theme);
+  color: var(--content);
+  transition: border-color 0.2s ease;
+}
+
+.newsletter-form input[type="email"]:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(var(--primary-rgb), 0.1);
+}
+
+.newsletter-form input[type="submit"] {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--primary);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.newsletter-form input[type="submit"]:hover {
+  opacity: 0.9;
+}
+
+.newsletter-stats {
+  font-size: 0.875rem;
+  color: var(--secondary);
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+  .newsletter-cta {
+    padding: 1.5rem 1rem;
+    margin: 2rem 0.5rem 1rem;
+  }
+
+  .newsletter-content h3 {
+    font-size: 1.25rem;
+  }
+
+  .form-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .newsletter-form input[type="email"],
+  .newsletter-form input[type="submit"] {
+    width: 100%;
+    min-width: 100%;
+  }
+}
+</style>

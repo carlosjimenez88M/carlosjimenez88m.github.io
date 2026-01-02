@@ -8,11 +8,37 @@ layout: "page"
 
 Get notified when I publish new content about MLOps, Edge AI, Raspberry Pi, NVIDIA Jetson, and Agentic Systems.
 
-### 📧 Email Newsletter (Coming Soon)
+### 📧 Email Newsletter
 
-I'm setting up an email newsletter! Get posts delivered directly to your inbox. Newsletter service launching soon.
+Get posts delivered directly to your inbox. One email per month, maximum. No spam, no course pitches, just technical content about MLOps, Edge AI, and making models work outside the lab.
 
-<!-- Add your newsletter signup form here once configured -->
+<form
+  action="https://buttondown.com/api/emails/embed-subscribe/carlosjimenez88m"
+  method="post"
+  class="newsletter-signup-form"
+  target="popupwindow"
+  onsubmit="window.open('https://buttondown.com/carlosjimenez88m', 'popupwindow')"
+  style="margin: 2rem 0; padding: 1.5rem; border: 1px solid var(--border); border-radius: 8px; background: var(--entry);"
+>
+  <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+    <input
+      type="email"
+      name="email"
+      id="bd-email-follow"
+      placeholder="your@email.com"
+      required
+      style="flex: 1; min-width: 250px; padding: 0.75rem 1rem; font-size: 1rem; border: 1px solid var(--border); border-radius: 6px; background: var(--theme); color: var(--content);"
+    />
+    <input
+      type="submit"
+      value="Subscribe"
+      style="padding: 0.75rem 2rem; font-size: 1rem; font-weight: 600; color: #fff; background: var(--primary); border: none; border-radius: 6px; cursor: pointer;"
+    />
+  </div>
+  <p style="margin-top: 1rem; font-size: 0.875rem; color: var(--secondary);">
+    Powered by <a href="https://buttondown.com/refer/carlosjimenez88m" target="_blank" style="color: var(--primary);">Buttondown</a>
+  </p>
+</form>
 
 ### 📡 RSS Feed (Available Now)
 
