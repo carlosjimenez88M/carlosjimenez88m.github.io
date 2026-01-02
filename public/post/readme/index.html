@@ -1,354 +1,57 @@
-<!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
-
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>Clean White Theme for Hugo | The Probability Engine</title>
-<meta name="keywords" content="">
-<meta name="description" content="Clean White Theme for Hugo
+<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Clean White Theme for Hugo | The Probability Engine</title>
+<meta name=keywords content><meta name=description content="Clean White Theme for Hugo
 CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live demo site using this theme.
 It is based on huxblog Jekyll Theme
 and Clean Blog Jekyll Theme.
 These two upstream projects have done awesome jobs to create a blog theme, what I&rsquo;m doing here is porting it to Hugo, of which I like the simplicity and the much faster compiling speed. Some other features which I think could be useful, such as site search with algolia and proxy for Disqus access in China, have also been built in the CleanWhite theme. Other fancy features of upstream projects are not supported by this Hugo theme, I&rsquo;d like to make it as simple as possible and only focus on blog purpose, at least for now.
-While I created this theme, I followed the Hugo theme best practice and tried to make every part of the template as a replaceable partial html, so it could be much easier for you to make your customization based on it.">
-<meta name="author" content="赵化冰">
-<link rel="canonical" href="http://localhost:1313/post/readme/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/post/readme/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
-
-    </style>
-</noscript>
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
-        document.querySelector("html").dataset.theme = 'light';
-    }
-
-</script>
-</head>
-<body id="top">
-    <header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="The Probability Engine (Alt + H)">The Probability Engine</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-            </div>
-        </div>
-        <ul id="menu">
-            <li>
-                <a href="http://localhost:1313/mlops/" title="MLOps">
-                    <span>MLOps</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/raspberry-pi/" title="Raspberry Pi">
-                    <span>Raspberry Pi</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/jetson/" title="Jetson">
-                    <span>Jetson</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/agentic-ai/" title="Agentic AI">
-                    <span>Agentic AI</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/tidytuesday/" title="TidyTuesday">
-                    <span>TidyTuesday</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/edge-computing/" title="Edge Computing">
-                    <span>Edge Computing</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/post/" title="Posts">
-                    <span>Posts</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/archive/" title="Archive">
-                    <span>Archive</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/about/" title="About">
-                    <span>About</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
-                    <span>Search</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main class="main">
-
-<article class="post-single">
-  <header class="post-header">
-    
-    <h1 class="post-title entry-hint-parent">
-      Clean White Theme for Hugo
-    </h1>
-    <div class="post-meta"><span title='2019-01-09 00:00:00 +0000 UTC'>January 9, 2019</span>&nbsp;·&nbsp;<span>赵化冰</span>
-
-</div>
-  </header> 
-  <div class="post-content"><h1 id="clean-white-theme-for-hugo">Clean White Theme for Hugo<a hidden class="anchor" aria-hidden="true" href="#clean-white-theme-for-hugo">#</a></h1>
-<p>CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live <a href="https://zhaohuabing.com">demo site</a> using this theme.</p>
-<p>It is based on <a href="https://github.com/Huxpro/huxpro.github.io">huxblog Jekyll Theme</a>
-and <a href="https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll">Clean Blog Jekyll Theme</a>.</p>
-<p>These two upstream projects have done awesome jobs to create a blog theme, what I&rsquo;m doing here is porting it to Hugo, of which I like the simplicity and the much faster compiling speed. Some other features which I think could be useful, such as site search with algolia and proxy for Disqus access in China, have also been built in the CleanWhite theme. Other fancy features of upstream projects are not supported by this Hugo theme, I&rsquo;d like to make it as simple as possible and only focus on blog purpose, at least for now.
-While I created this theme, I followed the Hugo theme best practice and tried to make every part of the template as a replaceable partial html, so it could be much easier for you to make your customization based on it.</p>
-<h2 id="screenshots">Screenshots<a hidden class="anchor" aria-hidden="true" href="#screenshots">#</a></h2>
-<p><strong>Home</strong>
-<img alt="screenshot" loading="lazy" src="/img/fullscreenshot.png"></p>
-<p><strong>Post</strong>
-<img alt="screenshot" loading="lazy" src="/img/post.png"></p>
-<p><strong>Search</strong>
-<img alt="screenshot" loading="lazy" src="/img/sitesearch.png"></p>
-<p><strong>Disqus</strong>
-<img alt="screenshot" loading="lazy" src="/img/disqus.png"></p>
-<p><strong>Wechat Pay &amp; Alipay</strong>
-<img alt="screenshot" loading="lazy" src="/img/rewards.png"></p>
-<h2 id="quick-start">Quick Start<a hidden class="anchor" aria-hidden="true" href="#quick-start">#</a></h2>
-<p>Go to the directory where you have your Hugo site and run:</p>
-<pre tabindex="0"><code>$ mkdir themes
+While I created this theme, I followed the Hugo theme best practice and tried to make every part of the template as a replaceable partial html, so it could be much easier for you to make your customization based on it."><meta name=author content="赵化冰"><link rel=canonical href=https://carlosdanieljimenez.com/post/readme/><link crossorigin=anonymous href=/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css integrity="sha256-NDzEgLn/yPBMy+XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as=style><link rel=icon href=https://carlosdanieljimenez.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://carlosdanieljimenez.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://carlosdanieljimenez.com/favicon-32x32.png><link rel=apple-touch-icon href=https://carlosdanieljimenez.com/apple-touch-icon.png><link rel=mask-icon href=https://carlosdanieljimenez.com/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://carlosdanieljimenez.com/post/readme/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}@media(prefers-color-scheme:light){.list::-webkit-scrollbar-thumb{border-color:var(--code-bg)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><meta property="og:url" content="https://carlosdanieljimenez.com/post/readme/"><meta property="og:site_name" content="The Probability Engine"><meta property="og:title" content="Clean White Theme for Hugo"><meta property="og:description" content="Clean White Theme for Hugo CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live demo site using this theme.
+It is based on huxblog Jekyll Theme and Clean Blog Jekyll Theme.
+These two upstream projects have done awesome jobs to create a blog theme, what I’m doing here is porting it to Hugo, of which I like the simplicity and the much faster compiling speed. Some other features which I think could be useful, such as site search with algolia and proxy for Disqus access in China, have also been built in the CleanWhite theme. Other fancy features of upstream projects are not supported by this Hugo theme, I’d like to make it as simple as possible and only focus on blog purpose, at least for now. While I created this theme, I followed the Hugo theme best practice and tried to make every part of the template as a replaceable partial html, so it could be much easier for you to make your customization based on it."><meta property="og:locale" content="en-us"><meta property="og:type" content="article"><meta property="article:section" content="post"><meta property="article:published_time" content="2019-01-09T00:00:00+00:00"><meta property="article:modified_time" content="2019-01-09T00:00:00+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="Clean White Theme for Hugo"><meta name=twitter:description content="Clean White Theme for Hugo
+CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live demo site using this theme.
+It is based on huxblog Jekyll Theme
+and Clean Blog Jekyll Theme.
+These two upstream projects have done awesome jobs to create a blog theme, what I&rsquo;m doing here is porting it to Hugo, of which I like the simplicity and the much faster compiling speed. Some other features which I think could be useful, such as site search with algolia and proxy for Disqus access in China, have also been built in the CleanWhite theme. Other fancy features of upstream projects are not supported by this Hugo theme, I&rsquo;d like to make it as simple as possible and only focus on blog purpose, at least for now.
+While I created this theme, I followed the Hugo theme best practice and tried to make every part of the template as a replaceable partial html, so it could be much easier for you to make your customization based on it."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://carlosdanieljimenez.com/post/"},{"@type":"ListItem","position":2,"name":"Clean White Theme for Hugo","item":"https://carlosdanieljimenez.com/post/readme/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Clean White Theme for Hugo","name":"Clean White Theme for Hugo","description":"Clean White Theme for Hugo CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live demo site using this theme.\nIt is based on huxblog Jekyll Theme and Clean Blog Jekyll Theme.\nThese two upstream projects have done awesome jobs to create a blog theme, what I\u0026rsquo;m doing here is porting it to Hugo, of which I like the simplicity and the much faster compiling speed. Some other features which I think could be useful, such as site search with algolia and proxy for Disqus access in China, have also been built in the CleanWhite theme. Other fancy features of upstream projects are not supported by this Hugo theme, I\u0026rsquo;d like to make it as simple as possible and only focus on blog purpose, at least for now. While I created this theme, I followed the Hugo theme best practice and tried to make every part of the template as a replaceable partial html, so it could be much easier for you to make your customization based on it.\n","keywords":[],"articleBody":"Clean White Theme for Hugo CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live demo site using this theme.\nIt is based on huxblog Jekyll Theme and Clean Blog Jekyll Theme.\nThese two upstream projects have done awesome jobs to create a blog theme, what I’m doing here is porting it to Hugo, of which I like the simplicity and the much faster compiling speed. Some other features which I think could be useful, such as site search with algolia and proxy for Disqus access in China, have also been built in the CleanWhite theme. Other fancy features of upstream projects are not supported by this Hugo theme, I’d like to make it as simple as possible and only focus on blog purpose, at least for now. While I created this theme, I followed the Hugo theme best practice and tried to make every part of the template as a replaceable partial html, so it could be much easier for you to make your customization based on it.\nScreenshots Home Post Search Disqus Wechat Pay \u0026 Alipay Quick Start Go to the directory where you have your Hugo site and run:\n$ mkdir themes $ cd themes $ git clone https://github.com/zhaohuabing/hugo-theme-cleanwhite.git If your site is already a git project, you may want to choose to add the cleanwhite theme as a submodule to avoid messing up your existing git repository.\n$ mkdir themes $ git submodule add https://github.com/zhaohuabing/hugo-theme-cleanwhite.git themes/hugo-theme-cleanwhite Run Hugo Build-in Server Locally\n$ hugo serve -t hugo-theme-cleanwhite Now enter localhost:1313 in the address bar of your browser.\nIf you start from scratch, there is a working Hugo site configured with the CleanWhite theme in the exampleSite directory. You can use it as a starting point for your site.\nFor more information read the official setup guide of Hugo\nConfiguration First, let’s take a look at the config.toml. It will be useful to learn how to customize your site. Feel free to play around with the settings.\nComments The optional comments system is powered by Disqus. If you want to enable comments, create an account in Disqus and write down your shortname.\ndisqusShortname = \"your-disqus-short-name\" You can disable the comments system by leaving the disqusShortname empty.\nDisqus in China Disqus is inaccessible in China. To get it to work, we can set up a proxy with disqus-php-api in a host which sets between the client browser and the Disqus server. The idea is that if Disqus can be reached in the guest network, the blog page will show the original Disqus comments UI, otherwise, it will downgrade and use the proxy to access the Disqus, the UI will be a little different, but the visitors can still write their comments on the page.\nThe client side java script has already been integrated to CleanWhite them, but you need to set up a proxy server yourself.\nThe proxy is written in php, which can be found here: https://github.com/zhaohuabing/disqus-php-api/tree/master/api\nYou need to specify your Disqus account information in the config.php.\ndefine('PUBLIC_KEY', ''); define('SECRET_KEY', ''); define('DISQUS_USERNAME', ''); define('DISQUS_EMAIL', ''); define('DISQUS_PASSWORD', ''); define('DISQUS_WEBSITE', ''); define('DISQUS_SHORTNAME', ''); Set the proxy server address in the site config file of your Hugo project.\ndisqus_proxy = \"http://yourdisqusproxy.com\" Site Search with Algolia Follow this tutorial to create your index in Algolia. The index is just the storage of the indexing data of your site in the the cloud . The search page of CleanWhite theme will utilize this indexing data to do the search.\nGo to the directory where you have your Hugo site and run the following commands:\n$ npm init $ npm install atomic-algolia --save Next, open up the newly created package.json, where we’ll add an NPM script to update your index at Algolia. Find “scripts”, and add the following:\n\"algolia\": \"atomic-algolia\" Algolia index output format has already been supported by the CleanWhite theme, so you can just build your site, then you’ll find a file called algolia.json in the root, which we can use to update your index in Algolia. Generate index file:\n$ hugo Create a new file in the root of your Hugo project called .env, and add the following contents:\nALGOLIA_APP_ID={{ YOUR_APP_ID }} ALGOLIA_ADMIN_KEY={{ YOUR_ADMIN_KEY }} ALGOLIA_INDEX_NAME={{ YOUR_INDEX_NAME }} ALGOLIA_INDEX_FILE={{ PATH/TO/algolia.json }} Now you can push your index to Algolia by simply running:\n$ npm run algolia Add the following variables to your hugo site config so the search page can get access to algolia index data in the cloud:\nalgolia_search = true algolia_appId = {{ YOUR_APP_ID }} algolia_indexName = {{ YOUR_INDEX_NAME }} algolia_apiKey = {{ YOUR_SEARCH_ONLY_KEY }} Open search page in your browser: http://localhost:1313/search\nAnalytics You can optionally enable Google or Baidu Analytics. Type your tracking code in the\ngoogleAnalytics = \"G-XXXXX\" ba_track_id = \"XXXXXXXXXXXXXXXX\" Leave the googleAnalytics or ‘ba_track_id ’ key empty to disable it.\nWechat Pay \u0026 Alipay Rewards You can enable Wechat Pay \u0026 Alipay to allow readers send you money. So if they like your articles, you may even get rewards from your writing. Now you must be motivated to write more.\nEnable Wechat Pay \u0026 Alipay in the site config reward = true Replace the QR codes of Wechat Pay \u0026 Alipay by overriding the photos in folder /static/img/reward/, otherwise the money will be sent to my accounts! Thank Thanks for the great jobs of huxblog Jekyll Theme and Clean Blog Jekyll Theme which are the the two upstream projects CleanWhite Hugo theme is based on.\nFeedback If you find any problems, please feel free to raise an issue or create a pull request to fix it.\nIf it’s helpful for you, I would appreciate it if you could star this repository, thanks!\n","wordCount":"944","inLanguage":"en","datePublished":"2019-01-09T00:00:00Z","dateModified":"2019-01-09T00:00:00Z","author":{"@type":"Person","name":"赵化冰"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://carlosdanieljimenez.com/post/readme/"},"publisher":{"@type":"Organization","name":"The Probability Engine","logo":{"@type":"ImageObject","url":"https://carlosdanieljimenez.com/favicon.ico"}}}</script></head><body id=top><header class=header><nav class=nav><div class=logo><a href=https://carlosdanieljimenez.com/ accesskey=h title="The Probability Engine (Alt + H)">The Probability Engine</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://carlosdanieljimenez.com/mlops/ title=MLOps><span>MLOps</span></a></li><li><a href=https://carlosdanieljimenez.com/raspberry-pi/ title="Raspberry Pi"><span>Raspberry Pi</span></a></li><li><a href=https://carlosdanieljimenez.com/jetson/ title=Jetson><span>Jetson</span></a></li><li><a href=https://carlosdanieljimenez.com/agentic-ai/ title="Agentic AI"><span>Agentic AI</span></a></li><li><a href=https://carlosdanieljimenez.com/tidytuesday/ title=TidyTuesday><span>TidyTuesday</span></a></li><li><a href=https://carlosdanieljimenez.com/edge-computing/ title="Edge Computing"><span>Edge Computing</span></a></li><li><a href=https://carlosdanieljimenez.com/post/ title=Posts><span>Posts</span></a></li><li><a href=https://carlosdanieljimenez.com/archive/ title=Archive><span>Archive</span></a></li><li><a href=https://carlosdanieljimenez.com/about/ title=About><span>About</span></a></li><li><a href=https://carlosdanieljimenez.com/search/ title="Search (Alt + /)" accesskey=/><span>Search</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">Clean White Theme for Hugo</h1><div class=post-meta><span title='2019-01-09 00:00:00 +0000 UTC'>January 9, 2019</span>&nbsp;·&nbsp;<span>赵化冰</span></div></header><div class=post-content><h1 id=clean-white-theme-for-hugo>Clean White Theme for Hugo<a hidden class=anchor aria-hidden=true href=#clean-white-theme-for-hugo>#</a></h1><p>CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live <a href=https://zhaohuabing.com>demo site</a> using this theme.</p><p>It is based on <a href=https://github.com/Huxpro/huxpro.github.io>huxblog Jekyll Theme</a>
+and <a href=https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll>Clean Blog Jekyll Theme</a>.</p><p>These two upstream projects have done awesome jobs to create a blog theme, what I&rsquo;m doing here is porting it to Hugo, of which I like the simplicity and the much faster compiling speed. Some other features which I think could be useful, such as site search with algolia and proxy for Disqus access in China, have also been built in the CleanWhite theme. Other fancy features of upstream projects are not supported by this Hugo theme, I&rsquo;d like to make it as simple as possible and only focus on blog purpose, at least for now.
+While I created this theme, I followed the Hugo theme best practice and tried to make every part of the template as a replaceable partial html, so it could be much easier for you to make your customization based on it.</p><h2 id=screenshots>Screenshots<a hidden class=anchor aria-hidden=true href=#screenshots>#</a></h2><p><strong>Home</strong>
+<img alt=screenshot loading=lazy src=/img/fullscreenshot.png></p><p><strong>Post</strong>
+<img alt=screenshot loading=lazy src=/img/post.png></p><p><strong>Search</strong>
+<img alt=screenshot loading=lazy src=/img/sitesearch.png></p><p><strong>Disqus</strong>
+<img alt=screenshot loading=lazy src=/img/disqus.png></p><p><strong>Wechat Pay & Alipay</strong>
+<img alt=screenshot loading=lazy src=/img/rewards.png></p><h2 id=quick-start>Quick Start<a hidden class=anchor aria-hidden=true href=#quick-start>#</a></h2><p>Go to the directory where you have your Hugo site and run:</p><pre tabindex=0><code>$ mkdir themes
 $ cd themes
 $ git clone https://github.com/zhaohuabing/hugo-theme-cleanwhite.git
-</code></pre><p>If your site is already a git project, you may want to choose to add the cleanwhite theme as a submodule to avoid messing up your existing git repository.</p>
-<pre tabindex="0"><code>$ mkdir themes
+</code></pre><p>If your site is already a git project, you may want to choose to add the cleanwhite theme as a submodule to avoid messing up your existing git repository.</p><pre tabindex=0><code>$ mkdir themes
 $ git submodule add https://github.com/zhaohuabing/hugo-theme-cleanwhite.git themes/hugo-theme-cleanwhite
-</code></pre><p>Run  Hugo Build-in Server Locally</p>
-<pre tabindex="0"><code>$ hugo serve -t  hugo-theme-cleanwhite
-</code></pre><p>Now enter <a href="http://localhost:1313"><code>localhost:1313</code></a> in the address bar of your browser.</p>
-<p>If you start from scratch, there is a working Hugo site configured with the CleanWhite theme in the <a href="https://github.com/zhaohuabing/hugo-theme-cleanwhite/tree/master/exampleSite">exampleSite</a> directory.  You can use it as a starting point for your site.</p>
-<p>For more information read the official <a href="https://gohugo.io/overview/installing/">setup guide</a> of Hugo</p>
-<h2 id="configuration">Configuration<a hidden class="anchor" aria-hidden="true" href="#configuration">#</a></h2>
-<p>First, let&rsquo;s take a look at the <a href="https://github.com/zhaohuabing/hugo-cleanwhite-theme/tree/master/exampleSite/config.toml">config.toml</a>. It will be useful to learn how to customize your site. Feel free to play around with the settings.</p>
-<h3 id="comments">Comments<a hidden class="anchor" aria-hidden="true" href="#comments">#</a></h3>
-<p>The optional comments system is powered by <a href="https://disqus.com">Disqus</a>. If you want to enable comments, create an account in Disqus and write down your shortname.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">disqusShortname</span> <span class="p">=</span> <span class="s2">&#34;your-disqus-short-name&#34;</span>
-</span></span></code></pre></div><p>You can disable the comments system by leaving the <code>disqusShortname</code> empty.</p>
-<h3 id="disqus-in-china">Disqus in China<a hidden class="anchor" aria-hidden="true" href="#disqus-in-china">#</a></h3>
-<p>Disqus is inaccessible in China. To get it to work, we can set up a proxy with <a href="https://github.com/zhaohuabing/disqus-php-api">disqus-php-api</a> in a host which sets between the client browser and the Disqus server. The idea is that if Disqus can be reached in the guest network, the blog page will show the original Disqus comments UI, otherwise, it will downgrade and use the proxy to access the Disqus, the UI will be a little different, but the visitors can still write their comments on the page.</p>
-<p>The client side java script has already been integrated to CleanWhite them, but you need to set up a proxy server yourself.</p>
-<p>The proxy is written in php, which can be found here: <a href="https://github.com/zhaohuabing/disqus-php-api/tree/master/api">https://github.com/zhaohuabing/disqus-php-api/tree/master/api</a></p>
-<p>You need to specify  your Disqus account information in the config.php.</p>
-<pre tabindex="0"><code>define(&#39;PUBLIC_KEY&#39;, &#39;&#39;);
+</code></pre><p>Run Hugo Build-in Server Locally</p><pre tabindex=0><code>$ hugo serve -t  hugo-theme-cleanwhite
+</code></pre><p>Now enter <a href=http://localhost:1313><code>localhost:1313</code></a> in the address bar of your browser.</p><p>If you start from scratch, there is a working Hugo site configured with the CleanWhite theme in the <a href=https://github.com/zhaohuabing/hugo-theme-cleanwhite/tree/master/exampleSite>exampleSite</a> directory. You can use it as a starting point for your site.</p><p>For more information read the official <a href=https://gohugo.io/overview/installing/>setup guide</a> of Hugo</p><h2 id=configuration>Configuration<a hidden class=anchor aria-hidden=true href=#configuration>#</a></h2><p>First, let&rsquo;s take a look at the <a href=https://github.com/zhaohuabing/hugo-cleanwhite-theme/tree/master/exampleSite/config.toml>config.toml</a>. It will be useful to learn how to customize your site. Feel free to play around with the settings.</p><h3 id=comments>Comments<a hidden class=anchor aria-hidden=true href=#comments>#</a></h3><p>The optional comments system is powered by <a href=https://disqus.com>Disqus</a>. If you want to enable comments, create an account in Disqus and write down your shortname.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=nx>disqusShortname</span> <span class=p>=</span> <span class=s2>&#34;your-disqus-short-name&#34;</span>
+</span></span></code></pre></div><p>You can disable the comments system by leaving the <code>disqusShortname</code> empty.</p><h3 id=disqus-in-china>Disqus in China<a hidden class=anchor aria-hidden=true href=#disqus-in-china>#</a></h3><p>Disqus is inaccessible in China. To get it to work, we can set up a proxy with <a href=https://github.com/zhaohuabing/disqus-php-api>disqus-php-api</a> in a host which sets between the client browser and the Disqus server. The idea is that if Disqus can be reached in the guest network, the blog page will show the original Disqus comments UI, otherwise, it will downgrade and use the proxy to access the Disqus, the UI will be a little different, but the visitors can still write their comments on the page.</p><p>The client side java script has already been integrated to CleanWhite them, but you need to set up a proxy server yourself.</p><p>The proxy is written in php, which can be found here: <a href=https://github.com/zhaohuabing/disqus-php-api/tree/master/api>https://github.com/zhaohuabing/disqus-php-api/tree/master/api</a></p><p>You need to specify your Disqus account information in the config.php.</p><pre tabindex=0><code>define(&#39;PUBLIC_KEY&#39;, &#39;&#39;);
 define(&#39;SECRET_KEY&#39;, &#39;&#39;);
 define(&#39;DISQUS_USERNAME&#39;, &#39;&#39;);
 define(&#39;DISQUS_EMAIL&#39;, &#39;&#39;);
 define(&#39;DISQUS_PASSWORD&#39;, &#39;&#39;);
 define(&#39;DISQUS_WEBSITE&#39;, &#39;&#39;);
 define(&#39;DISQUS_SHORTNAME&#39;, &#39;&#39;);
-</code></pre><p>Set the proxy server address in the site config file of your Hugo project.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">disqus_proxy</span> <span class="p">=</span> <span class="s2">&#34;http://yourdisqusproxy.com&#34;</span>
-</span></span></code></pre></div><h3 id="site-search-with-algolia">Site Search with Algolia<a hidden class="anchor" aria-hidden="true" href="#site-search-with-algolia">#</a></h3>
-<p>Follow this <a href="https://forestry.io/blog/search-with-algolia-in-hugo/#3-create-your-index-in-algolia">tutorial</a> to create your index in Algolia. The index is just the storage of the indexing data of your site in the the cloud . The search page of CleanWhite theme will utilize this indexing data to do the search.</p>
-<p>Go to the directory where you have your Hugo site and run the following commands:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ npm init
-</span></span><span class="line"><span class="cl">$ npm install atomic-algolia --save
-</span></span></code></pre></div><p>Next, open up the newly created package.json, where we’ll add an NPM script to update your index at Algolia. Find &ldquo;scripts&rdquo;, and add the following:</p>
-<pre tabindex="0"><code class="language-josn" data-lang="josn">&#34;algolia&#34;: &#34;atomic-algolia&#34;
+</code></pre><p>Set the proxy server address in the site config file of your Hugo project.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=nx>disqus_proxy</span> <span class=p>=</span> <span class=s2>&#34;http://yourdisqusproxy.com&#34;</span>
+</span></span></code></pre></div><h3 id=site-search-with-algolia>Site Search with Algolia<a hidden class=anchor aria-hidden=true href=#site-search-with-algolia>#</a></h3><p>Follow this <a href=https://forestry.io/blog/search-with-algolia-in-hugo/#3-create-your-index-in-algolia>tutorial</a> to create your index in Algolia. The index is just the storage of the indexing data of your site in the the cloud . The search page of CleanWhite theme will utilize this indexing data to do the search.</p><p>Go to the directory where you have your Hugo site and run the following commands:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>$ npm init
+</span></span><span class=line><span class=cl>$ npm install atomic-algolia --save
+</span></span></code></pre></div><p>Next, open up the newly created package.json, where we’ll add an NPM script to update your index at Algolia. Find &ldquo;scripts&rdquo;, and add the following:</p><pre tabindex=0><code class=language-josn data-lang=josn>&#34;algolia&#34;: &#34;atomic-algolia&#34;
 </code></pre><p>Algolia index output format has already been supported by the CleanWhite theme, so you can just build your site, then you’ll find a file called algolia.json in the root, which we can use to update your index in Algolia.
-Generate index file:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ hugo
-</span></span></code></pre></div><p>Create a new file in the root of your Hugo project called .env, and add the following contents:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nv">ALGOLIA_APP_ID</span><span class="o">={{</span> YOUR_APP_ID <span class="o">}}</span>
-</span></span><span class="line"><span class="cl"><span class="nv">ALGOLIA_ADMIN_KEY</span><span class="o">={{</span> YOUR_ADMIN_KEY <span class="o">}}</span>
-</span></span><span class="line"><span class="cl"><span class="nv">ALGOLIA_INDEX_NAME</span><span class="o">={{</span> YOUR_INDEX_NAME <span class="o">}}</span>
-</span></span><span class="line"><span class="cl"><span class="nv">ALGOLIA_INDEX_FILE</span><span class="o">={{</span> PATH/TO/algolia.json <span class="o">}}</span>
-</span></span></code></pre></div><p>Now you can push your index to Algolia by simply running:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ npm run algolia
-</span></span></code></pre></div><p>Add the following variables to your hugo site config so the search page can get access to algolia index data in the cloud:</p>
-<pre tabindex="0"><code>algolia_search = true
+Generate index file:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>$ hugo
+</span></span></code></pre></div><p>Create a new file in the root of your Hugo project called .env, and add the following contents:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=nv>ALGOLIA_APP_ID</span><span class=o>={{</span> YOUR_APP_ID <span class=o>}}</span>
+</span></span><span class=line><span class=cl><span class=nv>ALGOLIA_ADMIN_KEY</span><span class=o>={{</span> YOUR_ADMIN_KEY <span class=o>}}</span>
+</span></span><span class=line><span class=cl><span class=nv>ALGOLIA_INDEX_NAME</span><span class=o>={{</span> YOUR_INDEX_NAME <span class=o>}}</span>
+</span></span><span class=line><span class=cl><span class=nv>ALGOLIA_INDEX_FILE</span><span class=o>={{</span> PATH/TO/algolia.json <span class=o>}}</span>
+</span></span></code></pre></div><p>Now you can push your index to Algolia by simply running:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>$ npm run algolia
+</span></span></code></pre></div><p>Add the following variables to your hugo site config so the search page can get access to algolia index data in the cloud:</p><pre tabindex=0><code>algolia_search = true
 algolia_appId = {{ YOUR_APP_ID }}
 algolia_indexName = {{ YOUR_INDEX_NAME }}
 algolia_apiKey = {{ YOUR_SEARCH_ONLY_KEY }}
-</code></pre><p>Open search page in your browser: http://localhost:1313/search</p>
-<h3 id="analytics">Analytics<a hidden class="anchor" aria-hidden="true" href="#analytics">#</a></h3>
-<p>You can optionally enable Google or Baidu Analytics. Type your tracking code in the</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">googleAnalytics</span> <span class="p">=</span> <span class="s2">&#34;G-XXXXX&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">ba_track_id</span>  <span class="p">=</span> <span class="s2">&#34;XXXXXXXXXXXXXXXX&#34;</span>
-</span></span></code></pre></div><p>Leave the <code>googleAnalytics</code>  or &lsquo;ba_track_id &rsquo; key empty to disable it.</p>
-<h3 id="wechat-pay--alipay-rewards">Wechat Pay &amp; Alipay Rewards<a hidden class="anchor" aria-hidden="true" href="#wechat-pay--alipay-rewards">#</a></h3>
-<p>You can enable Wechat Pay &amp; Alipay to allow readers send you money. So if they like your articles, you may even get rewards from your writing. Now you must be motivated to write more.</p>
-<ul>
-<li>Enable Wechat Pay &amp; Alipay in the site config</li>
-</ul>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">reward</span> <span class="p">=</span> <span class="kc">true</span>
-</span></span></code></pre></div><ul>
-<li>Replace the QR codes of Wechat Pay &amp; Alipay by overriding the photos in folder /static/img/reward/, otherwise the money will be sent to my accounts!</li>
-</ul>
-<h2 id="thank">Thank<a hidden class="anchor" aria-hidden="true" href="#thank">#</a></h2>
-<p>Thanks for the great jobs of <a href="https://github.com/Huxpro/huxpro.github.io">huxblog Jekyll Theme</a> and <a href="https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll">Clean Blog Jekyll Theme</a> which are the the two upstream projects CleanWhite Hugo theme is based on.</p>
-<h2 id="feedback">Feedback<a hidden class="anchor" aria-hidden="true" href="#feedback">#</a></h2>
-<p>If you find any problems, please feel free to <a href="https://github.com/zhaohuabing/hugo-theme-cleanwhite/issues/new">raise an issue</a> or create a pull request to fix it.</p>
-<p>If it&rsquo;s helpful for you, I would appreciate it if you could star this repository, thanks!</p>
-
-
-  </div>
-
-  <footer class="post-footer">
-    <ul class="post-tags">
-    </ul>
-  </footer>
-</article>
-    </main>
-    
-<footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">The Probability Engine</a></span> · 
-
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu');
-    if (menu) {
-        
-        const scrollPosition = localStorage.getItem("menu-scroll-position");
-        if (scrollPosition) {
-            menu.scrollLeft = parseInt(scrollPosition, 10);
-        }
-        
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        const html = document.querySelector("html");
-        if (html.dataset.theme === "dark") {
-            html.dataset.theme = 'light';
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            html.dataset.theme = 'dark';
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
-</body>
-
-</html>
+</code></pre><p>Open search page in your browser: http://localhost:1313/search</p><h3 id=analytics>Analytics<a hidden class=anchor aria-hidden=true href=#analytics>#</a></h3><p>You can optionally enable Google or Baidu Analytics. Type your tracking code in the</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=nx>googleAnalytics</span> <span class=p>=</span> <span class=s2>&#34;G-XXXXX&#34;</span>
+</span></span><span class=line><span class=cl><span class=nx>ba_track_id</span>  <span class=p>=</span> <span class=s2>&#34;XXXXXXXXXXXXXXXX&#34;</span>
+</span></span></code></pre></div><p>Leave the <code>googleAnalytics</code> or &lsquo;ba_track_id &rsquo; key empty to disable it.</p><h3 id=wechat-pay--alipay-rewards>Wechat Pay & Alipay Rewards<a hidden class=anchor aria-hidden=true href=#wechat-pay--alipay-rewards>#</a></h3><p>You can enable Wechat Pay & Alipay to allow readers send you money. So if they like your articles, you may even get rewards from your writing. Now you must be motivated to write more.</p><ul><li>Enable Wechat Pay & Alipay in the site config</li></ul><div class=highlight><pre tabindex=0 class=chroma><code class=language-toml data-lang=toml><span class=line><span class=cl><span class=nx>reward</span> <span class=p>=</span> <span class=kc>true</span>
+</span></span></code></pre></div><ul><li>Replace the QR codes of Wechat Pay & Alipay by overriding the photos in folder /static/img/reward/, otherwise the money will be sent to my accounts!</li></ul><h2 id=thank>Thank<a hidden class=anchor aria-hidden=true href=#thank>#</a></h2><p>Thanks for the great jobs of <a href=https://github.com/Huxpro/huxpro.github.io>huxblog Jekyll Theme</a> and <a href=https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll>Clean Blog Jekyll Theme</a> which are the the two upstream projects CleanWhite Hugo theme is based on.</p><h2 id=feedback>Feedback<a hidden class=anchor aria-hidden=true href=#feedback>#</a></h2><p>If you find any problems, please feel free to <a href=https://github.com/zhaohuabing/hugo-theme-cleanwhite/issues/new>raise an issue</a> or create a pull request to fix it.</p><p>If it&rsquo;s helpful for you, I would appreciate it if you could star this repository, thanks!</p></div><footer class=post-footer><ul class=post-tags></ul></footer></article></main><footer class=footer><span>&copy; 2026 <a href=https://carlosdanieljimenez.com/>The Probability Engine</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>
