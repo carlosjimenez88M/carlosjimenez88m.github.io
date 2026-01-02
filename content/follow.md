@@ -8,9 +8,15 @@ layout: "page"
 
 Get notified when I publish new content about MLOps, Edge AI, Raspberry Pi, NVIDIA Jetson, and Agentic Systems.
 
-### 📡 RSS Feed (Recommended)
+### 📧 Email Newsletter (Coming Soon)
 
-The best way to follow this blog is through RSS. Add this feed to your favorite RSS reader:
+I'm setting up an email newsletter! Get posts delivered directly to your inbox. Newsletter service launching soon.
+
+<!-- Add your newsletter signup form here once configured -->
+
+### 📡 RSS Feed (Available Now)
+
+The best way to follow this blog right now is through RSS. Add this feed to your favorite RSS reader:
 
 **Feed URL:** [https://carlosdanieljimenez.com/index.xml](https://carlosdanieljimenez.com/index.xml)
 
@@ -20,10 +26,11 @@ The best way to follow this blog is through RSS. Add this feed to your favorite 
 - [NetNewsWire](https://netnewswire.com/) (Mac/iOS)
 - [Reeder](https://reederapp.com/) (iOS/Mac)
 
-### 🐦 Social Media
+### 🌐 Social Media
 
 Follow me on social media for updates, insights, and discussions:
 
+- **LinkedIn:** [Carlos Daniel Jiménez](https://www.linkedin.com/in/djimenezm)
 - **Twitter/X:** [@DanielJimenezM9](https://x.com/DanielJimenezM9)
 - **GitHub:** [@carlosjimenez88M](https://github.com/carlosjimenez88M)
 - **Email:** [danieljimenez88m@gmail.com](mailto:danieljimenez88m@gmail.com)
@@ -36,7 +43,3 @@ Subscribe to specific topics via category feeds:
 - **Agentic AI:** [/agentic-ai/index.xml](/agentic-ai/index.xml)
 - **Edge Computing:** [/edge-computing/index.xml](/edge-computing/index.xml)
 - **TidyTuesday:** [/tidytuesday/index.xml](/tidytuesday/index.xml)
-
----
-
-**Note:** I don't have a newsletter service. RSS is the primary way to follow new posts, giving you full control over your reading experience without email clutter.

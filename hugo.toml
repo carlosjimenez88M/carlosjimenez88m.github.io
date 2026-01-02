@@ -65,6 +65,10 @@ enableEmoji = true
     url = "https://x.com/DanielJimenezM9"
 
   [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/djimenezm"
+
+  [[params.socialIcons]]
     name = "github"
     url = "https://github.com/carlosjimenez88M"
 
