@@ -1,37 +1,359 @@
-<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>MLflow for Generative AI Systems | The Probability Engine</title>
-<meta name=keywords content><meta name=description content="MLflow for Generative AI Systems
-I&rsquo;ll start this post by recalling what Hayen said in her book Designing Machine Learning Systems (2022): &lsquo;Systems are meant to learn&rsquo;. This statement reflects a simple fact: today, LLMs and to a lesser extent vision language models are winning in the Data Science world. But how do we measure this learning? RLHF work is always a good indicator that perplexity will improve, but let&rsquo;s return to a key point: LLMs must work as a system, therefore debugging is important, and that&rsquo;s where the necessary tool for every Data Scientist, AI Engineer, ML Engineer, and MLOps Engineer comes in: MLflow."><meta name=author content="Carlos Daniel Jiménez"><link rel=canonical href=https://carlosdanieljimenez.com/post/mlflow_genai/><link crossorigin=anonymous href=/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css integrity="sha256-NDzEgLn/yPBMy+XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as=style><link rel=icon href=https://carlosdanieljimenez.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://carlosdanieljimenez.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://carlosdanieljimenez.com/favicon-32x32.png><link rel=apple-touch-icon href=https://carlosdanieljimenez.com/apple-touch-icon.png><link rel=mask-icon href=https://carlosdanieljimenez.com/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://carlosdanieljimenez.com/post/mlflow_genai/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}@media(prefers-color-scheme:light){.list::-webkit-scrollbar-thumb{border-color:var(--code-bg)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><meta property="og:url" content="https://carlosdanieljimenez.com/post/mlflow_genai/"><meta property="og:site_name" content="The Probability Engine"><meta property="og:title" content="MLflow for Generative AI Systems"><meta property="og:description" content="MLflow for Generative AI Systems I’ll start this post by recalling what Hayen said in her book Designing Machine Learning Systems (2022): ‘Systems are meant to learn’. This statement reflects a simple fact: today, LLMs and to a lesser extent vision language models are winning in the Data Science world. But how do we measure this learning? RLHF work is always a good indicator that perplexity will improve, but let’s return to a key point: LLMs must work as a system, therefore debugging is important, and that’s where the necessary tool for every Data Scientist, AI Engineer, ML Engineer, and MLOps Engineer comes in: MLflow."><meta property="og:locale" content="en-us"><meta property="og:type" content="article"><meta property="article:section" content="post"><meta property="article:published_time" content="2025-10-08T00:00:00+00:00"><meta property="article:modified_time" content="2025-10-08T00:00:00+00:00"><meta name=twitter:card content="summary"><meta name=twitter:title content="MLflow for Generative AI Systems"><meta name=twitter:description content="MLflow for Generative AI Systems
-I&rsquo;ll start this post by recalling what Hayen said in her book Designing Machine Learning Systems (2022): &lsquo;Systems are meant to learn&rsquo;. This statement reflects a simple fact: today, LLMs and to a lesser extent vision language models are winning in the Data Science world. But how do we measure this learning? RLHF work is always a good indicator that perplexity will improve, but let&rsquo;s return to a key point: LLMs must work as a system, therefore debugging is important, and that&rsquo;s where the necessary tool for every Data Scientist, AI Engineer, ML Engineer, and MLOps Engineer comes in: MLflow."><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://carlosdanieljimenez.com/post/"},{"@type":"ListItem","position":2,"name":"MLflow for Generative AI Systems","item":"https://carlosdanieljimenez.com/post/mlflow_genai/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"MLflow for Generative AI Systems","name":"MLflow for Generative AI Systems","description":"MLflow for Generative AI Systems I\u0026rsquo;ll start this post by recalling what Hayen said in her book Designing Machine Learning Systems (2022): \u0026lsquo;Systems are meant to learn\u0026rsquo;. This statement reflects a simple fact: today, LLMs and to a lesser extent vision language models are winning in the Data Science world. But how do we measure this learning? RLHF work is always a good indicator that perplexity will improve, but let\u0026rsquo;s return to a key point: LLMs must work as a system, therefore debugging is important, and that\u0026rsquo;s where the necessary tool for every Data Scientist, AI Engineer, ML Engineer, and MLOps Engineer comes in: MLflow.\n","keywords":[],"articleBody":"MLflow for Generative AI Systems I’ll start this post by recalling what Hayen said in her book Designing Machine Learning Systems (2022): ‘Systems are meant to learn’. This statement reflects a simple fact: today, LLMs and to a lesser extent vision language models are winning in the Data Science world. But how do we measure this learning? RLHF work is always a good indicator that perplexity will improve, but let’s return to a key point: LLMs must work as a system, therefore debugging is important, and that’s where the necessary tool for every Data Scientist, AI Engineer, ML Engineer, and MLOps Engineer comes in: MLflow.\nWhat problems can MLflow solve at the Generative AI level? Working with GenAI is qualitatively different from traditional ML:\nYou can’t debug easily. A single query can trigger 15 different operations (LLM → retrieval → ranking → LLM again). When something fails, where? Traditional metrics don’t apply. There’s no single “correct value” — remember this always. The answer can be good in multiple ways. A “model” is no longer a file. It’s code + prompts + tools + configuration. Everything must move together. Three new capabilities 1. Tracing: Seeing what’s happening The idea is simple: capture each step of your GenAI application as a hierarchical structure.\nimport mlflow # For LangChain or LlamaIndex: one line mlflow.langchain.autolog() # For your custom code: a decorator @mlflow.trace def my_retrieval_function(query): # your logic here return results This gives you:\nA view of all steps in order Latency of each operation Tokens consumed (costs) → important for control and evaluation of each run at the operation level Inputs and outputs at each point When to use it: Always. The overhead is minimal and the visibility is invaluable.\n2. Systematic evaluation with LLMs You can’t use accuracy to evaluate “is this response useful?”. MLflow uses LLMs as evaluators.\nThere are four approaches, ordered by complexity:\nPredefined scorers → Standard metrics already configured\nfrom mlflow.metrics.genai import relevance Guidelines → Rules in natural language\nguidelines = \"The response must be concise and not mention prices\" make_judge() → Your own custom evaluator\njudge = mlflow.metrics.genai.make_judge( definition=\"Evaluate if the response directly answers the question\" ) Agent-as-a-Judge → Evaluates the complete process, not just the output\njudge = make_judge( definition=\"Evaluate if the agent used the correct tool\", trace_aware=True ) You can also capture human feedback and attach it to traces. This is useful for:\nValidating your automated evaluators Building evaluation datasets from real cases Iterating on problems that users actually encounter 3. Versioning complete applications The problem: your “model” is now Python code that defines an agent. Serializing the object doesn’t work well.\nThe solution: version the code directly.\nmlflow.langchain.log_model( lc_model=\"agent.py\", # Path to file artifact_path=\"agent\" ) MLflow packages:\nThe source code Dependencies (conda.yaml, requirements.txt) Everything needed to reproduce the behavior When you load the model, you get exactly what you saved.\nBonus: Model registry webhooks for automation. When you mark a version as “production”, you can automatically trigger your deployment pipeline. I’ll talk about MLproject, which is a contract manager, in another post.\nHow to get started Step 1: Add tracing to your existing application\nmlflow.langchain.autolog() Step 2: Run your application and look at traces in the MLflow UI. Identify bottlenecks.\nStep 3: Set up basic evaluation with predefined scorers\nresult = mlflow.evaluate( model=my_agent, data=test_cases, metrics=[relevance(), correctness()] ) Step 4: When you have a working agent, version it with “Models from Code”\nStep 5: Iterate. Add custom judges as you understand which metrics really matter for your use case.\nLimitations and trade-offs Some things you should know:\nLLM-as-a-Judge isn’t perfect. Evaluators can be biased or wrong. Always validate with human feedback on a sample. Tracing adds overhead. It’s small, but it exists. For high-volume production, consider sampling and especially post-stratified representation issues. Evaluation has a cost. Each evaluation with an LLM consumes tokens. For large datasets, this adds up. Integration isn’t magic. If you use unsupported libraries, you need manual tracing. Why this matters I’ve seen teams build their own ad-hoc solutions for these problems. They usually end up with:\nCustom logging scripts that nobody else understands Manual evaluation that doesn’t scale Versioning that consists of “copying the folder with a timestamp” MLflow isn’t perfect, but it provides sensible primitives for these common problems. It’s better to have an imperfect system that everyone uses than ten perfect systems that nobody shares.\nResources Tracing documentation: mlflow.org/docs/latest/tracing Evaluation guide: mlflow.org/docs/latest/llm-eval Examples on GitHub: mlflow/mlflow-examples ","wordCount":"737","inLanguage":"en","datePublished":"2025-10-08T00:00:00Z","dateModified":"2025-10-08T00:00:00Z","author":{"@type":"Person","name":"Carlos Daniel Jiménez"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://carlosdanieljimenez.com/post/mlflow_genai/"},"publisher":{"@type":"Organization","name":"The Probability Engine","logo":{"@type":"ImageObject","url":"https://carlosdanieljimenez.com/favicon.ico"}}}</script></head><body id=top><header class=header><nav class=nav><div class=logo><a href=https://carlosdanieljimenez.com/ accesskey=h title="The Probability Engine (Alt + H)">The Probability Engine</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://carlosdanieljimenez.com/mlops/ title=MLOps><span>MLOps</span></a></li><li><a href=https://carlosdanieljimenez.com/raspberry-pi/ title="Raspberry Pi"><span>Raspberry Pi</span></a></li><li><a href=https://carlosdanieljimenez.com/jetson/ title=Jetson><span>Jetson</span></a></li><li><a href=https://carlosdanieljimenez.com/agentic-ai/ title="Agentic AI"><span>Agentic AI</span></a></li><li><a href=https://carlosdanieljimenez.com/tidytuesday/ title=TidyTuesday><span>TidyTuesday</span></a></li><li><a href=https://carlosdanieljimenez.com/edge-computing/ title="Edge Computing"><span>Edge Computing</span></a></li><li><a href=https://carlosdanieljimenez.com/post/ title=Posts><span>Posts</span></a></li><li><a href=https://carlosdanieljimenez.com/archive/ title=Archive><span>Archive</span></a></li><li><a href=https://carlosdanieljimenez.com/about/ title=About><span>About</span></a></li><li><a href=https://carlosdanieljimenez.com/search/ title="Search (Alt + /)" accesskey=/><span>Search</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">MLflow for Generative AI Systems</h1><div class=post-meta><span title='2025-10-08 00:00:00 +0000 UTC'>October 8, 2025</span>&nbsp;·&nbsp;<span>Carlos Daniel Jiménez</span></div></header><div class=post-content><h1 id=mlflow-for-generative-ai-systems>MLflow for Generative AI Systems<a hidden class=anchor aria-hidden=true href=#mlflow-for-generative-ai-systems>#</a></h1><p>I&rsquo;ll start this post by recalling what Hayen said in her book <strong>Designing Machine Learning Systems (2022): &lsquo;Systems are meant to learn&rsquo;.</strong> This statement reflects a simple fact: today, LLMs and to a lesser extent vision language models are winning in the Data Science world. But how do we measure this learning? RLHF work is always a good indicator that perplexity will improve, but let&rsquo;s return to a key point: LLMs must work as a system, therefore debugging is important, and that&rsquo;s where the necessary tool for every Data Scientist, AI Engineer, ML Engineer, and MLOps Engineer comes in: MLflow.</p><h2 id=what-problems-can-mlflow-solve-at-the-generative-ai-level>What problems can MLflow solve at the Generative AI level?<a hidden class=anchor aria-hidden=true href=#what-problems-can-mlflow-solve-at-the-generative-ai-level>#</a></h2><p>Working with GenAI is qualitatively different from traditional ML:</p><ul><li><strong>You can&rsquo;t debug easily.</strong> A single query can trigger 15 different operations (LLM → retrieval → ranking → LLM again). When something fails, where?</li><li><strong>Traditional metrics don&rsquo;t apply.</strong> There&rsquo;s no single <strong>&ldquo;correct value&rdquo;</strong> — remember this always. The answer can be good in multiple ways.</li><li><strong>A &ldquo;model&rdquo; is no longer a file.</strong> It&rsquo;s code + prompts + tools + configuration. Everything must move together.</li></ul><h2 id=three-new-capabilities>Three new capabilities<a hidden class=anchor aria-hidden=true href=#three-new-capabilities>#</a></h2><h3 id=1-tracing-seeing-whats-happening>1. Tracing: Seeing what&rsquo;s happening<a hidden class=anchor aria-hidden=true href=#1-tracing-seeing-whats-happening>#</a></h3><p>The idea is simple: capture each step of your GenAI application as a hierarchical structure.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=kn>import</span> <span class=nn>mlflow</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=c1># For LangChain or LlamaIndex: one line</span>
-</span></span><span class=line><span class=cl><span class=n>mlflow</span><span class=o>.</span><span class=n>langchain</span><span class=o>.</span><span class=n>autolog</span><span class=p>()</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=c1># For your custom code: a decorator</span>
-</span></span><span class=line><span class=cl><span class=nd>@mlflow.trace</span> 
-</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>my_retrieval_function</span><span class=p>(</span><span class=n>query</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>    <span class=c1># your logic here</span>
-</span></span><span class=line><span class=cl>    <span class=k>return</span> <span class=n>results</span>
-</span></span></code></pre></div><p>This gives you:</p><ul><li>A view of all steps in order</li><li>Latency of each operation</li><li>Tokens consumed (costs) → important for control and evaluation of each run at the operation level</li><li>Inputs and outputs at each point</li></ul><p><strong>When to use it:</strong> Always. The overhead is minimal and the visibility is invaluable.</p><h3 id=2-systematic-evaluation-with-llms>2. Systematic evaluation with LLMs<a hidden class=anchor aria-hidden=true href=#2-systematic-evaluation-with-llms>#</a></h3><p>You can&rsquo;t use accuracy to evaluate &ldquo;is this response useful?&rdquo;. MLflow uses LLMs as evaluators.</p><p>There are four approaches, ordered by complexity:</p><ol><li><p><strong>Predefined scorers</strong> → Standard metrics already configured</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=kn>from</span> <span class=nn>mlflow.metrics.genai</span> <span class=kn>import</span> <span class=n>relevance</span>
-</span></span></code></pre></div></li><li><p><strong>Guidelines</strong> → Rules in natural language</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>guidelines</span> <span class=o>=</span> <span class=s2>&#34;The response must be concise and not mention prices&#34;</span>
-</span></span></code></pre></div></li><li><p><strong>make_judge()</strong> → Your own custom evaluator</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>judge</span> <span class=o>=</span> <span class=n>mlflow</span><span class=o>.</span><span class=n>metrics</span><span class=o>.</span><span class=n>genai</span><span class=o>.</span><span class=n>make_judge</span><span class=p>(</span>
-</span></span><span class=line><span class=cl>    <span class=n>definition</span><span class=o>=</span><span class=s2>&#34;Evaluate if the response directly answers the question&#34;</span>
-</span></span><span class=line><span class=cl><span class=p>)</span>
-</span></span></code></pre></div></li><li><p><strong>Agent-as-a-Judge</strong> → Evaluates the complete process, not just the output</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>judge</span> <span class=o>=</span> <span class=n>make_judge</span><span class=p>(</span>
-</span></span><span class=line><span class=cl>    <span class=n>definition</span><span class=o>=</span><span class=s2>&#34;Evaluate if the agent used the correct tool&#34;</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>    <span class=n>trace_aware</span><span class=o>=</span><span class=kc>True</span>
-</span></span><span class=line><span class=cl><span class=p>)</span>
-</span></span></code></pre></div></li></ol><p>You can also capture human feedback and attach it to traces. This is useful for:</p><ul><li>Validating your automated evaluators</li><li>Building evaluation datasets from real cases</li><li>Iterating on problems that users actually encounter</li></ul><h3 id=3-versioning-complete-applications>3. Versioning complete applications<a hidden class=anchor aria-hidden=true href=#3-versioning-complete-applications>#</a></h3><p>The problem: your &ldquo;model&rdquo; is now Python code that defines an agent. Serializing the object doesn&rsquo;t work well.</p><p>The solution: version the code directly.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>mlflow</span><span class=o>.</span><span class=n>langchain</span><span class=o>.</span><span class=n>log_model</span><span class=p>(</span>
-</span></span><span class=line><span class=cl>    <span class=n>lc_model</span><span class=o>=</span><span class=s2>&#34;agent.py&#34;</span><span class=p>,</span>  <span class=c1># Path to file</span>
-</span></span><span class=line><span class=cl>    <span class=n>artifact_path</span><span class=o>=</span><span class=s2>&#34;agent&#34;</span>
-</span></span><span class=line><span class=cl><span class=p>)</span>
-</span></span></code></pre></div><p>MLflow packages:</p><ul><li>The source code</li><li>Dependencies (conda.yaml, requirements.txt)</li><li>Everything needed to reproduce the behavior</li></ul><p>When you load the model, you get exactly what you saved.</p><p><strong>Bonus:</strong> Model registry webhooks for automation. When you mark a version as &ldquo;production&rdquo;, you can automatically trigger your deployment pipeline. I&rsquo;ll talk about MLproject, which is a contract manager, in another post.</p><h2 id=how-to-get-started>How to get started<a hidden class=anchor aria-hidden=true href=#how-to-get-started>#</a></h2><p><strong>Step 1:</strong> Add tracing to your existing application</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>mlflow</span><span class=o>.</span><span class=n>langchain</span><span class=o>.</span><span class=n>autolog</span><span class=p>()</span>
-</span></span></code></pre></div><p><strong>Step 2:</strong> Run your application and look at traces in the MLflow UI. Identify bottlenecks.</p><p><strong>Step 3:</strong> Set up basic evaluation with predefined scorers</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>result</span> <span class=o>=</span> <span class=n>mlflow</span><span class=o>.</span><span class=n>evaluate</span><span class=p>(</span>
-</span></span><span class=line><span class=cl>    <span class=n>model</span><span class=o>=</span><span class=n>my_agent</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>    <span class=n>data</span><span class=o>=</span><span class=n>test_cases</span><span class=p>,</span>
-</span></span><span class=line><span class=cl>    <span class=n>metrics</span><span class=o>=</span><span class=p>[</span><span class=n>relevance</span><span class=p>(),</span> <span class=n>correctness</span><span class=p>()]</span>
-</span></span><span class=line><span class=cl><span class=p>)</span>
-</span></span></code></pre></div><p><strong>Step 4:</strong> When you have a working agent, version it with &ldquo;Models from Code&rdquo;</p><p><strong>Step 5:</strong> Iterate. Add custom judges as you understand which metrics really matter for your use case.</p><h2 id=limitations-and-trade-offs>Limitations and trade-offs<a hidden class=anchor aria-hidden=true href=#limitations-and-trade-offs>#</a></h2><p>Some things you should know:</p><ul><li><strong>LLM-as-a-Judge isn&rsquo;t perfect.</strong> Evaluators can be biased or wrong. Always validate with human feedback on a sample.</li><li><strong>Tracing adds overhead.</strong> It&rsquo;s small, but it exists. For high-volume production, consider sampling and especially post-stratified representation issues.</li><li><strong>Evaluation has a cost.</strong> Each evaluation with an LLM consumes tokens. For large datasets, this adds up.</li><li><strong>Integration isn&rsquo;t magic.</strong> If you use unsupported libraries, you need manual tracing.</li></ul><h2 id=why-this-matters>Why this matters<a hidden class=anchor aria-hidden=true href=#why-this-matters>#</a></h2><p>I&rsquo;ve seen teams build their own ad-hoc solutions for these problems. They usually end up with:</p><ul><li>Custom logging scripts that nobody else understands</li><li>Manual evaluation that doesn&rsquo;t scale</li><li>Versioning that consists of &ldquo;copying the folder with a timestamp&rdquo;</li></ul><p>MLflow isn&rsquo;t perfect, but it provides sensible primitives for these common problems. It&rsquo;s better to have an imperfect system that everyone uses than ten perfect systems that nobody shares.</p><h2 id=resources>Resources<a hidden class=anchor aria-hidden=true href=#resources>#</a></h2><ul><li>Tracing documentation: <code>mlflow.org/docs/latest/tracing</code></li><li>Evaluation guide: <code>mlflow.org/docs/latest/llm-eval</code></li><li>Examples on GitHub: <code>mlflow/mlflow-examples</code></li></ul></div><footer class=post-footer><ul class=post-tags></ul></footer></article></main><footer class=footer><span>&copy; 2026 <a href=https://carlosdanieljimenez.com/>The Probability Engine</a></span> ·
-<span>Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
-</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>MLflow for Generative AI Systems | The Probability Engine</title>
+<meta name="keywords" content="">
+<meta name="description" content="MLflow for Generative AI Systems
+I&rsquo;ll start this post by recalling what Hayen said in her book Designing Machine Learning Systems (2022): &lsquo;Systems are meant to learn&rsquo;. This statement reflects a simple fact: today, LLMs and to a lesser extent vision language models are winning in the Data Science world. But how do we measure this learning? RLHF work is always a good indicator that perplexity will improve, but let&rsquo;s return to a key point: LLMs must work as a system, therefore debugging is important, and that&rsquo;s where the necessary tool for every Data Scientist, AI Engineer, ML Engineer, and MLOps Engineer comes in: MLflow.">
+<meta name="author" content="Carlos Daniel Jiménez">
+<link rel="canonical" href="http://localhost:1313/post/mlflow_genai/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/post/mlflow_genai/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="The Probability Engine (Alt + H)">The Probability Engine</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/mlops/" title="MLOps">
+                    <span>MLOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/agentic-ai/" title="Agentic AI">
+                    <span>Agentic AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tidytuesday/" title="TidyTuesday">
+                    <span>TidyTuesday</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/post/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/edge-computing/" title="Edge Computing">
+                    <span>Edge Computing</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archive/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      MLflow for Generative AI Systems
+    </h1>
+    <div class="post-meta"><span title='2025-10-08 00:00:00 +0000 UTC'>October 8, 2025</span>&nbsp;·&nbsp;<span>Carlos Daniel Jiménez</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h1 id="mlflow-for-generative-ai-systems">MLflow for Generative AI Systems<a hidden class="anchor" aria-hidden="true" href="#mlflow-for-generative-ai-systems">#</a></h1>
+<p>I&rsquo;ll start this post by recalling what Hayen said in her book <strong>Designing Machine Learning Systems (2022): &lsquo;Systems are meant to learn&rsquo;.</strong> This statement reflects a simple fact: today, LLMs and to a lesser extent vision language models are winning in the Data Science world. But how do we measure this learning? RLHF work is always a good indicator that perplexity will improve, but let&rsquo;s return to a key point: LLMs must work as a system, therefore debugging is important, and that&rsquo;s where the necessary tool for every Data Scientist, AI Engineer, ML Engineer, and MLOps Engineer comes in: MLflow.</p>
+<h2 id="what-problems-can-mlflow-solve-at-the-generative-ai-level">What problems can MLflow solve at the Generative AI level?<a hidden class="anchor" aria-hidden="true" href="#what-problems-can-mlflow-solve-at-the-generative-ai-level">#</a></h2>
+<p>Working with GenAI is qualitatively different from traditional ML:</p>
+<ul>
+<li><strong>You can&rsquo;t debug easily.</strong> A single query can trigger 15 different operations (LLM → retrieval → ranking → LLM again). When something fails, where?</li>
+<li><strong>Traditional metrics don&rsquo;t apply.</strong> There&rsquo;s no single <strong>&ldquo;correct value&rdquo;</strong> — remember this always. The answer can be good in multiple ways.</li>
+<li><strong>A &ldquo;model&rdquo; is no longer a file.</strong> It&rsquo;s code + prompts + tools + configuration. Everything must move together.</li>
+</ul>
+<h2 id="three-new-capabilities">Three new capabilities<a hidden class="anchor" aria-hidden="true" href="#three-new-capabilities">#</a></h2>
+<h3 id="1-tracing-seeing-whats-happening">1. Tracing: Seeing what&rsquo;s happening<a hidden class="anchor" aria-hidden="true" href="#1-tracing-seeing-whats-happening">#</a></h3>
+<p>The idea is simple: capture each step of your GenAI application as a hierarchical structure.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">mlflow</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># For LangChain or LlamaIndex: one line</span>
+</span></span><span class="line"><span class="cl"><span class="n">mlflow</span><span class="o">.</span><span class="n">langchain</span><span class="o">.</span><span class="n">autolog</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># For your custom code: a decorator</span>
+</span></span><span class="line"><span class="cl"><span class="nd">@mlflow.trace</span> 
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">my_retrieval_function</span><span class="p">(</span><span class="n">query</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># your logic here</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">results</span>
+</span></span></code></pre></div><p>This gives you:</p>
+<ul>
+<li>A view of all steps in order</li>
+<li>Latency of each operation</li>
+<li>Tokens consumed (costs) → important for control and evaluation of each run at the operation level</li>
+<li>Inputs and outputs at each point</li>
+</ul>
+<p><strong>When to use it:</strong> Always. The overhead is minimal and the visibility is invaluable.</p>
+<h3 id="2-systematic-evaluation-with-llms">2. Systematic evaluation with LLMs<a hidden class="anchor" aria-hidden="true" href="#2-systematic-evaluation-with-llms">#</a></h3>
+<p>You can&rsquo;t use accuracy to evaluate &ldquo;is this response useful?&rdquo;. MLflow uses LLMs as evaluators.</p>
+<p>There are four approaches, ordered by complexity:</p>
+<ol>
+<li>
+<p><strong>Predefined scorers</strong> → Standard metrics already configured</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">mlflow.metrics.genai</span> <span class="kn">import</span> <span class="n">relevance</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Guidelines</strong> → Rules in natural language</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">guidelines</span> <span class="o">=</span> <span class="s2">&#34;The response must be concise and not mention prices&#34;</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>make_judge()</strong> → Your own custom evaluator</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">judge</span> <span class="o">=</span> <span class="n">mlflow</span><span class="o">.</span><span class="n">metrics</span><span class="o">.</span><span class="n">genai</span><span class="o">.</span><span class="n">make_judge</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">definition</span><span class="o">=</span><span class="s2">&#34;Evaluate if the response directly answers the question&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Agent-as-a-Judge</strong> → Evaluates the complete process, not just the output</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">judge</span> <span class="o">=</span> <span class="n">make_judge</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">definition</span><span class="o">=</span><span class="s2">&#34;Evaluate if the agent used the correct tool&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">trace_aware</span><span class="o">=</span><span class="kc">True</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span></code></pre></div></li>
+</ol>
+<p>You can also capture human feedback and attach it to traces. This is useful for:</p>
+<ul>
+<li>Validating your automated evaluators</li>
+<li>Building evaluation datasets from real cases</li>
+<li>Iterating on problems that users actually encounter</li>
+</ul>
+<h3 id="3-versioning-complete-applications">3. Versioning complete applications<a hidden class="anchor" aria-hidden="true" href="#3-versioning-complete-applications">#</a></h3>
+<p>The problem: your &ldquo;model&rdquo; is now Python code that defines an agent. Serializing the object doesn&rsquo;t work well.</p>
+<p>The solution: version the code directly.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">mlflow</span><span class="o">.</span><span class="n">langchain</span><span class="o">.</span><span class="n">log_model</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">lc_model</span><span class="o">=</span><span class="s2">&#34;agent.py&#34;</span><span class="p">,</span>  <span class="c1"># Path to file</span>
+</span></span><span class="line"><span class="cl">    <span class="n">artifact_path</span><span class="o">=</span><span class="s2">&#34;agent&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span></code></pre></div><p>MLflow packages:</p>
+<ul>
+<li>The source code</li>
+<li>Dependencies (conda.yaml, requirements.txt)</li>
+<li>Everything needed to reproduce the behavior</li>
+</ul>
+<p>When you load the model, you get exactly what you saved.</p>
+<p><strong>Bonus:</strong> Model registry webhooks for automation. When you mark a version as &ldquo;production&rdquo;, you can automatically trigger your deployment pipeline. I&rsquo;ll talk about MLproject, which is a contract manager, in another post.</p>
+<h2 id="how-to-get-started">How to get started<a hidden class="anchor" aria-hidden="true" href="#how-to-get-started">#</a></h2>
+<p><strong>Step 1:</strong> Add tracing to your existing application</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">mlflow</span><span class="o">.</span><span class="n">langchain</span><span class="o">.</span><span class="n">autolog</span><span class="p">()</span>
+</span></span></code></pre></div><p><strong>Step 2:</strong> Run your application and look at traces in the MLflow UI. Identify bottlenecks.</p>
+<p><strong>Step 3:</strong> Set up basic evaluation with predefined scorers</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">result</span> <span class="o">=</span> <span class="n">mlflow</span><span class="o">.</span><span class="n">evaluate</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">model</span><span class="o">=</span><span class="n">my_agent</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">data</span><span class="o">=</span><span class="n">test_cases</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">metrics</span><span class="o">=</span><span class="p">[</span><span class="n">relevance</span><span class="p">(),</span> <span class="n">correctness</span><span class="p">()]</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span></code></pre></div><p><strong>Step 4:</strong> When you have a working agent, version it with &ldquo;Models from Code&rdquo;</p>
+<p><strong>Step 5:</strong> Iterate. Add custom judges as you understand which metrics really matter for your use case.</p>
+<h2 id="limitations-and-trade-offs">Limitations and trade-offs<a hidden class="anchor" aria-hidden="true" href="#limitations-and-trade-offs">#</a></h2>
+<p>Some things you should know:</p>
+<ul>
+<li><strong>LLM-as-a-Judge isn&rsquo;t perfect.</strong> Evaluators can be biased or wrong. Always validate with human feedback on a sample.</li>
+<li><strong>Tracing adds overhead.</strong> It&rsquo;s small, but it exists. For high-volume production, consider sampling and especially post-stratified representation issues.</li>
+<li><strong>Evaluation has a cost.</strong> Each evaluation with an LLM consumes tokens. For large datasets, this adds up.</li>
+<li><strong>Integration isn&rsquo;t magic.</strong> If you use unsupported libraries, you need manual tracing.</li>
+</ul>
+<h2 id="why-this-matters">Why this matters<a hidden class="anchor" aria-hidden="true" href="#why-this-matters">#</a></h2>
+<p>I&rsquo;ve seen teams build their own ad-hoc solutions for these problems. They usually end up with:</p>
+<ul>
+<li>Custom logging scripts that nobody else understands</li>
+<li>Manual evaluation that doesn&rsquo;t scale</li>
+<li>Versioning that consists of &ldquo;copying the folder with a timestamp&rdquo;</li>
+</ul>
+<p>MLflow isn&rsquo;t perfect, but it provides sensible primitives for these common problems. It&rsquo;s better to have an imperfect system that everyone uses than ten perfect systems that nobody shares.</p>
+<h2 id="resources">Resources<a hidden class="anchor" aria-hidden="true" href="#resources">#</a></h2>
+<ul>
+<li>Tracing documentation: <code>mlflow.org/docs/latest/tracing</code></li>
+<li>Evaluation guide: <code>mlflow.org/docs/latest/llm-eval</code></li>
+<li>Examples on GitHub: <code>mlflow/mlflow-examples</code></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">The Probability Engine</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

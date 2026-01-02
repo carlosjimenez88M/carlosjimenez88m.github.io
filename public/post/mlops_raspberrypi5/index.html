@@ -1,82 +1,405 @@
-<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>MLops into Raspberry Pi 5 | The Probability Engine</title>
-<meta name=keywords content="raspberry-pi,mlflow,edge-ai"><meta name=description content="A robust implementation of facilities for MLOps development"><meta name=author content="Carlos Daniel Jiménez"><link rel=canonical href=https://carlosdanieljimenez.com/post/mlops_raspberrypi5/><link crossorigin=anonymous href=/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css integrity="sha256-NDzEgLn/yPBMy+XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as=style><link rel=icon href=https://carlosdanieljimenez.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://carlosdanieljimenez.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://carlosdanieljimenez.com/favicon-32x32.png><link rel=apple-touch-icon href=https://carlosdanieljimenez.com/apple-touch-icon.png><link rel=mask-icon href=https://carlosdanieljimenez.com/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://carlosdanieljimenez.com/post/mlops_raspberrypi5/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}@media(prefers-color-scheme:light){.list::-webkit-scrollbar-thumb{border-color:var(--code-bg)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><meta property="og:url" content="https://carlosdanieljimenez.com/post/mlops_raspberrypi5/"><meta property="og:site_name" content="The Probability Engine"><meta property="og:title" content="MLops into Raspberry Pi 5"><meta property="og:description" content="A robust implementation of facilities for MLOps development"><meta property="og:locale" content="en-us"><meta property="og:type" content="article"><meta property="article:section" content="post"><meta property="article:published_time" content="2025-02-23T00:00:00+00:00"><meta property="article:modified_time" content="2025-02-23T00:00:00+00:00"><meta property="article:tag" content="Raspberry-Pi"><meta property="article:tag" content="Mlflow"><meta property="article:tag" content="Edge-Ai"><meta name=twitter:card content="summary"><meta name=twitter:title content="MLops into Raspberry Pi 5"><meta name=twitter:description content="A robust implementation of facilities for MLOps development"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://carlosdanieljimenez.com/post/"},{"@type":"ListItem","position":2,"name":"MLops into Raspberry Pi 5","item":"https://carlosdanieljimenez.com/post/mlops_raspberrypi5/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"MLops into Raspberry Pi 5","name":"MLops into Raspberry Pi 5","description":"A robust implementation of facilities for MLOps development","keywords":["raspberry-pi","mlflow","edge-ai"],"articleBody":"One of the tools I use most for practicing MLOps, both for designing pipelines and APIs (for inference), is the Raspberry Pi. Today, I spent several hours trying to install Visual Studio Code to complement my iPad Pro as a development tool.\nWhy this setup? 🤔 Improve programming skills—I am a big fan of using Weights \u0026 Biases (W\u0026B) to monitor the resource usage of each service I create. Using the Raspberry Pi as a server allows me to test Edge computing deployments. For scalable prototype development, it’s a great way to test artifacts and the lifecycle of models. When designing a model from hyperparameters, it helps me fine-tune grid search or Bayesian methods efficiently to optimize experimentation. Running MLflow on Edge computing enables optimization in model registry and updates. Using Docker and Kubernetes helps ensure clean code before committing changes. There are many more reasons, but these are the main ones. Now, how do you set up Raspberry Pi to unlock its full power for MLOps?\n🔧 Setting Up Raspberry Pi for MLOps First, install the Raspberry Pi OS. There are many tutorials, but I prefer the official documentation:\n🔗 Raspberry Pi OS Installation\nNext, find the Raspberry Pi’s IP address to connect to it from the iPad or another computer:\nhostname -I This will return something like 192.168.1.100 2601:123456. You can then connect via SSH:\nssh pi@192.168.1.100 After entering the password (set during installation), welcome to your new server! 🎉\n1️⃣ Installing Conda on Raspberry Pi By default, Python comes pre-installed. Now, install Conda using:\nwget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-aarch64.sh bash Miniforge3-Linux-aarch64.sh 2️⃣ Installing MLflow Once Conda is installed, install MLflow:\npip install mlflow 3️⃣ Installing Docker To set up Docker, use:\nsudo apt update \u0026\u0026 sudo apt upgrade -y sudo apt install -y docker.io For advanced edge computing, you can explore DockerPi: 🔗 DockerPi\n4️⃣ Installing Tmux and Neovim To improve terminal workflow and coding experience, install Tmux and Neovim:\nsudo apt update \u0026\u0026 sudo apt install -y tmux For Neovim:\nsudo apt update sudo apt install -y neovim python3-neovim 🔹 Neovim Configuration for Python Development To configure Neovim for a better coding experience:\nmkdir -p ~/.config/nvim nano ~/.config/nvim/init.vim Paste the following Neovim config for line numbers, syntax highlighting, and autocompletion:\n\" --- General Settings --- set number \" Show line numbers set mouse=a \" Enable mouse support set cursorline \" Highlight the current line set expandtab \" Use spaces instead of tabs set shiftwidth=4 \" Indentation size set tabstop=4 \" Tab size set autoindent \" Maintain indentation set smartindent \" Smart indentation set background=dark \" Dark theme set termguicolors \" Enable true colors set encoding=utf-8 \" UTF-8 support syntax on \" Enable syntax highlighting filetype plugin indent on \" Enable plugins and indentation \" --- Plugins --- call plug#begin('~/.vim/plugged') \" File explorer Plug 'preservim/nerdtree' \" Autocompletion Plug 'neoclide/coc.nvim', {'branch': 'release'} \" Language server support Plug 'neovim/nvim-lspconfig' \" Improved syntax highlighting Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} \" Status bar Plug 'vim-airline/vim-airline' call plug#end() \" --- Keybindings --- nnoremap \u003cC-n\u003e :NERDTreeToggle\u003cCR\u003e \" Open/close file explorer nnoremap \u003cC-p\u003e :Files\u003cCR\u003e \" Quick file search \" --- coc.nvim Configuration --- let g:coc_global_extensions = ['coc-python', 'coc-json', 'coc-html', 'coc-tsserver'] \" Auto-format Python code on save autocmd BufWritePre *.py :Black 5️⃣ Installing and Configuring VS Code (code-server) 🚀 Installing code-server curl -fsSL https://code-server.dev/install.sh | sh 🚀 Enabling code-server sudo systemctl enable --now code-server@$USER If the service is masked:\nsudo systemctl unmask code-server@$USER sudo systemctl restart code-server@$USER 🚀 Checking code-server status sudo systemctl status code-server@$USER If active (running) appears, code-server is working.\n6️⃣ Configuring code-server for iPad Access Edit the config file:\nnano ~/.config/code-server/config.yaml Set the following configuration:\nbind-addr: 0.0.0.0:8080 # Change port if needed auth: none # Disable authentication (or use password) cert: false # No HTTPS Save (Ctrl + X, Y, Enter), then restart:\nsudo systemctl restart code-server@$USER Check the correct port:\nsudo netstat -tulpn | grep LISTEN 7️⃣ Accessing VS Code from the iPad Open Safari or Chrome on the iPad and enter:\nhttp://:8080 For example:\nhttp://192.179.1.100:8080 To find your Raspberry Pi’s IP:\nhostname -I ✅ If everything is correct, VS Code (code-server) will open in the browser.\n8️⃣ Troubleshooting 🔹 If code-server doesn’t load Check if code-server is running: sudo systemctl status code-server@$USER Try accessing from Raspberry Pi itself: curl -v http://127.0.0.1:8080 Ensure Raspberry Pi and iPad are on the same network. 🔹 If the port is occupied (EADDRINUSE) Kill previous processes: pkill -f code-server Restart code-server: sudo systemctl restart code-server@$USER Verify the port: sudo netstat -tulpn | grep LISTEN With this setup, your Raspberry Pi 5 becomes a powerful MLOps workstation. 🚀🔥\nLet me know in the comments if you have questions!\n","wordCount":"768","inLanguage":"en","datePublished":"2025-02-23T00:00:00Z","dateModified":"2025-02-23T00:00:00Z","author":{"@type":"Person","name":"Carlos Daniel Jiménez"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://carlosdanieljimenez.com/post/mlops_raspberrypi5/"},"publisher":{"@type":"Organization","name":"The Probability Engine","logo":{"@type":"ImageObject","url":"https://carlosdanieljimenez.com/favicon.ico"}}}</script></head><body id=top><header class=header><nav class=nav><div class=logo><a href=https://carlosdanieljimenez.com/ accesskey=h title="The Probability Engine (Alt + H)">The Probability Engine</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://carlosdanieljimenez.com/mlops/ title=MLOps><span>MLOps</span></a></li><li><a href=https://carlosdanieljimenez.com/raspberry-pi/ title="Raspberry Pi"><span>Raspberry Pi</span></a></li><li><a href=https://carlosdanieljimenez.com/jetson/ title=Jetson><span>Jetson</span></a></li><li><a href=https://carlosdanieljimenez.com/agentic-ai/ title="Agentic AI"><span>Agentic AI</span></a></li><li><a href=https://carlosdanieljimenez.com/tidytuesday/ title=TidyTuesday><span>TidyTuesday</span></a></li><li><a href=https://carlosdanieljimenez.com/edge-computing/ title="Edge Computing"><span>Edge Computing</span></a></li><li><a href=https://carlosdanieljimenez.com/post/ title=Posts><span>Posts</span></a></li><li><a href=https://carlosdanieljimenez.com/archive/ title=Archive><span>Archive</span></a></li><li><a href=https://carlosdanieljimenez.com/about/ title=About><span>About</span></a></li><li><a href=https://carlosdanieljimenez.com/search/ title="Search (Alt + /)" accesskey=/><span>Search</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">MLops into Raspberry Pi 5</h1><div class=post-description>A robust implementation of facilities for MLOps development</div><div class=post-meta><span title='2025-02-23 00:00:00 +0000 UTC'>February 23, 2025</span>&nbsp;·&nbsp;<span>Carlos Daniel Jiménez</span></div></header><div class=post-content><p>One of the tools I use most for practicing <strong>MLOps</strong>, both for designing pipelines and APIs (for inference), is the <strong>Raspberry Pi</strong>. Today, I spent several hours trying to install <strong>Visual Studio Code</strong> to complement my <strong>iPad Pro</strong> as a development tool.</p><h2 id=why-this-setup-><strong>Why this setup?</strong> 🤔<a hidden class=anchor aria-hidden=true href=#why-this-setup->#</a></h2><ul><li>Improve programming skills—I am a big fan of using <strong>Weights & Biases (W&amp;B)</strong> to monitor the resource usage of each service I create.</li><li>Using the <strong>Raspberry Pi as a server</strong> allows me to test <strong>Edge computing</strong> deployments.</li><li>For <strong>scalable prototype development</strong>, it’s a great way to test artifacts and the <strong>lifecycle of models</strong>.</li><li>When designing a model from <strong>hyperparameters</strong>, it helps me fine-tune <strong>grid search</strong> or <strong>Bayesian methods</strong> efficiently to optimize experimentation.</li><li>Running <strong>MLflow on Edge computing</strong> enables <strong>optimization</strong> in model registry and updates.</li><li><strong>Using Docker and Kubernetes</strong> helps ensure <strong>clean code</strong> before committing changes.</li></ul><p>There are many more reasons, but these are the main ones. Now, how do you set up <strong>Raspberry Pi</strong> to unlock its full power for MLOps?</p><hr><h2 id=-setting-up-raspberry-pi-for-mlops><strong>🔧 Setting Up Raspberry Pi for MLOps</strong><a hidden class=anchor aria-hidden=true href=#-setting-up-raspberry-pi-for-mlops>#</a></h2><p>First, install the <strong>Raspberry Pi OS</strong>. There are many tutorials, but I prefer the <strong>official documentation</strong>:</p><p>🔗 <a href=https://www.raspberrypi.com/software/>Raspberry Pi OS Installation</a></p><p>Next, <strong>find the Raspberry Pi’s IP address</strong> to connect to it from the iPad or another computer:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>hostname -I
-</span></span></code></pre></div><p>This will return something like <code>192.168.1.100 2601:123456</code>. You can then connect via SSH:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>ssh pi@192.168.1.100
-</span></span></code></pre></div><p>After entering the password (set during installation), <strong>welcome to your new server</strong>! 🎉</p><hr><h2 id=1-installing-conda-on-raspberry-pi><strong>1️⃣ Installing Conda on Raspberry Pi</strong><a hidden class=anchor aria-hidden=true href=#1-installing-conda-on-raspberry-pi>#</a></h2><p>By default, <strong>Python</strong> comes pre-installed. Now, install <strong>Conda</strong> using:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-aarch64.sh
-</span></span><span class=line><span class=cl>bash Miniforge3-Linux-aarch64.sh
-</span></span></code></pre></div><hr><h2 id=2-installing-mlflow><strong>2️⃣ Installing MLflow</strong><a hidden class=anchor aria-hidden=true href=#2-installing-mlflow>#</a></h2><p>Once Conda is installed, install <strong>MLflow</strong>:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>pip install mlflow
-</span></span></code></pre></div><hr><h2 id=3-installing-docker><strong>3️⃣ Installing Docker</strong><a hidden class=anchor aria-hidden=true href=#3-installing-docker>#</a></h2><p>To set up <strong>Docker</strong>, use:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>sudo apt update <span class=o>&amp;&amp;</span> sudo apt upgrade -y
-</span></span><span class=line><span class=cl>sudo apt install -y docker.io
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>MLops into Raspberry Pi 5 | The Probability Engine</title>
+<meta name="keywords" content="raspberry-pi, mlflow, edge-ai">
+<meta name="description" content="A robust implementation of facilities for MLOps development">
+<meta name="author" content="Carlos Daniel Jiménez">
+<link rel="canonical" href="http://localhost:1313/post/mlops_raspberrypi5/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/post/mlops_raspberrypi5/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="The Probability Engine (Alt + H)">The Probability Engine</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/mlops/" title="MLOps">
+                    <span>MLOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/agentic-ai/" title="Agentic AI">
+                    <span>Agentic AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tidytuesday/" title="TidyTuesday">
+                    <span>TidyTuesday</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/post/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/edge-computing/" title="Edge Computing">
+                    <span>Edge Computing</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archive/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      MLops into Raspberry Pi 5
+    </h1>
+    <div class="post-description">
+      A robust implementation of facilities for MLOps development
+    </div>
+    <div class="post-meta"><span title='2025-02-23 00:00:00 +0000 UTC'>February 23, 2025</span>&nbsp;·&nbsp;<span>Carlos Daniel Jiménez</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>One of the tools I use most for practicing <strong>MLOps</strong>, both for designing pipelines and APIs (for inference), is the <strong>Raspberry Pi</strong>. Today, I spent several hours trying to install <strong>Visual Studio Code</strong> to complement my <strong>iPad Pro</strong> as a development tool.</p>
+<h2 id="why-this-setup-"><strong>Why this setup?</strong> 🤔<a hidden class="anchor" aria-hidden="true" href="#why-this-setup-">#</a></h2>
+<ul>
+<li>Improve programming skills—I am a big fan of using <strong>Weights &amp; Biases (W&amp;B)</strong> to monitor the resource usage of each service I create.</li>
+<li>Using the <strong>Raspberry Pi as a server</strong> allows me to test <strong>Edge computing</strong> deployments.</li>
+<li>For <strong>scalable prototype development</strong>, it’s a great way to test artifacts and the <strong>lifecycle of models</strong>.</li>
+<li>When designing a model from <strong>hyperparameters</strong>, it helps me fine-tune <strong>grid search</strong> or <strong>Bayesian methods</strong> efficiently to optimize experimentation.</li>
+<li>Running <strong>MLflow on Edge computing</strong> enables <strong>optimization</strong> in model registry and updates.</li>
+<li><strong>Using Docker and Kubernetes</strong> helps ensure <strong>clean code</strong> before committing changes.</li>
+</ul>
+<p>There are many more reasons, but these are the main ones. Now, how do you set up <strong>Raspberry Pi</strong> to unlock its full power for MLOps?</p>
+<hr>
+<h2 id="-setting-up-raspberry-pi-for-mlops"><strong>🔧 Setting Up Raspberry Pi for MLOps</strong><a hidden class="anchor" aria-hidden="true" href="#-setting-up-raspberry-pi-for-mlops">#</a></h2>
+<p>First, install the <strong>Raspberry Pi OS</strong>. There are many tutorials, but I prefer the <strong>official documentation</strong>:</p>
+<p>🔗 <a href="https://www.raspberrypi.com/software/">Raspberry Pi OS Installation</a></p>
+<p>Next, <strong>find the Raspberry Pi’s IP address</strong> to connect to it from the iPad or another computer:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hostname -I
+</span></span></code></pre></div><p>This will return something like <code>192.168.1.100 2601:123456</code>. You can then connect via SSH:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ssh pi@192.168.1.100
+</span></span></code></pre></div><p>After entering the password (set during installation), <strong>welcome to your new server</strong>! 🎉</p>
+<hr>
+<h2 id="1-installing-conda-on-raspberry-pi"><strong>1️⃣ Installing Conda on Raspberry Pi</strong><a hidden class="anchor" aria-hidden="true" href="#1-installing-conda-on-raspberry-pi">#</a></h2>
+<p>By default, <strong>Python</strong> comes pre-installed. Now, install <strong>Conda</strong> using:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">wget https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-aarch64.sh
+</span></span><span class="line"><span class="cl">bash Miniforge3-Linux-aarch64.sh
+</span></span></code></pre></div><hr>
+<h2 id="2-installing-mlflow"><strong>2️⃣ Installing MLflow</strong><a hidden class="anchor" aria-hidden="true" href="#2-installing-mlflow">#</a></h2>
+<p>Once Conda is installed, install <strong>MLflow</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pip install mlflow
+</span></span></code></pre></div><hr>
+<h2 id="3-installing-docker"><strong>3️⃣ Installing Docker</strong><a hidden class="anchor" aria-hidden="true" href="#3-installing-docker">#</a></h2>
+<p>To set up <strong>Docker</strong>, use:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt update <span class="o">&amp;&amp;</span> sudo apt upgrade -y
+</span></span><span class="line"><span class="cl">sudo apt install -y docker.io
 </span></span></code></pre></div><p>For <strong>advanced edge computing</strong>, you can explore <strong>DockerPi</strong>:
-🔗 <a href=https://github.com/lukechilds/dockerpi>DockerPi</a></p><hr><h2 id=4-installing-tmux-and-neovim><strong>4️⃣ Installing Tmux and Neovim</strong><a hidden class=anchor aria-hidden=true href=#4-installing-tmux-and-neovim>#</a></h2><p>To improve terminal workflow and coding experience, install <strong>Tmux</strong> and <strong>Neovim</strong>:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>sudo apt update <span class=o>&amp;&amp;</span> sudo apt install -y tmux
-</span></span></code></pre></div><p>For <strong>Neovim</strong>:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>sudo apt update
-</span></span><span class=line><span class=cl>sudo apt install -y neovim python3-neovim
-</span></span></code></pre></div><h3 id=-neovim-configuration-for-python-development><strong>🔹 Neovim Configuration for Python Development</strong><a hidden class=anchor aria-hidden=true href=#-neovim-configuration-for-python-development>#</a></h3><p>To configure <strong>Neovim</strong> for a better coding experience:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>mkdir -p ~/.config/nvim
-</span></span><span class=line><span class=cl>nano ~/.config/nvim/init.vim
-</span></span></code></pre></div><p>Paste the following <strong>Neovim config</strong> for <strong>line numbers, syntax highlighting, and autocompletion</strong>:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-vim data-lang=vim><span class=line><span class=cl><span class=c>&#34; --- General Settings ---</span>
-</span></span><span class=line><span class=cl><span class=k>set</span> <span class=nx>number</span>            <span class=c>&#34; Show line numbers</span>
-</span></span><span class=line><span class=cl><span class=k>set</span> <span class=nx>mouse</span><span class=p>=</span><span class=nx>a</span>           <span class=c>&#34; Enable mouse support</span>
-</span></span><span class=line><span class=cl><span class=k>set</span> <span class=nx>cursorline</span>        <span class=c>&#34; Highlight the current line</span>
-</span></span><span class=line><span class=cl><span class=k>set</span> <span class=nx>expandtab</span>         <span class=c>&#34; Use spaces instead of tabs</span>
-</span></span><span class=line><span class=cl><span class=k>set</span> <span class=nx>shiftwidth</span><span class=p>=</span><span class=m>4</span>      <span class=c>&#34; Indentation size</span>
-</span></span><span class=line><span class=cl><span class=k>set</span> <span class=nx>tabstop</span><span class=p>=</span><span class=m>4</span>         <span class=c>&#34; Tab size</span>
-</span></span><span class=line><span class=cl><span class=k>set</span> <span class=nx>autoindent</span>        <span class=c>&#34; Maintain indentation</span>
-</span></span><span class=line><span class=cl><span class=k>set</span> <span class=nx>smartindent</span>       <span class=c>&#34; Smart indentation</span>
-</span></span><span class=line><span class=cl><span class=k>set</span> <span class=nx>background</span><span class=p>=</span><span class=nb>dark</span>   <span class=c>&#34; Dark theme</span>
-</span></span><span class=line><span class=cl><span class=k>set</span> <span class=nx>termguicolors</span>     <span class=c>&#34; Enable true colors</span>
-</span></span><span class=line><span class=cl><span class=k>set</span> <span class=nx>encoding</span><span class=p>=</span><span class=nx>utf</span><span class=m>-8</span>    <span class=c>&#34; UTF-8 support</span>
-</span></span><span class=line><span class=cl><span class=k>syntax</span> <span class=nx>on</span>             <span class=c>&#34; Enable syntax highlighting</span>
-</span></span><span class=line><span class=cl><span class=k>filetype</span> <span class=nx>plugin</span> <span class=nx>indent</span> <span class=nx>on</span> <span class=c>&#34; Enable plugins and indentation</span>
-</span></span><span class=line><span class=cl><span class=c>
-</span></span></span><span class=line><span class=cl><span class=c>&#34; --- Plugins ---</span>
-</span></span><span class=line><span class=cl><span class=nx>call</span> <span class=nx>plug</span>#<span class=nx>begin</span><span class=p>(</span><span class=s1>&#39;~/.vim/plugged&#39;</span><span class=p>)</span>
-</span></span><span class=line><span class=cl><span class=c>
-</span></span></span><span class=line><span class=cl><span class=c>&#34; File explorer</span>
-</span></span><span class=line><span class=cl><span class=nx>Plug</span> <span class=s1>&#39;preservim/nerdtree&#39;</span>
-</span></span><span class=line><span class=cl><span class=c>
-</span></span></span><span class=line><span class=cl><span class=c>&#34; Autocompletion</span>
-</span></span><span class=line><span class=cl><span class=nx>Plug</span> <span class=s1>&#39;neoclide/coc.nvim&#39;</span><span class=p>,</span> {<span class=s1>&#39;branch&#39;</span>: <span class=s1>&#39;release&#39;</span>}
-</span></span><span class=line><span class=cl><span class=c>
-</span></span></span><span class=line><span class=cl><span class=c>&#34; Language server support</span>
-</span></span><span class=line><span class=cl><span class=nx>Plug</span> <span class=s1>&#39;neovim/nvim-lspconfig&#39;</span>
-</span></span><span class=line><span class=cl><span class=c>
-</span></span></span><span class=line><span class=cl><span class=c>&#34; Improved syntax highlighting</span>
-</span></span><span class=line><span class=cl><span class=nx>Plug</span> <span class=s1>&#39;nvim-treesitter/nvim-treesitter&#39;</span><span class=p>,</span> {<span class=s1>&#39;do&#39;</span>: <span class=s1>&#39;:TSUpdate&#39;</span>}
-</span></span><span class=line><span class=cl><span class=c>
-</span></span></span><span class=line><span class=cl><span class=c>&#34; Status bar</span>
-</span></span><span class=line><span class=cl><span class=nx>Plug</span> <span class=s1>&#39;vim-airline/vim-airline&#39;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=nx>call</span> <span class=nx>plug</span>#<span class=nx>end</span><span class=p>()</span>
-</span></span><span class=line><span class=cl><span class=c>
-</span></span></span><span class=line><span class=cl><span class=c>&#34; --- Keybindings ---</span>
-</span></span><span class=line><span class=cl><span class=nx>nnoremap</span> <span class=p>&lt;</span><span class=nx>C</span><span class=p>-</span><span class=nx>n</span><span class=p>&gt;</span> :<span class=nx>NERDTreeToggle</span><span class=p>&lt;</span><span class=nx>CR</span><span class=p>&gt;</span> <span class=c>&#34; Open/close file explorer</span>
-</span></span><span class=line><span class=cl><span class=nx>nnoremap</span> <span class=p>&lt;</span><span class=nx>C</span><span class=p>-</span><span class=nx>p</span><span class=p>&gt;</span> :<span class=nx>Files</span><span class=p>&lt;</span><span class=nx>CR</span><span class=p>&gt;</span> <span class=c>&#34; Quick file search</span>
-</span></span><span class=line><span class=cl><span class=c>
-</span></span></span><span class=line><span class=cl><span class=c>&#34; --- coc.nvim Configuration ---</span>
-</span></span><span class=line><span class=cl><span class=k>let</span> <span class=nx>g</span>:<span class=nx>coc_global_extensions</span> <span class=p>=</span> [<span class=s1>&#39;coc-python&#39;</span><span class=p>,</span> <span class=s1>&#39;coc-json&#39;</span><span class=p>,</span> <span class=s1>&#39;coc-html&#39;</span><span class=p>,</span> <span class=s1>&#39;coc-tsserver&#39;</span>]
-</span></span><span class=line><span class=cl><span class=c>
-</span></span></span><span class=line><span class=cl><span class=c>&#34; Auto-format Python code on save</span>
-</span></span><span class=line><span class=cl><span class=k>autocmd</span> <span class=nx>BufWritePre</span> *.<span class=nx>py</span> :<span class=nx>Black</span>
-</span></span></code></pre></div><hr><h2 id=5-installing-and-configuring-vs-code-><strong>5️⃣ Installing and Configuring VS Code (<code>code-server</code>)</strong><a hidden class=anchor aria-hidden=true href=#5-installing-and-configuring-vs-code->#</a></h2><h3 id=-installing><strong>🚀 Installing <code>code-server</code></strong><a hidden class=anchor aria-hidden=true href=#-installing>#</a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>curl -fsSL https://code-server.dev/install.sh <span class=p>|</span> sh
-</span></span></code></pre></div><h3 id=-enabling><strong>🚀 Enabling <code>code-server</code></strong><a hidden class=anchor aria-hidden=true href=#-enabling>#</a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>sudo systemctl <span class=nb>enable</span> --now code-server@<span class=nv>$USER</span>
-</span></span></code></pre></div><p>If the service is masked:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>sudo systemctl unmask code-server@<span class=nv>$USER</span>
-</span></span><span class=line><span class=cl>sudo systemctl restart code-server@<span class=nv>$USER</span>
-</span></span></code></pre></div><h3 id=-checking><strong>🚀 Checking <code>code-server</code> status</strong><a hidden class=anchor aria-hidden=true href=#-checking>#</a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>sudo systemctl status code-server@<span class=nv>$USER</span>
-</span></span></code></pre></div><p>If <strong>active (running)</strong> appears, <code>code-server</code> is working.</p><hr><h2 id=6-configuring><strong>6️⃣ Configuring <code>code-server</code> for iPad Access</strong><a hidden class=anchor aria-hidden=true href=#6-configuring>#</a></h2><p>Edit the config file:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>nano ~/.config/code-server/config.yaml
-</span></span></code></pre></div><p>Set the following configuration:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=line><span class=cl><span class=nt>bind-addr</span><span class=p>:</span><span class=w> </span><span class=m>0.0.0.0</span><span class=p>:</span><span class=m>8080</span><span class=w>  </span><span class=c># Change port if needed</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>auth</span><span class=p>:</span><span class=w> </span><span class=l>none              </span><span class=w> </span><span class=c># Disable authentication (or use password)</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>cert</span><span class=p>:</span><span class=w> </span><span class=kc>false</span><span class=w>              </span><span class=c># No HTTPS</span><span class=w>
-</span></span></span></code></pre></div><p>Save (<code>Ctrl + X</code>, <code>Y</code>, <code>Enter</code>), then restart:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>sudo systemctl restart code-server@<span class=nv>$USER</span>
-</span></span></code></pre></div><p>Check the correct port:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>sudo netstat -tulpn <span class=p>|</span> grep LISTEN
-</span></span></code></pre></div><hr><h2 id=7-accessing-vs-code-from-the-ipad><strong>7️⃣ Accessing VS Code from the iPad</strong><a hidden class=anchor aria-hidden=true href=#7-accessing-vs-code-from-the-ipad>#</a></h2><p>Open <strong>Safari or Chrome</strong> on the iPad and enter:</p><pre tabindex=0><code>http://&lt;RASPBERRY_PI_IP&gt;:8080
-</code></pre><p>For example:</p><pre tabindex=0><code>http://192.179.1.100:8080
-</code></pre><p>To find your Raspberry Pi’s IP:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>hostname -I
-</span></span></code></pre></div><p>✅ If everything is correct, <strong>VS Code (<code>code-server</code>) will open in the browser</strong>.</p><hr><h2 id=8-troubleshooting><strong>8️⃣ Troubleshooting</strong><a hidden class=anchor aria-hidden=true href=#8-troubleshooting>#</a></h2><h3 id=-if><strong>🔹 If <code>code-server</code> doesn’t load</strong><a hidden class=anchor aria-hidden=true href=#-if>#</a></h3><ol><li>Check if <code>code-server</code> is running:<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>sudo systemctl status code-server@<span class=nv>$USER</span>
-</span></span></code></pre></div></li><li>Try accessing from Raspberry Pi itself:<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>curl -v http://127.0.0.1:8080
-</span></span></code></pre></div></li><li>Ensure Raspberry Pi and iPad are on the <strong>same network</strong>.</li></ol><h3 id=-if-the-port-is-occupied-><strong>🔹 If the port is occupied (<code>EADDRINUSE</code>)</strong><a hidden class=anchor aria-hidden=true href=#-if-the-port-is-occupied->#</a></h3><ol><li>Kill previous processes:<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>pkill -f code-server
-</span></span></code></pre></div></li><li>Restart <code>code-server</code>:<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>sudo systemctl restart code-server@<span class=nv>$USER</span>
-</span></span></code></pre></div></li><li>Verify the port:<div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>sudo netstat -tulpn <span class=p>|</span> grep LISTEN
-</span></span></code></pre></div></li></ol><hr><p>With this setup, your <strong>Raspberry Pi 5</strong> becomes a <strong>powerful MLOps workstation</strong>. 🚀🔥<br>Let me know in the comments if you have questions!</p></div><footer class=post-footer><ul class=post-tags><li><a href=https://carlosdanieljimenez.com/tags/raspberry-pi/>Raspberry-Pi</a></li><li><a href=https://carlosdanieljimenez.com/tags/mlflow/>Mlflow</a></li><li><a href=https://carlosdanieljimenez.com/tags/edge-ai/>Edge-Ai</a></li></ul></footer></article></main><footer class=footer><span>&copy; 2026 <a href=https://carlosdanieljimenez.com/>The Probability Engine</a></span> ·
-<span>Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
-</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>
+🔗 <a href="https://github.com/lukechilds/dockerpi">DockerPi</a></p>
+<hr>
+<h2 id="4-installing-tmux-and-neovim"><strong>4️⃣ Installing Tmux and Neovim</strong><a hidden class="anchor" aria-hidden="true" href="#4-installing-tmux-and-neovim">#</a></h2>
+<p>To improve terminal workflow and coding experience, install <strong>Tmux</strong> and <strong>Neovim</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt update <span class="o">&amp;&amp;</span> sudo apt install -y tmux
+</span></span></code></pre></div><p>For <strong>Neovim</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt update
+</span></span><span class="line"><span class="cl">sudo apt install -y neovim python3-neovim
+</span></span></code></pre></div><h3 id="-neovim-configuration-for-python-development"><strong>🔹 Neovim Configuration for Python Development</strong><a hidden class="anchor" aria-hidden="true" href="#-neovim-configuration-for-python-development">#</a></h3>
+<p>To configure <strong>Neovim</strong> for a better coding experience:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir -p ~/.config/nvim
+</span></span><span class="line"><span class="cl">nano ~/.config/nvim/init.vim
+</span></span></code></pre></div><p>Paste the following <strong>Neovim config</strong> for <strong>line numbers, syntax highlighting, and autocompletion</strong>:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-vim" data-lang="vim"><span class="line"><span class="cl"><span class="c">&#34; --- General Settings ---</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">number</span>            <span class="c">&#34; Show line numbers</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">mouse</span><span class="p">=</span><span class="nx">a</span>           <span class="c">&#34; Enable mouse support</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">cursorline</span>        <span class="c">&#34; Highlight the current line</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">expandtab</span>         <span class="c">&#34; Use spaces instead of tabs</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">shiftwidth</span><span class="p">=</span><span class="m">4</span>      <span class="c">&#34; Indentation size</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">tabstop</span><span class="p">=</span><span class="m">4</span>         <span class="c">&#34; Tab size</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">autoindent</span>        <span class="c">&#34; Maintain indentation</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">smartindent</span>       <span class="c">&#34; Smart indentation</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">background</span><span class="p">=</span><span class="nb">dark</span>   <span class="c">&#34; Dark theme</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">termguicolors</span>     <span class="c">&#34; Enable true colors</span>
+</span></span><span class="line"><span class="cl"><span class="k">set</span> <span class="nx">encoding</span><span class="p">=</span><span class="nx">utf</span><span class="m">-8</span>    <span class="c">&#34; UTF-8 support</span>
+</span></span><span class="line"><span class="cl"><span class="k">syntax</span> <span class="nx">on</span>             <span class="c">&#34; Enable syntax highlighting</span>
+</span></span><span class="line"><span class="cl"><span class="k">filetype</span> <span class="nx">plugin</span> <span class="nx">indent</span> <span class="nx">on</span> <span class="c">&#34; Enable plugins and indentation</span>
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">&#34; --- Plugins ---</span>
+</span></span><span class="line"><span class="cl"><span class="nx">call</span> <span class="nx">plug</span>#<span class="nx">begin</span><span class="p">(</span><span class="s1">&#39;~/.vim/plugged&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">&#34; File explorer</span>
+</span></span><span class="line"><span class="cl"><span class="nx">Plug</span> <span class="s1">&#39;preservim/nerdtree&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">&#34; Autocompletion</span>
+</span></span><span class="line"><span class="cl"><span class="nx">Plug</span> <span class="s1">&#39;neoclide/coc.nvim&#39;</span><span class="p">,</span> {<span class="s1">&#39;branch&#39;</span>: <span class="s1">&#39;release&#39;</span>}
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">&#34; Language server support</span>
+</span></span><span class="line"><span class="cl"><span class="nx">Plug</span> <span class="s1">&#39;neovim/nvim-lspconfig&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">&#34; Improved syntax highlighting</span>
+</span></span><span class="line"><span class="cl"><span class="nx">Plug</span> <span class="s1">&#39;nvim-treesitter/nvim-treesitter&#39;</span><span class="p">,</span> {<span class="s1">&#39;do&#39;</span>: <span class="s1">&#39;:TSUpdate&#39;</span>}
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">&#34; Status bar</span>
+</span></span><span class="line"><span class="cl"><span class="nx">Plug</span> <span class="s1">&#39;vim-airline/vim-airline&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">call</span> <span class="nx">plug</span>#<span class="nx">end</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">&#34; --- Keybindings ---</span>
+</span></span><span class="line"><span class="cl"><span class="nx">nnoremap</span> <span class="p">&lt;</span><span class="nx">C</span><span class="p">-</span><span class="nx">n</span><span class="p">&gt;</span> :<span class="nx">NERDTreeToggle</span><span class="p">&lt;</span><span class="nx">CR</span><span class="p">&gt;</span> <span class="c">&#34; Open/close file explorer</span>
+</span></span><span class="line"><span class="cl"><span class="nx">nnoremap</span> <span class="p">&lt;</span><span class="nx">C</span><span class="p">-</span><span class="nx">p</span><span class="p">&gt;</span> :<span class="nx">Files</span><span class="p">&lt;</span><span class="nx">CR</span><span class="p">&gt;</span> <span class="c">&#34; Quick file search</span>
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">&#34; --- coc.nvim Configuration ---</span>
+</span></span><span class="line"><span class="cl"><span class="k">let</span> <span class="nx">g</span>:<span class="nx">coc_global_extensions</span> <span class="p">=</span> [<span class="s1">&#39;coc-python&#39;</span><span class="p">,</span> <span class="s1">&#39;coc-json&#39;</span><span class="p">,</span> <span class="s1">&#39;coc-html&#39;</span><span class="p">,</span> <span class="s1">&#39;coc-tsserver&#39;</span>]
+</span></span><span class="line"><span class="cl"><span class="c">
+</span></span></span><span class="line"><span class="cl"><span class="c">&#34; Auto-format Python code on save</span>
+</span></span><span class="line"><span class="cl"><span class="k">autocmd</span> <span class="nx">BufWritePre</span> *.<span class="nx">py</span> :<span class="nx">Black</span>
+</span></span></code></pre></div><hr>
+<h2 id="5-installing-and-configuring-vs-code-"><strong>5️⃣ Installing and Configuring VS Code (<code>code-server</code>)</strong><a hidden class="anchor" aria-hidden="true" href="#5-installing-and-configuring-vs-code-">#</a></h2>
+<h3 id="-installing"><strong>🚀 Installing <code>code-server</code></strong><a hidden class="anchor" aria-hidden="true" href="#-installing">#</a></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -fsSL https://code-server.dev/install.sh <span class="p">|</span> sh
+</span></span></code></pre></div><h3 id="-enabling"><strong>🚀 Enabling <code>code-server</code></strong><a hidden class="anchor" aria-hidden="true" href="#-enabling">#</a></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl <span class="nb">enable</span> --now code-server@<span class="nv">$USER</span>
+</span></span></code></pre></div><p>If the service is masked:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl unmask code-server@<span class="nv">$USER</span>
+</span></span><span class="line"><span class="cl">sudo systemctl restart code-server@<span class="nv">$USER</span>
+</span></span></code></pre></div><h3 id="-checking"><strong>🚀 Checking <code>code-server</code> status</strong><a hidden class="anchor" aria-hidden="true" href="#-checking">#</a></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl status code-server@<span class="nv">$USER</span>
+</span></span></code></pre></div><p>If <strong>active (running)</strong> appears, <code>code-server</code> is working.</p>
+<hr>
+<h2 id="6-configuring"><strong>6️⃣ Configuring <code>code-server</code> for iPad Access</strong><a hidden class="anchor" aria-hidden="true" href="#6-configuring">#</a></h2>
+<p>Edit the config file:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">nano ~/.config/code-server/config.yaml
+</span></span></code></pre></div><p>Set the following configuration:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">bind-addr</span><span class="p">:</span><span class="w"> </span><span class="m">0.0.0.0</span><span class="p">:</span><span class="m">8080</span><span class="w">  </span><span class="c"># Change port if needed</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">auth</span><span class="p">:</span><span class="w"> </span><span class="l">none              </span><span class="w"> </span><span class="c"># Disable authentication (or use password)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">cert</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">              </span><span class="c"># No HTTPS</span><span class="w">
+</span></span></span></code></pre></div><p>Save (<code>Ctrl + X</code>, <code>Y</code>, <code>Enter</code>), then restart:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl restart code-server@<span class="nv">$USER</span>
+</span></span></code></pre></div><p>Check the correct port:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo netstat -tulpn <span class="p">|</span> grep LISTEN
+</span></span></code></pre></div><hr>
+<h2 id="7-accessing-vs-code-from-the-ipad"><strong>7️⃣ Accessing VS Code from the iPad</strong><a hidden class="anchor" aria-hidden="true" href="#7-accessing-vs-code-from-the-ipad">#</a></h2>
+<p>Open <strong>Safari or Chrome</strong> on the iPad and enter:</p>
+<pre tabindex="0"><code>http://&lt;RASPBERRY_PI_IP&gt;:8080
+</code></pre><p>For example:</p>
+<pre tabindex="0"><code>http://192.179.1.100:8080
+</code></pre><p>To find your Raspberry Pi’s IP:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">hostname -I
+</span></span></code></pre></div><p>✅ If everything is correct, <strong>VS Code (<code>code-server</code>) will open in the browser</strong>.</p>
+<hr>
+<h2 id="8-troubleshooting"><strong>8️⃣ Troubleshooting</strong><a hidden class="anchor" aria-hidden="true" href="#8-troubleshooting">#</a></h2>
+<h3 id="-if"><strong>🔹 If <code>code-server</code> doesn’t load</strong><a hidden class="anchor" aria-hidden="true" href="#-if">#</a></h3>
+<ol>
+<li>Check if <code>code-server</code> is running:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl status code-server@<span class="nv">$USER</span>
+</span></span></code></pre></div></li>
+<li>Try accessing from Raspberry Pi itself:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -v http://127.0.0.1:8080
+</span></span></code></pre></div></li>
+<li>Ensure Raspberry Pi and iPad are on the <strong>same network</strong>.</li>
+</ol>
+<h3 id="-if-the-port-is-occupied-"><strong>🔹 If the port is occupied (<code>EADDRINUSE</code>)</strong><a hidden class="anchor" aria-hidden="true" href="#-if-the-port-is-occupied-">#</a></h3>
+<ol>
+<li>Kill previous processes:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pkill -f code-server
+</span></span></code></pre></div></li>
+<li>Restart <code>code-server</code>:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo systemctl restart code-server@<span class="nv">$USER</span>
+</span></span></code></pre></div></li>
+<li>Verify the port:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo netstat -tulpn <span class="p">|</span> grep LISTEN
+</span></span></code></pre></div></li>
+</ol>
+<hr>
+<p>With this setup, your <strong>Raspberry Pi 5</strong> becomes a <strong>powerful MLOps workstation</strong>. 🚀🔥<br>
+Let me know in the comments if you have questions!</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/raspberry-pi/">Raspberry-Pi</a></li>
+      <li><a href="http://localhost:1313/tags/mlflow/">Mlflow</a></li>
+      <li><a href="http://localhost:1313/tags/edge-ai/">Edge-Ai</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">The Probability Engine</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

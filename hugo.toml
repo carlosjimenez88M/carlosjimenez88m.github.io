@@ -41,9 +41,9 @@ enableEmoji = true
 
     buttons = [
       {name = "🔧 MLOps Guides", url = "/mlops/"},
-      {name = "🍓 Raspberry Pi", url = "/raspberry-pi/"},
-      {name = "🟢 Jetson", url = "/jetson/"},
-      {name = "🤖 Agentic AI", url = "/agentic-ai/"}
+      {name = "🤖 Agentic AI", url = "/agentic-ai/"},
+      {name = "📊 TidyTuesday", url = "/tidytuesday/"},
+      {name = "⚡ Edge Computing", url = "/edge-computing/"}
     ]
 
   # Home Info Params (alternativa a Profile Mode - comentado)
@@ -92,58 +92,46 @@ enableEmoji = true
     weight = 10
 
   [[menu.main]]
-    identifier = "raspberry-pi"
-    name = "Raspberry Pi"
-    url = "/raspberry-pi/"
-    weight = 20
-
-  [[menu.main]]
-    identifier = "jetson"
-    name = "Jetson"
-    url = "/jetson/"
-    weight = 30
-
-  [[menu.main]]
     identifier = "agentic-ai"
     name = "Agentic AI"
     url = "/agentic-ai/"
-    weight = 40
+    weight = 20
 
   [[menu.main]]
     identifier = "tidytuesday"
     name = "TidyTuesday"
     url = "/tidytuesday/"
-    weight = 50
-
-  [[menu.main]]
-    identifier = "edge-computing"
-    name = "Edge Computing"
-    url = "/edge-computing/"
-    weight = 60
+    weight = 30
 
   [[menu.main]]
     identifier = "posts"
     name = "Posts"
     url = "/post/"
-    weight = 70
+    weight = 40
+
+  [[menu.main]]
+    identifier = "edge-computing"
+    name = "Edge Computing"
+    url = "/edge-computing/"
+    weight = 50
 
   [[menu.main]]
     identifier = "archive"
     name = "Archive"
     url = "/archive/"
-    weight = 80
+    weight = 60
 
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 90
+    weight = 70
 
   [[menu.main]]
     identifier = "search"
     name = "Search"
     url = "/search/"
-    weight = 100
+    weight = 80
 
 # Markup configuration
 [markup]

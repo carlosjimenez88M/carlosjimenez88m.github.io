@@ -1,24 +1,341 @@
-<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Raspberry Pi 16GB, Servers, and MLOps | The Probability Engine</title>
-<meta name=keywords content="raspberry-pi,mlflow,edge-ai,Llms"><meta name=description content="Raspberry Pi 5 (16 Gbs) like a Server"><meta name=author content="Carlos Daniel Jiménez"><link rel=canonical href=https://carlosdanieljimenez.com/post/mlops-servers-raspberry/><link crossorigin=anonymous href=/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css integrity="sha256-NDzEgLn/yPBMy+XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as=style><link rel=icon href=https://carlosdanieljimenez.com/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://carlosdanieljimenez.com/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://carlosdanieljimenez.com/favicon-32x32.png><link rel=apple-touch-icon href=https://carlosdanieljimenez.com/apple-touch-icon.png><link rel=mask-icon href=https://carlosdanieljimenez.com/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://carlosdanieljimenez.com/post/mlops-servers-raspberry/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}@media(prefers-color-scheme:light){.list::-webkit-scrollbar-thumb{border-color:var(--code-bg)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><meta property="og:url" content="https://carlosdanieljimenez.com/post/mlops-servers-raspberry/"><meta property="og:site_name" content="The Probability Engine"><meta property="og:title" content="Raspberry Pi 16GB, Servers, and MLOps"><meta property="og:description" content="Raspberry Pi 5 (16 Gbs) like a Server"><meta property="og:locale" content="en-us"><meta property="og:type" content="article"><meta property="article:section" content="post"><meta property="article:published_time" content="2025-03-10T00:00:00+00:00"><meta property="article:modified_time" content="2025-03-10T00:00:00+00:00"><meta property="article:tag" content="Raspberry-Pi"><meta property="article:tag" content="Mlflow"><meta property="article:tag" content="Edge-Ai"><meta property="article:tag" content="Llms"><meta name=twitter:card content="summary"><meta name=twitter:title content="Raspberry Pi 16GB, Servers, and MLOps"><meta name=twitter:description content="Raspberry Pi 5 (16 Gbs) like a Server"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://carlosdanieljimenez.com/post/"},{"@type":"ListItem","position":2,"name":"Raspberry Pi 16GB, Servers, and MLOps","item":"https://carlosdanieljimenez.com/post/mlops-servers-raspberry/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Raspberry Pi 16GB, Servers, and MLOps","name":"Raspberry Pi 16GB, Servers, and MLOps","description":"Raspberry Pi 5 (16 Gbs) like a Server","keywords":["raspberry-pi","mlflow","edge-ai","Llms"],"articleBody":"Less than two months ago, the most powerful version of the Raspberry Pi 5 hit the market, featuring 16GB of RAM. While its price ($120 USD) is a valid discussion point, as someone who uses these devices as servers for deployment testing and efficiency evaluation at the code level, I want to explore its utility from a computer science perspective in the context of MLOps and LLMs testing.\nRaspberry Pi Utility Let’s start with some common applications to build on ideas:\nWeb Server: Particularly useful for FastAPI users who need a lightweight, deployable environment. Deployment Testing and Task Automation: Python users can use cron to schedule background execution tasks. Development Server: Access the Pi via SSH and run deployments in a Linux environment to monitor application status via logs. AI Hat: If equipped with an external TPU or Coral AI, it can be used for model training with an appropriate framework. Otherwise, its primary use is in inference rather than training. The Pi 5 features a 4-core ARM Cortex-A76 CPU at 2.4 GHz, but it is not optimized for ML-intensive computations. An external GPU can enhance its capabilities, but this requires specific configurations. NVIDIA options, such as DIGITS, can be considered. RAM remains a bottleneck for certain deployments. Raspberry Pi as a Server Since the Raspberry Pi is a single-board microcomputer, it serves as a domestic server that can be leveraged in Edge Computing. Regardless of the peripherals used to enhance its functionality, SSH access allows it to act as a computational brain—essentially, the definition of a server.\nAccording to Tech Craft: “It’s the best of both worlds. Using Linux within an environment (MacOS or Windows) allows executing multiple actions that would be costly or impractical in an isolated setting.”\nBy using the Pi as the computational brain, developers can experiment, control applications, data, and processes running on it.\nAdditionally, setting up the Pi as a NAS (Network-Attached Storage) server allows for file sharing via NFS, centralizing data security, or even functioning as a multimedia server in areas with limited or no internet access. This is particularly useful for home automation experiments.\nFrom an application server perspective, which is the focus of this post, API-based servers are of primary interest. By using the Pi for DevOps, it serves as a low-scale technology testing tool. When combined with Docker for containerization and Kubernetes for orchestration, it provides an efficient debugging environment for image and process testing—especially for serious unit testing. Additionally, Grafana can be used to monitor deployments.\nRaspberry Pi in MLOps My current area of work is Machine Learning DevOps Engineering (MLOps). While DevOps focuses on software engineering practices, MLOps extends this to managing the entire ML model lifecycle. The role of Machine Learning DevOps Engineers is to ensure automation, scalability, and stability in model deployment.\nUsing the Raspberry Pi for trained model deployment highlights the importance of version tracking and lifecycle management. The focus here is inference, especially for LLMs that require significant RAM.\nWith 8GB RAM, the Pi can run 8B parameter models. With 16GB RAM, models like Llama 2:13B can be deployed. Additionally, TensorFlow Lite can be used for Computer Vision, NLP, and time series models efficiently.\nFrom an MLOps perspective, automated deployments (e.g., mlflow run .) facilitate model versioning and efficient release policies. Using Docker, APIs and models can be deployed, distributed, and tested, ensuring optimized artifacts that prevent server overload. Temperature control is crucial for service reliability—especially for high-intensity requests.\nRaspberry Pi 5 (16GB) in LLMOps To set up an LLMOps environment, follow these steps:\n1. Install a 64-bit OS for TensorFlow/PyTorch support. 2. Optimize performance: Cooling \u0026 Power: The Raspberry Pi 5 consumes more power and heats up under load (e.g., continuous inference). Use a high-quality power supply (5V 3A min) and adequate cooling (heatsink + fan or active ventilation case) to avoid thermal throttling.\nCPU Governor to “performance”:\nsudo apt install cpufrequtils echo \"GOVERNOR=\\\"performance\\\"\" | sudo tee /etc/default/cpufrequtils sudo systemctl disable ondemand sudo reboot Optimize RAM Usage: Reduce GPU-reserved memory to 16MB using raspi-config (Advanced Options \u003e Memory Split). This maximizes RAM availability for CPU and LLM models.\nFast Storage: Use an SSD via USB 3.0 instead of a microSD card for faster read/write speeds. The Pi 5 supports M.2 NVMe storage via PCIe adapters for even better disk performance.\nAvoid Swap: With 16GB RAM, a 7B parameter model should fit entirely in memory. If larger models (e.g., 13B, ~10GB RAM) are needed, enable zram swap (sudo apt install zram-tools).\nDependencies for LLMs 1. System Update: sudo apt update \u0026\u0026 sudo apt upgrade -y 2. Install essential tools: sudo apt install -y build-essential git wget cmake python3-pip 3. Install Python dependencies: pip install mlflow wandb llama-cpp-python fastapi uvicorn 4. Install Docker (optional for deployment): curl -fsSL https://get.docker.com -o get-docker.sh sudo sh get-docker.sh sudo usermod -aG docker $USER 5. Install Kubernetes (k3s) for orchestration (optional): curl -sfL https://get.k3s.io | sudo sh - Running Llama 2 on Raspberry Pi 1. Download a quantized Llama 2 model (GGUF format): mkdir -p ~/models \u0026\u0026 cd ~/models wget -O llama2-7b-chat.Q4_K_S.gguf https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_S.gguf 2. Compile llama.cpp (optimized for CPU inference): cd ~ git clone https://github.com/ggerganov/llama.cpp.git cd llama.cpp make -j4 3. Run an inference test: ./main -m ~/models/llama2-7b-chat.Q4_K_S.gguf -p \"Hello, can you introduce yourself?\" -n 50 References Raspberry Pi Official Website MLflow Documentation Hugging Face Models llama.cpp GitHub Rockbee AI LLM on Raspberry Pi ","wordCount":"893","inLanguage":"en","datePublished":"2025-03-10T00:00:00Z","dateModified":"2025-03-10T00:00:00Z","author":{"@type":"Person","name":"Carlos Daniel Jiménez"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://carlosdanieljimenez.com/post/mlops-servers-raspberry/"},"publisher":{"@type":"Organization","name":"The Probability Engine","logo":{"@type":"ImageObject","url":"https://carlosdanieljimenez.com/favicon.ico"}}}</script></head><body id=top><header class=header><nav class=nav><div class=logo><a href=https://carlosdanieljimenez.com/ accesskey=h title="The Probability Engine (Alt + H)">The Probability Engine</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://carlosdanieljimenez.com/mlops/ title=MLOps><span>MLOps</span></a></li><li><a href=https://carlosdanieljimenez.com/raspberry-pi/ title="Raspberry Pi"><span>Raspberry Pi</span></a></li><li><a href=https://carlosdanieljimenez.com/jetson/ title=Jetson><span>Jetson</span></a></li><li><a href=https://carlosdanieljimenez.com/agentic-ai/ title="Agentic AI"><span>Agentic AI</span></a></li><li><a href=https://carlosdanieljimenez.com/tidytuesday/ title=TidyTuesday><span>TidyTuesday</span></a></li><li><a href=https://carlosdanieljimenez.com/edge-computing/ title="Edge Computing"><span>Edge Computing</span></a></li><li><a href=https://carlosdanieljimenez.com/post/ title=Posts><span>Posts</span></a></li><li><a href=https://carlosdanieljimenez.com/archive/ title=Archive><span>Archive</span></a></li><li><a href=https://carlosdanieljimenez.com/about/ title=About><span>About</span></a></li><li><a href=https://carlosdanieljimenez.com/search/ title="Search (Alt + /)" accesskey=/><span>Search</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">Raspberry Pi 16GB, Servers, and MLOps</h1><div class=post-description>Raspberry Pi 5 (16 Gbs) like a Server</div><div class=post-meta><span title='2025-03-10 00:00:00 +0000 UTC'>March 10, 2025</span>&nbsp;·&nbsp;<span>Carlos Daniel Jiménez</span></div></header><div class=post-content><p>Less than two months ago, the most powerful version of the Raspberry Pi 5 hit the market, featuring 16GB of RAM. While its price ($120 USD) is a valid discussion point, as someone who uses these devices as servers for deployment testing and efficiency evaluation at the code level, I want to explore its utility from a <strong>computer science perspective</strong> in the context of <strong>MLOps and LLMs testing</strong>.</p><h2 id=raspberry-pi-utility>Raspberry Pi Utility<a hidden class=anchor aria-hidden=true href=#raspberry-pi-utility>#</a></h2><p>Let&rsquo;s start with some common applications to build on ideas:</p><ul><li><strong>Web Server:</strong> Particularly useful for <strong>FastAPI</strong> users who need a lightweight, deployable environment.</li><li><strong>Deployment Testing and Task Automation:</strong> Python users can use <code>cron</code> to schedule background execution tasks.</li><li><strong>Development Server:</strong> Access the Pi via SSH and run deployments in a <strong>Linux environment</strong> to monitor application status via logs.</li><li><strong>AI Hat:</strong> If equipped with an external <strong>TPU or Coral AI</strong>, it can be used for model training with an appropriate framework. Otherwise, its primary use is in inference rather than training.<ul><li>The <strong>Pi 5 features a 4-core ARM Cortex-A76 CPU at 2.4 GHz</strong>, but it is <strong>not optimized for ML-intensive computations</strong>.</li><li>An <strong>external GPU</strong> can enhance its capabilities, but this requires specific configurations. <strong>NVIDIA options</strong>, such as <strong>DIGITS</strong>, can be considered.</li><li><strong>RAM remains a bottleneck</strong> for certain deployments.</li></ul></li></ul><h2 id=raspberry-pi-as-a-server>Raspberry Pi as a Server<a hidden class=anchor aria-hidden=true href=#raspberry-pi-as-a-server>#</a></h2><p>Since the Raspberry Pi is a <strong>single-board microcomputer</strong>, it serves as a <strong>domestic server</strong> that can be leveraged in <strong>Edge Computing</strong>. Regardless of the peripherals used to enhance its functionality, SSH access allows it to act as a <strong>computational brain</strong>—essentially, the definition of a server.</p><p><strong>According to Tech Craft:</strong> “It’s the best of both worlds. Using Linux within an environment (MacOS or Windows) allows executing multiple actions that would be costly or impractical in an isolated setting.”</p><p>By using the <strong>Pi as the computational brain</strong>, developers can <strong>experiment, control applications, data, and processes</strong> running on it.</p><p>Additionally, setting up the <strong>Pi as a NAS (Network-Attached Storage)</strong> server allows for <strong>file sharing via NFS</strong>, centralizing data security, or even functioning as a <strong>multimedia server</strong> in areas with limited or no internet access. This is particularly useful for <strong>home automation experiments</strong>.</p><p>From an <strong>application server perspective</strong>, which is the focus of this post, <strong>API-based servers</strong> are of primary interest. By using the Pi for <strong>DevOps</strong>, it serves as a <strong>low-scale technology testing tool</strong>. When combined with <strong>Docker for containerization</strong> and <strong>Kubernetes for orchestration</strong>, it provides an <strong>efficient debugging environment</strong> for image and process testing—especially for serious <strong>unit testing</strong>. Additionally, <strong>Grafana can be used</strong> to monitor deployments.</p><h2 id=raspberry-pi-in-mlops>Raspberry Pi in MLOps<a hidden class=anchor aria-hidden=true href=#raspberry-pi-in-mlops>#</a></h2><p>My current area of work is <strong>Machine Learning DevOps Engineering (MLOps)</strong>. While <strong>DevOps</strong> focuses on software engineering practices, <strong>MLOps</strong> extends this to managing the entire <strong>ML model lifecycle</strong>. The role of <strong>Machine Learning DevOps Engineers</strong> is to ensure <strong>automation, scalability, and stability</strong> in model deployment.</p><p>Using the Raspberry Pi for <strong>trained model deployment</strong> highlights the <strong>importance of version tracking and lifecycle management</strong>. The <strong>focus here is inference</strong>, especially for <strong>LLMs that require significant RAM</strong>.</p><ul><li><strong>With 8GB RAM</strong>, the Pi can run <strong>8B parameter models</strong>.</li><li><strong>With 16GB RAM</strong>, models like <strong>Llama 2:13B</strong> can be deployed.</li></ul><p>Additionally, <strong>TensorFlow Lite</strong> can be used for <strong>Computer Vision, NLP, and time series models</strong> efficiently.</p><p>From an <strong>MLOps perspective</strong>, automated deployments (e.g., <code>mlflow run .</code>) facilitate <strong>model versioning and efficient release policies</strong>. Using <strong>Docker</strong>, APIs and models can be <strong>deployed, distributed, and tested</strong>, ensuring <strong>optimized artifacts</strong> that prevent server overload. <strong>Temperature control</strong> is crucial for service reliability—especially for <strong>high-intensity requests</strong>.</p><h2 id=raspberry-pi-5-16gb-in-llmops>Raspberry Pi 5 (16GB) in LLMOps<a hidden class=anchor aria-hidden=true href=#raspberry-pi-5-16gb-in-llmops>#</a></h2><p>To set up an <strong>LLMOps environment</strong>, follow these steps:</p><h3 id=1-install-a-64-bit-os-for-tensorflowpytorch-support>1. Install a 64-bit OS for TensorFlow/PyTorch support.<a hidden class=anchor aria-hidden=true href=#1-install-a-64-bit-os-for-tensorflowpytorch-support>#</a></h3><h3 id=2-optimize-performance>2. Optimize performance:<a hidden class=anchor aria-hidden=true href=#2-optimize-performance>#</a></h3><ul><li><p><strong>Cooling & Power:</strong> The <strong>Raspberry Pi 5</strong> consumes more power and heats up under load (e.g., continuous inference). Use a <strong>high-quality power supply (5V 3A min)</strong> and <strong>adequate cooling</strong> (heatsink + fan or active ventilation case) to avoid <em>thermal throttling</em>.</p></li><li><p><strong>CPU Governor to &ldquo;performance&rdquo;:</strong></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>sudo apt install cpufrequtils
-</span></span><span class=line><span class=cl><span class=nb>echo</span> <span class=s2>&#34;GOVERNOR=\&#34;performance\&#34;&#34;</span> <span class=p>|</span> sudo tee /etc/default/cpufrequtils
-</span></span><span class=line><span class=cl>sudo systemctl disable ondemand
-</span></span><span class=line><span class=cl>sudo reboot
-</span></span></code></pre></div></li><li><p><strong>Optimize RAM Usage:</strong> Reduce GPU-reserved memory to 16MB using <code>raspi-config</code> (Advanced Options > Memory Split). This maximizes RAM availability for CPU and <strong>LLM models</strong>.</p></li><li><p><strong>Fast Storage:</strong> Use an <strong>SSD via USB 3.0</strong> instead of a microSD card for <strong>faster read/write speeds</strong>. The Pi 5 supports <strong>M.2 NVMe storage via PCIe adapters</strong> for <strong>even better disk performance</strong>.</p></li><li><p><strong>Avoid Swap:</strong> With <strong>16GB RAM</strong>, a <strong>7B parameter model</strong> should fit entirely in memory. If larger models (e.g., <strong>13B, ~10GB RAM</strong>) are needed, enable <strong>zram swap</strong> (<code>sudo apt install zram-tools</code>).</p></li></ul><h2 id=dependencies-for-llms>Dependencies for LLMs<a hidden class=anchor aria-hidden=true href=#dependencies-for-llms>#</a></h2><h3 id=1-system-update>1. System Update:<a hidden class=anchor aria-hidden=true href=#1-system-update>#</a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>sudo apt update <span class=o>&amp;&amp;</span> sudo apt upgrade -y
-</span></span></code></pre></div><h3 id=2-install-essential-tools>2. Install essential tools:<a hidden class=anchor aria-hidden=true href=#2-install-essential-tools>#</a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>sudo apt install -y build-essential git wget cmake python3-pip
-</span></span></code></pre></div><h3 id=3-install-python-dependencies>3. Install Python dependencies:<a hidden class=anchor aria-hidden=true href=#3-install-python-dependencies>#</a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>pip install mlflow wandb llama-cpp-python fastapi uvicorn
-</span></span></code></pre></div><h3 id=4-install-docker-optional-for-deployment>4. Install Docker (optional for deployment):<a hidden class=anchor aria-hidden=true href=#4-install-docker-optional-for-deployment>#</a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>curl -fsSL https://get.docker.com -o get-docker.sh
-</span></span><span class=line><span class=cl>sudo sh get-docker.sh
-</span></span><span class=line><span class=cl>sudo usermod -aG docker <span class=nv>$USER</span>
-</span></span></code></pre></div><h3 id=5-install-kubernetes-k3s-for-orchestration-optional>5. Install Kubernetes (k3s) for orchestration (optional):<a hidden class=anchor aria-hidden=true href=#5-install-kubernetes-k3s-for-orchestration-optional>#</a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>curl -sfL https://get.k3s.io <span class=p>|</span> sudo sh -
-</span></span></code></pre></div><h2 id=running-llama-2-on-raspberry-pi>Running Llama 2 on Raspberry Pi<a hidden class=anchor aria-hidden=true href=#running-llama-2-on-raspberry-pi>#</a></h2><h3 id=1-download-a-quantized-llama-2-model-gguf-format>1. Download a <strong>quantized</strong> Llama 2 model (GGUF format):<a hidden class=anchor aria-hidden=true href=#1-download-a-quantized-llama-2-model-gguf-format>#</a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>mkdir -p ~/models <span class=o>&amp;&amp;</span> <span class=nb>cd</span> ~/models
-</span></span><span class=line><span class=cl>wget -O llama2-7b-chat.Q4_K_S.gguf https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_S.gguf
-</span></span></code></pre></div><h3 id=2-compile-llamacpp-optimized-for-cpu-inference>2. Compile <strong>llama.cpp</strong> (optimized for CPU inference):<a hidden class=anchor aria-hidden=true href=#2-compile-llamacpp-optimized-for-cpu-inference>#</a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=nb>cd</span> ~
-</span></span><span class=line><span class=cl>git clone https://github.com/ggerganov/llama.cpp.git
-</span></span><span class=line><span class=cl><span class=nb>cd</span> llama.cpp
-</span></span><span class=line><span class=cl>make -j4
-</span></span></code></pre></div><h3 id=3-run-an-inference-test>3. Run an inference test:<a hidden class=anchor aria-hidden=true href=#3-run-an-inference-test>#</a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>./main -m ~/models/llama2-7b-chat.Q4_K_S.gguf -p <span class=s2>&#34;Hello, can you introduce yourself?&#34;</span> -n <span class=m>50</span>
-</span></span></code></pre></div><h2 id=references>References<a hidden class=anchor aria-hidden=true href=#references>#</a></h2><ul><li><a href=https://www.raspberrypi.org>Raspberry Pi Official Website</a></li><li><a href=https://mlflow.org/docs/latest/index.html>MLflow Documentation</a></li><li><a href=https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF>Hugging Face Models</a></li><li><a href=https://github.com/ggerganov/llama.cpp>llama.cpp GitHub</a></li><li><a href=https://rockbee.cc/pages/running-speech-recognition-and-llama-2-gpt-on-raspberry-pi>Rockbee AI LLM on Raspberry Pi</a></li></ul></div><footer class=post-footer><ul class=post-tags><li><a href=https://carlosdanieljimenez.com/tags/raspberry-pi/>Raspberry-Pi</a></li><li><a href=https://carlosdanieljimenez.com/tags/mlflow/>Mlflow</a></li><li><a href=https://carlosdanieljimenez.com/tags/edge-ai/>Edge-Ai</a></li><li><a href=https://carlosdanieljimenez.com/tags/llms/>Llms</a></li></ul></footer></article></main><footer class=footer><span>&copy; 2026 <a href=https://carlosdanieljimenez.com/>The Probability Engine</a></span> ·
-<span>Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
-</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Raspberry Pi 16GB, Servers, and MLOps | The Probability Engine</title>
+<meta name="keywords" content="raspberry-pi, mlflow, edge-ai, Llms">
+<meta name="description" content="Raspberry Pi 5 (16 Gbs) like a Server">
+<meta name="author" content="Carlos Daniel Jiménez">
+<link rel="canonical" href="http://localhost:1313/post/mlops-servers-raspberry/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/post/mlops-servers-raspberry/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="The Probability Engine (Alt + H)">The Probability Engine</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/mlops/" title="MLOps">
+                    <span>MLOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/agentic-ai/" title="Agentic AI">
+                    <span>Agentic AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tidytuesday/" title="TidyTuesday">
+                    <span>TidyTuesday</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/post/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/edge-computing/" title="Edge Computing">
+                    <span>Edge Computing</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/archive/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Raspberry Pi 16GB, Servers, and MLOps
+    </h1>
+    <div class="post-description">
+      Raspberry Pi 5 (16 Gbs) like a Server
+    </div>
+    <div class="post-meta"><span title='2025-03-10 00:00:00 +0000 UTC'>March 10, 2025</span>&nbsp;·&nbsp;<span>Carlos Daniel Jiménez</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>Less than two months ago, the most powerful version of the Raspberry Pi 5 hit the market, featuring 16GB of RAM. While its price ($120 USD) is a valid discussion point, as someone who uses these devices as servers for deployment testing and efficiency evaluation at the code level, I want to explore its utility from a <strong>computer science perspective</strong> in the context of <strong>MLOps and LLMs testing</strong>.</p>
+<h2 id="raspberry-pi-utility">Raspberry Pi Utility<a hidden class="anchor" aria-hidden="true" href="#raspberry-pi-utility">#</a></h2>
+<p>Let&rsquo;s start with some common applications to build on ideas:</p>
+<ul>
+<li><strong>Web Server:</strong> Particularly useful for <strong>FastAPI</strong> users who need a lightweight, deployable environment.</li>
+<li><strong>Deployment Testing and Task Automation:</strong> Python users can use <code>cron</code> to schedule background execution tasks.</li>
+<li><strong>Development Server:</strong> Access the Pi via SSH and run deployments in a <strong>Linux environment</strong> to monitor application status via logs.</li>
+<li><strong>AI Hat:</strong> If equipped with an external <strong>TPU or Coral AI</strong>, it can be used for model training with an appropriate framework. Otherwise, its primary use is in inference rather than training.
+<ul>
+<li>The <strong>Pi 5 features a 4-core ARM Cortex-A76 CPU at 2.4 GHz</strong>, but it is <strong>not optimized for ML-intensive computations</strong>.</li>
+<li>An <strong>external GPU</strong> can enhance its capabilities, but this requires specific configurations. <strong>NVIDIA options</strong>, such as <strong>DIGITS</strong>, can be considered.</li>
+<li><strong>RAM remains a bottleneck</strong> for certain deployments.</li>
+</ul>
+</li>
+</ul>
+<h2 id="raspberry-pi-as-a-server">Raspberry Pi as a Server<a hidden class="anchor" aria-hidden="true" href="#raspberry-pi-as-a-server">#</a></h2>
+<p>Since the Raspberry Pi is a <strong>single-board microcomputer</strong>, it serves as a <strong>domestic server</strong> that can be leveraged in <strong>Edge Computing</strong>. Regardless of the peripherals used to enhance its functionality, SSH access allows it to act as a <strong>computational brain</strong>—essentially, the definition of a server.</p>
+<p><strong>According to Tech Craft:</strong> “It’s the best of both worlds. Using Linux within an environment (MacOS or Windows) allows executing multiple actions that would be costly or impractical in an isolated setting.”</p>
+<p>By using the <strong>Pi as the computational brain</strong>, developers can <strong>experiment, control applications, data, and processes</strong> running on it.</p>
+<p>Additionally, setting up the <strong>Pi as a NAS (Network-Attached Storage)</strong> server allows for <strong>file sharing via NFS</strong>, centralizing data security, or even functioning as a <strong>multimedia server</strong> in areas with limited or no internet access. This is particularly useful for <strong>home automation experiments</strong>.</p>
+<p>From an <strong>application server perspective</strong>, which is the focus of this post, <strong>API-based servers</strong> are of primary interest. By using the Pi for <strong>DevOps</strong>, it serves as a <strong>low-scale technology testing tool</strong>. When combined with <strong>Docker for containerization</strong> and <strong>Kubernetes for orchestration</strong>, it provides an <strong>efficient debugging environment</strong> for image and process testing—especially for serious <strong>unit testing</strong>. Additionally, <strong>Grafana can be used</strong> to monitor deployments.</p>
+<h2 id="raspberry-pi-in-mlops">Raspberry Pi in MLOps<a hidden class="anchor" aria-hidden="true" href="#raspberry-pi-in-mlops">#</a></h2>
+<p>My current area of work is <strong>Machine Learning DevOps Engineering (MLOps)</strong>. While <strong>DevOps</strong> focuses on software engineering practices, <strong>MLOps</strong> extends this to managing the entire <strong>ML model lifecycle</strong>. The role of <strong>Machine Learning DevOps Engineers</strong> is to ensure <strong>automation, scalability, and stability</strong> in model deployment.</p>
+<p>Using the Raspberry Pi for <strong>trained model deployment</strong> highlights the <strong>importance of version tracking and lifecycle management</strong>. The <strong>focus here is inference</strong>, especially for <strong>LLMs that require significant RAM</strong>.</p>
+<ul>
+<li><strong>With 8GB RAM</strong>, the Pi can run <strong>8B parameter models</strong>.</li>
+<li><strong>With 16GB RAM</strong>, models like <strong>Llama 2:13B</strong> can be deployed.</li>
+</ul>
+<p>Additionally, <strong>TensorFlow Lite</strong> can be used for <strong>Computer Vision, NLP, and time series models</strong> efficiently.</p>
+<p>From an <strong>MLOps perspective</strong>, automated deployments (e.g., <code>mlflow run .</code>) facilitate <strong>model versioning and efficient release policies</strong>. Using <strong>Docker</strong>, APIs and models can be <strong>deployed, distributed, and tested</strong>, ensuring <strong>optimized artifacts</strong> that prevent server overload. <strong>Temperature control</strong> is crucial for service reliability—especially for <strong>high-intensity requests</strong>.</p>
+<h2 id="raspberry-pi-5-16gb-in-llmops">Raspberry Pi 5 (16GB) in LLMOps<a hidden class="anchor" aria-hidden="true" href="#raspberry-pi-5-16gb-in-llmops">#</a></h2>
+<p>To set up an <strong>LLMOps environment</strong>, follow these steps:</p>
+<h3 id="1-install-a-64-bit-os-for-tensorflowpytorch-support">1. Install a 64-bit OS for TensorFlow/PyTorch support.<a hidden class="anchor" aria-hidden="true" href="#1-install-a-64-bit-os-for-tensorflowpytorch-support">#</a></h3>
+<h3 id="2-optimize-performance">2. Optimize performance:<a hidden class="anchor" aria-hidden="true" href="#2-optimize-performance">#</a></h3>
+<ul>
+<li>
+<p><strong>Cooling &amp; Power:</strong> The <strong>Raspberry Pi 5</strong> consumes more power and heats up under load (e.g., continuous inference). Use a <strong>high-quality power supply (5V 3A min)</strong> and <strong>adequate cooling</strong> (heatsink + fan or active ventilation case) to avoid <em>thermal throttling</em>.</p>
+</li>
+<li>
+<p><strong>CPU Governor to &ldquo;performance&rdquo;:</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install cpufrequtils
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;GOVERNOR=\&#34;performance\&#34;&#34;</span> <span class="p">|</span> sudo tee /etc/default/cpufrequtils
+</span></span><span class="line"><span class="cl">sudo systemctl disable ondemand
+</span></span><span class="line"><span class="cl">sudo reboot
+</span></span></code></pre></div></li>
+<li>
+<p><strong>Optimize RAM Usage:</strong> Reduce GPU-reserved memory to 16MB using <code>raspi-config</code> (Advanced Options &gt; Memory Split). This maximizes RAM availability for CPU and <strong>LLM models</strong>.</p>
+</li>
+<li>
+<p><strong>Fast Storage:</strong> Use an <strong>SSD via USB 3.0</strong> instead of a microSD card for <strong>faster read/write speeds</strong>. The Pi 5 supports <strong>M.2 NVMe storage via PCIe adapters</strong> for <strong>even better disk performance</strong>.</p>
+</li>
+<li>
+<p><strong>Avoid Swap:</strong> With <strong>16GB RAM</strong>, a <strong>7B parameter model</strong> should fit entirely in memory. If larger models (e.g., <strong>13B, ~10GB RAM</strong>) are needed, enable <strong>zram swap</strong> (<code>sudo apt install zram-tools</code>).</p>
+</li>
+</ul>
+<h2 id="dependencies-for-llms">Dependencies for LLMs<a hidden class="anchor" aria-hidden="true" href="#dependencies-for-llms">#</a></h2>
+<h3 id="1-system-update">1. System Update:<a hidden class="anchor" aria-hidden="true" href="#1-system-update">#</a></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt update <span class="o">&amp;&amp;</span> sudo apt upgrade -y
+</span></span></code></pre></div><h3 id="2-install-essential-tools">2. Install essential tools:<a hidden class="anchor" aria-hidden="true" href="#2-install-essential-tools">#</a></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install -y build-essential git wget cmake python3-pip
+</span></span></code></pre></div><h3 id="3-install-python-dependencies">3. Install Python dependencies:<a hidden class="anchor" aria-hidden="true" href="#3-install-python-dependencies">#</a></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pip install mlflow wandb llama-cpp-python fastapi uvicorn
+</span></span></code></pre></div><h3 id="4-install-docker-optional-for-deployment">4. Install Docker (optional for deployment):<a hidden class="anchor" aria-hidden="true" href="#4-install-docker-optional-for-deployment">#</a></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -fsSL https://get.docker.com -o get-docker.sh
+</span></span><span class="line"><span class="cl">sudo sh get-docker.sh
+</span></span><span class="line"><span class="cl">sudo usermod -aG docker <span class="nv">$USER</span>
+</span></span></code></pre></div><h3 id="5-install-kubernetes-k3s-for-orchestration-optional">5. Install Kubernetes (k3s) for orchestration (optional):<a hidden class="anchor" aria-hidden="true" href="#5-install-kubernetes-k3s-for-orchestration-optional">#</a></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">curl -sfL https://get.k3s.io <span class="p">|</span> sudo sh -
+</span></span></code></pre></div><h2 id="running-llama-2-on-raspberry-pi">Running Llama 2 on Raspberry Pi<a hidden class="anchor" aria-hidden="true" href="#running-llama-2-on-raspberry-pi">#</a></h2>
+<h3 id="1-download-a-quantized-llama-2-model-gguf-format">1. Download a <strong>quantized</strong> Llama 2 model (GGUF format):<a hidden class="anchor" aria-hidden="true" href="#1-download-a-quantized-llama-2-model-gguf-format">#</a></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir -p ~/models <span class="o">&amp;&amp;</span> <span class="nb">cd</span> ~/models
+</span></span><span class="line"><span class="cl">wget -O llama2-7b-chat.Q4_K_S.gguf https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_K_S.gguf
+</span></span></code></pre></div><h3 id="2-compile-llamacpp-optimized-for-cpu-inference">2. Compile <strong>llama.cpp</strong> (optimized for CPU inference):<a hidden class="anchor" aria-hidden="true" href="#2-compile-llamacpp-optimized-for-cpu-inference">#</a></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> ~
+</span></span><span class="line"><span class="cl">git clone https://github.com/ggerganov/llama.cpp.git
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> llama.cpp
+</span></span><span class="line"><span class="cl">make -j4
+</span></span></code></pre></div><h3 id="3-run-an-inference-test">3. Run an inference test:<a hidden class="anchor" aria-hidden="true" href="#3-run-an-inference-test">#</a></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">./main -m ~/models/llama2-7b-chat.Q4_K_S.gguf -p <span class="s2">&#34;Hello, can you introduce yourself?&#34;</span> -n <span class="m">50</span>
+</span></span></code></pre></div><h2 id="references">References<a hidden class="anchor" aria-hidden="true" href="#references">#</a></h2>
+<ul>
+<li><a href="https://www.raspberrypi.org">Raspberry Pi Official Website</a></li>
+<li><a href="https://mlflow.org/docs/latest/index.html">MLflow Documentation</a></li>
+<li><a href="https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF">Hugging Face Models</a></li>
+<li><a href="https://github.com/ggerganov/llama.cpp">llama.cpp GitHub</a></li>
+<li><a href="https://rockbee.cc/pages/running-speech-recognition-and-llama-2-gpt-on-raspberry-pi">Rockbee AI LLM on Raspberry Pi</a></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/raspberry-pi/">Raspberry-Pi</a></li>
+      <li><a href="http://localhost:1313/tags/mlflow/">Mlflow</a></li>
+      <li><a href="http://localhost:1313/tags/edge-ai/">Edge-Ai</a></li>
+      <li><a href="http://localhost:1313/tags/llms/">Llms</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">The Probability Engine</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

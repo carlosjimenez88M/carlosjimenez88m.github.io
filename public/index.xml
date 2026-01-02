@@ -1,17 +1,105 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>The Probability Engine</title><link>https://carlosdanieljimenez.com/</link><description>Recent content on The Probability Engine</description><generator>Hugo -- 0.147.3</generator><language>en-us</language><lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://carlosdanieljimenez.com/index.xml" rel="self" type="application/rss+xml"/><item><title>MLflow for Generative AI Systems</title><link>https://carlosdanieljimenez.com/post/mlflow_genai/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://carlosdanieljimenez.com/post/mlflow_genai/</guid><description>&lt;h1 id="mlflow-for-generative-ai-systems">MLflow for Generative AI Systems&lt;/h1>
-&lt;p>I&amp;rsquo;ll start this post by recalling what Hayen said in her book &lt;strong>Designing Machine Learning Systems (2022): &amp;lsquo;Systems are meant to learn&amp;rsquo;.&lt;/strong> This statement reflects a simple fact: today, LLMs and to a lesser extent vision language models are winning in the Data Science world. But how do we measure this learning? RLHF work is always a good indicator that perplexity will improve, but let&amp;rsquo;s return to a key point: LLMs must work as a system, therefore debugging is important, and that&amp;rsquo;s where the necessary tool for every Data Scientist, AI Engineer, ML Engineer, and MLOps Engineer comes in: MLflow.&lt;/p></description></item><item><title>The Decline of a Framework</title><link>https://carlosdanieljimenez.com/post/tensorflow/</link><pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate><guid>https://carlosdanieljimenez.com/post/tensorflow/</guid><description>Reflections on TensorFlow in the context of the modern AI engine and the evolving role of Data Scientists</description></item><item><title>Raspberry Pi 16GB, Servers, and MLOps</title><link>https://carlosdanieljimenez.com/post/mlops-servers-raspberry/</link><pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate><guid>https://carlosdanieljimenez.com/post/mlops-servers-raspberry/</guid><description>Raspberry Pi 5 (16 Gbs) like a Server</description></item><item><title>MLops into Raspberry Pi 5</title><link>https://carlosdanieljimenez.com/post/mlops_raspberrypi5/</link><pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate><guid>https://carlosdanieljimenez.com/post/mlops_raspberrypi5/</guid><description>A robust implementation of facilities for MLOps development</description></item><item><title/><link>https://carlosdanieljimenez.com/post/artifacts-designs/</link><pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate><guid>https://carlosdanieljimenez.com/post/artifacts-designs/</guid><description>Introduction to Artifacts designs</description></item><item><title>Edge Computing and Edge Machine Learning</title><link>https://carlosdanieljimenez.com/post/edge-computing/</link><pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate><guid>https://carlosdanieljimenez.com/post/edge-computing/</guid><description>A Brief Introduction to AI/Edge Computing</description></item><item><title>Clean White Theme for Hugo</title><link>https://carlosdanieljimenez.com/post/readme/</link><pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate><guid>https://carlosdanieljimenez.com/post/readme/</guid><description>&lt;h1 id="clean-white-theme-for-hugo">Clean White Theme for Hugo&lt;/h1>
-&lt;p>CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live &lt;a href="https://zhaohuabing.com">demo site&lt;/a> using this theme.&lt;/p>
-&lt;p>It is based on &lt;a href="https://github.com/Huxpro/huxpro.github.io">huxblog Jekyll Theme&lt;/a>
-and &lt;a href="https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll">Clean Blog Jekyll Theme&lt;/a>.&lt;/p>
-&lt;p>These two upstream projects have done awesome jobs to create a blog theme, what I&amp;rsquo;m doing here is porting it to Hugo, of which I like the simplicity and the much faster compiling speed. Some other features which I think could be useful, such as site search with algolia and proxy for Disqus access in China, have also been built in the CleanWhite theme. Other fancy features of upstream projects are not supported by this Hugo theme, I&amp;rsquo;d like to make it as simple as possible and only focus on blog purpose, at least for now.
-While I created this theme, I followed the Hugo theme best practice and tried to make every part of the template as a replaceable partial html, so it could be much easier for you to make your customization based on it.&lt;/p></description></item><item><title/><link>https://carlosdanieljimenez.com/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://carlosdanieljimenez.com/about/</guid><description>&lt;h2 id="about-me">About Me&lt;/h2>
-&lt;p>&lt;strong>Professional Specialization&lt;/strong>&lt;/p>
-&lt;ul>
-&lt;li>I work in MLOps, software design, and Agentic AI, focusing on taking machine learning models from development to production&lt;/li>
-&lt;li>Research rigorous statistical applications in ML, edge computing, and distributed systems optimization through GitOps&lt;/li>
-&lt;li>Develop robotics applications integrating sensors and actuators with ML models for autonomous systems&lt;/li>
-&lt;li>Currently exploring the intersection between machine learning, LLMs, and financial markets&lt;/li>
-&lt;li>Develop and test code on a portable Raspberry Pi setup connected to iPad, monitoring efficiency with Weights &amp;amp; Biases&lt;/li>
-&lt;/ul>
-&lt;p>&lt;strong>Career Path&lt;/strong>&lt;/p></description></item><item><title/><link>https://carlosdanieljimenez.com/notes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://carlosdanieljimenez.com/notes/</guid><description>&lt;h2 id="go-语言学习笔记">&lt;a href="https://zhaohuabing.com/learning-golang">Go 语言学习笔记&lt;/a>&lt;/h2>
-&lt;h2 id="envoy-学习笔记">&lt;a href="https://zhaohuabing.com/learning-envoy">Envoy 学习笔记&lt;/a>&lt;/h2></description></item><item><title/><link>https://carlosdanieljimenez.com/search/placeholder/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://carlosdanieljimenez.com/search/placeholder/</guid><description/></item><item><title>Posts Archive</title><link>https://carlosdanieljimenez.com/archive/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://carlosdanieljimenez.com/archive/</guid><description>Archive of historical posts.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>The Probability Engine</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on The Probability Engine</description>
+    <generator>Hugo -- 0.147.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MLflow for Generative AI Systems</title>
+      <link>http://localhost:1313/post/mlflow_genai/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/mlflow_genai/</guid>
+      <description>&lt;h1 id=&#34;mlflow-for-generative-ai-systems&#34;&gt;MLflow for Generative AI Systems&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ll start this post by recalling what Hayen said in her book &lt;strong&gt;Designing Machine Learning Systems (2022): &amp;lsquo;Systems are meant to learn&amp;rsquo;.&lt;/strong&gt; This statement reflects a simple fact: today, LLMs and to a lesser extent vision language models are winning in the Data Science world. But how do we measure this learning? RLHF work is always a good indicator that perplexity will improve, but let&amp;rsquo;s return to a key point: LLMs must work as a system, therefore debugging is important, and that&amp;rsquo;s where the necessary tool for every Data Scientist, AI Engineer, ML Engineer, and MLOps Engineer comes in: MLflow.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Decline of a Framework</title>
+      <link>http://localhost:1313/post/tensorflow/</link>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/tensorflow/</guid>
+      <description>Reflections on TensorFlow in the context of the modern AI engine and the evolving role of Data Scientists</description>
+    </item>
+    <item>
+      <title>Raspberry Pi 16GB, Servers, and MLOps</title>
+      <link>http://localhost:1313/post/mlops-servers-raspberry/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/mlops-servers-raspberry/</guid>
+      <description>Raspberry Pi 5 (16 Gbs) like a Server</description>
+    </item>
+    <item>
+      <title>MLops into Raspberry Pi 5</title>
+      <link>http://localhost:1313/post/mlops_raspberrypi5/</link>
+      <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/mlops_raspberrypi5/</guid>
+      <description>A robust implementation of facilities for MLOps development</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/artifacts-designs/</link>
+      <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/artifacts-designs/</guid>
+      <description>Introduction to Artifacts designs</description>
+    </item>
+    <item>
+      <title>Edge Computing and Edge Machine Learning</title>
+      <link>http://localhost:1313/post/edge-computing/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/edge-computing/</guid>
+      <description>A Brief Introduction to AI/Edge Computing</description>
+    </item>
+    <item>
+      <title>Clean White Theme for Hugo</title>
+      <link>http://localhost:1313/post/readme/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/readme/</guid>
+      <description>&lt;h1 id=&#34;clean-white-theme-for-hugo&#34;&gt;Clean White Theme for Hugo&lt;/h1&gt;
+&lt;p&gt;CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live &lt;a href=&#34;https://zhaohuabing.com&#34;&gt;demo site&lt;/a&gt; using this theme.&lt;/p&gt;
+&lt;p&gt;It is based on &lt;a href=&#34;https://github.com/Huxpro/huxpro.github.io&#34;&gt;huxblog Jekyll Theme&lt;/a&gt;
+and &lt;a href=&#34;https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll&#34;&gt;Clean Blog Jekyll Theme&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;These two upstream projects have done awesome jobs to create a blog theme, what I&amp;rsquo;m doing here is porting it to Hugo, of which I like the simplicity and the much faster compiling speed. Some other features which I think could be useful, such as site search with algolia and proxy for Disqus access in China, have also been built in the CleanWhite theme. Other fancy features of upstream projects are not supported by this Hugo theme, I&amp;rsquo;d like to make it as simple as possible and only focus on blog purpose, at least for now.
+While I created this theme, I followed the Hugo theme best practice and tried to make every part of the template as a replaceable partial html, so it could be much easier for you to make your customization based on it.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Professional Specialization&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I work in MLOps, software design, and Agentic AI, focusing on taking machine learning models from development to production&lt;/li&gt;
+&lt;li&gt;Research rigorous statistical applications in ML, edge computing, and distributed systems optimization through GitOps&lt;/li&gt;
+&lt;li&gt;Develop robotics applications integrating sensors and actuators with ML models for autonomous systems&lt;/li&gt;
+&lt;li&gt;Currently exploring the intersection between machine learning, LLMs, and financial markets&lt;/li&gt;
+&lt;li&gt;Develop and test code on a portable Raspberry Pi setup connected to iPad, monitoring efficiency with Weights &amp;amp; Biases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Career Path&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/</guid>
+      <description>&lt;h2 id=&#34;go-语言学习笔记&#34;&gt;&lt;a href=&#34;https://zhaohuabing.com/learning-golang&#34;&gt;Go 语言学习笔记&lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;envoy-学习笔记&#34;&gt;&lt;a href=&#34;https://zhaohuabing.com/learning-envoy&#34;&gt;Envoy 学习笔记&lt;/a&gt;&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/search/placeholder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/search/placeholder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Posts Archive</title>
+      <link>http://localhost:1313/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/archive/</guid>
+      <description>Archive of historical posts.</description>
+    </item>
+  </channel>
+</rss>
