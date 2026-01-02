@@ -33,7 +33,7 @@ enableEmoji = true
   [params.profileMode]
     enabled = true
     title = "Carlos Daniel Jiménez"
-    subtitle = "MLOps × Edge AI | Building intelligent systems on Jetson Orin NX + Raspberry Pi"
+    subtitle = "Measuring and optimizing AI systems for production"
     imageUrl = "/img/profile.jpeg"
     imageTitle = "Carlos Daniel Jiménez"
     imageWidth = 150
