@@ -1,141 +1,175 @@
-baseurl = "https://carlosdanieljimenez.com/"
-title = "The Probability and the Word"
-theme = "hugo-theme-cleanwhite"
+baseURL = "https://carlosdanieljimenez.com/"
+title = "The Probability Engine"
+theme = "PaperMod"
 languageCode = "en-us"
-preserveTaxonomyNames = true
-hasCJKLanguage = true
 
-[services]
-  # Enable comments by entering your Disqus shortname
-  [services.disqus]
-    shortname = ""
-  [services.googleAnalytics]
-    id = ""
+enableEmoji = true
 
 [pagination]
-  pagerSize = 5 # frontpage pagination
+  pagerSize = 5
 
+# Outputs configuration para Algolia
 [outputs]
-home = ["HTML", "RSS", "Algolia"]
+  home = ["HTML", "RSS", "Algolia"]
+
+# Custom output format para Algolia
+[outputFormats.Algolia]
+  baseName = "algolia"
+  isPlainText = true
+  mediaType = "application/json"
+  notAlternative = true
+
+# Configuración Algolia
+[params.algolia]
+  vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
+  params = ["categories", "tags"]
 
 [params]
-  header_image = "img/nvidia.jpg"
-  SEOTitle = "A blog about MLOps, LLMs and Apis"
-  description = "A blog about MLOps, LLMs and Apis"
-  keyword = ""
-  slogan = ""
-  upstreamAttribution = true
+  # SEO
+  description = "MLOps, Edge AI, and Agentic Systems - Building intelligent systems from Raspberry Pi to Cloud"
+  author = "Carlos Daniel Jiménez"
 
-  image_404 = "img/404-bg.jpg"
-  title_404 = ""
-  omit_categories = false
+  # Profile Mode
+  [params.profileMode]
+    enabled = true
+    title = "Carlos Daniel Jiménez"
+    subtitle = "MLOps Engineer | Edge AI Specialist | Raspberry Pi ↔ Jetson ↔ Cloud"
+    imageUrl = "/img/profile.jpeg"
+    imageTitle = "Carlos Daniel Jiménez"
+    imageWidth = 150
+    imageHeight = 150
 
-  # leancloud storage for page view counter
-  page_view_counter = false
-  leancloud_app_id = ""
-  leancloud_app_key = ""
+    buttons = [
+      {name = "🔧 MLOps Guides", url = "/mlops/"},
+      {name = "🍓 Raspberry Pi", url = "/raspberry-pi/"},
+      {name = "🟢 Jetson", url = "/jetson/"},
+      {name = "🤖 Agentic AI", url = "/agentic-ai/"}
+    ]
 
-  # algolia site search
+  # Home Info Params (alternativa a Profile Mode - comentado)
+  # [params.homeInfoParams]
+  #   Title = "MLOps × Edge AI × Agentic Systems"
+  #   Content = "Building intelligent systems that run anywhere. From Raspberry Pi to Jetson Orin to production clusters."
+
+  # Social Icons
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:danieljimenez88m@gmail.com"
+
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://x.com/DanielJimenezM9"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/carlosjimenez88M"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+  # Features
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  DateFormat = "January 2, 2006"
+
+  # Algolia (mantener para custom implementation)
   algolia_search = true
   algolia_appId = ""
   algolia_indexName = ""
   algolia_apiKey = ""
 
-  # Sidebar settings
-  sidebar_about_description = "ML Devops Engineer Advocated| Agentic AI Engineer|Father"
+# Menu Configuration
+[menu]
+  [[menu.main]]
+    identifier = "mlops"
+    name = "MLOps"
+    url = "/mlops/"
+    weight = 10
 
-  sidebar_avatar = "img/perfil_serio.jpeg"
+  [[menu.main]]
+    identifier = "raspberry-pi"
+    name = "Raspberry Pi"
+    url = "/raspberry-pi/"
+    weight = 20
 
-  featured_tags = true
-  featured_condition_size = 1
+  [[menu.main]]
+    identifier = "jetson"
+    name = "Jetson"
+    url = "/jetson/"
+    weight = 30
 
-  # Baidu Analytics
-  ba_track_id = ""
+  [[menu.main]]
+    identifier = "agentic-ai"
+    name = "Agentic AI"
+    url = "/agentic-ai/"
+    weight = 40
 
-  # We need a proxy to access Disqus api in China
-  # Follow https://github.com/zhaohuabing/disqus-php-api to set up your own disqus proxy
-  disqus_proxy = ""
-  disqus_site = ""
+  [[menu.main]]
+    identifier = "tidytuesday"
+    name = "TidyTuesday"
+    url = "/tidytuesday/"
+    weight = 50
 
-  # Twikoo comments
-  # Follow https://twikoo.js.org/ to set up your own env_id
-  twikoo_env_id = ""
+  [[menu.main]]
+    identifier = "edge-computing"
+    name = "Edge Computing"
+    url = "/edge-computing/"
+    weight = 60
 
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/post/"
+    weight = 70
 
+  [[menu.main]]
+    identifier = "archive"
+    name = "Archive"
+    url = "/archive/"
+    weight = 80
 
-  #Enable wechat pay & alipay to allow readers send reward money if they like the articles
-  reward = true
-  # reward_guide = "如果这篇文章对你有用,请随意打赏"
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 90
 
-  friends = false
-  bookmarks = false
-  about_me = true
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 100
 
-  # Include any custom CSS and/or JS files, url or relative to /static folder
-  #custom_css = ["css/lightbox.css", "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css", "css/main.css"]
-  #custom_js = ["js/lightbox.js", "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js", "js/main.js"]
-
-  [params.social]
-  rss            = true
-  email          = "danieljimenez88m@gmail.com"
-  #facebook      = "full profile url in facebook"
-  #googleplus    = "full profile url in googleplus"
-  twitter       = "https://x.com/DanielJimenezM9"
-  linkedin       = "https://github.com/carlosjimenez88M"
-  #stackoverflow  = "https://stackoverflow.com/users/yourstackoverflowid"
-  #instagram     = "full profile url in instagram"
-  github         = "https://github.com/carlosjimenez88M"
-  #wechat         = "your wechat qr code image"
-  #medium        = "full profile url in medium"
-  #slack         = "full workspace url in slack"
-  #pinterest     = "full profile url in pinterest"
-  #reddit        = "full profile url in reddit"
-  #gitlab        = "full profile url in gitlab"
-  #mastodon      = "full profile url in mastodon"
-  #keybase       = "full profile url in keybase"
-  #xing          = "https://www.xing.com/profile/yourxingid"
-  #git           = "full profile url for git user"
-
-  [[params.friend_link]]
-  title = "Linda的博客"
-  href =  "https://zhaozhihan.com"
-
-  [[params.bookmark_link]]
-  title =  "Martin Fowler"
-  href =  "https://martinfowler.com"
-  [[params.bookmark_link]]
-  title = "ServiceMesher"
-  href =  "http://www.servicemesher.com"
-  [[params.bookmark_link]]
-  title =  "Pxhere"
-  href = "https://pxhere.com"
-  [[params.bookmark_link]]
-  title = "unsplash"
-  href = "https://unsplash.com"
-
-  [[params.additional_menus]]
-  title =  "ARCHIVE"
-  href =  "/archive/"
-  [[params.additional_menus]]
-  title =  "ABOUT"
-  href =  "/about/"
-
-[outputFormats.Algolia]
-baseName = "algolia"
-isPlainText = true
-mediaType = "application/json"
-notAlternative = true
-
-[params.algolia]
-vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
-params = ["categories", "tags"]
-
+# Markup configuration
 [markup]
   [markup.tableOfContents]
     endLevel = 2
     startLevel = 1
+
   [markup.highlight]
     style = "dracula"
+    lineNos = false
+    noClasses = false
+
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+# Services
+[services]
+  [services.disqus]
+    shortname = ""
+  [services.googleAnalytics]
+    id = ""
+
+# Privacy
+[privacy]
+  [privacy.x]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true

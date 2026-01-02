@@ -1,0 +1,134 @@
+{{- define "main" }}
+<div class="post-content">
+  <h1>{{ .Title }}</h1>
+
+  <!-- Algolia Search Implementation -->
+  <div id="search-container">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.4.5/themes/satellite-min.css" integrity="sha256-TehzF/2QvNKhGQrrNpoOb2Ck4iGZ1J/DI4pkd2oUsBc=" crossorigin="anonymous">
+
+    <div id="search-searchbar"></div>
+    <div id="search-hits"></div>
+    <div id="pagination"></div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.20.0/dist/algoliasearch-lite.umd.js" integrity="sha256-DABVk+hYj0mdUzo+7ViXR1PqMqypNavHnb7RbSkfGcI=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@4.56.10/dist/instantsearch.production.min.js" integrity="sha256-vF6paCotK7DrW0JmAy7YqCZ9XCbsHWpjxkA7hmxvdg8=" crossorigin="anonymous"></script>
+
+<script>
+const searchClient = algoliasearch('{{ .Site.Params.algolia_appId }}', '{{ .Site.Params.algolia_apiKey }}');
+
+const search = instantsearch({
+  indexName: '{{ .Site.Params.algolia_indexName }}',
+  searchClient,
+  routing: true,
+});
+
+search.addWidgets([
+  instantsearch.widgets.searchBox({
+    container: '#search-searchbar',
+    placeholder: '{{ .Params.placeholder | default "Search posts..." }}',
+  }),
+
+  instantsearch.widgets.hits({
+    container: '#search-hits',
+    templates: {
+      item(hit, { html, components }) {
+        return html`
+          <article class="post-entry">
+            <header class="entry-header">
+              <h2>
+                <a href="${hit.url}">${components.Highlight({ hit, attribute: 'title' })}</a>
+              </h2>
+            </header>
+            <div class="entry-content">
+              <p>${components.Snippet({ hit, attribute: 'summary' })}</p>
+            </div>
+            <footer class="entry-footer">
+              <span>${new Date(hit.date * 1000).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+            </footer>
+          </article>
+        `;
+      },
+    },
+  }),
+
+  instantsearch.widgets.pagination({
+    container: '#pagination',
+  }),
+]);
+
+search.start();
+</script>
+
+<style>
+/* PaperMod-compatible Algolia styles */
+#search-container {
+  max-width: 100%;
+  margin: 2rem 0;
+}
+
+.ais-SearchBox {
+  margin-bottom: 2rem;
+}
+
+.ais-SearchBox-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--entry);
+  color: var(--content);
+}
+
+.ais-Hits-item {
+  margin-bottom: 2rem;
+  list-style: none;
+}
+
+.post-entry {
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  background: var(--entry);
+}
+
+.entry-header h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+}
+
+.entry-header a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.entry-header a:hover {
+  text-decoration: underline;
+}
+
+.entry-content p {
+  margin: 0.5rem 0;
+  color: var(--secondary);
+}
+
+.entry-footer {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: var(--secondary);
+}
+
+.ais-Highlight-highlighted {
+  background-color: var(--hljs-bg);
+  color: var(--primary);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.ais-Pagination {
+  margin-top: 2rem;
+}
+</style>
+
+{{- end }}

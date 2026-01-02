@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>MLOps on The Probability and the Word</title>
-    <link>https://carlosdanieljimenez.com/categories/mlops/</link>
-    <description>Recent content in MLOps on The Probability and the Word</description>
-    <generator>Hugo</generator>
+    <title>MLOps on The Probability Engine</title>
+    <link>http://localhost:1313/categories/mlops/</link>
+    <description>Recent content in MLOps on The Probability Engine</description>
+    <generator>Hugo -- 0.147.3</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 23 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://carlosdanieljimenez.com/categories/mlops/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/mlops/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MLops into Raspberry Pi 5</title>
-      <link>https://carlosdanieljimenez.com/post/mlops_raspberrypi5/</link>
+      <link>http://localhost:1313/post/mlops_raspberrypi5/</link>
       <pubDate>Sun, 23 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://carlosdanieljimenez.com/post/mlops_raspberrypi5/</guid>
-      <description>&lt;p&gt;One of the tools I use most for practicing &lt;strong&gt;MLOps&lt;/strong&gt;, both for designing pipelines and APIs (for inference), is the &lt;strong&gt;Raspberry Pi&lt;/strong&gt;. Today, I spent several hours trying to install &lt;strong&gt;Visual Studio Code&lt;/strong&gt; to complement my &lt;strong&gt;iPad Pro&lt;/strong&gt; as a development tool.&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-this-setup-&#34;&gt;&lt;strong&gt;Why this setup?&lt;/strong&gt; 🤔&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Improve programming skills—I am a big fan of using &lt;strong&gt;Weights &amp;amp; Biases (W&amp;amp;B)&lt;/strong&gt; to monitor the resource usage of each service I create.&lt;/li&gt;&#xA;&lt;li&gt;Using the &lt;strong&gt;Raspberry Pi as a server&lt;/strong&gt; allows me to test &lt;strong&gt;Edge computing&lt;/strong&gt; deployments.&lt;/li&gt;&#xA;&lt;li&gt;For &lt;strong&gt;scalable prototype development&lt;/strong&gt;, it’s a great way to test artifacts and the &lt;strong&gt;lifecycle of models&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;When designing a model from &lt;strong&gt;hyperparameters&lt;/strong&gt;, it helps me fine-tune &lt;strong&gt;grid search&lt;/strong&gt; or &lt;strong&gt;Bayesian methods&lt;/strong&gt; efficiently to optimize experimentation.&lt;/li&gt;&#xA;&lt;li&gt;Running &lt;strong&gt;MLflow on Edge computing&lt;/strong&gt; enables &lt;strong&gt;optimization&lt;/strong&gt; in model registry and updates.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Using Docker and Kubernetes&lt;/strong&gt; helps ensure &lt;strong&gt;clean code&lt;/strong&gt; before committing changes.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;There are many more reasons, but these are the main ones. Now, how do you set up &lt;strong&gt;Raspberry Pi&lt;/strong&gt; to unlock its full power for MLOps?&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/mlops_raspberrypi5/</guid>
+      <description>A robust implementation of facilities for MLOps development</description>
     </item>
   </channel>
 </rss>

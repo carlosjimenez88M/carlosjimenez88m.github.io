@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Blog on The Probability and the Word</title>
-    <link>https://carlosdanieljimenez.com/categories/blog/</link>
-    <description>Recent content in Blog on The Probability and the Word</description>
-    <generator>Hugo</generator>
+    <title>Blog on The Probability Engine</title>
+    <link>http://localhost:1313/categories/blog/</link>
+    <description>Recent content in Blog on The Probability Engine</description>
+    <generator>Hugo -- 0.147.3</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://carlosdanieljimenez.com/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Raspberry Pi 16GB, Servers, and MLOps</title>
-      <link>https://carlosdanieljimenez.com/post/mlops-servers-raspberry/</link>
+      <link>http://localhost:1313/post/mlops-servers-raspberry/</link>
       <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://carlosdanieljimenez.com/post/mlops-servers-raspberry/</guid>
-      <description>&lt;p&gt;Less than two months ago, the most powerful version of the Raspberry Pi 5 hit the market, featuring 16GB of RAM. While its price ($120 USD) is a valid discussion point, as someone who uses these devices as servers for deployment testing and efficiency evaluation at the code level, I want to explore its utility from a &lt;strong&gt;computer science perspective&lt;/strong&gt; in the context of &lt;strong&gt;MLOps and LLMs testing&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;raspberry-pi-utility&#34;&gt;Raspberry Pi Utility&lt;/h2&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s start with some common applications to build on ideas:&lt;/p&gt;</description>
+      <guid>http://localhost:1313/post/mlops-servers-raspberry/</guid>
+      <description>Raspberry Pi 5 (16 Gbs) like a Server</description>
     </item>
   </channel>
 </rss>
