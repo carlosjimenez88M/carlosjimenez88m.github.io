@@ -29,6 +29,13 @@ enableEmoji = true
   description = "MLOps, Edge AI, and Agentic Systems - Building intelligent systems from Raspberry Pi to Cloud"
   author = "Carlos Daniel Jiménez"
 
+  # Favicon
+  [params.assets]
+    favicon = "/img/icon.jpeg"
+    favicon16x16 = "/img/icon.jpeg"
+    favicon32x32 = "/img/icon.jpeg"
+    apple_touch_icon = "/img/icon.jpeg"
+
   # Profile Mode
   [params.profileMode]
     enabled = true
