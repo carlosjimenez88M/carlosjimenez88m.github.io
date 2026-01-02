@@ -72,6 +72,8 @@
   </url><url>
     <loc>http://localhost:1313/edge-computing/</loc>
   </url><url>
+    <loc>http://localhost:1313/follow/</loc>
+  </url><url>
     <loc>http://localhost:1313/mlops/</loc>
   </url><url>
     <loc>http://localhost:1313/jetson/</loc>

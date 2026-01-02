@@ -95,6 +95,13 @@ While I created this theme, I followed the Hugo theme best practice and tried to
       <description></description>
     </item>
     <item>
+      <title>Follow The Probability Engine</title>
+      <link>http://localhost:1313/follow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/follow/</guid>
+      <description>Stay updated with new posts on MLOps, Edge AI, and Agentic Systems</description>
+    </item>
+    <item>
       <title>Posts Archive</title>
       <link>http://localhost:1313/archive/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

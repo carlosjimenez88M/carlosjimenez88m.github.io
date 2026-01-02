@@ -33,7 +33,7 @@ enableEmoji = true
   [params.profileMode]
     enabled = true
     title = "Carlos Daniel Jiménez"
-    subtitle = "MLOps Engineer | Edge AI Specialist | Raspberry Pi ↔ Jetson ↔ Cloud"
+    subtitle = "MLOps × Edge AI | Building intelligent systems on Jetson Orin NX + Raspberry Pi"
     imageUrl = "/img/profile.jpeg"
     imageTitle = "Carlos Daniel Jiménez"
     imageWidth = 150
@@ -43,13 +43,17 @@ enableEmoji = true
       {name = "🔧 MLOps Guides", url = "/mlops/"},
       {name = "🤖 Agentic AI", url = "/agentic-ai/"},
       {name = "📊 TidyTuesday", url = "/tidytuesday/"},
-      {name = "⚡ Edge Computing", url = "/edge-computing/"}
+      {name = "⚡ Edge Computing", url = "/edge-computing/"},
+      {name = "📬 Follow", url = "/follow/"}
     ]
 
   # Home Info Params (alternativa a Profile Mode - comentado)
   # [params.homeInfoParams]
   #   Title = "MLOps × Edge AI × Agentic Systems"
   #   Content = "Building intelligent systems that run anywhere. From Raspberry Pi to Jetson Orin to production clusters."
+
+  # Show RSS button in profile mode
+  ShowRssButtonInSectionTermList = true
 
   # Social Icons
   [[params.socialIcons]]
