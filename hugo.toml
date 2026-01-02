@@ -36,8 +36,8 @@ enableEmoji = true
     subtitle = "Measuring and optimizing AI systems for production"
     imageUrl = "/img/profile3.jpeg"
     imageTitle = "Carlos Daniel Jiménez"
-    imageWidth = 150
-    imageHeight = 150
+    imageWidth = 180
+    imageHeight = 240
 
     buttons = [
       {name = "🔧 MLOps Guides", url = "/mlops/"},
