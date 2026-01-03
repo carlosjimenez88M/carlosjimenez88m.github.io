@@ -58,9 +58,3 @@ I collect vinyl records. I also build and repair guitars—Jazzmaster-style, bec
 📍 Based in Colombia, working globally.
 
 [GitHub](https://github.com/carlosjimenez88M) · [LinkedIn](https://www.linkedin.com/in/djimenezm/) · [Twitter](https://twitter.com/DanielJimenezM9)
-
----
-
-## Bio (for events)
-
-Carlos Daniel Jiménez is a Principal MLOps Engineer at Globant building AI systems at scale. Previously ML Tech Lead at Mercado Libre, AI Engineer at Yale University (with NVIDIA), and ML Engineer at the Inter-American Development Bank and the United Nations. He writes about MLOps and Agentic AI at carlosdanieljimenez.com.
