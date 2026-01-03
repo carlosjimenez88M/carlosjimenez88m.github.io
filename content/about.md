@@ -4,7 +4,7 @@ description: "Carlos Daniel Jiménez - Principal MLOps Engineer building AI syst
 layout: "page"
 ---
 
-![Carlos Daniel Jiménez](/img/profile5.jpeg)
+![Carlos Daniel Jiménez](/img/profile6.jpeg)
 
 I'm Carlos Daniel Jiménez. I build AI systems that work in production—recommendation engines, intelligent agents, and the MLOps infrastructure that keeps them running.
 
