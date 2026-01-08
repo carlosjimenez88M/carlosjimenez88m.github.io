@@ -1,26 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>NLP on The Probability Engine</title>
-    <link>https://carlosdanieljimenez.com/tags/nlp/</link>
-    <description>Recent content in NLP on The Probability Engine</description>
-    <generator>Hugo -- 0.147.3</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 07 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://carlosdanieljimenez.com/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Literary Mapping of Christmas Novels: A Vector Narrative Arc Approach</title>
-      <link>https://carlosdanieljimenez.com/tidytuesday/2026-01-07-analisis/</link>
-      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://carlosdanieljimenez.com/tidytuesday/2026-01-07-analisis/</guid>
-      <description>&lt;h2 id=&#34;post-objective&#34;&gt;Post Objective&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Data cleaning and preliminary analysis process&lt;/li&gt;
-&lt;li&gt;Understanding the emotional charge or plot development of texts through semantic archaeology based on PCAs&lt;/li&gt;
-&lt;li&gt;Understanding the connections and most representative ideas within the document set&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;intention&#34;&gt;Intention&lt;/h2&gt;
-&lt;p&gt;Understanding a story&amp;rsquo;s behavior at the level of its variance is a challenge addressed by attentional engineering. Therefore, using lesser-known methods such as the &lt;strong&gt;vector narrative arc&lt;/strong&gt; combined with a &lt;strong&gt;literary map&lt;/strong&gt; constitutes an interesting route to address increasingly common problems.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>NLP on The Probability Engine</title><link>https://carlosdanieljimenez.com/tags/nlp/</link><description>Recent content in NLP on The Probability Engine</description><generator>Hugo -- 0.147.3</generator><language>en-us</language><lastBuildDate>Wed, 07 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://carlosdanieljimenez.com/tags/nlp/index.xml" rel="self" type="application/rss+xml"/><item><title>Literary Mapping of Christmas Novels: A Vector Narrative Arc Approach</title><link>https://carlosdanieljimenez.com/tidytuesday/2026-01-07-literary_mapping/</link><pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate><guid>https://carlosdanieljimenez.com/tidytuesday/2026-01-07-literary_mapping/</guid><description>&lt;h2 id="post-objective">Post Objective&lt;/h2>
+&lt;ul>
+&lt;li>Data cleaning and preliminary analysis process&lt;/li>
+&lt;li>Understanding the emotional charge or plot development of texts through semantic archaeology based on PCAs&lt;/li>
+&lt;li>Understanding the connections and most representative ideas within the document set&lt;/li>
+&lt;/ul>
+&lt;h2 id="intention">Intention&lt;/h2>
+&lt;p>Understanding a story&amp;rsquo;s behavior at the level of its variance is a challenge addressed by attentional engineering. Therefore, using lesser-known methods such as the &lt;strong>vector narrative arc&lt;/strong> combined with a &lt;strong>literary map&lt;/strong> constitutes an interesting route to address increasingly common problems.&lt;/p></description></item></channel></rss>
