@@ -1,130 +1,636 @@
-<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Artifact Design and Pipeline in MLOps Part I | The Probability Engine</title>
-<meta name=keywords content="mlflow,artifacts,pipeline,mlproject,argparse"><meta name=description content="Introduction to Artifacts designs"><meta name=author content="Carlos Daniel Jiménez"><link rel=canonical href=https://carlosdanieljimenez.com/post/artifacts-designs/><link crossorigin=anonymous href=/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css integrity="sha256-NDzEgLn/yPBMy+XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as=style><link rel=icon href=https://carlosdanieljimenez.com/img/icon.jpeg><link rel=icon type=image/png sizes=16x16 href=https://carlosdanieljimenez.com/img/icon.jpeg><link rel=icon type=image/png sizes=32x32 href=https://carlosdanieljimenez.com/img/icon.jpeg><link rel=apple-touch-icon href=https://carlosdanieljimenez.com/img/icon.jpeg><link rel=mask-icon href=https://carlosdanieljimenez.com/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=https://carlosdanieljimenez.com/post/artifacts-designs/><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}@media(prefers-color-scheme:light){.list::-webkit-scrollbar-thumb{border-color:var(--code-bg)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><link rel=icon type=image/png href=/img/icon.jpeg><link rel=apple-touch-icon href=/img/icon.jpeg><link rel="shortcut icon" href=/img/icon.jpeg><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css integrity=sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV crossorigin=anonymous><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js integrity=sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8 crossorigin=anonymous></script><script defer src=https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js integrity=sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05 crossorigin=anonymous></script><script>document.addEventListener("DOMContentLoaded",function(){renderMathInElement(document.body,{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}],throwOnError:!1})})</script><meta property="og:url" content="https://carlosdanieljimenez.com/post/artifacts-designs/"><meta property="og:site_name" content="The Probability Engine"><meta property="og:title" content="Artifact Design and Pipeline in MLOps Part I"><meta property="og:description" content="Introduction to Artifacts designs"><meta property="og:locale" content="en-us"><meta property="og:type" content="article"><meta property="article:section" content="post"><meta property="article:published_time" content="2024-11-21T00:00:00+00:00"><meta property="article:modified_time" content="2024-11-21T00:00:00+00:00"><meta property="article:tag" content="Mlflow"><meta property="article:tag" content="Artifacts"><meta property="article:tag" content="Pipeline"><meta property="article:tag" content="Mlproject"><meta property="article:tag" content="Argparse"><meta name=twitter:card content="summary"><meta name=twitter:title content="Artifact Design and Pipeline in MLOps Part I"><meta name=twitter:description content="Introduction to Artifacts designs"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://carlosdanieljimenez.com/post/"},{"@type":"ListItem","position":2,"name":"Artifact Design and Pipeline in MLOps Part I","item":"https://carlosdanieljimenez.com/post/artifacts-designs/"}]}</script><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"Artifact Design and Pipeline in MLOps Part I","name":"Artifact Design and Pipeline in MLOps Part I","description":"Introduction to Artifacts designs","keywords":["mlflow","artifacts","pipeline","mlproject","argparse"],"articleBody":"Artifact Design and Pipeline in MLOps Part I In MLOps, most of the work focuses on the inference stage, specifically the development of microservices. However, the broader picture goes beyond this—it includes aspects ranging from programming practices to resource utilization that need to be evaluated. This is where the role of a Machine Learning DevOps Engineer becomes crucial. In this post, I want to address this profile by approaching it from the perspective of designing a model.\nTypically, in Data Science, a pipeline is presented as follows:\nTo make this process reproducible, we need to discuss artifacts, which are essentially “contracts” defined by code. For example, if we have an ETL process, the artifact might be a new database. Artifacts help us maintain an organized, modular, and sequential process within pipelines. Moreover, artifacts simplify experiments and model retraining by allowing us to define training rules for scenarios such as new data versions or significant data drift.\nAlthough this formalizes the programming practices that data scientists implement, it is, in fact, a good practice—similar to including unit tests for every function or class in our code.\nThe above diagram illustrates the flow of creating an artifact through contracts. Now, where do these contracts come from? This is where MLflow—specifically, MLproject—comes into play. An MLproject serves as a manifesto of promises made by code or components, based on predefined conditions. The advantage of using such a manifesto is that it ensures each artifact is independent and reproducible. Its basic structure includes:\nname: The name of the manifesto. conda_env: The Conda environment that allows the installation of required packages or libraries for the component’s contract. entry_points: Defines the steps required to execute the pipeline. So far, we’ve defined two components for developing an artifact: the conda.yaml and the MLproject. Now, let’s talk about the code itself, which brings us to argparse functions.\nPreviously, we worked with immutable code, often derived from notebooks or experimental scripts. However, as data versioning became more frequent, it became necessary to introduce flexibility in parameter management. This is where argparse gained importance. Let’s see an example using the Iris dataset:\n#====================# # ---- Libraries ----# #====================# import argparse from sklearn.datasets import load_iris from sklearn.model_selection import train_test_split from sklearn.linear_model import LogisticRegression from sklearn.metrics import accuracy_score, classification_report #=========================# # ---- Main Function ---- # #=========================# def main(args): iris = load_iris() X, y = iris.data, iris.target X_train, X_test, y_train, y_test = train_test_split( X, y, test_size=args.test_size, random_state=args.random_seed ) model = LogisticRegression(max_iter=args.max_iter, random_state=args.random_seed) model.fit(X_train, y_train) y_pred = model.predict(X_test) accuracy = accuracy_score(y_test, y_pred) print(f\"Model Accuracy: {accuracy:.2f}\") print(\"\\nClassification Report:\") print(classification_report(y_test, y_pred, target_names=iris.target_names)) if __name__ == \"__main__\": parser = argparse.ArgumentParser(description=\"Train a Logistic Regression model on the Iris dataset.\") parser.add_argument(\"--test_size\", type=float, default=0.2, help=\"Proportion of data to use for testing (default: 0.2)\") parser.add_argument(\"--random_seed\", type=int, default=42, help=\"Random seed for reproducibility (default: 42)\") parser.add_argument(\"--max_iter\", type=int, default=200, help=\"Maximum number of iterations for Logistic Regression (default: 200)\") args = parser.parse_args() main(args) Taxonomy of the Code A main function is defined. This function accepts parameters that can be modified via the command line or a config.yaml file. An argument parser (parser) is initialized to define the parameters and their conditions. The args = parser.parse_args() command seals these contracts. The function executes with the established conditions. Manifesto for This Example name: iris-classifier conda_env: conda.yaml entry_points: train: parameters: test_size: type: float default: 0.3 description: proportion split into general dataset random_seed: type: int default: 42 max_iter: type: int default: 200 command: \u003e- python train_iris.py --test_size {test_size}\\ --random_seed {random_seed}\\ --max_iter {max_iter} This manifesto defines how the parameters are passed into the parsed code and their default values. To execute this component, you would run:\npython train_iris.py --test_size 0.3 --max_iter 300 Orchestration The idea of a pipeline is not to execute these commands manually. Instead, a single command (e.g., mlflow run .) should suffice. To achieve this, the process must be orchestrated. Let’s consider an example pipeline with a GitOps component (kept simple for now). Imagine downloading a dataset. We’ll have a folder containing three files: MLproject, conda.yaml, and main.py.\nMain Script The main.py file downloads and registers the dataset as an artifact.\n#!usr/bin/env python ''' End-to-End Machine Learning Project Step: Download Dataset 2024-11-21 ''' #=====================# # ---- Libraries ---- # #=====================# import os import argparse import logging import pathlib import pandas as pd import tarfile import urllib.request import wandb #=====================# # ---- Functions ---- # #=====================# def load_housing_data(args): \"\"\" Downloads the housing dataset, extracts it, registers it with W\u0026B, and returns the loaded dataset as a pandas DataFrame. \"\"\" # Logic for downloading and processing data ... if __name__ == \"__main__\": # Argument parsing logic ... Manifesto name: download_data conda_env: conda.yaml entry_points: main: parameters: file_url: description: URL of the file to download type: str artifact_name: description: Name of the artifact type: str artifact_type: description: Data to train the model type: str default: raw_data artifact_description: description: Artifact to train the model type: str command: \u003e- python main.py --file_url {file_url}\\ --artifact_name {artifact_name}\\ --artifact_type {artifact_type}\\ --artifact_description {artifact_description} By running mlflow run ., the dataset is downloaded and registered as the first artifact of the project. In the next post, I’ll discuss how to expand the pipeline, incorporating agents to find the best model parameters.\n","wordCount":"854","inLanguage":"en","datePublished":"2024-11-21T00:00:00Z","dateModified":"2024-11-21T00:00:00Z","author":{"@type":"Person","name":"Carlos Daniel Jiménez"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://carlosdanieljimenez.com/post/artifacts-designs/"},"publisher":{"@type":"Organization","name":"The Probability Engine","logo":{"@type":"ImageObject","url":"https://carlosdanieljimenez.com/img/icon.jpeg"}}}</script></head><body id=top><header class=header><nav class=nav><div class=logo><a href=https://carlosdanieljimenez.com/ accesskey=h title="The Probability Engine (Alt + H)">The Probability Engine</a><div class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme"><svg id="moon" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" width="24" height="18" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu><li><a href=https://carlosdanieljimenez.com/mlops/ title=MLOps><span>MLOps</span></a></li><li><a href=https://carlosdanieljimenez.com/agentic-ai/ title="Agentic AI"><span>Agentic AI</span></a></li><li><a href=https://carlosdanieljimenez.com/tidytuesday/ title=TidyTuesday><span>TidyTuesday</span></a></li><li><a href=https://carlosdanieljimenez.com/post/ title=Posts><span>Posts</span></a></li><li><a href=https://carlosdanieljimenez.com/edge-computing/ title="Edge Computing"><span>Edge Computing</span></a></li><li><a href=https://carlosdanieljimenez.com/archive/ title=Archive><span>Archive</span></a></li><li><a href=https://carlosdanieljimenez.com/about/ title=About><span>About</span></a></li><li><a href=https://carlosdanieljimenez.com/search/ title="Search (Alt + /)" accesskey=/><span>Search</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">Artifact Design and Pipeline in MLOps Part I</h1><div class=post-description>Introduction to Artifacts designs</div><div class=post-meta><span title='2024-11-21 00:00:00 +0000 UTC'>November 21, 2024</span>&nbsp;·&nbsp;<span>Carlos Daniel Jiménez</span></div></header><div class=post-content><h2 id=artifact-design-and-pipeline-in-mlops-part-i>Artifact Design and Pipeline in MLOps Part I<a hidden class=anchor aria-hidden=true href=#artifact-design-and-pipeline-in-mlops-part-i>#</a></h2><p>In MLOps, most of the work focuses on the <strong>inference stage</strong>, specifically the development of microservices. However, the broader picture goes beyond this—it includes aspects ranging from programming practices to resource utilization that need to be evaluated. This is where the role of a <strong>Machine Learning DevOps Engineer</strong> becomes crucial. In this post, I want to address this profile by approaching it from the perspective of designing a model.</p><p>Typically, in Data Science, a pipeline is presented as follows:</p><p><img alt=image.png loading=lazy src="https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/images/image.png?raw=true"></p><p>To make this process reproducible, we need to discuss <strong>artifacts</strong>, which are essentially &ldquo;contracts&rdquo; defined by code. For example, if we have an ETL process, the artifact might be a new database. Artifacts help us maintain an organized, modular, and sequential process within pipelines. Moreover, artifacts simplify experiments and model retraining by allowing us to define training rules for scenarios such as new data versions or significant data drift.</p><p>Although this formalizes the programming practices that data scientists implement, it is, in fact, a good practice—similar to including unit tests for every function or class in our code.</p><p><img alt=image.png loading=lazy src="https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/images/artifacts.png?raw=true"></p><p>The above diagram illustrates the flow of creating an artifact through contracts. Now, where do these contracts come from? This is where <strong>MLflow</strong>—specifically, <code>MLproject</code>—comes into play. An <code>MLproject</code> serves as a manifesto of promises made by code or components, based on predefined conditions. The advantage of using such a manifesto is that it ensures each artifact is <strong>independent and reproducible</strong>. Its basic structure includes:</p><ul><li><strong>name</strong>: The name of the manifesto.</li><li><strong>conda_env</strong>: The Conda environment that allows the installation of required packages or libraries for the component&rsquo;s contract.</li><li><strong>entry_points</strong>: Defines the steps required to execute the pipeline.</li></ul><p>So far, we’ve defined two components for developing an artifact: the <code>conda.yaml</code> and the <code>MLproject</code>. Now, let’s talk about the code itself, which brings us to <strong>argparse</strong> functions.</p><hr><p>Previously, we worked with immutable code, often derived from notebooks or experimental scripts. However, as data versioning became more frequent, it became necessary to introduce flexibility in parameter management. This is where <strong>argparse</strong> gained importance. Let’s see an example using the Iris dataset:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=c1>#====================#</span>
-</span></span><span class=line><span class=cl><span class=c1># ---- Libraries ----#</span>
-</span></span><span class=line><span class=cl><span class=c1>#====================#</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=kn>import</span> <span class=nn>argparse</span>
-</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>sklearn.datasets</span> <span class=kn>import</span> <span class=n>load_iris</span>
-</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>sklearn.model_selection</span> <span class=kn>import</span> <span class=n>train_test_split</span>
-</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>sklearn.linear_model</span> <span class=kn>import</span> <span class=n>LogisticRegression</span>
-</span></span><span class=line><span class=cl><span class=kn>from</span> <span class=nn>sklearn.metrics</span> <span class=kn>import</span> <span class=n>accuracy_score</span><span class=p>,</span> <span class=n>classification_report</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=c1>#=========================#</span>
-</span></span><span class=line><span class=cl><span class=c1># ---- Main Function ---- #</span>
-</span></span><span class=line><span class=cl><span class=c1>#=========================#</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>main</span><span class=p>(</span><span class=n>args</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>    <span class=n>iris</span> <span class=o>=</span> <span class=n>load_iris</span><span class=p>()</span>
-</span></span><span class=line><span class=cl>    <span class=n>X</span><span class=p>,</span> <span class=n>y</span> <span class=o>=</span> <span class=n>iris</span><span class=o>.</span><span class=n>data</span><span class=p>,</span> <span class=n>iris</span><span class=o>.</span><span class=n>target</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=n>X_train</span><span class=p>,</span> <span class=n>X_test</span><span class=p>,</span> <span class=n>y_train</span><span class=p>,</span> <span class=n>y_test</span> <span class=o>=</span> <span class=n>train_test_split</span><span class=p>(</span>
-</span></span><span class=line><span class=cl>        <span class=n>X</span><span class=p>,</span> <span class=n>y</span><span class=p>,</span> <span class=n>test_size</span><span class=o>=</span><span class=n>args</span><span class=o>.</span><span class=n>test_size</span><span class=p>,</span> <span class=n>random_state</span><span class=o>=</span><span class=n>args</span><span class=o>.</span><span class=n>random_seed</span>
-</span></span><span class=line><span class=cl>    <span class=p>)</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=n>model</span> <span class=o>=</span> <span class=n>LogisticRegression</span><span class=p>(</span><span class=n>max_iter</span><span class=o>=</span><span class=n>args</span><span class=o>.</span><span class=n>max_iter</span><span class=p>,</span> 
-</span></span><span class=line><span class=cl>                                <span class=n>random_state</span><span class=o>=</span><span class=n>args</span><span class=o>.</span><span class=n>random_seed</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>    <span class=n>model</span><span class=o>.</span><span class=n>fit</span><span class=p>(</span><span class=n>X_train</span><span class=p>,</span> <span class=n>y_train</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=n>y_pred</span> <span class=o>=</span> <span class=n>model</span><span class=o>.</span><span class=n>predict</span><span class=p>(</span><span class=n>X_test</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>    <span class=n>accuracy</span> <span class=o>=</span> <span class=n>accuracy_score</span><span class=p>(</span><span class=n>y_test</span><span class=p>,</span> <span class=n>y_pred</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=nb>print</span><span class=p>(</span><span class=sa>f</span><span class=s2>&#34;Model Accuracy: </span><span class=si>{</span><span class=n>accuracy</span><span class=si>:</span><span class=s2>.2f</span><span class=si>}</span><span class=s2>&#34;</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>    <span class=nb>print</span><span class=p>(</span><span class=s2>&#34;</span><span class=se>\n</span><span class=s2>Classification Report:&#34;</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>    <span class=nb>print</span><span class=p>(</span><span class=n>classification_report</span><span class=p>(</span><span class=n>y_test</span><span class=p>,</span> <span class=n>y_pred</span><span class=p>,</span> <span class=n>target_names</span><span class=o>=</span><span class=n>iris</span><span class=o>.</span><span class=n>target_names</span><span class=p>))</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=k>if</span> <span class=vm>__name__</span> <span class=o>==</span> <span class=s2>&#34;__main__&#34;</span><span class=p>:</span>
-</span></span><span class=line><span class=cl>    <span class=n>parser</span> <span class=o>=</span> <span class=n>argparse</span><span class=o>.</span><span class=n>ArgumentParser</span><span class=p>(</span><span class=n>description</span><span class=o>=</span><span class=s2>&#34;Train a Logistic Regression model on the Iris dataset.&#34;</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>    <span class=n>parser</span><span class=o>.</span><span class=n>add_argument</span><span class=p>(</span><span class=s2>&#34;--test_size&#34;</span><span class=p>,</span> <span class=nb>type</span><span class=o>=</span><span class=nb>float</span><span class=p>,</span> <span class=n>default</span><span class=o>=</span><span class=mf>0.2</span><span class=p>,</span> <span class=n>help</span><span class=o>=</span><span class=s2>&#34;Proportion of data to use for testing (default: 0.2)&#34;</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>    <span class=n>parser</span><span class=o>.</span><span class=n>add_argument</span><span class=p>(</span><span class=s2>&#34;--random_seed&#34;</span><span class=p>,</span> <span class=nb>type</span><span class=o>=</span><span class=nb>int</span><span class=p>,</span> <span class=n>default</span><span class=o>=</span><span class=mi>42</span><span class=p>,</span> <span class=n>help</span><span class=o>=</span><span class=s2>&#34;Random seed for reproducibility (default: 42)&#34;</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>    <span class=n>parser</span><span class=o>.</span><span class=n>add_argument</span><span class=p>(</span><span class=s2>&#34;--max_iter&#34;</span><span class=p>,</span> <span class=nb>type</span><span class=o>=</span><span class=nb>int</span><span class=p>,</span> <span class=n>default</span><span class=o>=</span><span class=mi>200</span><span class=p>,</span> <span class=n>help</span><span class=o>=</span><span class=s2>&#34;Maximum number of iterations for Logistic Regression (default: 200)&#34;</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=n>args</span> <span class=o>=</span> <span class=n>parser</span><span class=o>.</span><span class=n>parse_args</span><span class=p>()</span>
-</span></span><span class=line><span class=cl>    
-</span></span><span class=line><span class=cl>    <span class=n>main</span><span class=p>(</span><span class=n>args</span><span class=p>)</span>
-</span></span></code></pre></div><hr><h3 id=taxonomy-of-the-code><strong>Taxonomy of the Code</strong><a hidden class=anchor aria-hidden=true href=#taxonomy-of-the-code>#</a></h3><ol><li>A <code>main</code> function is defined.</li><li>This function accepts parameters that can be modified via the command line or a <code>config.yaml</code> file.</li><li>An <strong>argument parser</strong> (<code>parser</code>) is initialized to define the parameters and their conditions.</li><li>The <code>args = parser.parse_args()</code> command seals these contracts.</li><li>The function executes with the established conditions.</li></ol><hr><h3 id=manifesto-for-this-example><strong>Manifesto for This Example</strong><a hidden class=anchor aria-hidden=true href=#manifesto-for-this-example>#</a></h3><div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=line><span class=cl><span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>iris-classifier</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>conda_env</span><span class=p>:</span><span class=w> </span><span class=l>conda.yaml</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>entry_points</span><span class=p>:</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>train</span><span class=p>:</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>parameters</span><span class=p>:</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>test_size</span><span class=p>:</span><span class=w> 
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>type</span><span class=p>:</span><span class=w> </span><span class=l>float</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>default</span><span class=p>:</span><span class=w> </span><span class=m>0.3</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>description</span><span class=p>:</span><span class=w> </span><span class=l>proportion split into general dataset</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>random_seed</span><span class=p>:</span><span class=w> 
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>type</span><span class=p>:</span><span class=w> </span><span class=l>int</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>default</span><span class=p>:</span><span class=w> </span><span class=m>42</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>max_iter</span><span class=p>:</span><span class=w> 
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>type</span><span class=p>:</span><span class=w> </span><span class=l>int</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>default</span><span class=p>:</span><span class=w> </span><span class=m>200</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>command</span><span class=p>:</span><span class=w> </span><span class=p>&gt;-</span><span class=sd>
-</span></span></span><span class=line><span class=cl><span class=sd>      python train_iris.py --test_size {test_size}\ 
-</span></span></span><span class=line><span class=cl><span class=sd>                           --random_seed {random_seed}\ 
-</span></span></span><span class=line><span class=cl><span class=sd>                           --max_iter {max_iter}</span><span class=w>
-</span></span></span></code></pre></div><p>This manifesto defines how the parameters are passed into the parsed code and their default values. To execute this component, you would run:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>python train_iris.py --test_size 0.3 --max_iter <span class=m>300</span>
-</span></span></code></pre></div><hr><h3 id=orchestration><strong>Orchestration</strong><a hidden class=anchor aria-hidden=true href=#orchestration>#</a></h3><p>The idea of a pipeline is not to execute these commands manually. Instead, a single command (e.g., <code>mlflow run .</code>) should suffice. To achieve this, the process must be orchestrated. Let’s consider an example pipeline with a GitOps component (kept simple for now). Imagine downloading a dataset. We’ll have a folder containing three files: <code>MLproject</code>, <code>conda.yaml</code>, and <code>main.py</code>.</p><h4 id=main-script><strong>Main Script</strong><a hidden class=anchor aria-hidden=true href=#main-script>#</a></h4><p>The <code>main.py</code> file downloads and registers the dataset as an artifact.</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=ch>#!usr/bin/env python</span>
-</span></span><span class=line><span class=cl><span class=s1>&#39;&#39;&#39;
-</span></span></span><span class=line><span class=cl><span class=s1>End-to-End Machine Learning Project
-</span></span></span><span class=line><span class=cl><span class=s1>Step: Download Dataset
-</span></span></span><span class=line><span class=cl><span class=s1>2024-11-21
-</span></span></span><span class=line><span class=cl><span class=s1>&#39;&#39;&#39;</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=c1>#=====================#</span>
-</span></span><span class=line><span class=cl><span class=c1># ---- Libraries ---- #</span>
-</span></span><span class=line><span class=cl><span class=c1>#=====================#</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=kn>import</span> <span class=nn>os</span>
-</span></span><span class=line><span class=cl><span class=kn>import</span> <span class=nn>argparse</span>
-</span></span><span class=line><span class=cl><span class=kn>import</span> <span class=nn>logging</span>
-</span></span><span class=line><span class=cl><span class=kn>import</span> <span class=nn>pathlib</span>
-</span></span><span class=line><span class=cl><span class=kn>import</span> <span class=nn>pandas</span> <span class=k>as</span> <span class=nn>pd</span>
-</span></span><span class=line><span class=cl><span class=kn>import</span> <span class=nn>tarfile</span>
-</span></span><span class=line><span class=cl><span class=kn>import</span> <span class=nn>urllib.request</span>
-</span></span><span class=line><span class=cl><span class=kn>import</span> <span class=nn>wandb</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=c1>#=====================#</span>
-</span></span><span class=line><span class=cl><span class=c1># ---- Functions ---- #</span>
-</span></span><span class=line><span class=cl><span class=c1>#=====================#</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>load_housing_data</span><span class=p>(</span><span class=n>args</span><span class=p>):</span>
-</span></span><span class=line><span class=cl>    <span class=s2>&#34;&#34;&#34;
-</span></span></span><span class=line><span class=cl><span class=s2>    Downloads the housing dataset, extracts it, registers it with W&amp;B,
-</span></span></span><span class=line><span class=cl><span class=s2>    and returns the loaded dataset as a pandas DataFrame.
-</span></span></span><span class=line><span class=cl><span class=s2>    &#34;&#34;&#34;</span>
-</span></span><span class=line><span class=cl>    <span class=c1># Logic for downloading and processing data</span>
-</span></span><span class=line><span class=cl>    <span class=o>...</span>
-</span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=k>if</span> <span class=vm>__name__</span> <span class=o>==</span> <span class=s2>&#34;__main__&#34;</span><span class=p>:</span>
-</span></span><span class=line><span class=cl>    <span class=c1># Argument parsing logic</span>
-</span></span><span class=line><span class=cl>    <span class=o>...</span>
-</span></span></code></pre></div><h4 id=manifesto><strong>Manifesto</strong><a hidden class=anchor aria-hidden=true href=#manifesto>#</a></h4><div class=highlight><pre tabindex=0 class=chroma><code class=language-yaml data-lang=yaml><span class=line><span class=cl><span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>download_data</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>conda_env</span><span class=p>:</span><span class=w> </span><span class=l>conda.yaml</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>entry_points</span><span class=p>:</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>main</span><span class=p>:</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>parameters</span><span class=p>:</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>file_url</span><span class=p>:</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>description</span><span class=p>:</span><span class=w> </span><span class=l>URL of the file to download</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>type</span><span class=p>:</span><span class=w> </span><span class=l>str</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>artifact_name</span><span class=p>:</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>description</span><span class=p>:</span><span class=w> </span><span class=l>Name of the artifact</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>type</span><span class=p>:</span><span class=w> </span><span class=l>str</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>artifact_type</span><span class=p>:</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>description</span><span class=p>:</span><span class=w> </span><span class=l>Data to train the model</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>type</span><span class=p>:</span><span class=w> </span><span class=l>str</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>default</span><span class=p>:</span><span class=w> </span><span class=l>raw_data</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>      </span><span class=nt>artifact_description</span><span class=p>:</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>description</span><span class=p>:</span><span class=w> </span><span class=l>Artifact to train the model</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>type</span><span class=p>:</span><span class=w> </span><span class=l>str</span><span class=w>
-</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>command</span><span class=p>:</span><span class=w> </span><span class=p>&gt;-</span><span class=sd>
-</span></span></span><span class=line><span class=cl><span class=sd>      python main.py --file_url {file_url}\
-</span></span></span><span class=line><span class=cl><span class=sd>                     --artifact_name {artifact_name}\
-</span></span></span><span class=line><span class=cl><span class=sd>                     --artifact_type {artifact_type}\
-</span></span></span><span class=line><span class=cl><span class=sd>                     --artifact_description {artifact_description}</span><span class=w>
-</span></span></span></code></pre></div><hr><p>By running <code>mlflow run .</code>, the dataset is downloaded and registered as the first artifact of the project. In the next post, I’ll discuss how to expand the pipeline, incorporating agents to find the best model parameters.</p></div><footer class=post-footer><ul class=post-tags><li><a href=https://carlosdanieljimenez.com/tags/mlflow/>Mlflow</a></li><li><a href=https://carlosdanieljimenez.com/tags/artifacts/>Artifacts</a></li><li><a href=https://carlosdanieljimenez.com/tags/pipeline/>Pipeline</a></li><li><a href=https://carlosdanieljimenez.com/tags/mlproject/>Mlproject</a></li><li><a href=https://carlosdanieljimenez.com/tags/argparse/>Argparse</a></li></ul></footer></article></main><footer class=footer><span>&copy; 2026 <a href=https://carlosdanieljimenez.com/>The Probability Engine</a></span> ·
-<span>Powered by
-<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
-        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></a><div class=newsletter-cta><div class=newsletter-content><h3>📬 Did this help?</h3><p>I write about MLOps, Edge AI, and making models work outside the lab.
-One email per month, max. No spam, no course pitches, just technical content.</p><form action=https://buttondown.com/api/emails/embed-subscribe/carlosjimenez88m method=post class=newsletter-form target=popupwindow onsubmit='window.open("https://buttondown.com/carlosjimenez88m","popupwindow")'><div class=form-group><input type=email name=email id=bd-email placeholder=your@email.com required aria-label="Email address">
-<input type=submit value=Subscribe></div></form><p class=newsletter-stats>Join engineers building ML systems and Edge Computing infrastructure.</p></div></div><style>.newsletter-cta{margin:3rem auto 2rem;padding:2rem;max-width:650px;background:var(--entry);border:1px solid var(--border);border-radius:8px;text-align:center}.newsletter-content h3{margin:0 0 1rem;font-size:1.5rem;color:var(--primary)}.newsletter-content p{margin:0 0 1.5rem;color:var(--secondary);line-height:1.6}.newsletter-form{margin:1.5rem 0}.form-group{display:flex;gap:.5rem;max-width:500px;margin:0 auto;flex-wrap:wrap;justify-content:center}.newsletter-form input[type=email]{flex:1;min-width:250px;padding:.75rem 1rem;font-size:1rem;border:1px solid var(--border);border-radius:6px;background:var(--theme);color:var(--content);transition:border-color .2s ease}.newsletter-form input[type=email]:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px rgba(var(--primary-rgb),.1)}.newsletter-form input[type=submit]{padding:.75rem 2rem;font-size:1rem;font-weight:600;color:#fff;background:var(--primary);border:none;border-radius:6px;cursor:pointer;transition:opacity .2s ease}.newsletter-form input[type=submit]:hover{opacity:.9}.newsletter-stats{font-size:.875rem;color:var(--secondary);margin-top:1rem;font-style:italic}@media screen and (max-width:600px){.newsletter-cta{padding:1.5rem 1rem;margin:2rem .5rem 1rem}.newsletter-content h3{font-size:1.25rem}.form-group{flex-direction:column;width:100%}.newsletter-form input[type=email],.newsletter-form input[type=submit]{width:100%;min-width:100%}}</style><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Artifact Design and Pipeline in MLOps Part I | The Probability Engine</title>
+<meta name="keywords" content="mlflow, artifacts, pipeline, mlproject, argparse">
+<meta name="description" content="Introduction to Artifacts designs">
+<meta name="author" content="Carlos Daniel Jiménez">
+<link rel="canonical" href="https://carlosdanieljimenez.com/post/artifacts-designs/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://carlosdanieljimenez.com/img/icon.jpeg">
+<link rel="icon" type="image/png" sizes="16x16" href="https://carlosdanieljimenez.com/img/icon.jpeg">
+<link rel="icon" type="image/png" sizes="32x32" href="https://carlosdanieljimenez.com/img/icon.jpeg">
+<link rel="apple-touch-icon" href="https://carlosdanieljimenez.com/img/icon.jpeg">
+<link rel="mask-icon" href="https://carlosdanieljimenez.com/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://carlosdanieljimenez.com/post/artifacts-designs/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><link rel="icon" type="image/png" href="/img/icon.jpeg">
+<link rel="apple-touch-icon" href="/img/icon.jpeg">
+<link rel="shortcut icon" href="/img/icon.jpeg"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            throwOnError : false
+        });
+    });
+</script>
+<meta property="og:url" content="https://carlosdanieljimenez.com/post/artifacts-designs/">
+  <meta property="og:site_name" content="The Probability Engine">
+  <meta property="og:title" content="Artifact Design and Pipeline in MLOps Part I">
+  <meta property="og:description" content="Introduction to Artifacts designs">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2024-11-21T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-11-21T00:00:00+00:00">
+    <meta property="article:tag" content="Mlflow">
+    <meta property="article:tag" content="Artifacts">
+    <meta property="article:tag" content="Pipeline">
+    <meta property="article:tag" content="Mlproject">
+    <meta property="article:tag" content="Argparse">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Artifact Design and Pipeline in MLOps Part I">
+<meta name="twitter:description" content="Introduction to Artifacts designs">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://carlosdanieljimenez.com/post/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Artifact Design and Pipeline in MLOps Part I",
+      "item": "https://carlosdanieljimenez.com/post/artifacts-designs/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Artifact Design and Pipeline in MLOps Part I",
+  "name": "Artifact Design and Pipeline in MLOps Part I",
+  "description": "Introduction to Artifacts designs",
+  "keywords": [
+    "mlflow", "artifacts", "pipeline", "mlproject", "argparse"
+  ],
+  "articleBody": "Artifact Design and Pipeline in MLOps Part I In MLOps, most of the work focuses on the inference stage, specifically the development of microservices. However, the broader picture goes beyond this—it includes aspects ranging from programming practices to resource utilization that need to be evaluated. This is where the role of a Machine Learning DevOps Engineer becomes crucial. In this post, I want to address this profile by approaching it from the perspective of designing a model.\nTypically, in Data Science, a pipeline is presented as follows:\nTo make this process reproducible, we need to discuss artifacts, which are essentially “contracts” defined by code. For example, if we have an ETL process, the artifact might be a new database. Artifacts help us maintain an organized, modular, and sequential process within pipelines. Moreover, artifacts simplify experiments and model retraining by allowing us to define training rules for scenarios such as new data versions or significant data drift.\nAlthough this formalizes the programming practices that data scientists implement, it is, in fact, a good practice—similar to including unit tests for every function or class in our code.\nThe above diagram illustrates the flow of creating an artifact through contracts. Now, where do these contracts come from? This is where MLflow—specifically, MLproject—comes into play. An MLproject serves as a manifesto of promises made by code or components, based on predefined conditions. The advantage of using such a manifesto is that it ensures each artifact is independent and reproducible. Its basic structure includes:\nname: The name of the manifesto. conda_env: The Conda environment that allows the installation of required packages or libraries for the component’s contract. entry_points: Defines the steps required to execute the pipeline. So far, we’ve defined two components for developing an artifact: the conda.yaml and the MLproject. Now, let’s talk about the code itself, which brings us to argparse functions.\nPreviously, we worked with immutable code, often derived from notebooks or experimental scripts. However, as data versioning became more frequent, it became necessary to introduce flexibility in parameter management. This is where argparse gained importance. Let’s see an example using the Iris dataset:\n#====================# # ---- Libraries ----# #====================# import argparse from sklearn.datasets import load_iris from sklearn.model_selection import train_test_split from sklearn.linear_model import LogisticRegression from sklearn.metrics import accuracy_score, classification_report #=========================# # ---- Main Function ---- # #=========================# def main(args): iris = load_iris() X, y = iris.data, iris.target X_train, X_test, y_train, y_test = train_test_split( X, y, test_size=args.test_size, random_state=args.random_seed ) model = LogisticRegression(max_iter=args.max_iter, random_state=args.random_seed) model.fit(X_train, y_train) y_pred = model.predict(X_test) accuracy = accuracy_score(y_test, y_pred) print(f\"Model Accuracy: {accuracy:.2f}\") print(\"\\nClassification Report:\") print(classification_report(y_test, y_pred, target_names=iris.target_names)) if __name__ == \"__main__\": parser = argparse.ArgumentParser(description=\"Train a Logistic Regression model on the Iris dataset.\") parser.add_argument(\"--test_size\", type=float, default=0.2, help=\"Proportion of data to use for testing (default: 0.2)\") parser.add_argument(\"--random_seed\", type=int, default=42, help=\"Random seed for reproducibility (default: 42)\") parser.add_argument(\"--max_iter\", type=int, default=200, help=\"Maximum number of iterations for Logistic Regression (default: 200)\") args = parser.parse_args() main(args) Taxonomy of the Code A main function is defined. This function accepts parameters that can be modified via the command line or a config.yaml file. An argument parser (parser) is initialized to define the parameters and their conditions. The args = parser.parse_args() command seals these contracts. The function executes with the established conditions. Manifesto for This Example name: iris-classifier conda_env: conda.yaml entry_points: train: parameters: test_size: type: float default: 0.3 description: proportion split into general dataset random_seed: type: int default: 42 max_iter: type: int default: 200 command: \u003e- python train_iris.py --test_size {test_size}\\ --random_seed {random_seed}\\ --max_iter {max_iter} This manifesto defines how the parameters are passed into the parsed code and their default values. To execute this component, you would run:\npython train_iris.py --test_size 0.3 --max_iter 300 Orchestration The idea of a pipeline is not to execute these commands manually. Instead, a single command (e.g., mlflow run .) should suffice. To achieve this, the process must be orchestrated. Let’s consider an example pipeline with a GitOps component (kept simple for now). Imagine downloading a dataset. We’ll have a folder containing three files: MLproject, conda.yaml, and main.py.\nMain Script The main.py file downloads and registers the dataset as an artifact.\n#!usr/bin/env python ''' End-to-End Machine Learning Project Step: Download Dataset 2024-11-21 ''' #=====================# # ---- Libraries ---- # #=====================# import os import argparse import logging import pathlib import pandas as pd import tarfile import urllib.request import wandb #=====================# # ---- Functions ---- # #=====================# def load_housing_data(args): \"\"\" Downloads the housing dataset, extracts it, registers it with W\u0026B, and returns the loaded dataset as a pandas DataFrame. \"\"\" # Logic for downloading and processing data ... if __name__ == \"__main__\": # Argument parsing logic ... Manifesto name: download_data conda_env: conda.yaml entry_points: main: parameters: file_url: description: URL of the file to download type: str artifact_name: description: Name of the artifact type: str artifact_type: description: Data to train the model type: str default: raw_data artifact_description: description: Artifact to train the model type: str command: \u003e- python main.py --file_url {file_url}\\ --artifact_name {artifact_name}\\ --artifact_type {artifact_type}\\ --artifact_description {artifact_description} By running mlflow run ., the dataset is downloaded and registered as the first artifact of the project. In the next post, I’ll discuss how to expand the pipeline, incorporating agents to find the best model parameters.\n",
+  "wordCount" : "854",
+  "inLanguage": "en",
+  "datePublished": "2024-11-21T00:00:00Z",
+  "dateModified": "2024-11-21T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Carlos Daniel Jiménez"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://carlosdanieljimenez.com/post/artifacts-designs/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "The Probability Engine",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://carlosdanieljimenez.com/img/icon.jpeg"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://carlosdanieljimenez.com/" accesskey="h" title="The Probability Engine (Alt + H)">The Probability Engine</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://carlosdanieljimenez.com/mlops/" title="MLOps">
+                    <span>MLOps</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://carlosdanieljimenez.com/agentic-ai/" title="Agentic AI">
+                    <span>Agentic AI</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://carlosdanieljimenez.com/tidytuesday/" title="TidyTuesday">
+                    <span>TidyTuesday</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://carlosdanieljimenez.com/post/" title="Posts">
+                    <span>Posts</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://carlosdanieljimenez.com/edge-computing/" title="Edge Computing">
+                    <span>Edge Computing</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://carlosdanieljimenez.com/archive/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://carlosdanieljimenez.com/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://carlosdanieljimenez.com/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Artifact Design and Pipeline in MLOps Part I
+    </h1>
+    <div class="post-description">
+      Introduction to Artifacts designs
+    </div>
+    <div class="post-meta"><span title='2024-11-21 00:00:00 +0000 UTC'>November 21, 2024</span>&nbsp;·&nbsp;<span>Carlos Daniel Jiménez</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="artifact-design-and-pipeline-in-mlops-part-i">Artifact Design and Pipeline in MLOps Part I<a hidden class="anchor" aria-hidden="true" href="#artifact-design-and-pipeline-in-mlops-part-i">#</a></h2>
+<p>In MLOps, most of the work focuses on the <strong>inference stage</strong>, specifically the development of microservices. However, the broader picture goes beyond this—it includes aspects ranging from programming practices to resource utilization that need to be evaluated. This is where the role of a <strong>Machine Learning DevOps Engineer</strong> becomes crucial. In this post, I want to address this profile by approaching it from the perspective of designing a model.</p>
+<p>Typically, in Data Science, a pipeline is presented as follows:</p>
+<p><img alt="image.png" loading="lazy" src="https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/images/image.png?raw=true"></p>
+<p>To make this process reproducible, we need to discuss <strong>artifacts</strong>, which are essentially &ldquo;contracts&rdquo; defined by code. For example, if we have an ETL process, the artifact might be a new database. Artifacts help us maintain an organized, modular, and sequential process within pipelines. Moreover, artifacts simplify experiments and model retraining by allowing us to define training rules for scenarios such as new data versions or significant data drift.</p>
+<p>Although this formalizes the programming practices that data scientists implement, it is, in fact, a good practice—similar to including unit tests for every function or class in our code.</p>
+<p><img alt="image.png" loading="lazy" src="https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/images/artifacts.png?raw=true"></p>
+<p>The above diagram illustrates the flow of creating an artifact through contracts. Now, where do these contracts come from? This is where <strong>MLflow</strong>—specifically, <code>MLproject</code>—comes into play. An <code>MLproject</code> serves as a manifesto of promises made by code or components, based on predefined conditions. The advantage of using such a manifesto is that it ensures each artifact is <strong>independent and reproducible</strong>. Its basic structure includes:</p>
+<ul>
+<li><strong>name</strong>: The name of the manifesto.</li>
+<li><strong>conda_env</strong>: The Conda environment that allows the installation of required packages or libraries for the component&rsquo;s contract.</li>
+<li><strong>entry_points</strong>: Defines the steps required to execute the pipeline.</li>
+</ul>
+<p>So far, we’ve defined two components for developing an artifact: the <code>conda.yaml</code> and the <code>MLproject</code>. Now, let’s talk about the code itself, which brings us to <strong>argparse</strong> functions.</p>
+<hr>
+<p>Previously, we worked with immutable code, often derived from notebooks or experimental scripts. However, as data versioning became more frequent, it became necessary to introduce flexibility in parameter management. This is where <strong>argparse</strong> gained importance. Let’s see an example using the Iris dataset:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1">#====================#</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ---- Libraries ----#</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#====================#</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">argparse</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">sklearn.datasets</span> <span class="kn">import</span> <span class="n">load_iris</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="kn">import</span> <span class="n">LogisticRegression</span>
+</span></span><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">sklearn.metrics</span> <span class="kn">import</span> <span class="n">accuracy_score</span><span class="p">,</span> <span class="n">classification_report</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#=========================#</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ---- Main Function ---- #</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#=========================#</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">args</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">iris</span> <span class="o">=</span> <span class="n">load_iris</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    <span class="n">X</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">iris</span><span class="o">.</span><span class="n">data</span><span class="p">,</span> <span class="n">iris</span><span class="o">.</span><span class="n">target</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">X_train</span><span class="p">,</span> <span class="n">X_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">test_size</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">test_size</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">random_seed</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">model</span> <span class="o">=</span> <span class="n">LogisticRegression</span><span class="p">(</span><span class="n">max_iter</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">max_iter</span><span class="p">,</span> 
+</span></span><span class="line"><span class="cl">                                <span class="n">random_state</span><span class="o">=</span><span class="n">args</span><span class="o">.</span><span class="n">random_seed</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">model</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">y_pred</span> <span class="o">=</span> <span class="n">model</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X_test</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">accuracy</span> <span class="o">=</span> <span class="n">accuracy_score</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;Model Accuracy: </span><span class="si">{</span><span class="n">accuracy</span><span class="si">:</span><span class="s2">.2f</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">Classification Report:&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="n">classification_report</span><span class="p">(</span><span class="n">y_test</span><span class="p">,</span> <span class="n">y_pred</span><span class="p">,</span> <span class="n">target_names</span><span class="o">=</span><span class="n">iris</span><span class="o">.</span><span class="n">target_names</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">parser</span> <span class="o">=</span> <span class="n">argparse</span><span class="o">.</span><span class="n">ArgumentParser</span><span class="p">(</span><span class="n">description</span><span class="o">=</span><span class="s2">&#34;Train a Logistic Regression model on the Iris dataset.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--test_size&#34;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">float</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Proportion of data to use for testing (default: 0.2)&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--random_seed&#34;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">int</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mi">42</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Random seed for reproducibility (default: 42)&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">parser</span><span class="o">.</span><span class="n">add_argument</span><span class="p">(</span><span class="s2">&#34;--max_iter&#34;</span><span class="p">,</span> <span class="nb">type</span><span class="o">=</span><span class="nb">int</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="mi">200</span><span class="p">,</span> <span class="n">help</span><span class="o">=</span><span class="s2">&#34;Maximum number of iterations for Logistic Regression (default: 200)&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="n">args</span> <span class="o">=</span> <span class="n">parser</span><span class="o">.</span><span class="n">parse_args</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="n">main</span><span class="p">(</span><span class="n">args</span><span class="p">)</span>
+</span></span></code></pre></div><hr>
+<h3 id="taxonomy-of-the-code"><strong>Taxonomy of the Code</strong><a hidden class="anchor" aria-hidden="true" href="#taxonomy-of-the-code">#</a></h3>
+<ol>
+<li>A <code>main</code> function is defined.</li>
+<li>This function accepts parameters that can be modified via the command line or a <code>config.yaml</code> file.</li>
+<li>An <strong>argument parser</strong> (<code>parser</code>) is initialized to define the parameters and their conditions.</li>
+<li>The <code>args = parser.parse_args()</code> command seals these contracts.</li>
+<li>The function executes with the established conditions.</li>
+</ol>
+<hr>
+<h3 id="manifesto-for-this-example"><strong>Manifesto for This Example</strong><a hidden class="anchor" aria-hidden="true" href="#manifesto-for-this-example">#</a></h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">iris-classifier</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">conda_env</span><span class="p">:</span><span class="w"> </span><span class="l">conda.yaml</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">entry_points</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">train</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">parameters</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">test_size</span><span class="p">:</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l">float</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">default</span><span class="p">:</span><span class="w"> </span><span class="m">0.3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l">proportion split into general dataset</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">random_seed</span><span class="p">:</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l">int</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">default</span><span class="p">:</span><span class="w"> </span><span class="m">42</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">max_iter</span><span class="p">:</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l">int</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">default</span><span class="p">:</span><span class="w"> </span><span class="m">200</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">command</span><span class="p">:</span><span class="w"> </span><span class="p">&gt;-</span><span class="sd">
+</span></span></span><span class="line"><span class="cl"><span class="sd">      python train_iris.py --test_size {test_size}\ 
+</span></span></span><span class="line"><span class="cl"><span class="sd">                           --random_seed {random_seed}\ 
+</span></span></span><span class="line"><span class="cl"><span class="sd">                           --max_iter {max_iter}</span><span class="w">
+</span></span></span></code></pre></div><p>This manifesto defines how the parameters are passed into the parsed code and their default values. To execute this component, you would run:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">python train_iris.py --test_size 0.3 --max_iter <span class="m">300</span>
+</span></span></code></pre></div><hr>
+<h3 id="orchestration"><strong>Orchestration</strong><a hidden class="anchor" aria-hidden="true" href="#orchestration">#</a></h3>
+<p>The idea of a pipeline is not to execute these commands manually. Instead, a single command (e.g., <code>mlflow run .</code>) should suffice. To achieve this, the process must be orchestrated. Let’s consider an example pipeline with a GitOps component (kept simple for now). Imagine downloading a dataset. We’ll have a folder containing three files: <code>MLproject</code>, <code>conda.yaml</code>, and <code>main.py</code>.</p>
+<h4 id="main-script"><strong>Main Script</strong><a hidden class="anchor" aria-hidden="true" href="#main-script">#</a></h4>
+<p>The <code>main.py</code> file downloads and registers the dataset as an artifact.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="ch">#!usr/bin/env python</span>
+</span></span><span class="line"><span class="cl"><span class="s1">&#39;&#39;&#39;
+</span></span></span><span class="line"><span class="cl"><span class="s1">End-to-End Machine Learning Project
+</span></span></span><span class="line"><span class="cl"><span class="s1">Step: Download Dataset
+</span></span></span><span class="line"><span class="cl"><span class="s1">2024-11-21
+</span></span></span><span class="line"><span class="cl"><span class="s1">&#39;&#39;&#39;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#=====================#</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ---- Libraries ---- #</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#=====================#</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">os</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">argparse</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">logging</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">pathlib</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">tarfile</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">urllib.request</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">wandb</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">#=====================#</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># ---- Functions ---- #</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#=====================#</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">load_housing_data</span><span class="p">(</span><span class="n">args</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;
+</span></span></span><span class="line"><span class="cl"><span class="s2">    Downloads the housing dataset, extracts it, registers it with W&amp;B,
+</span></span></span><span class="line"><span class="cl"><span class="s2">    and returns the loaded dataset as a pandas DataFrame.
+</span></span></span><span class="line"><span class="cl"><span class="s2">    &#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># Logic for downloading and processing data</span>
+</span></span><span class="line"><span class="cl">    <span class="o">...</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># Argument parsing logic</span>
+</span></span><span class="line"><span class="cl">    <span class="o">...</span>
+</span></span></code></pre></div><h4 id="manifesto"><strong>Manifesto</strong><a hidden class="anchor" aria-hidden="true" href="#manifesto">#</a></h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">download_data</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">conda_env</span><span class="p">:</span><span class="w"> </span><span class="l">conda.yaml</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">entry_points</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">main</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">parameters</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">file_url</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l">URL of the file to download</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l">str</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">artifact_name</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l">Name of the artifact</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l">str</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">artifact_type</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l">Data to train the model</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l">str</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">default</span><span class="p">:</span><span class="w"> </span><span class="l">raw_data</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span><span class="nt">artifact_description</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l">Artifact to train the model</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l">str</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">command</span><span class="p">:</span><span class="w"> </span><span class="p">&gt;-</span><span class="sd">
+</span></span></span><span class="line"><span class="cl"><span class="sd">      python main.py --file_url {file_url}\
+</span></span></span><span class="line"><span class="cl"><span class="sd">                     --artifact_name {artifact_name}\
+</span></span></span><span class="line"><span class="cl"><span class="sd">                     --artifact_type {artifact_type}\
+</span></span></span><span class="line"><span class="cl"><span class="sd">                     --artifact_description {artifact_description}</span><span class="w">
+</span></span></span></code></pre></div><hr>
+<p>By running <code>mlflow run .</code>, the dataset is downloaded and registered as the first artifact of the project. In the next post, I’ll discuss how to expand the pipeline, incorporating agents to find the best model parameters.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://carlosdanieljimenez.com/tags/mlflow/">Mlflow</a></li>
+      <li><a href="https://carlosdanieljimenez.com/tags/artifacts/">Artifacts</a></li>
+      <li><a href="https://carlosdanieljimenez.com/tags/pipeline/">Pipeline</a></li>
+      <li><a href="https://carlosdanieljimenez.com/tags/mlproject/">Mlproject</a></li>
+      <li><a href="https://carlosdanieljimenez.com/tags/argparse/">Argparse</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="https://carlosdanieljimenez.com/">The Probability Engine</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a><div class="newsletter-cta">
+  <div class="newsletter-content">
+    <h3>📬 Did this help?</h3>
+    <p>
+      I write about MLOps, Edge AI, and making models work outside the lab.
+      One email per month, max. No spam, no course pitches, just technical content.
+    </p>
+
+    <form
+      action="https://buttondown.com/api/emails/embed-subscribe/carlosjimenez88m"
+      method="post"
+      class="newsletter-form"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.com/carlosjimenez88m', 'popupwindow')"
+    >
+      <div class="form-group">
+        <input
+          type="email"
+          name="email"
+          id="bd-email"
+          placeholder="your@email.com"
+          required
+          aria-label="Email address"
+        />
+        <input type="submit" value="Subscribe" />
+      </div>
+    </form>
+
+    <p class="newsletter-stats">
+      Join engineers building ML systems and Edge Computing infrastructure.
+    </p>
+  </div>
+</div>
+
+<style>
+.newsletter-cta {
+  margin: 3rem auto 2rem;
+  padding: 2rem;
+  max-width: 650px;
+  background: var(--entry);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.newsletter-content h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+.newsletter-content p {
+  margin: 0 0 1.5rem 0;
+  color: var(--secondary);
+  line-height: 1.6;
+}
+
+.newsletter-form {
+  margin: 1.5rem 0;
+}
+
+.form-group {
+  display: flex;
+  gap: 0.5rem;
+  max-width: 500px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.newsletter-form input[type="email"] {
+  flex: 1;
+  min-width: 250px;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--theme);
+  color: var(--content);
+  transition: border-color 0.2s ease;
+}
+
+.newsletter-form input[type="email"]:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(var(--primary-rgb), 0.1);
+}
+
+.newsletter-form input[type="submit"] {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  background: var(--primary);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.newsletter-form input[type="submit"]:hover {
+  opacity: 0.9;
+}
+
+.newsletter-stats {
+  font-size: 0.875rem;
+  color: var(--secondary);
+  margin-top: 1rem;
+  font-style: italic;
+}
+
+@media screen and (max-width: 600px) {
+  .newsletter-cta {
+    padding: 1.5rem 1rem;
+    margin: 2rem 0.5rem 1rem;
+  }
+
+  .newsletter-content h3 {
+    font-size: 1.25rem;
+  }
+
+  .form-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .newsletter-form input[type="email"],
+  .newsletter-form input[type="submit"] {
+    width: 100%;
+    min-width: 100%;
+  }
+}
+</style>
+
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

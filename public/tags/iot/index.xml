@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Iot on The Probability Engine</title><link>https://carlosdanieljimenez.com/tags/iot/</link><description>Recent content in Iot on The Probability Engine</description><generator>Hugo -- 0.147.3</generator><language>en-us</language><lastBuildDate>Mon, 14 Oct 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://carlosdanieljimenez.com/tags/iot/index.xml" rel="self" type="application/rss+xml"/><item><title>Edge Computing and Edge Machine Learning</title><link>https://carlosdanieljimenez.com/post/edge-computing/</link><pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate><guid>https://carlosdanieljimenez.com/post/edge-computing/</guid><description>A Brief Introduction to AI/Edge Computing</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Iot on The Probability Engine</title>
+    <link>https://carlosdanieljimenez.com/tags/iot/</link>
+    <description>Recent content in Iot on The Probability Engine</description>
+    <generator>Hugo -- 0.147.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 14 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://carlosdanieljimenez.com/tags/iot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Edge Computing and Edge Machine Learning</title>
+      <link>https://carlosdanieljimenez.com/post/edge-computing/</link>
+      <pubDate>Mon, 14 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://carlosdanieljimenez.com/post/edge-computing/</guid>
+      <description>A Brief Introduction to AI/Edge Computing</description>
+    </item>
+  </channel>
+</rss>

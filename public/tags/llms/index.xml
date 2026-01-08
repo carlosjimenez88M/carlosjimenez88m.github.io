@@ -1,9 +1,41 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>LLMs on The Probability Engine</title><link>https://carlosdanieljimenez.com/tags/llms/</link><description>Recent content in LLMs on The Probability Engine</description><generator>Hugo -- 0.147.3</generator><language>en-us</language><lastBuildDate>Wed, 07 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://carlosdanieljimenez.com/tags/llms/index.xml" rel="self" type="application/rss+xml"/><item><title>Literary Mapping of Christmas Novels: A Vector Narrative Arc Approach</title><link>https://carlosdanieljimenez.com/tidytuesday/2026-01-07-analisis/</link><pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate><guid>https://carlosdanieljimenez.com/tidytuesday/2026-01-07-analisis/</guid><description>&lt;h2 id="post-objective">Post Objective&lt;/h2>
-&lt;ul>
-&lt;li>Data cleaning and preliminary analysis process&lt;/li>
-&lt;li>Understanding the emotional charge or plot development of texts through semantic archaeology based on PCAs&lt;/li>
-&lt;li>Understanding the connections and most representative ideas within the document set&lt;/li>
-&lt;/ul>
-&lt;h2 id="intention">Intention&lt;/h2>
-&lt;p>Understanding a story&amp;rsquo;s behavior at the level of its variance is a challenge addressed by attentional engineering. Therefore, using lesser-known methods such as the &lt;strong>vector narrative arc&lt;/strong> combined with a &lt;strong>literary map&lt;/strong> constitutes an interesting route to address increasingly common problems.&lt;/p></description></item><item><title>MLflow for Generative AI Systems</title><link>https://carlosdanieljimenez.com/post/mlflow_genai/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://carlosdanieljimenez.com/post/mlflow_genai/</guid><description>&lt;h1 id="mlflow-for-generative-ai-systems">MLflow for Generative AI Systems&lt;/h1>
-&lt;p>I&amp;rsquo;ll start this post by recalling what Hayen said in her book &lt;strong>Designing Machine Learning Systems (2022): &amp;lsquo;Systems are meant to learn&amp;rsquo;.&lt;/strong> This statement reflects a simple fact: today, LLMs and to a lesser extent vision language models are winning in the Data Science world. But how do we measure this learning? RLHF work is always a good indicator that perplexity will improve, but let&amp;rsquo;s return to a key point: LLMs must work as a system, therefore debugging is important, and that&amp;rsquo;s where the necessary tool for every Data Scientist, AI Engineer, ML Engineer, and MLOps Engineer comes in: MLflow.&lt;/p></description></item><item><title>Raspberry Pi 16GB, Servers, and MLOps</title><link>https://carlosdanieljimenez.com/post/mlops-servers-raspberry/</link><pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate><guid>https://carlosdanieljimenez.com/post/mlops-servers-raspberry/</guid><description>Raspberry Pi 5 (16 Gbs) like a Server</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>LLMs on The Probability Engine</title>
+    <link>https://carlosdanieljimenez.com/tags/llms/</link>
+    <description>Recent content in LLMs on The Probability Engine</description>
+    <generator>Hugo -- 0.147.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 07 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://carlosdanieljimenez.com/tags/llms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Literary Mapping of Christmas Novels: A Vector Narrative Arc Approach</title>
+      <link>https://carlosdanieljimenez.com/tidytuesday/2026-01-07-analisis/</link>
+      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://carlosdanieljimenez.com/tidytuesday/2026-01-07-analisis/</guid>
+      <description>&lt;h2 id=&#34;post-objective&#34;&gt;Post Objective&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Data cleaning and preliminary analysis process&lt;/li&gt;
+&lt;li&gt;Understanding the emotional charge or plot development of texts through semantic archaeology based on PCAs&lt;/li&gt;
+&lt;li&gt;Understanding the connections and most representative ideas within the document set&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;intention&#34;&gt;Intention&lt;/h2&gt;
+&lt;p&gt;Understanding a story&amp;rsquo;s behavior at the level of its variance is a challenge addressed by attentional engineering. Therefore, using lesser-known methods such as the &lt;strong&gt;vector narrative arc&lt;/strong&gt; combined with a &lt;strong&gt;literary map&lt;/strong&gt; constitutes an interesting route to address increasingly common problems.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>MLflow for Generative AI Systems</title>
+      <link>https://carlosdanieljimenez.com/post/mlflow_genai/</link>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://carlosdanieljimenez.com/post/mlflow_genai/</guid>
+      <description>&lt;h1 id=&#34;mlflow-for-generative-ai-systems&#34;&gt;MLflow for Generative AI Systems&lt;/h1&gt;
+&lt;p&gt;I&amp;rsquo;ll start this post by recalling what Hayen said in her book &lt;strong&gt;Designing Machine Learning Systems (2022): &amp;lsquo;Systems are meant to learn&amp;rsquo;.&lt;/strong&gt; This statement reflects a simple fact: today, LLMs and to a lesser extent vision language models are winning in the Data Science world. But how do we measure this learning? RLHF work is always a good indicator that perplexity will improve, but let&amp;rsquo;s return to a key point: LLMs must work as a system, therefore debugging is important, and that&amp;rsquo;s where the necessary tool for every Data Scientist, AI Engineer, ML Engineer, and MLOps Engineer comes in: MLflow.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Raspberry Pi 16GB, Servers, and MLOps</title>
+      <link>https://carlosdanieljimenez.com/post/mlops-servers-raspberry/</link>
+      <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://carlosdanieljimenez.com/post/mlops-servers-raspberry/</guid>
+      <description>Raspberry Pi 5 (16 Gbs) like a Server</description>
+    </item>
+  </channel>
+</rss>
