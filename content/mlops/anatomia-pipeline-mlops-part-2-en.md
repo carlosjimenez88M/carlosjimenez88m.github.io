@@ -1659,6 +1659,8 @@ ENV PORT=8080
 CMD exec uvicorn app.main:app --host 0.0.0.0 --port ${PORT}
 ```
 
+![](img/action.png)
+
 Cloud Run injects `PORT` as an env var (can be 8080, 8081, etc.). The API must read this value, not hardcode it.
 
 **`exec`**: Replaces the shell process with uvicorn, allowing Docker to send signals (SIGTERM) directly to uvicorn for graceful shutdown.
@@ -1986,6 +1988,9 @@ Docker Compose starts the API before Streamlit. This prevents Streamlit from fai
 
 **Limitation:** `depends_on` only waits for the container to **start**, not for the API to be **ready** (healthcheck pass). For that, you need an init container or retry logic in Streamlit.
 
+
+![](img/app1.png)
+![](img/app2.png)
 ---
 
 ### Complete Execution Commands
