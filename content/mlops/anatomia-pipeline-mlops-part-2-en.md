@@ -10,6 +10,7 @@ description: "Part 2: CI/CD with GitHub Actions, W&B vs MLflow comparison, compl
 
 > **Complete MLOps Series:** [← Part 1: Pipeline](/mlops/anatomia-pipeline-mlops-parte-1/) | **Part 2 (current)** | [Part 3: Production →](/mlops/anatomia-pipeline-mlops-parte-3/)
 
+# Anatomy of an MLOps Pipeline - Part 2: Deployment and Infrastructure
 
 <a name="github-actions"></a>
 ## 8. CI/CD with GitHub Actions: Complete Pipeline Automation
@@ -1219,16 +1220,19 @@ make run-sweep
 
 ```yaml
 hyperparameters:
-  n_estimators: 200
-  max_depth: 20
-  min_samples_split: 2
-  min_samples_leaf: 1
+  n_estimators: 128
+  max_depth: 23
+  min_samples_split: 9
+  min_samples_leaf: 9
+  max_features: log2
 metrics:
-  mape: 7.82
-  wmape: 7.76
-  r2: 0.8654
-sweep_id: abc123xyz  # Link to W&B
-best_run_id: def456ghi
+  mape: 20.4002
+  wmape: 19.12
+  r2: 0.78339
+  within_10pct: 36.2
+sweep_id: f73ao31m  # Link to W&B
+best_run_id: 5q1840qa
+best_run_name: dry-sweep-5
 ```
 
 **Day 4: Registration (MLflow)**

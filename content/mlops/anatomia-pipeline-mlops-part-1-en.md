@@ -12,8 +12,6 @@ description: "Part 1: Philosophy, project architecture and orchestration with Hy
 
 # Anatomy of an MLOps Pipeline - Part 1: Pipeline and Orchestration
 
-# Anatomy of an MLOps Pipeline: From Raw Data to Production Deployment
-
 ## Why This Post Is Not Another Scikit-Learn Tutorial
 
 Most MLOps posts teach you how to train a Random Forest in a notebook and tell you "now put it in production." This post assumes you already know how to train models. What you probably don't know is how to build a system where:
@@ -1500,26 +1498,54 @@ In W&B dashboard, you can compare runs and see "in the best run, `median_income`
 
 ### The Critical Output: best_params.yaml
 
+**Note:** Below are the **real values** from the actual production sweep, not example values:
+
 ```yaml
+sweep_id: f73ao31m
+best_run_id: 5q1840qa
+best_run_name: dry-sweep-5
+
 hyperparameters:
-  n_estimators: 200
-  max_depth: 20
-  min_samples_split: 2
-  min_samples_leaf: 1
-  max_features: sqrt
+  n_estimators: 128
+  max_depth: 23
+  min_samples_split: 9
+  min_samples_leaf: 9
+  max_features: log2
+  random_state: 42
 
 metrics:
-  mape: 7.82
-  wmape: 7.65
-  r2: 0.87
+  # Primary metrics
+  mae: 38901.45
+  rmse: 53277.02
+  r2: 0.78339
 
-sweep_id: abc123xyz
-best_run_id: run_456
+  # Percentage error metrics
+  mape: 20.4002
+  smape: 18.85
+  wmape: 19.12
+  median_ape: 16.73
+
+  # Accuracy within thresholds
+  within_5pct: 12.4
+  within_10pct: 36.2
+  within_15pct: 52.8
+
+sweep_url: https://wandb.ai/danieljimenez88m-carlosdanieljimenez-com/housing-mlops-gcp/sweeps/f73ao31m
 ```
+
+**Key insights from these real metrics:**
+
+- **MAPE of 20.4%** indicates the model predicts prices within ±20% on average
+- **36.2% of predictions are within 10%** - acceptable for real estate valuation
+- **R² of 0.78** means the model explains 78% of variance in house prices
+- The optimal configuration found by Bayesian optimization used:
+  - Moderate tree depth (`max_depth=23`) to balance bias/variance
+  - Higher leaf requirements (`min_samples_leaf=9`) to prevent overfitting
+  - `log2` feature sampling for better generalization than `sqrt`
 
 Optimal hyperparameters are saved in **YAML**, not pickle. Reason:
 
-**YAML is readable and git-friendly.** If in the next retraining you change from `n_estimators=200` to `n_estimators=300`, a `git diff` shows it clearly.
+**YAML is readable and git-friendly.** If in the next retraining you change from `n_estimators=128` to `n_estimators=150`, a `git diff` shows it clearly.
 
 With pickle, it's an **opaque binary blob**.
 
@@ -1527,7 +1553,7 @@ With pickle, it's an **opaque binary blob**.
 
 **Without this:** "I used `n_estimators=100` because it's scikit-learn's default."
 
-**With this:** "I ran Bayesian sweep of 50 runs. Optimal config: `n_estimators=200, max_depth=20`. MAPE improved from 8.5% to 7.8%. Here's the sweep in W&B: `wandb.ai/project/sweeps/abc123`."
+**With this:** "I ran Bayesian sweep of 50 runs. Optimal config: `n_estimators=128, max_depth=23, max_features=log2`. Final MAPE: 20.4% with 36.2% of predictions within 10%. Here's the sweep in W&B: [f73ao31m](https://wandb.ai/danieljimenez88m-carlosdanieljimenez-com/housing-mlops-gcp/sweeps/f73ao31m)."
 
 **Quantifiable evidence** of why you chose each hyperparameter.
 
@@ -1796,10 +1822,11 @@ When you commit `model_config.yaml`, the diff shows:
 ```diff
 - version: 2
 + version: 3
-- mape: 8.5
-+ mape: 7.8
+- mape: 22.1
++ mape: 20.4
 - n_estimators: 100
-+ n_estimators: 200
++ n_estimators: 128
++ max_features: log2
 ```
 
 It's **auditable**. You know exactly what changed between versions.

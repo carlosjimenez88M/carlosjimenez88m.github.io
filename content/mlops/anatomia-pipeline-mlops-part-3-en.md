@@ -10,6 +10,7 @@ description: "Part 3: Model selection strategies, advanced testing, production p
 
 > **Complete MLOps Series:** [← Part 1: Pipeline](/mlops/anatomia-pipeline-mlops-parte-1/) | [← Part 2: Deployment](/mlops/anatomia-pipeline-mlops-parte-2/) | **Part 3 (current)**
 
+# Anatomy of an MLOps Pipeline - Part 3: Production and Best Practices
 
 <a name="model-strategies"></a>
 ## 11. Model and Parameter Selection Strategies
