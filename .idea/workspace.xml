@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7187df38-ab2b-4b85-86e0-37917d495ed4" name="Changes" comment="add resourses #16" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2x0E63bz3VC0c4amE6IgAUP4Cjk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/carlosdaniel/Documents/Personal/carlosjimenez88m.github.io/content/post",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/content/post" />
+      <recent name="$PROJECT_DIR$/content" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/post" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-PY-251.23774.444" />
+        <option value="bundled-python-sdk-890ed5b35930-d9c5bdb153f4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.23774.444" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7187df38-ab2b-4b85-86e0-37917d495ed4" name="Changes" comment="" />
+      <created>1747066412335</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747066412335</updated>
+      <workItem from="1747066413536" duration="18183000" />
+    </task>
+    <task id="LOCAL-00001" summary="add resoruisres">
+      <option name="closed" value="true" />
+      <created>1747079503752</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1747079503752</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add resourses #2">
+      <option name="closed" value="true" />
+      <created>1747080091263</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1747080091263</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add resourses #3">
+      <option name="closed" value="true" />
+      <created>1747080567551</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1747080567551</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add resourses #4">
+      <option name="closed" value="true" />
+      <created>1747081353981</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747081353981</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add resourses #5">
+      <option name="closed" value="true" />
+      <created>1747081589306</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1747081589306</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add resourses #6">
+      <option name="closed" value="true" />
+      <created>1747081712279</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1747081712279</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add resourses #7">
+      <option name="closed" value="true" />
+      <created>1747081795200</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1747081795200</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add resourses #8">
+      <option name="closed" value="true" />
+      <created>1747082179918</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1747082179918</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add resourses #8">
+      <option name="closed" value="true" />
+      <created>1747082381431</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1747082381431</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add resourses #11">
+      <option name="closed" value="true" />
+      <created>1747088684214</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1747088684214</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add resourses #12">
+      <option name="closed" value="true" />
+      <created>1747089219597</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1747089219597</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add resourses #13">
+      <option name="closed" value="true" />
+      <created>1747090143614</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1747090143614</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add resourses #14">
+      <option name="closed" value="true" />
+      <created>1747090837990</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1747090837990</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add resourses #15">
+      <option name="closed" value="true" />
+      <created>1747090999137</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1747090999137</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add resourses #16">
+      <option name="closed" value="true" />
+      <created>1747092274589</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1747092274589</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add resoruisres" />
+    <MESSAGE value="add resourses #2" />
+    <MESSAGE value="add resourses #3" />
+    <MESSAGE value="add resourses #4" />
+    <MESSAGE value="add resourses #5" />
+    <MESSAGE value="add resourses #6" />
+    <MESSAGE value="add resourses #7" />
+    <MESSAGE value="add resourses #8" />
+    <MESSAGE value="add resourses #11" />
+    <MESSAGE value="add resourses #12" />
+    <MESSAGE value="add resourses #13" />
+    <MESSAGE value="add resourses #14" />
+    <MESSAGE value="add resourses #15" />
+    <MESSAGE value="add resourses #16" />
+    <option name="LAST_COMMIT_MESSAGE" value="add resourses #16" />
+  </component>
+</project>
