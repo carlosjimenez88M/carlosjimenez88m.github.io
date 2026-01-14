@@ -776,6 +776,7 @@ This **trick is critical**. You can't evaluate imputation strategies on real mis
 
 It's **cross-validation for preprocessing**, not just for models.
 
+![](img/imputation.png)
 #### 3. Why KNN Needs Scaling
 
 ```python
@@ -1412,7 +1413,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-
+![](img/optimization.png)
 ### Critical Technical Decisions
 
 #### 1. Bayesian Optimization, Not Random Search
@@ -1835,6 +1836,8 @@ When you commit `model_config.yaml`, the diff shows:
 
 It's **auditable**. You know exactly what changed between versions.
 
+![](img/hardware1.png)
+
 ### The Complete Flow: Sweep → Registration → Production
 
 ```bash
@@ -1868,6 +1871,7 @@ mlflow models transition \
 - Models with semantic versions: v1, v2, v3
 - Embedded metadata: params, metrics, data sources
 - Rollback = `transition v3 to Archived` + `transition v2 to Production`
+
 
 ---
 
