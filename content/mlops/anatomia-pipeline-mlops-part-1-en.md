@@ -1811,6 +1811,8 @@ with open(config_path, 'w') as f:
 mlflow.log_artifact(str(config_path), artifact_path="config")
 ```
 
+![](img/optimization.png)
+
 This YAML is logged to MLflow **AND** saved in the repo (in `configs/model_config.yaml`).
 
 **Why YAML and not just MLflow:** Your FastAPI app needs to read configuration at startup. It can do `mlflow.load_model()` for the pickle, but needs to know the **feature names** for input validation.
