@@ -2580,6 +2580,9 @@ class PredictionRequest(BaseModel):
 }
 ```
 
+
+![](img/api.png)
+
 **Why support batch:**
 - **Reduced latency:** 3 individual requests = 150ms. 1 batch of 3 = 60ms.
 - **Reduced cost:** Less HTTP overhead (headers, handshake, etc.)

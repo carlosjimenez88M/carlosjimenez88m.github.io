@@ -904,6 +904,7 @@ The relationship between features and target changes.
 # Model's coefficient for 'NEAR OCEAN' is obsolete
 ```
 
+
 **How to detect drift (what this project should add):**
 
 **Option 1: Statistical Tests (Kolmogorov-Smirnov, Chi-Square)**
@@ -1440,7 +1441,7 @@ Based on exhaustive code analysis, here's the **real** state of this project:
    - Docker build in CI
    - Cloud Run deployment with health checks
    - Staging/Production separation
-
+![]()
 5. **API Design**
    - Pydantic validation on all endpoints
    - Cascade fallback (MLflow→GCS→Local)
@@ -1775,11 +1776,11 @@ If you implement 80%, you'll be ready to scale to millions of predictions withou
 
 ## Navigation
 
-**[← Part 2: Deployment and Infrastructure](/mlops/anatomia-pipeline-mlops-part-2-en/)** | **[← Part 1: Pipeline and Orchestration](/mlops/anatomia-pipeline-mlops-part-1-en/)**
+**[← Part 2: Deployment and Infrastructure](/mlops/anatomia-pipeline-mlops-parte-2/)** | **[← Part 1: Pipeline and Orchestration](/mlops/anatomia-pipeline-mlops-parte-1/)**
 
 **Complete series:**
-1. [Part 1: Pipeline and Orchestration](/mlops/anatomia-pipeline-mlops-part-1-en/)
-2. [Part 2: Deployment and Infrastructure](/mlops/anatomia-pipeline-mlops-part-2-en/)
+1. [Part 1: Pipeline and Orchestration](/mlops/anatomia-pipeline-mlops-parte-1/)
+2. [Part 2: Deployment and Infrastructure](/mlops/anatomia-pipeline-mlops-parte-2/)
 3. Part 3: Production and Best Practices (current)
 
 **Repository:** [github.com/carlosjimenez88M/mlops-hand-on-ML-and-pytorch](https://github.com/carlosjimenez88M/mlops-hand-on-ML-and-pytorch/tree/cap2-end_to_end/cap2-end_to_end)
