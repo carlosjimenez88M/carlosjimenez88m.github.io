@@ -8,7 +8,7 @@ author: "Carlos Daniel Jiménez"
 description: "Part 1: Philosophy, project architecture and orchestration with Hydra + MLflow. Steps for preprocessing, feature engineering, hyperparameter tuning and model registry."
 ---
 
-> **Complete MLOps Series:** [Part 1 (current)](/mlops/anatomia-pipeline-mlops-parte-1/) | [Part 2: Deployment →](/mlops/anatomia-pipeline-mlops-parte-2/) | [Part 3: Production →](/mlops/anatomia-pipeline-mlops-parte-3/)
+> **Complete MLOps Series:** [Part 1 (current)](/mlops/anatomia-pipeline-mlops-part-1-en/) | [Part 2: Deployment →](/mlops/anatomia-pipeline-mlops-part-2-en/) | [Part 3: Production →](/mlops/anatomia-pipeline-mlops-part-3-en/)
 
 # Anatomy of an MLOps Pipeline - Part 1: Pipeline and Orchestration
 
@@ -1874,7 +1874,7 @@ mlflow models transition \
 
 ## Navigation
 
-**[← Home](/mlops/)** | **[Part 2: Deployment and Infrastructure →](/mlops/anatomia-pipeline-mlops-parte-2/)**
+**[← Home](/mlops/)** | **[Part 2: Deployment and Infrastructure →](/mlops/anatomia-pipeline-mlops-part-2-en/)**
 
 In Part 2 we will cover:
 - CI/CD with GitHub Actions

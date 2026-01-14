@@ -8,7 +8,7 @@ author: "Carlos Daniel Jiménez"
 description: "Part 2: CI/CD with GitHub Actions, W&B vs MLflow comparison, complete containerization with Docker, and production-ready API architecture with FastAPI."
 ---
 
-> **Complete MLOps Series:** [← Part 1: Pipeline](/mlops/anatomia-pipeline-mlops-parte-1/) | **Part 2 (current)** | [Part 3: Production →](/mlops/anatomia-pipeline-mlops-parte-3/)
+> **Complete MLOps Series:** [← Part 1: Pipeline](/mlops/anatomia-pipeline-mlops-part-1-en/) | **Part 2 (current)** | [Part 3: Production →](/mlops/anatomia-pipeline-mlops-part-3-en/)
 
 # Anatomy of an MLOps Pipeline - Part 2: Deployment and Infrastructure
 
@@ -3012,7 +3012,7 @@ Total: ~50ms
 
 ## Navigation
 
-**[← Part 1: Pipeline and Orchestration](/mlops/anatomia-pipeline-mlops-parte-1/)** | **[Part 3: Production and Best Practices →](/mlops/anatomia-pipeline-mlops-parte-3/)**
+**[← Part 1: Pipeline and Orchestration](/mlops/anatomia-pipeline-mlops-part-1-en/)** | **[Part 3: Production and Best Practices →](/mlops/anatomia-pipeline-mlops-part-3-en/)**
 
 In Part 3 we will cover:
 - Model selection and parameter strategies
