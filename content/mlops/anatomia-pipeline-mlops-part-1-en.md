@@ -839,7 +839,7 @@ mlflow.log_artifact("artifacts/imputer.pkl")
 **With this:** "I compared 4 strategies. IterativeImputer with RandomForest had 15% lower RMSE than median. Here's the plot in W&B dashboard run `abc123`. The imputer is serialized in MLflow."
 
 Now you have **quantifiable evidence** of why you chose what you chose. Six months later, when someone asks, **the data is there**.
-
+![](img/gcp2.png)
 ---
 
 <a name="step-03"></a>
@@ -1491,6 +1491,8 @@ wandb.log({
        for k, v in list(feature_importances.items())[:10]}
 })
 ```
+
+![](img/feature_selection.png)
 
 Random Forest calculates feature importances **for free**. It would be valuable to log it to understand which features dominate the model.
 
