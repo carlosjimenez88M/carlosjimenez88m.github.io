@@ -13,410 +13,659 @@ description: "Part 2: CI/CD with GitHub Actions, W&B vs MLflow comparison, compl
 # Anatomy of an MLOps Pipeline - Part 2: Deployment and Infrastructure
 
 <a name="github-actions"></a>
-## 8. CI/CD with GitHub Actions: Complete Pipeline Automation
+## 8. CI/CD with GitHub Actions: The Philosophy of Automated MLOps
 
-### Why CI/CD Is Critical in MLOps
+### The Philosophical Foundation: Why Automation Isn't Optional
 
-As an MLOps engineer, one of the biggest friction points is manual deployment. You've trained an excellent model on your laptop, but getting it to production requires:
+Before diving into YAML, let's address the fundamental question: **why do we automate ML pipelines?**
 
-1. SSH to a server
-2. Manually copy files
-3. Install dependencies
-4. Cross your fingers
-5. Debug when something explodes
+The naive answer is "to save time." The real answer is more profound: **because human memory is unreliable, manual processes don't scale, and production systems demand reproducibility.**
 
-**GitHub Actions eliminates this.** Every commit triggers an automated pipeline that:
+Consider this scenario: You trained a model 6 months ago. It's in production. Now there's a bug. You need to retrain with the exact same configuration. Can you do it?
 
-- Runs tests
-- Validates that code meets standards
-- Trains the model (optional, in simple pipelines)
-- Builds Docker images
-- Deploys to Cloud Run/ECS/Kubernetes
+- **Without CI/CD:** You search through Slack messages, local notebooks, commented code. You find 3 different sets of hyperparameters. You don't know which one is the real one. You guess. You're wrong. The model behaves differently. Production breaks.
 
-### The CI/CD Architecture For This Project
+- **With CI/CD:** You look at the GitHub Actions run from 6 months ago. Every parameter, every dependency version, every data hash is there. You trigger the same workflow. The model is identical. Production is stable.
 
-This project implements **two separate workflows**:
+**This is not about convenience. This is about engineering rigor.**
 
-#### 1. PR Validation Workflow
+### The Complete Pipeline: From Commit to Production
 
-**Trigger:** Every pull request to `main`
+This project implements a **single, comprehensive workflow** that orchestrates the entire ML lifecycle. Let's dissect it.
 
-**Purpose:** Ensure code is production-ready before merging
+#### The Architecture: 11 Jobs, 1 Pipeline
 
-```yaml
-# .github/workflows/pr_validation.yaml
-name: PR Validation - Tests & Linting
-
-on:
-  pull_request:
-    branches: [main, master]
-    paths:
-      - 'src/**'
-      - 'api/**'
-      - 'tests/**'
-      - 'pyproject.toml'
-      - 'requirements.txt'
-
-jobs:
-  lint:
-    name: Lint Code
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Set up Python 3.12
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Install uv
-        run: pip install uv
-
-      - name: Install dependencies
-        run: |
-          uv venv
-          uv pip install -e .
-          uv pip install ruff pytest pytest-cov
-
-      - name: Run Ruff linter
-        run: |
-          source .venv/bin/activate
-          ruff check src/ tests/ api/
-
-      - name: Run Ruff formatter check
-        run: |
-          source .venv/bin/activate
-          ruff format --check src/ tests/ api/
-
-  unit-tests:
-    name: Unit Tests
-    runs-on: ubuntu-latest
-    env:
-      GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
-      GCS_BUCKET_NAME: ${{ secrets.GCS_BUCKET_NAME }}
-      WANDB_API_KEY: ${{ secrets.WANDB_API_KEY }}
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Set up Python 3.12
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Install dependencies
-        run: |
-          pip install uv
-          uv venv
-          uv pip install -e .
-          uv pip install pytest pytest-cov pytest-mock
-
-      - name: Run unit tests with coverage
-        run: |
-          source .venv/bin/activate
-          pytest tests/ -v \
-            --cov=src \
-            --cov=api/app \
-            --cov-report=xml \
-            --cov-report=term-missing \
-            --cov-fail-under=70
-
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v4
-        with:
-          file: ./coverage.xml
-          flags: unittests
-          name: codecov-umbrella
-
-  integration-tests:
-    name: Integration Tests (Pipeline E2E)
-    runs-on: ubuntu-latest
-    env:
-      GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
-      GCS_BUCKET_NAME: ${{ secrets.GCS_BUCKET_NAME }}
-      WANDB_API_KEY: ${{ secrets.WANDB_API_KEY }}
-      MLFLOW_TRACKING_URI: ${{ secrets.MLFLOW_TRACKING_URI }}
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Set up Python 3.12
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.12'
-
-      - name: Authenticate to Google Cloud
-        uses: google-github-actions/auth@v2
-        with:
-          credentials_json: ${{ secrets.GCP_SA_KEY }}
-
-      - name: Install dependencies
-        run: |
-          pip install uv
-          uv venv
-          uv pip install -e .
-
-      - name: Run integration test (Steps 01-04)
-        run: |
-          source .venv/bin/activate
-          python main.py main.execute_steps=[01_download_data,02_preprocessing_and_imputation,03_feature_engineering,04_segregation]
-        timeout-minutes: 30
-
-      - name: Verify artifacts were created
-        run: |
-          gsutil ls gs://${{ secrets.GCS_BUCKET_NAME }}/data/04-split/train/train.parquet
-          gsutil ls gs://${{ secrets.GCS_BUCKET_NAME }}/data/04-split/test/test.parquet
+```
+Commit to master/main
+    ↓
+┌─────────────────────────────────────────────┐
+│ 01. SETUP & VALIDATION                      │
+│     - Validate project structure            │
+│     - Install dependencies with uv          │
+│     - Cache for speed                       │
+└─────────────────────────────────────────────┘
+         ↓
+    ┌────────────┬────────────┐
+    ↓            ↓            ↓
+┌────────┐  ┌────────┐  ┌──────────────┐
+│  LINT  │  │ TESTS  │  │ STEP 01:     │
+│  CODE  │  │ & COV  │  │ DOWNLOAD     │
+└────────┘  └────────┘  └──────────────┘
+                             ↓
+                        ┌──────────────┐
+                        │ STEP 02:     │
+                        │ PREPROCESS   │
+                        └──────────────┘
+                             ↓
+                        ┌──────────────┐
+                        │ STEP 03:     │
+                        │ FEATURE ENG  │
+                        └──────────────┘
+                             ↓
+                        ┌──────────────┐
+                        │ STEP 04:     │
+                        │ SEGREGATION  │
+                        └──────────────┘
+                             ↓
+                        ┌──────────────┐
+                        │ STEP 05:     │
+                        │ MODEL SELECT │
+                        └──────────────┘
+                             ↓
+                        ┌──────────────┐
+                        │ STEP 06:     │
+                        │ SWEEP        │
+                        └──────────────┘
+                             ↓
+                        ┌──────────────┐
+                        │ STEP 07:     │
+                        │ REGISTRATION │
+                        └──────────────┘
+                             ↓
+                        ┌──────────────┐
+                        │ DOCKER BUILD │
+                        │ & TEST       │
+                        └──────────────┘
+                             ↓
+                        ┌──────────────┐
+                        │ SUMMARY      │
+                        └──────────────┘
 ```
 
-**Value for the MLOps engineer:**
+**Key insight:** The pipeline jobs are **sequential where necessary** (you can't train before downloading data) and **parallel where possible** (linting doesn't need to wait for tests).
 
-- **Prevents broken merges:** If tests fail, the PR cannot be merged
-- **Code standards:** Ruff guarantees consistency (important when you have 5+ contributors)
-- **Coverage tracking:** Codecov shows what percentage of code is covered by tests
-- **Fast feedback:** You know in 5 minutes if your change broke something, not 3 hours later
+### Anatomy of the Workflow
 
-#### 2. Deployment Workflow
+Let's examine the critical sections of `.github/workflows/mlops_pipeline.yaml`:
 
-**Trigger:** Push to `main` (after PR merge)
-
-**Purpose:** Build and deploy the API to production
+#### 1. Triggers: When Does This Run?
 
 ```yaml
-# .github/workflows/deploy_api.yaml
-name: Deploy API to Cloud Run
-
 on:
   push:
-    branches: [main]
-    paths:
-      - 'api/**'
-      - 'models/**'
-      - '.github/workflows/deploy_api.yaml'
+    branches:
+      - master
+      - main
+      - cap2-end_to_end
+  pull_request:
+    branches:
+      - master
+      - main
+      - cap2-end_to_end
+  workflow_dispatch:
+    inputs:
+      run_full_pipeline:
+        description: 'Run complete 7-step pipeline'
+        required: true
+        default: true
+        type: boolean
+      sweep_count:
+        description: 'Number of sweep runs'
+        required: true
+        default: '5'
+        type: string
+```
 
+**Three trigger modes:**
+
+1. **Push to master/main:** Automatic full pipeline on every merge
+2. **Pull Request:** Validation before merge (runs linting, tests, but may skip expensive steps)
+3. **Manual (workflow_dispatch):** You can trigger manually from GitHub UI with custom parameters
+
+**Philosophy:** Automation doesn't mean "always run everything." It means "make it trivial to run everything when needed."
+
+#### 2. Environment Variables: Single Source of Truth
+
+```yaml
 env:
-  PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
-  SERVICE_NAME: housing-price-api
-  REGION: us-central1
-
-jobs:
-  build-and-deploy:
-    name: Build Docker Image & Deploy
-    runs-on: ubuntu-latest
-
-    permissions:
-      contents: read
-      id-token: write
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Authenticate to Google Cloud
-        uses: google-github-actions/auth@v2
-        with:
-          workload_identity_provider: ${{ secrets.WIF_PROVIDER }}
-          service_account: ${{ secrets.WIF_SERVICE_ACCOUNT }}
-
-      - name: Set up Cloud SDK
-        uses: google-github-actions/setup-gcloud@v2
-
-      - name: Configure Docker for GCR
-        run: gcloud auth configure-docker gcr.io
-
-      - name: Download trained model from GCS
-        run: |
-          mkdir -p api/models/trained
-          gsutil cp gs://${{ secrets.GCS_BUCKET_NAME }}/models/trained/housing_price_model.pkl \
-            api/models/trained/housing_price_model.pkl
-
-      - name: Build Docker image
-        run: |
-          cd api
-          docker build \
-            --tag gcr.io/${{ env.PROJECT_ID }}/${{ env.SERVICE_NAME }}:${{ github.sha }} \
-            --tag gcr.io/${{ env.PROJECT_ID }}/${{ env.SERVICE_NAME }}:latest \
-            .
-
-      - name: Push Docker image to GCR
-        run: |
-          docker push gcr.io/${{ env.PROJECT_ID }}/${{ env.SERVICE_NAME }}:${{ github.sha }}
-          docker push gcr.io/${{ env.PROJECT_ID }}/${{ env.SERVICE_NAME }}:latest
-
-      - name: Deploy to Cloud Run
-        run: |
-          gcloud run deploy ${{ env.SERVICE_NAME }} \
-            --image gcr.io/${{ env.PROJECT_ID }}/${{ env.SERVICE_NAME }}:${{ github.sha }} \
-            --platform managed \
-            --region ${{ env.REGION }} \
-            --allow-unauthenticated \
-            --set-env-vars="GCS_BUCKET=${{ secrets.GCS_BUCKET_NAME }},WANDB_API_KEY=${{ secrets.WANDB_API_KEY }}" \
-            --memory 2Gi \
-            --cpu 2 \
-            --max-instances 10 \
-            --min-instances 1 \
-            --timeout 300
-
-      - name: Get Cloud Run URL
-        id: deploy-url
-        run: |
-          URL=$(gcloud run services describe ${{ env.SERVICE_NAME }} \
-            --platform managed \
-            --region ${{ env.REGION }} \
-            --format 'value(status.url)')
-          echo "url=$URL" >> $GITHUB_OUTPUT
-
-      - name: Run smoke test
-        run: |
-          curl -X POST "${{ steps.deploy-url.outputs.url }}/api/v1/predict" \
-            -H "Content-Type: application/json" \
-            -d '{"instances":[{"longitude":-122.23,"latitude":37.88,"housing_median_age":41,"total_rooms":880,"total_bedrooms":129,"population":322,"households":126,"median_income":8.3252,"ocean_proximity":"NEAR BAY"}]}'
-
-      - name: Notify deployment success
-        if: success()
-        run: |
-          echo "Deployment successful! API available at: ${{ steps.deploy-url.outputs.url }}"
+  PYTHON_VERSION: "3.12"
+  WANDB_PROJECT: "housing-mlops-gcp"
+  WANDB_CONSOLE: "wrap"
+  WANDB__SERVICE_WAIT: "300"
+  WANDB_MODE: "online"
+  WANDB_SILENT: "false"
+  WORKING_DIR: "cap2-end_to_end"
 ```
 
-**Value for the MLOps engineer:**
+**Why define these globally?**
 
-- **Zero-downtime deployment:** Cloud Run does rolling updates automatically
-- **Easy rollback:** If something explodes, you do `gcloud run services update-traffic --to-revisions=PREVIOUS=100`
-- **Automatic smoke test:** Verifies the API responds after deploy
-- **Image versioning:** Each commit has its own Docker image tagged with SHA
+- **Python version:** Change once, apply everywhere. When Python 3.13 is stable, you update one line.
+- **W&B config:** Consistent logging behavior across all jobs.
+- **Working directory:** If the repo structure changes, one update fixes all jobs.
 
-### Secrets and Security
+**This is not DRY for the sake of DRY. This is defense against configuration drift.**
 
-**CRITICAL:** Never commit secrets to the repo. GitHub Actions uses **GitHub Secrets** to store:
-
-- `GCP_PROJECT_ID`: GCP project ID
-- `GCS_BUCKET_NAME`: GCS bucket name
-- `WANDB_API_KEY`: W&B API key
-- `GCP_SA_KEY`: Service account key (JSON) for GCP authentication
-- `WIF_PROVIDER` / `WIF_SERVICE_ACCOUNT`: Workload Identity Federation (more secure than SA keys)
-
-**Configuration in GitHub:**
-
-1. Go to repo → Settings → Secrets and variables → Actions
-2. Create each secret
-3. Workflows access them with `${{ secrets.SECRET_NAME }}`
-
-### Deployment Monitoring
-
-**How to know if a deployment failed?**
-
-GitHub Actions sends notifications to:
-- Email (configured in GitHub profile)
-- Slack (with GitHub app)
-- Discord/Teams (with webhooks)
-
-**Post-deployment monitoring:**
+#### 3. Job 1: Setup & Validation
 
 ```yaml
-# Add post-deploy validation step
-- name: Run API health check
-  run: |
-    for i in {1..5}; do
-      STATUS=$(curl -s -o /dev/null -w "%{http_code}" "${{ steps.deploy-url.outputs.url }}/health")
-      if [ $STATUS -eq 200 ]; then
-        echo "Health check passed"
-        exit 0
-      fi
-      echo "Attempt $i failed, retrying..."
-      sleep 10
-    done
-    echo "Health check failed after 5 attempts"
-    exit 1
+setup:
+  name: Setup and Validate
+  runs-on: ubuntu-latest
+  outputs:
+    python-version: ${{ env.PYTHON_VERSION }}
+
+  steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Validate project structure
+      run: |
+        echo "Validating project structure..."
+        if [ ! -d "${{ env.WORKING_DIR }}" ]; then
+          echo "ERROR: Working directory ${{ env.WORKING_DIR }} not found!"
+          exit 1
+        fi
+
+        if [ ! -f "${{ env.WORKING_DIR }}/pyproject.toml" ]; then
+          echo "ERROR: pyproject.toml not found!"
+          exit 1
+        fi
+
+        if [ ! -f "${{ env.WORKING_DIR }}/main.py" ]; then
+          echo "ERROR: main.py not found!"
+          exit 1
+        fi
+
+        echo "✓ Project structure validated"
+
+    - name: Set up Python ${{ env.PYTHON_VERSION }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+
+    - name: Cache pip dependencies
+      uses: actions/cache@v3
+      with:
+        path: |
+          ~/.cache/pip
+          ~/.cache/uv
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/pyproject.toml') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - name: Install uv package manager
+      run: |
+        curl -LsSf https://astral.sh/uv/install.sh | sh
+        echo "$HOME/.cargo/bin" >> $GITHUB_PATH
+
+    - name: Install project dependencies
+      working-directory: ${{ env.WORKING_DIR }}
+      run: |
+        export PATH="$HOME/.cargo/bin:$PATH"
+        echo "Installing dependencies..."
+        uv pip install --system -e .
+        echo "✓ Dependencies installed successfully"
 ```
 
-### Advanced CI/CD Strategies
+**What's happening here:**
 
-#### 1. Automatic Retraining Pipeline
+1. **Validation first:** Before installing anything, verify the repo structure is correct. Fail fast.
+2. **Dependency caching:** `~/.cache/pip` is cached based on `pyproject.toml` hash. If dependencies haven't changed, installation is ~10x faster.
+3. **uv package manager:** Traditional `pip` is slow. `uv` is a Rust-based alternative that's 10-100x faster for large dependency trees.
 
-**Trigger:** Cron schedule (example: weekly)
+**When to use uv vs pip:**
+- **Use uv:** Projects with 50+ dependencies, CI/CD environments, when speed matters
+- **Use pip:** Simple projects, maximum compatibility, when you don't control the environment
+
+#### 4. Parallel Validation: Linting & Tests
 
 ```yaml
-on:
-  schedule:
-    - cron: '0 2 * * 0'  # Every Sunday at 2 AM UTC
+lint-and-format:
+  name: Code Quality Checks
+  needs: setup
+  runs-on: ubuntu-latest
 
-jobs:
-  retrain-model:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Run full pipeline
-        run: python main.py
+  steps:
+    - name: Run Ruff linter
+      working-directory: ${{ env.WORKING_DIR }}
+      run: |
+        echo "Running Ruff linter..."
+        ruff check src/ --output-format=github || true
+        echo "✓ Linting completed"
 
-      - name: Compare metrics with production model
-        run: |
-          NEW_MAPE=$(python scripts/get_latest_mape.py)
-          PROD_MAPE=$(python scripts/get_production_mape.py)
+unit-tests:
+  name: Unit Tests & Coverage
+  needs: setup
+  runs-on: ubuntu-latest
+  if: always()  # Run even if linting fails
 
-          if (( $(echo "$NEW_MAPE < $PROD_MAPE" | bc -l) )); then
-            echo "New model is better, promoting to Production"
-            mlflow models transition --name housing_price_model --version latest --stage Production
-          else
-            echo "New model is worse, keeping current Production model"
-          fi
+  steps:
+    - name: Run tests with coverage
+      working-directory: ${{ env.WORKING_DIR }}
+      run: |
+        export PATH="$HOME/.cargo/bin:$PATH"
+        uv run pytest tests/ -v --cov=src --cov-report=xml --cov-report=term-missing || true
+        echo "✓ Tests completed"
+
+    - name: Upload coverage
+      if: always()
+      uses: codecov/codecov-action@v4
+      with:
+        files: ./${{ env.WORKING_DIR }}/coverage.xml
+        flags: unittests
+        fail_ci_if_error: false
 ```
 
-**Value:** The model automatically retrains with new data. If it improves, it's promoted to Production. If it worsens, it's discarded.
+**Key patterns:**
 
-#### 2. Canary Deployments
+- **`needs: setup`:** These jobs wait for setup to finish, but run in parallel with each other.
+- **`if: always()`:** Tests run even if linting fails. You want to see all failures, not just the first one.
+- **`|| true`:** Linting and tests don't fail the pipeline (notice the `|| true`). Why? Because in some orgs, code quality is aspirational, not blocking. Adjust based on your team's culture.
 
-**Problem:** A new model may have subtle bugs that don't appear in tests.
+**Philosophical note:** Should bad tests block deployment? **Yes, in mature teams. No, in research-heavy teams where velocity matters more than rigor.** This workflow is configured for research. In production, remove the `|| true`.
 
-**Solution:** Deploy the new model to only 10% of traffic, monitor for 1 hour, then migrate 100% if there are no errors.
+#### 5. The ML Pipeline: Steps 01-07
+
+Each ML step is a separate job. Let's examine Step 06 (Hyperparameter Sweep) as representative:
 
 ```yaml
-- name: Deploy canary (10% traffic)
-  run: |
-    gcloud run services update-traffic ${{ env.SERVICE_NAME }} \
-      --to-revisions=LATEST=10,PREVIOUS=90
+step-06-sweep:
+  name: Step 6 - Hyperparameter Sweep
+  needs: step-05-model-selection
+  runs-on: ubuntu-latest
+  if: always() && needs.step-05-model-selection.result == 'success'
 
-- name: Wait and monitor
-  run: sleep 3600  # 1 hour
+  steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
 
-- name: Check error rate
-  run: |
-    ERROR_RATE=$(python scripts/check_error_rate.py --minutes=60)
-    if (( $(echo "$ERROR_RATE > 0.05" | bc -l) )); then
-      echo "Error rate too high, rolling back"
-      gcloud run services update-traffic ${{ env.SERVICE_NAME }} --to-revisions=PREVIOUS=100
-      exit 1
-    fi
+    - name: Authenticate to Google Cloud
+      uses: google-github-actions/auth@v2
+      with:
+        credentials_json: ${{ secrets.GCP_SA_KEY }}
 
-- name: Promote to 100% traffic
-  run: |
-    gcloud run services update-traffic ${{ env.SERVICE_NAME }} --to-revisions=LATEST=100
+    - name: Configure environment
+      run: |
+        echo "GCS_BUCKET_NAME=${{ secrets.GCS_BUCKET_NAME }}" >> $GITHUB_ENV
+        echo "GCP_PROJECT_ID=${{ secrets.GCP_PROJECT_ID }}" >> $GITHUB_ENV
+        echo "WANDB_API_KEY=${{ secrets.WANDB_API_KEY }}" >> $GITHUB_ENV
+        echo "WANDB_PROJECT=${{ env.WANDB_PROJECT }}" >> $GITHUB_ENV
+
+    - name: Run Step 06 - Hyperparameter Sweep
+      working-directory: ${{ env.WORKING_DIR }}
+      run: |
+        python main.py main.execute_steps='["06_sweep"]' sweep.sweep_count=${{ github.event.inputs.sweep_count || '5' }}
+
+    - name: Verify best_params.yaml generated
+      working-directory: ${{ env.WORKING_DIR }}
+      run: |
+        if [ -f "src/model/06_sweep/best_params.yaml" ]; then
+          echo "✓ best_params.yaml generated successfully"
+          cat src/model/06_sweep/best_params.yaml
+        else
+          echo "ERROR: best_params.yaml not found!"
+          exit 1
+        fi
+
+    - name: Upload sweep results
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: step-06-sweep-results
+        path: |
+          ${{ env.WORKING_DIR }}/src/model/06_sweep/best_params.yaml
+          ${{ env.WORKING_DIR }}/mlruns/
+        retention-days: 30
 ```
+
+**Critical patterns:**
+
+1. **Conditional execution:** `if: always() && needs.step-05-model-selection.result == 'success'`
+   - **Translation:** Run this job even if earlier jobs failed (`always()`), but ONLY if step-05 succeeded.
+   - **Why:** If model selection failed, there's no point in running hyperparameter sweep. But if linting failed, we still want to see ML results.
+
+2. **Secret management:** `${{ secrets.GCP_SA_KEY }}`
+   - Secrets are configured in GitHub Settings → Secrets and variables → Actions
+   - They're encrypted at rest and only exposed during job execution
+   - **Never log secrets.** GitHub masks them automatically in logs, but be careful with `cat` or `echo`.
+
+3. **Dynamic parameters:** `sweep.sweep_count=${{ github.event.inputs.sweep_count || '5' }}`
+   - If triggered manually, use the user-provided `sweep_count`
+   - If triggered by push, default to `5`
+   - This lets you run quick validation sweeps (sweep_count=3) vs production sweeps (sweep_count=50)
+
+4. **Artifact verification:** The job explicitly checks that `best_params.yaml` was created
+   - **Why:** Fail loudly if the step silently failed to produce output
+   - Silent failures are the worst kind of failure
+
+5. **Artifact upload:** `actions/upload-artifact@v4`
+   - Artifacts are stored by GitHub for 30 days (configurable)
+   - Subsequent jobs can download them with `actions/download-artifact@v4`
+   - **Use case:** Step 07 (registration) downloads `best_params.yaml` from Step 06
+
+#### 6. Step 07: Model Registration with Artifact Dependency
+
+```yaml
+step-07-registration:
+  name: Step 7 - Model Registration
+  needs: step-06-sweep
+  runs-on: ubuntu-latest
+
+  steps:
+    - name: Download sweep results
+      uses: actions/download-artifact@v4
+      with:
+        name: step-06-sweep-results
+        path: ${{ env.WORKING_DIR }}
+
+    - name: Verify best_params.yaml exists
+      working-directory: ${{ env.WORKING_DIR }}
+      run: |
+        if [ -f "src/model/06_sweep/best_params.yaml" ]; then
+          echo "✓ best_params.yaml found"
+          cat src/model/06_sweep/best_params.yaml
+        else
+          echo "ERROR: best_params.yaml not found after download!"
+          ls -R src/model/06_sweep/
+          exit 1
+        fi
+
+    - name: Run Step 07 - Model Registration
+      working-directory: ${{ env.WORKING_DIR }}
+      run: |
+        python main.py main.execute_steps='["07_registration"]'
+
+    - name: Upload registered model artifacts
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: step-07-registered-model
+        path: |
+          ${{ env.WORKING_DIR }}/models/trained/
+          ${{ env.WORKING_DIR }}/configs/model_config.yaml
+          ${{ env.WORKING_DIR }}/mlruns/
+        retention-days: 90  # Models kept longer than intermediate artifacts
+```
+
+**Key insight:** Artifacts enable **stateful pipelines** in stateless environments.
+
+GitHub Actions runners are ephemeral—each job gets a fresh VM. But ML pipelines have dependencies: you can't register a model without hyperparameters from the sweep.
+
+**Artifact flow:**
+1. Step 06 uploads `best_params.yaml`
+2. GitHub stores it temporarily
+3. Step 07 downloads it
+4. Step 07 uses it to train the final model
+5. Step 07 uploads the trained model (retention: 90 days, because models are more important than intermediate data)
+
+#### 7. Docker Build & Test
+
+```yaml
+docker-test:
+  name: Docker Build & Test
+  needs: step-07-registration
+  runs-on: ubuntu-latest
+
+  steps:
+    - name: Download model artifacts
+      uses: actions/download-artifact@v4
+      with:
+        name: step-07-registered-model
+        path: ${{ env.WORKING_DIR }}
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+
+    - name: Build API Docker image
+      uses: docker/build-push-action@v5
+      with:
+        context: ./${{ env.WORKING_DIR }}/api
+        push: false  # Don't push to registry, just build and test
+        tags: housing-mlops-api:test
+        cache-from: type=gha  # Use GitHub Actions cache
+        cache-to: type=gha,mode=max
+
+    - name: Test Docker image
+      run: |
+        docker run -d --name test-api -p 8000:8000 housing-mlops-api:test
+        sleep 10
+        curl -f http://localhost:8000/health || exit 1
+        echo "✓ Docker image works correctly"
+        docker stop test-api
+```
+
+**Why test Docker in CI?**
+
+**Scenario:** You add a new Python dependency. You update `pyproject.toml`. You test locally. It works. You push to prod. The Docker build fails because you forgot to rebuild the `requirements.txt` that Docker uses.
+
+**With Docker testing in CI:** This fails before it reaches production.
+
+**Buildx caching:** Docker layer caching (via GitHub Actions cache) speeds up builds by ~5-10x. Only changed layers are rebuilt.
+
+#### 8. Pipeline Summary
+
+```yaml
+pipeline-summary:
+  name: Pipeline Summary
+  runs-on: ubuntu-latest
+  needs:
+    - setup
+    - lint-and-format
+    - unit-tests
+    - step-01-download
+    - step-02-preprocessing
+    - step-03-feature-engineering
+    - step-04-segregation
+    - step-05-model-selection
+    - step-06-sweep
+    - step-07-registration
+    - docker-test
+  if: always()
+
+  steps:
+    - name: Generate summary
+      run: |
+        echo "## MLOps Pipeline Execution Summary" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "**Branch:** ${{ github.ref_name }}" >> $GITHUB_STEP_SUMMARY
+        echo "**Commit:** ${{ github.sha }}" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### Pipeline Steps Status" >> $GITHUB_STEP_SUMMARY
+        echo "| Step | Status |" >> $GITHUB_STEP_SUMMARY
+        echo "|------|--------|" >> $GITHUB_STEP_SUMMARY
+        echo "| Setup & Validation | ${{ needs.setup.result }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| Code Quality | ${{ needs.lint-and-format.result }} |" >> $GITHUB_STEP_SUMMARY
+        echo "| 01 - Download Data | ${{ needs.step-01-download.result }} |" >> $GITHUB_STEP_SUMMARY
+        # ... etc
+
+    - name: Check overall status
+      run: |
+        if [ "${{ needs.step-07-registration.result }}" == "success" ] && \
+           [ "${{ needs.docker-test.result }}" == "success" ]; then
+          echo "Pipeline completed successfully!"
+          exit 0
+        else
+          echo "Pipeline failed or incomplete"
+          exit 1
+        fi
+```
+
+**Value:** This generates a markdown summary visible in the GitHub Actions UI. One glance tells you:
+- Which steps succeeded/failed
+- Links to W&B dashboard
+- Links to MLflow UI
+- Commit SHA (for reproducibility)
+
+**This is the "control tower" view of your pipeline.**
+
+### Version Management: When to Update GitHub Actions
+
+You've probably noticed version tags like `@v4`, `@v5`, `@v2`. Let's address this philosophically.
+
+#### The Actions We Use
+
+| Action | Current Version | Purpose | Update Frequency |
+|--------|----------------|---------|------------------|
+| `actions/checkout` | `@v4` | Clone the repository | Stable, update yearly |
+| `actions/setup-python` | `@v5` | Install Python | Stable, update yearly |
+| `actions/cache` | `@v3` | Cache dependencies | Stable, update when cache bugs occur |
+| `actions/upload-artifact` | `@v4` | Upload job artifacts | Critical, update when retention/size policies change |
+| `actions/download-artifact` | `@v4` | Download job artifacts | Critical, update with upload-artifact |
+| `google-github-actions/auth` | `@v2` | GCP authentication | Security-critical, update quarterly |
+| `docker/setup-buildx-action` | `@v3` | Set up Docker Buildx | Update when Docker features needed |
+| `docker/build-push-action` | `@v5` | Build/push Docker images | Update when new cache strategies available |
+| `codecov/codecov-action` | `@v4` | Upload test coverage | Update when Codecov API changes |
+
+#### The Philosophy of Version Pinning
+
+**Two schools of thought:**
+
+1. **"Always use latest" (`@main` or no version tag)**
+   - **Pro:** Automatic security patches, new features
+   - **Con:** Breaking changes can silently break your pipeline at 3 AM
+
+2. **"Pin to major version" (`@v4`, `@v5`)**
+   - **Pro:** Stability, predictable behavior
+   - **Con:** You manually update, which means you might miss security patches
+
+**This pipeline uses pinned major versions.** Why?
+
+**Because ML pipelines should break loudly during development, not silently in production.**
+
+#### When to Update Versions
+
+**Update immediately:**
+1. **Security vulnerability announced** (GitHub Dependabot alerts you)
+2. **Action is deprecated** (GitHub shows warnings in Actions UI)
+3. **Bug affecting your workflow** (check action's GitHub Issues)
+
+**Update proactively (quarterly):**
+1. Read release notes for major actions (`checkout`, `setup-python`, `auth`)
+2. Test in a dev branch
+3. If stable, update in main
+
+**Never update blindly:**
+- `actions/checkout@v4` → `@v5`: Read breaking changes first
+- `google-github-actions/auth@v2` → `@v3`: Authentication changes can break cloud access
+
+**Example update process:**
+
+```bash
+# Create update branch
+git checkout -b chore/update-actions
+
+# Edit .github/workflows/mlops_pipeline.yaml
+# Change: actions/checkout@v4 → actions/checkout@v5
+
+# Push and test
+git push origin chore/update-actions
+# Watch GitHub Actions run
+# If green, merge. If red, investigate.
+```
+
+#### Specific Version Recommendations
+
+**`actions/setup-python@v5`:**
+- Use `@v5` (current stable as of 2024-2025)
+- Update when Python 3.13+ requires it
+- Avoid `@v4` (deprecated)
+
+**`google-github-actions/auth@v2`:**
+- Use `@v2` (supports Workload Identity Federation)
+- Critical for security: avoids long-lived service account keys
+- Update when GCP releases new auth methods
+
+**`docker/build-push-action@v5`:**
+- Use `@v5` (supports new cache modes)
+- Update when you need new BuildKit features
+- The `cache-from: type=gha` requires `@v5`
+
+**`actions/cache@v3` vs `@v4`:**
+- Use `@v3` (more stable)
+- `@v4` exists but has edge cases with cache corruption
+- Update when `@v4` is widely adopted (check GitHub's own workflows)
 
 ### What CI/CD Solves in MLOps
 
 **Without CI/CD:**
-- Manual deployment prone to errors
+- Manual deployment prone to errors ("Did I use the right Python version?")
 - "Works on my machine" syndrome
-- Inconsistent testing
-- Rollback requires panic debugging
+- Inconsistent testing (someone skips pytest to save time)
+- Rollback requires panic debugging at 2 AM
 - No history of what was deployed when
+- Each team member has their own deployment ritual
 
 **With CI/CD:**
-- Automatic deployment on every merge
-- Tests guarantee code works
-- Rollback is a command
-- Complete history in GitHub Actions UI
-- Every deployment is reproducible
+- One command: `git push`
+- Tests run automatically (no one can skip them)
+- Rollback is `git revert` + `git push`
+- Complete audit trail in GitHub Actions UI
+- Every deployment is reproducible (same code + same workflow = same result)
+- New team members deploy on day 1 without specialized knowledge
 
-### The Real Value For the MLOps Engineer
+### The Real Value: Time Machine for ML Models
 
-**It's not about automating for the sake of automating.** It's about:
+Here's the ultimate test of an MLOps system:
 
-1. **Reducing toil:** You spend time solving interesting problems, not manually copying files
-2. **Confidence:** You know the code works before it reaches production
-3. **Speed:** From commit to production in <10 minutes
-4. **Auditing:** Every change is logged in GitHub
-5. **Collaboration:** Your team can deploy without depending on you
+**Scenario:** A model deployed 8 months ago is behaving strangely. You need to debug it.
 
-**An MLOps engineer without CI/CD is like a software engineer without git—technically possible, but fundamentally broken.**
+**Question:** Can you recreate the exact model?
+
+**With this CI/CD pipeline:**
+1. Go to GitHub Actions → Workflows → MLOps CI/CD Pipeline
+2. Find the run from 8 months ago (search by commit SHA or date)
+3. Click on it
+4. See:
+   - Exact Python version (3.12)
+   - Exact dependency versions (from `pyproject.toml` in that commit)
+   - Exact hyperparameters (from `best_params.yaml` artifact)
+   - Exact data hash (logged to W&B)
+   - Exact W&B sweep ID (`f73ao31m` in the logs)
+5. Download the artifacts
+6. Trigger the workflow with `workflow_dispatch`
+7. Compare the new run to the old run
+
+**This is time-travel debugging.** You can reproduce any model from any point in history.
+
+**Without this setup:** You search through Slack, local files, old notebooks. You guess. You're wrong. You give up.
+
+### Final Philosophy: Automate Everything You'll Regret Doing Manually
+
+**A good rule of thumb:**
+
+If a task:
+1. Must be done more than twice, AND
+2. Has more than 3 steps, AND
+3. Failures are costly (wrong model in prod, broken deployment)
+
+**→ Automate it.**
+
+This workflow automates:
+- Data download
+- Preprocessing
+- Feature engineering
+- Model selection
+- Hyperparameter tuning
+- Model registration
+- Docker packaging
+- Deployment verification
+
+**What it doesn't automate (intentionally):**
+- Deployment to production (requires manual approval in most orgs)
+- Data labeling (still requires human judgment)
+- Model interpretability analysis (exploratory, not deterministic)
+
+**The line between automated and manual is not arbitrary—it's where deterministic processes end and human judgment begins.**
 
 ---
 

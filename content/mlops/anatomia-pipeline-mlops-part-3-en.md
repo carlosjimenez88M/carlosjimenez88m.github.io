@@ -1776,11 +1776,11 @@ If you implement 80%, you'll be ready to scale to millions of predictions withou
 
 ## Navigation
 
-**[← Part 2: Deployment and Infrastructure](/mlops/anatomia-pipeline-mlops-parte-2/)** | **[← Part 1: Pipeline and Orchestration](/mlops/anatomia-pipeline-mlops-parte-1/)**
+**[← Part 2: Deployment and Infrastructure](/mlops/anatomia-pipeline-mlops-part-2-en/)** | **[← Part 1: Pipeline and Orchestration](/mlops/anatomia-pipeline-mlops-part-1-en/)**
 
 **Complete series:**
-1. [Part 1: Pipeline and Orchestration](/mlops/anatomia-pipeline-mlops-parte-1/)
-2. [Part 2: Deployment and Infrastructure](/mlops/anatomia-pipeline-mlops-parte-2/)
+1. [Part 1: Pipeline and Orchestration](/mlops/anatomia-pipeline-mlops-part-1-en/)
+2. [Part 2: Deployment and Infrastructure](/mlops/anatomia-pipeline-mlops-part-2-en/)
 3. Part 3: Production and Best Practices (current)
 
 **Repository:** [github.com/carlosjimenez88M/mlops-hand-on-ML-and-pytorch](https://github.com/carlosjimenez88M/mlops-hand-on-ML-and-pytorch/tree/cap2-end_to_end/cap2-end_to_end)
