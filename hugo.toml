@@ -47,10 +47,9 @@ enableEmoji = true
     imageHeight = 200
 
     buttons = [
-      {name = "🔧 MLOps Guides", url = "/mlops/"},
-      {name = "🤖 Agentic AI", url = "/agentic-ai/"},
-      {name = "📊 TidyTuesday", url = "/tidytuesday/"},
-      {name = "⚡ Edge Computing", url = "/edge-computing/"},
+      {name = "📝 All Posts", url = "/post/"},
+      {name = "🏷️ Browse Tags", url = "/tags/"},
+      {name = "📚 Archive", url = "/archive/"},
       {name = "📬 Follow", url = "/follow/"}
     ]
 
@@ -101,52 +100,22 @@ enableEmoji = true
 # Menu Configuration
 [menu]
   [[menu.main]]
-    identifier = "mlops"
-    name = "MLOps"
-    url = "/mlops/"
-    weight = 10
-
-  [[menu.main]]
-    identifier = "agentic-ai"
-    name = "Agentic AI"
-    url = "/agentic-ai/"
-    weight = 20
-
-  [[menu.main]]
-    identifier = "tidytuesday"
-    name = "TidyTuesday"
-    url = "/tidytuesday/"
-    weight = 30
-
-  [[menu.main]]
     identifier = "posts"
     name = "Posts"
     url = "/post/"
-    weight = 40
-
-  [[menu.main]]
-    identifier = "edge-computing"
-    name = "Edge Computing"
-    url = "/edge-computing/"
-    weight = 50
-
-  [[menu.main]]
-    identifier = "archive"
-    name = "Archive"
-    url = "/archive/"
-    weight = 60
+    weight = 10
 
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 70
+    weight = 20
 
   [[menu.main]]
-    identifier = "search"
-    name = "Search"
-    url = "/search/"
-    weight = 80
+    identifier = "archive"
+    name = "Archive"
+    url = "/archive/"
+    weight = 30
 
 # Markup configuration
 [markup]
