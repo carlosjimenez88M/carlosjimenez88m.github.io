@@ -4,7 +4,7 @@ title: Edge Computing and Edge Machine Learning
 date: 2024-10-14
 description: A Brief Introduction to AI/Edge Computing
 categories: ["Edge Computing"]
-tags: ["raspberry-pi", "jetson-nano", "edge-ai", "edge-ml", "iot"]
+tags: ["raspberry-pi", "jetson-nano", "edge-ai", "iot"]
 series:
   - edge computing
 ---

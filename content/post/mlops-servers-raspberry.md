@@ -4,7 +4,7 @@ date: 2025-03-10
 draft: false
 description: "Raspberry Pi 5 (16 Gbs) like a Server"
 categories: ["Edge Computing", "MLOps"]
-tags: ["raspberry-pi", "mlflow", "edge-ai", "llms", "server", "deployment"]
+tags: ["raspberry-pi", "mlflow", "edge-ai", "llms", "deployment"]
 ---
 
 
