@@ -33,19 +33,9 @@ Throughout, we maintain statistical rigor with proper hypothesis testing, effect
 
 ---
 
-## Why This Matters: The Epistemological Limits of Computational Lyrical Analysis
+## Why This Matters
 
-Traditional lyrical analysis operates at two incompatible levels: **hermeneutic close reading** (interpretive, qualitative, phenomenological) and **distributional corpus analysis** (frequency counts, n-grams, topic models). Neither captures what cognitive poetics calls **narrative coherence architecture**—the structural properties of how semantic units combine to impose specific working memory demands on listeners.
-
-Consider Pink Floyd's "Time" versus the Beatles' "Maxwell's Silver Hammer" through the lens of **discourse representation theory** (Kamp & Reyle, 1993). "Time" deploys **anaphoric chains** across distant lines: "Ticking away" (line 3) → "Shorter of breath" (line 18) → "Closer to death" (line 19) form a mortality discourse referent requiring **sustained co-reference resolution** across 16+ intervening lines. This imposes high **cognitive integration load** (Kintsch, 1998) as listeners must maintain activated semantic frames for extended durations. "Maxwell," conversely, uses **episodic segmentation**: each 4-line stanza introduces new characters, actions, settings—requiring only **local coherence** within bounded narrative units (Zwaan & Radvansky, 1998).
-
-Traditional methods—whether literary criticism or computational linguistics—fail to quantify this distinction. Hermeneutic approaches describe the **qualitative experience** ("Time feels philosophically sustained") but offer no measurable operationalization. Corpus methods count **surface features** (word frequencies, collocations) without capturing the **referential structure** underlying semantic persistence. **Attention Windows** attempted to bridge this gap by operationalizing semantic persistence through embedding similarity—only to discover that distributional semantics is structurally incompatible with the phenomenon we seek to measure.
-
-### The Problem This Solves
-
-Music recommendation systems today do a decent job with genre, mood, and artist similarity. But they struggle with something more subtle: cognitive load matching. A listener who gravitates toward Pink Floyd's meditative, sustained themes might find Beatles tracks—with their frequent narrative resets—cognitively jarring, even though both get tagged as "classic rock."
-
-Attention Windows provide a way to quantify and match on this dimension. The framework enables precise music recommendations based on narrative complexity preferences, AI lyric generation with controllable thematic persistence, playlist curation optimized for semantic coherence, and musicological research that can finally measure stylistic distinctions that previously lived only in critical discourse.
+Traditional lyrical analysis either relies on qualitative interpretation (hermeneutics) or surface-level statistics (word counts), neither of which captures **narrative coherence architecture**—how semantic units combine to impose cognitive load on listeners. This study tests whether distributional semantic embeddings (transformer models) can quantify the difference between Pink Floyd's sustained philosophical meditation versus the Beatles' episodic narrative resets, only to discover that current NLP methods systematically fail at measuring abstract thematic coherence despite successfully capturing structural repetition.
 
 ---
 
@@ -747,14 +737,6 @@ All three "conceptual" metrics either:
 
 ---
 
-### Visualization: Dual-Metric Space
-
-![Conceptual vs Lexical Persistence](/tidytuesday/2026-02-10-attention_windows/fig10_dual_metric_space.png)
-
-*Figure: Artists plotted in 2D space with Lexical Persistence (x-axis) vs Conceptual Continuity (y-axis). Pink Floyd occupies the high-conceptual/low-lexical quadrant, while Beatles occupy high-lexical/low-conceptual quadrant.*
-
----
-
 ### Null Model Test
 
 **Question:** Do observed attention windows reflect genuine semantic structure, or could they arise from random similarity patterns?
@@ -792,60 +774,6 @@ Do all four measurement methods agree?
 | Network Path Length ↔ Entropy   | 0.82            |
 
 **All correlations > 0.75** confirm that different methods converge on the same underlying phenomenon.
-
----
-
-## Novel Contributions Beyond Previous Research
-
-This analysis extends beyond the original Spanish academic document in several ways:
-
-### 1. Attempted Dual-Dimensional Framework (PARTIALLY FAILED)
-**Goal:** Distinguish between **lexical persistence** (phrase repetition) and **conceptual continuity** (theme persistence).
-**Outcome:** Lexical dimension works well; conceptual dimension failed to distinguish artists.
-**Contribution:** **Demonstrating what doesn't work** is valuable—prevents future researchers from repeating failed approaches.
-
-### 2. Topic Modeling for Lyrical Analysis (FAILED)
-**Goal:** Use Latent Dirichlet Allocation (LDA) to measure abstract theme persistence.
-**Outcome:** Beatles 0.67 vs Floyd 0.23 (p=0.44, not significant; **inverted hypothesis**).
-**Lesson:** LDA requires large corpora; 10-30 line songs are too short for stable topic detection.
-
-### 3. Semantic Clustering Analysis (FAILED)
-**Goal:** Use K-Means on embeddings to measure conceptual persistence.
-**Outcome:** Floyd 0.80 vs Beatles 0.72 (p=0.86, not significant).
-**Lesson:** K-Means produces arbitrary clusters without semantic grounding; not effective for lyrical analysis.
-
-### 4. Global Coherence Metric (INVERTED)
-**Goal:** Measure all-pairs line similarity to capture long-range thematic connections.
-**Outcome:** Beatles 0.815 vs Floyd 0.785 (p=0.02, **significant but inverted**).
-**Lesson:** All-pairs similarity captures structural repetition (choruses), not abstract themes.
-
-### 5. Multi-Method Validation (EXTENDED)
-Seven complementary approaches (previous work used one method):
-- Lexical: Semantic decay, rolling coherence, entropy, network analysis
-- Conceptual: Topic persistence, cluster continuity, global coherence
-
-### 6. Matryoshka Embeddings
-Testing robustness across dimensions (64-1536)—a novel application in musicology.
-
-### 7. Network Centrality Analysis
-Hub detection for key lyrical lines (not present in source).
-
-### 8. Album-Level Coherence Matrices
-Quantifying concept album structure through cross-song similarity.
-
-### 9. Medley Case Study
-Using Abbey Road Side B as an internal validation test.
-
-### 10. Statistical Rigor
-Hypothesis testing, effect sizes, null models, bootstrap CIs (source lacked formal statistics).
-
-### 11. Comparative Design
-Direct 2-album comparison (source analyzed 6 albums separately).
-
-### 12. OpenAI ada-002 Threshold Calibration (CRITICAL)
-First comprehensive empirical study demonstrating that ada-002's high contextual coherence (similarity range: 0.72-1.00) requires threshold calibration. **Key finding:** Standard NLP threshold (θ = 0.70) saturates (100% of adjacent lines pass); optimal threshold for lyrical analysis is θ = 0.85.
-
-**Methodological justification:** Comprehensive threshold sweep (0.75, 0.80, 0.85, 0.90, 0.95) with empirical validation showing stable results across reasonable range, not arbitrary selection.
 
 ---
 
@@ -1191,41 +1119,3 @@ python-dotenv >= 1.0.0
 **Estimated Cost:**
 - Lyrics collection: Free (Genius API)
 - Embeddings (ada-002): < $0.001 USD for 611 lines (~600 tokens)
-
-
-
-## Appendix: Mathematical Details
-
-### Cosine Similarity
-
-Given two embedding vectors $\mathbf{a}, \mathbf{b} \in \mathbb{R}^{1536}$:
-
-$$\text{sim}(\mathbf{a}, \mathbf{b}) = \frac{\mathbf{a} \cdot \mathbf{b}}{\|\mathbf{a}\|_2 \|\mathbf{b}\|_2} = \frac{\sum_{i=1}^{1536} a_i b_i}{\sqrt{\sum_{i=1}^{1536} a_i^2} \sqrt{\sum_{i=1}^{1536} b_i^2}}$$
-
-Range: $[-1, 1]$ where:
-- $1$ = identical semantic meaning
-- $0$ = orthogonal (unrelated)
-- $-1$ = opposite meaning
-
-### Cohen's d (Effect Size)
-
-$$d = \frac{\bar{x}_1 - \bar{x}_2}{s_p}$$
-
-Where $s_p = \sqrt{\frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1 + n_2 - 2}}$ is the pooled standard deviation.
-
-Interpretation:
-- $|d| > 0.8$: Large effect
-- $0.5 < |d| < 0.8$: Medium effect
-- $|d| < 0.5$: Small effect
-
-Our result: $d = -0.24$ (small but meaningful effect, statistically significant at p < 0.01)
-
-### Shannon Entropy
-
-$$H(X) = -\sum_{i=1}^n p(x_i) \log_2 p(x_i)$$
-
-Applied to semantic transitions:
-$$H_{\text{lyrics}} = -\sum_{i=1}^{n-1} \frac{s_i}{\sum_j s_j} \log_2 \left(\frac{s_i}{\sum_j s_j}\right)$$
-
-Where $s_i = \text{sim}(e_i, e_{i+1})$ is consecutive line similarity.
-
