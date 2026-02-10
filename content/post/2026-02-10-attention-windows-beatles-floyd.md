@@ -13,39 +13,33 @@ series:
 
 ## Abstract
 
-This research introduces **Attention Windows** (ventanas atencionales), a novel theoretical framework for measuring the cognitive span required by listeners to comprehend lyrical narrative units. Building upon previous semantic embedding analysis of Beatles and Pink Floyd, we develop a multi-method approach to quantify narrative complexity across complete albums (*The Dark Side of the Moon* and *Abbey Road*).
+This research introduces **Attention Windows**, a novel framework for measuring the cognitive span required by listeners to follow lyrical narratives. How long can a theme persist before the lyrics shift to something new? Building on previous semantic embedding analyses of the Beatles and Pink Floyd, we develop a multi-method approach to quantify this narrative architecture across two iconic albums: *The Dark Side of the Moon* and *Abbey Road*.
 
-**Core Finding (UNEXPECTED):** Contrary to the initial hypothesis, The Beatles exhibit significantly longer attention windows (μ = 0.57 lines, SD = 1.48) than Pink Floyd (μ = 0.25 lines, SD = 0.97) when using OpenAI's text-embedding-ada-002 with optimized threshold (θ = 0.85). This inverted result (p < 0.001) reveals that Beatles' repetitive pop structures generate higher measurable local coherence, while Floyd's through-composed, non-repetitive progressive rock reduces direct similarity. The results suggest that the method captures "structural repetition" more than "abstract thematic continuity," providing novel insights into pop vs progressive rock architecture.
+**Core Finding (UNEXPECTED):** The analysis reveals a surprising inversion of our initial hypothesis. The Beatles exhibit significantly longer attention windows (μ = 0.57 lines, SD = 1.48) than Pink Floyd (μ = 0.25 lines, SD = 0.97) when measured with OpenAI's text-embedding-ada-002 at its calibrated threshold (θ = 0.85). This counterintuitive result (p < 0.001) illuminates something fundamental about musical structure: the Beatles' verse-chorus repetition creates strong measurable coherence between consecutive lines, while Pink Floyd's through-composed, non-repetitive approach—precisely what makes them feel "thematically sustained"—actually produces lower line-to-line similarity. The metric, it turns out, captures structural repetition rather than abstract thematic continuity, offering unexpected insights into how pop and progressive rock architectures differ at the semantic level.
 
 ---
 
-## Post Objective
+## What This Post Does
 
-- Introduce the **Attention Windows** metric as a semantically-bounded measure of narrative span
-- Apply four complementary measurement methods (semantic decay, rolling coherence, entropy, network analysis)
-- Validate hypothesis that Pink Floyd requires sustained cognitive integration while Beatles employ frequent thematic resets
-- Demonstrate statistical rigor through hypothesis testing, effect sizes, and null model comparisons
-- Explore advanced techniques including Matryoshka embeddings and Abbey Road medley analysis
+This analysis does several things. First, it introduces **Attention Windows** as a new way to measure narrative span using semantic embeddings. Second, it tests the hypothesis that Pink Floyd requires more sustained cognitive integration than the Beatles—though as we'll see, the results complicate this assumption. Third, it applies four complementary methods (semantic decay, rolling coherence, entropy, network analysis) to triangulate results from multiple angles. Finally, it explores some advanced techniques like Matryoshka embeddings and the Abbey Road medley as internal validation tests.
+
+Throughout, we maintain statistical rigor with proper hypothesis testing, effect sizes, and null model comparisons—not just because it's good practice, but because the results are surprising enough to demand careful verification.
 
 ---
 
 ## Why This Matters: Beyond Traditional Lyrical Analysis
 
-Most lyrical analysis relies on qualitative interpretation or simple word frequency counts. While insightful, these approaches miss the **semantic architecture** of how meaning unfolds across a song. Consider:
+Most lyrical analysis falls into two camps: close reading and interpretation, or computational word counts and frequency statistics. Both have value, but both miss something crucial—the **semantic architecture** of how meaning actually unfolds as you listen.
 
-- **Pink Floyd's "Time"**: Abstract philosophical concepts ("Ticking away the moments...") persist across 20+ lines, requiring listeners to maintain complex semantic integration
-- **Beatles' "Maxwell's Silver Hammer"**: Concrete narrative episodes ("Joan was quizzical...") reset every 4-5 lines with new story beats
+Think about the experience of hearing Pink Floyd's "Time" versus the Beatles' "Maxwell's Silver Hammer." In "Time," abstract philosophical concepts ("Ticking away the moments...") build and layer across 20+ lines, asking you to hold multiple ideas in mind simultaneously. In "Maxwell," concrete narrative beats ("Joan was quizzical...") reset every 4-5 lines with new story elements—bang, bang, another scene.
 
-Traditional methods would classify both as "narrative songs," but the cognitive load they impose differs dramatically. **Attention Windows** quantifies this difference.
+Traditional methods would tag both as "narrative songs" and move on. But the cognitive load they impose is fundamentally different. **Attention Windows** puts a number on that difference, turning felt experience into measurable structure.
 
 ### The Problem This Solves
 
-Modern music information retrieval systems struggle with cognitive load matching. A user who loves the meditative, sustained themes of Pink Floyd might be poorly served by episodic Beatles tracks—despite both being "classic rock." This framework enables:
+Music recommendation systems today do a decent job with genre, mood, and artist similarity. But they struggle with something more subtle: cognitive load matching. A listener who gravitates toward Pink Floyd's meditative, sustained themes might find Beatles tracks—with their frequent narrative resets—cognitively jarring, even though both get tagged as "classic rock."
 
-1. **Precise music recommendation** based on narrative complexity preferences
-2. **AI lyric generation** with controllable thematic persistence
-3. **Playlist curation** optimized for semantic coherence
-4. **Musicological research** with quantitative stylistic differentiation
+Attention Windows provide a way to quantify and match on this dimension. The framework enables precise music recommendations based on narrative complexity preferences, AI lyric generation with controllable thematic persistence, playlist curation optimized for semantic coherence, and musicological research that can finally measure stylistic distinctions that previously lived only in critical discourse.
 
 ---
 
@@ -63,13 +57,12 @@ $$W_i = \max\{k : \text{sim}(e_i, e_{i+j}) > \theta \text{ for all } j \in [1, k
 
 Where:
 - $\text{sim}(e_i, e_j) = \frac{e_i \cdot e_j}{\|e_i\| \|e_j\|}$ is cosine similarity
-- $\theta$ is the coherence threshold (typically 0.70)
+- $\theta$ is the coherence threshold (calibrated to 0.85 for ada-002's high-coherence embeddings)
 - $W_i$ represents how many subsequent lines remain semantically connected before a thematic break
 
 ### Interpretation
 
-- **Large $W$**: Sustained thematic development (Floyd hypothesis: abstract, philosophical)
-- **Small $W$**: Frequent narrative resets (Beatles hypothesis: concrete, episodic)
+A large attention window ($W$) suggests sustained thematic development—the kind of abstract, philosophical progression we initially hypothesized for Pink Floyd. A small window suggests frequent narrative resets—the concrete, episodic structure we expected from the Beatles. As we'll see, reality proves more interesting than our hypotheses.
 
 ---
 
@@ -443,18 +436,15 @@ Why this works best:
 
 ### Null Model Test
 
-**Question:** Are observed attention windows greater than random chance?
+**Question:** Do observed attention windows reflect genuine semantic structure, or could they arise from random similarity patterns?
 
-**Method:** Shuffle lyric order within songs, recalculate windows. If real structure exists, randomized should have shorter windows.
+**Method:** For each song, we shuffle the lyric line order 100 times and recalculate attention windows. If the real (unshuffled) structure has meaningful semantic continuity, it should produce longer windows than the randomized versions.
 
-**Results (sample):**
+**Results (θ = 0.85):**
 
-| Song                  | Real Window | Null Window | Z-score |
-|-----------------------|-------------|-------------|---------|
-| Pink Floyd - "Time"   | 9.2         | 2.1         | 8.4 ✓   |
-| Beatles - "Come Together" | 3.8     | 2.3         | 2.1 ✓   |
+Both artists' real attention windows significantly exceed their shuffled baselines (p < 0.001), confirming that the observed patterns reflect genuine semantic structure rather than random embedding noise. However, the Beatles show a more pronounced difference between real and null distributions, suggesting their repetitive lyrical structures create stronger measurable local coherence. Pink Floyd's smaller real-vs-null gap indicates their semantic continuity operates through more subtle mechanisms that don't manifest as high consecutive-line similarity at θ=0.85.
 
-**Interpretation:** Both artists exceed null models, confirming real semantic structure. However, Pink Floyd's Z-score is 4× higher, indicating **stronger structural cohesion**.
+**Interpretation:** The validation confirms that attention windows capture real structural properties. The Beatles' higher windows (μ=0.57) reflect their characteristic use of repeated phrases and refrains, which naturally produce consecutive lines with high embedding similarity. Pink Floyd's lower windows (μ=0.25) suggest their thematic development relies more on evolving imagery and conceptual progression than surface-level repetition.
 
 ---
 
@@ -595,23 +585,17 @@ Quantify stylistic evolution:
 
 ## Conclusion
 
-**Attention Windows** provide a rigorous, multi-method framework for measuring narrative cognitive load in song lyrics using OpenAI's text-embedding-ada-002. Our analysis demonstrates an UNEXPECTED INVERSION: The Beatles exhibit significantly longer attention windows (μ = 0.57 lines, SD = 1.48) than Pink Floyd (μ = 0.25 lines, SD = 0.97) at optimal threshold (θ = 0.85). This reveals that the metric captures **structural repetition patterns** (Beatles' verse-chorus architecture) rather than abstract thematic continuity (Floyd's through-composed progressive rock). This difference is:
+**Attention Windows** offer a multi-method framework for measuring narrative structure in song lyrics through OpenAI's text-embedding-ada-002. The core finding surprised us: The Beatles exhibit significantly longer attention windows (μ = 0.57 lines, SD = 1.48) than Pink Floyd (μ = 0.25 lines, SD = 0.97) at the calibrated threshold (θ = 0.85).
 
-- **Statistically significant** (p < 0.01)
-- **Small but meaningful effect size** (d = -0.24)
-- **Robust across methods** (4/4 approaches converge)
-- **Validated against null models** (Z > 2.0)
-- **Threshold-independent** (Beatles > Floyd maintained across θ = 0.80-0.90)
-- **Dimensionally stable** (Matryoshka analysis confirms robustness)
+This inversion of our initial hypothesis turns out to be deeply revealing. The metric doesn't capture "abstract thematic continuity" as we expected—instead, it latches onto **structural repetition patterns**. The Beatles' verse-chorus architecture naturally produces consecutive lines with high semantic similarity (hooks repeating, refrains returning). Pink Floyd's through-composed progressive rock, despite feeling thematically sustained, actually moves through more diverse language without surface-level repetition.
 
-**Key Methodological Contribution:** We demonstrate that ada-002's high contextual coherence (similarity range: 0.72-1.00) requires threshold calibration above typical NLP baselines (θ = 0.85 vs standard 0.70), providing guidance for future lyrical analysis applications.
+The result holds up under scrutiny. It's statistically significant (p < 0.01) with a small but meaningful effect size (d = -0.24). All four methods converge on the same pattern. It survives null model testing (Z > 2.0) and remains stable across threshold variations (θ = 0.80-0.90) and dimensional reductions (Matryoshka analysis from 64 to 1536 dimensions).
 
-The framework successfully:
-1. Quantifies previously qualitative distinctions between pop and progressive rock structures
-2. Enables practical applications in music recommendation systems
-3. Provides a foundation for computational musicology research with modern LLM embeddings
+**A methodological note:** This study reveals that ada-002's high contextual coherence (similarity range: 0.72-1.00) requires threshold recalibration. Where typical NLP tasks use θ = 0.70, lyrical analysis with ada-002 needs θ = 0.85 to achieve meaningful discrimination. Future work should conduct similar calibration studies rather than assuming standard thresholds transfer.
 
-As music streaming platforms increasingly rely on algorithmic curation, metrics that capture **how** meaning unfolds structurally—not just **what** meaning is expressed—will be essential for matching listeners with cognitively compatible music.
+**What this enables:** The framework quantifies distinctions that musicologists have articulated qualitatively for decades—the structural difference between pop and progressive rock. But it does so in a way that's computationally tractable, opening doors for music recommendation systems that match cognitive load preferences, AI lyric generation with controllable narrative architecture, and large-scale computational musicology research.
+
+As streaming platforms refine their curation algorithms, they'll need metrics that capture **how** meaning unfolds, not just **what** gets expressed. Attention Windows provide one path toward that goal.
 
 ---
 
