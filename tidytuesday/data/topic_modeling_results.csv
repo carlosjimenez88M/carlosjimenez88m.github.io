@@ -1,0 +1,25 @@
+artist,song,topic_persistence,n_topics,n_lines
+Pink Floyd,Brain Damage,0.10714285714285714,5,28
+Pink Floyd,Breathe (In the Air),0.3125,5,16
+Pink Floyd,Eclipse,0.6590909090909091,5,44
+Pink Floyd,Money,0.20512820512820512,5,39
+Pink Floyd,The Great Gig in the Sky,0.0,4,6
+Pink Floyd,Time,0.16279069767441862,5,43
+Pink Floyd,Us and Them,0.1875,5,32
+The Beatles,Because,0.6,5,20
+The Beatles,Carry That Weight,0.0,5,12
+The Beatles,Come Together,1.0196078431372548,5,51
+The Beatles,Golden Slumbers,0.16666666666666666,5,12
+The Beatles,Her Majesty,0.2,3,5
+The Beatles,Here Comes the Sun,0.375,5,40
+The Beatles,I Want You (She's So Heavy),0.625,4,32
+The Beatles,Maxwell's Silver Hammer,0.05128205128205128,5,39
+The Beatles,Mean Mr. Mustard,0.14285714285714285,5,14
+The Beatles,Octopus's Garden,0.5384615384615384,5,26
+The Beatles,Oh! Darling,0.08,5,25
+The Beatles,Polythene Pam,0.08333333333333333,5,12
+The Beatles,She Came In Through the Bathroom Window,0.3333333333333333,5,24
+The Beatles,Something,0.42105263157894735,5,19
+The Beatles,Sun King,0.375,4,8
+The Beatles,The End,6.176470588235294,3,17
+The Beatles,You Never Give Me Your Money,0.2553191489361702,5,47
