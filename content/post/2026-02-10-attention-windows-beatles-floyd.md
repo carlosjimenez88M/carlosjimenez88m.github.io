@@ -19,6 +19,12 @@ This research introduces **Attention Windows**, a novel framework for measuring 
 
 ---
 
+## TL;DR
+
+This study measures "attention windows" (how many consecutive lyric lines maintain semantic similarity) in Beatles vs Pink Floyd using OpenAI embeddings. **Surprising finding:** Beatles show 2.3× longer windows than Floyd (μ=0.57 vs 0.25), inverting our hypothesis. The metric captures structural repetition (verse-chorus patterns, repeated hooks) rather than abstract thematic coherence. Result holds across multiple validation methods (p<0.01, d=-0.24). **Key insight:** Pink Floyd's "sustained themes" come from evolving poetic language, not surface-level repetition—requiring alternative metrics to properly measure.
+
+---
+
 ## What This Post Does
 
 This analysis does several things. First, it introduces **Attention Windows** as a new way to measure narrative span using semantic embeddings. Second, it tests the hypothesis that Pink Floyd requires more sustained cognitive integration than the Beatles—though as we'll see, the results complicate this assumption. Third, it applies four complementary methods (semantic decay, rolling coherence, entropy, network analysis) to triangulate results from multiple angles. Finally, it explores some advanced techniques like Matryoshka embeddings and the Abbey Road medley as internal validation tests.
@@ -239,7 +245,7 @@ Where $p_i$ is the normalized similarity between consecutive lines.
 
 **Approach:** Build semantic graphs where nodes = lines, edges = high similarity (> 0.75).
 
-*Note: Network analysis uses θ=0.75 (vs 0.70 in other methods) to reduce edge density and improve graph interpretability. This will be standardized in multi-threshold re-analysis.*
+*Note: Network analysis uses θ=0.75 (vs 0.85 in other core methods) to reduce edge density and improve graph interpretability. The slightly lower threshold helps create more connected networks for visualization purposes.*
 
 Calculate:
 - Average shortest path length
@@ -511,7 +517,12 @@ First comprehensive study demonstrating that ada-002's high contextual coherence
 
 ### Limitations
 
-1. **Embeddings ≠ Listeners:** Semantic similarity in vector space may not perfectly mirror human perception of meaning continuity.
+1. **Embeddings Capture Surface Similarity:** The metric measures consecutive-line similarity in embedding space, which correlates strongly with literal word/phrase repetition. It does NOT capture:
+   - Abstract thematic connections across non-adjacent passages
+   - Metaphorical continuity (e.g., "time" theme expressed via "clocks," "sun," "running")
+   - Narrative arcs that span entire songs without repeated words
+
+   Human listeners perceive Pink Floyd's themes as "sustained" because of **conceptual coherence**, not because consecutive lines use similar words. The attention windows metric misses this distinction.
 
 2. **Missing Musical Context:** Melody, rhythm, and instrumentation influence cognitive load but are excluded from lyrical-only analysis.
 
@@ -537,6 +548,15 @@ First comprehensive study demonstrating that ada-002's high contextual coherence
 
 ## Practical Applications
 
+**Important Context:** The attention windows metric measures **structural repetition and surface-level similarity**, not abstract thematic continuity. Applications below are most effective for:
+- Matching listeners who prefer repetitive hooks vs evolving language
+- Distinguishing pop verse-chorus structures from through-composed forms
+- Quantifying "catchiness" and memorability factors
+
+For measuring deep conceptual coherence (like Pink Floyd's philosophical themes), complementary metrics (topic modeling, semantic textual similarity) are needed.
+
+---
+
 ### 1. Music Recommendation Systems
 
 Current systems match genres, artists, and moods. **Attention Windows** enables cognitive load matching:
@@ -549,25 +569,31 @@ else:
     recommend(songs_with_episodic_structure)
 ```
 
-**Example:** A user who loves The Beatles' repetitive hooks (W = 0.57) might enjoy other pop-structured songs with verse-chorus patterns, while a user who prefers Pink Floyd's non-repetitive progression (W = 0.25) would appreciate through-composed tracks with minimal structural repetition.
+**Example:** A user who loves The Beatles' repetitive hooks and singable refrains (W = 0.57) would likely enjoy other pop-structured songs with memorable, recurring phrases. A user who prefers Pink Floyd's constantly-evolving language and non-repetitive progression (W = 0.25) would appreciate through-composed tracks that prioritize lyrical variety over catchiness. Note: This captures preference for **repetitive vs varied language**, not necessarily "complex vs simple" themes.
 
 ### 2. AI Lyric Generation
 
 Control narrative complexity:
 
 ```python
-generate_lyrics(
-    theme="loss",
-    attention_window=0.25,  # Floyd-like minimal repetition
-    style="through-composed"
-)
-# OR
+# Generate pop lyrics with repetitive hooks
 generate_lyrics(
     theme="love",
-    attention_window=0.57,  # Beatles-like repetitive hooks
-    style="verse-chorus"
+    attention_window=0.57,  # Beatles-like: repeated phrases, singable hooks
+    style="verse-chorus",
+    repetition_factor="high"  # Favor memorable, recurring lines
+)
+
+# Generate progressive lyrics with evolving language
+generate_lyrics(
+    theme="time",
+    attention_window=0.25,  # Floyd-like: continuously changing metaphors
+    style="through-composed",
+    repetition_factor="low"  # Favor linguistic variety, avoid exact repeats
 )
 ```
+
+**Note:** These parameters control surface-level repetition, not thematic depth. Both styles can explore profound themes—they differ in whether they use recurring phrases or constantly evolving language.
 
 ### 3. Playlist Curation
 
@@ -595,7 +621,9 @@ The result holds up under scrutiny. It's statistically significant (p < 0.01) wi
 
 **What this enables:** The framework quantifies distinctions that musicologists have articulated qualitatively for decades—the structural difference between pop and progressive rock. But it does so in a way that's computationally tractable, opening doors for music recommendation systems that match cognitive load preferences, AI lyric generation with controllable narrative architecture, and large-scale computational musicology research.
 
-As streaming platforms refine their curation algorithms, they'll need metrics that capture **how** meaning unfolds, not just **what** gets expressed. Attention Windows provide one path toward that goal.
+**A word on interpretation:** The Beatles' higher attention windows don't make their lyrics "simpler" or "less meaningful"—they reflect a different compositional strategy. Pop songwriting prioritizes memorable, repeated phrases that lodge in listeners' minds (think "Hey Jude" repeating "na-na-na" 19 times). Progressive rock prioritizes continuously unfolding language that avoids exact repetition. Both are sophisticated, just structurally different. The metric captures this structural difference, not artistic merit.
+
+As streaming platforms refine their curation algorithms, they'll need metrics that capture **how** meaning unfolds, not just **what** gets expressed. Attention Windows provide one path toward that goal—specifically, for understanding repetition vs variety preferences in lyrical structure.
 
 ---
 
