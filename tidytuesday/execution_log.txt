@@ -1,0 +1,162 @@
+[NbConvertApp] Converting notebook 2026-02-10-attention-windows-analysis.ipynb to notebook
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/jupyter_core/utils/__init__.py", line 154, in wrapped
+    asyncio.get_running_loop()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+RuntimeError: no running event loop
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/carlosdaniel/.local/bin/jupyter-nbconvert", line 8, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/jupyter_core/application.py", line 284, in launch_instance
+    super().launch_instance(argv=argv, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/traitlets/config/application.py", line 1075, in launch_instance
+    app.start()
+    ~~~~~~~~~^^
+  File "/Users/carlosdaniel/.local/lib/python3.13/site-packages/nbconvert/nbconvertapp.py", line 420, in start
+    self.convert_notebooks()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/carlosdaniel/.local/lib/python3.13/site-packages/nbconvert/nbconvertapp.py", line 597, in convert_notebooks
+    self.convert_single_notebook(notebook_filename)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/carlosdaniel/.local/lib/python3.13/site-packages/nbconvert/nbconvertapp.py", line 563, in convert_single_notebook
+    output, resources = self.export_single_notebook(
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        notebook_filename, resources, input_buffer=input_buffer
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/carlosdaniel/.local/lib/python3.13/site-packages/nbconvert/nbconvertapp.py", line 487, in export_single_notebook
+    output, resources = self.exporter.from_filename(
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        notebook_filename, resources=resources
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/carlosdaniel/.local/lib/python3.13/site-packages/nbconvert/exporters/exporter.py", line 201, in from_filename
+    return self.from_file(f, resources=resources, **kw)
+           ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/carlosdaniel/.local/lib/python3.13/site-packages/nbconvert/exporters/exporter.py", line 220, in from_file
+    return self.from_notebook_node(
+           ~~~~~~~~~~~~~~~~~~~~~~~^
+        nbformat.read(file_stream, as_version=4), resources=resources, **kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/carlosdaniel/.local/lib/python3.13/site-packages/nbconvert/exporters/notebook.py", line 36, in from_notebook_node
+    nb_copy, resources = super().from_notebook_node(nb, resources, **kw)
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/carlosdaniel/.local/lib/python3.13/site-packages/nbconvert/exporters/exporter.py", line 154, in from_notebook_node
+    nb_copy, resources = self._preprocess(nb_copy, resources)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/carlosdaniel/.local/lib/python3.13/site-packages/nbconvert/exporters/exporter.py", line 353, in _preprocess
+    nbc, resc = preprocessor(nbc, resc)
+                ~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/carlosdaniel/.local/lib/python3.13/site-packages/nbconvert/preprocessors/base.py", line 48, in __call__
+    return self.preprocess(nb, resources)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/carlosdaniel/.local/lib/python3.13/site-packages/nbconvert/preprocessors/execute.py", line 103, in preprocess
+    self.preprocess_cell(cell, resources, index)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/carlosdaniel/.local/lib/python3.13/site-packages/nbconvert/preprocessors/execute.py", line 124, in preprocess_cell
+    cell = self.execute_cell(cell, index, store_history=True)
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/jupyter_core/utils/__init__.py", line 158, in wrapped
+    return loop.run_until_complete(inner)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/carlosdaniel/.local/lib/python3.13/site-packages/nbclient/client.py", line 1062, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/Users/carlosdaniel/.local/lib/python3.13/site-packages/nbclient/client.py", line 918, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+def clean_lyrics(text):
+    """
+    Clean lyrics text:
+    - Remove Genius metadata
+    - Remove section markers
+    - Normalize whitespace
+    """
+    # Remove Genius embed markers
+    text = re.sub(r'\d+Embed$', '', text)
+    text = re.sub(r'You might also like', '', text, flags=re.IGNORECASE)
+    
+    # Remove section headers [Verse], [Chorus], etc.
+    text = re.sub(r'\[.*?\]', '', text)
+    
+    # Remove extra whitespace
+    text = re.sub(r'\n\n+', '\n', text)
+    text = re.sub(r'\s+', ' ', text)
+    
+    return text.strip()
+
+# Combine all data
+all_songs = floyd_data + beatles_data
+
+# Create line-by-line structure
+lyrics_rows = []
+
+for song_data in all_songs:
+    # Clean lyrics
+    cleaned = clean_lyrics(song_data['lyrics'])
+    
+    # Split into lines
+    lines = [line.strip() for line in cleaned.split('\n') if line.strip()]
+    
+    # Create row for each line
+    for line_num, line_text in enumerate(lines, 1):
+        lyrics_rows.append({
+            'album': song_data['album'],
+            'artist': song_data['artist'],
+            'song': song_data['song'],
+            'line_number': line_num,
+            'lyric_line': line_text,
+            'word_count': len(line_text.split())
+        })
+
+# Create DataFrame
+df_lyrics = pd.DataFrame(lyrics_rows)
+
+print(f"\nTotal lines extracted: {len(df_lyrics)}")
+print(f"Pink Floyd lines: {len(df_lyrics[df_lyrics['artist'] == 'Pink Floyd'])}")
+print(f"Beatles lines: {len(df_lyrics[df_lyrics['artist'] == 'The Beatles'])}")
+print(f"\nTotal word count by album:")
+print(df_lyrics.groupby('album')['word_count'].sum())
+------------------
+
+----- stdout -----
+
+Total lines extracted: 0
+------------------
+
+[31m---------------------------------------------------------------------------[39m
+[31mKeyError[39m                                  Traceback (most recent call last)
+[36mCell[39m[36m [39m[32mIn[6][39m[32m, line 49[39m
+[32m     46[39m df_lyrics = pd.DataFrame(lyrics_rows)
+[32m     48[39m [38;5;28mprint[39m([33mf[39m[33m"[39m[38;5;130;01m\n[39;00m[33mTotal lines extracted: [39m[38;5;132;01m{[39;00m[38;5;28mlen[39m(df_lyrics)[38;5;132;01m}[39;00m[33m"[39m)
+[32m---> [39m[32m49[39m [38;5;28mprint[39m([33mf[39m[33m"[39m[33mPink Floyd lines: [39m[38;5;132;01m{[39;00m[38;5;28mlen[39m(df_lyrics[[43mdf_lyrics[49m[43m[[49m[33;43m'[39;49m[33;43martist[39;49m[33;43m'[39;49m[43m][49m[38;5;250m [39m==[38;5;250m [39m[33m'[39m[33mPink Floyd[39m[33m'[39m])[38;5;132;01m}[39;00m[33m"[39m)
+[32m     50[39m [38;5;28mprint[39m([33mf[39m[33m"[39m[33mBeatles lines: [39m[38;5;132;01m{[39;00m[38;5;28mlen[39m(df_lyrics[df_lyrics[[33m'[39m[33martist[39m[33m'[39m][38;5;250m [39m==[38;5;250m [39m[33m'[39m[33mThe Beatles[39m[33m'[39m])[38;5;132;01m}[39;00m[33m"[39m)
+[32m     51[39m [38;5;28mprint[39m([33mf[39m[33m"[39m[38;5;130;01m\n[39;00m[33mTotal word count by album:[39m[33m"[39m)
+
+[36mFile [39m[32m/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/frame.py:4102[39m, in [36mDataFrame.__getitem__[39m[34m(self, key)[39m
+[32m   4100[39m [38;5;28;01mif[39;00m [38;5;28mself[39m.columns.nlevels > [32m1[39m:
+[32m   4101[39m     [38;5;28;01mreturn[39;00m [38;5;28mself[39m._getitem_multilevel(key)
+[32m-> [39m[32m4102[39m indexer = [38;5;28;43mself[39;49m[43m.[49m[43mcolumns[49m[43m.[49m[43mget_loc[49m[43m([49m[43mkey[49m[43m)[49m
+[32m   4103[39m [38;5;28;01mif[39;00m is_integer(indexer):
+[32m   4104[39m     indexer = [indexer]
+
+[36mFile [39m[32m/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/pandas/core/indexes/range.py:417[39m, in [36mRangeIndex.get_loc[39m[34m(self, key)[39m
+[32m    415[39m         [38;5;28;01mraise[39;00m [38;5;167;01mKeyError[39;00m(key) [38;5;28;01mfrom[39;00m[38;5;250m [39m[34;01merr[39;00m
+[32m    416[39m [38;5;28;01mif[39;00m [38;5;28misinstance[39m(key, Hashable):
+[32m--> [39m[32m417[39m     [38;5;28;01mraise[39;00m [38;5;167;01mKeyError[39;00m(key)
+[32m    418[39m [38;5;28mself[39m._check_indexing_error(key)
+[32m    419[39m [38;5;28;01mraise[39;00m [38;5;167;01mKeyError[39;00m(key)
+
+[31mKeyError[39m: 'artist'
+

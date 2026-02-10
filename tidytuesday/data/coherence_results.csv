@@ -1,0 +1,25 @@
+album,artist,song,mean_coherence,std_coherence
+Abbey Road,The Beatles,Because,0.363449571401841,0.10487169801384841
+Abbey Road,The Beatles,Carry That Weight,0.3093080407390949,0.12983501295185015
+Abbey Road,The Beatles,Come Together,0.438194442221847,0.2282658124843716
+Abbey Road,The Beatles,Golden Slumbers,0.37871505917364,0.06533332056832754
+Abbey Road,The Beatles,Her Majesty,0.43741403322914474,0.0
+Abbey Road,The Beatles,Here Comes the Sun,0.38627369492405056,0.15944519352055492
+Abbey Road,The Beatles,I Want You (She's So Heavy),0.5081512428542473,0.1323095058904973
+Abbey Road,The Beatles,Maxwell's Silver Hammer,0.26444055242269776,0.047719677582485236
+Abbey Road,The Beatles,Mean Mr. Mustard,0.2633866097432347,0.03682168440493474
+Abbey Road,The Beatles,Octopus's Garden,0.34260361375906745,0.07271288931373579
+Abbey Road,The Beatles,Oh! Darling,0.36448132338066613,0.040647772649725425
+Abbey Road,The Beatles,Polythene Pam,0.27309410390679434,0.059898520232768704
+Abbey Road,The Beatles,She Came In Through the Bathroom Window,0.2525606054133399,0.025476491601526523
+Abbey Road,The Beatles,Something,0.31151021256431405,0.03103511541439122
+Abbey Road,The Beatles,Sun King,0.34886208990549905,0.09600195599349348
+Abbey Road,The Beatles,The End,0.8490222412576925,0.20271241975275592
+Abbey Road,The Beatles,You Never Give Me Your Money,0.38981013728737174,0.1214902866252643
+The Dark Side of the Moon,Pink Floyd,Brain Damage,0.27578030178690943,0.05261884565188936
+The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),0.2817006418462046,0.026525369149785347
+The Dark Side of the Moon,Pink Floyd,Eclipse,0.3852614261548091,0.0825241336056576
+The Dark Side of the Moon,Pink Floyd,Money,0.3580450881357473,0.11332537871067583
+The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,0.24871731646177725,0.001617741953173213
+The Dark Side of the Moon,Pink Floyd,Time,0.26760653353423597,0.04435730614672111
+The Dark Side of the Moon,Pink Floyd,Us and Them,0.22643354611935687,0.02904638343237364

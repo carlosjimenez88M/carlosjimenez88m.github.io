@@ -1,0 +1,43 @@
+dimension,artist,song,mean_window,std_window
+64,Pink Floyd,Breathe (In the Air),0.0,0.0
+64,Pink Floyd,Time,0.023255813953488372,0.1507148999629735
+64,Pink Floyd,The Great Gig in the Sky,0.0,0.0
+64,The Beatles,Come Together,0.8431372549019608,1.4193694957532437
+64,The Beatles,Something,0.0,0.0
+64,The Beatles,Maxwell's Silver Hammer,0.0,0.0
+128,Pink Floyd,Breathe (In the Air),0.0,0.0
+128,Pink Floyd,Time,0.046511627906976744,0.301429799925947
+128,Pink Floyd,The Great Gig in the Sky,0.0,0.0
+128,The Beatles,Come Together,0.8431372549019608,1.4193694957532437
+128,The Beatles,Something,0.0,0.0
+128,The Beatles,Maxwell's Silver Hammer,0.0,0.0
+256,Pink Floyd,Breathe (In the Air),0.0,0.0
+256,Pink Floyd,Time,0.023255813953488372,0.1507148999629735
+256,Pink Floyd,The Great Gig in the Sky,0.0,0.0
+256,The Beatles,Come Together,0.8431372549019608,1.4193694957532437
+256,The Beatles,Something,0.0,0.0
+256,The Beatles,Maxwell's Silver Hammer,0.0,0.0
+512,Pink Floyd,Breathe (In the Air),0.0,0.0
+512,Pink Floyd,Time,0.046511627906976744,0.301429799925947
+512,Pink Floyd,The Great Gig in the Sky,0.0,0.0
+512,The Beatles,Come Together,0.8431372549019608,1.4193694957532437
+512,The Beatles,Something,0.0,0.0
+512,The Beatles,Maxwell's Silver Hammer,0.0,0.0
+768,Pink Floyd,Breathe (In the Air),0.0,0.0
+768,Pink Floyd,Time,0.046511627906976744,0.301429799925947
+768,Pink Floyd,The Great Gig in the Sky,0.0,0.0
+768,The Beatles,Come Together,0.8431372549019608,1.4193694957532437
+768,The Beatles,Something,0.0,0.0
+768,The Beatles,Maxwell's Silver Hammer,0.0,0.0
+1024,Pink Floyd,Breathe (In the Air),0.0,0.0
+1024,Pink Floyd,Time,0.046511627906976744,0.301429799925947
+1024,Pink Floyd,The Great Gig in the Sky,0.0,0.0
+1024,The Beatles,Come Together,0.8431372549019608,1.4193694957532437
+1024,The Beatles,Something,0.0,0.0
+1024,The Beatles,Maxwell's Silver Hammer,0.0,0.0
+1536,Pink Floyd,Breathe (In the Air),0.0,0.0
+1536,Pink Floyd,Time,0.023255813953488372,0.1507148999629735
+1536,Pink Floyd,The Great Gig in the Sky,0.0,0.0
+1536,The Beatles,Come Together,0.8431372549019608,1.4193694957532437
+1536,The Beatles,Something,0.0,0.0
+1536,The Beatles,Maxwell's Silver Hammer,0.0,0.0

@@ -1,0 +1,25 @@
+avg_path_length,density,clustering_coef,album,artist,song
+1.0,0.12631578947368421,0.35,Abbey Road,The Beatles,Because
+1.0,0.18181818181818182,0.6666666666666666,Abbey Road,The Beatles,Carry That Weight
+1.0,0.14901960784313725,0.6078431372549019,Abbey Road,The Beatles,Come Together
+1.0,0.18181818181818182,0.8333333333333334,Abbey Road,The Beatles,Golden Slumbers
+1.0,0.1,0.0,Abbey Road,The Beatles,Her Majesty
+1.1904761904761905,0.15,0.702032967032967,Abbey Road,The Beatles,Here Comes the Sun
+1.0,0.1814516129032258,0.775,Abbey Road,The Beatles,I Want You (She's So Heavy)
+1.0,0.02699055330634278,0.23076923076923078,Abbey Road,The Beatles,Maxwell's Silver Hammer
+1.0,0.02197802197802198,0.0,Abbey Road,The Beatles,Mean Mr. Mustard
+1.1111111111111112,0.11692307692307692,0.47802197802197804,Abbey Road,The Beatles,Octopus's Garden
+1.0,0.07,0.41333333333333333,Abbey Road,The Beatles,Oh! Darling
+1.0,0.030303030303030304,0.0,Abbey Road,The Beatles,Polythene Pam
+1.0,0.014492753623188406,0.0,Abbey Road,The Beatles,She Came In Through the Bathroom Window
+1.0,0.04678362573099415,0.3157894736842105,Abbey Road,The Beatles,Something
+1.0,0.14285714285714285,0.375,Abbey Road,The Beatles,Sun King
+1.0,0.4852941176470588,0.7058823529411765,Abbey Road,The Beatles,The End
+1.0,0.07585568917668825,0.46808510638297873,Abbey Road,The Beatles,You Never Give Me Your Money
+1.6666666666666667,0.021164021164021163,0.10714285714285714,The Dark Side of the Moon,Pink Floyd,Brain Damage
+1.0,0.008333333333333333,0.0,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air)
+1.0,0.039112050739957716,0.18181818181818182,The Dark Side of the Moon,Pink Floyd,Eclipse
+1.0,0.009446693657219974,0.07692307692307693,The Dark Side of the Moon,Pink Floyd,Money
+1.0,0.06666666666666667,0.0,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky
+1.0,0.0011074197120708748,0.0,The Dark Side of the Moon,Pink Floyd,Time
+0.0,0.0,0.0,The Dark Side of the Moon,Pink Floyd,Us and Them

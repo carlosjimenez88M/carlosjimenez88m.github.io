@@ -1,0 +1,25 @@
+album,artist,song,semantic_entropy,mean_transition_similarity
+Abbey Road,The Beatles,Because,2.9195631798626036,0.6988780392945189
+Abbey Road,The Beatles,Carry That Weight,2.3876843056018697,0.7163315261207054
+Abbey Road,The Beatles,Come Together,3.885315559870105,0.764745144432099
+Abbey Road,The Beatles,Golden Slumbers,2.3819983182455515,0.7225042478788649
+Abbey Road,The Beatles,Her Majesty,1.3719917294365822,0.7333770604090175
+Abbey Road,The Beatles,Here Comes the Sun,3.6405608861186005,0.7063486847922166
+Abbey Road,The Beatles,I Want You (She's So Heavy),3.422131060692437,0.7663947089503732
+Abbey Road,The Beatles,Maxwell's Silver Hammer,3.635561923260414,0.6230807025703592
+Abbey Road,The Beatles,Mean Mr. Mustard,2.5483495308262234,0.6735018829862162
+Abbey Road,The Beatles,Octopus's Garden,3.206944262535915,0.682279852557706
+Abbey Road,The Beatles,Oh! Darling,3.176209821940054,0.665696108073366
+Abbey Road,The Beatles,Polythene Pam,2.3907320953065234,0.650145369226417
+Abbey Road,The Beatles,She Came In Through the Bathroom Window,3.127374249119312,0.6668082647774267
+Abbey Road,The Beatles,Something,2.8880050677806945,0.6454182694151434
+Abbey Road,The Beatles,Sun King,1.9281299632245341,0.712090595003638
+Abbey Road,The Beatles,The End,2.757190686987605,0.8993123427955841
+Abbey Road,The Beatles,You Never Give Me Your Money,3.809811305189283,0.6563416539090732
+The Dark Side of the Moon,Pink Floyd,Brain Damage,3.286061222358405,0.6534491110749033
+The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),2.704254407061864,0.6481788018699434
+The Dark Side of the Moon,Pink Floyd,Eclipse,3.752310204483138,0.7039253720639419
+The Dark Side of the Moon,Pink Floyd,Money,3.6284182611868063,0.6899475622093846
+The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,1.6090161001471701,0.6007759262556653
+The Dark Side of the Moon,Pink Floyd,Time,3.73416922757579,0.6495639112372396
+The Dark Side of the Moon,Pink Floyd,Us and Them,3.4314404481345457,0.6245740521807208
