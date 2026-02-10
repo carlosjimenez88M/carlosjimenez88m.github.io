@@ -1,0 +1,6 @@
+Model,Threshold,Floyd_Mean,Beatles_Mean,Winner
+Gemini text-embedding-004,0.7,0.053,0.412,Beatles
+OpenAI ada-002,0.75,8.803,9.216,Beatles
+OpenAI ada-002,0.85,0.25,0.566,Beatles
+OpenAI ada-002,0.9,0.048,0.449,Beatles
+STS all-mpnet-base-v2,0.7,0.043,0.409,Beatles

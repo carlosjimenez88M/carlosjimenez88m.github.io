@@ -1,0 +1,3056 @@
+threshold,album,artist,song,attention_window
+0.5,Abbey Road,The Beatles,Because,19
+0.5,Abbey Road,The Beatles,Because,18
+0.5,Abbey Road,The Beatles,Because,17
+0.5,Abbey Road,The Beatles,Because,16
+0.5,Abbey Road,The Beatles,Because,15
+0.5,Abbey Road,The Beatles,Because,14
+0.5,Abbey Road,The Beatles,Because,13
+0.5,Abbey Road,The Beatles,Because,12
+0.5,Abbey Road,The Beatles,Because,11
+0.5,Abbey Road,The Beatles,Because,10
+0.5,Abbey Road,The Beatles,Because,9
+0.5,Abbey Road,The Beatles,Because,8
+0.5,Abbey Road,The Beatles,Because,7
+0.5,Abbey Road,The Beatles,Because,6
+0.5,Abbey Road,The Beatles,Because,5
+0.5,Abbey Road,The Beatles,Because,4
+0.5,Abbey Road,The Beatles,Because,3
+0.5,Abbey Road,The Beatles,Because,2
+0.5,Abbey Road,The Beatles,Because,1
+0.5,Abbey Road,The Beatles,Because,0
+0.5,Abbey Road,The Beatles,Carry That Weight,11
+0.5,Abbey Road,The Beatles,Carry That Weight,10
+0.5,Abbey Road,The Beatles,Carry That Weight,9
+0.5,Abbey Road,The Beatles,Carry That Weight,8
+0.5,Abbey Road,The Beatles,Carry That Weight,7
+0.5,Abbey Road,The Beatles,Carry That Weight,6
+0.5,Abbey Road,The Beatles,Carry That Weight,5
+0.5,Abbey Road,The Beatles,Carry That Weight,4
+0.5,Abbey Road,The Beatles,Carry That Weight,3
+0.5,Abbey Road,The Beatles,Carry That Weight,2
+0.5,Abbey Road,The Beatles,Carry That Weight,1
+0.5,Abbey Road,The Beatles,Carry That Weight,0
+0.5,Abbey Road,The Beatles,Come Together,50
+0.5,Abbey Road,The Beatles,Come Together,49
+0.5,Abbey Road,The Beatles,Come Together,48
+0.5,Abbey Road,The Beatles,Come Together,47
+0.5,Abbey Road,The Beatles,Come Together,46
+0.5,Abbey Road,The Beatles,Come Together,45
+0.5,Abbey Road,The Beatles,Come Together,44
+0.5,Abbey Road,The Beatles,Come Together,43
+0.5,Abbey Road,The Beatles,Come Together,42
+0.5,Abbey Road,The Beatles,Come Together,41
+0.5,Abbey Road,The Beatles,Come Together,40
+0.5,Abbey Road,The Beatles,Come Together,39
+0.5,Abbey Road,The Beatles,Come Together,38
+0.5,Abbey Road,The Beatles,Come Together,37
+0.5,Abbey Road,The Beatles,Come Together,36
+0.5,Abbey Road,The Beatles,Come Together,35
+0.5,Abbey Road,The Beatles,Come Together,34
+0.5,Abbey Road,The Beatles,Come Together,33
+0.5,Abbey Road,The Beatles,Come Together,32
+0.5,Abbey Road,The Beatles,Come Together,31
+0.5,Abbey Road,The Beatles,Come Together,30
+0.5,Abbey Road,The Beatles,Come Together,29
+0.5,Abbey Road,The Beatles,Come Together,28
+0.5,Abbey Road,The Beatles,Come Together,27
+0.5,Abbey Road,The Beatles,Come Together,26
+0.5,Abbey Road,The Beatles,Come Together,25
+0.5,Abbey Road,The Beatles,Come Together,24
+0.5,Abbey Road,The Beatles,Come Together,23
+0.5,Abbey Road,The Beatles,Come Together,22
+0.5,Abbey Road,The Beatles,Come Together,21
+0.5,Abbey Road,The Beatles,Come Together,20
+0.5,Abbey Road,The Beatles,Come Together,19
+0.5,Abbey Road,The Beatles,Come Together,18
+0.5,Abbey Road,The Beatles,Come Together,17
+0.5,Abbey Road,The Beatles,Come Together,16
+0.5,Abbey Road,The Beatles,Come Together,15
+0.5,Abbey Road,The Beatles,Come Together,14
+0.5,Abbey Road,The Beatles,Come Together,13
+0.5,Abbey Road,The Beatles,Come Together,12
+0.5,Abbey Road,The Beatles,Come Together,11
+0.5,Abbey Road,The Beatles,Come Together,10
+0.5,Abbey Road,The Beatles,Come Together,9
+0.5,Abbey Road,The Beatles,Come Together,8
+0.5,Abbey Road,The Beatles,Come Together,7
+0.5,Abbey Road,The Beatles,Come Together,6
+0.5,Abbey Road,The Beatles,Come Together,5
+0.5,Abbey Road,The Beatles,Come Together,4
+0.5,Abbey Road,The Beatles,Come Together,3
+0.5,Abbey Road,The Beatles,Come Together,2
+0.5,Abbey Road,The Beatles,Come Together,1
+0.5,Abbey Road,The Beatles,Come Together,0
+0.5,Abbey Road,The Beatles,Golden Slumbers,11
+0.5,Abbey Road,The Beatles,Golden Slumbers,10
+0.5,Abbey Road,The Beatles,Golden Slumbers,9
+0.5,Abbey Road,The Beatles,Golden Slumbers,8
+0.5,Abbey Road,The Beatles,Golden Slumbers,7
+0.5,Abbey Road,The Beatles,Golden Slumbers,6
+0.5,Abbey Road,The Beatles,Golden Slumbers,5
+0.5,Abbey Road,The Beatles,Golden Slumbers,4
+0.5,Abbey Road,The Beatles,Golden Slumbers,3
+0.5,Abbey Road,The Beatles,Golden Slumbers,2
+0.5,Abbey Road,The Beatles,Golden Slumbers,1
+0.5,Abbey Road,The Beatles,Golden Slumbers,0
+0.5,Abbey Road,The Beatles,Her Majesty,4
+0.5,Abbey Road,The Beatles,Her Majesty,3
+0.5,Abbey Road,The Beatles,Her Majesty,2
+0.5,Abbey Road,The Beatles,Her Majesty,1
+0.5,Abbey Road,The Beatles,Her Majesty,0
+0.5,Abbey Road,The Beatles,Here Comes the Sun,39
+0.5,Abbey Road,The Beatles,Here Comes the Sun,38
+0.5,Abbey Road,The Beatles,Here Comes the Sun,37
+0.5,Abbey Road,The Beatles,Here Comes the Sun,36
+0.5,Abbey Road,The Beatles,Here Comes the Sun,35
+0.5,Abbey Road,The Beatles,Here Comes the Sun,34
+0.5,Abbey Road,The Beatles,Here Comes the Sun,33
+0.5,Abbey Road,The Beatles,Here Comes the Sun,32
+0.5,Abbey Road,The Beatles,Here Comes the Sun,31
+0.5,Abbey Road,The Beatles,Here Comes the Sun,30
+0.5,Abbey Road,The Beatles,Here Comes the Sun,29
+0.5,Abbey Road,The Beatles,Here Comes the Sun,28
+0.5,Abbey Road,The Beatles,Here Comes the Sun,27
+0.5,Abbey Road,The Beatles,Here Comes the Sun,26
+0.5,Abbey Road,The Beatles,Here Comes the Sun,25
+0.5,Abbey Road,The Beatles,Here Comes the Sun,24
+0.5,Abbey Road,The Beatles,Here Comes the Sun,23
+0.5,Abbey Road,The Beatles,Here Comes the Sun,22
+0.5,Abbey Road,The Beatles,Here Comes the Sun,21
+0.5,Abbey Road,The Beatles,Here Comes the Sun,20
+0.5,Abbey Road,The Beatles,Here Comes the Sun,19
+0.5,Abbey Road,The Beatles,Here Comes the Sun,18
+0.5,Abbey Road,The Beatles,Here Comes the Sun,17
+0.5,Abbey Road,The Beatles,Here Comes the Sun,16
+0.5,Abbey Road,The Beatles,Here Comes the Sun,15
+0.5,Abbey Road,The Beatles,Here Comes the Sun,14
+0.5,Abbey Road,The Beatles,Here Comes the Sun,13
+0.5,Abbey Road,The Beatles,Here Comes the Sun,12
+0.5,Abbey Road,The Beatles,Here Comes the Sun,11
+0.5,Abbey Road,The Beatles,Here Comes the Sun,10
+0.5,Abbey Road,The Beatles,Here Comes the Sun,9
+0.5,Abbey Road,The Beatles,Here Comes the Sun,8
+0.5,Abbey Road,The Beatles,Here Comes the Sun,7
+0.5,Abbey Road,The Beatles,Here Comes the Sun,6
+0.5,Abbey Road,The Beatles,Here Comes the Sun,5
+0.5,Abbey Road,The Beatles,Here Comes the Sun,4
+0.5,Abbey Road,The Beatles,Here Comes the Sun,3
+0.5,Abbey Road,The Beatles,Here Comes the Sun,2
+0.5,Abbey Road,The Beatles,Here Comes the Sun,1
+0.5,Abbey Road,The Beatles,Here Comes the Sun,0
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),31
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),30
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),29
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),28
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),27
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),26
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),25
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),24
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),23
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),22
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),21
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),20
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),19
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),18
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),17
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),16
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),15
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),14
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),13
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),12
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),11
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),10
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),9
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),8
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),7
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),6
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),5
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),4
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),3
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),2
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),1
+0.5,Abbey Road,The Beatles,I Want You (She's So Heavy),0
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,38
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,37
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,36
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,35
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,34
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,33
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,32
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,31
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,30
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,29
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,28
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,27
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,26
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,25
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,24
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,23
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,22
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,21
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,20
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,19
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,18
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,17
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,16
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,15
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,14
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,13
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,12
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,11
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,10
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,9
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,8
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,7
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,6
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,5
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,4
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,3
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,2
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,1
+0.5,Abbey Road,The Beatles,Maxwell's Silver Hammer,0
+0.5,Abbey Road,The Beatles,Mean Mr. Mustard,13
+0.5,Abbey Road,The Beatles,Mean Mr. Mustard,12
+0.5,Abbey Road,The Beatles,Mean Mr. Mustard,11
+0.5,Abbey Road,The Beatles,Mean Mr. Mustard,10
+0.5,Abbey Road,The Beatles,Mean Mr. Mustard,9
+0.5,Abbey Road,The Beatles,Mean Mr. Mustard,8
+0.5,Abbey Road,The Beatles,Mean Mr. Mustard,7
+0.5,Abbey Road,The Beatles,Mean Mr. Mustard,6
+0.5,Abbey Road,The Beatles,Mean Mr. Mustard,5
+0.5,Abbey Road,The Beatles,Mean Mr. Mustard,4
+0.5,Abbey Road,The Beatles,Mean Mr. Mustard,3
+0.5,Abbey Road,The Beatles,Mean Mr. Mustard,2
+0.5,Abbey Road,The Beatles,Mean Mr. Mustard,1
+0.5,Abbey Road,The Beatles,Mean Mr. Mustard,0
+0.5,Abbey Road,The Beatles,Octopus's Garden,25
+0.5,Abbey Road,The Beatles,Octopus's Garden,24
+0.5,Abbey Road,The Beatles,Octopus's Garden,23
+0.5,Abbey Road,The Beatles,Octopus's Garden,22
+0.5,Abbey Road,The Beatles,Octopus's Garden,21
+0.5,Abbey Road,The Beatles,Octopus's Garden,20
+0.5,Abbey Road,The Beatles,Octopus's Garden,19
+0.5,Abbey Road,The Beatles,Octopus's Garden,18
+0.5,Abbey Road,The Beatles,Octopus's Garden,17
+0.5,Abbey Road,The Beatles,Octopus's Garden,16
+0.5,Abbey Road,The Beatles,Octopus's Garden,15
+0.5,Abbey Road,The Beatles,Octopus's Garden,14
+0.5,Abbey Road,The Beatles,Octopus's Garden,13
+0.5,Abbey Road,The Beatles,Octopus's Garden,12
+0.5,Abbey Road,The Beatles,Octopus's Garden,11
+0.5,Abbey Road,The Beatles,Octopus's Garden,10
+0.5,Abbey Road,The Beatles,Octopus's Garden,9
+0.5,Abbey Road,The Beatles,Octopus's Garden,8
+0.5,Abbey Road,The Beatles,Octopus's Garden,7
+0.5,Abbey Road,The Beatles,Octopus's Garden,6
+0.5,Abbey Road,The Beatles,Octopus's Garden,5
+0.5,Abbey Road,The Beatles,Octopus's Garden,4
+0.5,Abbey Road,The Beatles,Octopus's Garden,3
+0.5,Abbey Road,The Beatles,Octopus's Garden,2
+0.5,Abbey Road,The Beatles,Octopus's Garden,1
+0.5,Abbey Road,The Beatles,Octopus's Garden,0
+0.5,Abbey Road,The Beatles,Oh! Darling,24
+0.5,Abbey Road,The Beatles,Oh! Darling,23
+0.5,Abbey Road,The Beatles,Oh! Darling,22
+0.5,Abbey Road,The Beatles,Oh! Darling,21
+0.5,Abbey Road,The Beatles,Oh! Darling,20
+0.5,Abbey Road,The Beatles,Oh! Darling,19
+0.5,Abbey Road,The Beatles,Oh! Darling,18
+0.5,Abbey Road,The Beatles,Oh! Darling,17
+0.5,Abbey Road,The Beatles,Oh! Darling,16
+0.5,Abbey Road,The Beatles,Oh! Darling,15
+0.5,Abbey Road,The Beatles,Oh! Darling,14
+0.5,Abbey Road,The Beatles,Oh! Darling,13
+0.5,Abbey Road,The Beatles,Oh! Darling,12
+0.5,Abbey Road,The Beatles,Oh! Darling,11
+0.5,Abbey Road,The Beatles,Oh! Darling,10
+0.5,Abbey Road,The Beatles,Oh! Darling,9
+0.5,Abbey Road,The Beatles,Oh! Darling,8
+0.5,Abbey Road,The Beatles,Oh! Darling,7
+0.5,Abbey Road,The Beatles,Oh! Darling,6
+0.5,Abbey Road,The Beatles,Oh! Darling,5
+0.5,Abbey Road,The Beatles,Oh! Darling,4
+0.5,Abbey Road,The Beatles,Oh! Darling,3
+0.5,Abbey Road,The Beatles,Oh! Darling,2
+0.5,Abbey Road,The Beatles,Oh! Darling,1
+0.5,Abbey Road,The Beatles,Oh! Darling,0
+0.5,Abbey Road,The Beatles,Polythene Pam,11
+0.5,Abbey Road,The Beatles,Polythene Pam,10
+0.5,Abbey Road,The Beatles,Polythene Pam,9
+0.5,Abbey Road,The Beatles,Polythene Pam,8
+0.5,Abbey Road,The Beatles,Polythene Pam,7
+0.5,Abbey Road,The Beatles,Polythene Pam,6
+0.5,Abbey Road,The Beatles,Polythene Pam,5
+0.5,Abbey Road,The Beatles,Polythene Pam,4
+0.5,Abbey Road,The Beatles,Polythene Pam,3
+0.5,Abbey Road,The Beatles,Polythene Pam,2
+0.5,Abbey Road,The Beatles,Polythene Pam,1
+0.5,Abbey Road,The Beatles,Polythene Pam,0
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,23
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,22
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,21
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,20
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,19
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,18
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,17
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,16
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,15
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,14
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,13
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,12
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,11
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,10
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,9
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,8
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,7
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,6
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,5
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,4
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,3
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,2
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,1
+0.5,Abbey Road,The Beatles,She Came In Through the Bathroom Window,0
+0.5,Abbey Road,The Beatles,Something,18
+0.5,Abbey Road,The Beatles,Something,17
+0.5,Abbey Road,The Beatles,Something,16
+0.5,Abbey Road,The Beatles,Something,15
+0.5,Abbey Road,The Beatles,Something,14
+0.5,Abbey Road,The Beatles,Something,13
+0.5,Abbey Road,The Beatles,Something,12
+0.5,Abbey Road,The Beatles,Something,11
+0.5,Abbey Road,The Beatles,Something,10
+0.5,Abbey Road,The Beatles,Something,9
+0.5,Abbey Road,The Beatles,Something,8
+0.5,Abbey Road,The Beatles,Something,7
+0.5,Abbey Road,The Beatles,Something,6
+0.5,Abbey Road,The Beatles,Something,5
+0.5,Abbey Road,The Beatles,Something,4
+0.5,Abbey Road,The Beatles,Something,3
+0.5,Abbey Road,The Beatles,Something,2
+0.5,Abbey Road,The Beatles,Something,1
+0.5,Abbey Road,The Beatles,Something,0
+0.5,Abbey Road,The Beatles,Sun King,7
+0.5,Abbey Road,The Beatles,Sun King,6
+0.5,Abbey Road,The Beatles,Sun King,5
+0.5,Abbey Road,The Beatles,Sun King,4
+0.5,Abbey Road,The Beatles,Sun King,3
+0.5,Abbey Road,The Beatles,Sun King,2
+0.5,Abbey Road,The Beatles,Sun King,1
+0.5,Abbey Road,The Beatles,Sun King,0
+0.5,Abbey Road,The Beatles,The End,16
+0.5,Abbey Road,The Beatles,The End,15
+0.5,Abbey Road,The Beatles,The End,14
+0.5,Abbey Road,The Beatles,The End,13
+0.5,Abbey Road,The Beatles,The End,12
+0.5,Abbey Road,The Beatles,The End,11
+0.5,Abbey Road,The Beatles,The End,10
+0.5,Abbey Road,The Beatles,The End,9
+0.5,Abbey Road,The Beatles,The End,8
+0.5,Abbey Road,The Beatles,The End,7
+0.5,Abbey Road,The Beatles,The End,6
+0.5,Abbey Road,The Beatles,The End,5
+0.5,Abbey Road,The Beatles,The End,4
+0.5,Abbey Road,The Beatles,The End,3
+0.5,Abbey Road,The Beatles,The End,2
+0.5,Abbey Road,The Beatles,The End,1
+0.5,Abbey Road,The Beatles,The End,0
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,46
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,45
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,44
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,43
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,42
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,41
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,40
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,39
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,38
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,37
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,36
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,35
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,34
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,33
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,32
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,31
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,30
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,29
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,28
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,27
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,26
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,25
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,24
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,23
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,22
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,21
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,20
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,19
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,18
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,17
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,16
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,15
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,14
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,13
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,12
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,11
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,10
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,9
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,8
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,7
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,6
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,5
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,4
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,3
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,2
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,1
+0.5,Abbey Road,The Beatles,You Never Give Me Your Money,0
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,27
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,26
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,25
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,24
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,23
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,22
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,21
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,20
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,19
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,18
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,17
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,16
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,15
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,14
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,13
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,12
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,11
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,10
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,9
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,8
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,7
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,6
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,5
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,4
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,3
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,2
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,1
+0.5,The Dark Side of the Moon,Pink Floyd,Brain Damage,0
+0.5,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),15
+0.5,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),14
+0.5,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),13
+0.5,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),12
+0.5,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),11
+0.5,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),10
+0.5,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),9
+0.5,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),8
+0.5,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),7
+0.5,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),6
+0.5,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),5
+0.5,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),4
+0.5,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),3
+0.5,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),2
+0.5,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),1
+0.5,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),0
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,43
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,42
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,41
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,40
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,39
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,38
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,37
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,36
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,35
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,34
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,33
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,32
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,31
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,30
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,29
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,28
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,27
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,26
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,25
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,24
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,23
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,22
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,21
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,20
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,19
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,18
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,17
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,16
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,15
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,14
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,13
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,12
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,11
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,10
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,9
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,8
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,7
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,6
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,5
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,4
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,3
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,2
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,1
+0.5,The Dark Side of the Moon,Pink Floyd,Eclipse,0
+0.5,The Dark Side of the Moon,Pink Floyd,Money,38
+0.5,The Dark Side of the Moon,Pink Floyd,Money,37
+0.5,The Dark Side of the Moon,Pink Floyd,Money,36
+0.5,The Dark Side of the Moon,Pink Floyd,Money,35
+0.5,The Dark Side of the Moon,Pink Floyd,Money,34
+0.5,The Dark Side of the Moon,Pink Floyd,Money,33
+0.5,The Dark Side of the Moon,Pink Floyd,Money,32
+0.5,The Dark Side of the Moon,Pink Floyd,Money,31
+0.5,The Dark Side of the Moon,Pink Floyd,Money,30
+0.5,The Dark Side of the Moon,Pink Floyd,Money,29
+0.5,The Dark Side of the Moon,Pink Floyd,Money,28
+0.5,The Dark Side of the Moon,Pink Floyd,Money,27
+0.5,The Dark Side of the Moon,Pink Floyd,Money,26
+0.5,The Dark Side of the Moon,Pink Floyd,Money,25
+0.5,The Dark Side of the Moon,Pink Floyd,Money,24
+0.5,The Dark Side of the Moon,Pink Floyd,Money,23
+0.5,The Dark Side of the Moon,Pink Floyd,Money,22
+0.5,The Dark Side of the Moon,Pink Floyd,Money,21
+0.5,The Dark Side of the Moon,Pink Floyd,Money,20
+0.5,The Dark Side of the Moon,Pink Floyd,Money,19
+0.5,The Dark Side of the Moon,Pink Floyd,Money,18
+0.5,The Dark Side of the Moon,Pink Floyd,Money,17
+0.5,The Dark Side of the Moon,Pink Floyd,Money,16
+0.5,The Dark Side of the Moon,Pink Floyd,Money,15
+0.5,The Dark Side of the Moon,Pink Floyd,Money,14
+0.5,The Dark Side of the Moon,Pink Floyd,Money,13
+0.5,The Dark Side of the Moon,Pink Floyd,Money,12
+0.5,The Dark Side of the Moon,Pink Floyd,Money,11
+0.5,The Dark Side of the Moon,Pink Floyd,Money,10
+0.5,The Dark Side of the Moon,Pink Floyd,Money,9
+0.5,The Dark Side of the Moon,Pink Floyd,Money,8
+0.5,The Dark Side of the Moon,Pink Floyd,Money,7
+0.5,The Dark Side of the Moon,Pink Floyd,Money,6
+0.5,The Dark Side of the Moon,Pink Floyd,Money,5
+0.5,The Dark Side of the Moon,Pink Floyd,Money,4
+0.5,The Dark Side of the Moon,Pink Floyd,Money,3
+0.5,The Dark Side of the Moon,Pink Floyd,Money,2
+0.5,The Dark Side of the Moon,Pink Floyd,Money,1
+0.5,The Dark Side of the Moon,Pink Floyd,Money,0
+0.5,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,5
+0.5,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,4
+0.5,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,3
+0.5,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,2
+0.5,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,1
+0.5,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,0
+0.5,The Dark Side of the Moon,Pink Floyd,Time,42
+0.5,The Dark Side of the Moon,Pink Floyd,Time,41
+0.5,The Dark Side of the Moon,Pink Floyd,Time,40
+0.5,The Dark Side of the Moon,Pink Floyd,Time,39
+0.5,The Dark Side of the Moon,Pink Floyd,Time,38
+0.5,The Dark Side of the Moon,Pink Floyd,Time,37
+0.5,The Dark Side of the Moon,Pink Floyd,Time,36
+0.5,The Dark Side of the Moon,Pink Floyd,Time,35
+0.5,The Dark Side of the Moon,Pink Floyd,Time,34
+0.5,The Dark Side of the Moon,Pink Floyd,Time,33
+0.5,The Dark Side of the Moon,Pink Floyd,Time,32
+0.5,The Dark Side of the Moon,Pink Floyd,Time,31
+0.5,The Dark Side of the Moon,Pink Floyd,Time,30
+0.5,The Dark Side of the Moon,Pink Floyd,Time,29
+0.5,The Dark Side of the Moon,Pink Floyd,Time,28
+0.5,The Dark Side of the Moon,Pink Floyd,Time,27
+0.5,The Dark Side of the Moon,Pink Floyd,Time,26
+0.5,The Dark Side of the Moon,Pink Floyd,Time,25
+0.5,The Dark Side of the Moon,Pink Floyd,Time,24
+0.5,The Dark Side of the Moon,Pink Floyd,Time,23
+0.5,The Dark Side of the Moon,Pink Floyd,Time,22
+0.5,The Dark Side of the Moon,Pink Floyd,Time,21
+0.5,The Dark Side of the Moon,Pink Floyd,Time,20
+0.5,The Dark Side of the Moon,Pink Floyd,Time,19
+0.5,The Dark Side of the Moon,Pink Floyd,Time,18
+0.5,The Dark Side of the Moon,Pink Floyd,Time,17
+0.5,The Dark Side of the Moon,Pink Floyd,Time,16
+0.5,The Dark Side of the Moon,Pink Floyd,Time,15
+0.5,The Dark Side of the Moon,Pink Floyd,Time,14
+0.5,The Dark Side of the Moon,Pink Floyd,Time,13
+0.5,The Dark Side of the Moon,Pink Floyd,Time,12
+0.5,The Dark Side of the Moon,Pink Floyd,Time,11
+0.5,The Dark Side of the Moon,Pink Floyd,Time,10
+0.5,The Dark Side of the Moon,Pink Floyd,Time,9
+0.5,The Dark Side of the Moon,Pink Floyd,Time,8
+0.5,The Dark Side of the Moon,Pink Floyd,Time,7
+0.5,The Dark Side of the Moon,Pink Floyd,Time,6
+0.5,The Dark Side of the Moon,Pink Floyd,Time,5
+0.5,The Dark Side of the Moon,Pink Floyd,Time,4
+0.5,The Dark Side of the Moon,Pink Floyd,Time,3
+0.5,The Dark Side of the Moon,Pink Floyd,Time,2
+0.5,The Dark Side of the Moon,Pink Floyd,Time,1
+0.5,The Dark Side of the Moon,Pink Floyd,Time,0
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,31
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,30
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,29
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,28
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,27
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,26
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,25
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,24
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,23
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,22
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,21
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,20
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,19
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,18
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,17
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,16
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,15
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,14
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,13
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,12
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,11
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,10
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,9
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,8
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,7
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,6
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,5
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,4
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,3
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,2
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,1
+0.5,The Dark Side of the Moon,Pink Floyd,Us and Them,0
+0.55,Abbey Road,The Beatles,Because,19
+0.55,Abbey Road,The Beatles,Because,18
+0.55,Abbey Road,The Beatles,Because,17
+0.55,Abbey Road,The Beatles,Because,16
+0.55,Abbey Road,The Beatles,Because,15
+0.55,Abbey Road,The Beatles,Because,14
+0.55,Abbey Road,The Beatles,Because,13
+0.55,Abbey Road,The Beatles,Because,12
+0.55,Abbey Road,The Beatles,Because,11
+0.55,Abbey Road,The Beatles,Because,10
+0.55,Abbey Road,The Beatles,Because,9
+0.55,Abbey Road,The Beatles,Because,8
+0.55,Abbey Road,The Beatles,Because,7
+0.55,Abbey Road,The Beatles,Because,6
+0.55,Abbey Road,The Beatles,Because,5
+0.55,Abbey Road,The Beatles,Because,4
+0.55,Abbey Road,The Beatles,Because,3
+0.55,Abbey Road,The Beatles,Because,2
+0.55,Abbey Road,The Beatles,Because,1
+0.55,Abbey Road,The Beatles,Because,0
+0.55,Abbey Road,The Beatles,Carry That Weight,11
+0.55,Abbey Road,The Beatles,Carry That Weight,10
+0.55,Abbey Road,The Beatles,Carry That Weight,9
+0.55,Abbey Road,The Beatles,Carry That Weight,8
+0.55,Abbey Road,The Beatles,Carry That Weight,7
+0.55,Abbey Road,The Beatles,Carry That Weight,6
+0.55,Abbey Road,The Beatles,Carry That Weight,5
+0.55,Abbey Road,The Beatles,Carry That Weight,4
+0.55,Abbey Road,The Beatles,Carry That Weight,3
+0.55,Abbey Road,The Beatles,Carry That Weight,2
+0.55,Abbey Road,The Beatles,Carry That Weight,1
+0.55,Abbey Road,The Beatles,Carry That Weight,0
+0.55,Abbey Road,The Beatles,Come Together,50
+0.55,Abbey Road,The Beatles,Come Together,49
+0.55,Abbey Road,The Beatles,Come Together,48
+0.55,Abbey Road,The Beatles,Come Together,47
+0.55,Abbey Road,The Beatles,Come Together,46
+0.55,Abbey Road,The Beatles,Come Together,45
+0.55,Abbey Road,The Beatles,Come Together,44
+0.55,Abbey Road,The Beatles,Come Together,43
+0.55,Abbey Road,The Beatles,Come Together,42
+0.55,Abbey Road,The Beatles,Come Together,41
+0.55,Abbey Road,The Beatles,Come Together,40
+0.55,Abbey Road,The Beatles,Come Together,39
+0.55,Abbey Road,The Beatles,Come Together,38
+0.55,Abbey Road,The Beatles,Come Together,37
+0.55,Abbey Road,The Beatles,Come Together,36
+0.55,Abbey Road,The Beatles,Come Together,35
+0.55,Abbey Road,The Beatles,Come Together,34
+0.55,Abbey Road,The Beatles,Come Together,33
+0.55,Abbey Road,The Beatles,Come Together,32
+0.55,Abbey Road,The Beatles,Come Together,31
+0.55,Abbey Road,The Beatles,Come Together,30
+0.55,Abbey Road,The Beatles,Come Together,29
+0.55,Abbey Road,The Beatles,Come Together,28
+0.55,Abbey Road,The Beatles,Come Together,27
+0.55,Abbey Road,The Beatles,Come Together,26
+0.55,Abbey Road,The Beatles,Come Together,25
+0.55,Abbey Road,The Beatles,Come Together,24
+0.55,Abbey Road,The Beatles,Come Together,23
+0.55,Abbey Road,The Beatles,Come Together,22
+0.55,Abbey Road,The Beatles,Come Together,21
+0.55,Abbey Road,The Beatles,Come Together,20
+0.55,Abbey Road,The Beatles,Come Together,19
+0.55,Abbey Road,The Beatles,Come Together,18
+0.55,Abbey Road,The Beatles,Come Together,17
+0.55,Abbey Road,The Beatles,Come Together,16
+0.55,Abbey Road,The Beatles,Come Together,15
+0.55,Abbey Road,The Beatles,Come Together,14
+0.55,Abbey Road,The Beatles,Come Together,13
+0.55,Abbey Road,The Beatles,Come Together,12
+0.55,Abbey Road,The Beatles,Come Together,11
+0.55,Abbey Road,The Beatles,Come Together,10
+0.55,Abbey Road,The Beatles,Come Together,9
+0.55,Abbey Road,The Beatles,Come Together,8
+0.55,Abbey Road,The Beatles,Come Together,7
+0.55,Abbey Road,The Beatles,Come Together,6
+0.55,Abbey Road,The Beatles,Come Together,5
+0.55,Abbey Road,The Beatles,Come Together,4
+0.55,Abbey Road,The Beatles,Come Together,3
+0.55,Abbey Road,The Beatles,Come Together,2
+0.55,Abbey Road,The Beatles,Come Together,1
+0.55,Abbey Road,The Beatles,Come Together,0
+0.55,Abbey Road,The Beatles,Golden Slumbers,11
+0.55,Abbey Road,The Beatles,Golden Slumbers,10
+0.55,Abbey Road,The Beatles,Golden Slumbers,9
+0.55,Abbey Road,The Beatles,Golden Slumbers,8
+0.55,Abbey Road,The Beatles,Golden Slumbers,7
+0.55,Abbey Road,The Beatles,Golden Slumbers,6
+0.55,Abbey Road,The Beatles,Golden Slumbers,5
+0.55,Abbey Road,The Beatles,Golden Slumbers,4
+0.55,Abbey Road,The Beatles,Golden Slumbers,3
+0.55,Abbey Road,The Beatles,Golden Slumbers,2
+0.55,Abbey Road,The Beatles,Golden Slumbers,1
+0.55,Abbey Road,The Beatles,Golden Slumbers,0
+0.55,Abbey Road,The Beatles,Her Majesty,4
+0.55,Abbey Road,The Beatles,Her Majesty,3
+0.55,Abbey Road,The Beatles,Her Majesty,2
+0.55,Abbey Road,The Beatles,Her Majesty,1
+0.55,Abbey Road,The Beatles,Her Majesty,0
+0.55,Abbey Road,The Beatles,Here Comes the Sun,39
+0.55,Abbey Road,The Beatles,Here Comes the Sun,38
+0.55,Abbey Road,The Beatles,Here Comes the Sun,37
+0.55,Abbey Road,The Beatles,Here Comes the Sun,36
+0.55,Abbey Road,The Beatles,Here Comes the Sun,35
+0.55,Abbey Road,The Beatles,Here Comes the Sun,34
+0.55,Abbey Road,The Beatles,Here Comes the Sun,33
+0.55,Abbey Road,The Beatles,Here Comes the Sun,32
+0.55,Abbey Road,The Beatles,Here Comes the Sun,31
+0.55,Abbey Road,The Beatles,Here Comes the Sun,30
+0.55,Abbey Road,The Beatles,Here Comes the Sun,29
+0.55,Abbey Road,The Beatles,Here Comes the Sun,28
+0.55,Abbey Road,The Beatles,Here Comes the Sun,27
+0.55,Abbey Road,The Beatles,Here Comes the Sun,26
+0.55,Abbey Road,The Beatles,Here Comes the Sun,25
+0.55,Abbey Road,The Beatles,Here Comes the Sun,24
+0.55,Abbey Road,The Beatles,Here Comes the Sun,23
+0.55,Abbey Road,The Beatles,Here Comes the Sun,22
+0.55,Abbey Road,The Beatles,Here Comes the Sun,21
+0.55,Abbey Road,The Beatles,Here Comes the Sun,20
+0.55,Abbey Road,The Beatles,Here Comes the Sun,19
+0.55,Abbey Road,The Beatles,Here Comes the Sun,18
+0.55,Abbey Road,The Beatles,Here Comes the Sun,17
+0.55,Abbey Road,The Beatles,Here Comes the Sun,16
+0.55,Abbey Road,The Beatles,Here Comes the Sun,15
+0.55,Abbey Road,The Beatles,Here Comes the Sun,14
+0.55,Abbey Road,The Beatles,Here Comes the Sun,13
+0.55,Abbey Road,The Beatles,Here Comes the Sun,12
+0.55,Abbey Road,The Beatles,Here Comes the Sun,11
+0.55,Abbey Road,The Beatles,Here Comes the Sun,10
+0.55,Abbey Road,The Beatles,Here Comes the Sun,9
+0.55,Abbey Road,The Beatles,Here Comes the Sun,8
+0.55,Abbey Road,The Beatles,Here Comes the Sun,7
+0.55,Abbey Road,The Beatles,Here Comes the Sun,6
+0.55,Abbey Road,The Beatles,Here Comes the Sun,5
+0.55,Abbey Road,The Beatles,Here Comes the Sun,4
+0.55,Abbey Road,The Beatles,Here Comes the Sun,3
+0.55,Abbey Road,The Beatles,Here Comes the Sun,2
+0.55,Abbey Road,The Beatles,Here Comes the Sun,1
+0.55,Abbey Road,The Beatles,Here Comes the Sun,0
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),31
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),30
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),29
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),28
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),27
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),26
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),25
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),24
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),23
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),22
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),21
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),20
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),19
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),18
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),17
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),16
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),15
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),14
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),13
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),12
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),11
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),10
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),9
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),8
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),7
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),6
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),5
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),4
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),3
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),2
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),1
+0.55,Abbey Road,The Beatles,I Want You (She's So Heavy),0
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,38
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,37
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,36
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,35
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,34
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,33
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,32
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,31
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,30
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,29
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,28
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,27
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,26
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,25
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,24
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,23
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,22
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,21
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,20
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,19
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,18
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,17
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,16
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,15
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,14
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,13
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,12
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,11
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,10
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,9
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,8
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,7
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,6
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,5
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,4
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,3
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,2
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,1
+0.55,Abbey Road,The Beatles,Maxwell's Silver Hammer,0
+0.55,Abbey Road,The Beatles,Mean Mr. Mustard,13
+0.55,Abbey Road,The Beatles,Mean Mr. Mustard,12
+0.55,Abbey Road,The Beatles,Mean Mr. Mustard,11
+0.55,Abbey Road,The Beatles,Mean Mr. Mustard,10
+0.55,Abbey Road,The Beatles,Mean Mr. Mustard,9
+0.55,Abbey Road,The Beatles,Mean Mr. Mustard,8
+0.55,Abbey Road,The Beatles,Mean Mr. Mustard,7
+0.55,Abbey Road,The Beatles,Mean Mr. Mustard,6
+0.55,Abbey Road,The Beatles,Mean Mr. Mustard,5
+0.55,Abbey Road,The Beatles,Mean Mr. Mustard,4
+0.55,Abbey Road,The Beatles,Mean Mr. Mustard,3
+0.55,Abbey Road,The Beatles,Mean Mr. Mustard,2
+0.55,Abbey Road,The Beatles,Mean Mr. Mustard,1
+0.55,Abbey Road,The Beatles,Mean Mr. Mustard,0
+0.55,Abbey Road,The Beatles,Octopus's Garden,25
+0.55,Abbey Road,The Beatles,Octopus's Garden,24
+0.55,Abbey Road,The Beatles,Octopus's Garden,23
+0.55,Abbey Road,The Beatles,Octopus's Garden,22
+0.55,Abbey Road,The Beatles,Octopus's Garden,21
+0.55,Abbey Road,The Beatles,Octopus's Garden,20
+0.55,Abbey Road,The Beatles,Octopus's Garden,19
+0.55,Abbey Road,The Beatles,Octopus's Garden,18
+0.55,Abbey Road,The Beatles,Octopus's Garden,17
+0.55,Abbey Road,The Beatles,Octopus's Garden,16
+0.55,Abbey Road,The Beatles,Octopus's Garden,15
+0.55,Abbey Road,The Beatles,Octopus's Garden,14
+0.55,Abbey Road,The Beatles,Octopus's Garden,13
+0.55,Abbey Road,The Beatles,Octopus's Garden,12
+0.55,Abbey Road,The Beatles,Octopus's Garden,11
+0.55,Abbey Road,The Beatles,Octopus's Garden,10
+0.55,Abbey Road,The Beatles,Octopus's Garden,9
+0.55,Abbey Road,The Beatles,Octopus's Garden,8
+0.55,Abbey Road,The Beatles,Octopus's Garden,7
+0.55,Abbey Road,The Beatles,Octopus's Garden,6
+0.55,Abbey Road,The Beatles,Octopus's Garden,5
+0.55,Abbey Road,The Beatles,Octopus's Garden,4
+0.55,Abbey Road,The Beatles,Octopus's Garden,3
+0.55,Abbey Road,The Beatles,Octopus's Garden,2
+0.55,Abbey Road,The Beatles,Octopus's Garden,1
+0.55,Abbey Road,The Beatles,Octopus's Garden,0
+0.55,Abbey Road,The Beatles,Oh! Darling,24
+0.55,Abbey Road,The Beatles,Oh! Darling,23
+0.55,Abbey Road,The Beatles,Oh! Darling,22
+0.55,Abbey Road,The Beatles,Oh! Darling,21
+0.55,Abbey Road,The Beatles,Oh! Darling,20
+0.55,Abbey Road,The Beatles,Oh! Darling,19
+0.55,Abbey Road,The Beatles,Oh! Darling,18
+0.55,Abbey Road,The Beatles,Oh! Darling,17
+0.55,Abbey Road,The Beatles,Oh! Darling,16
+0.55,Abbey Road,The Beatles,Oh! Darling,15
+0.55,Abbey Road,The Beatles,Oh! Darling,14
+0.55,Abbey Road,The Beatles,Oh! Darling,13
+0.55,Abbey Road,The Beatles,Oh! Darling,12
+0.55,Abbey Road,The Beatles,Oh! Darling,11
+0.55,Abbey Road,The Beatles,Oh! Darling,10
+0.55,Abbey Road,The Beatles,Oh! Darling,9
+0.55,Abbey Road,The Beatles,Oh! Darling,8
+0.55,Abbey Road,The Beatles,Oh! Darling,7
+0.55,Abbey Road,The Beatles,Oh! Darling,6
+0.55,Abbey Road,The Beatles,Oh! Darling,5
+0.55,Abbey Road,The Beatles,Oh! Darling,4
+0.55,Abbey Road,The Beatles,Oh! Darling,3
+0.55,Abbey Road,The Beatles,Oh! Darling,2
+0.55,Abbey Road,The Beatles,Oh! Darling,1
+0.55,Abbey Road,The Beatles,Oh! Darling,0
+0.55,Abbey Road,The Beatles,Polythene Pam,11
+0.55,Abbey Road,The Beatles,Polythene Pam,10
+0.55,Abbey Road,The Beatles,Polythene Pam,9
+0.55,Abbey Road,The Beatles,Polythene Pam,8
+0.55,Abbey Road,The Beatles,Polythene Pam,7
+0.55,Abbey Road,The Beatles,Polythene Pam,6
+0.55,Abbey Road,The Beatles,Polythene Pam,5
+0.55,Abbey Road,The Beatles,Polythene Pam,4
+0.55,Abbey Road,The Beatles,Polythene Pam,3
+0.55,Abbey Road,The Beatles,Polythene Pam,2
+0.55,Abbey Road,The Beatles,Polythene Pam,1
+0.55,Abbey Road,The Beatles,Polythene Pam,0
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,23
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,22
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,21
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,20
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,19
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,18
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,17
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,16
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,15
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,14
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,13
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,12
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,11
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,10
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,9
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,8
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,7
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,6
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,5
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,4
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,3
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,2
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,1
+0.55,Abbey Road,The Beatles,She Came In Through the Bathroom Window,0
+0.55,Abbey Road,The Beatles,Something,18
+0.55,Abbey Road,The Beatles,Something,17
+0.55,Abbey Road,The Beatles,Something,16
+0.55,Abbey Road,The Beatles,Something,15
+0.55,Abbey Road,The Beatles,Something,14
+0.55,Abbey Road,The Beatles,Something,13
+0.55,Abbey Road,The Beatles,Something,12
+0.55,Abbey Road,The Beatles,Something,11
+0.55,Abbey Road,The Beatles,Something,10
+0.55,Abbey Road,The Beatles,Something,9
+0.55,Abbey Road,The Beatles,Something,8
+0.55,Abbey Road,The Beatles,Something,7
+0.55,Abbey Road,The Beatles,Something,6
+0.55,Abbey Road,The Beatles,Something,5
+0.55,Abbey Road,The Beatles,Something,4
+0.55,Abbey Road,The Beatles,Something,3
+0.55,Abbey Road,The Beatles,Something,2
+0.55,Abbey Road,The Beatles,Something,1
+0.55,Abbey Road,The Beatles,Something,0
+0.55,Abbey Road,The Beatles,Sun King,7
+0.55,Abbey Road,The Beatles,Sun King,6
+0.55,Abbey Road,The Beatles,Sun King,5
+0.55,Abbey Road,The Beatles,Sun King,4
+0.55,Abbey Road,The Beatles,Sun King,3
+0.55,Abbey Road,The Beatles,Sun King,2
+0.55,Abbey Road,The Beatles,Sun King,1
+0.55,Abbey Road,The Beatles,Sun King,0
+0.55,Abbey Road,The Beatles,The End,16
+0.55,Abbey Road,The Beatles,The End,15
+0.55,Abbey Road,The Beatles,The End,14
+0.55,Abbey Road,The Beatles,The End,13
+0.55,Abbey Road,The Beatles,The End,12
+0.55,Abbey Road,The Beatles,The End,11
+0.55,Abbey Road,The Beatles,The End,10
+0.55,Abbey Road,The Beatles,The End,9
+0.55,Abbey Road,The Beatles,The End,8
+0.55,Abbey Road,The Beatles,The End,7
+0.55,Abbey Road,The Beatles,The End,6
+0.55,Abbey Road,The Beatles,The End,5
+0.55,Abbey Road,The Beatles,The End,4
+0.55,Abbey Road,The Beatles,The End,3
+0.55,Abbey Road,The Beatles,The End,2
+0.55,Abbey Road,The Beatles,The End,1
+0.55,Abbey Road,The Beatles,The End,0
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,46
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,45
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,44
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,43
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,42
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,41
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,40
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,39
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,38
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,37
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,36
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,35
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,34
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,33
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,32
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,31
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,30
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,29
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,28
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,27
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,26
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,25
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,24
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,23
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,22
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,21
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,20
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,19
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,18
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,17
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,16
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,15
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,14
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,13
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,12
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,11
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,10
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,9
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,8
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,7
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,6
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,5
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,4
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,3
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,2
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,1
+0.55,Abbey Road,The Beatles,You Never Give Me Your Money,0
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,27
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,26
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,25
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,24
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,23
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,22
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,21
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,20
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,19
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,18
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,17
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,16
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,15
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,14
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,13
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,12
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,11
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,10
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,9
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,8
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,7
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,6
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,5
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,4
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,3
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,2
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,1
+0.55,The Dark Side of the Moon,Pink Floyd,Brain Damage,0
+0.55,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),15
+0.55,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),14
+0.55,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),13
+0.55,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),12
+0.55,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),11
+0.55,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),10
+0.55,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),9
+0.55,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),8
+0.55,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),7
+0.55,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),6
+0.55,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),5
+0.55,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),4
+0.55,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),3
+0.55,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),2
+0.55,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),1
+0.55,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),0
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,43
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,42
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,41
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,40
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,39
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,38
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,37
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,36
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,35
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,34
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,33
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,32
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,31
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,30
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,29
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,28
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,27
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,26
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,25
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,24
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,23
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,22
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,21
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,20
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,19
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,18
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,17
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,16
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,15
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,14
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,13
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,12
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,11
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,10
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,9
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,8
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,7
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,6
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,5
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,4
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,3
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,2
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,1
+0.55,The Dark Side of the Moon,Pink Floyd,Eclipse,0
+0.55,The Dark Side of the Moon,Pink Floyd,Money,38
+0.55,The Dark Side of the Moon,Pink Floyd,Money,37
+0.55,The Dark Side of the Moon,Pink Floyd,Money,36
+0.55,The Dark Side of the Moon,Pink Floyd,Money,35
+0.55,The Dark Side of the Moon,Pink Floyd,Money,34
+0.55,The Dark Side of the Moon,Pink Floyd,Money,33
+0.55,The Dark Side of the Moon,Pink Floyd,Money,32
+0.55,The Dark Side of the Moon,Pink Floyd,Money,31
+0.55,The Dark Side of the Moon,Pink Floyd,Money,30
+0.55,The Dark Side of the Moon,Pink Floyd,Money,29
+0.55,The Dark Side of the Moon,Pink Floyd,Money,28
+0.55,The Dark Side of the Moon,Pink Floyd,Money,27
+0.55,The Dark Side of the Moon,Pink Floyd,Money,26
+0.55,The Dark Side of the Moon,Pink Floyd,Money,25
+0.55,The Dark Side of the Moon,Pink Floyd,Money,24
+0.55,The Dark Side of the Moon,Pink Floyd,Money,23
+0.55,The Dark Side of the Moon,Pink Floyd,Money,22
+0.55,The Dark Side of the Moon,Pink Floyd,Money,21
+0.55,The Dark Side of the Moon,Pink Floyd,Money,20
+0.55,The Dark Side of the Moon,Pink Floyd,Money,19
+0.55,The Dark Side of the Moon,Pink Floyd,Money,18
+0.55,The Dark Side of the Moon,Pink Floyd,Money,17
+0.55,The Dark Side of the Moon,Pink Floyd,Money,16
+0.55,The Dark Side of the Moon,Pink Floyd,Money,15
+0.55,The Dark Side of the Moon,Pink Floyd,Money,14
+0.55,The Dark Side of the Moon,Pink Floyd,Money,13
+0.55,The Dark Side of the Moon,Pink Floyd,Money,12
+0.55,The Dark Side of the Moon,Pink Floyd,Money,11
+0.55,The Dark Side of the Moon,Pink Floyd,Money,10
+0.55,The Dark Side of the Moon,Pink Floyd,Money,9
+0.55,The Dark Side of the Moon,Pink Floyd,Money,8
+0.55,The Dark Side of the Moon,Pink Floyd,Money,7
+0.55,The Dark Side of the Moon,Pink Floyd,Money,6
+0.55,The Dark Side of the Moon,Pink Floyd,Money,5
+0.55,The Dark Side of the Moon,Pink Floyd,Money,4
+0.55,The Dark Side of the Moon,Pink Floyd,Money,3
+0.55,The Dark Side of the Moon,Pink Floyd,Money,2
+0.55,The Dark Side of the Moon,Pink Floyd,Money,1
+0.55,The Dark Side of the Moon,Pink Floyd,Money,0
+0.55,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,5
+0.55,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,4
+0.55,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,3
+0.55,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,2
+0.55,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,1
+0.55,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,0
+0.55,The Dark Side of the Moon,Pink Floyd,Time,42
+0.55,The Dark Side of the Moon,Pink Floyd,Time,41
+0.55,The Dark Side of the Moon,Pink Floyd,Time,40
+0.55,The Dark Side of the Moon,Pink Floyd,Time,39
+0.55,The Dark Side of the Moon,Pink Floyd,Time,38
+0.55,The Dark Side of the Moon,Pink Floyd,Time,37
+0.55,The Dark Side of the Moon,Pink Floyd,Time,36
+0.55,The Dark Side of the Moon,Pink Floyd,Time,35
+0.55,The Dark Side of the Moon,Pink Floyd,Time,34
+0.55,The Dark Side of the Moon,Pink Floyd,Time,33
+0.55,The Dark Side of the Moon,Pink Floyd,Time,32
+0.55,The Dark Side of the Moon,Pink Floyd,Time,31
+0.55,The Dark Side of the Moon,Pink Floyd,Time,30
+0.55,The Dark Side of the Moon,Pink Floyd,Time,29
+0.55,The Dark Side of the Moon,Pink Floyd,Time,28
+0.55,The Dark Side of the Moon,Pink Floyd,Time,27
+0.55,The Dark Side of the Moon,Pink Floyd,Time,26
+0.55,The Dark Side of the Moon,Pink Floyd,Time,25
+0.55,The Dark Side of the Moon,Pink Floyd,Time,24
+0.55,The Dark Side of the Moon,Pink Floyd,Time,23
+0.55,The Dark Side of the Moon,Pink Floyd,Time,22
+0.55,The Dark Side of the Moon,Pink Floyd,Time,21
+0.55,The Dark Side of the Moon,Pink Floyd,Time,20
+0.55,The Dark Side of the Moon,Pink Floyd,Time,19
+0.55,The Dark Side of the Moon,Pink Floyd,Time,18
+0.55,The Dark Side of the Moon,Pink Floyd,Time,17
+0.55,The Dark Side of the Moon,Pink Floyd,Time,16
+0.55,The Dark Side of the Moon,Pink Floyd,Time,15
+0.55,The Dark Side of the Moon,Pink Floyd,Time,14
+0.55,The Dark Side of the Moon,Pink Floyd,Time,13
+0.55,The Dark Side of the Moon,Pink Floyd,Time,12
+0.55,The Dark Side of the Moon,Pink Floyd,Time,11
+0.55,The Dark Side of the Moon,Pink Floyd,Time,10
+0.55,The Dark Side of the Moon,Pink Floyd,Time,9
+0.55,The Dark Side of the Moon,Pink Floyd,Time,8
+0.55,The Dark Side of the Moon,Pink Floyd,Time,7
+0.55,The Dark Side of the Moon,Pink Floyd,Time,6
+0.55,The Dark Side of the Moon,Pink Floyd,Time,5
+0.55,The Dark Side of the Moon,Pink Floyd,Time,4
+0.55,The Dark Side of the Moon,Pink Floyd,Time,3
+0.55,The Dark Side of the Moon,Pink Floyd,Time,2
+0.55,The Dark Side of the Moon,Pink Floyd,Time,1
+0.55,The Dark Side of the Moon,Pink Floyd,Time,0
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,31
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,30
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,29
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,28
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,27
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,26
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,25
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,24
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,23
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,22
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,21
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,20
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,19
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,18
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,17
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,16
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,15
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,14
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,13
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,12
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,11
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,10
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,9
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,8
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,7
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,6
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,5
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,4
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,3
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,2
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,1
+0.55,The Dark Side of the Moon,Pink Floyd,Us and Them,0
+0.6,Abbey Road,The Beatles,Because,19
+0.6,Abbey Road,The Beatles,Because,18
+0.6,Abbey Road,The Beatles,Because,17
+0.6,Abbey Road,The Beatles,Because,16
+0.6,Abbey Road,The Beatles,Because,15
+0.6,Abbey Road,The Beatles,Because,14
+0.6,Abbey Road,The Beatles,Because,13
+0.6,Abbey Road,The Beatles,Because,12
+0.6,Abbey Road,The Beatles,Because,11
+0.6,Abbey Road,The Beatles,Because,10
+0.6,Abbey Road,The Beatles,Because,9
+0.6,Abbey Road,The Beatles,Because,8
+0.6,Abbey Road,The Beatles,Because,7
+0.6,Abbey Road,The Beatles,Because,6
+0.6,Abbey Road,The Beatles,Because,5
+0.6,Abbey Road,The Beatles,Because,4
+0.6,Abbey Road,The Beatles,Because,3
+0.6,Abbey Road,The Beatles,Because,2
+0.6,Abbey Road,The Beatles,Because,1
+0.6,Abbey Road,The Beatles,Because,0
+0.6,Abbey Road,The Beatles,Carry That Weight,11
+0.6,Abbey Road,The Beatles,Carry That Weight,10
+0.6,Abbey Road,The Beatles,Carry That Weight,9
+0.6,Abbey Road,The Beatles,Carry That Weight,8
+0.6,Abbey Road,The Beatles,Carry That Weight,7
+0.6,Abbey Road,The Beatles,Carry That Weight,6
+0.6,Abbey Road,The Beatles,Carry That Weight,5
+0.6,Abbey Road,The Beatles,Carry That Weight,4
+0.6,Abbey Road,The Beatles,Carry That Weight,3
+0.6,Abbey Road,The Beatles,Carry That Weight,2
+0.6,Abbey Road,The Beatles,Carry That Weight,1
+0.6,Abbey Road,The Beatles,Carry That Weight,0
+0.6,Abbey Road,The Beatles,Come Together,50
+0.6,Abbey Road,The Beatles,Come Together,49
+0.6,Abbey Road,The Beatles,Come Together,48
+0.6,Abbey Road,The Beatles,Come Together,47
+0.6,Abbey Road,The Beatles,Come Together,46
+0.6,Abbey Road,The Beatles,Come Together,45
+0.6,Abbey Road,The Beatles,Come Together,44
+0.6,Abbey Road,The Beatles,Come Together,43
+0.6,Abbey Road,The Beatles,Come Together,42
+0.6,Abbey Road,The Beatles,Come Together,41
+0.6,Abbey Road,The Beatles,Come Together,40
+0.6,Abbey Road,The Beatles,Come Together,39
+0.6,Abbey Road,The Beatles,Come Together,38
+0.6,Abbey Road,The Beatles,Come Together,37
+0.6,Abbey Road,The Beatles,Come Together,36
+0.6,Abbey Road,The Beatles,Come Together,35
+0.6,Abbey Road,The Beatles,Come Together,34
+0.6,Abbey Road,The Beatles,Come Together,33
+0.6,Abbey Road,The Beatles,Come Together,32
+0.6,Abbey Road,The Beatles,Come Together,31
+0.6,Abbey Road,The Beatles,Come Together,30
+0.6,Abbey Road,The Beatles,Come Together,29
+0.6,Abbey Road,The Beatles,Come Together,28
+0.6,Abbey Road,The Beatles,Come Together,27
+0.6,Abbey Road,The Beatles,Come Together,26
+0.6,Abbey Road,The Beatles,Come Together,25
+0.6,Abbey Road,The Beatles,Come Together,24
+0.6,Abbey Road,The Beatles,Come Together,23
+0.6,Abbey Road,The Beatles,Come Together,22
+0.6,Abbey Road,The Beatles,Come Together,21
+0.6,Abbey Road,The Beatles,Come Together,20
+0.6,Abbey Road,The Beatles,Come Together,19
+0.6,Abbey Road,The Beatles,Come Together,18
+0.6,Abbey Road,The Beatles,Come Together,17
+0.6,Abbey Road,The Beatles,Come Together,16
+0.6,Abbey Road,The Beatles,Come Together,15
+0.6,Abbey Road,The Beatles,Come Together,14
+0.6,Abbey Road,The Beatles,Come Together,13
+0.6,Abbey Road,The Beatles,Come Together,12
+0.6,Abbey Road,The Beatles,Come Together,11
+0.6,Abbey Road,The Beatles,Come Together,10
+0.6,Abbey Road,The Beatles,Come Together,9
+0.6,Abbey Road,The Beatles,Come Together,8
+0.6,Abbey Road,The Beatles,Come Together,7
+0.6,Abbey Road,The Beatles,Come Together,6
+0.6,Abbey Road,The Beatles,Come Together,5
+0.6,Abbey Road,The Beatles,Come Together,4
+0.6,Abbey Road,The Beatles,Come Together,3
+0.6,Abbey Road,The Beatles,Come Together,2
+0.6,Abbey Road,The Beatles,Come Together,1
+0.6,Abbey Road,The Beatles,Come Together,0
+0.6,Abbey Road,The Beatles,Golden Slumbers,11
+0.6,Abbey Road,The Beatles,Golden Slumbers,10
+0.6,Abbey Road,The Beatles,Golden Slumbers,9
+0.6,Abbey Road,The Beatles,Golden Slumbers,8
+0.6,Abbey Road,The Beatles,Golden Slumbers,7
+0.6,Abbey Road,The Beatles,Golden Slumbers,6
+0.6,Abbey Road,The Beatles,Golden Slumbers,5
+0.6,Abbey Road,The Beatles,Golden Slumbers,4
+0.6,Abbey Road,The Beatles,Golden Slumbers,3
+0.6,Abbey Road,The Beatles,Golden Slumbers,2
+0.6,Abbey Road,The Beatles,Golden Slumbers,1
+0.6,Abbey Road,The Beatles,Golden Slumbers,0
+0.6,Abbey Road,The Beatles,Her Majesty,4
+0.6,Abbey Road,The Beatles,Her Majesty,3
+0.6,Abbey Road,The Beatles,Her Majesty,2
+0.6,Abbey Road,The Beatles,Her Majesty,1
+0.6,Abbey Road,The Beatles,Her Majesty,0
+0.6,Abbey Road,The Beatles,Here Comes the Sun,39
+0.6,Abbey Road,The Beatles,Here Comes the Sun,38
+0.6,Abbey Road,The Beatles,Here Comes the Sun,37
+0.6,Abbey Road,The Beatles,Here Comes the Sun,36
+0.6,Abbey Road,The Beatles,Here Comes the Sun,35
+0.6,Abbey Road,The Beatles,Here Comes the Sun,34
+0.6,Abbey Road,The Beatles,Here Comes the Sun,33
+0.6,Abbey Road,The Beatles,Here Comes the Sun,32
+0.6,Abbey Road,The Beatles,Here Comes the Sun,31
+0.6,Abbey Road,The Beatles,Here Comes the Sun,30
+0.6,Abbey Road,The Beatles,Here Comes the Sun,29
+0.6,Abbey Road,The Beatles,Here Comes the Sun,28
+0.6,Abbey Road,The Beatles,Here Comes the Sun,27
+0.6,Abbey Road,The Beatles,Here Comes the Sun,26
+0.6,Abbey Road,The Beatles,Here Comes the Sun,25
+0.6,Abbey Road,The Beatles,Here Comes the Sun,24
+0.6,Abbey Road,The Beatles,Here Comes the Sun,23
+0.6,Abbey Road,The Beatles,Here Comes the Sun,22
+0.6,Abbey Road,The Beatles,Here Comes the Sun,21
+0.6,Abbey Road,The Beatles,Here Comes the Sun,20
+0.6,Abbey Road,The Beatles,Here Comes the Sun,19
+0.6,Abbey Road,The Beatles,Here Comes the Sun,18
+0.6,Abbey Road,The Beatles,Here Comes the Sun,17
+0.6,Abbey Road,The Beatles,Here Comes the Sun,16
+0.6,Abbey Road,The Beatles,Here Comes the Sun,15
+0.6,Abbey Road,The Beatles,Here Comes the Sun,14
+0.6,Abbey Road,The Beatles,Here Comes the Sun,13
+0.6,Abbey Road,The Beatles,Here Comes the Sun,12
+0.6,Abbey Road,The Beatles,Here Comes the Sun,11
+0.6,Abbey Road,The Beatles,Here Comes the Sun,10
+0.6,Abbey Road,The Beatles,Here Comes the Sun,9
+0.6,Abbey Road,The Beatles,Here Comes the Sun,8
+0.6,Abbey Road,The Beatles,Here Comes the Sun,7
+0.6,Abbey Road,The Beatles,Here Comes the Sun,6
+0.6,Abbey Road,The Beatles,Here Comes the Sun,5
+0.6,Abbey Road,The Beatles,Here Comes the Sun,4
+0.6,Abbey Road,The Beatles,Here Comes the Sun,3
+0.6,Abbey Road,The Beatles,Here Comes the Sun,2
+0.6,Abbey Road,The Beatles,Here Comes the Sun,1
+0.6,Abbey Road,The Beatles,Here Comes the Sun,0
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),31
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),30
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),29
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),28
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),27
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),26
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),25
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),24
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),23
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),22
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),21
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),20
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),19
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),18
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),17
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),16
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),15
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),14
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),13
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),12
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),11
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),10
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),9
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),8
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),7
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),6
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),5
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),4
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),3
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),2
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),1
+0.6,Abbey Road,The Beatles,I Want You (She's So Heavy),0
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,38
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,37
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,36
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,35
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,34
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,33
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,32
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,31
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,30
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,29
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,28
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,27
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,26
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,25
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,24
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,23
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,22
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,21
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,20
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,19
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,18
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,17
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,16
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,15
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,14
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,13
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,12
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,11
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,10
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,9
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,8
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,7
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,6
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,5
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,4
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,3
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,2
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,1
+0.6,Abbey Road,The Beatles,Maxwell's Silver Hammer,0
+0.6,Abbey Road,The Beatles,Mean Mr. Mustard,13
+0.6,Abbey Road,The Beatles,Mean Mr. Mustard,12
+0.6,Abbey Road,The Beatles,Mean Mr. Mustard,11
+0.6,Abbey Road,The Beatles,Mean Mr. Mustard,10
+0.6,Abbey Road,The Beatles,Mean Mr. Mustard,9
+0.6,Abbey Road,The Beatles,Mean Mr. Mustard,8
+0.6,Abbey Road,The Beatles,Mean Mr. Mustard,7
+0.6,Abbey Road,The Beatles,Mean Mr. Mustard,6
+0.6,Abbey Road,The Beatles,Mean Mr. Mustard,5
+0.6,Abbey Road,The Beatles,Mean Mr. Mustard,4
+0.6,Abbey Road,The Beatles,Mean Mr. Mustard,3
+0.6,Abbey Road,The Beatles,Mean Mr. Mustard,2
+0.6,Abbey Road,The Beatles,Mean Mr. Mustard,1
+0.6,Abbey Road,The Beatles,Mean Mr. Mustard,0
+0.6,Abbey Road,The Beatles,Octopus's Garden,25
+0.6,Abbey Road,The Beatles,Octopus's Garden,24
+0.6,Abbey Road,The Beatles,Octopus's Garden,23
+0.6,Abbey Road,The Beatles,Octopus's Garden,22
+0.6,Abbey Road,The Beatles,Octopus's Garden,21
+0.6,Abbey Road,The Beatles,Octopus's Garden,20
+0.6,Abbey Road,The Beatles,Octopus's Garden,19
+0.6,Abbey Road,The Beatles,Octopus's Garden,18
+0.6,Abbey Road,The Beatles,Octopus's Garden,17
+0.6,Abbey Road,The Beatles,Octopus's Garden,16
+0.6,Abbey Road,The Beatles,Octopus's Garden,15
+0.6,Abbey Road,The Beatles,Octopus's Garden,14
+0.6,Abbey Road,The Beatles,Octopus's Garden,13
+0.6,Abbey Road,The Beatles,Octopus's Garden,12
+0.6,Abbey Road,The Beatles,Octopus's Garden,11
+0.6,Abbey Road,The Beatles,Octopus's Garden,10
+0.6,Abbey Road,The Beatles,Octopus's Garden,9
+0.6,Abbey Road,The Beatles,Octopus's Garden,8
+0.6,Abbey Road,The Beatles,Octopus's Garden,7
+0.6,Abbey Road,The Beatles,Octopus's Garden,6
+0.6,Abbey Road,The Beatles,Octopus's Garden,5
+0.6,Abbey Road,The Beatles,Octopus's Garden,4
+0.6,Abbey Road,The Beatles,Octopus's Garden,3
+0.6,Abbey Road,The Beatles,Octopus's Garden,2
+0.6,Abbey Road,The Beatles,Octopus's Garden,1
+0.6,Abbey Road,The Beatles,Octopus's Garden,0
+0.6,Abbey Road,The Beatles,Oh! Darling,24
+0.6,Abbey Road,The Beatles,Oh! Darling,23
+0.6,Abbey Road,The Beatles,Oh! Darling,22
+0.6,Abbey Road,The Beatles,Oh! Darling,21
+0.6,Abbey Road,The Beatles,Oh! Darling,20
+0.6,Abbey Road,The Beatles,Oh! Darling,19
+0.6,Abbey Road,The Beatles,Oh! Darling,18
+0.6,Abbey Road,The Beatles,Oh! Darling,17
+0.6,Abbey Road,The Beatles,Oh! Darling,16
+0.6,Abbey Road,The Beatles,Oh! Darling,15
+0.6,Abbey Road,The Beatles,Oh! Darling,14
+0.6,Abbey Road,The Beatles,Oh! Darling,13
+0.6,Abbey Road,The Beatles,Oh! Darling,12
+0.6,Abbey Road,The Beatles,Oh! Darling,11
+0.6,Abbey Road,The Beatles,Oh! Darling,10
+0.6,Abbey Road,The Beatles,Oh! Darling,9
+0.6,Abbey Road,The Beatles,Oh! Darling,8
+0.6,Abbey Road,The Beatles,Oh! Darling,7
+0.6,Abbey Road,The Beatles,Oh! Darling,6
+0.6,Abbey Road,The Beatles,Oh! Darling,5
+0.6,Abbey Road,The Beatles,Oh! Darling,4
+0.6,Abbey Road,The Beatles,Oh! Darling,3
+0.6,Abbey Road,The Beatles,Oh! Darling,2
+0.6,Abbey Road,The Beatles,Oh! Darling,1
+0.6,Abbey Road,The Beatles,Oh! Darling,0
+0.6,Abbey Road,The Beatles,Polythene Pam,11
+0.6,Abbey Road,The Beatles,Polythene Pam,10
+0.6,Abbey Road,The Beatles,Polythene Pam,9
+0.6,Abbey Road,The Beatles,Polythene Pam,8
+0.6,Abbey Road,The Beatles,Polythene Pam,7
+0.6,Abbey Road,The Beatles,Polythene Pam,6
+0.6,Abbey Road,The Beatles,Polythene Pam,5
+0.6,Abbey Road,The Beatles,Polythene Pam,4
+0.6,Abbey Road,The Beatles,Polythene Pam,3
+0.6,Abbey Road,The Beatles,Polythene Pam,2
+0.6,Abbey Road,The Beatles,Polythene Pam,1
+0.6,Abbey Road,The Beatles,Polythene Pam,0
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,23
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,22
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,21
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,20
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,19
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,18
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,17
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,16
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,15
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,14
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,13
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,12
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,11
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,10
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,9
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,8
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,7
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,6
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,5
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,4
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,3
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,2
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,1
+0.6,Abbey Road,The Beatles,She Came In Through the Bathroom Window,0
+0.6,Abbey Road,The Beatles,Something,18
+0.6,Abbey Road,The Beatles,Something,17
+0.6,Abbey Road,The Beatles,Something,16
+0.6,Abbey Road,The Beatles,Something,15
+0.6,Abbey Road,The Beatles,Something,14
+0.6,Abbey Road,The Beatles,Something,13
+0.6,Abbey Road,The Beatles,Something,12
+0.6,Abbey Road,The Beatles,Something,11
+0.6,Abbey Road,The Beatles,Something,10
+0.6,Abbey Road,The Beatles,Something,9
+0.6,Abbey Road,The Beatles,Something,8
+0.6,Abbey Road,The Beatles,Something,7
+0.6,Abbey Road,The Beatles,Something,6
+0.6,Abbey Road,The Beatles,Something,5
+0.6,Abbey Road,The Beatles,Something,4
+0.6,Abbey Road,The Beatles,Something,3
+0.6,Abbey Road,The Beatles,Something,2
+0.6,Abbey Road,The Beatles,Something,1
+0.6,Abbey Road,The Beatles,Something,0
+0.6,Abbey Road,The Beatles,Sun King,7
+0.6,Abbey Road,The Beatles,Sun King,6
+0.6,Abbey Road,The Beatles,Sun King,5
+0.6,Abbey Road,The Beatles,Sun King,4
+0.6,Abbey Road,The Beatles,Sun King,3
+0.6,Abbey Road,The Beatles,Sun King,2
+0.6,Abbey Road,The Beatles,Sun King,1
+0.6,Abbey Road,The Beatles,Sun King,0
+0.6,Abbey Road,The Beatles,The End,16
+0.6,Abbey Road,The Beatles,The End,15
+0.6,Abbey Road,The Beatles,The End,14
+0.6,Abbey Road,The Beatles,The End,13
+0.6,Abbey Road,The Beatles,The End,12
+0.6,Abbey Road,The Beatles,The End,11
+0.6,Abbey Road,The Beatles,The End,10
+0.6,Abbey Road,The Beatles,The End,9
+0.6,Abbey Road,The Beatles,The End,8
+0.6,Abbey Road,The Beatles,The End,7
+0.6,Abbey Road,The Beatles,The End,6
+0.6,Abbey Road,The Beatles,The End,5
+0.6,Abbey Road,The Beatles,The End,4
+0.6,Abbey Road,The Beatles,The End,3
+0.6,Abbey Road,The Beatles,The End,2
+0.6,Abbey Road,The Beatles,The End,1
+0.6,Abbey Road,The Beatles,The End,0
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,46
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,45
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,44
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,43
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,42
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,41
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,40
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,39
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,38
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,37
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,36
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,35
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,34
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,33
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,32
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,31
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,30
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,29
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,28
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,27
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,26
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,25
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,24
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,23
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,22
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,21
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,20
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,19
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,18
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,17
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,16
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,15
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,14
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,13
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,12
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,11
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,10
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,9
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,8
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,7
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,6
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,5
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,4
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,3
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,2
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,1
+0.6,Abbey Road,The Beatles,You Never Give Me Your Money,0
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,27
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,26
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,25
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,24
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,23
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,22
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,21
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,20
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,19
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,18
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,17
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,16
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,15
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,14
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,13
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,12
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,11
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,10
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,9
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,8
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,7
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,6
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,5
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,4
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,3
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,2
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,1
+0.6,The Dark Side of the Moon,Pink Floyd,Brain Damage,0
+0.6,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),15
+0.6,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),14
+0.6,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),13
+0.6,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),12
+0.6,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),11
+0.6,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),10
+0.6,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),9
+0.6,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),8
+0.6,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),7
+0.6,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),6
+0.6,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),5
+0.6,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),4
+0.6,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),3
+0.6,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),2
+0.6,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),1
+0.6,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),0
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,43
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,42
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,41
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,40
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,39
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,38
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,37
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,36
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,35
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,34
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,33
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,32
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,31
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,30
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,29
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,28
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,27
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,26
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,25
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,24
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,23
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,22
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,21
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,20
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,19
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,18
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,17
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,16
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,15
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,14
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,13
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,12
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,11
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,10
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,9
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,8
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,7
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,6
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,5
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,4
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,3
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,2
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,1
+0.6,The Dark Side of the Moon,Pink Floyd,Eclipse,0
+0.6,The Dark Side of the Moon,Pink Floyd,Money,38
+0.6,The Dark Side of the Moon,Pink Floyd,Money,37
+0.6,The Dark Side of the Moon,Pink Floyd,Money,36
+0.6,The Dark Side of the Moon,Pink Floyd,Money,35
+0.6,The Dark Side of the Moon,Pink Floyd,Money,34
+0.6,The Dark Side of the Moon,Pink Floyd,Money,33
+0.6,The Dark Side of the Moon,Pink Floyd,Money,32
+0.6,The Dark Side of the Moon,Pink Floyd,Money,31
+0.6,The Dark Side of the Moon,Pink Floyd,Money,30
+0.6,The Dark Side of the Moon,Pink Floyd,Money,29
+0.6,The Dark Side of the Moon,Pink Floyd,Money,28
+0.6,The Dark Side of the Moon,Pink Floyd,Money,27
+0.6,The Dark Side of the Moon,Pink Floyd,Money,26
+0.6,The Dark Side of the Moon,Pink Floyd,Money,25
+0.6,The Dark Side of the Moon,Pink Floyd,Money,24
+0.6,The Dark Side of the Moon,Pink Floyd,Money,23
+0.6,The Dark Side of the Moon,Pink Floyd,Money,22
+0.6,The Dark Side of the Moon,Pink Floyd,Money,21
+0.6,The Dark Side of the Moon,Pink Floyd,Money,20
+0.6,The Dark Side of the Moon,Pink Floyd,Money,19
+0.6,The Dark Side of the Moon,Pink Floyd,Money,18
+0.6,The Dark Side of the Moon,Pink Floyd,Money,17
+0.6,The Dark Side of the Moon,Pink Floyd,Money,16
+0.6,The Dark Side of the Moon,Pink Floyd,Money,15
+0.6,The Dark Side of the Moon,Pink Floyd,Money,14
+0.6,The Dark Side of the Moon,Pink Floyd,Money,13
+0.6,The Dark Side of the Moon,Pink Floyd,Money,12
+0.6,The Dark Side of the Moon,Pink Floyd,Money,11
+0.6,The Dark Side of the Moon,Pink Floyd,Money,10
+0.6,The Dark Side of the Moon,Pink Floyd,Money,9
+0.6,The Dark Side of the Moon,Pink Floyd,Money,8
+0.6,The Dark Side of the Moon,Pink Floyd,Money,7
+0.6,The Dark Side of the Moon,Pink Floyd,Money,6
+0.6,The Dark Side of the Moon,Pink Floyd,Money,5
+0.6,The Dark Side of the Moon,Pink Floyd,Money,4
+0.6,The Dark Side of the Moon,Pink Floyd,Money,3
+0.6,The Dark Side of the Moon,Pink Floyd,Money,2
+0.6,The Dark Side of the Moon,Pink Floyd,Money,1
+0.6,The Dark Side of the Moon,Pink Floyd,Money,0
+0.6,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,5
+0.6,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,4
+0.6,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,3
+0.6,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,2
+0.6,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,1
+0.6,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,0
+0.6,The Dark Side of the Moon,Pink Floyd,Time,42
+0.6,The Dark Side of the Moon,Pink Floyd,Time,41
+0.6,The Dark Side of the Moon,Pink Floyd,Time,40
+0.6,The Dark Side of the Moon,Pink Floyd,Time,39
+0.6,The Dark Side of the Moon,Pink Floyd,Time,38
+0.6,The Dark Side of the Moon,Pink Floyd,Time,37
+0.6,The Dark Side of the Moon,Pink Floyd,Time,36
+0.6,The Dark Side of the Moon,Pink Floyd,Time,35
+0.6,The Dark Side of the Moon,Pink Floyd,Time,34
+0.6,The Dark Side of the Moon,Pink Floyd,Time,33
+0.6,The Dark Side of the Moon,Pink Floyd,Time,32
+0.6,The Dark Side of the Moon,Pink Floyd,Time,31
+0.6,The Dark Side of the Moon,Pink Floyd,Time,30
+0.6,The Dark Side of the Moon,Pink Floyd,Time,29
+0.6,The Dark Side of the Moon,Pink Floyd,Time,28
+0.6,The Dark Side of the Moon,Pink Floyd,Time,27
+0.6,The Dark Side of the Moon,Pink Floyd,Time,26
+0.6,The Dark Side of the Moon,Pink Floyd,Time,25
+0.6,The Dark Side of the Moon,Pink Floyd,Time,24
+0.6,The Dark Side of the Moon,Pink Floyd,Time,23
+0.6,The Dark Side of the Moon,Pink Floyd,Time,22
+0.6,The Dark Side of the Moon,Pink Floyd,Time,21
+0.6,The Dark Side of the Moon,Pink Floyd,Time,20
+0.6,The Dark Side of the Moon,Pink Floyd,Time,19
+0.6,The Dark Side of the Moon,Pink Floyd,Time,18
+0.6,The Dark Side of the Moon,Pink Floyd,Time,17
+0.6,The Dark Side of the Moon,Pink Floyd,Time,16
+0.6,The Dark Side of the Moon,Pink Floyd,Time,15
+0.6,The Dark Side of the Moon,Pink Floyd,Time,14
+0.6,The Dark Side of the Moon,Pink Floyd,Time,13
+0.6,The Dark Side of the Moon,Pink Floyd,Time,12
+0.6,The Dark Side of the Moon,Pink Floyd,Time,11
+0.6,The Dark Side of the Moon,Pink Floyd,Time,10
+0.6,The Dark Side of the Moon,Pink Floyd,Time,9
+0.6,The Dark Side of the Moon,Pink Floyd,Time,8
+0.6,The Dark Side of the Moon,Pink Floyd,Time,7
+0.6,The Dark Side of the Moon,Pink Floyd,Time,6
+0.6,The Dark Side of the Moon,Pink Floyd,Time,5
+0.6,The Dark Side of the Moon,Pink Floyd,Time,4
+0.6,The Dark Side of the Moon,Pink Floyd,Time,3
+0.6,The Dark Side of the Moon,Pink Floyd,Time,2
+0.6,The Dark Side of the Moon,Pink Floyd,Time,1
+0.6,The Dark Side of the Moon,Pink Floyd,Time,0
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,31
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,30
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,29
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,28
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,27
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,26
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,25
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,24
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,23
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,22
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,21
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,20
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,19
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,18
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,17
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,16
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,15
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,14
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,13
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,12
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,11
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,10
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,9
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,8
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,7
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,6
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,5
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,4
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,3
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,2
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,1
+0.6,The Dark Side of the Moon,Pink Floyd,Us and Them,0
+0.65,Abbey Road,The Beatles,Because,19
+0.65,Abbey Road,The Beatles,Because,18
+0.65,Abbey Road,The Beatles,Because,17
+0.65,Abbey Road,The Beatles,Because,16
+0.65,Abbey Road,The Beatles,Because,15
+0.65,Abbey Road,The Beatles,Because,14
+0.65,Abbey Road,The Beatles,Because,13
+0.65,Abbey Road,The Beatles,Because,12
+0.65,Abbey Road,The Beatles,Because,11
+0.65,Abbey Road,The Beatles,Because,10
+0.65,Abbey Road,The Beatles,Because,9
+0.65,Abbey Road,The Beatles,Because,8
+0.65,Abbey Road,The Beatles,Because,7
+0.65,Abbey Road,The Beatles,Because,6
+0.65,Abbey Road,The Beatles,Because,5
+0.65,Abbey Road,The Beatles,Because,4
+0.65,Abbey Road,The Beatles,Because,3
+0.65,Abbey Road,The Beatles,Because,2
+0.65,Abbey Road,The Beatles,Because,1
+0.65,Abbey Road,The Beatles,Because,0
+0.65,Abbey Road,The Beatles,Carry That Weight,11
+0.65,Abbey Road,The Beatles,Carry That Weight,10
+0.65,Abbey Road,The Beatles,Carry That Weight,9
+0.65,Abbey Road,The Beatles,Carry That Weight,8
+0.65,Abbey Road,The Beatles,Carry That Weight,7
+0.65,Abbey Road,The Beatles,Carry That Weight,6
+0.65,Abbey Road,The Beatles,Carry That Weight,5
+0.65,Abbey Road,The Beatles,Carry That Weight,4
+0.65,Abbey Road,The Beatles,Carry That Weight,3
+0.65,Abbey Road,The Beatles,Carry That Weight,2
+0.65,Abbey Road,The Beatles,Carry That Weight,1
+0.65,Abbey Road,The Beatles,Carry That Weight,0
+0.65,Abbey Road,The Beatles,Come Together,50
+0.65,Abbey Road,The Beatles,Come Together,49
+0.65,Abbey Road,The Beatles,Come Together,48
+0.65,Abbey Road,The Beatles,Come Together,47
+0.65,Abbey Road,The Beatles,Come Together,46
+0.65,Abbey Road,The Beatles,Come Together,45
+0.65,Abbey Road,The Beatles,Come Together,44
+0.65,Abbey Road,The Beatles,Come Together,43
+0.65,Abbey Road,The Beatles,Come Together,42
+0.65,Abbey Road,The Beatles,Come Together,41
+0.65,Abbey Road,The Beatles,Come Together,40
+0.65,Abbey Road,The Beatles,Come Together,39
+0.65,Abbey Road,The Beatles,Come Together,38
+0.65,Abbey Road,The Beatles,Come Together,37
+0.65,Abbey Road,The Beatles,Come Together,36
+0.65,Abbey Road,The Beatles,Come Together,35
+0.65,Abbey Road,The Beatles,Come Together,34
+0.65,Abbey Road,The Beatles,Come Together,33
+0.65,Abbey Road,The Beatles,Come Together,32
+0.65,Abbey Road,The Beatles,Come Together,31
+0.65,Abbey Road,The Beatles,Come Together,30
+0.65,Abbey Road,The Beatles,Come Together,29
+0.65,Abbey Road,The Beatles,Come Together,28
+0.65,Abbey Road,The Beatles,Come Together,27
+0.65,Abbey Road,The Beatles,Come Together,26
+0.65,Abbey Road,The Beatles,Come Together,25
+0.65,Abbey Road,The Beatles,Come Together,24
+0.65,Abbey Road,The Beatles,Come Together,23
+0.65,Abbey Road,The Beatles,Come Together,22
+0.65,Abbey Road,The Beatles,Come Together,21
+0.65,Abbey Road,The Beatles,Come Together,20
+0.65,Abbey Road,The Beatles,Come Together,19
+0.65,Abbey Road,The Beatles,Come Together,18
+0.65,Abbey Road,The Beatles,Come Together,17
+0.65,Abbey Road,The Beatles,Come Together,16
+0.65,Abbey Road,The Beatles,Come Together,15
+0.65,Abbey Road,The Beatles,Come Together,14
+0.65,Abbey Road,The Beatles,Come Together,13
+0.65,Abbey Road,The Beatles,Come Together,12
+0.65,Abbey Road,The Beatles,Come Together,11
+0.65,Abbey Road,The Beatles,Come Together,10
+0.65,Abbey Road,The Beatles,Come Together,9
+0.65,Abbey Road,The Beatles,Come Together,8
+0.65,Abbey Road,The Beatles,Come Together,7
+0.65,Abbey Road,The Beatles,Come Together,6
+0.65,Abbey Road,The Beatles,Come Together,5
+0.65,Abbey Road,The Beatles,Come Together,4
+0.65,Abbey Road,The Beatles,Come Together,3
+0.65,Abbey Road,The Beatles,Come Together,2
+0.65,Abbey Road,The Beatles,Come Together,1
+0.65,Abbey Road,The Beatles,Come Together,0
+0.65,Abbey Road,The Beatles,Golden Slumbers,11
+0.65,Abbey Road,The Beatles,Golden Slumbers,10
+0.65,Abbey Road,The Beatles,Golden Slumbers,9
+0.65,Abbey Road,The Beatles,Golden Slumbers,8
+0.65,Abbey Road,The Beatles,Golden Slumbers,7
+0.65,Abbey Road,The Beatles,Golden Slumbers,6
+0.65,Abbey Road,The Beatles,Golden Slumbers,5
+0.65,Abbey Road,The Beatles,Golden Slumbers,4
+0.65,Abbey Road,The Beatles,Golden Slumbers,3
+0.65,Abbey Road,The Beatles,Golden Slumbers,2
+0.65,Abbey Road,The Beatles,Golden Slumbers,1
+0.65,Abbey Road,The Beatles,Golden Slumbers,0
+0.65,Abbey Road,The Beatles,Her Majesty,4
+0.65,Abbey Road,The Beatles,Her Majesty,3
+0.65,Abbey Road,The Beatles,Her Majesty,2
+0.65,Abbey Road,The Beatles,Her Majesty,1
+0.65,Abbey Road,The Beatles,Her Majesty,0
+0.65,Abbey Road,The Beatles,Here Comes the Sun,39
+0.65,Abbey Road,The Beatles,Here Comes the Sun,38
+0.65,Abbey Road,The Beatles,Here Comes the Sun,37
+0.65,Abbey Road,The Beatles,Here Comes the Sun,36
+0.65,Abbey Road,The Beatles,Here Comes the Sun,35
+0.65,Abbey Road,The Beatles,Here Comes the Sun,34
+0.65,Abbey Road,The Beatles,Here Comes the Sun,33
+0.65,Abbey Road,The Beatles,Here Comes the Sun,32
+0.65,Abbey Road,The Beatles,Here Comes the Sun,31
+0.65,Abbey Road,The Beatles,Here Comes the Sun,30
+0.65,Abbey Road,The Beatles,Here Comes the Sun,29
+0.65,Abbey Road,The Beatles,Here Comes the Sun,28
+0.65,Abbey Road,The Beatles,Here Comes the Sun,27
+0.65,Abbey Road,The Beatles,Here Comes the Sun,26
+0.65,Abbey Road,The Beatles,Here Comes the Sun,25
+0.65,Abbey Road,The Beatles,Here Comes the Sun,24
+0.65,Abbey Road,The Beatles,Here Comes the Sun,23
+0.65,Abbey Road,The Beatles,Here Comes the Sun,22
+0.65,Abbey Road,The Beatles,Here Comes the Sun,21
+0.65,Abbey Road,The Beatles,Here Comes the Sun,20
+0.65,Abbey Road,The Beatles,Here Comes the Sun,19
+0.65,Abbey Road,The Beatles,Here Comes the Sun,18
+0.65,Abbey Road,The Beatles,Here Comes the Sun,17
+0.65,Abbey Road,The Beatles,Here Comes the Sun,16
+0.65,Abbey Road,The Beatles,Here Comes the Sun,15
+0.65,Abbey Road,The Beatles,Here Comes the Sun,14
+0.65,Abbey Road,The Beatles,Here Comes the Sun,13
+0.65,Abbey Road,The Beatles,Here Comes the Sun,12
+0.65,Abbey Road,The Beatles,Here Comes the Sun,11
+0.65,Abbey Road,The Beatles,Here Comes the Sun,10
+0.65,Abbey Road,The Beatles,Here Comes the Sun,9
+0.65,Abbey Road,The Beatles,Here Comes the Sun,8
+0.65,Abbey Road,The Beatles,Here Comes the Sun,7
+0.65,Abbey Road,The Beatles,Here Comes the Sun,6
+0.65,Abbey Road,The Beatles,Here Comes the Sun,5
+0.65,Abbey Road,The Beatles,Here Comes the Sun,4
+0.65,Abbey Road,The Beatles,Here Comes the Sun,3
+0.65,Abbey Road,The Beatles,Here Comes the Sun,2
+0.65,Abbey Road,The Beatles,Here Comes the Sun,1
+0.65,Abbey Road,The Beatles,Here Comes the Sun,0
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),31
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),30
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),29
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),28
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),27
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),26
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),25
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),24
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),23
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),22
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),21
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),20
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),19
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),18
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),17
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),16
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),15
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),14
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),13
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),12
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),11
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),10
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),9
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),8
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),7
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),6
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),5
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),4
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),3
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),2
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),1
+0.65,Abbey Road,The Beatles,I Want You (She's So Heavy),0
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,38
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,37
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,36
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,35
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,34
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,33
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,32
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,31
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,30
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,29
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,28
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,27
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,26
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,25
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,24
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,23
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,22
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,21
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,20
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,19
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,18
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,17
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,16
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,15
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,14
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,13
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,12
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,11
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,10
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,9
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,8
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,7
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,6
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,5
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,4
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,3
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,2
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,1
+0.65,Abbey Road,The Beatles,Maxwell's Silver Hammer,0
+0.65,Abbey Road,The Beatles,Mean Mr. Mustard,13
+0.65,Abbey Road,The Beatles,Mean Mr. Mustard,12
+0.65,Abbey Road,The Beatles,Mean Mr. Mustard,11
+0.65,Abbey Road,The Beatles,Mean Mr. Mustard,10
+0.65,Abbey Road,The Beatles,Mean Mr. Mustard,9
+0.65,Abbey Road,The Beatles,Mean Mr. Mustard,8
+0.65,Abbey Road,The Beatles,Mean Mr. Mustard,7
+0.65,Abbey Road,The Beatles,Mean Mr. Mustard,6
+0.65,Abbey Road,The Beatles,Mean Mr. Mustard,5
+0.65,Abbey Road,The Beatles,Mean Mr. Mustard,4
+0.65,Abbey Road,The Beatles,Mean Mr. Mustard,3
+0.65,Abbey Road,The Beatles,Mean Mr. Mustard,2
+0.65,Abbey Road,The Beatles,Mean Mr. Mustard,1
+0.65,Abbey Road,The Beatles,Mean Mr. Mustard,0
+0.65,Abbey Road,The Beatles,Octopus's Garden,25
+0.65,Abbey Road,The Beatles,Octopus's Garden,24
+0.65,Abbey Road,The Beatles,Octopus's Garden,23
+0.65,Abbey Road,The Beatles,Octopus's Garden,22
+0.65,Abbey Road,The Beatles,Octopus's Garden,21
+0.65,Abbey Road,The Beatles,Octopus's Garden,20
+0.65,Abbey Road,The Beatles,Octopus's Garden,19
+0.65,Abbey Road,The Beatles,Octopus's Garden,18
+0.65,Abbey Road,The Beatles,Octopus's Garden,17
+0.65,Abbey Road,The Beatles,Octopus's Garden,16
+0.65,Abbey Road,The Beatles,Octopus's Garden,15
+0.65,Abbey Road,The Beatles,Octopus's Garden,14
+0.65,Abbey Road,The Beatles,Octopus's Garden,13
+0.65,Abbey Road,The Beatles,Octopus's Garden,12
+0.65,Abbey Road,The Beatles,Octopus's Garden,11
+0.65,Abbey Road,The Beatles,Octopus's Garden,10
+0.65,Abbey Road,The Beatles,Octopus's Garden,9
+0.65,Abbey Road,The Beatles,Octopus's Garden,8
+0.65,Abbey Road,The Beatles,Octopus's Garden,7
+0.65,Abbey Road,The Beatles,Octopus's Garden,6
+0.65,Abbey Road,The Beatles,Octopus's Garden,5
+0.65,Abbey Road,The Beatles,Octopus's Garden,4
+0.65,Abbey Road,The Beatles,Octopus's Garden,3
+0.65,Abbey Road,The Beatles,Octopus's Garden,2
+0.65,Abbey Road,The Beatles,Octopus's Garden,1
+0.65,Abbey Road,The Beatles,Octopus's Garden,0
+0.65,Abbey Road,The Beatles,Oh! Darling,24
+0.65,Abbey Road,The Beatles,Oh! Darling,23
+0.65,Abbey Road,The Beatles,Oh! Darling,22
+0.65,Abbey Road,The Beatles,Oh! Darling,21
+0.65,Abbey Road,The Beatles,Oh! Darling,20
+0.65,Abbey Road,The Beatles,Oh! Darling,19
+0.65,Abbey Road,The Beatles,Oh! Darling,18
+0.65,Abbey Road,The Beatles,Oh! Darling,17
+0.65,Abbey Road,The Beatles,Oh! Darling,16
+0.65,Abbey Road,The Beatles,Oh! Darling,15
+0.65,Abbey Road,The Beatles,Oh! Darling,14
+0.65,Abbey Road,The Beatles,Oh! Darling,13
+0.65,Abbey Road,The Beatles,Oh! Darling,12
+0.65,Abbey Road,The Beatles,Oh! Darling,11
+0.65,Abbey Road,The Beatles,Oh! Darling,10
+0.65,Abbey Road,The Beatles,Oh! Darling,9
+0.65,Abbey Road,The Beatles,Oh! Darling,8
+0.65,Abbey Road,The Beatles,Oh! Darling,7
+0.65,Abbey Road,The Beatles,Oh! Darling,6
+0.65,Abbey Road,The Beatles,Oh! Darling,5
+0.65,Abbey Road,The Beatles,Oh! Darling,4
+0.65,Abbey Road,The Beatles,Oh! Darling,3
+0.65,Abbey Road,The Beatles,Oh! Darling,2
+0.65,Abbey Road,The Beatles,Oh! Darling,1
+0.65,Abbey Road,The Beatles,Oh! Darling,0
+0.65,Abbey Road,The Beatles,Polythene Pam,11
+0.65,Abbey Road,The Beatles,Polythene Pam,10
+0.65,Abbey Road,The Beatles,Polythene Pam,9
+0.65,Abbey Road,The Beatles,Polythene Pam,8
+0.65,Abbey Road,The Beatles,Polythene Pam,7
+0.65,Abbey Road,The Beatles,Polythene Pam,6
+0.65,Abbey Road,The Beatles,Polythene Pam,5
+0.65,Abbey Road,The Beatles,Polythene Pam,4
+0.65,Abbey Road,The Beatles,Polythene Pam,3
+0.65,Abbey Road,The Beatles,Polythene Pam,2
+0.65,Abbey Road,The Beatles,Polythene Pam,1
+0.65,Abbey Road,The Beatles,Polythene Pam,0
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,23
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,22
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,21
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,20
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,19
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,18
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,17
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,16
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,15
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,14
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,13
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,12
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,11
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,10
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,9
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,8
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,7
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,6
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,5
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,4
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,3
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,2
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,1
+0.65,Abbey Road,The Beatles,She Came In Through the Bathroom Window,0
+0.65,Abbey Road,The Beatles,Something,18
+0.65,Abbey Road,The Beatles,Something,17
+0.65,Abbey Road,The Beatles,Something,16
+0.65,Abbey Road,The Beatles,Something,15
+0.65,Abbey Road,The Beatles,Something,14
+0.65,Abbey Road,The Beatles,Something,13
+0.65,Abbey Road,The Beatles,Something,12
+0.65,Abbey Road,The Beatles,Something,11
+0.65,Abbey Road,The Beatles,Something,10
+0.65,Abbey Road,The Beatles,Something,9
+0.65,Abbey Road,The Beatles,Something,8
+0.65,Abbey Road,The Beatles,Something,7
+0.65,Abbey Road,The Beatles,Something,6
+0.65,Abbey Road,The Beatles,Something,5
+0.65,Abbey Road,The Beatles,Something,4
+0.65,Abbey Road,The Beatles,Something,3
+0.65,Abbey Road,The Beatles,Something,2
+0.65,Abbey Road,The Beatles,Something,1
+0.65,Abbey Road,The Beatles,Something,0
+0.65,Abbey Road,The Beatles,Sun King,7
+0.65,Abbey Road,The Beatles,Sun King,6
+0.65,Abbey Road,The Beatles,Sun King,5
+0.65,Abbey Road,The Beatles,Sun King,4
+0.65,Abbey Road,The Beatles,Sun King,3
+0.65,Abbey Road,The Beatles,Sun King,2
+0.65,Abbey Road,The Beatles,Sun King,1
+0.65,Abbey Road,The Beatles,Sun King,0
+0.65,Abbey Road,The Beatles,The End,16
+0.65,Abbey Road,The Beatles,The End,15
+0.65,Abbey Road,The Beatles,The End,14
+0.65,Abbey Road,The Beatles,The End,13
+0.65,Abbey Road,The Beatles,The End,12
+0.65,Abbey Road,The Beatles,The End,11
+0.65,Abbey Road,The Beatles,The End,10
+0.65,Abbey Road,The Beatles,The End,9
+0.65,Abbey Road,The Beatles,The End,8
+0.65,Abbey Road,The Beatles,The End,7
+0.65,Abbey Road,The Beatles,The End,6
+0.65,Abbey Road,The Beatles,The End,5
+0.65,Abbey Road,The Beatles,The End,4
+0.65,Abbey Road,The Beatles,The End,3
+0.65,Abbey Road,The Beatles,The End,2
+0.65,Abbey Road,The Beatles,The End,1
+0.65,Abbey Road,The Beatles,The End,0
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,46
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,45
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,44
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,43
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,42
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,41
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,40
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,39
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,38
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,37
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,36
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,35
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,34
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,33
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,32
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,31
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,30
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,29
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,28
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,27
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,26
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,25
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,24
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,23
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,22
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,21
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,20
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,19
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,18
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,17
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,16
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,15
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,14
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,13
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,12
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,11
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,10
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,9
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,8
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,7
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,6
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,5
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,4
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,3
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,2
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,1
+0.65,Abbey Road,The Beatles,You Never Give Me Your Money,0
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,27
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,26
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,25
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,24
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,23
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,22
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,21
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,20
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,19
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,18
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,17
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,16
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,15
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,14
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,13
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,12
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,11
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,10
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,9
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,8
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,7
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,6
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,5
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,4
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,3
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,2
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,1
+0.65,The Dark Side of the Moon,Pink Floyd,Brain Damage,0
+0.65,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),15
+0.65,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),14
+0.65,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),13
+0.65,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),12
+0.65,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),11
+0.65,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),10
+0.65,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),9
+0.65,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),8
+0.65,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),7
+0.65,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),6
+0.65,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),5
+0.65,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),4
+0.65,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),3
+0.65,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),2
+0.65,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),1
+0.65,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),0
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,43
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,42
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,41
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,40
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,39
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,38
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,37
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,36
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,35
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,34
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,33
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,32
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,31
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,30
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,29
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,28
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,27
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,26
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,25
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,24
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,23
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,22
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,21
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,20
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,19
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,18
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,17
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,16
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,15
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,14
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,13
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,12
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,11
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,10
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,9
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,8
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,7
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,6
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,5
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,4
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,3
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,2
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,1
+0.65,The Dark Side of the Moon,Pink Floyd,Eclipse,0
+0.65,The Dark Side of the Moon,Pink Floyd,Money,38
+0.65,The Dark Side of the Moon,Pink Floyd,Money,37
+0.65,The Dark Side of the Moon,Pink Floyd,Money,36
+0.65,The Dark Side of the Moon,Pink Floyd,Money,35
+0.65,The Dark Side of the Moon,Pink Floyd,Money,34
+0.65,The Dark Side of the Moon,Pink Floyd,Money,33
+0.65,The Dark Side of the Moon,Pink Floyd,Money,32
+0.65,The Dark Side of the Moon,Pink Floyd,Money,31
+0.65,The Dark Side of the Moon,Pink Floyd,Money,30
+0.65,The Dark Side of the Moon,Pink Floyd,Money,29
+0.65,The Dark Side of the Moon,Pink Floyd,Money,28
+0.65,The Dark Side of the Moon,Pink Floyd,Money,27
+0.65,The Dark Side of the Moon,Pink Floyd,Money,26
+0.65,The Dark Side of the Moon,Pink Floyd,Money,25
+0.65,The Dark Side of the Moon,Pink Floyd,Money,24
+0.65,The Dark Side of the Moon,Pink Floyd,Money,23
+0.65,The Dark Side of the Moon,Pink Floyd,Money,22
+0.65,The Dark Side of the Moon,Pink Floyd,Money,21
+0.65,The Dark Side of the Moon,Pink Floyd,Money,20
+0.65,The Dark Side of the Moon,Pink Floyd,Money,19
+0.65,The Dark Side of the Moon,Pink Floyd,Money,18
+0.65,The Dark Side of the Moon,Pink Floyd,Money,17
+0.65,The Dark Side of the Moon,Pink Floyd,Money,16
+0.65,The Dark Side of the Moon,Pink Floyd,Money,15
+0.65,The Dark Side of the Moon,Pink Floyd,Money,14
+0.65,The Dark Side of the Moon,Pink Floyd,Money,13
+0.65,The Dark Side of the Moon,Pink Floyd,Money,12
+0.65,The Dark Side of the Moon,Pink Floyd,Money,11
+0.65,The Dark Side of the Moon,Pink Floyd,Money,10
+0.65,The Dark Side of the Moon,Pink Floyd,Money,9
+0.65,The Dark Side of the Moon,Pink Floyd,Money,8
+0.65,The Dark Side of the Moon,Pink Floyd,Money,7
+0.65,The Dark Side of the Moon,Pink Floyd,Money,6
+0.65,The Dark Side of the Moon,Pink Floyd,Money,5
+0.65,The Dark Side of the Moon,Pink Floyd,Money,4
+0.65,The Dark Side of the Moon,Pink Floyd,Money,3
+0.65,The Dark Side of the Moon,Pink Floyd,Money,2
+0.65,The Dark Side of the Moon,Pink Floyd,Money,1
+0.65,The Dark Side of the Moon,Pink Floyd,Money,0
+0.65,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,5
+0.65,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,4
+0.65,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,3
+0.65,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,2
+0.65,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,1
+0.65,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,0
+0.65,The Dark Side of the Moon,Pink Floyd,Time,42
+0.65,The Dark Side of the Moon,Pink Floyd,Time,41
+0.65,The Dark Side of the Moon,Pink Floyd,Time,40
+0.65,The Dark Side of the Moon,Pink Floyd,Time,39
+0.65,The Dark Side of the Moon,Pink Floyd,Time,38
+0.65,The Dark Side of the Moon,Pink Floyd,Time,37
+0.65,The Dark Side of the Moon,Pink Floyd,Time,36
+0.65,The Dark Side of the Moon,Pink Floyd,Time,35
+0.65,The Dark Side of the Moon,Pink Floyd,Time,34
+0.65,The Dark Side of the Moon,Pink Floyd,Time,33
+0.65,The Dark Side of the Moon,Pink Floyd,Time,32
+0.65,The Dark Side of the Moon,Pink Floyd,Time,31
+0.65,The Dark Side of the Moon,Pink Floyd,Time,30
+0.65,The Dark Side of the Moon,Pink Floyd,Time,29
+0.65,The Dark Side of the Moon,Pink Floyd,Time,28
+0.65,The Dark Side of the Moon,Pink Floyd,Time,27
+0.65,The Dark Side of the Moon,Pink Floyd,Time,26
+0.65,The Dark Side of the Moon,Pink Floyd,Time,25
+0.65,The Dark Side of the Moon,Pink Floyd,Time,24
+0.65,The Dark Side of the Moon,Pink Floyd,Time,23
+0.65,The Dark Side of the Moon,Pink Floyd,Time,22
+0.65,The Dark Side of the Moon,Pink Floyd,Time,21
+0.65,The Dark Side of the Moon,Pink Floyd,Time,20
+0.65,The Dark Side of the Moon,Pink Floyd,Time,19
+0.65,The Dark Side of the Moon,Pink Floyd,Time,18
+0.65,The Dark Side of the Moon,Pink Floyd,Time,17
+0.65,The Dark Side of the Moon,Pink Floyd,Time,16
+0.65,The Dark Side of the Moon,Pink Floyd,Time,15
+0.65,The Dark Side of the Moon,Pink Floyd,Time,14
+0.65,The Dark Side of the Moon,Pink Floyd,Time,13
+0.65,The Dark Side of the Moon,Pink Floyd,Time,12
+0.65,The Dark Side of the Moon,Pink Floyd,Time,11
+0.65,The Dark Side of the Moon,Pink Floyd,Time,10
+0.65,The Dark Side of the Moon,Pink Floyd,Time,9
+0.65,The Dark Side of the Moon,Pink Floyd,Time,8
+0.65,The Dark Side of the Moon,Pink Floyd,Time,7
+0.65,The Dark Side of the Moon,Pink Floyd,Time,6
+0.65,The Dark Side of the Moon,Pink Floyd,Time,5
+0.65,The Dark Side of the Moon,Pink Floyd,Time,4
+0.65,The Dark Side of the Moon,Pink Floyd,Time,3
+0.65,The Dark Side of the Moon,Pink Floyd,Time,2
+0.65,The Dark Side of the Moon,Pink Floyd,Time,1
+0.65,The Dark Side of the Moon,Pink Floyd,Time,0
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,31
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,30
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,29
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,28
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,27
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,26
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,25
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,24
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,23
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,22
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,21
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,20
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,19
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,18
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,17
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,16
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,15
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,14
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,13
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,12
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,11
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,10
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,9
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,8
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,7
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,6
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,5
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,4
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,3
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,2
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,1
+0.65,The Dark Side of the Moon,Pink Floyd,Us and Them,0
+0.7,Abbey Road,The Beatles,Because,19
+0.7,Abbey Road,The Beatles,Because,18
+0.7,Abbey Road,The Beatles,Because,17
+0.7,Abbey Road,The Beatles,Because,16
+0.7,Abbey Road,The Beatles,Because,15
+0.7,Abbey Road,The Beatles,Because,14
+0.7,Abbey Road,The Beatles,Because,13
+0.7,Abbey Road,The Beatles,Because,12
+0.7,Abbey Road,The Beatles,Because,11
+0.7,Abbey Road,The Beatles,Because,10
+0.7,Abbey Road,The Beatles,Because,9
+0.7,Abbey Road,The Beatles,Because,8
+0.7,Abbey Road,The Beatles,Because,7
+0.7,Abbey Road,The Beatles,Because,6
+0.7,Abbey Road,The Beatles,Because,5
+0.7,Abbey Road,The Beatles,Because,4
+0.7,Abbey Road,The Beatles,Because,3
+0.7,Abbey Road,The Beatles,Because,2
+0.7,Abbey Road,The Beatles,Because,1
+0.7,Abbey Road,The Beatles,Because,0
+0.7,Abbey Road,The Beatles,Carry That Weight,11
+0.7,Abbey Road,The Beatles,Carry That Weight,10
+0.7,Abbey Road,The Beatles,Carry That Weight,9
+0.7,Abbey Road,The Beatles,Carry That Weight,8
+0.7,Abbey Road,The Beatles,Carry That Weight,7
+0.7,Abbey Road,The Beatles,Carry That Weight,6
+0.7,Abbey Road,The Beatles,Carry That Weight,5
+0.7,Abbey Road,The Beatles,Carry That Weight,4
+0.7,Abbey Road,The Beatles,Carry That Weight,3
+0.7,Abbey Road,The Beatles,Carry That Weight,2
+0.7,Abbey Road,The Beatles,Carry That Weight,1
+0.7,Abbey Road,The Beatles,Carry That Weight,0
+0.7,Abbey Road,The Beatles,Come Together,50
+0.7,Abbey Road,The Beatles,Come Together,49
+0.7,Abbey Road,The Beatles,Come Together,48
+0.7,Abbey Road,The Beatles,Come Together,47
+0.7,Abbey Road,The Beatles,Come Together,46
+0.7,Abbey Road,The Beatles,Come Together,45
+0.7,Abbey Road,The Beatles,Come Together,44
+0.7,Abbey Road,The Beatles,Come Together,43
+0.7,Abbey Road,The Beatles,Come Together,42
+0.7,Abbey Road,The Beatles,Come Together,41
+0.7,Abbey Road,The Beatles,Come Together,40
+0.7,Abbey Road,The Beatles,Come Together,39
+0.7,Abbey Road,The Beatles,Come Together,38
+0.7,Abbey Road,The Beatles,Come Together,37
+0.7,Abbey Road,The Beatles,Come Together,36
+0.7,Abbey Road,The Beatles,Come Together,35
+0.7,Abbey Road,The Beatles,Come Together,34
+0.7,Abbey Road,The Beatles,Come Together,33
+0.7,Abbey Road,The Beatles,Come Together,32
+0.7,Abbey Road,The Beatles,Come Together,31
+0.7,Abbey Road,The Beatles,Come Together,30
+0.7,Abbey Road,The Beatles,Come Together,29
+0.7,Abbey Road,The Beatles,Come Together,28
+0.7,Abbey Road,The Beatles,Come Together,27
+0.7,Abbey Road,The Beatles,Come Together,26
+0.7,Abbey Road,The Beatles,Come Together,25
+0.7,Abbey Road,The Beatles,Come Together,24
+0.7,Abbey Road,The Beatles,Come Together,23
+0.7,Abbey Road,The Beatles,Come Together,22
+0.7,Abbey Road,The Beatles,Come Together,21
+0.7,Abbey Road,The Beatles,Come Together,20
+0.7,Abbey Road,The Beatles,Come Together,19
+0.7,Abbey Road,The Beatles,Come Together,18
+0.7,Abbey Road,The Beatles,Come Together,17
+0.7,Abbey Road,The Beatles,Come Together,16
+0.7,Abbey Road,The Beatles,Come Together,15
+0.7,Abbey Road,The Beatles,Come Together,14
+0.7,Abbey Road,The Beatles,Come Together,13
+0.7,Abbey Road,The Beatles,Come Together,12
+0.7,Abbey Road,The Beatles,Come Together,11
+0.7,Abbey Road,The Beatles,Come Together,10
+0.7,Abbey Road,The Beatles,Come Together,9
+0.7,Abbey Road,The Beatles,Come Together,8
+0.7,Abbey Road,The Beatles,Come Together,7
+0.7,Abbey Road,The Beatles,Come Together,6
+0.7,Abbey Road,The Beatles,Come Together,5
+0.7,Abbey Road,The Beatles,Come Together,4
+0.7,Abbey Road,The Beatles,Come Together,3
+0.7,Abbey Road,The Beatles,Come Together,2
+0.7,Abbey Road,The Beatles,Come Together,1
+0.7,Abbey Road,The Beatles,Come Together,0
+0.7,Abbey Road,The Beatles,Golden Slumbers,11
+0.7,Abbey Road,The Beatles,Golden Slumbers,10
+0.7,Abbey Road,The Beatles,Golden Slumbers,9
+0.7,Abbey Road,The Beatles,Golden Slumbers,8
+0.7,Abbey Road,The Beatles,Golden Slumbers,7
+0.7,Abbey Road,The Beatles,Golden Slumbers,6
+0.7,Abbey Road,The Beatles,Golden Slumbers,5
+0.7,Abbey Road,The Beatles,Golden Slumbers,4
+0.7,Abbey Road,The Beatles,Golden Slumbers,3
+0.7,Abbey Road,The Beatles,Golden Slumbers,2
+0.7,Abbey Road,The Beatles,Golden Slumbers,1
+0.7,Abbey Road,The Beatles,Golden Slumbers,0
+0.7,Abbey Road,The Beatles,Her Majesty,4
+0.7,Abbey Road,The Beatles,Her Majesty,3
+0.7,Abbey Road,The Beatles,Her Majesty,2
+0.7,Abbey Road,The Beatles,Her Majesty,1
+0.7,Abbey Road,The Beatles,Her Majesty,0
+0.7,Abbey Road,The Beatles,Here Comes the Sun,39
+0.7,Abbey Road,The Beatles,Here Comes the Sun,38
+0.7,Abbey Road,The Beatles,Here Comes the Sun,37
+0.7,Abbey Road,The Beatles,Here Comes the Sun,36
+0.7,Abbey Road,The Beatles,Here Comes the Sun,35
+0.7,Abbey Road,The Beatles,Here Comes the Sun,34
+0.7,Abbey Road,The Beatles,Here Comes the Sun,33
+0.7,Abbey Road,The Beatles,Here Comes the Sun,32
+0.7,Abbey Road,The Beatles,Here Comes the Sun,31
+0.7,Abbey Road,The Beatles,Here Comes the Sun,30
+0.7,Abbey Road,The Beatles,Here Comes the Sun,29
+0.7,Abbey Road,The Beatles,Here Comes the Sun,28
+0.7,Abbey Road,The Beatles,Here Comes the Sun,27
+0.7,Abbey Road,The Beatles,Here Comes the Sun,26
+0.7,Abbey Road,The Beatles,Here Comes the Sun,25
+0.7,Abbey Road,The Beatles,Here Comes the Sun,24
+0.7,Abbey Road,The Beatles,Here Comes the Sun,23
+0.7,Abbey Road,The Beatles,Here Comes the Sun,22
+0.7,Abbey Road,The Beatles,Here Comes the Sun,21
+0.7,Abbey Road,The Beatles,Here Comes the Sun,20
+0.7,Abbey Road,The Beatles,Here Comes the Sun,19
+0.7,Abbey Road,The Beatles,Here Comes the Sun,18
+0.7,Abbey Road,The Beatles,Here Comes the Sun,17
+0.7,Abbey Road,The Beatles,Here Comes the Sun,16
+0.7,Abbey Road,The Beatles,Here Comes the Sun,15
+0.7,Abbey Road,The Beatles,Here Comes the Sun,14
+0.7,Abbey Road,The Beatles,Here Comes the Sun,13
+0.7,Abbey Road,The Beatles,Here Comes the Sun,12
+0.7,Abbey Road,The Beatles,Here Comes the Sun,11
+0.7,Abbey Road,The Beatles,Here Comes the Sun,10
+0.7,Abbey Road,The Beatles,Here Comes the Sun,9
+0.7,Abbey Road,The Beatles,Here Comes the Sun,8
+0.7,Abbey Road,The Beatles,Here Comes the Sun,7
+0.7,Abbey Road,The Beatles,Here Comes the Sun,6
+0.7,Abbey Road,The Beatles,Here Comes the Sun,5
+0.7,Abbey Road,The Beatles,Here Comes the Sun,4
+0.7,Abbey Road,The Beatles,Here Comes the Sun,3
+0.7,Abbey Road,The Beatles,Here Comes the Sun,2
+0.7,Abbey Road,The Beatles,Here Comes the Sun,1
+0.7,Abbey Road,The Beatles,Here Comes the Sun,0
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),31
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),30
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),29
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),28
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),27
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),26
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),25
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),24
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),23
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),22
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),21
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),20
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),19
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),18
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),17
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),16
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),15
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),14
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),13
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),12
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),11
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),10
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),9
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),8
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),7
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),6
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),5
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),4
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),3
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),2
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),1
+0.7,Abbey Road,The Beatles,I Want You (She's So Heavy),0
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,38
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,37
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,36
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,35
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,34
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,33
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,32
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,31
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,30
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,29
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,28
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,27
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,26
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,25
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,24
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,23
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,22
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,21
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,20
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,19
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,18
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,17
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,16
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,15
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,14
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,13
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,12
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,11
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,10
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,9
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,8
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,7
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,6
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,5
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,4
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,3
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,2
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,1
+0.7,Abbey Road,The Beatles,Maxwell's Silver Hammer,0
+0.7,Abbey Road,The Beatles,Mean Mr. Mustard,13
+0.7,Abbey Road,The Beatles,Mean Mr. Mustard,12
+0.7,Abbey Road,The Beatles,Mean Mr. Mustard,11
+0.7,Abbey Road,The Beatles,Mean Mr. Mustard,10
+0.7,Abbey Road,The Beatles,Mean Mr. Mustard,9
+0.7,Abbey Road,The Beatles,Mean Mr. Mustard,8
+0.7,Abbey Road,The Beatles,Mean Mr. Mustard,7
+0.7,Abbey Road,The Beatles,Mean Mr. Mustard,6
+0.7,Abbey Road,The Beatles,Mean Mr. Mustard,5
+0.7,Abbey Road,The Beatles,Mean Mr. Mustard,4
+0.7,Abbey Road,The Beatles,Mean Mr. Mustard,3
+0.7,Abbey Road,The Beatles,Mean Mr. Mustard,2
+0.7,Abbey Road,The Beatles,Mean Mr. Mustard,1
+0.7,Abbey Road,The Beatles,Mean Mr. Mustard,0
+0.7,Abbey Road,The Beatles,Octopus's Garden,25
+0.7,Abbey Road,The Beatles,Octopus's Garden,24
+0.7,Abbey Road,The Beatles,Octopus's Garden,23
+0.7,Abbey Road,The Beatles,Octopus's Garden,22
+0.7,Abbey Road,The Beatles,Octopus's Garden,21
+0.7,Abbey Road,The Beatles,Octopus's Garden,20
+0.7,Abbey Road,The Beatles,Octopus's Garden,19
+0.7,Abbey Road,The Beatles,Octopus's Garden,18
+0.7,Abbey Road,The Beatles,Octopus's Garden,17
+0.7,Abbey Road,The Beatles,Octopus's Garden,16
+0.7,Abbey Road,The Beatles,Octopus's Garden,15
+0.7,Abbey Road,The Beatles,Octopus's Garden,14
+0.7,Abbey Road,The Beatles,Octopus's Garden,13
+0.7,Abbey Road,The Beatles,Octopus's Garden,12
+0.7,Abbey Road,The Beatles,Octopus's Garden,11
+0.7,Abbey Road,The Beatles,Octopus's Garden,10
+0.7,Abbey Road,The Beatles,Octopus's Garden,9
+0.7,Abbey Road,The Beatles,Octopus's Garden,8
+0.7,Abbey Road,The Beatles,Octopus's Garden,7
+0.7,Abbey Road,The Beatles,Octopus's Garden,6
+0.7,Abbey Road,The Beatles,Octopus's Garden,5
+0.7,Abbey Road,The Beatles,Octopus's Garden,4
+0.7,Abbey Road,The Beatles,Octopus's Garden,3
+0.7,Abbey Road,The Beatles,Octopus's Garden,2
+0.7,Abbey Road,The Beatles,Octopus's Garden,1
+0.7,Abbey Road,The Beatles,Octopus's Garden,0
+0.7,Abbey Road,The Beatles,Oh! Darling,24
+0.7,Abbey Road,The Beatles,Oh! Darling,23
+0.7,Abbey Road,The Beatles,Oh! Darling,22
+0.7,Abbey Road,The Beatles,Oh! Darling,21
+0.7,Abbey Road,The Beatles,Oh! Darling,20
+0.7,Abbey Road,The Beatles,Oh! Darling,19
+0.7,Abbey Road,The Beatles,Oh! Darling,18
+0.7,Abbey Road,The Beatles,Oh! Darling,17
+0.7,Abbey Road,The Beatles,Oh! Darling,16
+0.7,Abbey Road,The Beatles,Oh! Darling,15
+0.7,Abbey Road,The Beatles,Oh! Darling,14
+0.7,Abbey Road,The Beatles,Oh! Darling,13
+0.7,Abbey Road,The Beatles,Oh! Darling,12
+0.7,Abbey Road,The Beatles,Oh! Darling,11
+0.7,Abbey Road,The Beatles,Oh! Darling,10
+0.7,Abbey Road,The Beatles,Oh! Darling,9
+0.7,Abbey Road,The Beatles,Oh! Darling,8
+0.7,Abbey Road,The Beatles,Oh! Darling,7
+0.7,Abbey Road,The Beatles,Oh! Darling,6
+0.7,Abbey Road,The Beatles,Oh! Darling,5
+0.7,Abbey Road,The Beatles,Oh! Darling,4
+0.7,Abbey Road,The Beatles,Oh! Darling,3
+0.7,Abbey Road,The Beatles,Oh! Darling,2
+0.7,Abbey Road,The Beatles,Oh! Darling,1
+0.7,Abbey Road,The Beatles,Oh! Darling,0
+0.7,Abbey Road,The Beatles,Polythene Pam,11
+0.7,Abbey Road,The Beatles,Polythene Pam,10
+0.7,Abbey Road,The Beatles,Polythene Pam,9
+0.7,Abbey Road,The Beatles,Polythene Pam,8
+0.7,Abbey Road,The Beatles,Polythene Pam,7
+0.7,Abbey Road,The Beatles,Polythene Pam,6
+0.7,Abbey Road,The Beatles,Polythene Pam,5
+0.7,Abbey Road,The Beatles,Polythene Pam,4
+0.7,Abbey Road,The Beatles,Polythene Pam,3
+0.7,Abbey Road,The Beatles,Polythene Pam,2
+0.7,Abbey Road,The Beatles,Polythene Pam,1
+0.7,Abbey Road,The Beatles,Polythene Pam,0
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,23
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,22
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,21
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,20
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,19
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,18
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,17
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,16
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,15
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,14
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,13
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,12
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,11
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,10
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,9
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,8
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,7
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,6
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,5
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,4
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,3
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,2
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,1
+0.7,Abbey Road,The Beatles,She Came In Through the Bathroom Window,0
+0.7,Abbey Road,The Beatles,Something,18
+0.7,Abbey Road,The Beatles,Something,17
+0.7,Abbey Road,The Beatles,Something,16
+0.7,Abbey Road,The Beatles,Something,15
+0.7,Abbey Road,The Beatles,Something,14
+0.7,Abbey Road,The Beatles,Something,13
+0.7,Abbey Road,The Beatles,Something,12
+0.7,Abbey Road,The Beatles,Something,11
+0.7,Abbey Road,The Beatles,Something,10
+0.7,Abbey Road,The Beatles,Something,9
+0.7,Abbey Road,The Beatles,Something,8
+0.7,Abbey Road,The Beatles,Something,7
+0.7,Abbey Road,The Beatles,Something,6
+0.7,Abbey Road,The Beatles,Something,5
+0.7,Abbey Road,The Beatles,Something,4
+0.7,Abbey Road,The Beatles,Something,3
+0.7,Abbey Road,The Beatles,Something,2
+0.7,Abbey Road,The Beatles,Something,1
+0.7,Abbey Road,The Beatles,Something,0
+0.7,Abbey Road,The Beatles,Sun King,7
+0.7,Abbey Road,The Beatles,Sun King,6
+0.7,Abbey Road,The Beatles,Sun King,5
+0.7,Abbey Road,The Beatles,Sun King,4
+0.7,Abbey Road,The Beatles,Sun King,3
+0.7,Abbey Road,The Beatles,Sun King,2
+0.7,Abbey Road,The Beatles,Sun King,1
+0.7,Abbey Road,The Beatles,Sun King,0
+0.7,Abbey Road,The Beatles,The End,16
+0.7,Abbey Road,The Beatles,The End,15
+0.7,Abbey Road,The Beatles,The End,14
+0.7,Abbey Road,The Beatles,The End,13
+0.7,Abbey Road,The Beatles,The End,12
+0.7,Abbey Road,The Beatles,The End,11
+0.7,Abbey Road,The Beatles,The End,10
+0.7,Abbey Road,The Beatles,The End,9
+0.7,Abbey Road,The Beatles,The End,8
+0.7,Abbey Road,The Beatles,The End,7
+0.7,Abbey Road,The Beatles,The End,6
+0.7,Abbey Road,The Beatles,The End,5
+0.7,Abbey Road,The Beatles,The End,4
+0.7,Abbey Road,The Beatles,The End,3
+0.7,Abbey Road,The Beatles,The End,2
+0.7,Abbey Road,The Beatles,The End,1
+0.7,Abbey Road,The Beatles,The End,0
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,46
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,45
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,44
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,43
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,42
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,41
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,40
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,39
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,38
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,37
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,36
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,35
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,34
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,33
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,32
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,31
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,30
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,29
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,28
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,27
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,26
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,25
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,24
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,23
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,22
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,21
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,20
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,19
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,18
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,17
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,16
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,15
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,14
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,13
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,12
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,11
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,10
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,9
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,8
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,7
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,6
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,5
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,4
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,3
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,2
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,1
+0.7,Abbey Road,The Beatles,You Never Give Me Your Money,0
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,27
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,26
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,25
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,24
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,23
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,22
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,21
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,20
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,19
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,18
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,17
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,16
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,15
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,14
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,13
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,12
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,11
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,10
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,9
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,8
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,7
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,6
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,5
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,4
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,3
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,2
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,1
+0.7,The Dark Side of the Moon,Pink Floyd,Brain Damage,0
+0.7,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),15
+0.7,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),14
+0.7,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),13
+0.7,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),12
+0.7,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),11
+0.7,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),10
+0.7,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),9
+0.7,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),8
+0.7,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),7
+0.7,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),6
+0.7,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),5
+0.7,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),4
+0.7,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),3
+0.7,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),2
+0.7,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),1
+0.7,The Dark Side of the Moon,Pink Floyd,Breathe (In the Air),0
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,43
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,42
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,41
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,40
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,39
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,38
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,37
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,36
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,35
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,34
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,33
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,32
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,31
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,30
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,29
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,28
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,27
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,26
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,25
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,24
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,23
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,22
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,21
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,20
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,19
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,18
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,17
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,16
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,15
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,14
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,13
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,12
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,11
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,10
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,9
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,8
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,7
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,6
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,5
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,4
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,3
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,2
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,1
+0.7,The Dark Side of the Moon,Pink Floyd,Eclipse,0
+0.7,The Dark Side of the Moon,Pink Floyd,Money,38
+0.7,The Dark Side of the Moon,Pink Floyd,Money,37
+0.7,The Dark Side of the Moon,Pink Floyd,Money,36
+0.7,The Dark Side of the Moon,Pink Floyd,Money,35
+0.7,The Dark Side of the Moon,Pink Floyd,Money,34
+0.7,The Dark Side of the Moon,Pink Floyd,Money,33
+0.7,The Dark Side of the Moon,Pink Floyd,Money,32
+0.7,The Dark Side of the Moon,Pink Floyd,Money,31
+0.7,The Dark Side of the Moon,Pink Floyd,Money,30
+0.7,The Dark Side of the Moon,Pink Floyd,Money,29
+0.7,The Dark Side of the Moon,Pink Floyd,Money,28
+0.7,The Dark Side of the Moon,Pink Floyd,Money,27
+0.7,The Dark Side of the Moon,Pink Floyd,Money,26
+0.7,The Dark Side of the Moon,Pink Floyd,Money,25
+0.7,The Dark Side of the Moon,Pink Floyd,Money,24
+0.7,The Dark Side of the Moon,Pink Floyd,Money,23
+0.7,The Dark Side of the Moon,Pink Floyd,Money,22
+0.7,The Dark Side of the Moon,Pink Floyd,Money,21
+0.7,The Dark Side of the Moon,Pink Floyd,Money,20
+0.7,The Dark Side of the Moon,Pink Floyd,Money,19
+0.7,The Dark Side of the Moon,Pink Floyd,Money,18
+0.7,The Dark Side of the Moon,Pink Floyd,Money,17
+0.7,The Dark Side of the Moon,Pink Floyd,Money,16
+0.7,The Dark Side of the Moon,Pink Floyd,Money,15
+0.7,The Dark Side of the Moon,Pink Floyd,Money,14
+0.7,The Dark Side of the Moon,Pink Floyd,Money,13
+0.7,The Dark Side of the Moon,Pink Floyd,Money,12
+0.7,The Dark Side of the Moon,Pink Floyd,Money,11
+0.7,The Dark Side of the Moon,Pink Floyd,Money,10
+0.7,The Dark Side of the Moon,Pink Floyd,Money,9
+0.7,The Dark Side of the Moon,Pink Floyd,Money,8
+0.7,The Dark Side of the Moon,Pink Floyd,Money,7
+0.7,The Dark Side of the Moon,Pink Floyd,Money,6
+0.7,The Dark Side of the Moon,Pink Floyd,Money,5
+0.7,The Dark Side of the Moon,Pink Floyd,Money,4
+0.7,The Dark Side of the Moon,Pink Floyd,Money,3
+0.7,The Dark Side of the Moon,Pink Floyd,Money,2
+0.7,The Dark Side of the Moon,Pink Floyd,Money,1
+0.7,The Dark Side of the Moon,Pink Floyd,Money,0
+0.7,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,5
+0.7,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,4
+0.7,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,3
+0.7,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,2
+0.7,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,1
+0.7,The Dark Side of the Moon,Pink Floyd,The Great Gig in the Sky,0
+0.7,The Dark Side of the Moon,Pink Floyd,Time,42
+0.7,The Dark Side of the Moon,Pink Floyd,Time,41
+0.7,The Dark Side of the Moon,Pink Floyd,Time,40
+0.7,The Dark Side of the Moon,Pink Floyd,Time,39
+0.7,The Dark Side of the Moon,Pink Floyd,Time,38
+0.7,The Dark Side of the Moon,Pink Floyd,Time,37
+0.7,The Dark Side of the Moon,Pink Floyd,Time,36
+0.7,The Dark Side of the Moon,Pink Floyd,Time,35
+0.7,The Dark Side of the Moon,Pink Floyd,Time,34
+0.7,The Dark Side of the Moon,Pink Floyd,Time,33
+0.7,The Dark Side of the Moon,Pink Floyd,Time,32
+0.7,The Dark Side of the Moon,Pink Floyd,Time,31
+0.7,The Dark Side of the Moon,Pink Floyd,Time,30
+0.7,The Dark Side of the Moon,Pink Floyd,Time,29
+0.7,The Dark Side of the Moon,Pink Floyd,Time,28
+0.7,The Dark Side of the Moon,Pink Floyd,Time,27
+0.7,The Dark Side of the Moon,Pink Floyd,Time,26
+0.7,The Dark Side of the Moon,Pink Floyd,Time,25
+0.7,The Dark Side of the Moon,Pink Floyd,Time,24
+0.7,The Dark Side of the Moon,Pink Floyd,Time,23
+0.7,The Dark Side of the Moon,Pink Floyd,Time,22
+0.7,The Dark Side of the Moon,Pink Floyd,Time,21
+0.7,The Dark Side of the Moon,Pink Floyd,Time,20
+0.7,The Dark Side of the Moon,Pink Floyd,Time,19
+0.7,The Dark Side of the Moon,Pink Floyd,Time,18
+0.7,The Dark Side of the Moon,Pink Floyd,Time,17
+0.7,The Dark Side of the Moon,Pink Floyd,Time,16
+0.7,The Dark Side of the Moon,Pink Floyd,Time,15
+0.7,The Dark Side of the Moon,Pink Floyd,Time,14
+0.7,The Dark Side of the Moon,Pink Floyd,Time,13
+0.7,The Dark Side of the Moon,Pink Floyd,Time,12
+0.7,The Dark Side of the Moon,Pink Floyd,Time,11
+0.7,The Dark Side of the Moon,Pink Floyd,Time,10
+0.7,The Dark Side of the Moon,Pink Floyd,Time,9
+0.7,The Dark Side of the Moon,Pink Floyd,Time,8
+0.7,The Dark Side of the Moon,Pink Floyd,Time,7
+0.7,The Dark Side of the Moon,Pink Floyd,Time,6
+0.7,The Dark Side of the Moon,Pink Floyd,Time,5
+0.7,The Dark Side of the Moon,Pink Floyd,Time,4
+0.7,The Dark Side of the Moon,Pink Floyd,Time,3
+0.7,The Dark Side of the Moon,Pink Floyd,Time,2
+0.7,The Dark Side of the Moon,Pink Floyd,Time,1
+0.7,The Dark Side of the Moon,Pink Floyd,Time,0
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,31
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,30
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,29
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,28
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,27
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,26
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,25
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,24
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,23
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,22
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,21
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,20
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,19
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,18
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,17
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,16
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,15
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,14
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,13
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,12
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,11
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,10
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,9
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,8
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,7
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,6
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,5
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,4
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,3
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,2
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,1
+0.7,The Dark Side of the Moon,Pink Floyd,Us and Them,0
