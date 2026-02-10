@@ -1,4 +1,43 @@
 .hugo_build.lock
 .claude/
 *.venv/
-*.env 
+*.env
+.env
+.env.*
+
+# API Keys y credenciales
+*_api_key*
+*_token*
+credentials.json
+secrets.json
+
+# Cache de embeddings (archivos grandes)
+tidytuesday/data/embeddings_cache.pkl
+tidytuesday/data/*.pkl
+*.pkl
+
+# Archivos temporales de ejecución
+execution_log.txt
+*.log
+*.tmp
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Archivos de backup
+*.bak
+*.swp
+*~
