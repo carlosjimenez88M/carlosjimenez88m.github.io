@@ -716,6 +716,8 @@ plt.savefig('learning_curves.png', dpi=150, bbox_inches='tight')
 plt.show()
 ```
 
+![Learning Curves: linear vs polynomial on the Advertising dataset](/tidytuesday/2026-03-12-statistical-learning/learning_curves.png)
+
 The linear model's learning curve converges fast but to a high plateau — training and test MSE meet at the bias floor. The polynomial model's test MSE starts high (small $n$, high variance) and decreases with more data, converging toward the training MSE. The gap measures the variance contribution; the plateau level measures bias.
 
 **A key observation:** adding more data always helps with high-variance models (it closes the generalization gap). It does not help with high-bias models (the plateau is determined by the model family, not the sample size). This has direct practical implications: if you have a high-bias model, more data is wasted investment — you need a better model architecture.
@@ -801,6 +803,8 @@ print(f"Variance reduction: {(1 - np.std(mse_stratified)/np.std(mse_random))*100
 **Key finding:**
 
 > On the Advertising dataset, a simple random split (n=40 test) yields test MSE with σ ≈ 0.8 across 200 random splits. Stratifying by Sales quartile reduces this to σ ≈ 0.3 — a 63% reduction in evaluation variance. The OLS model looks more consistent not because it improved, but because we are measuring it more precisely.
+
+![Evaluation Variance: random vs stratified split across 200 repetitions](/tidytuesday/2026-03-12-statistical-learning/stratified_split_mse.png)
 
 This matters for model comparison. If model A achieves MSE = 2.10 and model B achieves MSE = 2.05 on a single random split, the difference is statistically meaningless given σ ≈ 0.8 for the evaluation protocol. Under a stratified protocol with σ ≈ 0.3, the same difference is marginally meaningful — not conclusive, but worth investigating. The sampling protocol determines what conclusions the evaluation supports.
 
@@ -940,25 +944,6 @@ The rest of the series builds on this foundation:
 - **Eventually:** Regularization — ridge, lasso, elastic net, and the prior-as-regularizer connection to Bayesian methods
 
 The series follows ISLP but deviates wherever the mathematics or the epistemological story demands it.
-
----
-
-## Key Terms / Glosario Bilingüe
-
-| English | Español | Brief definition |
-|---------|---------|-----------------|
-| Bias | Sesgo | Systematic gap between average prediction and truth |
-| Variance | Varianza | Fluctuation of predictions across training sets |
-| Irreducible error | Error intrínseco | Noise floor set by the data-generating process |
-| Overfitting | Sobreajuste | Model fits training noise, generalizes poorly |
-| Underfitting | Subajuste | Model too rigid to capture the true signal |
-| Regularization | Regularización | Penalty that encodes prior assumptions about f |
-| Treatment effect | Efecto del tratamiento | Causal impact of an intervention |
-| Selection bias | Sesgo de selección | Baseline differences between treated and control units |
-| Potential outcomes | Resultados potenciales | Y(1) and Y(0) under treatment and control |
-| Propensity score | Puntaje de propensión | P(T=1\|X), probability of treatment given covariates |
-| Doubly robust | Doblemente robusto | Estimator valid when at least one nuisance model is correct |
-| Confounding | Confusión | Common cause of treatment and outcome that biases estimates |
 
 ---
 
