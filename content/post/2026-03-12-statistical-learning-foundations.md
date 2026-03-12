@@ -320,6 +320,8 @@ Min test MSE: 3601.47
 At degree 3: Bias²=3481.22, Var=89.14
 ```
 
+![Bias-Variance Tradeoff: Bias² and Variance across polynomial degrees on the diabetes dataset](/tidytuesday/2026-03-12-statistical-learning/bias_variance_tradeoff.png)
+
 **97.5% of this model's test MSE is bias.** At the optimal degree 3: Bias² = 3481 and Var = 89. Not variance — bias. The model is not oscillating between different training sets; it is consistently wrong in the same direction. That is the diagnostic signature of underfitting, and it has a direct practical implication: adding more training data would barely improve performance.
 
 The U-shaped total MSE curve is the empirical signature of the bias-variance tradeoff. It is not an artifact of this dataset — it is a universal property of any learning algorithm trained on finite data.
@@ -417,6 +419,10 @@ plt.tight_layout()
 plt.savefig('pointwise_variance.png', dpi=150, bbox_inches='tight')
 plt.show()
 ```
+
+![Spaghetti Plot: each curve is one bootstrap training set, degrees 1, 5, 12](/tidytuesday/2026-03-12-statistical-learning/spaghetti_variance.png)
+
+![Point-wise Variance: highest at sparse extremes, lowest at training center](/tidytuesday/2026-03-12-statistical-learning/pointwise_variance.png)
 
 The spaghetti plot makes the abstract concept concrete: variance is literally the visual spread between curves when you retrain the model on different data. At degree 1, nearly parallel lines confirm the model's stability — it draws almost the same curve regardless of which 310 observations it saw. At degree 5, moderate scatter appears. At degree 12, the curves diverge dramatically, sometimes exploding far outside the data range at the extremes.
 
@@ -571,6 +577,8 @@ Min CV error: 0.2067
 K=1 training error: 0.0000  (interpolates training data)
 K=50 training error: 0.1733 (smooth, high bias)
 ```
+
+![KNN: training vs CV error and decision boundary on Iris (2 features)](/tidytuesday/2026-03-12-statistical-learning/knn_iris.png)
 
 The $K=1$ classifier has zero training error — it is a perfect memorizer. But its decision boundaries are jagged, highly sensitive to individual points. Increasing $K$ smooths the boundary, trading that interpolation accuracy for better generalization. This is the bias-variance dial made concrete and visible.
 
