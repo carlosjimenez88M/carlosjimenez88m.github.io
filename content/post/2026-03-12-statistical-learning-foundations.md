@@ -5,13 +5,15 @@ title: "Statistical Learning: Foundations, Bias-Variance and the Art of Estimati
 draft: false
 description: "A rigorous walkthrough of ISLP Chapter 2 fundamentals — from the formal definition of f(X) to the bias-variance decomposition, Bayes classifiers, and KNN — with Python code, real datasets, and connections to epistemology and learning theory."
 categories: ["Statistical Learning"]
-tags: ["statistical-learning", "bias-variance", "knn", "linear-regression", "islp", "sklearn", "stratified-sampling"]
+tags: ["statistical-learning", "bias-variance", "knn", "linear-regression", "islp", "sklearn", "stratified-sampling", "causal-inference"]
 series:
   - Statistical Learning
   - Machine Learning
 ---
 
 ## Abstract
+
+Imagine you are a hospital administrator deciding whether to deploy a machine learning model that predicts which ICU patients will deteriorate in the next six hours. The model was built by a talented team, trained on two years of electronic health records, and achieves 89% accuracy on a held-out test set. The question you actually need to answer is not in the model card: *what does the model not know — and what can it not know, regardless of how much more data you feed it?*
 
 Statistical learning is the discipline concerned with recovering unknown functions from data. That sentence sounds modest. It is not. Every scientific instrument, every predictive model, every medical test rests on the assumption that observable patterns carry information about latent structure — that $Y$ encodes something about $X$ beyond noise. The formal machinery for making this precise, and the fundamental limits of what can be learned, constitute the foundation of the field.
 
@@ -33,6 +35,9 @@ This post covers the core ideas from Chapter 2 of *An Introduction to Statistica
 - Stratified splits reduce evaluation variance: σ(MSE) drops ~63% on Advertising when stratifying by Sales quartile
 - Point-wise variance is heteroskedastic: highest at data-sparse extremes, lowest at the training center
 - When Bias² >> Var at the optimal model, you have a misspecification problem — more data will not help
+- The Newspaper coefficient sign-flip is a confounding problem: $E[Y|T=1] - E[Y|T=0] \neq$ causal effect when $T \not\perp (Y(0), Y(1))$; association ≠ causation, and the gap has a formal name — selection bias
+- **Double ML** (Frisch-Waugh-Lovell + LASSO) estimates causal effects in high dimensions by residualizing both $Y$ and $T$ on controls $X$ before regressing; prediction machinery serves causal identification
+- **Doubly Robust** ATE estimation is valid when *at least one* of the outcome model or propensity model is correctly specified — ML flexibility now serves as insurance against model misspecification
 
 ---
 
@@ -69,6 +74,8 @@ $$E[(Y - \hat{f}(X))^2] = \underbrace{[f(X) - \hat{f}(X)]^2}_{\text{Reducible}} 
 The **reducible error** measures how far our estimate is from the true $f$. With a better model or more data, this can approach zero — in principle. The **irreducible error** $\sigma^2$ is the variance of the noise process. No estimator can do better than this, regardless of how complex it is or how much data you have. It is the floor of prediction uncertainty.
 
 This decomposition has a sharp philosophical implication: **even a perfect model cannot perfectly predict**. If the data-generating process contains genuine randomness (measurement noise, unmeasured confounders, quantum-level stochasticity), prediction error persists. The question is how much of the *reducible* error we can eliminate with the data we have.
+
+Think of weather forecasting. The best numerical weather models in the world — fed every atmospheric measurement available — still cannot tell you with certainty whether it will rain in your city next Tuesday. Not because the models are imperfect (though they are), but because the atmosphere is a chaotic system: small perturbations in initial conditions compound into large prediction errors at the timescale of days. That inherent atmospheric chaos is irreducible error. It is not model failure. It is the floor of what any forecast can achieve, and it does not move no matter how many satellite observations you add.
 
 ---
 
@@ -132,11 +139,59 @@ Newspaper     -0.0010      0.006     -0.177      0.860   -0.013    0.011
 ===========================================================================
 ```
 
-Already interesting: **Newspaper is statistically insignificant** ($p = 0.860$), despite being correlated with Sales in isolation. This is the multicollinearity story — Radio and Newspaper budgets are correlated, and once Radio is in the model, Newspaper adds nothing. Inference from this model gives us *partial effects*, not marginal ones.
+Look at what just happened. We included all three advertising channels and asked OLS: *what is the conditional effect of each, holding the others fixed?* The answer is unsettling in precisely the right way.
 
-Look more closely at the Newspaper coefficient: it is **negative** (−0.001) despite having a positive marginal correlation with Sales. This is a sign-flip — a minor instance of Simpson's paradox. When Radio is controlled for, Newspaper spending is associated with *slightly lower* Sales. This does not mean Newspaper advertising causes reduced sales; it means Radio is a confounder that was masking the true conditional relationship. In observational data, sign-flips on inclusion of a correlated predictor are common and consequential — the coefficient direction can reverse entirely depending on what else is in the model.
+**Newspaper is statistically insignificant** ($p = 0.860$). Its 95% confidence interval spans $[-0.013, 0.011]$ — the data are completely uninformative about the sign of Newspaper's effect. This is already surprising if you had previously looked at the marginal correlation between Newspaper spending and Sales (which is positive). But the deeper revelation is in the sign itself.
 
-$R^2 = 0.897$ means the model explains 89.7% of Sales variance. But what does the remaining 10.3% represent? The residual variance ($\hat{\sigma}^2 \approx 0.95$, MSE ≈ 2.84 from the model) could come from two sources: *reducible error* from omitted features (competitor budgets, pricing, seasonality) or *irreducible error* from genuine randomness in market outcomes. Without replicated observations at the same $(TV, Radio, Newspaper)$ budget combination across different markets or time periods, we cannot separate these. This is a fundamental limitation of cross-sectional observational data — a point the $R^2$ statistic alone cannot reveal.
+The Newspaper coefficient is **negative** (−0.001) despite having a positive marginal correlation with Sales. This is a sign-flip — a clean, textbook instance of Simpson's paradox made concrete. When Radio enters the model and claims credit for the Sales variation it explains, Newspaper is left holding a negative residual. Why? Because Radio and Newspaper budgets are correlated: markets that spend heavily on one tend to spend heavily on the other. Once you condition on Radio, markets with high Newspaper spend look like *slightly worse* performers, not better.
+
+This is the multicollinearity story, but it points toward something deeper. The model is telling us that *partial effects are not marginal effects* — what Newspaper "does" to Sales, holding Radio fixed, is completely different from what Newspaper "does" to Sales when Radio is free to vary with it. This distinction is not a quirk of this dataset; it is an unavoidable feature of any observational regression with correlated predictors.
+
+From a business decision standpoint: a manager looking only at the marginal correlation would increase Newspaper budget alongside Radio, expecting a lift. The OLS model says: *conditional on what Radio is already explaining, Newspaper is adding nothing — and may be a proxy for markets that already underperform on other dimensions*. The practical recommendation is to reallocate Newspaper budget to TV or Radio, where the conditional effects are large and precisely estimated. But note carefully: this is still an associational recommendation, not a causal one. The section below will make that distinction formal.
+
+$R^2 = 0.897$ means the model explains 89.7% of Sales variance. In contrast, the remaining 10.3% reflects two fundamentally different things: *reducible error* from omitted features (competitor budgets, pricing, seasonality) and *irreducible error* from genuine randomness in market outcomes. Without replicated observations at the same $(TV, Radio, Newspaper)$ combination across different markets or time periods, we cannot separate these two sources. This is a fundamental limitation of cross-sectional observational data — a point the $R^2$ statistic alone cannot reveal.
+
+### From Coefficient to Cause: The Identification Problem
+
+The sign-flip on Newspaper is not just a statistical curiosity. It is the entry point to one of the most consequential conceptual distinctions in applied data science: the difference between an association and a causal effect.
+
+The OLS coefficient tells us: *conditional on Radio*, a one-thousand-dollar increase in Newspaper budget is associated with a decrease of $0.001$ thousand units in Sales. But "associated with" is not the same as "causes." To claim a causal effect, we need to answer a counterfactual question: *what would Sales have been for that exact market if Newspaper budget were $1,000 lower, with all other factors held exactly equal?*
+
+That question has a formal framework: **Rubin's potential outcomes model**. For each market $i$, define:
+
+- $Y_i(1)$ = Sales if the market is "treated" (high Newspaper spend)
+- $Y_i(0)$ = Sales if the market is "untreated" (low Newspaper spend)
+
+The **observed outcome** combines them through treatment assignment $T_i \in \{0,1\}$:
+
+$$Y_i = T_i \cdot Y_i(1) + (1 - T_i) \cdot Y_i(0)$$
+
+This is the **fundamental problem of causal inference**: we observe only one of $Y_i(0)$ or $Y_i(1)$ for each unit, never both. The causal effect for unit $i$ is $Y_i(1) - Y_i(0)$ — a quantity we can never directly compute.
+
+What we can define are population-level estimands:
+
+$$\text{ATE} = E[Y(1) - Y(0)] \quad \text{(Average Treatment Effect)}$$
+$$\text{ATT} = E[Y(1) - Y(0) \mid T = 1] \quad \text{(Average Treatment Effect on the Treated)}$$
+
+The naive comparison $E[Y \mid T=1] - E[Y \mid T=0]$ — what you'd compute by just comparing high-Newspaper and low-Newspaper markets — equals the ATT only when treatment is independent of potential outcomes: $T \perp (Y(0), Y(1))$. In the Advertising data, that condition almost certainly fails. Markets that spend heavily on Newspaper are systematically different — likely larger, more urban, with different baseline sales trajectories — from markets that spend little. This is **selection bias**.
+
+Building on the potential outcomes framework, we can decompose the naive comparison into a causal effect plus a bias term:
+
+$$\underbrace{E[Y \mid T=1] - E[Y \mid T=0]}_{\text{Naive association}} = \underbrace{ATT}_{\text{Causal effect}} + \underbrace{E[Y(0) \mid T=1] - E[Y(0) \mid T=0]}_{\text{Selection bias}}$$
+
+The selection bias term measures the *baseline difference* between treated and untreated units — how different high-Newspaper markets would have been from low-Newspaper markets even if neither had run any Newspaper ads. If larger markets both advertise more in newspapers and sell more regardless of advertising, this term is positive, and the naive comparison overestimates the true causal effect of Newspaper.
+
+The standard fix is the **Conditional Independence Assumption (CIA)**: given observed covariates $X$, treatment assignment is independent of potential outcomes:
+
+$$Y(0), Y(1) \perp T \mid X$$
+
+Under CIA, the conditional average treatment effect is identified:
+
+$$E[Y \mid X, T=1] - E[Y \mid X, T=0] = \text{ATE}(X)$$
+
+In the OLS context: $\alpha$ in $Y = \alpha T + X\beta + \varepsilon$ identifies the causal effect of $T$ under CIA — i.e., only if the included covariates $X$ block all backdoor paths from $T$ to $Y$. Whether TV and Radio suffice as controls depends on domain knowledge we cannot derive from the data alone.
+
+*The OLS coefficient is a real number we can compute precisely. Whether it represents a causal effect depends on assumptions external to the model — and that is not a flaw in OLS. It is a structural limit of what observational data can tell us, regardless of the estimator we use.*
 
 ---
 
@@ -164,6 +219,8 @@ $$= E\left[(f - \hat{f})^2\right] + \sigma^2 \quad \text{(since } \varepsilon \p
 Then:
 $$E\left[(f - \hat{f})^2\right] = E\left[(f - \bar{f} + \bar{f} - \hat{f})^2\right] = (f - \bar{f})^2 + E\left[(\hat{f} - \bar{f})^2\right]$$
 $$= \text{Bias}^2 + \text{Var}(\hat{f})$$
+
+*In plain terms: every model's error decomposes into three contributors — how wrong it is on average (bias), how much its predictions fluctuate across different training sets (variance), and how noisy the world itself is (irreducible error). You can engineer the first two. You cannot touch the third.*
 
 This is not just an algebraic identity. It says: **no estimator can simultaneously have zero bias and zero variance when trained on finite data**. Reducing bias typically requires increasing model flexibility, which increases variance. This is the fundamental tradeoff.
 
@@ -263,9 +320,11 @@ Min test MSE: 3601.47
 At degree 3: Bias²=3481.22, Var=89.14
 ```
 
+**97.5% of this model's test MSE is bias.** At the optimal degree 3: Bias² = 3481 and Var = 89. Not variance — bias. The model is not oscillating between different training sets; it is consistently wrong in the same direction. That is the diagnostic signature of underfitting, and it has a direct practical implication: adding more training data would barely improve performance.
+
 The U-shaped total MSE curve is the empirical signature of the bias-variance tradeoff. It is not an artifact of this dataset — it is a universal property of any learning algorithm trained on finite data.
 
-The numbers reward closer reading. At the optimal degree 3: Bias² = 3481, Var = 89. That means **97.5% of the test MSE is bias**. The model is almost entirely in the underfitting regime, not at some balanced midpoint. The implication is direct: adding more training data would barely improve performance. The bias floor is set by the model class — a degree-3 polynomial cannot represent whatever nonlinear structure the diabetes data contains. The only path to substantially lower MSE is a richer model family: more features, a nonlinear architecture, or an interaction structure that captures the signal degree-3 polynomials miss.
+The bias floor is set by the model class — a degree-3 polynomial cannot represent whatever nonlinear structure the diabetes data actually contains. The only path to substantially lower MSE is a richer model family: more features, a nonlinear architecture, or an interaction structure that captures the signal degree-3 polynomials miss. *More data closes the variance gap; it cannot lower the bias floor.*
 
 This is a general diagnostic: **when Bias² >> Var at the optimal complexity, you have a model misspecification problem, not a data size problem**. Learning curves will confirm this — the training and test MSE will converge quickly and plateau at a high floor, regardless of how much data you add. More data closes the variance gap; it cannot lower the bias floor.
 
@@ -417,7 +476,13 @@ $$\hat{Y}(x_0) = \arg\max_j \frac{1}{K}\sum_{x_i \in \mathcal{N}_0} \mathbf{1}(y
 
 As $K \to 1$, the KNN estimator becomes maximally flexible: every training point is its own prediction, training error is zero, but variance is maximal. As $K \to n$ (all training points), the estimator converges to the global mean — maximum bias, minimum variance. The optimal $K$ sits between these extremes.
 
-Crucially, as $n \to \infty$ with $K/n \to 0$ and $K \to \infty$, the KNN classifier converges to the Bayes classifier. This is a remarkable result: a completely non-parametric method, making no assumptions about $f$, asymptotically achieves the theoretical optimum. The catch: "asymptotically" requires exponentially more data as the dimension $p$ increases — the **curse of dimensionality**.
+Crucially, as $n \to \infty$ with $K/n \to 0$ and $K \to \infty$, the KNN classifier converges to the Bayes classifier. If you have never paused to find this strange, stop here for a moment.
+
+KNN has no parameters to estimate. Its "training" step consists entirely of storing the data and doing nothing else. It makes no assumption about the distribution of $Y$. It assumes nothing about the shape of $f$ — no linearity, no smoothness, no separability. There is, in the most literal sense, no model here. Just a lazy lookup algorithm.
+
+And yet — given enough data — it converges to the theoretical optimum. To the exact performance ceiling achievable only by an oracle who knows the true posterior $Pr(Y=j \mid X=x_0)$ for every point in the space. A parameterless, distributionless, modelless algorithm asymptotically matches the performance of a perfect probabilistic oracle.
+
+That is the remarkable result. The catch, as always, lives in "asymptotically": the amount of data required to achieve dense local neighborhoods grows exponentially with dimension $p$ — the **curse of dimensionality**.
 
 ### Python: KNN on Iris, Visualizing Flexibility
 
@@ -739,6 +804,82 @@ The variance of the test MSE estimator is itself a bias-variance problem. We wan
 
 ## Connections Beyond the Textbook
 
+### Prediction Is Not Explanation: Where ML Meets Causal Inference
+
+Every model in this post — OLS, polynomial regression, KNN — is an association machine. It learns patterns from data and projects them forward. What it cannot do, structurally, is answer a question of the form: *"What would happen if we intervened?"* This is not a limitation we can engineer away. It is a categorical distinction.
+
+Judea Pearl formalizes this through the **causal hierarchy** — three levels of questions that data alone cannot collapse:
+
+| Level | Query | Example |
+|-------|-------|---------|
+| *Seeing* (observational) | $P(Y \mid X=x)$ | Do patients who take aspirin have fewer headaches? |
+| *Doing* (interventional) | $P(Y \mid do(X=x))$ | Would giving aspirin *cause* fewer headaches? |
+| *Imagining* (counterfactual) | $P(Y_x \mid X=x')$ | Would *this patient* have recovered if we had given aspirin? |
+
+Statistical learning operates entirely at level 1. Causal inference operates at levels 2 and 3. A model trained on observational data cannot, by itself, climb this ladder.
+
+**Why ML cannot climb the ladder alone.** A predictive model will faithfully use any feature correlated with $Y$ — including mediators, colliders, and proxies for confounders. Its predictions can be excellent while its causal interpretation is completely wrong. Consider police patrol allocation: departments deploy more officers to high-crime areas. A predictive model trained on this data will learn that police presence *predicts* crime. In the wrong direction. The model has correctly identified an association; the association arises from selection, not causation.
+
+**Double ML as the bridge.** The Frisch-Waugh-Lovell (FWL) theorem — a classical econometrics result — provides a rigorous connection between prediction machinery and causal estimation. It states that the coefficient $\alpha$ on treatment $T$ in the model:
+
+$$Y = \alpha T + X\beta + \varepsilon$$
+
+can be recovered by:
+1. Residualizing the outcome: $\tilde{Y} = Y - E[Y \mid X]$
+2. Residualizing the treatment: $\tilde{T} = T - E[T \mid X]$
+3. Regressing $\tilde{Y}$ on $\tilde{T}$: $\hat{\alpha} = \text{Cov}(\tilde{Y}, \tilde{T}) / \text{Var}(\tilde{T})$
+
+The FWL theorem says: *the causal coefficient on treatment equals the coefficient from regressing the residual of Y on the residual of T, after projecting out the controls X from both*. Intuitively, you are asking: after removing everything the controls explain about both the outcome and the treatment, what is left in their relationship?
+
+**Double Lasso** (Belloni, Chernozhukov, and Hansen, 2014) replaces the linear projection with LASSO, enabling causal estimation in high-dimensional settings where $p > n$ makes standard OLS infeasible:
+
+1. Fit LASSO of $Y$ on $X$; compute residuals $\tilde{Y}$
+2. Fit LASSO of $T$ on $X$; compute residuals $\tilde{T}$
+3. Regress $\tilde{Y}$ on $\tilde{T}$ (and $T$, $X$ for partialing out) to obtain $\hat{\alpha}$
+
+The key property: by using LASSO for the nuisance models (the projections onto $X$), Double Lasso achieves valid inference on $\alpha$ even when the control selection is imperfect — as long as the relevant controls are among the candidates. This is where ML flexibility serves causal identification directly.
+
+**Doubly Robust estimation.** A complementary approach combines an outcome model and a propensity score model. Define $\mu_t(X) = E[Y \mid X, T=t]$ and $p(X) = P(T=1 \mid X)$. The Doubly Robust ATE estimator is:
+
+$$\widehat{\text{ATE}}_{DR} = \frac{1}{n}\sum_i \left[ \frac{T_i(Y_i - \hat{\mu}_1(X_i))}{\hat{p}(X_i)} + \hat{\mu}_1(X_i) \right] - \frac{1}{n}\sum_i \left[ \frac{(1-T_i)(Y_i - \hat{\mu}_0(X_i))}{1-\hat{p}(X_i)} + \hat{\mu}_0(X_i) \right]$$
+
+Its key property: if *at least one* of the two nuisance models ($\hat{\mu}_t$ or $\hat{p}$) is correctly specified, the estimator is consistent for ATE. Wrong outcome model, okay — as long as the propensity is right. Wrong propensity, okay — as long as the outcome model is right. This "doubly robust" insurance is why DR estimators are the default in modern causal inference pipelines.
+
+```python
+import numpy as np
+from sklearn.linear_model import LogisticRegression, LinearRegression
+
+np.random.seed(42)
+n = 500
+
+# Confounder
+X = np.random.normal(0, 1, (n, 1))
+# Treatment (correlated with X — selection bias)
+T = (X[:, 0] + np.random.normal(0, 1, n) > 0).astype(int)
+# Outcome (true treatment effect = 2.0)
+Y = 2.0 * T + 1.5 * X[:, 0] + np.random.normal(0, 1, n)
+
+# Naive difference-in-means (biased)
+naive_ate = Y[T == 1].mean() - Y[T == 0].mean()
+
+# Propensity model
+ps_model = LogisticRegression().fit(X, T)
+ps = ps_model.predict_proba(X)[:, 1]
+
+# Outcome models
+mu1 = LinearRegression().fit(X[T == 1], Y[T == 1]).predict(X)
+mu0 = LinearRegression().fit(X[T == 0], Y[T == 0]).predict(X)
+
+# Doubly Robust ATE
+dr_ate = np.mean(T * (Y - mu1) / ps + mu1) - np.mean((1 - T) * (Y - mu0) / (1 - ps) + mu0)
+
+print(f"True ATE:         2.00")
+print(f"Naive estimate:   {naive_ate:.3f}  ← biased by selection")
+print(f"Doubly Robust:    {dr_ate:.3f}  ← near-unbiased")
+```
+
+The takeaway is not that ML is wrong. It is that ML answers a different question. Prediction asks: *given what I observe, what should I expect?* Causal inference asks: *given what I do, what will happen?* These are not the same question. Building a model to answer the first and reading it as if it answers the second is one of the most consequential errors in applied data science — especially when decisions affect people.
+
 ### Bias-Variance as Epistemological Constraint
 
 In the previous post on attention windows and embedding limits, we encountered a different version of the same fundamental problem: a measurement system (transformer embeddings) systematically fails to distinguish *conceptual identity through lexical variation* from *conceptual diversity through lexical repetition*. This is not a modeling error — it is a structural limitation of distributional semantics.
@@ -748,6 +889,8 @@ The bias-variance tradeoff is the same argument, formalized differently. Any lea
 This is the statistical expression of **Hume's problem of induction**: past observations logically underdetermine future predictions. We cannot derive "all ravens are black" from any finite set of black raven observations. We can only make this inference under a prior assumption of regularity. The bias-variance decomposition quantifies exactly what happens when that prior assumption is wrong (bias) or when we refuse to make one (variance).
 
 Regularization, in this light, is not a computational trick. It is the explicit insertion of prior beliefs into the learning process — the only mathematically coherent response to the underdetermination problem.
+
+This reframes bias not as an enemy to minimize, but as a *necessary prejudice* — a prior without which learning is impossible. A model with zero bias would need infinitely many observations to make any prediction at all, because it would refuse to assume anything about what it hasn't seen. Every learning algorithm that generalizes must commit to some structure in advance: smoothness, linearity, sparsity, locality. The bias is the commitment. The art of machine learning is choosing commitments that are wrong in the least damaging ways — wrong enough to be learnable from finite data, right enough to generalize beyond it.
 
 ### Connection to PAC Learning Theory
 
@@ -762,6 +905,16 @@ $$n \geq \frac{1}{\varepsilon}\left(\text{VC}(\mathcal{H}) \ln\frac{1}{\varepsil
 This is not just theory — it is the bias-variance tradeoff expressed as a sample complexity statement. More complex hypothesis classes require exponentially more data to generalize. The same fundamental tradeoff, different mathematical language.
 
 Modern deep learning operationally violates this: overparameterized neural networks (millions of parameters, thousands of training examples) generalize far better than VC theory predicts. This is the current research frontier — **benign overfitting**, implicit regularization by SGD, and the double descent phenomenon. But the bias-variance framework remains the conceptual foundation from which these departures must be understood.
+
+### From Theory to Practice: The Bias-Variance Tradeoff in MLOps
+
+The impossibility of zero bias and zero variance on finite data is not merely a theoretical concern — it directly dictates how practitioners tune models in production.
+
+**Hyperparameter tuning** is, at its core, a search for the optimal point on the bias-variance frontier. The regularization strength $\lambda$ in ridge regression ($\min_\beta \|Y - X\beta\|^2 + \lambda\|\beta\|^2$) is a bias-variance dial: $\lambda = 0$ recovers OLS (low bias, high variance on small samples); $\lambda \to \infty$ shrinks all coefficients to zero (maximum bias, zero variance). Cross-validation selects the $\lambda$ with the best held-out MSE — but it is selecting where to sit on the frontier, not eliminating the tradeoff.
+
+In contrast, **early stopping** in neural network training exploits the same mechanism differently: training loss decreases monotonically, but test loss follows a U-shape. Stopping early is equivalent to choosing a model with higher bias (underfitted relative to training data) but lower variance (more stable predictions). Weight decay, dropout, and batch normalization all achieve their regularization effects by moving the bias-variance frontier inward — by encoding structural assumptions about what good solutions look like, before seeing any data.
+
+Building on the earlier point: regularization is a prior. Ridge assumes $\beta$ is small. LASSO assumes $\beta$ is sparse. The prior sets the bias; the data adjusts it. Choosing a regularizer is the same epistemic act as choosing a hypothesis class — and it cannot be avoided.
 
 ---
 
@@ -782,10 +935,34 @@ The series follows ISLP but deviates wherever the mathematics or the epistemolog
 
 ---
 
+## Key Terms / Glosario Bilingüe
+
+| English | Español | Brief definition |
+|---------|---------|-----------------|
+| Bias | Sesgo | Systematic gap between average prediction and truth |
+| Variance | Varianza | Fluctuation of predictions across training sets |
+| Irreducible error | Error intrínseco | Noise floor set by the data-generating process |
+| Overfitting | Sobreajuste | Model fits training noise, generalizes poorly |
+| Underfitting | Subajuste | Model too rigid to capture the true signal |
+| Regularization | Regularización | Penalty that encodes prior assumptions about f |
+| Treatment effect | Efecto del tratamiento | Causal impact of an intervention |
+| Selection bias | Sesgo de selección | Baseline differences between treated and control units |
+| Potential outcomes | Resultados potenciales | Y(1) and Y(0) under treatment and control |
+| Propensity score | Puntaje de propensión | P(T=1\|X), probability of treatment given covariates |
+| Doubly robust | Doblemente robusto | Estimator valid when at least one nuisance model is correct |
+| Confounding | Confusión | Common cause of treatment and outcome that biases estimates |
+
+---
+
 ## References
 
 - James, G., Witten, D., Hastie, T., Tibshirani, R., & Taylor, J. (2023). *An Introduction to Statistical Learning with Applications in Python*. Springer.
 - Valiant, L. G. (1984). A theory of the learnable. *Communications of the ACM*, 27(11), 1134–1142.
 - Geman, S., Bienenstock, E., & Doursat, R. (1992). Neural networks and the bias/variance dilemma. *Neural Computation*, 4(1), 1–58.
 - Hume, D. (1748). *An Enquiry Concerning Human Understanding*. Oxford University Press.
+- Rubin, D. B. (1974). Estimating causal effects of treatments in randomized and nonrandomized studies. *Journal of Educational Psychology*, 66(5), 688–701.
+- Pearl, J. (2009). *Causality: Models, Reasoning, and Inference* (2nd ed.). Cambridge University Press.
+- Pearl, J., Glymour, M., & Jewell, N. P. (2016). *Causal Inference in Statistics: A Primer*. Wiley.
+- Belloni, A., Chernozhukov, V., & Hansen, C. (2014). High-dimensional methods and inference on structural and treatment effects. *Journal of Economic Perspectives*, 28(2), 29–50.
+- Riascos, Á. J. (2026). *Econometría y Aprendizaje Estadístico: Identificación Causal y Métodos de Alta Dimensión*. Lecture notes.
 - Belkin, M., Hsu, D., Ma, S., & Mandal, S. (2019). Reconciling modern machine-learning practice and the classical bias–variance trade-off. *PNAS*, 116(32), 15849–15854.
