@@ -14,7 +14,9 @@ Two lines of work define what I do: **MLOps** and **Agent-to-Agent systems**. Th
 
 ## The path here
 
-I've worked on problems that actually matter — fraud detection at Mercado Libre, social policy evaluation at the Inter-American Development Bank, edge computing research at Yale with NVIDIA, and ML pipelines at Globant for clients in the UAE and United States.
+Currently **AI Lead at Nubiral**, an AWS partner. I lead a team of AI Engineers, Machine Learning Engineers, and Data Scientists building client products across Banking, Financial Risk, Retail, and Logistics Optimization. Alongside delivery, I drive the adoption of development best practices for AI teams — with a core focus on Agentic workflows and DevOps.
+
+Before that, I worked on problems across very different scales — fraud detection at Mercado Libre, social policy evaluation at the Inter-American Development Bank, edge computing research at Yale with NVIDIA, and ML pipelines at Globant for clients in the UAE and United States.
 
 Earlier: **Data Scientist at the United Nations** in Chile, and five years at Bogotá's Education Department building the first AI system that automatically wrote institutional reports.
 
