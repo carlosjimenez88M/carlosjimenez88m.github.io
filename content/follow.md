@@ -1,16 +1,16 @@
 ---
 title: "Follow The Probability Engine"
-description: "Stay updated with new posts on MLOps, Edge AI, and Agentic Systems"
+description: "Stay updated with new posts on LLMOps, AI Engineering, and Music Analysis"
 layout: "page"
 ---
 
-## 📬 Stay Connected
+## Stay Connected
 
-Get notified when I publish new content about MLOps, Edge AI, Raspberry Pi, NVIDIA Jetson, and Agentic Systems.
+Get notified when I publish new content about LLMOps, AI software engineering, and computational music analysis.
 
-### 📧 Email Newsletter
+### Email Newsletter
 
-Get posts delivered directly to your inbox. One email per month, maximum. No spam, no course pitches, just technical content about MLOps, Edge AI, and making models work outside the lab.
+One email per post, maximum. No spam, no course pitches — just technical writing.
 
 <form
   action="https://buttondown.com/api/emails/embed-subscribe/carlosjimenez88m"
@@ -40,32 +40,20 @@ Get posts delivered directly to your inbox. One email per month, maximum. No spa
   </p>
 </form>
 
-### 📡 RSS Feed (Available Now)
+### RSS
 
-The best way to follow this blog right now is through RSS. Add this feed to your favorite RSS reader:
+The most reliable way to follow. Add this to your reader:
 
 **Feed URL:** [https://carlosdanieljimenez.com/index.xml](https://carlosdanieljimenez.com/index.xml)
 
-**Popular RSS Readers:**
-- [Feedly](https://feedly.com/)
-- [Inoreader](https://www.inoreader.com/)
-- [NetNewsWire](https://netnewswire.com/) (Mac/iOS)
-- [Reeder](https://reederapp.com/) (iOS/Mac)
+Popular readers: [Feedly](https://feedly.com/) · [Inoreader](https://www.inoreader.com/) · [NetNewsWire](https://netnewswire.com/) · [Reeder](https://reederapp.com/)
 
-### 🌐 Social Media
+### Topic feeds
 
-Follow me on social media for updates, insights, and discussions:
+- **LLMOps:** [/categories/llmops/index.xml](/categories/llmops/index.xml)
+- **Music Analysis:** [/categories/music-analysis/index.xml](/categories/music-analysis/index.xml)
+- **Engineering:** [/categories/engineering/index.xml](/categories/engineering/index.xml)
 
-- **LinkedIn:** [Carlos Daniel Jiménez](https://www.linkedin.com/in/djimenezm)
-- **Twitter/X:** [@DanielJimenezM9](https://x.com/DanielJimenezM9)
-- **GitHub:** [@carlosjimenez88M](https://github.com/carlosjimenez88M)
-- **Email:** [danieljimenez88m@gmail.com](mailto:danieljimenez88m@gmail.com)
+### Social
 
-### 📚 Content Categories
-
-Subscribe to specific topics via category feeds:
-
-- **MLOps:** [/mlops/index.xml](/mlops/index.xml)
-- **Agentic AI:** [/agentic-ai/index.xml](/agentic-ai/index.xml)
-- **Edge Computing:** [/edge-computing/index.xml](/edge-computing/index.xml)
-- **TidyTuesday:** [/tidytuesday/index.xml](/tidytuesday/index.xml)
+[LinkedIn](https://www.linkedin.com/in/djimenezm) · [X / Twitter](https://x.com/DanielJimenezM9) · [GitHub](https://github.com/carlosjimenez88M) · [Email](mailto:danieljimenez88m@gmail.com)

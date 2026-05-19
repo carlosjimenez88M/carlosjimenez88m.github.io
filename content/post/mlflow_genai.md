@@ -2,7 +2,7 @@
 author: Carlos Daniel Jiménez
 date: 2025-10-08
 title: MLflow for Generative AI Systems
-categories: ["MLOps", "Agentic AI"]
+categories: ["LLMOps", "MLOps"]
 tags: ["mlflow", "genai", "llms", "tracing", "evaluation"]
 series:
   - mlops

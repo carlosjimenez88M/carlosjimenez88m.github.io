@@ -3,7 +3,7 @@ title: "Anatomy of an MLOps Pipeline - Part 1: Pipeline and Orchestration"
 date: 2026-01-13
 draft: false
 tags: ["mlops", "machine-learning", "python", "gcp", "mlflow", "wandb"]
-categories: ["MLOps", "Engineering"]
+categories: ["LLMOps", "MLOps", "Engineering"]
 author: "Carlos Daniel Jiménez"
 description: "Part 1: Philosophy, project architecture and orchestration with Hydra + MLflow. Steps for preprocessing, feature engineering, hyperparameter tuning and model registry."
 series: ["Anatomy of an MLOps Pipeline"]

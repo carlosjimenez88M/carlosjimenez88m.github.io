@@ -3,7 +3,7 @@ title: "Anatomy of an MLOps Pipeline - Part 2: Deployment and Infrastructure"
 date: 2026-01-13
 draft: false
 tags: ["mlops", "ci-cd", "docker", "fastapi", "github-actions", "wandb", "mlflow"]
-categories: ["MLOps", "Engineering"]
+categories: ["LLMOps", "MLOps", "Engineering"]
 author: "Carlos Daniel Jiménez"
 description: "Part 2: CI/CD with GitHub Actions, W&B vs MLflow comparison, complete containerization with Docker, and production-ready API architecture with FastAPI."
 series: ["Anatomy of an MLOps Pipeline"]

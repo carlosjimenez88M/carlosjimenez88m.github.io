@@ -26,7 +26,7 @@ enableEmoji = true
 
 [params]
   # SEO
-  description = "MLOps, Edge AI, and Agentic Systems - Building intelligent systems from Raspberry Pi to Cloud"
+  description = "Writing about LLMOps, AI Software Engineering, and GCP — and occasionally about what happens when you apply those same tools to music."
   author = "Carlos Daniel Jiménez"
 
   # Favicon
@@ -40,17 +40,17 @@ enableEmoji = true
   [params.profileMode]
     enabled = true
     title = "Carlos Daniel Jiménez"
-    subtitle = "Measuring and optimizing AI systems for production"
+    subtitle = "I work on the engineering side of AI — LLMOps, AI systems design, and GCP. I also apply those same tools to music."
     imageUrl = "/img/profile6.jpeg"
     imageTitle = "Carlos Daniel Jiménez"
     imageWidth = 200
     imageHeight = 200
 
     buttons = [
-      {name = "📝 All Posts", url = "/post/"},
-      {name = "🏷️ Browse Tags", url = "/tags/"},
-      {name = "📚 Archive", url = "/archive/"},
-      {name = "📬 Follow", url = "/follow/"}
+      {name = "Start Here", url = "/start-here/"},
+      {name = "Writing", url = "/post/"},
+      {name = "Music & AI", url = "/music-analysis/"},
+      {name = "Follow", url = "/follow/"}
     ]
 
   # Home Info Params (alternativa a Profile Mode - comentado)
@@ -100,22 +100,28 @@ enableEmoji = true
 # Menu Configuration
 [menu]
   [[menu.main]]
+    identifier = "start-here"
+    name = "Start Here"
+    url = "/start-here/"
+    weight = 5
+
+  [[menu.main]]
     identifier = "posts"
-    name = "Posts"
+    name = "Writing"
     url = "/post/"
     weight = 10
+
+  [[menu.main]]
+    identifier = "music"
+    name = "Music & AI"
+    url = "/music-analysis/"
+    weight = 15
 
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
     weight = 20
-
-  [[menu.main]]
-    identifier = "archive"
-    name = "Archive"
-    url = "/archive/"
-    weight = 30
 
 # Markup configuration
 [markup]

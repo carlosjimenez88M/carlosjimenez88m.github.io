@@ -2,8 +2,8 @@
 author: Carlos Daniel Jiménez
 date: 2026-01-07
 title: "Literary Mapping of Christmas Novels: A Vector Narrative Arc Approach"
-categories: ["Agentic AI"]
-tags: ["llms", "nlp"]
+categories: ["Music Analysis", "LLMs"]
+tags: ["llms", "nlp", "literary-analysis", "semantic-mapping"]
 series:
   - NLP
   - LLMs

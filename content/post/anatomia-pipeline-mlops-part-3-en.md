@@ -3,7 +3,7 @@ title: "Anatomy of an MLOps Pipeline - Part 3: Production and Best Practices"
 date: 2026-01-13
 draft: false
 tags: ["mlops", "testing", "production", "data-drift", "monitoring"]
-categories: ["MLOps", "Engineering"]
+categories: ["LLMOps", "MLOps", "Engineering"]
 author: "Carlos Daniel Jiménez"
 description: "Part 3: Model selection strategies, advanced testing, production patterns, data drift, model monitoring, and production readiness checklist."
 series: ["Anatomy of an MLOps Pipeline"]

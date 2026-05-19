@@ -2,8 +2,8 @@
 author: Carlos Daniel Jiménez
 date: 2026-02-10
 title: "Attention Windows: A Novel Framework for Measuring Narrative Cognitive Load in Beatles vs Pink Floyd"
-categories: ["Agentic AI"]
-tags: ["llms", "nlp", "music-analysis", "embeddings"]
+categories: ["Music Analysis", "LLMs"]
+tags: ["llms", "nlp", "music-analysis", "embeddings", "computational-musicology"]
 series:
   - NLP
   - LLMs

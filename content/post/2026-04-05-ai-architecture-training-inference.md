@@ -4,8 +4,8 @@ date: 2026-04-05
 title: "AI Architecture - Notions on Training and Inference"
 draft: false
 description: "A technical breakdown of CPU, GPU, TPU, and Edge AI hardware tradeoffs for training and inference workloads — with real-world cost data and a deep dive into Raspberry Pi 5 + Hailo-10H."
-categories: ["engineering"]
-tags: ["cpu", "gpu", "tpu", "edge-ai", "inference", "deep-learning", "nvidia", "hardware", "raspberry-pi", "mlops", "hailo", "edge-computing"]
+categories: ["Engineering", "LLMOps"]
+tags: ["cpu", "gpu", "tpu", "edge-ai", "inference", "deep-learning", "nvidia", "hardware", "raspberry-pi", "gcp", "hailo", "edge-computing"]
 ---
 
 CPU · GPU · TPU · Edge Computing
