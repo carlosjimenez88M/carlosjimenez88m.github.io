@@ -1,7 +1,11 @@
 ---
 title: "Music, NLP & LLMs"
-layout: "page"
+layout: "hub"
 description: "A research thread on lyrics, semantics, embeddings, and what large language models can and cannot tell us about music."
+hubTitle: "Posts on music, language, and computational interpretation"
+hubDescription: "These are the essays already published around music analysis, NLP, embeddings, and LLM-based interpretation."
+hubCategories: ["Music Analysis"]
+hubTags: ["music-analysis", "computational-musicology"]
 ---
 
 ## Why this section exists

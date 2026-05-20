@@ -2,7 +2,7 @@
 author: Carlos Daniel Jiménez
 date: 2026-01-07
 title: "Literary Mapping of Christmas Novels: A Vector Narrative Arc Approach"
-categories: ["Music Analysis", "LLMs"]
+categories: ["Literary Analysis", "LLMs"]
 tags: ["llms", "nlp", "literary-analysis", "semantic-mapping"]
 series:
   - NLP
@@ -580,5 +580,4 @@ Literature ceases to be a purely subjective art. It becomes a science of human e
 **Complete code and datasets**: [[Link to GitHub](https://github.com/rfordatascience/tidytuesday/blob/main/data/2025/2025-12-30/readme.md)]  
 **Models used**: `text-embedding-004` (Google), `scikit-learn`, `networkx`  
 **Theoretical inspiration**: Kurt Vonnegut (1981), "The Shape of Stories"
-
 

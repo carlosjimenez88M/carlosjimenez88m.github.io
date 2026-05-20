@@ -1,7 +1,11 @@
 ---
 title: "AI Engineering"
-layout: "page"
+layout: "hub"
 description: "The core editorial line of this blog: AI Software Engineering, LLMOps, GCP, edge machine learning, and agentic systems."
+hubTitle: "Posts on AI Software Engineering, LLMOps, and production systems"
+hubDescription: "A curated index of the writing that supports the main technical direction of the blog."
+hubCategories: ["Engineering", "LLMOps", "MLOps", "Statistical Learning", "Edge Computing"]
+hubTags: ["mlops", "gcp", "mlflow", "genai", "evaluation", "tracing", "deployment", "production", "monitoring", "edge-ai", "inference", "testing"]
 ---
 
 ## The center of gravity

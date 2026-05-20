@@ -1,0 +1,68 @@
+{{- define "main" }}
+{{- $hubTags := .Params.hubTags | default (slice) }}
+{{- $hubCategories := .Params.hubCategories | default (slice) }}
+{{- $posts := where site.RegularPages "Type" "post" }}
+{{- $matches := slice }}
+
+{{- range $posts }}
+  {{- $postTags := .Params.tags | default (slice) }}
+  {{- $postCategories := .Params.categories | default (slice) }}
+  {{- $tagMatches := intersect $postTags $hubTags }}
+  {{- $categoryMatches := intersect $postCategories $hubCategories }}
+  {{- if or (gt (len $tagMatches) 0) (gt (len $categoryMatches) 0) }}
+    {{- $matches = $matches | append . }}
+  {{- end }}
+{{- end }}
+
+{{- $matches = sort (uniq $matches) "Date" "desc" }}
+
+<article class="post-single hub-page">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title entry-hint-parent">{{ .Title }}</h1>
+    {{- if .Description }}
+    <div class="post-description">{{ .Description }}</div>
+    {{- end }}
+  </header>
+
+  {{- if .Content }}
+  <div class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </div>
+  {{- end }}
+
+  <section class="hub-posts" aria-labelledby="hub-posts-title">
+    <div class="hub-posts-header">
+      <p class="eyebrow">{{ .Params.hubEyebrow | default "Published writing" }}</p>
+      <h2 id="hub-posts-title">{{ .Params.hubTitle | default "Posts in this section" }}</h2>
+      {{- with .Params.hubDescription }}
+      <p>{{ . }}</p>
+      {{- end }}
+    </div>
+
+    {{- if gt (len $matches) 0 }}
+    <div class="hub-post-list">
+      {{- range $matches }}
+      <article class="hub-post">
+        <p class="essay-meta">{{ .Date | time.Format "02 Jan 2006" }}</p>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p>{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | htmlUnescape | truncate 220 }}{{ end }}</p>
+        <div class="hub-post-taxonomy">
+          {{- range first 5 (.Params.categories | default (slice)) }}
+          <span>{{ . }}</span>
+          {{- end }}
+          {{- range first 5 (.Params.tags | default (slice)) }}
+          <span>{{ . }}</span>
+          {{- end }}
+        </div>
+      </article>
+      {{- end }}
+    </div>
+    {{- else }}
+    <p class="hub-empty">No posts match this section yet.</p>
+    {{- end }}
+  </section>
+</article>
+{{- end }}

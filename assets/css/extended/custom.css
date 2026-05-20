@@ -337,6 +337,69 @@ a {
   border-color: var(--border);
 }
 
+.hub-posts {
+  margin-top: 2.75rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--border);
+}
+
+.hub-posts-header {
+  max-width: 42rem;
+  margin-bottom: 1.25rem;
+}
+
+.hub-posts-header h2 {
+  margin-bottom: 0.45rem;
+  font-size: 2rem;
+  line-height: 1.15;
+}
+
+.hub-posts-header p:last-child,
+.hub-post p,
+.hub-empty {
+  color: var(--secondary);
+}
+
+.hub-post-list {
+  display: grid;
+  gap: 0;
+  border-top: 1px solid var(--border);
+}
+
+.hub-post {
+  padding: 1.15rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.hub-post h3 {
+  margin: 0.2rem 0 0.45rem;
+}
+
+.hub-post h3 a {
+  color: var(--primary);
+  box-shadow: none;
+}
+
+.hub-post h3 a:hover {
+  color: var(--accent);
+}
+
+.hub-post-taxonomy {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.75rem;
+}
+
+.hub-post-taxonomy span {
+  padding: 0.25rem 0.45rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--secondary);
+  font-size: 0.78rem;
+  line-height: 1.2;
+}
+
 .newsletter-band {
   max-width: calc(var(--main-width) + var(--gap) * 2);
   margin: 3.5rem auto 2rem;

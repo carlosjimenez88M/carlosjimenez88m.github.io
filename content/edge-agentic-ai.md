@@ -1,7 +1,11 @@
 ---
 title: "Edge + Agentic AI"
-layout: "page"
+layout: "hub"
 description: "How edge machine learning, constrained hardware, and agentic AI intersect with practical AI system design."
+hubTitle: "Posts on edge ML, inference, hardware, and autonomy"
+hubDescription: "The pieces that connect constrained hardware, inference architecture, and the operational side of agentic systems."
+hubCategories: ["Edge Computing"]
+hubTags: ["edge-ai", "edge-computing", "raspberry-pi", "jetson-nano", "iot", "inference", "hardware", "hailo"]
 ---
 
 ## Why this matters
