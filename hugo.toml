@@ -37,8 +37,8 @@ enableEmoji = true
     favicon16x16 = "/img/icon.jpeg"
     favicon32x32 = "/img/icon.jpeg"
     apple_touch_icon = "/img/icon.jpeg"
-    theme_color = "#f8f5ef"
-    msapplication_TileColor = "#f8f5ef"
+    theme_color = "#f9fbfd"
+    msapplication_TileColor = "#f9fbfd"
 
   # Profile Mode
   [params.profileMode]
