@@ -2,6 +2,7 @@ baseURL = "https://carlosdanieljimenez.com/"
 title = "The Probability Engine"
 theme = "PaperMod"
 languageCode = "en-us"
+defaultTheme = "light"
 
 enableEmoji = true
 
@@ -26,8 +27,9 @@ enableEmoji = true
 
 [params]
   # SEO
-  description = "Writing about LLMOps, AI Software Engineering, and GCP — and occasionally about what happens when you apply those same tools to music."
+  description = "Essays on AI Software Engineering, LLMOps, GCP, edge machine learning, and the use of NLP and LLMs to analyze music."
   author = "Carlos Daniel Jiménez"
+  keywords = ["AI Software Engineering", "LLMOps", "GCP", "Edge AI", "Agentic AI", "Music NLP"]
 
   # Favicon
   [params.assets]
@@ -35,12 +37,14 @@ enableEmoji = true
     favicon16x16 = "/img/icon.jpeg"
     favicon32x32 = "/img/icon.jpeg"
     apple_touch_icon = "/img/icon.jpeg"
+    theme_color = "#f8f5ef"
+    msapplication_TileColor = "#f8f5ef"
 
   # Profile Mode
   [params.profileMode]
-    enabled = true
+    enabled = false
     title = "Carlos Daniel Jiménez"
-    subtitle = "I work on the engineering side of AI — LLMOps, AI systems design, and GCP. I also apply those same tools to music."
+    subtitle = "AI Software Engineering, LLMOps, GCP, edge systems, and music analysis with NLP and LLMs."
     imageUrl = "/img/profile6.jpeg"
     imageTitle = "Carlos Daniel Jiménez"
     imageWidth = 200
@@ -48,8 +52,8 @@ enableEmoji = true
 
     buttons = [
       {name = "Start Here", url = "/start-here/"},
-      {name = "Writing", url = "/post/"},
-      {name = "Music & AI", url = "/music-analysis/"},
+      {name = "AI Engineering", url = "/ai-engineering/"},
+      {name = "Music + NLP", url = "/music-analysis/"},
       {name = "Follow", url = "/follow/"}
     ]
 
@@ -60,6 +64,7 @@ enableEmoji = true
 
   # Show RSS button in profile mode
   ShowRssButtonInSectionTermList = true
+  mainSections = ["post"]
 
   # Social Icons
   [[params.socialIcons]]
@@ -107,13 +112,13 @@ enableEmoji = true
 
   [[menu.main]]
     identifier = "posts"
-    name = "Writing"
-    url = "/post/"
+    name = "AI Engineering"
+    url = "/ai-engineering/"
     weight = 10
 
   [[menu.main]]
     identifier = "music"
-    name = "Music & AI"
+    name = "Music + NLP"
     url = "/music-analysis/"
     weight = 15
 
