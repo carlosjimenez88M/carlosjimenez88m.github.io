@@ -1,0 +1,192 @@
+[
+  {
+    "num": 0,
+    "campo": "EMOCION",
+    "confidence": 0.9
+  },
+  {
+    "num": 1,
+    "campo": "MARCA",
+    "confidence": 0.8
+  },
+  {
+    "num": 2,
+    "campo": "MARCA",
+    "confidence": 0.8
+  },
+  {
+    "num": 3,
+    "campo": "ACCION",
+    "confidence": 0.7
+  },
+  {
+    "num": 4,
+    "campo": "ACCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 5,
+    "campo": "ACCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 6,
+    "campo": "EMOCION",
+    "confidence": 0.9
+  },
+  {
+    "num": 7,
+    "campo": "ACCION",
+    "confidence": 0.6
+  },
+  {
+    "num": 8,
+    "campo": "IDENTIDAD",
+    "confidence": 0.9
+  },
+  {
+    "num": 9,
+    "campo": "ACCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 10,
+    "campo": "ACCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 11,
+    "campo": "ACCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 12,
+    "campo": "ACCION",
+    "confidence": 0.7
+  },
+  {
+    "num": 13,
+    "campo": "NONSENSE",
+    "confidence": 0.9
+  },
+  {
+    "num": 14,
+    "campo": "CUERPO",
+    "confidence": 0.7
+  },
+  {
+    "num": 15,
+    "campo": "LUGAR",
+    "confidence": 0.8
+  },
+  {
+    "num": 16,
+    "campo": "EMOCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 17,
+    "campo": "IDENTIDAD",
+    "confidence": 0.8
+  },
+  {
+    "num": 18,
+    "campo": "IDENTIDAD",
+    "confidence": 0.8
+  },
+  {
+    "num": 19,
+    "campo": "IDENTIDAD",
+    "confidence": 0.7
+  },
+  {
+    "num": 20,
+    "campo": "IDENTIDAD",
+    "confidence": 0.9
+  },
+  {
+    "num": 21,
+    "campo": "ACCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 22,
+    "campo": "ACCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 23,
+    "campo": "ACCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 24,
+    "campo": "ACCION",
+    "confidence": 0.7
+  },
+  {
+    "num": 25,
+    "campo": "IDENTIDAD",
+    "confidence": 0.9
+  },
+  {
+    "num": 26,
+    "campo": "ACCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 27,
+    "campo": "ACCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 28,
+    "campo": "ACCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 29,
+    "campo": "ACCION",
+    "confidence": 0.7
+  },
+  {
+    "num": 30,
+    "campo": "IDENTIDAD",
+    "confidence": 0.9
+  },
+  {
+    "num": 31,
+    "campo": "IDENTIDAD",
+    "confidence": 0.9
+  },
+  {
+    "num": 32,
+    "campo": "IDENTIDAD",
+    "confidence": 0.8
+  },
+  {
+    "num": 33,
+    "campo": "IDENTIDAD",
+    "confidence": 0.8
+  },
+  {
+    "num": 34,
+    "campo": "ACCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 35,
+    "campo": "ACCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 36,
+    "campo": "ACCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 37,
+    "campo": "ACCION",
+    "confidence": 0.7
+  }
+]

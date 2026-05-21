@@ -1,0 +1,152 @@
+[
+  {
+    "num": 0,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 1,
+    "campo": "ACCION",
+    "confidence": 0.7
+  },
+  {
+    "num": 2,
+    "campo": "CUERPO",
+    "confidence": 0.8
+  },
+  {
+    "num": 3,
+    "campo": "EMOCION",
+    "confidence": 0.6
+  },
+  {
+    "num": 4,
+    "campo": "NONSENSE",
+    "confidence": 0.9
+  },
+  {
+    "num": 5,
+    "campo": "NONSENSE",
+    "confidence": 0.9
+  },
+  {
+    "num": 6,
+    "campo": "CUERPO",
+    "confidence": 0.7
+  },
+  {
+    "num": 7,
+    "campo": "CUERPO",
+    "confidence": 0.6
+  },
+  {
+    "num": 8,
+    "campo": "IDENTIDAD",
+    "confidence": 0.7
+  },
+  {
+    "num": 9,
+    "campo": "CUERPO",
+    "confidence": 0.6
+  },
+  {
+    "num": 10,
+    "campo": "EMOCION",
+    "confidence": 0.7
+  },
+  {
+    "num": 11,
+    "campo": "ACCION",
+    "confidence": 0.5
+  },
+  {
+    "num": 12,
+    "campo": "ACCION",
+    "confidence": 0.5
+  },
+  {
+    "num": 13,
+    "campo": "LUGAR",
+    "confidence": 0.6
+  },
+  {
+    "num": 14,
+    "campo": "EMOCION",
+    "confidence": 0.7
+  },
+  {
+    "num": 15,
+    "campo": "CUERPO",
+    "confidence": 0.8
+  },
+  {
+    "num": 16,
+    "campo": "NONSENSE",
+    "confidence": 0.6
+  },
+  {
+    "num": 17,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 18,
+    "campo": "LUGAR",
+    "confidence": 0.7
+  },
+  {
+    "num": 19,
+    "campo": "CUERPO",
+    "confidence": 0.8
+  },
+  {
+    "num": 20,
+    "campo": "EMOCION",
+    "confidence": 0.6
+  },
+  {
+    "num": 21,
+    "campo": "ACCION",
+    "confidence": 0.5
+  },
+  {
+    "num": 22,
+    "campo": "EMOCION",
+    "confidence": 0.6
+  },
+  {
+    "num": 23,
+    "campo": "EMOCION",
+    "confidence": 0.7
+  },
+  {
+    "num": 24,
+    "campo": "EMOCION",
+    "confidence": 0.7
+  },
+  {
+    "num": 25,
+    "campo": "EMOCION",
+    "confidence": 0.7
+  },
+  {
+    "num": 26,
+    "campo": "EMOCION",
+    "confidence": 0.7
+  },
+  {
+    "num": 27,
+    "campo": "EMOCION",
+    "confidence": 0.7
+  },
+  {
+    "num": 28,
+    "campo": "EMOCION",
+    "confidence": 0.7
+  },
+  {
+    "num": 29,
+    "campo": "NONSENSE",
+    "confidence": 0.9
+  }
+]

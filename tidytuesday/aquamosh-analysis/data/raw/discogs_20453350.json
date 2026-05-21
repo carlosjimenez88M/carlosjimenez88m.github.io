@@ -1,0 +1,196 @@
+{
+  "id": 20453350,
+  "status": "Accepted",
+  "year": 1999,
+  "resource_url": "https://api.discogs.com/releases/20453350",
+  "uri": "https://www.discogs.com/release/20453350-Zurdok-Hombre-Sintetizador",
+  "artists": [
+    {
+      "name": "Zurdok",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 1166182,
+      "resource_url": "https://api.discogs.com/artists/1166182",
+      "thumbnail_url": "https://i.discogs.com/VS6-gSZU3BSGfLQvTH3fBJZ5LrHsD-oNAr2yvt0p9Ew/rs:fit/g:sm/q:90/h:274/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTExNjYx/ODItMTY3NjY3NDA4/My0xNzc0LmpwZWc.jpeg"
+    }
+  ],
+  "artists_sort": "Zurdok",
+  "labels": [
+    {
+      "name": "Universal Music Mexico",
+      "catno": "546356-4 (49)",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 58941,
+      "resource_url": "https://api.discogs.com/labels/58941",
+      "thumbnail_url": "https://i.discogs.com/9LUlCm5uao1rp-jjBxkaSbDjzRsYy0IkGgS9_PH4r1g/rs:fit/g:sm/q:90/h:213/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTU4OTQx/LTE3NTQwMDQzMzgt/ODIxMC5wbmc.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [],
+  "formats": [
+    {
+      "name": "Cassette",
+      "qty": "1",
+      "descriptions": [
+        "Album"
+      ]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 11,
+    "want": 15,
+    "rating": {
+      "count": 3,
+      "average": 5.0
+    },
+    "submitter": {
+      "username": "danigreen182",
+      "resource_url": "https://api.discogs.com/users/danigreen182"
+    },
+    "contributors": [
+      {
+        "username": "danigreen182",
+        "resource_url": "https://api.discogs.com/users/danigreen182"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2021-10-02T20:28:20-07:00",
+  "date_changed": "2021-10-02T20:32:02-07:00",
+  "num_for_sale": 0,
+  "lowest_price": null,
+  "master_id": 694833,
+  "master_url": "https://api.discogs.com/masters/694833",
+  "title": "Hombre Sintetizador",
+  "country": "Mexico",
+  "released": "1999",
+  "released_formatted": "1999",
+  "identifiers": [
+    {
+      "type": "Barcode",
+      "value": "7 31454 63564 6"
+    }
+  ],
+  "videos": [],
+  "genres": [
+    "Rock",
+    "Latin"
+  ],
+  "styles": [
+    "Alternative Rock"
+  ],
+  "tracklist": [
+    {
+      "position": "A1",
+      "type_": "track",
+      "title": "Hombre Sintetizador I",
+      "duration": "3:04"
+    },
+    {
+      "position": "A2",
+      "type_": "track",
+      "title": "Abre Los Ojos",
+      "duration": "3:35"
+    },
+    {
+      "position": "A3",
+      "type_": "track",
+      "title": "Si Quieres Llegar Muy Lejos",
+      "duration": "3:09"
+    },
+    {
+      "position": "A4",
+      "type_": "track",
+      "title": "¿Cuántos Pasos?",
+      "duration": "3:07"
+    },
+    {
+      "position": "A5",
+      "type_": "track",
+      "title": "No Encuentro La Manera",
+      "duration": "4:45"
+    },
+    {
+      "position": "A6",
+      "type_": "track",
+      "title": "...De Llegar Al Final",
+      "duration": "4:38"
+    },
+    {
+      "position": "A7",
+      "type_": "track",
+      "title": "Hombre Sintetizador II",
+      "duration": "12:10"
+    },
+    {
+      "position": "B1",
+      "type_": "track",
+      "title": "Si Me Advertí",
+      "duration": "3:34"
+    },
+    {
+      "position": "B2",
+      "type_": "track",
+      "title": "El Tiempo Se Va I",
+      "duration": "3:11"
+    },
+    {
+      "position": "B3",
+      "type_": "track",
+      "title": "Tal Vez",
+      "duration": "3:35"
+    },
+    {
+      "position": "B4",
+      "type_": "track",
+      "title": "El Tiempo Se Va II",
+      "duration": "0:34"
+    },
+    {
+      "position": "B5",
+      "type_": "track",
+      "title": "Espacio",
+      "duration": "3:09"
+    },
+    {
+      "position": "B6",
+      "type_": "track",
+      "title": "Nos Vemos En La Luna",
+      "duration": "2:56"
+    },
+    {
+      "position": "B7",
+      "type_": "track",
+      "title": "Luna",
+      "duration": "5:20"
+    }
+  ],
+  "images": [
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/xytaw0K1B7j5KJaN4EFCDG2wcjZVS1HAAzGOLUh88vs/rs:fit/g:sm/q:90/h:600/w:402/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNDUz/MzUwLTE2MzMyMzE3/MTMtODgwNS5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/xytaw0K1B7j5KJaN4EFCDG2wcjZVS1HAAzGOLUh88vs/rs:fit/g:sm/q:90/h:600/w:402/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNDUz/MzUwLTE2MzMyMzE3/MTMtODgwNS5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/Wbs2IL9YHfx-4hAzn88iEW01VAzAIJ7C6Zm_QX1heVM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNDUz/MzUwLTE2MzMyMzE3/MTMtODgwNS5qcGVn.jpeg",
+      "width": 402,
+      "height": 600
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/cBNT42o6YFNObuHlm48lE1Btjc7tenadrKhOQfgVryU/rs:fit/g:sm/q:90/h:600/w:384/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNDUz/MzUwLTE2MzMyMzE3/MTgtMzc4OC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/cBNT42o6YFNObuHlm48lE1Btjc7tenadrKhOQfgVryU/rs:fit/g:sm/q:90/h:600/w:384/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNDUz/MzUwLTE2MzMyMzE3/MTgtMzc4OC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/2mY24R09iRvm2hZ2Z_N9oQ6w5MJXZLD8nG4_FuDztfY/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNDUz/MzUwLTE2MzMyMzE3/MTgtMzc4OC5qcGVn.jpeg",
+      "width": 384,
+      "height": 600
+    }
+  ],
+  "thumb": "https://i.discogs.com/Wbs2IL9YHfx-4hAzn88iEW01VAzAIJ7C6Zm_QX1heVM/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIwNDUz/MzUwLTE2MzMyMzE3/MTMtODgwNS5qcGVn.jpeg",
+  "estimated_weight": 65,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

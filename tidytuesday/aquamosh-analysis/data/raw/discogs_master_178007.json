@@ -1,0 +1,99 @@
+{
+  "id": 178007,
+  "main_release": 178848,
+  "most_recent_release": 1920258,
+  "resource_url": "https://api.discogs.com/masters/178007",
+  "uri": "https://www.discogs.com/master/178007-Static-Rhythm-Music-Makers",
+  "versions_url": "https://api.discogs.com/masters/178007/versions",
+  "main_release_url": "https://api.discogs.com/releases/178848",
+  "most_recent_release_url": "https://api.discogs.com/releases/1920258",
+  "num_for_sale": 3,
+  "lowest_price": 48.53,
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/dDNTRWEhNn24N-s8qROCsoqlTGngFJo75G5u1K7I88Q/rs:fit/g:sm/q:90/h:573/w:584/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3ODg0/OC0xNDA0NTU1MDE1/LTI4NDMuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/dDNTRWEhNn24N-s8qROCsoqlTGngFJo75G5u1K7I88Q/rs:fit/g:sm/q:90/h:573/w:584/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3ODg0/OC0xNDA0NTU1MDE1/LTI4NDMuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/r7NKouXkYCE3vX1tZer-HRu0AcUZ_NEZsPNiRui45M8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3ODg0/OC0xNDA0NTU1MDE1/LTI4NDMuanBlZw.jpeg",
+      "width": 584,
+      "height": 573
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/6ibZcLJBQz3Z-3hML41frKgZjWL6LIRTfemYxW00Gow/rs:fit/g:sm/q:90/h:574/w:581/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3ODg0/OC0xNDA0NTU0OTYz/LTIyNTUuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/6ibZcLJBQz3Z-3hML41frKgZjWL6LIRTfemYxW00Gow/rs:fit/g:sm/q:90/h:574/w:581/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3ODg0/OC0xNDA0NTU0OTYz/LTIyNTUuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/NTn3KCnjAGpQXiDaWdP2V72vgiwn9LwU11lXAk9PliI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3ODg0/OC0xNDA0NTU0OTYz/LTIyNTUuanBlZw.jpeg",
+      "width": 581,
+      "height": 574
+    }
+  ],
+  "genres": [
+    "Electronic"
+  ],
+  "styles": [
+    "Progressive House"
+  ],
+  "year": 2001,
+  "tracklist": [
+    {
+      "position": "",
+      "type_": "heading",
+      "title": "That ",
+      "duration": ""
+    },
+    {
+      "position": "A",
+      "type_": "track",
+      "title": "Music Makers (Original Mix)",
+      "duration": ""
+    },
+    {
+      "position": "",
+      "type_": "heading",
+      "title": "This ",
+      "duration": ""
+    },
+    {
+      "position": "AA",
+      "type_": "track",
+      "title": "Music Makers (Spacious Drum Mix)",
+      "duration": ""
+    }
+  ],
+  "artists": [
+    {
+      "name": "Static Rhythm",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 134677,
+      "resource_url": "https://api.discogs.com/artists/134677"
+    }
+  ],
+  "title": "Music Makers",
+  "data_quality": "Correct",
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=3pNwvtp3zuI",
+      "title": "Static Rhythm - Music Makers (Original Mix)",
+      "description": "Static Rhythm - Music Makers (Original Mix)\r\n\r\nLabel: Grooves ‎– RNRG004\r\nFormat: Vinyl, 12\" \r\nCountry: UK\r\nReleased: 01 September 2001\r\nGenre: Electronic\r\nStyle: Progressive House",
+      "duration": 538,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=bwRr5bu7PIg",
+      "title": "Static Rhythm - Music Makers (A side)",
+      "description": "",
+      "duration": 513,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=G_M4sQVnpxY",
+      "title": "Static Rhythm - Music Makers (AA Side)",
+      "description": "",
+      "duration": 540,
+      "embed": true
+    }
+  ]
+}

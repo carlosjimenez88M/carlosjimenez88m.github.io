@@ -1,0 +1,3 @@
+hallazgo,confirma_tesis,evidencia,nivel_confianza,visualizacion
+Idioma y campo semántico NO son independientes,sí,"chi2=124.7, p=9.72e-17",alta,outputs/figures/language_field_residuals.png
+Robustez del análisis a compresión dimensional,n/a (meta),Spearman ρ mínimo entre dim=256 y dim=3072: 0.358,baja,outputs/figures/dimension_robustness.png

@@ -1,0 +1,62 @@
+[
+  {
+    "num": 0,
+    "campo": "REFERENCIA",
+    "confidence": 0.9
+  },
+  {
+    "num": 1,
+    "campo": "ACCION",
+    "confidence": 0.5
+  },
+  {
+    "num": 2,
+    "campo": "ACCION",
+    "confidence": 0.5
+  },
+  {
+    "num": 3,
+    "campo": "ACCION",
+    "confidence": 0.5
+  },
+  {
+    "num": 4,
+    "campo": "REFERENCIA",
+    "confidence": 0.9
+  },
+  {
+    "num": 5,
+    "campo": "ACCION",
+    "confidence": 0.5
+  },
+  {
+    "num": 6,
+    "campo": "ACCION",
+    "confidence": 0.5
+  },
+  {
+    "num": 7,
+    "campo": "EMOCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 8,
+    "campo": "REFERENCIA",
+    "confidence": 0.9
+  },
+  {
+    "num": 9,
+    "campo": "ACCION",
+    "confidence": 0.5
+  },
+  {
+    "num": 10,
+    "campo": "EMOCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 11,
+    "campo": "EMOCION",
+    "confidence": 0.8
+  }
+]

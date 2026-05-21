@@ -1,0 +1,67 @@
+{
+  "models": [
+    {
+      "model": "OpenAI 3-large",
+      "dim": 3072,
+      "theta": 0.32007402181625366,
+      "p_break_same": 0.36065573770491804,
+      "p_break_switch": 0.6984924623115578,
+      "gap": 0.33783672460663977,
+      "rel_gap": 1.936729100045683,
+      "n_same": 183,
+      "n_switch": 199
+    },
+    {
+      "model": "LaBSE",
+      "dim": 768,
+      "theta": 0.32299089431762695,
+      "p_break_same": 0.4098360655737705,
+      "p_break_switch": 0.6482412060301508,
+      "gap": 0.23840514045638028,
+      "rel_gap": 1.581708542713568,
+      "n_same": 183,
+      "n_switch": 199
+    },
+    {
+      "model": "BGE-M3",
+      "dim": 1024,
+      "theta": 0.5176416635513306,
+      "p_break_same": 0.4262295081967213,
+      "p_break_switch": 0.7738693467336684,
+      "gap": 0.3476398385369471,
+      "rel_gap": 1.8156165442597605,
+      "n_same": 183,
+      "n_switch": 199
+    },
+    {
+      "model": "E5 multilingual large",
+      "dim": 1024,
+      "theta": 0.8556703925132751,
+      "p_break_same": 0.37158469945355194,
+      "p_break_switch": 0.48743718592964824,
+      "gap": 0.1158524864760963,
+      "rel_gap": 1.311779485663612,
+      "n_same": 183,
+      "n_switch": 199
+    },
+    {
+      "model": "MPNet multilingual",
+      "dim": 768,
+      "theta": 0.4397696256637573,
+      "p_break_same": 0.4098360655737705,
+      "p_break_switch": 0.7336683417085427,
+      "gap": 0.32383227613477217,
+      "rel_gap": 1.7901507537688441,
+      "n_same": 183,
+      "n_switch": 199
+    }
+  ],
+  "summary": {
+    "mean_gap": 0.27271329324216714,
+    "std_gap": 0.09778875313826206,
+    "cv_gap": 0.3585771414942595,
+    "mean_rel_gap": 1.6871968852902934,
+    "all_positive_gap": true,
+    "all_rel_gap_above_1_5": false
+  }
+}

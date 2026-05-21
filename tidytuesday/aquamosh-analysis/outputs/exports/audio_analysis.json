@@ -1,0 +1,255 @@
+{
+  "n_tracks": 12,
+  "audio_features": [
+    {
+      "track_num": 1,
+      "title": "Niño Bomba",
+      "duration_s": 223.66666666666666,
+      "tempo_bpm": 107.666015625,
+      "rms_energy": 0.2261655628681183,
+      "spectral_centroid_hz": 2389.3863516026177,
+      "spectral_rolloff_hz": 5111.987563198283,
+      "zcr": 0.08074548832788332,
+      "spectral_bandwidth_hz": 2480.3088728873445
+    },
+    {
+      "track_num": 2,
+      "title": "Afroman",
+      "duration_s": 219.0,
+      "tempo_bpm": 103.359375,
+      "rms_energy": 0.2157752811908722,
+      "spectral_centroid_hz": 2494.922259281785,
+      "spectral_rolloff_hz": 5768.4328035543895,
+      "zcr": 0.10432419845671649,
+      "spectral_bandwidth_hz": 2744.695590984963
+    },
+    {
+      "track_num": 3,
+      "title": "Ode To Mauricio Garces",
+      "duration_s": 254.08,
+      "tempo_bpm": 117.45383522727273,
+      "rms_energy": 0.14175835251808167,
+      "spectral_centroid_hz": 2589.535476008132,
+      "spectral_rolloff_hz": 6088.410368107751,
+      "zcr": 0.10723094422518963,
+      "spectral_bandwidth_hz": 2781.089134101544
+    },
+    {
+      "track_num": 4,
+      "title": "Banano´s Bar",
+      "duration_s": 348.82666666666665,
+      "tempo_bpm": 117.45383522727273,
+      "rms_energy": 0.18419060111045837,
+      "spectral_centroid_hz": 2469.3582869112006,
+      "spectral_rolloff_hz": 5684.907526558236,
+      "zcr": 0.09457445198612129,
+      "spectral_bandwidth_hz": 2743.5109366065512
+    },
+    {
+      "track_num": 5,
+      "title": "Monster Truck",
+      "duration_s": 258.16,
+      "tempo_bpm": 95.703125,
+      "rms_energy": 0.17836567759513855,
+      "spectral_centroid_hz": 2832.5228401055497,
+      "spectral_rolloff_hz": 5843.9000436155175,
+      "zcr": 0.1441153831560842,
+      "spectral_bandwidth_hz": 2651.6855318212715
+    },
+    {
+      "track_num": 6,
+      "title": "Encendedor",
+      "duration_s": 156.92,
+      "tempo_bpm": 107.666015625,
+      "rms_energy": 0.17268209159374237,
+      "spectral_centroid_hz": 2918.9804996728344,
+      "spectral_rolloff_hz": 5907.246182620366,
+      "zcr": 0.13896254612588785,
+      "spectral_bandwidth_hz": 2675.954783094543
+    },
+    {
+      "track_num": 7,
+      "title": "Bungaloo Punta Cometa",
+      "duration_s": 239.92,
+      "tempo_bpm": 151.99908088235293,
+      "rms_energy": 0.186607226729393,
+      "spectral_centroid_hz": 1731.4942404038009,
+      "spectral_rolloff_hz": 3771.342658608947,
+      "zcr": 0.0663875371987806,
+      "spectral_bandwidth_hz": 2178.8214936940176
+    },
+    {
+      "track_num": 8,
+      "title": "Aquamosh",
+      "duration_s": 236.70666666666668,
+      "tempo_bpm": 184.5703125,
+      "rms_energy": 0.16339111328125,
+      "spectral_centroid_hz": 1577.4977725378958,
+      "spectral_rolloff_hz": 3409.949045373038,
+      "zcr": 0.05906723194580677,
+      "spectral_bandwidth_hz": 2000.6443789172458
+    },
+    {
+      "track_num": 9,
+      "title": "I´ve Got That Milton Pacheco Kinda Feeling (Melancolic Mix)",
+      "duration_s": 262.48,
+      "tempo_bpm": 117.45383522727273,
+      "rms_energy": 0.17622455954551697,
+      "spectral_centroid_hz": 2064.3302069706556,
+      "spectral_rolloff_hz": 4717.178142535798,
+      "zcr": 0.06947838345864661,
+      "spectral_bandwidth_hz": 2432.725122500579
+    },
+    {
+      "track_num": 10,
+      "title": "Pornoshop",
+      "duration_s": 211.16,
+      "tempo_bpm": 103.359375,
+      "rms_energy": 0.19204449653625488,
+      "spectral_centroid_hz": 2524.8800441052276,
+      "spectral_rolloff_hz": 5188.573756992935,
+      "zcr": 0.12218698669796019,
+      "spectral_bandwidth_hz": 2473.6767861469148
+    },
+    {
+      "track_num": 11,
+      "title": "Savage Sucker Boy Feat. Pocahontas Freaky Groove",
+      "duration_s": 212.89333333333335,
+      "tempo_bpm": 129.19921875,
+      "rms_energy": 0.21115685999393463,
+      "spectral_centroid_hz": 2704.8859942291156,
+      "spectral_rolloff_hz": 5837.5236099348,
+      "zcr": 0.12230036757688952,
+      "spectral_bandwidth_hz": 2669.040877558003
+    },
+    {
+      "track_num": 12,
+      "title": "Mr. P-Mosh",
+      "duration_s": 262.61333333333334,
+      "tempo_bpm": 95.703125,
+      "rms_energy": 0.14571505784988403,
+      "spectral_centroid_hz": 2470.9583732066317,
+      "spectral_rolloff_hz": 5306.609450120192,
+      "zcr": 0.10218185303381963,
+      "spectral_bandwidth_hz": 2573.383550722291
+    }
+  ],
+  "audio_projections_kozlowski": [
+    {
+      "title": "Niño Bomba",
+      "audio_ORIGEN": 0.1443323940038681,
+      "audio_SUPERFICIE": -0.03558812290430069,
+      "audio_TIEMPO": -0.08729157596826553,
+      "audio_VOCALIDAD": -0.2763078212738037,
+      "norm_title": "niño bomba"
+    },
+    {
+      "title": "Afroman",
+      "audio_ORIGEN": 0.13306759297847748,
+      "audio_SUPERFICIE": -0.0412273108959198,
+      "audio_TIEMPO": -0.09331962466239929,
+      "audio_VOCALIDAD": -0.197368785738945,
+      "norm_title": "afroman"
+    },
+    {
+      "title": "Ode To Mauricio Garces",
+      "audio_ORIGEN": 0.0423247367143631,
+      "audio_SUPERFICIE": 0.014567114412784576,
+      "audio_TIEMPO": 0.10147493332624435,
+      "audio_VOCALIDAD": -0.30151548981666565,
+      "norm_title": "ode to mauricio garces"
+    },
+    {
+      "title": "Banano´s Bar",
+      "audio_ORIGEN": 0.16175507009029388,
+      "audio_SUPERFICIE": 0.00859515555202961,
+      "audio_TIEMPO": -0.12382739037275314,
+      "audio_VOCALIDAD": -0.2776331305503845,
+      "norm_title": "banano's bar"
+    },
+    {
+      "title": "Monster Truck",
+      "audio_ORIGEN": 0.18329748511314392,
+      "audio_SUPERFICIE": -0.04406515508890152,
+      "audio_TIEMPO": -0.08937688916921616,
+      "audio_VOCALIDAD": -0.23380601406097412,
+      "norm_title": "monster truck"
+    },
+    {
+      "title": "Encendedor",
+      "audio_ORIGEN": 0.21165817975997925,
+      "audio_SUPERFICIE": -0.03040757030248642,
+      "audio_TIEMPO": -0.14419744908809662,
+      "audio_VOCALIDAD": -0.24994027614593506,
+      "norm_title": "encendedor"
+    },
+    {
+      "title": "Bungaloo Punta Cometa",
+      "audio_ORIGEN": 0.13416451215744019,
+      "audio_SUPERFICIE": -0.09696217626333237,
+      "audio_TIEMPO": -0.058725662529468536,
+      "audio_VOCALIDAD": -0.16163700819015503,
+      "norm_title": "bungaloo punta cometa"
+    },
+    {
+      "title": "Aquamosh",
+      "audio_ORIGEN": 0.05042463541030884,
+      "audio_SUPERFICIE": 0.03801215440034866,
+      "audio_TIEMPO": 0.03567244112491608,
+      "audio_VOCALIDAD": 0.024054693058133125,
+      "norm_title": "aquamosh"
+    },
+    {
+      "title": "I´ve Got That Milton Pacheco Kinda Feeling (Melancolic Mix)",
+      "audio_ORIGEN": 0.08339481055736542,
+      "audio_SUPERFICIE": -0.045297253876924515,
+      "audio_TIEMPO": 0.06935189664363861,
+      "audio_VOCALIDAD": -0.27851128578186035,
+      "norm_title": "i've got that milton pacheco kinda feeling"
+    },
+    {
+      "title": "Pornoshop",
+      "audio_ORIGEN": 0.1467420905828476,
+      "audio_SUPERFICIE": -0.10907506942749023,
+      "audio_TIEMPO": -0.13384608924388885,
+      "audio_VOCALIDAD": -0.20289170742034912,
+      "norm_title": "pornoshop"
+    },
+    {
+      "title": "Savage Sucker Boy Feat. Pocahontas Freaky Groove",
+      "audio_ORIGEN": 0.006598117761313915,
+      "audio_SUPERFICIE": -0.08408362418413162,
+      "audio_TIEMPO": -0.044035784900188446,
+      "audio_VOCALIDAD": -0.16513879597187042,
+      "norm_title": "savage sucker boy"
+    },
+    {
+      "title": "Mr. P-Mosh",
+      "audio_ORIGEN": 0.1720695197582245,
+      "audio_SUPERFICIE": 0.02317824400961399,
+      "audio_TIEMPO": -0.14797741174697876,
+      "audio_VOCALIDAD": -0.14151492714881897,
+      "norm_title": "mr. p-mosh"
+    }
+  ],
+  "correlation_audio_vs_lyrics": {
+    "ORIGEN": {
+      "pearson": 0.24090151698928042,
+      "spearman": 0.04761904761904763,
+      "p": 0.5654808668427249
+    },
+    "SUPERFICIE": {
+      "pearson": -0.07378200226334469,
+      "spearman": 0.11904761904761905,
+      "p": 0.8621599924047914
+    },
+    "TIEMPO": {
+      "pearson": 0.004135903588658743,
+      "spearman": -0.1666666666666667,
+      "p": 0.9922452692052108
+    }
+  },
+  "mean_inter_track_similarity": 0.4638514220714569,
+  "device": "mps",
+  "model": "LAION-CLAP HTSAT-base, default checkpoint"
+}

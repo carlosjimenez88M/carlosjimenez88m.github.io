@@ -1,0 +1,121 @@
+{
+  "theta": {
+    "openai": 0.32007402181625366,
+    "labse": 0.32299089431762695
+  },
+  "global_stats": {
+    "openai": {
+      "mean": 1.3596938775510203,
+      "std": 2.3851003631643075,
+      "max": 16
+    },
+    "labse": {
+      "mean": 1.510204081632653,
+      "std": 2.6500780202158913,
+      "max": 16
+    }
+  },
+  "cross_model_spearman": 0.638832145307482,
+  "h1_lang_effect": [
+    {
+      "modelo": "OA",
+      "mono_mean": 1.3972602739726028,
+      "mixed_mean": 1.3877551020408163,
+      "diff": 0.00950517193178646,
+      "mann_whitney_u": 14880.0,
+      "p_value": 0.9110493009649245
+    },
+    {
+      "modelo": "LB",
+      "mono_mean": 1.5662100456621004,
+      "mixed_mean": 1.4149659863945578,
+      "diff": 0.15124405926754259,
+      "mann_whitney_u": 15562.5,
+      "p_value": 0.7220185076426842
+    }
+  ],
+  "h2_discrepancy_by_language": {
+    "ES": {
+      "n": 113,
+      "mean_diff_labse_minus_openai": 0.061946902654867256
+    },
+    "EN": {
+      "n": 100,
+      "mean_diff_labse_minus_openai": 0.3
+    },
+    "FR": {
+      "n": 6,
+      "mean_diff_labse_minus_openai": 0.0
+    },
+    "MIXED": {
+      "n": 147,
+      "mean_diff_labse_minus_openai": 0.027210884353741496
+    },
+    "OTHER": {
+      "n": 26,
+      "mean_diff_labse_minus_openai": 0.6923076923076923
+    }
+  },
+  "break_rate_by_transition": {
+    "openai": {
+      "same_lang": 0.36065573770491804,
+      "switch_lang": 0.6984924623115578
+    },
+    "labse": {
+      "same_lang": 0.4098360655737705,
+      "switch_lang": 0.6482412060301508
+    }
+  },
+  "per_track_means": [
+    {
+      "title": "Afroman",
+      "window_oa": 0.561,
+      "window_lb": 0.904
+    },
+    {
+      "title": "Aquamosh",
+      "window_oa": 0.8,
+      "window_lb": 0.8
+    },
+    {
+      "title": "Banano's Bar",
+      "window_oa": 1.5,
+      "window_lb": 1.0
+    },
+    {
+      "title": "Bungaloo Punta Cometa",
+      "window_oa": 0.756,
+      "window_lb": 0.463
+    },
+    {
+      "title": "I've Got That Milton Pacheco Kinda' Feeling",
+      "window_oa": 0.417,
+      "window_lb": 0.5
+    },
+    {
+      "title": "Monster Truck",
+      "window_oa": 3.105,
+      "window_lb": 3.789
+    },
+    {
+      "title": "Mr. P. Mosh",
+      "window_oa": 1.961,
+      "window_lb": 2.314
+    },
+    {
+      "title": "Niño Bomba",
+      "window_oa": 2.8,
+      "window_lb": 1.857
+    },
+    {
+      "title": "Pornoshop",
+      "window_oa": 0.947,
+      "window_lb": 0.211
+    },
+    {
+      "title": "Savage Sucker Boy",
+      "window_oa": 1.135,
+      "window_lb": 2.459
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "id": 178848,
+  "status": "Accepted",
+  "year": 2001,
+  "resource_url": "https://api.discogs.com/releases/178848",
+  "uri": "https://www.discogs.com/release/178848-Static-Rhythm-Music-Makers",
+  "artists": [
+    {
+      "name": "Static Rhythm",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 134677,
+      "resource_url": "https://api.discogs.com/artists/134677"
+    }
+  ],
+  "artists_sort": "Static Rhythm",
+  "labels": [
+    {
+      "name": "Grooves",
+      "catno": "RNRG 004",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 4166,
+      "resource_url": "https://api.discogs.com/labels/4166",
+      "thumbnail_url": "https://i.discogs.com/NS8J50KOs8V9nSV8FJqsax3FG9thPIV_S4-A1FcUR8c/rs:fit/g:sm/q:90/h:588/w:315/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTQxNjYt/MTczMzE5Njg3OC04/MTE0LmpwZWc.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Turqoise Egg Management",
+      "catno": "",
+      "entity_type": "37",
+      "entity_type_name": "Produced For",
+      "id": 340324,
+      "resource_url": "https://api.discogs.com/labels/340324"
+    },
+    {
+      "name": "Red 'n' Raw",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 1346586,
+      "resource_url": "https://api.discogs.com/labels/1346586"
+    },
+    {
+      "name": "Red 'n' Raw Music",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 1346585,
+      "resource_url": "https://api.discogs.com/labels/1346585"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": [
+        "12\""
+      ]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 128,
+    "want": 326,
+    "rating": {
+      "count": 27,
+      "average": 3.37
+    },
+    "submitter": {
+      "username": "DeltaChomper",
+      "resource_url": "https://api.discogs.com/users/DeltaChomper"
+    },
+    "contributors": [
+      {
+        "username": "DeltaChomper",
+        "resource_url": "https://api.discogs.com/users/DeltaChomper"
+      },
+      {
+        "username": "alderaanic77",
+        "resource_url": "https://api.discogs.com/users/alderaanic77"
+      },
+      {
+        "username": "rile3e",
+        "resource_url": "https://api.discogs.com/users/rile3e"
+      },
+      {
+        "username": "CMC_23",
+        "resource_url": "https://api.discogs.com/users/CMC_23"
+      },
+      {
+        "username": "bojumox",
+        "resource_url": "https://api.discogs.com/users/bojumox"
+      },
+      {
+        "username": "Adyton",
+        "resource_url": "https://api.discogs.com/users/Adyton"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2003-08-22T15:10:28-07:00",
+  "date_changed": "2024-10-23T01:15:35-07:00",
+  "num_for_sale": 3,
+  "lowest_price": 64.71,
+  "master_id": 178007,
+  "master_url": "https://api.discogs.com/masters/178007",
+  "title": "Music Makers",
+  "country": "UK",
+  "released": "2001-09-01",
+  "released_formatted": "01 Sep 2001",
+  "identifiers": [],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=3pNwvtp3zuI",
+      "title": "Static Rhythm - Music Makers (Original Mix)",
+      "description": "Static Rhythm - Music Makers (Original Mix)\r\n\r\nLabel: Grooves ‎– RNRG004\r\nFormat: Vinyl, 12\" \r\nCountry: UK\r\nReleased: 01 September 2001\r\nGenre: Electronic\r\nStyle: Progressive House",
+      "duration": 538,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=bwRr5bu7PIg",
+      "title": "Static Rhythm - Music Makers (A side)",
+      "description": "",
+      "duration": 513,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=G_M4sQVnpxY",
+      "title": "Static Rhythm - Music Makers (AA Side)",
+      "description": "",
+      "duration": 540,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=3pNwvtp3zuI",
+      "title": "Static Rhythm - Music Makers (Original Mix)",
+      "description": "Static Rhythm - Music Makers (Original Mix)\r\n\r\nLabel: Grooves ‎– RNRG004\r\nFormat: Vinyl, 12\" \r\nCountry: UK\r\nReleased: 01 September 2001\r\nGenre: Electronic\r\nStyle: Progressive House",
+      "duration": 538,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=bwRr5bu7PIg",
+      "title": "Static Rhythm - Music Makers (A side)",
+      "description": "",
+      "duration": 513,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=G_M4sQVnpxY",
+      "title": "Static Rhythm - Music Makers (AA Side)",
+      "description": "",
+      "duration": 540,
+      "embed": true
+    }
+  ],
+  "genres": [
+    "Electronic"
+  ],
+  "styles": [
+    "Progressive House"
+  ],
+  "tracklist": [
+    {
+      "position": "",
+      "type_": "heading",
+      "title": "That ",
+      "duration": ""
+    },
+    {
+      "position": "A",
+      "type_": "track",
+      "title": "Music Makers (Original Mix)",
+      "duration": ""
+    },
+    {
+      "position": "",
+      "type_": "heading",
+      "title": "This ",
+      "duration": ""
+    },
+    {
+      "position": "AA",
+      "type_": "track",
+      "title": "Music Makers (Spacious Drum Mix)",
+      "duration": ""
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "Graeme Laverty",
+      "anv": "",
+      "join": "",
+      "role": "Written-By, Producer",
+      "tracks": "",
+      "id": 304066,
+      "resource_url": "https://api.discogs.com/artists/304066"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/dDNTRWEhNn24N-s8qROCsoqlTGngFJo75G5u1K7I88Q/rs:fit/g:sm/q:90/h:573/w:584/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3ODg0/OC0xNDA0NTU1MDE1/LTI4NDMuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/dDNTRWEhNn24N-s8qROCsoqlTGngFJo75G5u1K7I88Q/rs:fit/g:sm/q:90/h:573/w:584/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3ODg0/OC0xNDA0NTU1MDE1/LTI4NDMuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/r7NKouXkYCE3vX1tZer-HRu0AcUZ_NEZsPNiRui45M8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3ODg0/OC0xNDA0NTU1MDE1/LTI4NDMuanBlZw.jpeg",
+      "width": 584,
+      "height": 573
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/6ibZcLJBQz3Z-3hML41frKgZjWL6LIRTfemYxW00Gow/rs:fit/g:sm/q:90/h:574/w:581/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3ODg0/OC0xNDA0NTU0OTYz/LTIyNTUuanBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/6ibZcLJBQz3Z-3hML41frKgZjWL6LIRTfemYxW00Gow/rs:fit/g:sm/q:90/h:574/w:581/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3ODg0/OC0xNDA0NTU0OTYz/LTIyNTUuanBlZw.jpeg",
+      "uri150": "https://i.discogs.com/NTn3KCnjAGpQXiDaWdP2V72vgiwn9LwU11lXAk9PliI/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3ODg0/OC0xNDA0NTU0OTYz/LTIyNTUuanBlZw.jpeg",
+      "width": 581,
+      "height": 574
+    }
+  ],
+  "thumb": "https://i.discogs.com/r7NKouXkYCE3vX1tZer-HRu0AcUZ_NEZsPNiRui45M8/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3ODg0/OC0xNDA0NTU1MDE1/LTI4NDMuanBlZw.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

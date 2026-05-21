@@ -1,0 +1,90 @@
+{
+  "id": 14655,
+  "main_release": 851711,
+  "most_recent_release": 1478533,
+  "resource_url": "https://api.discogs.com/masters/14655",
+  "uri": "https://www.discogs.com/master/14655-Julien-Chaptal-Moldy-Beans",
+  "versions_url": "https://api.discogs.com/masters/14655/versions",
+  "main_release_url": "https://api.discogs.com/releases/851711",
+  "most_recent_release_url": "https://api.discogs.com/releases/1478533",
+  "num_for_sale": 24,
+  "lowest_price": 3.48,
+  "images": [
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/o9FsMT0iBgQtwVru0oGf5j_BLwgjYCWZ-D91OWWIGJE/rs:fit/g:sm/q:90/h:511/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1MTcx/MS0xMTY1MzgxMTA1/LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/o9FsMT0iBgQtwVru0oGf5j_BLwgjYCWZ-D91OWWIGJE/rs:fit/g:sm/q:90/h:511/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1MTcx/MS0xMTY1MzgxMTA1/LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/32E_kKzZVFxL8jwBDhmMafl1avD-xlXeA4YLw7CTx1o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1MTcx/MS0xMTY1MzgxMTA1/LmpwZWc.jpeg",
+      "width": 500,
+      "height": 511
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/qF1b-TLlIg42oj5BeN2q9sz9M9BwMiJrQKG70ISHz2g/rs:fit/g:sm/q:90/h:511/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1MTcx/MS0xMTY1MzgxMTM0/LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/qF1b-TLlIg42oj5BeN2q9sz9M9BwMiJrQKG70ISHz2g/rs:fit/g:sm/q:90/h:511/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1MTcx/MS0xMTY1MzgxMTM0/LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/Lr2UMuwZopJPx4dDo9EJUK22dc4DsUiZ5cktAHY1NC0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1MTcx/MS0xMTY1MzgxMTM0/LmpwZWc.jpeg",
+      "width": 500,
+      "height": 511
+    }
+  ],
+  "genres": [
+    "Electronic"
+  ],
+  "styles": [
+    "Deep House",
+    "Tech House",
+    "Minimal"
+  ],
+  "year": 2006,
+  "tracklist": [
+    {
+      "position": "A",
+      "type_": "track",
+      "title": "Moldy Beans",
+      "duration": ""
+    },
+    {
+      "position": "AA",
+      "type_": "track",
+      "title": "Wonderland",
+      "duration": ""
+    }
+  ],
+  "artists": [
+    {
+      "name": "Julien Chaptal",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 688821,
+      "resource_url": "https://api.discogs.com/artists/688821",
+      "thumbnail_url": "https://i.discogs.com/j7SWQhFOP2NsKMpegaW-VFJFNeD69jhato_37YwhoCs/rs:fit/g:sm/q:90/h:550/w:366/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY4ODgy/MS0xMzQ5MDc2NDI2/LTU4MDEuanBlZw.jpeg"
+    }
+  ],
+  "title": "Moldy Beans",
+  "data_quality": "Correct",
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=upm5s-xBKh8",
+      "title": "Julien Chaptal - Moldy Beans",
+      "description": "-Konnect Vinyl on YouTube-\n\n-Subscribe for regular updates!-\n\n-Please support the original artists by searching out some of their music and buying it ;-)\n\nRipped from vinyl from my personal collection. All the songs and images used in this video belong to",
+      "duration": 404,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=upm5s-xBKh8",
+      "title": "Julien Chaptal - Moldy Beans",
+      "description": "-Konnect Vinyl on YouTube-\n\n-Subscribe for regular updates!-\n\n-Please support the original artists by searching out some of their music and buying it ;-)\n\nRipped from vinyl from my personal collection. All the songs and images used in this video belong to",
+      "duration": 404,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=0enReTklVn8",
+      "title": "Julien Chaptal - Wonderland",
+      "description": "",
+      "duration": 476,
+      "embed": true
+    }
+  ]
+}

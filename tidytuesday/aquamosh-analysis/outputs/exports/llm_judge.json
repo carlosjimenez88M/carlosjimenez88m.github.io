@@ -1,0 +1,117 @@
+{
+  "n_pairs": 382,
+  "llm_continuity_pct": 0.5,
+  "stratified": [
+    {
+      "model": "OPENAI",
+      "stratum": "all",
+      "n": 382,
+      "agreement": 0.7801,
+      "kappa": 0.5602,
+      "false_break_rate": 0.1283,
+      "missed_break_rate": 0.0916
+    },
+    {
+      "model": "OPENAI",
+      "stratum": "same-lang",
+      "n": 183,
+      "agreement": 0.8525,
+      "kappa": 0.6853,
+      "false_break_rate": 0.0601,
+      "missed_break_rate": 0.0874
+    },
+    {
+      "model": "OPENAI",
+      "stratum": "switch",
+      "n": 199,
+      "agreement": 0.7136,
+      "kappa": 0.3761,
+      "false_break_rate": 0.191,
+      "missed_break_rate": 0.0955
+    },
+    {
+      "model": "LABSE",
+      "stratum": "all",
+      "n": 382,
+      "agreement": 0.8037,
+      "kappa": 0.6073,
+      "false_break_rate": 0.1152,
+      "missed_break_rate": 0.0812
+    },
+    {
+      "model": "LABSE",
+      "stratum": "same-lang",
+      "n": 183,
+      "agreement": 0.8251,
+      "kappa": 0.6355,
+      "false_break_rate": 0.0984,
+      "missed_break_rate": 0.0765
+    },
+    {
+      "model": "LABSE",
+      "stratum": "switch",
+      "n": 199,
+      "agreement": 0.7839,
+      "kappa": 0.5397,
+      "false_break_rate": 0.1307,
+      "missed_break_rate": 0.0854
+    }
+  ],
+  "false_break_rates": {
+    "openai": {
+      "same_lang": 0.060109289617486336,
+      "switch": 0.19095477386934673
+    },
+    "labse": {
+      "same_lang": 0.09836065573770492,
+      "switch": 0.1306532663316583
+    }
+  },
+  "examples_false_break_in_switches": [
+    {
+      "track": "Afroman",
+      "from_lang": "MIXED",
+      "to_lang": "ES",
+      "line_a": "De cultura y de rutina",
+      "line_b": "Como si fuera heroína",
+      "sim_openai": 0.2873731255531311,
+      "llm_reason": "Ambas líneas abordan temas de dependencia y rutina, manteniendo una conexión temática."
+    },
+    {
+      "track": "Afroman",
+      "from_lang": "ES",
+      "to_lang": "MIXED",
+      "line_a": "Pa′ que veas",
+      "line_b": "Que es lo rico de esta pieza",
+      "sim_openai": 0.30683764815330505,
+      "llm_reason": "Ambas líneas se refieren a la experiencia de disfrutar algo, manteniendo el mismo tema."
+    },
+    {
+      "track": "Afroman",
+      "from_lang": "MIXED",
+      "to_lang": "ES",
+      "line_a": "Si es la revolución",
+      "line_b": "Desde tu televisión",
+      "sim_openai": 0.2578357458114624,
+      "llm_reason": "Ambas líneas se relacionan con la revolución y su representación en los medios."
+    },
+    {
+      "track": "Afroman",
+      "from_lang": "ES",
+      "to_lang": "MIXED",
+      "line_a": "Desde tu televisión",
+      "line_b": "Si es la revolución",
+      "sim_openai": 0.2578357458114624,
+      "llm_reason": "Ambas líneas se refieren a un contexto de cambio social o político relacionado con la televisión."
+    },
+    {
+      "track": "Afroman",
+      "from_lang": "MIXED",
+      "to_lang": "ES",
+      "line_a": "Si es la revolución",
+      "line_b": "Desde tu televisión",
+      "sim_openai": 0.2578357458114624,
+      "llm_reason": "Ambas líneas se relacionan con la revolución y su representación en los medios."
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "language_detection_improved": {
+    "method": "marker-based + langdetect probabilities, romance-language collapse",
+    "lines_relabeled": 85,
+    "before": {
+      "EN": 107,
+      "MIXED": 106,
+      "ES": 89,
+      "OTHER": 78,
+      "FR": 12
+    },
+    "after": {
+      "MIXED": 147,
+      "ES": 113,
+      "EN": 100,
+      "OTHER": 26,
+      "FR": 6
+    }
+  },
+  "chi_squared_improved": {
+    "chi2": 104.50420722144798,
+    "p": 4.569422837595802e-13,
+    "dof": 21,
+    "n_lines": 356,
+    "table": {
+      "ACCION": {
+        "EN": 24,
+        "ES": 18,
+        "FR": 2,
+        "MIXED": 37
+      },
+      "CUERPO": {
+        "EN": 4,
+        "ES": 18,
+        "FR": 0,
+        "MIXED": 30
+      },
+      "EMOCION": {
+        "EN": 11,
+        "ES": 18,
+        "FR": 1,
+        "MIXED": 38
+      },
+      "IDENTIDAD": {
+        "EN": 14,
+        "ES": 8,
+        "FR": 0,
+        "MIXED": 17
+      },
+      "LUGAR": {
+        "EN": 3,
+        "ES": 17,
+        "FR": 3,
+        "MIXED": 5
+      },
+      "MARCA": {
+        "EN": 2,
+        "ES": 0,
+        "FR": 0,
+        "MIXED": 7
+      },
+      "NONSENSE": {
+        "EN": 12,
+        "ES": 7,
+        "FR": 0,
+        "MIXED": 13
+      },
+      "REFERENCIA": {
+        "EN": 30,
+        "ES": 17,
+        "FR": 0,
+        "MIXED": 0
+      }
+    },
+    "residuals": {
+      "ACCION": {
+        "EN": 0.261,
+        "ES": -1.123,
+        "FR": 0.543,
+        "MIXED": 0.614
+      },
+      "CUERPO": {
+        "EN": -2.775,
+        "ES": 0.762,
+        "FR": -0.936,
+        "MIXED": 1.84
+      },
+      "EMOCION": {
+        "EN": -1.854,
+        "ES": -0.377,
+        "FR": -0.136,
+        "MIXED": 1.872
+      },
+      "IDENTIDAD": {
+        "EN": 0.92,
+        "ES": -0.978,
+        "FR": -0.811,
+        "MIXED": 0.223
+      },
+      "LUGAR": {
+        "EN": -1.735,
+        "ES": 3.127,
+        "FR": 3.68,
+        "MIXED": -1.93
+      },
+      "MARCA": {
+        "EN": -0.332,
+        "ES": -1.614,
+        "FR": -0.389,
+        "MIXED": 1.703
+      },
+      "NONSENSE": {
+        "EN": 1.004,
+        "ES": -0.742,
+        "FR": -0.734,
+        "MIXED": -0.059
+      },
+      "REFERENCIA": {
+        "EN": 4.623,
+        "ES": 0.922,
+        "FR": -0.89,
+        "MIXED": -4.405
+      }
+    }
+  },
+  "strong_associations": [
+    {
+      "lang": "EN",
+      "campo": "REFERENCIA",
+      "z": 4.62
+    },
+    {
+      "lang": "MIXED",
+      "campo": "REFERENCIA",
+      "z": -4.41
+    },
+    {
+      "lang": "FR",
+      "campo": "LUGAR",
+      "z": 3.68
+    },
+    {
+      "lang": "ES",
+      "campo": "LUGAR",
+      "z": 3.13
+    },
+    {
+      "lang": "EN",
+      "campo": "CUERPO",
+      "z": -2.78
+    }
+  ],
+  "per_track_axes": [
+    {
+      "title": "Niño Bomba",
+      "ORIGEN_la": -0.06,
+      "SUPERFICIE_ironia": 0.012,
+      "TIEMPO_retro": -0.05
+    },
+    {
+      "title": "Afroman",
+      "ORIGEN_la": -0.046,
+      "SUPERFICIE_ironia": -0.037,
+      "TIEMPO_retro": -0.004
+    },
+    {
+      "title": "Banano's Bar",
+      "ORIGEN_la": -0.058,
+      "SUPERFICIE_ironia": -0.04,
+      "TIEMPO_retro": -0.018
+    },
+    {
+      "title": "Monster Truck",
+      "ORIGEN_la": 0.082,
+      "SUPERFICIE_ironia": 0.054,
+      "TIEMPO_retro": -0.129
+    },
+    {
+      "title": "Bungaloo Punta Cometa",
+      "ORIGEN_la": -0.021,
+      "SUPERFICIE_ironia": -0.084,
+      "TIEMPO_retro": -0.017
+    },
+    {
+      "title": "Aquamosh",
+      "ORIGEN_la": -0.005,
+      "SUPERFICIE_ironia": -0.149,
+      "TIEMPO_retro": -0.002
+    },
+    {
+      "title": "I've Got That Milton Pacheco Kinda' Feeling",
+      "ORIGEN_la": 0.07,
+      "SUPERFICIE_ironia": 0.006,
+      "TIEMPO_retro": -0.003
+    },
+    {
+      "title": "Pornoshop",
+      "ORIGEN_la": -0.034,
+      "SUPERFICIE_ironia": -0.093,
+      "TIEMPO_retro": 0.029
+    },
+    {
+      "title": "Savage Sucker Boy",
+      "ORIGEN_la": -0.042,
+      "SUPERFICIE_ironia": -0.068,
+      "TIEMPO_retro": -0.04
+    },
+    {
+      "title": "Mr. P. Mosh",
+      "ORIGEN_la": 0.01,
+      "SUPERFICIE_ironia": -0.006,
+      "TIEMPO_retro": -0.011
+    }
+  ],
+  "per_track_language": [
+    {
+      "title": "Afroman",
+      "EN": 8,
+      "ES": 67,
+      "FR": 0,
+      "MIXED": 38,
+      "OTHER": 1,
+      "dominante": "ES",
+      "entropia": 1.308
+    },
+    {
+      "title": "Aquamosh",
+      "EN": 9,
+      "ES": 2,
+      "FR": 0,
+      "MIXED": 2,
+      "OTHER": 2,
+      "dominante": "EN",
+      "entropia": 1.605
+    },
+    {
+      "title": "Banano's Bar",
+      "EN": 0,
+      "ES": 4,
+      "FR": 0,
+      "MIXED": 22,
+      "OTHER": 4,
+      "dominante": "MIXED",
+      "entropia": 1.103
+    },
+    {
+      "title": "Bungaloo Punta Cometa",
+      "EN": 0,
+      "ES": 9,
+      "FR": 0,
+      "MIXED": 21,
+      "OTHER": 11,
+      "dominante": "MIXED",
+      "entropia": 1.484
+    },
+    {
+      "title": "I've Got That Milton Pacheco Kinda' Feeling",
+      "EN": 3,
+      "ES": 0,
+      "FR": 3,
+      "MIXED": 6,
+      "OTHER": 0,
+      "dominante": "MIXED",
+      "entropia": 1.5
+    },
+    {
+      "title": "Monster Truck",
+      "EN": 31,
+      "ES": 2,
+      "FR": 0,
+      "MIXED": 0,
+      "OTHER": 5,
+      "dominante": "EN",
+      "entropia": 0.848
+    },
+    {
+      "title": "Mr. P. Mosh",
+      "EN": 24,
+      "ES": 11,
+      "FR": 0,
+      "MIXED": 14,
+      "OTHER": 2,
+      "dominante": "EN",
+      "entropia": 1.684
+    },
+    {
+      "title": "Niño Bomba",
+      "EN": 11,
+      "ES": 3,
+      "FR": 0,
+      "MIXED": 21,
+      "OTHER": 0,
+      "dominante": "MIXED",
+      "entropia": 1.271
+    },
+    {
+      "title": "Pornoshop",
+      "EN": 2,
+      "ES": 10,
+      "FR": 0,
+      "MIXED": 6,
+      "OTHER": 1,
+      "dominante": "ES",
+      "entropia": 1.578
+    },
+    {
+      "title": "Savage Sucker Boy",
+      "EN": 12,
+      "ES": 5,
+      "FR": 3,
+      "MIXED": 17,
+      "OTHER": 0,
+      "dominante": "MIXED",
+      "entropia": 1.726
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+[
+  {
+    "num": 0,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 1,
+    "campo": "ACCION",
+    "confidence": 0.5
+  },
+  {
+    "num": 2,
+    "campo": "ACCION",
+    "confidence": 0.5
+  },
+  {
+    "num": 3,
+    "campo": "ACCION",
+    "confidence": 0.5
+  },
+  {
+    "num": 5,
+    "campo": "EMOCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 6,
+    "campo": "EMOCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 7,
+    "campo": "LUGAR",
+    "confidence": 0.6
+  },
+  {
+    "num": 8,
+    "campo": "EMOCION",
+    "confidence": 0.5
+  },
+  {
+    "num": 9,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 10,
+    "campo": "EMOCION",
+    "confidence": 0.7
+  },
+  {
+    "num": 11,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 12,
+    "campo": "LUGAR",
+    "confidence": 0.6
+  },
+  {
+    "num": 14,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 15,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 16,
+    "campo": "ACCION",
+    "confidence": 0.5
+  },
+  {
+    "num": 17,
+    "campo": "ACCION",
+    "confidence": 0.5
+  },
+  {
+    "num": 19,
+    "campo": "EMOCION",
+    "confidence": 0.7
+  },
+  {
+    "num": 20,
+    "campo": "EMOCION",
+    "confidence": 0.6
+  },
+  {
+    "num": 21,
+    "campo": "EMOCION",
+    "confidence": 0.9
+  },
+  {
+    "num": 22,
+    "campo": "EMOCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 23,
+    "campo": "ACCION",
+    "confidence": 0.5
+  },
+  {
+    "num": 24,
+    "campo": "LUGAR",
+    "confidence": 0.6
+  },
+  {
+    "num": 25,
+    "campo": "EMOCION",
+    "confidence": 0.7
+  },
+  {
+    "num": 26,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 28,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 29,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 30,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 31,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 32,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 33,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 34,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 36,
+    "campo": "MARCA",
+    "confidence": 0.6
+  },
+  {
+    "num": 37,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 38,
+    "campo": "MARCA",
+    "confidence": 0.6
+  },
+  {
+    "num": 39,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 40,
+    "campo": "MARCA",
+    "confidence": 0.6
+  },
+  {
+    "num": 41,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 42,
+    "campo": "MARCA",
+    "confidence": 0.6
+  },
+  {
+    "num": 43,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 44,
+    "campo": "MARCA",
+    "confidence": 0.6
+  },
+  {
+    "num": 45,
+    "campo": "MARCA",
+    "confidence": 0.6
+  }
+]

@@ -1,0 +1,243 @@
+{
+  "id": 851711,
+  "status": "Accepted",
+  "year": 2006,
+  "resource_url": "https://api.discogs.com/releases/851711",
+  "uri": "https://www.discogs.com/release/851711-Julien-Chaptal-Moldy-Beans",
+  "artists": [
+    {
+      "name": "Julien Chaptal",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 688821,
+      "resource_url": "https://api.discogs.com/artists/688821",
+      "thumbnail_url": "https://i.discogs.com/j7SWQhFOP2NsKMpegaW-VFJFNeD69jhato_37YwhoCs/rs:fit/g:sm/q:90/h:550/w:366/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTY4ODgy/MS0xMzQ5MDc2NDI2/LTU4MDEuanBlZw.jpeg"
+    }
+  ],
+  "artists_sort": "Julien Chaptal",
+  "labels": [
+    {
+      "name": "Remote Area",
+      "catno": "remote004",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 63050,
+      "resource_url": "https://api.discogs.com/labels/63050",
+      "thumbnail_url": "https://i.discogs.com/M6VX-CYzuozYOU7z8kUI437xJzBiguoTU-g6hj74qx8/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTYzMDUw/LTEyNzkwMzY2NzIu/anBlZw.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "Planet Gong",
+      "catno": "",
+      "entity_type": "4",
+      "entity_type_name": "Record Company",
+      "id": 201708,
+      "resource_url": "https://api.discogs.com/labels/201708",
+      "thumbnail_url": "https://i.discogs.com/1Y8UO2ZqwVJlr0dBIPe2YzEeBtbBXFXeUJvhF5Quszs/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTIwMTcw/OC0xMjc5MDMxMzg3/LmpwZWc.jpeg"
+    },
+    {
+      "name": "News Distribution",
+      "catno": "",
+      "entity_type": "9",
+      "entity_type_name": "Distributed By",
+      "id": 264992,
+      "resource_url": "https://api.discogs.com/labels/264992",
+      "thumbnail_url": "https://i.discogs.com/Gx_BtYes9HSHmSkNDvwPFst5fxQShpn12c9SkAv5NUE/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NDk5/Mi0xNDI2MTQ2ODQ4/LTgzMzkuanBlZw.jpeg"
+    },
+    {
+      "name": "Planet Gong",
+      "catno": "",
+      "entity_type": "29",
+      "entity_type_name": "Mastered At",
+      "id": 201708,
+      "resource_url": "https://api.discogs.com/labels/201708",
+      "thumbnail_url": "https://i.discogs.com/1Y8UO2ZqwVJlr0dBIPe2YzEeBtbBXFXeUJvhF5Quszs/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTIwMTcw/OC0xMjc5MDMxMzg3/LmpwZWc.jpeg"
+    },
+    {
+      "name": "Pure Music (6)",
+      "catno": "",
+      "entity_type": "21",
+      "entity_type_name": "Published By",
+      "id": 265214,
+      "resource_url": "https://api.discogs.com/labels/265214",
+      "thumbnail_url": "https://i.discogs.com/09C7wC8xg8ycsYYsQUP5nseEHMi6LyZg4-YKtksMzzw/rs:fit/g:sm/q:90/h:150/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NTIx/NC0xMzE0ODE0MTY0/LmpwZWc.jpeg"
+    },
+    {
+      "name": "Record Industry",
+      "catno": "64182",
+      "entity_type": "17",
+      "entity_type_name": "Pressed By",
+      "id": 267164,
+      "resource_url": "https://api.discogs.com/labels/267164",
+      "thumbnail_url": "https://i.discogs.com/O-Hxe1Kov2i8WglqGPPH_MOH2tRwDR7PcnrGNdcFh7I/rs:fit/g:sm/q:90/h:596/w:596/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2NzE2/NC0xNjQ4NzExMzM5/LTI1MDQuanBlZw.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "Vinyl",
+      "qty": "1",
+      "descriptions": [
+        "12\""
+      ]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 186,
+    "want": 35,
+    "rating": {
+      "count": 18,
+      "average": 4.61
+    },
+    "submitter": {
+      "username": "Dr.Alternative",
+      "resource_url": "https://api.discogs.com/users/Dr.Alternative"
+    },
+    "contributors": [
+      {
+        "username": "Dr.Alternative",
+        "resource_url": "https://api.discogs.com/users/Dr.Alternative"
+      },
+      {
+        "username": "RadiantBastard",
+        "resource_url": "https://api.discogs.com/users/RadiantBastard"
+      },
+      {
+        "username": "mirkob",
+        "resource_url": "https://api.discogs.com/users/mirkob"
+      },
+      {
+        "username": "Mauep",
+        "resource_url": "https://api.discogs.com/users/Mauep"
+      },
+      {
+        "username": "arjen",
+        "resource_url": "https://api.discogs.com/users/arjen"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2006-12-09T06:59:08-08:00",
+  "date_changed": "2016-04-17T00:12:42-07:00",
+  "num_for_sale": 20,
+  "lowest_price": 4.04,
+  "master_id": 14655,
+  "master_url": "https://api.discogs.com/masters/14655",
+  "title": "Moldy Beans",
+  "country": "Netherlands",
+  "released": "2006-12-00",
+  "notes": "Recorded in the Rivierenbuurt Amsterdam 2006.\r\n",
+  "released_formatted": "Dec 2006",
+  "identifiers": [
+    {
+      "type": "Matrix / Runout",
+      "value": "64182 1A REMOTE 004",
+      "description": "Stamped Side A"
+    },
+    {
+      "type": "Matrix / Runout",
+      "value": "64182 1B REMOTE 004",
+      "description": "Stamped Side B"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=upm5s-xBKh8",
+      "title": "Julien Chaptal - Moldy Beans",
+      "description": "-Konnect Vinyl on YouTube-\n\n-Subscribe for regular updates!-\n\n-Please support the original artists by searching out some of their music and buying it ;-)\n\nRipped from vinyl from my personal collection. All the songs and images used in this video belong to",
+      "duration": 404,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=upm5s-xBKh8",
+      "title": "Julien Chaptal - Moldy Beans",
+      "description": "-Konnect Vinyl on YouTube-\n\n-Subscribe for regular updates!-\n\n-Please support the original artists by searching out some of their music and buying it ;-)\n\nRipped from vinyl from my personal collection. All the songs and images used in this video belong to",
+      "duration": 404,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=upm5s-xBKh8",
+      "title": "Julien Chaptal - Moldy Beans",
+      "description": "-Konnect Vinyl on YouTube-\n\n-Subscribe for regular updates!-\n\n-Please support the original artists by searching out some of their music and buying it ;-)\n\nRipped from vinyl from my personal collection. All the songs and images used in this video belong to",
+      "duration": 404,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=0enReTklVn8",
+      "title": "Julien Chaptal - Wonderland",
+      "description": "",
+      "duration": 476,
+      "embed": true
+    }
+  ],
+  "genres": [
+    "Electronic"
+  ],
+  "styles": [
+    "Deep House",
+    "Tech House",
+    "Minimal"
+  ],
+  "tracklist": [
+    {
+      "position": "A",
+      "type_": "track",
+      "title": "Moldy Beans",
+      "duration": ""
+    },
+    {
+      "position": "AA",
+      "type_": "track",
+      "title": "Wonderland",
+      "duration": ""
+    }
+  ],
+  "extraartists": [
+    {
+      "name": "2000 & One",
+      "anv": "2000 And One",
+      "join": "",
+      "role": "Mastered By",
+      "tracks": "",
+      "id": 5633,
+      "resource_url": "https://api.discogs.com/artists/5633"
+    },
+    {
+      "name": "Julien Chaptal",
+      "anv": "",
+      "join": "",
+      "role": "Written-By",
+      "tracks": "",
+      "id": 688821,
+      "resource_url": "https://api.discogs.com/artists/688821"
+    }
+  ],
+  "images": [
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/o9FsMT0iBgQtwVru0oGf5j_BLwgjYCWZ-D91OWWIGJE/rs:fit/g:sm/q:90/h:511/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1MTcx/MS0xMTY1MzgxMTA1/LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/o9FsMT0iBgQtwVru0oGf5j_BLwgjYCWZ-D91OWWIGJE/rs:fit/g:sm/q:90/h:511/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1MTcx/MS0xMTY1MzgxMTA1/LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/32E_kKzZVFxL8jwBDhmMafl1avD-xlXeA4YLw7CTx1o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1MTcx/MS0xMTY1MzgxMTA1/LmpwZWc.jpeg",
+      "width": 500,
+      "height": 511
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/qF1b-TLlIg42oj5BeN2q9sz9M9BwMiJrQKG70ISHz2g/rs:fit/g:sm/q:90/h:511/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1MTcx/MS0xMTY1MzgxMTM0/LmpwZWc.jpeg",
+      "resource_url": "https://i.discogs.com/qF1b-TLlIg42oj5BeN2q9sz9M9BwMiJrQKG70ISHz2g/rs:fit/g:sm/q:90/h:511/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1MTcx/MS0xMTY1MzgxMTM0/LmpwZWc.jpeg",
+      "uri150": "https://i.discogs.com/Lr2UMuwZopJPx4dDo9EJUK22dc4DsUiZ5cktAHY1NC0/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1MTcx/MS0xMTY1MzgxMTM0/LmpwZWc.jpeg",
+      "width": 500,
+      "height": 511
+    }
+  ],
+  "thumb": "https://i.discogs.com/32E_kKzZVFxL8jwBDhmMafl1avD-xlXeA4YLw7CTx1o/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1MTcx/MS0xMTY1MzgxMTA1/LmpwZWc.jpeg",
+  "estimated_weight": 230,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

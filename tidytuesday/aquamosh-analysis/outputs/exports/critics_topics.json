@@ -1,0 +1,203 @@
+{
+  "corpus_size": {
+    "n_sources": 4,
+    "n_sentences": 56
+  },
+  "sources": [
+    {
+      "source": "AlbumOfTheYear",
+      "text_length": 805,
+      "language": "en"
+    },
+    {
+      "source": "Ink19",
+      "text_length": 6764,
+      "language": "en"
+    },
+    {
+      "source": "Wikipedia ES",
+      "text_length": 519,
+      "language": "es"
+    },
+    {
+      "source": "Wikipedia EN",
+      "text_length": 470,
+      "language": "en"
+    }
+  ],
+  "silhouettes": {
+    "2": 0.20840348303318024,
+    "3": 0.20760607719421387,
+    "4": 0.15959346294403076,
+    "5": 0.18504765629768372,
+    "6": 0.20358824729919434,
+    "7": 0.23586061596870422,
+    "8": 0.2370697408914566
+  },
+  "k_chosen": 4,
+  "clusters": [
+    {
+      "nombre": "Reseñas de 'Aquamosh'",
+      "descripcion": "Análisis y opiniones sobre el álbum 'Aquamosh' de Plastilina Mosh.",
+      "keywords": [
+        "reseñas",
+        "opiniones",
+        "álbum",
+        "Plastilina Mosh",
+        "Aquamosh"
+      ],
+      "cluster_id": 0,
+      "n": 8,
+      "sources": {
+        "Ink19": 7,
+        "Wikipedia EN": 1
+      },
+      "top_sentences": [
+        "Review by Peter Lindblad .",
+        "Review by Peter Lindblad .",
+        "Review by Peter Lindblad .",
+        "Review by Peter Lindblad ."
+      ]
+    },
+    {
+      "nombre": "Identidad musical de Aquamosh",
+      "descripcion": "El álbum 'Aquamosh' de Plastilina Mosh desafía las categorizaciones tradicionales al mezclar géneros y lenguajes.",
+      "keywords": [
+        "mezcla de géneros",
+        "categorización",
+        "multiculturalidad",
+        "influencias electrónicas",
+        "colaboraciones"
+      ],
+      "cluster_id": 1,
+      "n": 12,
+      "sources": {
+        "Ink19": 5,
+        "AlbumOfTheYear": 3,
+        "Wikipedia ES": 2,
+        "Wikipedia EN": 2
+      },
+      "top_sentences": [
+        "Plastilina Mosh’s Aquamosh belongs in any Rock section, under P.",
+        "Plastilina Mosh’s Aquamosh belongs in any Rock section, under P.",
+        "Aquamosh , álbum musical del grupo Plastilina Mosh que se graba en 1998, contiene una mezcla de sonidos electrónicos, como downtempo y elementos de trip hop, a menudo con toques de punk ; cuenta con la colaboración de artistas como los Café Tacvba (Bungaloo Punta Cometa), quienes cantan un coro en japonés .",
+        "The glass bottom boat of the cultural press Music Reviews • July 13, 1998 January 3, 2023 Plastilina Mosh Aquamosh Capitol Latin Rock will receive its biggest push into the mainstream modern rock scene as Capitol Records drops Mexico’s Plastilina Mosh debut album, Aquamosh , a production that features English, Spanish, French, and Japanese."
+      ]
+    },
+    {
+      "nombre": "Fusión de géneros",
+      "descripcion": "El álbum 'Aquamosh' presenta una innovadora mezcla de estilos musicales que incluyen Electronica, Metal, Hip-Hop y Lounge.",
+      "keywords": [
+        "fusión",
+        "géneros",
+        "experimentación",
+        "música",
+        "diversidad"
+      ],
+      "cluster_id": 2,
+      "n": 20,
+      "sources": {
+        "Ink19": 12,
+        "AlbumOfTheYear": 5,
+        "Wikipedia EN": 2,
+        "Wikipedia ES": 1
+      },
+      "top_sentences": [
+        "The thrilling instrumental Electronica-meets-Metal of “Encendedor,” the pleasant Lounge of “Bugaloo Punta Cometa,” (produced by Mexico’s Polka-Punk icons Café Tacuba,) the ‘gangsta’ sound of “Mr.",
+        "The thrilling instrumental Electronica-meets-Metal of “Encendedor,” the pleasant Lounge of “Bugaloo Punta Cometa,” (produced by Mexico’s Polka-Punk icons Café Tacuba,) the ‘gangsta’ sound of “Mr.",
+        "The showcase opens up showing “cojones” with a layered attack of samples and scratches in the well-shaped, angry Hip-Hop “Niño Bomba,” followed by the 70s-porno-funk-meets-Hip-Hop “Afroman.” Shopping at K-Mart would feel better if the smooth instrumental mix of Bossa Nova, Acid Jazz, and Lounge in “Ode to Mauricio Garces” would be played through the department store’s sound system.",
+        "The showcase opens up showing “cojones” with a layered attack of samples and scratches in the well-shaped, angry Hip-Hop “Niño Bomba,” followed by the 70s-porno-funk-meets-Hip-Hop “Afroman.” Shopping at K-Mart would feel better if the smooth instrumental mix of Bossa Nova, Acid Jazz, and Lounge in “Ode to Mauricio Garces” would be played through the department store’s sound system."
+      ]
+    },
+    {
+      "nombre": "Reseñas de música",
+      "descripcion": "Análisis de álbumes de diversos artistas y sellos discográficos.",
+      "keywords": [
+        "reseñas",
+        "álbumes",
+        "música",
+        "artistas",
+        "sellos discográficos"
+      ],
+      "cluster_id": 3,
+      "n": 16,
+      "sources": {
+        "Ink19": 16
+      },
+      "top_sentences": [
+        "Charles Wesley Godwin Music Reviews “Better That Way” (Big Loud Records).",
+        "Steve Louw Music Reviews Traces of the Flood .",
+        "Doug Gillard Music Reviews Parallel Stride (Dromedary Records).",
+        "Hiss Golden Messenger Music Reviews I’m People (Chrysalis)."
+      ]
+    }
+  ],
+  "album_field_coverage": {
+    "CUERPO": 0.307,
+    "MARCA": 0.293,
+    "LUGAR": 0.268,
+    "EMOCION": 0.244,
+    "IDENTIDAD": 0.267,
+    "ACCION": 0.31,
+    "REFERENCIA": 0.439,
+    "NONSENSE": 0.515
+  },
+  "clusters_x_album_fields_matrix": [
+    [
+      0.027,
+      0.115,
+      0.104,
+      0.061,
+      0.066,
+      0.056,
+      0.21,
+      0.111
+    ],
+    [
+      0.26,
+      0.229,
+      0.268,
+      0.212,
+      0.267,
+      0.208,
+      0.324,
+      0.412
+    ],
+    [
+      0.307,
+      0.293,
+      0.268,
+      0.244,
+      0.244,
+      0.31,
+      0.439,
+      0.515
+    ],
+    [
+      0.121,
+      0.141,
+      0.118,
+      0.161,
+      0.121,
+      0.19,
+      0.274,
+      0.269
+    ]
+  ],
+  "clusters_x_album_fields_cluster_order": [
+    "Reseñas de 'Aquamosh'",
+    "Identidad musical de Aquamosh",
+    "Fusión de géneros",
+    "Reseñas de música"
+  ],
+  "clusters_x_album_fields_field_order": [
+    "CUERPO",
+    "MARCA",
+    "LUGAR",
+    "EMOCION",
+    "IDENTIDAD",
+    "ACCION",
+    "REFERENCIA",
+    "NONSENSE"
+  ]
+}

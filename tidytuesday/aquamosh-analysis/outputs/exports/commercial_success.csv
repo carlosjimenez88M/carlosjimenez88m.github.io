@@ -1,0 +1,6 @@
+key,artist,album,year,wiki_es_artist_total,wiki_en_artist_total,wiki_es_album_total,wiki_en_album_total,trends_artist_recent_12mo,trends_artist_historic_avg,discogs_have,discogs_want,discogs_rating,discogs_rating_n,discogs_lowest_price,discogs_for_sale,discogs_release_id,score_wiki_es,score_wiki_en,score_trends_recent,score_discogs_have,score_discogs_rating,survival_index
+aquamosh,Plastilina Mosh,Aquamosh,1998,510891,173493,46560,29556,5.333333333333333,14.71003717472119,169.0,33.0,4.06,17.0,1.57,11.0,98687.0,80.0,60.0,60.0,80.0,60.0,68.0
+reves,Café Tacuba,Revés/Yo Soy,1999,454488,783867,0,0,6.833333333333333,6.275092936802974,186.0,35.0,4.61,18.0,4.04,20.0,851711.0,60.0,100.0,80.0,100.0,80.0,84.0
+control_machete,Control Machete,Mucho Barato,1996,688644,353194,42345,0,8.416666666666666,22.052044609665426,128.0,326.0,3.37,27.0,64.71,3.0,178848.0,100.0,80.0,100.0,60.0,40.0,76.0
+molotov,Molotov,¿Dónde Jugarán las Niñas?,1997,37173,0,0,0,1.0,0.9516728624535316,,,,,,,,40.0,30.0,40.0,20.0,20.0,30.0
+zurdok,Zurdok,Hombre Sintetizador,1999,0,0,0,0,0.9166666666666666,5.003717472118959,11.0,15.0,5.0,3.0,,0.0,20453350.0,20.0,30.0,20.0,40.0,100.0,42.0

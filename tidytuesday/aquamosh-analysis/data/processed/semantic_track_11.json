@@ -1,0 +1,187 @@
+[
+  {
+    "num": 0,
+    "campo": "NONSENSE",
+    "confidence": 0.8
+  },
+  {
+    "num": 1,
+    "campo": "REFERENCIA",
+    "confidence": 0.9
+  },
+  {
+    "num": 2,
+    "campo": "NONSENSE",
+    "confidence": 0.9
+  },
+  {
+    "num": 4,
+    "campo": "IDENTIDAD",
+    "confidence": 0.7
+  },
+  {
+    "num": 5,
+    "campo": "ACCION",
+    "confidence": 0.6
+  },
+  {
+    "num": 6,
+    "campo": "IDENTIDAD",
+    "confidence": 0.8
+  },
+  {
+    "num": 8,
+    "campo": "ACCION",
+    "confidence": 0.5
+  },
+  {
+    "num": 9,
+    "campo": "LUGAR",
+    "confidence": 0.6
+  },
+  {
+    "num": 10,
+    "campo": "LUGAR",
+    "confidence": 0.6
+  },
+  {
+    "num": 11,
+    "campo": "LUGAR",
+    "confidence": 0.6
+  },
+  {
+    "num": 12,
+    "campo": "LUGAR",
+    "confidence": 0.6
+  },
+  {
+    "num": 14,
+    "campo": "LUGAR",
+    "confidence": 0.7
+  },
+  {
+    "num": 15,
+    "campo": "ACCION",
+    "confidence": 0.5
+  },
+  {
+    "num": 17,
+    "campo": "ACCION",
+    "confidence": 0.6
+  },
+  {
+    "num": 18,
+    "campo": "ACCION",
+    "confidence": 0.6
+  },
+  {
+    "num": 19,
+    "campo": "ACCION",
+    "confidence": 0.6
+  },
+  {
+    "num": 20,
+    "campo": "ACCION",
+    "confidence": 0.6
+  },
+  {
+    "num": 22,
+    "campo": "NONSENSE",
+    "confidence": 0.7
+  },
+  {
+    "num": 23,
+    "campo": "NONSENSE",
+    "confidence": 0.7
+  },
+  {
+    "num": 24,
+    "campo": "NONSENSE",
+    "confidence": 0.7
+  },
+  {
+    "num": 25,
+    "campo": "IDENTIDAD",
+    "confidence": 0.8
+  },
+  {
+    "num": 27,
+    "campo": "ACCION",
+    "confidence": 0.6
+  },
+  {
+    "num": 28,
+    "campo": "ACCION",
+    "confidence": 0.6
+  },
+  {
+    "num": 29,
+    "campo": "ACCION",
+    "confidence": 0.6
+  },
+  {
+    "num": 30,
+    "campo": "ACCION",
+    "confidence": 0.6
+  },
+  {
+    "num": 32,
+    "campo": "LUGAR",
+    "confidence": 0.7
+  },
+  {
+    "num": 33,
+    "campo": "CUERPO",
+    "confidence": 0.8
+  },
+  {
+    "num": 34,
+    "campo": "CUERPO",
+    "confidence": 0.7
+  },
+  {
+    "num": 36,
+    "campo": "IDENTIDAD",
+    "confidence": 0.8
+  },
+  {
+    "num": 37,
+    "campo": "IDENTIDAD",
+    "confidence": 0.8
+  },
+  {
+    "num": 38,
+    "campo": "IDENTIDAD",
+    "confidence": 0.8
+  },
+  {
+    "num": 39,
+    "campo": "IDENTIDAD",
+    "confidence": 0.8
+  },
+  {
+    "num": 41,
+    "campo": "ACCION",
+    "confidence": 0.6
+  },
+  {
+    "num": 42,
+    "campo": "ACCION",
+    "confidence": 0.6
+  },
+  {
+    "num": 43,
+    "campo": "REFERENCIA",
+    "confidence": 0.9
+  },
+  {
+    "num": 44,
+    "campo": "ACCION",
+    "confidence": 0.6
+  },
+  {
+    "num": 45,
+    "campo": "ACCION",
+    "confidence": 0.6
+  }
+]

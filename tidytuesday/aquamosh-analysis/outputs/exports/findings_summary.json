@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "album": "Aquamosh",
+    "artist": "Plastilina Mosh",
+    "year": 1998,
+    "analyzed_on": "2026-05-20T22:15:34.559674Z"
+  },
+  "corpus_sizes": {
+    "tracks_with_lyrics": 10,
+    "total_lines": 392,
+    "youtube_comments": 0,
+    "critic_reviews": 3,
+    "n_youtube_years": 0
+  },
+  "chi_squared_language_field": {
+    "chi2": 124.7065913263371,
+    "p_value": 9.716498642184887e-17,
+    "dof": 21,
+    "table": {
+      "ACCION": {
+        "EN": 33,
+        "ES": 14,
+        "FR": 5,
+        "MIXED": 21
+      },
+      "CUERPO": {
+        "EN": 4,
+        "ES": 20,
+        "FR": 0,
+        "MIXED": 27
+      },
+      "EMOCION": {
+        "EN": 13,
+        "ES": 12,
+        "FR": 3,
+        "MIXED": 32
+      },
+      "IDENTIDAD": {
+        "EN": 16,
+        "ES": 6,
+        "FR": 0,
+        "MIXED": 13
+      },
+      "LUGAR": {
+        "EN": 3,
+        "ES": 16,
+        "FR": 4,
+        "MIXED": 4
+      },
+      "MARCA": {
+        "EN": 1,
+        "ES": 0,
+        "FR": 0,
+        "MIXED": 7
+      },
+      "NONSENSE": {
+        "EN": 10,
+        "ES": 8,
+        "FR": 0,
+        "MIXED": 2
+      },
+      "REFERENCIA": {
+        "EN": 27,
+        "ES": 3,
+        "FR": 0,
+        "MIXED": 0
+      }
+    },
+    "residuals": {
+      "ACCION": {
+        "EN": 1.441,
+        "ES": -1.141,
+        "FR": 1.248,
+        "MIXED": -0.883
+      },
+      "CUERPO": {
+        "EN": -3.293,
+        "ES": 1.853,
+        "FR": -1.419,
+        "MIXED": 2.186
+      },
+      "EMOCION": {
+        "EN": -1.767,
+        "ES": -0.91,
+        "FR": 0.41,
+        "MIXED": 2.422
+      },
+      "IDENTIDAD": {
+        "EN": 1.049,
+        "ES": -1.026,
+        "FR": -1.175,
+        "MIXED": 0.228
+      },
+      "LUGAR": {
+        "EN": -2.11,
+        "ES": 3.391,
+        "FR": 2.842,
+        "MIXED": -1.765
+      },
+      "MARCA": {
+        "EN": -1.082,
+        "ES": -1.442,
+        "FR": -0.562,
+        "MIXED": 2.521
+      },
+      "NONSENSE": {
+        "EN": 1.116,
+        "ES": 1.229,
+        "FR": -0.889,
+        "MIXED": -1.883
+      },
+      "REFERENCIA": {
+        "EN": 5.059,
+        "ES": -1.718,
+        "FR": -1.088,
+        "MIXED": -3.234
+      }
+    }
+  },
+  "critic_fan_gap": {},
+  "model_robustness": {},
+  "top_success_factors": [],
+  "final_synthesis": "1) Los datos no confirman que *Aquamosh* fue un éxito por resolver el dilema de lo global versus lo local. Más bien, sugieren que el álbum destaca por su habilidad para mezclar idiomas en contextos específicos, lo que añade una capa de complejidad y atractivo. El análisis chi-cuadrado muestra que hay una asociación significativa entre el idioma y el campo semántico, lo que indica que Plastilina Mosh utiliza idiomas de manera estratégica. Por ejemplo, el uso del inglés es predominante en referencias y acción, mientras que el español se asocia más con el cuerpo y el lugar. Esto sugiere que el álbum no solo busca apelar a una audiencia global, sino que también se enraíza en experiencias locales y personales. Además, los samples seleccionados, como los de The Meters y Minutemen, reflejan una conexión con tradiciones musicales específicas que resuenan tanto en un contexto global como local. Así, el éxito de *Aquamosh* podría atribuirse más a su habilidad para tejer una narrativa musical que resuena a múltiples niveles, en lugar de simplemente resolver una dicotomía entre lo global y lo local.\n\n2) Según los datos, el inglés es dominante en acción y referencias, sugiriendo que se utiliza para comunicar dinamismo y conectar con una cultura pop global. El español se asocia más con cuerpo y lugar, lo que indica un enfoque en lo tangible y lo local. El francés tiene una presencia menor, pero se destaca en acción y lugar, lo que podría sugerir un uso estilístico o humorístico. Los residuos muestran que el francés tiene una asociación positiva con lugar, lo que podría indicar un uso irónico o exótico. No hay datos sobre japonés, pero el análisis revela que los idiomas no son meramente decorativos; cada uno cumple un rol específico que enriquece la narrativa del álbum.\n\n3) La falta de datos sobre la brecha entre crítica y fans sugiere que el álbum podría ser consumido de manera diferente hoy en comparación con 1998. En su época, *Aquamosh* pudo haber sido visto como un proyecto audaz y experimental, mientras que ahora podría ser apreciado por su valor nostálgico o su habilidad para capturar un momento cultural específico. La ausencia de un gap semántico medible indica que las percepciones sobre el álbum no están claramente divididas, lo que podría significar que ha mantenido su relevancia o que su impacto se ha diluido con el tiempo.\n\n4) En 1998, Plastilina Mosh lanzó *Aquamosh*, un álbum que desafió las expectativas del rock latinoamericano. Con una mezcla de idiomas y samples que van desde el funk de Nueva Orleans hasta el punk californiano, el dúo de Monterrey creó un sonido que resuena tanto en lo local como en lo global. Este análisis revela cómo cada idioma y sample contribuyen a una narrativa musical compleja y atractiva. Descubre cómo *Aquamosh* logró capturar la esencia de una época y por qué sigue siendo relevante en la actualidad.\n\n5) Los datos no responden cómo el contexto socioeconómico post-NAFTA en Monterrey influyó en la producción y recepción de *Aquamosh*. Entender este aspecto es crucial, ya que el tratado redefinió las dinámicas culturales y económicas en la región, posiblemente impactando la música y las oportunidades de difusión internacional del álbum.",
+  "samples_analysis": "El álbum *Aquamosh* de Plastilina Mosh es un reflejo de la diversidad cultural y musical que caracteriza a Monterrey en los años 90, y los samples que eligen son una clara manifestación de esa identidad. \n\nEl uso de \"The Meters\" en \"Niño Bomba\" conecta directamente con la rica tradición del funk de Nueva Orleans, un género que, a su vez, es un símbolo de la resistencia y la creatividad afroamericana. Este sample no solo aporta un groove contagioso, sino que también establece un puente entre la herencia musical afroamericana y la búsqueda de una identidad propia en el contexto mexicano. La elección de este sample sugiere una admiración por las raíces del funk, mientras que al mismo tiempo, invita a los oyentes a reinterpretar esa energía en un contexto local.\n\nPor otro lado, \"Encendedor\" incorpora un sample de Minutemen, un grupo emblemático del punk californiano que abogó por la independencia artística y la crítica social. Este sample es significativo porque refleja el espíritu de rebeldía y la autogestión que caracterizaba a la escena punk de los 80 y 90. Al incluir este elemento, Plastilina Mosh no solo rinde homenaje a una época de resistencia cultural, sino que también se posiciona como un grupo que busca romper con las convenciones y expresar su propia voz en un entorno musical dominado por tendencias comerciales.\n\nFinalmente, \"Banano's Bar\" utiliza un sample de East & West, una librería anónima que aporta un aire kitsch y deliberadamente superficial. Este elemento puede interpretarse como una crítica a la cultura consumista y a la búsqueda de autenticidad en un mundo saturado de información. La elección de un sample anónimo resalta la ironía y la auto-reflexión del grupo, sugiriendo que la identidad cultural puede ser tanto un collage de influencias como un juego de máscaras.\n\nEn conjunto, estos samples construyen un álbum que no solo celebra la diversidad musical, sino que también cuestiona y redefine la identidad cultural en un contexto contemporáneo.",
+  "topic_naming": ""
+}

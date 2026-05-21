@@ -1,0 +1,77 @@
+[
+  {
+    "num": 0,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 1,
+    "campo": "EMOCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 2,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 3,
+    "campo": "EMOCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 4,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 5,
+    "campo": "EMOCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 6,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 7,
+    "campo": "EMOCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 8,
+    "campo": "EMOCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 9,
+    "campo": "EMOCION",
+    "confidence": 0.9
+  },
+  {
+    "num": 10,
+    "campo": "EMOCION",
+    "confidence": 0.9
+  },
+  {
+    "num": 11,
+    "campo": "IDENTIDAD",
+    "confidence": 0.7
+  },
+  {
+    "num": 12,
+    "campo": "IDENTIDAD",
+    "confidence": 0.7
+  },
+  {
+    "num": 13,
+    "campo": "EMOCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 14,
+    "campo": "IDENTIDAD",
+    "confidence": 0.7
+  }
+]

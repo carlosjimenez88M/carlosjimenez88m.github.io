@@ -1,0 +1,97 @@
+[
+  {
+    "num": 0,
+    "campo": "EMOCION",
+    "confidence": 0.9
+  },
+  {
+    "num": 1,
+    "campo": "MARCA",
+    "confidence": 0.8
+  },
+  {
+    "num": 2,
+    "campo": "MARCA",
+    "confidence": 0.8
+  },
+  {
+    "num": 3,
+    "campo": "CUERPO",
+    "confidence": 0.7
+  },
+  {
+    "num": 4,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 5,
+    "campo": "EMOCION",
+    "confidence": 0.8
+  },
+  {
+    "num": 6,
+    "campo": "EMOCION",
+    "confidence": 0.7
+  },
+  {
+    "num": 7,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 8,
+    "campo": "CUERPO",
+    "confidence": 0.6
+  },
+  {
+    "num": 9,
+    "campo": "CUERPO",
+    "confidence": 0.6
+  },
+  {
+    "num": 10,
+    "campo": "ACCION",
+    "confidence": 0.5
+  },
+  {
+    "num": 11,
+    "campo": "ACCION",
+    "confidence": 0.6
+  },
+  {
+    "num": 12,
+    "campo": "NONSENSE",
+    "confidence": 0.4
+  },
+  {
+    "num": 13,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  },
+  {
+    "num": 14,
+    "campo": "NONSENSE",
+    "confidence": 0.4
+  },
+  {
+    "num": 15,
+    "campo": "EMOCION",
+    "confidence": 0.9
+  },
+  {
+    "num": 16,
+    "campo": "EMOCION",
+    "confidence": 0.9
+  },
+  {
+    "num": 17,
+    "campo": "NONSENSE",
+    "confidence": 0.4
+  },
+  {
+    "num": 18,
+    "campo": "NONSENSE",
+    "confidence": 0.5
+  }
+]

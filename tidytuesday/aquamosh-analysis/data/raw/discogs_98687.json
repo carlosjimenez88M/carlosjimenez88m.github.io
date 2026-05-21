@@ -1,0 +1,396 @@
+{
+  "id": 98687,
+  "status": "Accepted",
+  "year": 1998,
+  "resource_url": "https://api.discogs.com/releases/98687",
+  "uri": "https://www.discogs.com/release/98687-Plastilina-Mosh-Aquamosh",
+  "artists": [
+    {
+      "name": "Plastilina Mosh",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 12647,
+      "resource_url": "https://api.discogs.com/artists/12647",
+      "thumbnail_url": "https://i.discogs.com/2Qe7epbGYdAtNvS4yrrGVcWIyo7J1E74OP6_agyDhL8/rs:fit/g:sm/q:90/h:438/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTEyNjQ3/LTE0MjU0ODg0NTIt/MjE2NC5qcGVn.jpeg"
+    }
+  ],
+  "artists_sort": "Plastilina Mosh",
+  "labels": [
+    {
+      "name": "Capitol Records",
+      "catno": "CDP 7243 4 94977 2 6",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 654,
+      "resource_url": "https://api.discogs.com/labels/654",
+      "thumbnail_url": "https://i.discogs.com/N1wrelsu4hWDtEhq6VsDm8EziuoP7wk_5pJG3ZIiqAA/rs:fit/g:sm/q:90/h:219/w:454/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTY1NC0x/NDA2OTAzMzg2LTM4/MjAuanBlZw.jpeg"
+    }
+  ],
+  "series": [],
+  "companies": [
+    {
+      "name": "EMI Music Mexico, S.A. De C.V.",
+      "catno": "",
+      "entity_type": "13",
+      "entity_type_name": "Phonographic Copyright (p)",
+      "id": 268424,
+      "resource_url": "https://api.discogs.com/labels/268424",
+      "thumbnail_url": "https://i.discogs.com/whz5oSU07cRLnAqUFJviEKaSPE_p8N67JGhE4qXnl3k/rs:fit/g:sm/q:90/h:206/w:302/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2ODQy/NC0xNTUzNTc1OTcw/LTkyMDQuanBlZw.jpeg"
+    },
+    {
+      "name": "EMI Music Mexico, S.A. De C.V.",
+      "catno": "",
+      "entity_type": "14",
+      "entity_type_name": "Copyright (c)",
+      "id": 268424,
+      "resource_url": "https://api.discogs.com/labels/268424",
+      "thumbnail_url": "https://i.discogs.com/whz5oSU07cRLnAqUFJviEKaSPE_p8N67JGhE4qXnl3k/rs:fit/g:sm/q:90/h:206/w:302/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTI2ODQy/NC0xNTUzNTc1OTcw/LTkyMDQuanBlZw.jpeg"
+    }
+  ],
+  "formats": [
+    {
+      "name": "CD",
+      "qty": "1",
+      "descriptions": [
+        "Album"
+      ]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 169,
+    "want": 33,
+    "rating": {
+      "count": 17,
+      "average": 4.06
+    },
+    "submitter": {
+      "username": "siart",
+      "resource_url": "https://api.discogs.com/users/siart"
+    },
+    "contributors": [
+      {
+        "username": "siart",
+        "resource_url": "https://api.discogs.com/users/siart"
+      },
+      {
+        "username": "danBLOO",
+        "resource_url": "https://api.discogs.com/users/danBLOO"
+      },
+      {
+        "username": "musicmatic",
+        "resource_url": "https://api.discogs.com/users/musicmatic"
+      },
+      {
+        "username": "burgersub",
+        "resource_url": "https://api.discogs.com/users/burgersub"
+      },
+      {
+        "username": "Morten-Hattestad",
+        "resource_url": "https://api.discogs.com/users/Morten-Hattestad"
+      },
+      {
+        "username": "music.at.work",
+        "resource_url": "https://api.discogs.com/users/music.at.work"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2003-01-22T16:25:03-08:00",
+  "date_changed": "2022-08-15T03:43:08-07:00",
+  "num_for_sale": 11,
+  "lowest_price": 1.57,
+  "master_id": 155503,
+  "master_url": "https://api.discogs.com/masters/155503",
+  "title": "Aquamosh",
+  "country": "US",
+  "released": "1998",
+  "notes": "Printed in U.S.A.\nMatrix outer ring ring reads: Mastered by EMI MFG.",
+  "released_formatted": "1998",
+  "identifiers": [
+    {
+      "type": "Barcode",
+      "value": "7 2434-94977-2 6"
+    }
+  ],
+  "videos": [
+    {
+      "uri": "https://www.youtube.com/watch?v=eRuV0VKINto",
+      "title": "Plastilina Mosh - Mr. P-Mosh",
+      "description": "Music video by Plastilina Mosh performing Mr P-Mosh.",
+      "duration": 268,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Kw8r_dnP9a8",
+      "title": "Plastilina Mosh - Niño Bomba",
+      "description": "Music video by Plastilina Mosh performing Niño Bomba (Explicit).",
+      "duration": 205,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=6anAOpoBh2o",
+      "title": "Plastilina Mosh - Afroman",
+      "description": "Music video by Plastilina Mosh performing Afroman.",
+      "duration": 224,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=_l040c6DZO4",
+      "title": "Plastilina Mosh - Monster Truck",
+      "description": "Music video by Plastilina Mosh performing Monster Truck.",
+      "duration": 248,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=eRuV0VKINto",
+      "title": "Plastilina Mosh - Mr. P-Mosh",
+      "description": "Music video by Plastilina Mosh performing Mr P-Mosh.",
+      "duration": 268,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Kw8r_dnP9a8",
+      "title": "Plastilina Mosh - Niño Bomba",
+      "description": "Music video by Plastilina Mosh performing Niño Bomba (Explicit).",
+      "duration": 205,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=6anAOpoBh2o",
+      "title": "Plastilina Mosh - Afroman",
+      "description": "Music video by Plastilina Mosh performing Afroman.",
+      "duration": 224,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=_l040c6DZO4",
+      "title": "Plastilina Mosh - Monster Truck",
+      "description": "Music video by Plastilina Mosh performing Monster Truck.",
+      "duration": 248,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=S7ymEVWifc4",
+      "title": "Ode To Mauricio Garces",
+      "description": "Provided to YouTube by Universal Music Group\n\nOde To Mauricio Garces · Plastilina Mosh\n\nAquamosh\n\n℗ 1998 EMI Music México, S.A. de C.V.\n\nReleased on: 1998-06-30\n\nProducer: Tom Rothrock\nProducer: Rob Schnapf\nComposer: Alejandro Rosso\nComposer: Juan Jose Go",
+      "duration": 255,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=tHYaHxiTj18",
+      "title": "Banano´s Bar",
+      "description": "Provided to YouTube by Universal Music Group\n\nBanano´s Bar · Plastilina Mosh\n\nAquamosh\n\n℗ 1998 EMI Music México, S.A. de C.V.\n\nReleased on: 1998-06-30\n\nProducer: Tom Rothrock\nProducer: Rob Schnapf\nComposer: Alejandro Rosso\nComposer: Juan Jose Gonzalez Rey",
+      "duration": 349,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=GNOMoM2cJp8",
+      "title": "Encendedor",
+      "description": "Provided to YouTube by Universal Music Group\n\nEncendedor · Plastilina Mosh\n\nAquamosh\n\n℗ 1998 EMI Music México, S.A. de C.V.\n\nReleased on: 1998-06-30\n\nProducer: Tom Rothrock\nProducer: Rob Schnapf\nComposer: Alejandro Rosso\nComposer: Juan Jose Gonzalez Reyes",
+      "duration": 157,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Bm8uIvYwS9I",
+      "title": "Bungaloo Punta Cometa",
+      "description": "Provided to YouTube by Universal Music Group\n\nBungaloo Punta Cometa · Plastilina Mosh\n\nAquamosh\n\n℗ 1998 EMI Music México, S.A. de C.V.\n\nReleased on: 1998-06-30\n\nProducer: Tom Rothrock\nProducer: Rob Schnapf\nComposer: Alejandro Rosso\nComposer: Juan Jose Gon",
+      "duration": 240,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=HvxIvRBc2QU",
+      "title": "Aquamosh",
+      "description": "Provided to YouTube by Universal Music Group\n\nAquamosh · Plastilina Mosh\n\nAquamosh\n\n℗ 1998 EMI Music México, S.A. de C.V.\n\nReleased on: 1998-06-30\n\nProducer: Tom Rothrock\nProducer: Rob Schnapf\nComposer: Alejandro Rosso\nComposer: Juan González\nComposer: Eu",
+      "duration": 237,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=Gh6OKNlUHv4",
+      "title": "I´ve Got That Milton Pacheco Kinda Feeling (Melancolic Mix)",
+      "description": "Provided to YouTube by Universal Music Group\n\nI´ve Got That Milton Pacheco Kinda Feeling (Melancolic Mix) · Plastilina Mosh\n\nAquamosh\n\n℗ 1998 EMI Music México, S.A. de C.V.\n\nReleased on: 1998-06-30\n\nProducer: Tom Rothrock\nProducer: Rob Schnapf\nComposer  L",
+      "duration": 263,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=4CnBKgbThUs",
+      "title": "Pornoshop",
+      "description": "Provided to YouTube by Universal Music Group\n\nPornoshop · Plastilina Mosh\n\nAquamosh\n\n℗ 1998 EMI Music México, S.A. de C.V.\n\nReleased on: 1998-06-30\n\nProducer: Tom Rothrock\nProducer: Rob Schnapf\nComposer: Alejandro Rosso\nComposer: Juan González\n\nAuto-gener",
+      "duration": 212,
+      "embed": true
+    },
+    {
+      "uri": "https://www.youtube.com/watch?v=I9WMnmaT-NY",
+      "title": "Savage Sucker Boy Feat. Pocahontas Freaky Groove",
+      "description": "Provided to YouTube by Universal Music Group\n\nSavage Sucker Boy Feat. Pocahontas Freaky Groove · Plastilina Mosh\n\nAquamosh\n\n℗ 1998 EMI Music México, S.A. de C.V.\n\nReleased on: 1998-06-30\n\nProducer: Tom Rothrock\nProducer: Rob Schnapf\nAssociated  Performer,",
+      "duration": 213,
+      "embed": true
+    }
+  ],
+  "genres": [
+    "Electronic"
+  ],
+  "styles": [
+    "Acid Jazz",
+    "Electro",
+    "Big Beat"
+  ],
+  "tracklist": [
+    {
+      "position": "1",
+      "type_": "track",
+      "title": "Niño Bomba",
+      "duration": "3:43"
+    },
+    {
+      "position": "2",
+      "type_": "track",
+      "title": "Afroman",
+      "duration": "3:38"
+    },
+    {
+      "position": "3",
+      "type_": "track",
+      "title": "Ode To Mauricio Garces",
+      "duration": "4:14"
+    },
+    {
+      "position": "4",
+      "type_": "track",
+      "title": "Banano's Bar",
+      "duration": "5:48"
+    },
+    {
+      "position": "5",
+      "type_": "track",
+      "title": "Monster Truck",
+      "duration": "4:18"
+    },
+    {
+      "position": "6",
+      "type_": "track",
+      "title": "Encendedor",
+      "duration": "2:36"
+    },
+    {
+      "position": "7",
+      "type_": "track",
+      "title": "Bungaloo Punta Cometa",
+      "extraartists": [
+        {
+          "name": "Cafe Tacuba",
+          "anv": "",
+          "join": "",
+          "role": "Featuring",
+          "tracks": "",
+          "id": 79144,
+          "resource_url": "https://api.discogs.com/artists/79144"
+        }
+      ],
+      "duration": "3:59"
+    },
+    {
+      "position": "8",
+      "type_": "track",
+      "title": "Aquamosh",
+      "extraartists": [
+        {
+          "name": "Sukia",
+          "anv": "",
+          "join": "",
+          "role": "Featuring",
+          "tracks": "",
+          "id": 6132,
+          "resource_url": "https://api.discogs.com/artists/6132"
+        },
+        {
+          "name": "April March",
+          "anv": "",
+          "join": "",
+          "role": "Vocals",
+          "tracks": "",
+          "id": 31836,
+          "resource_url": "https://api.discogs.com/artists/31836"
+        }
+      ],
+      "duration": "3:56"
+    },
+    {
+      "position": "9",
+      "type_": "track",
+      "title": "I've Got That Milton Pacheco Kinda' Feeling (Melancolic Mix)",
+      "duration": "4:22"
+    },
+    {
+      "position": "10",
+      "type_": "track",
+      "title": "Pornoshop",
+      "duration": "3:31"
+    },
+    {
+      "position": "11",
+      "type_": "track",
+      "title": "Savage Sucker Boy (Featuring Pocahontas Freaky Groove)",
+      "extraartists": [
+        {
+          "name": "Christophe Lesieur",
+          "anv": "",
+          "join": "",
+          "role": "Vocals",
+          "tracks": "",
+          "id": 79145,
+          "resource_url": "https://api.discogs.com/artists/79145"
+        }
+      ],
+      "duration": "3:32"
+    },
+    {
+      "position": "12",
+      "type_": "track",
+      "title": "Mr. P. Mosh",
+      "duration": "4:21"
+    }
+  ],
+  "images": [
+    {
+      "type": "primary",
+      "uri": "https://i.discogs.com/qk5pYEfVYh8P5uiGbGi-I5fTtp-1T6uOXLqo_S1l8tM/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4Njg3/LTExMzQzMzEwMjIu/anBlZw.jpeg",
+      "resource_url": "https://i.discogs.com/qk5pYEfVYh8P5uiGbGi-I5fTtp-1T6uOXLqo_S1l8tM/rs:fit/g:sm/q:90/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4Njg3/LTExMzQzMzEwMjIu/anBlZw.jpeg",
+      "uri150": "https://i.discogs.com/Q4x7_ILbU7uyF3fAe9wrxhOIQrLlarTA5xnIHnFsXFk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4Njg3/LTExMzQzMzEwMjIu/anBlZw.jpeg",
+      "width": 300,
+      "height": 300
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/Vt7-d82SCNxBPMlG5JFLhPWqzHjvvy3ecoQx3N0zjfw/rs:fit/g:sm/q:90/h:467/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4Njg3/LTE2NTMxNTM1OTMt/ODIwNi5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/Vt7-d82SCNxBPMlG5JFLhPWqzHjvvy3ecoQx3N0zjfw/rs:fit/g:sm/q:90/h:467/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4Njg3/LTE2NTMxNTM1OTMt/ODIwNi5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/faGtA5BxW66o9mXFEZ2g0720TxApLPBk2JpIwiw9Yv4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4Njg3/LTE2NTMxNTM1OTMt/ODIwNi5qcGVn.jpeg",
+      "width": 600,
+      "height": 467
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/n4az_QnqK_Vb5eQegreTOcLV-junDs_zz0a_BXbyfrU/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4Njg3/LTE2NTMxNTM1OTYt/NjM0OC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/n4az_QnqK_Vb5eQegreTOcLV-junDs_zz0a_BXbyfrU/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4Njg3/LTE2NTMxNTM1OTYt/NjM0OC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/fK2SearuMZzMyhBAKeeqtEyuWi8KV0zpvYPkBECXDCo/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4Njg3/LTE2NTMxNTM1OTYt/NjM0OC5qcGVn.jpeg",
+      "width": 600,
+      "height": 594
+    },
+    {
+      "type": "secondary",
+      "uri": "https://i.discogs.com/wA6WQyzrTlZww3NxfNS1WaC5aU6OX2uv6m_7AgpYLLA/rs:fit/g:sm/q:90/h:540/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4Njg3/LTE2NjA1NjAxODIt/MTIyNC5qcGVn.jpeg",
+      "resource_url": "https://i.discogs.com/wA6WQyzrTlZww3NxfNS1WaC5aU6OX2uv6m_7AgpYLLA/rs:fit/g:sm/q:90/h:540/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4Njg3/LTE2NjA1NjAxODIt/MTIyNC5qcGVn.jpeg",
+      "uri150": "https://i.discogs.com/OJibkWAjcnAwAap5US5xUVf5bMmrVLvT7bbNL6gpvw4/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4Njg3/LTE2NjA1NjAxODIt/MTIyNC5qcGVn.jpeg",
+      "width": 600,
+      "height": 540
+    }
+  ],
+  "thumb": "https://i.discogs.com/Q4x7_ILbU7uyF3fAe9wrxhOIQrLlarTA5xnIHnFsXFk/rs:fit/g:sm/q:40/h:150/w:150/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTk4Njg3/LTExMzQzMzEwMjIu/anBlZw.jpeg",
+  "estimated_weight": 85,
+  "blocked_from_sale": false,
+  "is_offensive": false
+}

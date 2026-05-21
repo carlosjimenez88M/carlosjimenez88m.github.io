@@ -1,0 +1,60 @@
+{
+  "n_permutations": 10000,
+  "n_consecutive_pairs": 382,
+  "thresholds": {
+    "openai": 0.32007402181625366,
+    "labse": 0.32299089431762695
+  },
+  "observed": {
+    "openai": {
+      "p_same": 0.36065573770491804,
+      "p_switch": 0.6984924623115578,
+      "gap": 0.33783672460663977
+    },
+    "labse": {
+      "p_same": 0.4098360655737705,
+      "p_switch": 0.6482412060301508,
+      "gap": 0.23840514045638028
+    }
+  },
+  "H0_A_shuffle_lang_labels": {
+    "openai": {
+      "observed": 0.33783672460663977,
+      "null_mean": 0.00039463007661617324,
+      "null_std": 0.05160860581356779,
+      "z_score": 6.53848499122429,
+      "p_two_sided": 0.0,
+      "p_one_sided_greater": 0.0,
+      "n_permutations": 10000
+    },
+    "labse": {
+      "observed": 0.23840514045638028,
+      "null_mean": 0.0028126901602474213,
+      "null_std": 0.05220960200102503,
+      "z_score": 4.512435285208791,
+      "p_two_sided": 0.0,
+      "p_one_sided_greater": 0.0,
+      "n_permutations": 10000
+    }
+  },
+  "H0_B_shuffle_line_order": {
+    "openai": {
+      "observed": 0.33783672460663977,
+      "null_mean": 0.2636514852507358,
+      "null_std": 0.04158374203078348,
+      "z_score": 1.7839962382650982,
+      "p_two_sided": 0.0751,
+      "p_one_sided_greater": 0.036,
+      "n_permutations": 10000
+    },
+    "labse": {
+      "observed": 0.23840514045638028,
+      "null_mean": 0.21209983830094256,
+      "null_std": 0.04260465303786635,
+      "z_score": 0.6174279164310522,
+      "p_two_sided": 0.537,
+      "p_one_sided_greater": 0.2699,
+      "n_permutations": 10000
+    }
+  }
+}
