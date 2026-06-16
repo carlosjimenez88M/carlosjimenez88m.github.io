@@ -226,6 +226,48 @@ The album-level trend (r > 0.93) is dramatic, but TTR is length-biased and album
 
 The verdict is a careful one: **album identity is statistically detectable but practically negligible.** Both separability measures sit just above their shuffled nulls (p < 0.01), and the cross-album edge fraction is significantly *below* chance — so there *is* a faint gravitational pull of album membership. But on the absolute scale (silhouette ≈ 0, Q = 0.06 against a cross-cutting Q = 0.35) that pull is a rounding error next to the catalogue-wide semantic structure. **Detectable, not separable.**
 
+### Cross-architecture robustness
+
+A single embedding family is a single point of failure, so we replicated the structural claims on a second architecture — `all-mpnet-base-v2`, an open 768-dim sentence-transformer trained contrastively, a third the size of `text-embedding-3-large` and from a different training family. (Gemini `text-embedding-004` was the intended second model; its key was non-functional, so an open model stands in.)
+
+| Metric | OpenAI `3-large` (3072d) | `all-mpnet-base-v2` (768d) |
+|---|---|---|
+| Silhouette (album separability) | −0.011 (p=0.006) | −0.015 (p=0.008) |
+| Album-partition modularity Q | 0.060 | 0.066 |
+| Louvain modularity Q | 0.348 | 0.378 |
+| Community↔album ARI | 0.090 | 0.057 |
+| Cross-album edge fraction | 0.688 | 0.683 |
+
+Every structural finding survives: albums detectable-but-inseparable (silhouette ≈ 0, both p < 0.01), near-zero album modularity against a strong cross-cutting community structure, ~68% cross-album edges. The two models agree on the **coarse** similarity geometry (Spearman ρ = 0.61 over all song pairs) but diverge in **detail** — only *Got to Get You into My Life* is a top bridge in both; *A Day in the Life* dominates betweenness in OpenAI but not in the open model, and the open model sees an *accelerating* centroid drift toward Abbey Road where OpenAI sees a flat one. The load-bearing claims are architecture-invariant; the most fragile metric (betweenness ranking) and the fine shape of the drift are model-dependent. The lexical findings (TTR, hapax) are computed from raw text and are independent of embedding choice entirely.
+
+---
+
+## The Instrument and Its Blind Spots
+
+Before synthesizing, two caveats about the measuring instrument — not footnotes, but constitutive of how the result should be read.
+
+### The limits of information geometry against pop subtext
+
+A silhouette of ≈ 0 is not the same statement as "the lyrics did not change." It is a statement about *which layer of meaning* the instrument can see. `text-embedding-3-large` is trained on the distributional hypothesis — *you shall know a word by the company it keeps* (Firth, 1957) — which makes it an excellent detector of **register** (the high-level fact that all four albums speak the same 1960s British-pop English) and a poor detector of **pragmatics** (what the lyricist is *doing* with that register). The psychedelic turn of 1966–67 is almost entirely an intervention in the second layer, which is exactly the layer the geometry cannot resolve.
+
+Three of the period's signature manoeuvres are invisible-by-construction to a distributional model:
+
+- **Irony / double reference.** *Got to Get You into My Life* — one of our two graph bridges — wears the lexical surface of a love song while its actual referent is marijuana. The embedding places it, correctly *for its sense*, among the love songs of Rubber Soul, and is therefore structurally unable to register the semantic pivot. This is Frege's *Sinn/Bedeutung* distinction again (cf. the [Beatles vs. Pink Floyd post](/post/2026-02-10-attention-windows-beatles-floyd)): the model captures the mode of presentation, not the hidden thing presented.
+- **Deliberate nonsense.** Lennon wrote *I Am the Walrus* in part to defeat the critics dissecting his lyrics. It is language engineered to carry *sense* (cadence, sonic association) with no stable reference — and a co-occurrence model has no representation for *intentional absence of referent*. It encodes the result as unusual vocabulary within the same register, not as the paradigm break it was.
+- **Found-text collage.** *Being for the Benefit of Mr. Kite!* is lifted almost verbatim from an 1843 circus poster; the verses of *A Day in the Life* are newspaper clippings. The innovation is not lexical but **architectural** — the *ready-made* procedure — and architecture is precisely what a single pooled vector discards.
+
+The deepest blind spot is that the *same words* change job. "I read the news today" (1967) and a narrative mention of news two years earlier share nearly identical neighbourhoods and therefore nearly identical vectors, even though their use migrated from the denotative to the existential-collage. The model faithfully reports the stability of the **lexicon** while remaining blind to the transformation of the **architecture of meaning**. Our cross-architecture replication makes this concrete: OpenAI and an open 768-d model agree on the coarse geometry (ρ = 0.61) but disagree on fine structure — both see the shared register; neither sees the subtext. When the geometry says "one register, slowly diffusing," it is being precise about the one layer the avant-garde left untouched, and silent about the layer it detonated.
+
+### The illusion of continuity: vector compression vs. the rupture of historical context
+
+Our analysis assumes that vector proximity tracks thematic continuity. That assumption hides a mechanism worth making explicit, because it builds a bias *toward* continuity into the instrument itself.
+
+`text-embedding-3-large` returns a **single** 3072-d vector per input: it pools the contextual activations of every token into one point. For a 200-word lyric, that average erases internal friction — meter changes, register breaks, juxtaposition. *Happiness Is a Warm Gun* is the limiting case: three unrelated fragments welded across shifting time signatures. The model compresses that deliberate collision into one smooth, *intermediate* point that matches none of the three sections. The most architecturally fractured song in the catalogue is encoded as a centred, lukewarm vector — the rupture vanishes into the mean. The Abbey Road medley, read as fragments, suffers the same fate: the friction *is* the artwork, and pooling dissolves it.
+
+This compression is **asymmetric** in length. An album centroid averages 13–17 already-averaged song vectors, pulling everything back toward the corpus mean. So when album separability collapses to ≈ 0, the honest reading is not "the albums are identical" but **"the double averaging — token → song → album — flattens the ruptures until only the shared register survives."** Continuity is partly an artefact of the aggregation operator.
+
+There is also a gap between two kinds of memory. The vector encodes **static, pan-historical** co-occurrence statistics from training — not the **cultural memory of the 1960s**: countercultural slang ("turn off your mind"), nonsense deployed tactically to mislead critics, the band's private codes. To the model, "Lucy in the sky with diamonds" is generic dream imagery, with no access to the LSD reading, Julian Lennon's drawing, or Carroll's *Alice*. Because its memory is the aggregated English of the web, what was a **paradigm break** in 1967 — importing the unconscious, the ready-made, irony-as-method — reads as **lexical variation within a stable register**. The model is not wrong about what it measures. The analyst would be wrong to mistake *absence of a rupture signal* for *absence of rupture*.
+
 ---
 
 ## Discussion: The Arc

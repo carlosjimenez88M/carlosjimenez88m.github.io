@@ -1,0 +1,81 @@
+{
+  "openai": {
+    "label": "OpenAI text-embedding-3-large",
+    "dim": 3072,
+    "silhouette": -0.0115,
+    "silhouette_p": 0.006,
+    "Q_album": 0.0599,
+    "Q_louvain": 0.3476,
+    "n_comm": 5,
+    "ARI": 0.0901,
+    "NMI": 0.2077,
+    "cross_album_frac": 0.6883,
+    "drift": [
+      0.0935,
+      0.1092,
+      0.1012
+    ],
+    "bridges": [
+      [
+        "A Day in the Life",
+        0.262
+      ],
+      [
+        "Got to Get You into My Life",
+        0.253
+      ],
+      [
+        "And Your Bird Can Sing",
+        0.08
+      ],
+      [
+        "Girl",
+        0.061
+      ],
+      [
+        "With a Little Help from My Friends",
+        0.054
+      ]
+    ]
+  },
+  "second": {
+    "label": "all-mpnet-base-v2 (open, stand-in for Gemini)",
+    "dim": 768,
+    "silhouette": -0.0149,
+    "silhouette_p": 0.008,
+    "Q_album": 0.0662,
+    "Q_louvain": 0.3775,
+    "n_comm": 5,
+    "ARI": 0.0574,
+    "NMI": 0.1231,
+    "cross_album_frac": 0.683,
+    "drift": [
+      0.1198,
+      0.1426,
+      0.1576
+    ],
+    "bridges": [
+      [
+        "You Never Give Me Your Money",
+        0.174
+      ],
+      [
+        "Oh! Darling",
+        0.088
+      ],
+      [
+        "What Goes On",
+        0.083
+      ],
+      [
+        "Got to Get You into My Life",
+        0.082
+      ],
+      [
+        "Good Morning Good Morning",
+        0.076
+      ]
+    ]
+  },
+  "geometry_spearman": 0.6134
+}
