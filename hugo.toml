@@ -105,20 +105,14 @@ enableEmoji = true
 # Menu Configuration
 [menu]
   [[menu.main]]
-    identifier = "start-here"
-    name = "Start Here"
-    url = "/start-here/"
-    weight = 5
-
-  [[menu.main]]
     identifier = "posts"
-    name = "AI Engineering"
-    url = "/ai-engineering/"
+    name = "Writing"
+    url = "/post/"
     weight = 10
 
   [[menu.main]]
     identifier = "music"
-    name = "Music + NLP"
+    name = "Music"
     url = "/music-analysis/"
     weight = 15
 

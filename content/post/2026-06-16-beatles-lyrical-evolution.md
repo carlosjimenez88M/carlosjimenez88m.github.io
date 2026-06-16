@@ -304,4 +304,4 @@ The evolution is real. It is just not where the album covers tell us to look.
 
 ---
 
-*Code, notebook, and reproducible pipeline: `tidytuesday/beatles-evolution-analysis/` (`collect_lyrics.py` → `embeddings.py` → `topic_modeling.py` → `evolution_metrics.py` → `graph_analysis.py` → `stats_robustness.py` → `figures.py`). Previous in series: [Attention Windows: Beatles vs. Pink Floyd](/post/2026-02-10-attention-windows-beatles-floyd) · [The Quadrilingual Probe: Aquamosh](/post/2026-05-20-aquamosh-quadrilingual-anatomy).*
+*Previous in series: [Attention Windows: Beatles vs. Pink Floyd](/post/2026-02-10-attention-windows-beatles-floyd) · [The Quadrilingual Probe: Aquamosh](/post/2026-05-20-aquamosh-quadrilingual-anatomy).*

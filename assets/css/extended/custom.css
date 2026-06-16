@@ -513,3 +513,94 @@ a {
     width: 100%;
   }
 }
+
+/* ============================================================
+   Minimalist refresh (2026-06) — homepage, newsletter, spacing
+   ============================================================ */
+
+.home-minimal {
+  max-width: var(--main-width);
+  margin: 0 auto;
+}
+
+.home-intro {
+  padding: 1.5rem 0 3rem;
+  margin-bottom: 2.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.home-intro h1 {
+  max-width: 20ch;
+  margin: 0.6rem 0 1.2rem;
+  font-size: clamp(2.1rem, 5vw, 3.2rem);
+  line-height: 1.12;
+}
+
+.home-intro .hero-lead {
+  max-width: 56ch;
+  margin: 0;
+}
+
+.home-latest > .eyebrow {
+  margin-bottom: 1.4rem;
+}
+
+.home-latest .essay-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-latest .essay-row {
+  display: block;
+  padding: 1.15rem 0;
+  border-top: none;
+  border-bottom: 1px solid var(--border);
+}
+
+.home-latest .essay-row .essay-meta {
+  margin-bottom: 0.3rem;
+}
+
+.home-latest .essay-row h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.35;
+}
+
+.home-more {
+  margin-top: 1.9rem;
+}
+
+.home-more a {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Quiet, single-line newsletter band */
+.newsletter-band {
+  background: transparent;
+  border-top: 1px solid var(--border);
+  padding: 2.2rem 0;
+  margin-top: 3.5rem;
+}
+
+.newsletter-band__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  max-width: var(--main-width);
+  margin: 0 auto;
+  text-align: left;
+}
+
+.newsletter-band__line {
+  margin: 0;
+  color: var(--secondary);
+  font-size: 0.98rem;
+}
+
+.newsletter-form {
+  margin: 0;
+}
