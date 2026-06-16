@@ -32,13 +32,58 @@ ALBUM_ORDER = ["Rubber Soul", "Revolver",
                "Sgt. Pepper's Lonely Hearts Club Band", "Abbey Road"]
 
 
-def label_topics_with_llm(topic_info: pd.DataFrame, rep_docs: dict[int, list[str]]) -> dict[int, str]:
-    """Use OpenAI gpt-4o-mini to give each topic a short human-readable theme label.
+def _build_prompt(words: list[str], exemplars: list[str]) -> str:
+    return (
+        "You are analysing Beatles song lyrics. Given the top keywords and a few "
+        "representative lines of a topic cluster, return a SHORT (2-4 word) thematic "
+        "label in English. Reply with ONLY the label, no punctuation.\n\n"
+        f"Keywords: {', '.join(words[:10])}\n"
+        f"Lines:\n- " + "\n- ".join(exemplars)
+    )
 
-    (The Gemini key in .env is invalid, so all LLM work in this study uses OpenAI.)
+
+def _gemini_labeler():
+    """Return a callable(prompt)->label using Gemini, or None if the key is unusable.
+
+    Reads GEMINI_API_KEY or GEMINI_API. Validates with a tiny probe call so we
+    fail fast and fall back to OpenAI instead of erroring on every topic.
     """
-    from openai import OpenAI
-    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    key = os.getenv("GEMINI_API_KEY") or os.getenv("GEMINI_API")
+    if not key:
+        print("   .. no Gemini key found (GEMINI_API_KEY / GEMINI_API)")
+        return None
+    try:
+        import google.generativeai as genai
+        genai.configure(api_key=key)
+        model = genai.GenerativeModel("gemini-2.0-flash")
+        model.generate_content("ping")  # probe; raises on invalid key
+        print("   .. Gemini key valid — labelling topics with gemini-2.0-flash")
+        return lambda p: (model.generate_content(p).text or "").strip()
+    except Exception as e:
+        print(f"   !! Gemini key unusable ({str(e)[:60]}...) — falling back to OpenAI")
+        return None
+
+
+def label_topics_with_llm(topic_info: pd.DataFrame, rep_docs: dict[int, list[str]]) -> dict[int, str]:
+    """Label each topic with Gemini if its key works, else OpenAI gpt-4o-mini."""
+    gemini = _gemini_labeler()
+    backend = "gemini"
+    if gemini is None:
+        from openai import OpenAI
+        client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+        backend = "openai"
+
+        def call(p: str) -> str:
+            r = client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[{"role": "user", "content": p}],
+                temperature=0.0, max_tokens=16,
+            )
+            return (r.choices[0].message.content or "").strip()
+    else:
+        call = gemini
+    print(f"   .. topic-label backend: {backend}")
+
     labels: dict[int, str] = {}
     for row in topic_info.itertuples():
         tid = row.Topic
@@ -46,24 +91,12 @@ def label_topics_with_llm(topic_info: pd.DataFrame, rep_docs: dict[int, list[str
             labels[tid] = "outliers / noise"
             continue
         words = row.Representation if isinstance(row.Representation, list) else []
-        exemplars = rep_docs.get(tid, [])[:6]
-        prompt = (
-            "You are analysing Beatles song lyrics. Given the top keywords and a few "
-            "representative lines of a topic cluster, return a SHORT (2-4 word) thematic "
-            "label in English. Reply with ONLY the label, no punctuation.\n\n"
-            f"Keywords: {', '.join(words[:10])}\n"
-            f"Lines:\n- " + "\n- ".join(exemplars)
-        )
+        prompt = _build_prompt(words, rep_docs.get(tid, [])[:6])
         try:
-            r = client.chat.completions.create(
-                model="gpt-4o-mini",
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.0, max_tokens=16,
-            )
-            labels[tid] = (r.choices[0].message.content or "").strip().strip('".').splitlines()[0][:40]
+            labels[tid] = call(prompt).strip('".').splitlines()[0][:40]
         except Exception as e:
             labels[tid] = f"topic {tid}"
-            print(f"   !! llm label failed for {tid}: {e}")
+            print(f"   !! label failed for {tid}: {str(e)[:60]}")
     return labels
 
 
