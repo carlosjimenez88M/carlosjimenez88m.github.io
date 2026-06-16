@@ -1,0 +1,5 @@
+album,year,n_lines,n_topics_present,topic_entropy_norm,top_topic,top_topic_share
+Rubber Soul,1965,153,14,0.7945,0,0.3464
+Revolver,1966,174,13,0.7657,0,0.4195
+Sgt. Pepper's Lonely Hearts Club Band,1967,282,17,0.8224,0,0.3298
+Abbey Road,1969,196,19,0.7189,0,0.4286

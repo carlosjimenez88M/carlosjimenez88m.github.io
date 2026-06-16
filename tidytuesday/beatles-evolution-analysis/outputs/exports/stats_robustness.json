@@ -1,0 +1,14 @@
+{
+  "C1_ttr_beta_order": 0.0020248897787645236,
+  "C1_ttr_p": 0.8812776293415807,
+  "C1_hapax_beta_order": 0.033538396509683654,
+  "C1_hapax_p": 0.14757628764652617,
+  "C2_silhouette_obs": -0.011468860320746899,
+  "C2_silhouette_null_mean": -0.024323124438524246,
+  "C2_silhouette_p": 0.003996003996003996,
+  "C2b_Q_album_obs": 0.0598637778906406,
+  "C2b_Q_album_null_mean": -0.017016918196410536,
+  "C2b_Q_album_p": 0.006993006993006993,
+  "C2c_cross_frac_obs": 0.6883116883116883,
+  "C2c_cross_frac_null_mean": 0.7608225108225108
+}

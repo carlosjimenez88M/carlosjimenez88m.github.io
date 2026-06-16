@@ -1,0 +1,5 @@
+album,short,year,n_songs,intra_cohesion,dispersion,nn_purity_k1,nn_purity_k3,tokens,types,ttr,hapax_ratio,adj_line_cos
+Rubber Soul,Rubber Soul,1965,14,0.4587,0.2947,0.5,0.3333,2958,461,0.1558,0.3644,0.3585
+Revolver,Revolver,1966,14,0.4501,0.3004,0.2143,0.2381,2355,489,0.2076,0.411,0.3543
+Sgt. Pepper's Lonely Hearts Club Band,Sgt. Pepper's,1967,13,0.4805,0.2786,0.6154,0.5128,3133,722,0.2305,0.5305,0.3348
+Abbey Road,Abbey Road,1969,17,0.3989,0.341,0.1176,0.2941,2315,545,0.2354,0.5376,0.4139

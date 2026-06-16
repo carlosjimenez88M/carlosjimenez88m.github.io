@@ -1,0 +1,5 @@
+from,to,centroid_cos,drift
+—,Rubber Soul,,0.0
+Rubber Soul,Revolver,0.9065,0.0935
+Revolver,Sgt. Pepper's,0.8908,0.1092
+Sgt. Pepper's,Abbey Road,0.8988,0.1012

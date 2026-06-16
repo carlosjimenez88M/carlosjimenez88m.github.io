@@ -1,0 +1,427 @@
+[
+  {
+    "Topic":-1,
+    "Count":1061,
+    "label":"outliers \/ noise",
+    "Representation":[
+      "tchic",
+      "im",
+      "tchic tchic",
+      "youre",
+      "say",
+      "dont",
+      "know",
+      "way",
+      "need",
+      "ooh"
+    ]
+  },
+  {
+    "Topic":0,
+    "Count":303,
+    "label":"Ambition and Heartbreak",
+    "Representation":[
+      "got",
+      "know",
+      "im",
+      "old",
+      "right",
+      "like",
+      "mad",
+      "im gonna",
+      "away",
+      "mean"
+    ]
+  },
+  {
+    "Topic":1,
+    "Count":69,
+    "label":"Love and relationships",
+    "Representation":[
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "Topic":2,
+    "Count":50,
+    "label":"Playful expressions",
+    "Representation":[
+      "la",
+      "ahh",
+      "ooh ooh",
+      "ooh",
+      "ah ah",
+      "ah",
+      "ooh la",
+      "lala",
+      "la lala",
+      "yeah"
+    ]
+  },
+  {
+    "Topic":3,
+    "Count":29,
+    "label":"Sgt. Pepper's Band",
+    "Representation":[
+      "band",
+      "play",
+      "yeah",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "Topic":4,
+    "Count":29,
+    "label":"Individuality and Reflection",
+    "Representation":[
+      "walk",
+      "think",
+      "listen",
+      "youll",
+      "car",
+      "just",
+      "make",
+      "school",
+      "youre",
+      "dont want"
+    ]
+  },
+  {
+    "Topic":5,
+    "Count":26,
+    "label":"Love and relationships",
+    "Representation":[
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "Topic":6,
+    "Count":24,
+    "label":"Repetitive Sounds",
+    "Representation":[
+      "tchic",
+      "tchic tchic",
+      "band",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "Topic":7,
+    "Count":22,
+    "label":"Friendship and support",
+    "Representation":[
+      "oh",
+      "try",
+      "gonna",
+      "high",
+      "im gonna",
+      "isnt",
+      "late",
+      "life",
+      "woo",
+      "got"
+    ]
+  },
+  {
+    "Topic":8,
+    "Count":20,
+    "label":"Vocal Expressions",
+    "Representation":[
+      "ah ah",
+      "ah",
+      "ahh",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "Topic":9,
+    "Count":19,
+    "label":"The power of love",
+    "Representation":[
+      "love",
+      "talking",
+      "best",
+      "save",
+      "try",
+      "old",
+      "world",
+      "make",
+      "",
+      ""
+    ]
+  },
+  {
+    "Topic":10,
+    "Count":19,
+    "label":"Uncertainty and longing",
+    "Representation":[
+      "lala",
+      "la lala",
+      "ooh la",
+      "ooh",
+      "la",
+      "ooh ooh",
+      "just",
+      "hands",
+      "older",
+      "turning"
+    ]
+  },
+  {
+    "Topic":11,
+    "Count":19,
+    "label":"sunshine and walking",
+    "Representation":[
+      "comes",
+      "come",
+      "walk",
+      "ah",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "Topic":12,
+    "Count":17,
+    "label":"Ooh La La",
+    "Representation":[
+      "meter",
+      "ooh ooh",
+      "ooh",
+      "tchic",
+      "oh",
+      "tchic tchic",
+      "ah",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "Topic":13,
+    "Count":16,
+    "label":"violence and desperation",
+    "Representation":[
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "Topic":14,
+    "Count":16,
+    "label":"Morning greetings",
+    "Representation":[
+      "good",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "Topic":15,
+    "Count":16,
+    "label":"sunshine happiness",
+    "Representation":[
+      "day",
+      "good",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "Topic":16,
+    "Count":16,
+    "label":"Desire and longing",
+    "Representation":[
+      "want",
+      "mad",
+      "did",
+      "tell",
+      "need",
+      "baby",
+      "know",
+      "ooh",
+      "im",
+      ""
+    ]
+  },
+  {
+    "Topic":17,
+    "Count":15,
+    "label":"yellow submarine",
+    "Representation":[
+      "live",
+      "yellow",
+      "garden",
+      "near",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "Topic":18,
+    "Count":15,
+    "label":"dreamlike imagery",
+    "Representation":[
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "Topic":19,
+    "Count":14,
+    "label":"Doctor theme",
+    "Representation":[
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "Topic":20,
+    "Count":13,
+    "label":"Repetitive Expressions",
+    "Representation":[
+      "woo",
+      "ah",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "Topic":21,
+    "Count":13,
+    "label":"Need for love",
+    "Representation":[
+      "somebody",
+      "need",
+      "anybody",
+      "love",
+      "just",
+      "want",
+      "dont",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "Topic":22,
+    "Count":13,
+    "label":"love declaration",
+    "Representation":[
+      "love",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  },
+  {
+    "Topic":23,
+    "Count":12,
+    "label":"unity and togetherness",
+    "Representation":[
+      "come",
+      "yeah",
+      "right",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  }
+]

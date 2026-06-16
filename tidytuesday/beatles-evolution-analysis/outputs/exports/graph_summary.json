@@ -1,0 +1,11 @@
+{
+  "n_nodes": 58,
+  "n_edges": 231,
+  "density": 0.1397,
+  "n_communities": 5,
+  "modularity_communities": 0.3476,
+  "modularity_album": 0.0599,
+  "community_vs_album_ARI": 0.0901,
+  "community_vs_album_NMI": 0.2077,
+  "cross_album_edge_fraction": 0.6883
+}
