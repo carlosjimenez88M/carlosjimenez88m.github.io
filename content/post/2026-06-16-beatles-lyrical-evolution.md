@@ -228,17 +228,20 @@ The verdict is a careful one: **album identity is statistically detectable but p
 
 ### Cross-architecture robustness
 
-A single embedding family is a single point of failure, so we replicated the structural claims on a second architecture — `all-mpnet-base-v2`, an open 768-dim sentence-transformer trained contrastively, a third the size of `text-embedding-3-large` and from a different training family. (Gemini `text-embedding-004` was the intended second model; its key was non-functional, so an open model stands in.)
+A single embedding family is a single point of failure, so we replicated the structural claims on two further architectures: **Google `gemini-embedding-001`** (3072-dim) and **`all-mpnet-base-v2`** (an open 768-dim sentence-transformer trained contrastively, a quarter the size of the others). Three models from three training lineages.
 
-| Metric | OpenAI `3-large` (3072d) | `all-mpnet-base-v2` (768d) |
-|---|---|---|
-| Silhouette (album separability) | −0.011 (p=0.006) | −0.015 (p=0.008) |
-| Album-partition modularity Q | 0.060 | 0.066 |
-| Louvain modularity Q | 0.348 | 0.378 |
-| Community↔album ARI | 0.090 | 0.057 |
-| Cross-album edge fraction | 0.688 | 0.683 |
+| Metric | OpenAI `3-large` (3072d) | Google `gemini-embedding-001` (3072d) | `all-mpnet-base-v2` (768d) |
+|---|---|---|---|
+| Silhouette (album separability) | −0.011 (p=0.006) | −0.016 (p=0.044) | −0.015 (p=0.008) |
+| Album-partition modularity Q | 0.060 | **0.013** | 0.066 |
+| Louvain modularity Q | 0.348 | 0.435 | 0.378 |
+| Community↔album ARI | 0.090 | 0.028 | 0.057 |
+| Cross-album edge fraction | 0.688 | 0.733 | 0.683 |
+| Agreement with OpenAI (Spearman ρ) | — | 0.665 | 0.613 |
 
-Every structural finding survives: albums detectable-but-inseparable (silhouette ≈ 0, both p < 0.01), near-zero album modularity against a strong cross-cutting community structure, ~68% cross-album edges. The two models agree on the **coarse** similarity geometry (Spearman ρ = 0.61 over all song pairs) but diverge in **detail** — only *Got to Get You into My Life* is a top bridge in both; *A Day in the Life* dominates betweenness in OpenAI but not in the open model, and the open model sees an *accelerating* centroid drift toward Abbey Road where OpenAI sees a flat one. The load-bearing claims are architecture-invariant; the most fragile metric (betweenness ranking) and the fine shape of the drift are model-dependent. The lexical findings (TTR, hapax) are computed from raw text and are independent of embedding choice entirely.
+Every structural finding survives all three — in fact **Gemini agrees with the thesis more strongly than OpenAI does**: it sees even less album structure (album modularity Q = 0.013, ARI = 0.028), even more cross-album connectivity (73%), and an almost flat centroid drift (~0.022 per step vs OpenAI's ~0.10). The two frontier models agree on the **coarse** similarity geometry (Spearman ρ = 0.67 over all song pairs) but diverge in **detail**: the bridge ranking is not stable across models — *Girl* and *And Your Bird Can Sing* are the only songs that rank as top bridges in more than one model, while *A Day in the Life* and *Got to Get You into My Life* dominate betweenness specifically under OpenAI. The load-bearing claims (album inseparability, cross-cutting community structure, near-zero album modularity) are architecture-invariant; the most fragile metric — the betweenness ranking — and the fine magnitude of the drift are model-dependent. The lexical findings (TTR, hapax) are computed from raw text and are independent of embedding choice entirely.
+
+*(Topic labels remain OpenAI `gpt-4o-mini`: at analysis time the Gemini chat endpoint was over its free-tier quota, though its embedding endpoint was available.)*
 
 ---
 
@@ -256,7 +259,7 @@ Three of the period's signature manoeuvres are invisible-by-construction to a di
 - **Deliberate nonsense.** Lennon wrote *I Am the Walrus* in part to defeat the critics dissecting his lyrics. It is language engineered to carry *sense* (cadence, sonic association) with no stable reference — and a co-occurrence model has no representation for *intentional absence of referent*. It encodes the result as unusual vocabulary within the same register, not as the paradigm break it was.
 - **Found-text collage.** *Being for the Benefit of Mr. Kite!* is lifted almost verbatim from an 1843 circus poster; the verses of *A Day in the Life* are newspaper clippings. The innovation is not lexical but **architectural** — the *ready-made* procedure — and architecture is precisely what a single pooled vector discards.
 
-The deepest blind spot is that the *same words* change job. "I read the news today" (1967) and a narrative mention of news two years earlier share nearly identical neighbourhoods and therefore nearly identical vectors, even though their use migrated from the denotative to the existential-collage. The model faithfully reports the stability of the **lexicon** while remaining blind to the transformation of the **architecture of meaning**. Our cross-architecture replication makes this concrete: OpenAI and an open 768-d model agree on the coarse geometry (ρ = 0.61) but disagree on fine structure — both see the shared register; neither sees the subtext. When the geometry says "one register, slowly diffusing," it is being precise about the one layer the avant-garde left untouched, and silent about the layer it detonated.
+The deepest blind spot is that the *same words* change job. "I read the news today" (1967) and a narrative mention of news two years earlier share nearly identical neighbourhoods and therefore nearly identical vectors, even though their use migrated from the denotative to the existential-collage. The model faithfully reports the stability of the **lexicon** while remaining blind to the transformation of the **architecture of meaning**. Our cross-architecture replication makes this concrete: OpenAI and Gemini agree on the coarse geometry (Spearman ρ = 0.67) but disagree on fine structure — both see the shared register; neither sees the subtext. When the geometry says "one register, slowly diffusing," it is being precise about the one layer the avant-garde left untouched, and silent about the layer it detonated.
 
 ### The illusion of continuity: vector compression vs. the rupture of historical context
 

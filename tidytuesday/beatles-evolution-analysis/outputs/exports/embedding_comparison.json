@@ -39,43 +39,43 @@
     ]
   },
   "second": {
-    "label": "all-mpnet-base-v2 (open, stand-in for Gemini)",
-    "dim": 768,
-    "silhouette": -0.0149,
-    "silhouette_p": 0.008,
-    "Q_album": 0.0662,
-    "Q_louvain": 0.3775,
+    "label": "Gemini text-embedding-004",
+    "dim": 3072,
+    "silhouette": -0.0155,
+    "silhouette_p": 0.0439,
+    "Q_album": 0.0125,
+    "Q_louvain": 0.4346,
     "n_comm": 5,
-    "ARI": 0.0574,
-    "NMI": 0.1231,
-    "cross_album_frac": 0.683,
+    "ARI": 0.0282,
+    "NMI": 0.1344,
+    "cross_album_frac": 0.7327,
     "drift": [
-      0.1198,
-      0.1426,
-      0.1576
+      0.0224,
+      0.0231,
+      0.0225
     ],
     "bridges": [
       [
-        "You Never Give Me Your Money",
-        0.174
+        "For No One",
+        0.159
       ],
       [
-        "Oh! Darling",
+        "Here, There and Everywhere",
+        0.128
+      ],
+      [
+        "You Never Give Me Your Money",
+        0.103
+      ],
+      [
+        "Girl",
         0.088
       ],
       [
-        "What Goes On",
-        0.083
-      ],
-      [
-        "Got to Get You into My Life",
+        "And Your Bird Can Sing",
         0.082
-      ],
-      [
-        "Good Morning Good Morning",
-        0.076
       ]
     ]
   },
-  "geometry_spearman": 0.6134
+  "geometry_spearman": 0.6646
 }

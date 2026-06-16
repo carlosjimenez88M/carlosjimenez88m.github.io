@@ -39,15 +39,24 @@ def try_gemini_embeddings(texts: list[str]) -> np.ndarray | None:
     if not key:
         print("Gemini: no key found"); return None
     try:
+        import time
         import google.generativeai as genai
         genai.configure(api_key=key)
         out = []
-        for t in texts:
-            r = genai.embed_content(model="models/text-embedding-004",
-                                    content=t.replace("\n", " "),
-                                    task_type="semantic_similarity")
-            out.append(r["embedding"])
-        print(f"Gemini: embedded {len(out)} texts")
+        for i, t in enumerate(texts):
+            for attempt in range(5):  # backoff for free-tier 429s
+                try:
+                    r = genai.embed_content(model="models/gemini-embedding-001",
+                                            content=t.replace("\n", " "),
+                                            task_type="semantic_similarity")
+                    out.append(r["embedding"])
+                    break
+                except Exception as ex:
+                    if "429" in str(ex) and attempt < 4:
+                        time.sleep(8 * (attempt + 1))
+                    else:
+                        raise
+        print(f"Gemini: embedded {len(out)} texts (dim={len(out[0])})")
         return np.asarray(out, dtype=np.float32)
     except Exception as e:
         print(f"Gemini embeddings FAILED: {str(e)[:90]}")
