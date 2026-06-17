@@ -15,7 +15,7 @@ aliases:
 
 ## Abstract
 
-This study traces the lyrical evolution of the Beatles across four albums — **Rubber Soul (1965)**, **Revolver (1966)**, **Sgt. Pepper's Lonely Hearts Club Band (1967)** and **Abbey Road (1969)** — using a pipeline of LLM-driven topic modeling (BERTopic), a vector database (OpenAI `text-embedding-3-large` indexed in ChromaDB), embedding geometry, and graph theory. Rather than fix a thesis in advance, we let it emerge from the data.
+This study traces the lyrical evolution of the Beatles across four albums — **Rubber Soul (1965)**, **Revolver (1966)**, **Sgt. Pepper's Lonely Hearts Club Band (1967)** and **Abbey Road (1969)** — using a pipeline of LLM-driven topic modeling (BERTopic), a vector database (OpenAI `text-embedding-3-large` indexed in ChromaDB), embedding geometry, and graph theory. The study puts a falsifiable question to the **canonical critical narrative** — that the Beatles moved through four discrete stylistic eras — by testing whether the albums occupy *separable* territories in lyrical-semantic space.
 
 **Core Finding (data-driven, falsifiable):** The four albums are **statistically detectable but practically inseparable** in lyrical-semantic space. A silhouette of album labels over song embeddings is ≈ 0 (−0.011) yet significantly above a shuffled null (null μ = −0.024, p = 0.004); the modularity of the album partition on the song-similarity graph is Q = 0.060 — again above chance (null μ = −0.017, p = 0.007) but near-zero in absolute terms. Against this, **Louvain community detection finds a real cross-cutting structure at Q = 0.348** that does **not** respect album boundaries (community-vs-album ARI = 0.090, NMI = 0.208; 69% of edges connect songs from different albums). The only monotonic signal is **lexical**: pooled per album, type-token ratio rises 0.156 → 0.236 (r = +0.93 vs release order) and the hapax ratio 0.364 → 0.538 (r = +0.95). But this is an **aggregation effect** — at the song level (n = 58, length-controlled OLS) the trend dissolves (β_order p = 0.15 for hapax, p = 0.88 for TTR). The evolution is real, but it is a **single semantic register slowly diffusing**, not a sequence of separable thematic eras.
 
@@ -36,7 +36,7 @@ This study traces the lyrical evolution of the Beatles across four albums — **
 
 This analysis does four things. **First**, it starts where the brief asked — *topic modeling per album* with **BERTopic** — and shows honestly why, on a corpus this small, topic modeling is a descriptive entry point rather than the load-bearing method. **Second**, it embeds every song and line with OpenAI's `text-embedding-3-large`, indexes them in a **vector database** (ChromaDB), and measures the *geometry* of the evolution. **Third**, it builds the **song-similarity graph** and uses graph theory — Louvain communities, modularity, betweenness — to ask whether semantic structure respects album boundaries (it does not). **Fourth**, it submits the two load-bearing claims to **statistical scrutiny**: song-level regressions and permutation tests, because four album means cannot carry inference on their own.
 
-Throughout, the thesis is allowed to **emerge** from the measurements. The result is more nuanced — and more honest — than a tidy "from simple love songs to psychedelic abstraction" narrative would have been.
+The design is **confirmatory, not exploratory**: the hypothesis under test is the received critical narrative itself, and its central claim is operationalized as a pre-specified geometric prediction. The result is more nuanced — and more honest — than restating that narrative would have been.
 
 ---
 
@@ -48,9 +48,11 @@ This matters beyond Beatles fandom. It is a clean test of what distributional em
 
 ---
 
-## A Note on Method: Letting the Thesis Emerge
+## Research Design: Testing the Canon, Not Fishing for a Story
 
-We did not pre-register a hypothesis. We ran topic modeling and embedding geometry first, looked at what the data actually showed, and only then fixed the strongest falsifiable claim. This is riskier than confirming a tidy intuition — the data could have surprised us, and in one respect it did: the lexical-diversification signal that looks dramatic at the album level **evaporates** when tested at the song level. We report that rather than hide it.
+The popular and critical history of the Beatles hands us a strong, falsifiable hypothesis we did not have to invent: that the band moved through four discrete stylistic eras — folk-rock introspection, studio experiment, psychedelia, mature synthesis — each album a world of its own. We take that **canonical narrative as the hypothesis under test (H1)** and operationalize its central claim geometrically: if the eras are discrete, the four albums must occupy *separable* territories in lyrical-semantic space — a positive silhouette of album labels, album-aligned community structure, and an album-partition modularity well above chance. Those signatures are fixed **before** the test, and each is checked against a permutation null.
+
+The analysis is therefore **confirmatory, not exploratory**: we are falsifying a pre-existing public claim against the geometry of lyrical information, not mining the data for whatever pattern it happens to hold. The strong form of H1 is **rejected** — the albums are statistically detectable but practically inseparable — and only a weak residual form survives. One secondary observation, the per-song dissolution of the album-level lexical trend, is genuinely **abductive**; we label it as such rather than dress it as a prediction. Distinguishing the two is the point: the headline claim is a falsification of the canon, and the abductive thread is flagged as the hypothesis-generating coda it actually is.
 
 ---
 
