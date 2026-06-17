@@ -199,6 +199,18 @@ The **bridge songs** — highest betweenness centrality, the connective tissue o
 
 *A Day in the Life* and *Got to Get You into My Life* are the two songs that hold the four-album graph together — each routes most of its connections to *other* albums. There is a pleasing musicological reading here: *A Day in the Life* is itself a collage of two unrelated fragments (Lennon's news-report verses, McCartney's "woke up, got out of bed" middle), and *Got to Get You into My Life* is a soul/Motown pastiche that points forward to the band's later eclecticism. The graph's most central songs are its most stylistically promiscuous ones.
 
+### The bridges, humanized: betweenness as the signature of a collective brain
+
+Betweenness centrality rewards a song not for having many neighbours but for *sitting between worlds* — for lying on the shortest paths the rest of the catalogue must travel. That the two highest-betweenness songs are *Got to Get You into My Life* (1966) and *A Day in the Life* (1967) is not a quirk of the metric; it is the algorithm recovering, blind to rock history, the two pieces musicology already names as the hinges of the band's turn from consumer pop to introspective art.
+
+***Got to Get You into My Life* is the bridge outward.** McCartney disguises an ode to marijuana as a love song and wraps it in Stax/Motown soul brass. It does two things at once that the graph feels: it keeps the **lexical surface** of pop romance (so it connects to the Rubber Soul cluster) while opening the door to **genre eclecticism** and **countercultural subtext**. Fittingly, the graph places it in the most *mixed* community of all — Rubber Soul, Revolver, Sgt. Pepper's and Abbey Road songs together — and routes 78% of its edges to other albums. It is the joint between the band that imitates American pop and the band that begins to quote and transform it.
+
+***A Day in the Life* is the bridge inward — and a bridge by construction.** The song *is* structurally a bridge: Lennon's existential, newspaper-clipping verses ("he blew his mind out in a car"; the four thousand holes) collide with McCartney's domestic fragment ("Woke up, fell out of bed"), fused by a 24-bar orchestral crescendo and the final piano chord. The *ready-made* and *musique concrète* enter mass-market pop. The most central song in the network is the one whose very form is the joining of unrelated things.
+
+Read together, the two bridges trace the evolution of the Lennon–McCartney **collective brain**: from composing *eyeball to eyeball*, optimized for the hook, to assembling fragments by increasingly independent authors. *A Day in the Life* is the last great true collaboration — Lennon's song and McCartney's fragment genuinely *fused* — and simultaneously the first manifesto of the collage method that, by 1968–70 (the White Album, the Abbey Road medley), hardens into juxtaposition. Betweenness, in this light, is the quantitative signature of the moment collaboration becomes *montage*: the collective brain stops thinking in unison and starts editing itself.
+
+*(A caveat the cross-architecture test demands: the betweenness ranking is model-dependent. Under `text-embedding-3-large` these two songs lead; under Gemini and the open model the leaders differ, with only *Girl* and *And Your Bird Can Sing* recurring across more than one model. The robust claim is the **pattern** — eclectic hinge-songs as the catalogue's connective tissue — not the exact ranking of any single node.)*
+
 ---
 
 ## 4 · Statistical Robustness
