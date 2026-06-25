@@ -83,7 +83,6 @@ enableEmoji = true
   TocOpen = false
   DateFormat = "January 2, 2006"
   disableShare = true
-  hideAuthor = true
 
 # Menu Configuration
 [menu]
