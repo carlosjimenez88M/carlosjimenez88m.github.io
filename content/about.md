@@ -4,7 +4,7 @@ description: "Carlos Daniel Jiménez - AI Software Engineer focused on LLMOps, A
 layout: "page"
 ---
 
-![Carlos Daniel Jiménez](/img/profile6.jpeg)
+<img class="about-avatar" src="/img/perfil_con_emi.jpg" alt="Carlos Daniel Jiménez" width="160" height="160" loading="lazy">
 
 I'm Carlos Daniel Jiménez. I'm an **AI Software Engineer** focused on how intelligent systems behave once they leave the notebook and enter production.
 
