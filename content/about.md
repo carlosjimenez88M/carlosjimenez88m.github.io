@@ -4,6 +4,8 @@ description: "Carlos Daniel Jiménez - AI Software Engineer focused on LLMOps, A
 layout: "page"
 ---
 
+<img class="about-avatar" src="/img/perfil_con_emi.jpg" alt="Carlos Daniel Jiménez" width="150" height="150" loading="lazy">
+
 ## Intro
 
 I think the finest evening imaginable is a conversation with Sabina and Asimov about how unreal the present feels, while a table nearby holds books by Ernest Hemingway.
