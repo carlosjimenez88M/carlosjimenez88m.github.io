@@ -1,230 +1,107 @@
-# The Probability and the Word
+# The Probability Engine
 
-Blog personal sobre MLOps, LLMs y APIs construido con Hugo y desplegado en GitHub Pages.
+Personal blog of **Carlos Daniel Jiménez**.
 
-🌐 **URL**: https://carlosdanieljimenez.com/
+🌐 **Live:** https://carlosdanieljimenez.com/
 
-## 📋 Requisitos Previos
+Two threads, one method:
 
-- [Hugo](https://gohugo.io/installation/) instalado en tu sistema
-- Git configurado con acceso a GitHub
-- Cuenta de GitHub con permisos de escritura en el repositorio
+1. **AI software engineering** — the move from MLOps to LLMOps, production AI on GCP,
+   edge inference, and agentic systems as a software-architecture problem.
+2. **Computational music analysis** — turning NLP, embeddings, graph theory and LLMs on
+   lyrics, and staying honest about what those tools can and cannot hear.
 
-## 🏗️ Estructura del Proyecto
+Built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
+theme, deployed to GitHub Pages.
 
-Este es un blog Hugo con la siguiente estructura:
+---
+
+## Repository layout
 
 ```
 .
-├── content/          # Contenido del blog (posts, páginas)
-│   ├── about/       # Página "Acerca de"
-│   ├── archive/     # Archivo de posts
-│   ├── notes/       # Notas
-│   └── post/        # Posts del blog
-├── static/          # Archivos estáticos (imágenes, etc.)
-├── themes/          # Tema Hugo (hugo-theme-cleanwhite)
-├── public/          # Sitio generado (NO MODIFICAR DIRECTAMENTE)
-├── hugo.toml        # Configuración de Hugo
-└── deploy.sh        # Script de despliegue automático
+├── content/                # Markdown source for posts and pages
+│   ├── post/               # Essays (one .md per post)
+│   ├── about.md            # /about/  (single source — no duplicates)
+│   ├── start-here.md       # Editorial entry point
+│   ├── ai-engineering.md   # Hub page (layout: hub)
+│   └── music-analysis.md   # Hub page (layout: hub)
+├── layouts/                # Theme overrides
+│   ├── index.html          # Custom minimalist homepage
+│   ├── _default/hub.html   # Section hub pages
+│   └── partials/           # post_meta, extend_head, extend_footer
+├── assets/css/extended/    # custom.css — the theme's design layer
+├── static/img/             # Images (served at /img/...)
+├── tidytuesday/            # Data-analysis projects behind the music posts
+├── themes/PaperMod/        # Theme (only PaperMod is used)
+├── hugo.toml               # Site configuration
+└── deploy.sh               # Build + publish script
 ```
 
-## ✍️ Flujo de Trabajo para Publicar Cambios
+> **Note on `static/img/` vs root `img/`:** put new images in `static/img/`.
+> The root-level `img/` (and the rest of the compiled HTML at the repo root) is
+> generated output — `deploy.sh` copies `public/*` to the root, which is what
+> GitHub Pages serves.
 
-### Opción 1: Despliegue Automático (Recomendado)
+---
 
-Usa el script `deploy.sh` que automatiza todo el proceso:
-
-```bash
-# Hacer cambios en los archivos de contenido (content/, static/, etc.)
-
-# Ejecutar el script de despliegue con un mensaje de commit
-./deploy.sh "Mensaje descriptivo de tus cambios"
-
-# O sin mensaje (usará timestamp automático)
-./deploy.sh
-```
-
-El script automáticamente:
-1. Construye el sitio con Hugo
-2. Hace commit de los cambios en el directorio `public/`
-3. Hace push a GitHub Pages
-
-### Opción 2: Despliegue Manual Paso a Paso
-
-Si prefieres control total sobre el proceso:
-
-#### 1. Editar Contenido
+## Local development
 
 ```bash
-# Crear un nuevo post
-hugo new post/nombre-del-post.md
-
-# O editar archivos existentes en content/
-vim content/post/mi-post.md
-vim content/about/index.md
-```
-
-#### 2. Previsualizar Localmente (Opcional pero Recomendado)
-
-```bash
-# Iniciar servidor de desarrollo
+# Live preview at http://localhost:1313 (includes drafts)
 hugo server -D
 
-# Abrir en el navegador: http://localhost:1313
+# Production build into public/
+hugo --gc --minify
 ```
 
-#### 3. Generar el Sitio Estático
+## Publishing
 
 ```bash
-# Construir el sitio (genera archivos en public/)
-hugo
+./deploy.sh "Descriptive commit message"
 ```
 
-#### 4. Desplegar a GitHub Pages
+The script builds the site (`hugo --cleanDestinationDir --minify`), copies `public/*`
+to the repo root, commits, and pushes to `master`. GitHub Pages serves the result
+within a few minutes.
 
-**IMPORTANTE**: El directorio `public/` es un repositorio Git separado que apunta al mismo repositorio pero contiene el sitio compilado.
+---
+
+## Writing a new post
 
 ```bash
-# Navegar al directorio public
-cd public/
-
-# Agregar todos los cambios
-git add .
-
-# Hacer commit con un mensaje descriptivo
-git commit -m "Actualización del blog: descripción de cambios"
-
-# Subir a GitHub
-git push origin master
-
-# Volver al directorio raíz
-cd ..
+hugo new post/my-new-post.md
 ```
 
-#### 5. Guardar Cambios del Código Fuente
+Front matter used across posts:
 
-```bash
-# En el directorio raíz del proyecto
-git add .
-
-# Commit de los archivos fuente
-git commit -m "Actualización de contenido: descripción"
-
-# Push al repositorio principal
-git push origin master
+```yaml
+---
+author: Carlos Daniel Jiménez
+date: 2026-06-16
+title: "..."
+categories: ["Music Analysis", "LLMs"]
+tags: ["nlp", "embeddings", "..."]
+---
 ```
 
-## 🔄 Verificar que los Cambios se Reflejen
+Music posts pair with an analysis folder under `tidytuesday/` (Python notebooks +
+scripts that produce the figures the post embeds from `/tidytuesday/<slug>/`).
 
-1. **Espera 2-5 minutos**: GitHub Pages tarda un poco en procesar y desplegar los cambios
+---
 
-2. **Verifica el despliegue en GitHub**:
-   - Ve a: https://github.com/carlosjimenez88M/carlosjimenez88m.github.io
-   - Pestaña "Actions" (si está habilitado)
-   - O verifica la fecha del último commit en la rama `master`
+## Secrets
 
-3. **Limpia la caché del navegador**:
-   ```bash
-   # Chrome/Brave: Cmd+Shift+R (Mac) o Ctrl+Shift+R (Windows/Linux)
-   # Safari: Cmd+Option+E y luego Cmd+R
-   ```
+API keys and credentials live in a local `.env` that is **git-ignored** — see
+`.gitignore`. Never commit `.env`, `*.key`, `*.pem`, or service-account JSON.
 
-4. **Visita el sitio**: https://carlosdanieljimenez.com/
+---
 
-## 🚨 Solución de Problemas Comunes
+## Contact
 
-### Los cambios no se reflejan en el sitio web
+- **Email:** danieljimenez88m@gmail.com
+- **GitHub:** [@carlosjimenez88M](https://github.com/carlosjimenez88M)
+- **LinkedIn:** [djimenezm](https://www.linkedin.com/in/djimenezm)
+- **X:** [@DanielJimenezM9](https://x.com/DanielJimenezM9)
 
-**Causa**: No has construido y desplegado el directorio `public/`
-
-**Solución**:
-```bash
-# Reconstruir el sitio
-hugo
-
-# Desplegar public/
-cd public/
-git add .
-git commit -m "rebuild site"
-git push origin master
-cd ..
-```
-
-### Error "nothing to commit, working tree clean"
-
-**Causa**: No has hecho cambios en los archivos fuente antes de hacer commit
-
-**Solución**: Primero edita archivos en `content/`, `static/`, etc., luego construye con `hugo` y despliega
-
-### Hugo no está instalado o no se encuentra
-
-**Solución en macOS**:
-```bash
-brew install hugo
-```
-
-**Solución en Linux**:
-```bash
-# Ubuntu/Debian
-sudo apt install hugo
-
-# O descarga desde: https://gohugo.io/installation/
-```
-
-### El sitio se ve roto después de actualizar
-
-**Causa**: Archivos estáticos o configuración incorrecta
-
-**Solución**:
-```bash
-# Limpiar archivos generados
-rm -rf public/ resources/
-
-# Reconstruir desde cero
-hugo
-
-# Desplegar
-cd public/
-git add .
-git commit -m "rebuild site"
-git push origin master
-```
-
-## 📝 Comandos Útiles de Hugo
-
-```bash
-# Crear nuevo post
-hugo new post/mi-nuevo-post.md
-
-# Servidor de desarrollo con drafts
-hugo server -D
-
-# Construir para producción
-hugo
-
-# Construir incluyendo drafts
-hugo -D
-
-# Ver versión de Hugo
-hugo version
-
-# Limpiar cache
-hugo mod clean
-```
-
-## 🔧 Configuración del Blog
-
-La configuración principal está en `hugo.toml`:
-- URL base: `https://carlosdanieljimenez.com/`
-- Tema: `hugo-theme-cleanwhite`
-- Búsqueda con Algolia (configurar credenciales si se usa)
-
-## 📞 Contacto
-
-- **Email**: danieljimenez88m@gmail.com
-- **Twitter**: [@DanielJimenezM9](https://x.com/DanielJimenezM9)
-- **GitHub**: [@carlosjimenez88M](https://github.com/carlosjimenez88M)
-
-## 📄 Licencia
-
-Este blog es un proyecto personal. El contenido es propiedad de Carlos Daniel Jiménez.
+Content © Carlos Daniel Jiménez.

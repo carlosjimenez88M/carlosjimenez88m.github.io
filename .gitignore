@@ -1,43 +1,77 @@
-.hugo_build.lock
-.claude/
-*.venv/
-*.env
+# ===========================================================
+#  Secrets & credentials — never commit these
+# ===========================================================
 .env
 .env.*
-
-# API Keys y credenciales
+*.env
+.envrc
 *_api_key*
 *_token*
+*secret*
+*credential*
 credentials.json
 secrets.json
+*.pem
+*.key
+service-account*.json
+gcp-*.json
 
-# Cache de embeddings (archivos grandes)
+# ===========================================================
+#  Tooling / local config
+# ===========================================================
+.claude/
+
+# ===========================================================
+#  Hugo build artifacts
+# ===========================================================
+.hugo_build.lock
+/resources/_gen/
+hugo_stats.json
+
+# ===========================================================
+#  Large / generated data caches
+# ===========================================================
+*.pkl
 tidytuesday/data/embeddings_cache.pkl
 tidytuesday/data/*.pkl
-*.pkl
 
-# Archivos temporales de ejecución
-execution_log.txt
-*.log
-*.tmp
-
-# Python cache
+# ===========================================================
+#  Python
+# ===========================================================
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
-
-# Jupyter Notebook checkpoints
+*.venv/
+.venv/
+venv/
 .ipynb_checkpoints/
 */.ipynb_checkpoints/*
 
-# macOS
+# ===========================================================
+#  Node
+# ===========================================================
+node_modules/
+
+# ===========================================================
+#  Logs & temp files
+# ===========================================================
+execution_log.txt
+*.log
+*.tmp
+*.bak
+*.backup
+*.backup-*
+*~
+*.swp
+
+# ===========================================================
+#  Editor / OS noise
+# ===========================================================
+.idea/
+.vscode/
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Archivos de backup
-*.bak
-*.swp
-*~
+._*
