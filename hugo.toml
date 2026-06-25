@@ -9,21 +9,8 @@ enableEmoji = true
 [pagination]
   pagerSize = 5
 
-# Outputs configuration para Algolia
 [outputs]
-  home = ["HTML", "RSS", "Algolia"]
-
-# Custom output format para Algolia
-[outputFormats.Algolia]
-  baseName = "algolia"
-  isPlainText = true
-  mediaType = "application/json"
-  notAlternative = true
-
-# Configuración Algolia
-[params.algolia]
-  vars = ["title", "summary", "date", "publishdate", "expirydate", "permalink"]
-  params = ["categories", "tags"]
+  home = ["HTML", "RSS"]
 
 [params]
   # SEO
