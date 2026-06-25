@@ -20,12 +20,12 @@ enableEmoji = true
 
   # Favicon
   [params.assets]
-    favicon = "/img/icon.jpeg"
-    favicon16x16 = "/img/icon.jpeg"
-    favicon32x32 = "/img/icon.jpeg"
-    apple_touch_icon = "/img/icon.jpeg"
-    theme_color = "#f9fbfd"
-    msapplication_TileColor = "#f9fbfd"
+    favicon = "/img/perfil_con_emi.jpg"
+    favicon16x16 = "/img/perfil_con_emi.jpg"
+    favicon32x32 = "/img/perfil_con_emi.jpg"
+    apple_touch_icon = "/img/perfil_con_emi.jpg"
+    theme_color = "#fdfcf7"
+    msapplication_TileColor = "#fdfcf7"
 
   # Profile Mode
   [params.profileMode]
@@ -77,17 +77,13 @@ enableEmoji = true
   # Features
   ShowReadingTime = true
   ShowPostNavLinks = true
-  ShowBreadCrumbs = true
+  ShowBreadCrumbs = false
   ShowCodeCopyButtons = true
   ShowToc = true
   TocOpen = false
   DateFormat = "January 2, 2006"
-
-  # Algolia (mantener para custom implementation)
-  algolia_search = true
-  algolia_appId = ""
-  algolia_indexName = ""
-  algolia_apiKey = ""
+  disableShare = true
+  hideAuthor = true
 
 # Menu Configuration
 [menu]

@@ -181,11 +181,15 @@ a {
   color: var(--primary);
 }
 
-.post-tags a,
-.share-buttons,
 .paginav {
   background: var(--code-bg);
   border-color: var(--border);
+}
+
+/* Minimalism: hide the tag-chip block at the foot of single posts.
+   Tags stay in front matter so /tags/ taxonomy pages keep working. */
+.post-tags {
+  display: none;
 }
 
 /* Round avatar on the About page */
