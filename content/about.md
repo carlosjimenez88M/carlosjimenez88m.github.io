@@ -1,6 +1,5 @@
 ---
 title: "About"
-description: "Carlos Daniel Jiménez - AI Software Engineer focused on LLMOps, AI systems design, GCP, edge computing, and agentic workflows."
 layout: "page"
 ---
 
@@ -10,7 +9,7 @@ layout: "page"
 
 I think the finest evening imaginable is a conversation with Sabina and Asimov about how unreal the present feels, while a table nearby holds books by Ernest Hemingway.
 
-## Who Is Carlos Daniel
+## Who Is Carlos Daniel?
 
 * I'm Colombian
 * I live between Sweden and El Salvador
