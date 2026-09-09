@@ -1,16 +1,20 @@
 ---
-title: "Music, NLP & LLMs"
+title: "Narrative Arcs in Music"
 layout: "hub"
-description: "A research thread on lyrics, semantics, embeddings, and what large language models can and cannot tell us about music."
-hubTitle: "Posts on music, language, and computational interpretation"
+description: "A primary research line on how songs and albums develop narrative and thematic arcs, studied through NLP, embeddings, and LLMs."
+hubTitle: "Writing on music, narrative, and computational interpretation"
 hubDescription: "These are the essays already published around music analysis, NLP, embeddings, and LLM-based interpretation."
 hubCategories: ["Music Analysis"]
 hubTags: ["music-analysis", "computational-musicology"]
 ---
 
-## Why this section exists
+## Narrative and the development of ideas
 
-This is not a side hobby page. It is one of the most revealing things I work on.
+Understanding narrative arcs in music is one of my two primary lines of research and writing, alongside [AI Software Engineering](/ai-engineering/). I study how songs and albums introduce ideas, develop tensions, return to themes, and transform their meaning over time.
+
+By an arc, I mean more than a sequence of topics: I am interested in how the progression of a work builds a story or an argument. Repetition, changes in perspective, and the relationship between tracks are part of that structure.
+
+NLP, embeddings, and LLMs offer ways to investigate these questions. A central concern is whether their measurements capture that development or only similarities in vocabulary.
 
 Music is where NLP tools fail in interesting and instructive ways. The standard workflow for text analysis works reasonably well on news, reviews, and documentation. Once you move into lyrics, metaphor, repetition, voice, and thematic indirection, the usual assumptions start to break.
 

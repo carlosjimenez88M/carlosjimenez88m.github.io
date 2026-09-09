@@ -1,59 +1,22 @@
 ---
-title: "AI Engineering"
+title: "AI Software Engineering"
 layout: "hub"
-description: "The core editorial line of this blog: AI Software Engineering, LLMOps, GCP, edge machine learning, and agentic systems."
-hubTitle: "Posts on AI Software Engineering, LLMOps, and production systems"
-hubDescription: "A curated index of the writing that supports the main technical direction of the blog."
+description: "Building AI systems that can be evaluated, understood, and operated in production."
+hubTitle: "All writing on AI Engineering"
+hubDescription: "Prompts, evaluations, architecture, MLOps, and inference."
 hubCategories: ["Engineering", "LLMOps", "MLOps", "Statistical Learning", "Edge Computing"]
 hubTags: ["mlops", "gcp", "mlflow", "genai", "evaluation", "tracing", "deployment", "production", "monitoring", "edge-ai", "inference", "testing"]
 ---
 
-## The center of gravity
+A model is one component of an AI application. The work around it includes context, interfaces, tools, evaluation, infrastructure, and the decisions that determine how it behaves when something fails.
 
-This blog is now organized around **AI Software Engineering**.
+That is one of the two primary lines of this blog. I write about the engineering needed to make those systems observable, testable, and useful under real constraints.
 
-That phrase is doing specific work. I do not mean "AI" as a synonym for prompting, nor "engineering" as a synonym for deployment scripts. I mean the full problem of building AI systems that remain legible, testable, cost-aware, and operationally reliable once they leave the notebook.
+## Suggested starting points
 
-In practice, that breaks into four connected lines of work:
+- [MLflow for AI Engineering: Prompts Are Release Artifacts](/post/2026-09-08-mlflow-prompt-engineering/) — version prompts, evaluate changes, inspect traces, and make controlled releases.
+- [Anatomy of an MLOps Pipeline, Part 1](/post/anatomia-pipeline-mlops-part-1-en/) — orchestration and reproducible pipelines; continue with [deployment](/post/anatomia-pipeline-mlops-part-2-en/) and [production](/post/anatomia-pipeline-mlops-part-3-en/).
+- [AI Architecture: Training and Inference](/post/2026-04-05-ai-architecture-training-inference/) — hardware and the operational constraints around inference.
+- [Statistical Learning: Foundations](/post/2026-03-12-statistical-learning-foundations/) — estimation, bias, and variance behind the evaluation work.
 
-- **LLMOps as the successor to classical MLOps.** Once prompts, tools, traces, evaluations, and agents become part of the system, the old abstractions stop being enough.
-- **Systems design on GCP.** Infrastructure choices shape latency, reliability, cost, and team velocity. I care about the engineering consequences of those choices.
-- **Edge machine learning and inference.** Raspberry Pi, Jetson, constrained hardware, and the question of what happens when the cloud is not the whole story.
-- **Agentic AI as a software architecture problem.** Coordination, observability, context handoffs, and failure modes between agents matter as much as model quality.
-
-If you are specifically interested in hardware-constrained deployment and autonomous workflows, go next to [Edge + Agentic AI](/edge-agentic-ai/). If you want the cloud-platform angle, browse the [GCP-tagged posts](/tags/gcp/).
-
----
-
-## Reading paths
-
-### LLMOps and production discipline
-
-- [Anatomy of an MLOps Pipeline - Part 1: Pipeline and Orchestration](/post/anatomia-pipeline-mlops-part-1-en/)
-- [Anatomy of an MLOps Pipeline - Part 2: Deployment and Infrastructure](/post/anatomia-pipeline-mlops-part-2-en/)
-- [Anatomy of an MLOps Pipeline - Part 3: Production and Best Practices](/post/anatomia-pipeline-mlops-part-3-en/)
-- [MLflow for Generative AI Systems](/post/mlflow_genai/)
-
-### Architecture, inference, and hardware tradeoffs
-
-- [AI Architecture - Notions on Training and Inference](/post/2026-04-05-ai-architecture-training-inference/)
-- [Edge Computing and Edge Machine Learning](/post/edge-computing/)
-- [Raspberry Pi 16GB, Servers, and MLOps](/post/mlops-servers-raspberry/)
-- [MLops into Raspberry Pi 5](/post/mlops_raspberrypi5/)
-
-### Foundations that support the engineering work
-
-- [Statistical Learning: Foundations, Bias-Variance and the Art of Estimation](/post/2026-03-12-statistical-learning-foundations/)
-
----
-
-## What comes next
-
-The direction from here is narrower and more deliberate:
-
-- More on **LLMOps as an engineering discipline**, not just a tooling stack.
-- More on **GCP-oriented architecture** for real production systems.
-- More on **edge + agentic AI**, especially where hardware constraints reshape system design.
-- More on **AI Software Engineering** as the umbrella that makes these threads cohere.
-
-If you want the broadest orientation first, start with [Start Here](/start-here/).
+For constrained hardware and autonomous workflows, see [Edge + Agentic AI](/edge-agentic-ai/). The other primary line is [narrative arcs in music](/music-analysis/): how songs and albums develop ideas, and what computational methods can tell us about that structure.

@@ -4,12 +4,12 @@ Personal blog of **Carlos Daniel Jiménez**.
 
 🌐 **Live:** https://carlosdanieljimenez.com/
 
-Two threads, one method:
+Two primary lines of research and writing:
 
 1. **AI software engineering** — the move from MLOps to LLMOps, production AI on GCP,
    edge inference, and agentic systems as a software-architecture problem.
-2. **Computational music analysis** — turning NLP, embeddings, graph theory and LLMs on
-   lyrics, and staying honest about what those tools can and cannot hear.
+2. **Narrative arcs in music** — studying how songs and albums develop stories and
+   arguments through NLP, embeddings, and LLMs, with attention to the limits of computational interpretation.
 
 Built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
 theme, deployed to GitHub Pages.
@@ -27,7 +27,8 @@ theme, deployed to GitHub Pages.
 │   ├── ai-engineering.md   # Hub page (layout: hub)
 │   └── music-analysis.md   # Hub page (layout: hub)
 ├── layouts/                # Theme overrides
-│   ├── index.html          # Custom minimalist homepage
+│   ├── post/list.html      # Complete chronological writing index
+│   ├── index.html          # Minimal homepage with both primary research lines
 │   ├── _default/hub.html   # Section hub pages
 │   └── partials/           # post_meta, extend_head, extend_footer
 ├── assets/css/extended/    # custom.css — the theme's design layer

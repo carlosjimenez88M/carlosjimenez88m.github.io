@@ -2,7 +2,6 @@ baseURL = "https://carlosdanieljimenez.com/"
 title = "The Probability Engine"
 theme = "PaperMod"
 languageCode = "en-us"
-defaultTheme = "light"
 
 enableEmoji = true
 
@@ -13,10 +12,25 @@ enableEmoji = true
   home = ["HTML", "RSS"]
 
 [params]
+  defaultTheme = "light"
   # SEO
-  description = "Essays on AI Software Engineering, LLMOps, GCP, edge machine learning, and the use of NLP and LLMs to analyze music."
+  description = "Carlos Daniel Jiménez on AI Software Engineering and narrative arcs in music: production AI systems, NLP, and computational interpretation."
   author = "Carlos Daniel Jiménez"
-  keywords = ["AI Software Engineering", "LLMOps", "GCP", "Edge AI", "Agentic AI", "Music NLP"]
+  keywords = ["AI Software Engineering", "LLMOps", "GCP", "Edge AI", "Agentic AI", "Music NLP", "Narrative Arcs", "Computational Musicology"]
+
+  # Features
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  DateFormat = "January 2, 2006"
+  disableShare = true
+
+  # Show RSS button in profile mode
+  ShowRssButtonInSectionTermList = true
+  mainSections = ["post"]
 
   # Favicon
   [params.assets]
@@ -24,8 +38,8 @@ enableEmoji = true
     favicon16x16 = "/img/perfil_con_emi.jpg"
     favicon32x32 = "/img/perfil_con_emi.jpg"
     apple_touch_icon = "/img/perfil_con_emi.jpg"
-    theme_color = "#fdfcf7"
-    msapplication_TileColor = "#fdfcf7"
+    theme_color = "#ffffff"
+    msapplication_TileColor = "#ffffff"
 
   # Profile Mode
   [params.profileMode]
@@ -49,10 +63,6 @@ enableEmoji = true
   #   Title = "MLOps × Edge AI × Agentic Systems"
   #   Content = "Building intelligent systems that run anywhere. From Raspberry Pi to Jetson Orin to production clusters."
 
-  # Show RSS button in profile mode
-  ShowRssButtonInSectionTermList = true
-  mainSections = ["post"]
-
   # Social Icons
   [[params.socialIcons]]
     name = "email"
@@ -74,15 +84,6 @@ enableEmoji = true
     name = "rss"
     url = "/index.xml"
 
-  # Features
-  ShowReadingTime = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = false
-  ShowCodeCopyButtons = true
-  ShowToc = true
-  TocOpen = false
-  DateFormat = "January 2, 2006"
-  disableShare = true
 
 # Menu Configuration
 [menu]
@@ -93,10 +94,16 @@ enableEmoji = true
     weight = 10
 
   [[menu.main]]
-    identifier = "music"
-    name = "Music"
-    url = "/music-analysis/"
+    identifier = "engineering"
+    name = "AI Engineering"
+    url = "/ai-engineering/"
     weight = 15
+
+  [[menu.main]]
+    identifier = "music"
+    name = "Music Research"
+    url = "/music-analysis/"
+    weight = 17
 
   [[menu.main]]
     identifier = "about"

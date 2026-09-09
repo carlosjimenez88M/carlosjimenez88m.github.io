@@ -1,0 +1,17 @@
+{{ define "main" }}
+<header class="page-header"><h1>{{ .Title }}</h1></header>
+{{ with .Content }}<div class="post-content">{{ . }}</div>{{ end }}
+{{ range .RegularPages.GroupByDate "2006" }}
+<section aria-labelledby="year-{{ .Key }}">
+  <h2 class="archive-year-heading" id="year-{{ .Key }}">{{ .Key }}</h2>
+  <div class="essay-list">
+  {{ range .Pages }}
+    <article class="essay-row">
+      <time class="essay-meta" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "Jan 02, 2006" }}</time>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    </article>
+  {{ end }}
+  </div>
+</section>
+{{ end }}
+{{ end }}

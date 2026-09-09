@@ -10,6 +10,8 @@ series:
 ---
 
 
+> **September 2026 update:** This article is retained as an earlier overview. Its evaluation and judge snippets do not reflect the current GenAI API. For current examples and the prompt lifecycle, read [MLflow for AI Engineering: Prompts Are Release Artifacts](/post/2026-09-08-mlflow-prompt-engineering/).
+
 # MLflow for Generative AI Systems
 
 I'll start this post by recalling what Hayen said in her book **Designing Machine Learning Systems (2022): 'Systems are meant to learn'.** This statement reflects a simple fact: today, LLMs and to a lesser extent vision language models are winning in the Data Science world. But how do we measure this learning? RLHF work is always a good indicator that perplexity will improve, but let's return to a key point: LLMs must work as a system, therefore debugging is important, and that's where the necessary tool for every Data Scientist, AI Engineer, ML Engineer, and MLOps Engineer comes in: MLflow.

@@ -1,29 +1,40 @@
 {{ define "main" }}
 {{ $posts := where site.RegularPages "Type" "post" }}
-{{ $latest := first 8 (sort $posts "Date" "desc") }}
 
 <div class="home-minimal">
   <header class="home-intro">
-    <p class="eyebrow">Carlos Daniel Jiménez</p>
-    <h1>Building AI systems that survive production — and reading music with NLP, embeddings, and LLMs.</h1>
+    <h1>Hi, I'm Carlos Daniel.</h1>
     <p class="hero-lead">
-      Essays on the move from MLOps to LLMOps, production AI on GCP, and edge inference — and on
-      turning the same tools (NLP, embeddings, graph theory, LLMs) on music, honest about what they
-      can and cannot hear.
+      I'm an AI Software Engineer. My writing and research follow two main lines:
+      <a href="/ai-engineering/">building AI systems</a> and
+      <a href="/music-analysis/">understanding narrative arcs in music</a>.
     </p>
+    <p class="home-context">I work on prompts, evaluations, agents, and production infrastructure.
+      I also study how songs and albums develop ideas through narrative, repetition, and thematic change,
+      using NLP, embeddings, and LLMs to examine their structure and the limits of computational interpretation.</p>
+    <p class="home-links"><a href="/start-here/">Start here</a> · <a href="/about/">About me</a> · <a href="/index.xml">RSS</a></p>
   </header>
 
-  <section class="home-latest">
-    <p class="eyebrow">Latest</p>
+  {{ range slice "/ai-engineering" "/music-analysis" }}
+  {{ $hub := site.GetPage . }}
+  {{ $matches := slice }}
+  {{ range $posts }}
+    {{ if or (intersect (.Params.tags | default slice) $hub.Params.hubTags) (intersect (.Params.categories | default slice) $hub.Params.hubCategories) }}
+      {{ $matches = $matches | append . }}
+    {{ end }}
+  {{ end }}
+  <section class="home-latest" aria-labelledby="{{ $hub.File.ContentBaseName }}-heading">
+    <h2 id="{{ $hub.File.ContentBaseName }}-heading"><a href="{{ $hub.RelPermalink }}">{{ $hub.Title }}</a></h2>
     <div class="essay-list">
-      {{ range $latest }}
+      {{ range first 5 (sort $matches "Date" "desc") }}
       <article class="essay-row">
-        <p class="essay-meta">{{ .Date | time.Format "02 Jan 2006" }}</p>
+        <time class="essay-meta" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "Jan 02, 2006" }}</time>
         <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
       </article>
       {{ end }}
     </div>
-    <p class="home-more"><a href="/post/">All essays →</a></p>
+    <p class="home-more"><a href="{{ $hub.RelPermalink }}">More in this research line →</a></p>
   </section>
+  {{ end }}
 </div>
 {{ end }}
