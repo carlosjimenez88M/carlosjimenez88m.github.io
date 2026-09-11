@@ -1,0 +1,29 @@
+[
+  {
+    "kind": "return",
+    "question": "Which track in the first half and which track in the second half both emphasize a recurring motif of longing for connection despite ambiguous or unresolved feelings, and how do their interpretations reflect this motif?",
+    "target_ids": [
+      "T01",
+      "T11"
+    ],
+    "expected": "Track T01 (position 1) expresses a joyful embrace of life and love with an ambiguous longing for connection, while track T11 (position 12) shows a deep yearning for connection and understanding with unfulfilled longing. Both share the motif of seeking connection amid uncertainty, though T01 is more celebratory and T11 more intimate and reflective."
+  },
+  {
+    "kind": "change",
+    "question": "Identify one track from the first half and one from the second half that demonstrate a change or contrast in the narrator's stance toward agency and confrontation, and explain how this shift is represented in their respective interpretations.",
+    "target_ids": [
+      "T05",
+      "T10"
+    ],
+    "expected": "Track T05 (position 5) presents a bold, confrontational attitude emphasizing control and defiance, while track T10 (position 10) expresses a preference for simplicity and natural elements with a carefree attitude. This contrast shows a shift from aggressive assertion of agency to a more relaxed, naturalistic stance."
+  },
+  {
+    "kind": "counterevidence",
+    "question": "Which two tracks, separated by at least four positions, provide evidence against a single smooth narrative by presenting conflicting or contrasting unresolved themes related to identity and renewal?",
+    "target_ids": [
+      "T02",
+      "T09"
+    ],
+    "expected": "Track T02 (position 2) grapples with complex, fluid identity and unclear renewal amid vast existence, while track T09 (position 9) prefers simplicity and natural states with unclear links between nature and identity but a lighter tension. Their differing unresolved themes and tensions suggest the album resists a single cohesive narrative."
+  }
+]

@@ -1,0 +1,567 @@
+[
+  {
+    "stance": "The narrator expresses a profound sense of solitude and a struggle for agency in life.",
+    "movement": "The song shifts from feelings of isolation to a determination to embrace life.",
+    "unresolved": "The conflict between inner turmoil and the desire for connection remains.",
+    "tension": 3,
+    "themes": {
+      "attachment": 1,
+      "rupture": 2,
+      "agency": 3,
+      "escape": 1,
+      "identity": 2,
+      "social_critique": 1,
+      "mortality": 3,
+      "renewal": 2
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator feels alone in life and death.",
+        "evidence_lines": [
+          1,
+          2,
+          28,
+          29
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "There is a struggle between internal conflict and the desire for peace.",
+        "evidence_lines": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator is determined to embrace life despite challenges.",
+        "evidence_lines": [
+          19,
+          31,
+          32
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary; the emotional depth is complex.",
+    "id": "T01",
+    "position": 1
+  },
+  {
+    "stance": "The narrator reflects on lost connections and memories tied to a shared past.",
+    "movement": "The song oscillates between nostalgia and sorrow, highlighting moments of joy and loss.",
+    "unresolved": "The longing for reunion remains unfulfilled.",
+    "tension": 3,
+    "themes": {
+      "attachment": 3,
+      "rupture": 3,
+      "agency": 1,
+      "escape": 0,
+      "identity": 2,
+      "social_critique": 0,
+      "mortality": 0,
+      "renewal": 1
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "Memories of laughter and companionship linger despite physical absence.",
+        "evidence_lines": [
+          7,
+          24
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The beauty of shared experiences contrasts with the pain of separation.",
+        "evidence_lines": [
+          18,
+          21
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator feels a deep melancholy tied to lost moments in a familiar place.",
+        "evidence_lines": [
+          20,
+          29
+        ]
+      }
+    ],
+    "caution": "Nostalgia may obscure the reality of loss.",
+    "id": "T02",
+    "position": 2
+  },
+  {
+    "stance": "The narrator expresses deep longing and an inability to move on from a past relationship.",
+    "movement": "Repetition of longing contrasts with moments of reflection on love's inadequacy.",
+    "unresolved": "The narrator struggles with the emptiness left by the relationship.",
+    "tension": 3,
+    "themes": {
+      "attachment": 3,
+      "rupture": 3,
+      "agency": 1,
+      "escape": 0,
+      "identity": 2,
+      "social_critique": 0,
+      "mortality": 0,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator feels trapped in memories of love despite its absence.",
+        "evidence_lines": [
+          1,
+          2,
+          13,
+          14
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "There is a sense of absurdity in believing love could overcome distance.",
+        "evidence_lines": [
+          3,
+          4,
+          15,
+          16
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator desires connection and affection despite the separation.",
+        "evidence_lines": [
+          25,
+          26,
+          28,
+          29
+        ]
+      }
+    ],
+    "caution": "Emotional expressions may not reflect practical realities.",
+    "id": "T03",
+    "position": 3
+  },
+  {
+    "stance": "The narrator seeks solace and connection through the wind, expressing a desire for emotional release.",
+    "movement": "The song oscillates between yearning for freedom and repetitive calls for the wind's embrace.",
+    "unresolved": "The narrator's longing for warmth and connection remains unmet.",
+    "tension": 3,
+    "themes": {
+      "attachment": 2,
+      "rupture": 1,
+      "agency": 2,
+      "escape": 3,
+      "identity": 1,
+      "social_critique": 0,
+      "mortality": 0,
+      "renewal": 2
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The wind is a source of comfort and liberation.",
+        "evidence_lines": [
+          1,
+          9,
+          21
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "Nature's elements symbolize healing and emotional awakening.",
+        "evidence_lines": [
+          2,
+          6,
+          12
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "Repetition emphasizes the narrator's deep need for connection.",
+        "evidence_lines": [
+          4,
+          8,
+          18
+        ]
+      }
+    ],
+    "caution": "The narrator's desires may reflect deeper emotional struggles.",
+    "id": "T04",
+    "position": 4
+  },
+  {
+    "stance": "The narrator reflects on personal growth and the importance of self-acknowledgment.",
+    "movement": "The song shifts from past pain to embracing the present moment.",
+    "unresolved": "The struggle with past emotions remains.",
+    "tension": 3,
+    "themes": {
+      "attachment": 1,
+      "rupture": 2,
+      "agency": 2,
+      "escape": 0,
+      "identity": 2,
+      "social_critique": 0,
+      "mortality": 0,
+      "renewal": 3
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator acknowledges a need for solitude and self-reflection.",
+        "evidence_lines": [
+          1,
+          2,
+          6
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "Emotional release is expressed through tears during moments of joy.",
+        "evidence_lines": [
+          5,
+          15
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The present moment is emphasized as the ideal time for action.",
+        "evidence_lines": [
+          19,
+          20,
+          21
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary; personal experiences influence understanding.",
+    "id": "T05",
+    "position": 5
+  },
+  {
+    "stance": "Encouragement to embrace life and overcome fear.",
+    "movement": "Repetition of reassurance and calls to action.",
+    "unresolved": "Fear and uncertainty about living fully.",
+    "tension": 2,
+    "themes": {
+      "attachment": 1,
+      "rupture": 0,
+      "agency": 3,
+      "escape": 2,
+      "identity": 2,
+      "social_critique": 0,
+      "mortality": 1,
+      "renewal": 3
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The world encourages you to awaken and find happiness.",
+        "evidence_lines": [
+          2,
+          14
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "Embrace your freedom and let go of fear.",
+        "evidence_lines": [
+          10,
+          12
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "Nature supports your journey and personal growth.",
+        "evidence_lines": [
+          15,
+          16
+        ]
+      }
+    ],
+    "caution": "Avoid interpreting the message as a literal directive.",
+    "id": "T06",
+    "position": 6
+  },
+  {
+    "stance": "Encouragement to heal through nature and love, emphasizing self-care and transformation.",
+    "movement": "Repetition of healing methods contrasts with a gradual acceptance of pain's transformation.",
+    "unresolved": "The struggle between enduring pain and seeking healing remains.",
+    "tension": 2,
+    "themes": {
+      "attachment": 2,
+      "rupture": 1,
+      "agency": 3,
+      "escape": 1,
+      "identity": 2,
+      "social_critique": 0,
+      "mortality": 1,
+      "renewal": 3
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "Healing is encouraged through natural elements and love.",
+        "evidence_lines": [
+          1,
+          2,
+          8
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "Pain can transform into something beautiful and new.",
+        "evidence_lines": [
+          12,
+          14,
+          26
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "Self-love and intuition are essential for healing.",
+        "evidence_lines": [
+          21,
+          23
+        ]
+      }
+    ],
+    "caution": "Avoid oversimplifying the healing process; it is complex and personal.",
+    "id": "T07",
+    "position": 7
+  },
+  {
+    "stance": "The narrator expresses gratitude for love and the comfort of returning home.",
+    "movement": "The song shifts from reflections on distance to affirmations of connection.",
+    "unresolved": "The complexities of life and distance remain.",
+    "tension": 2,
+    "themes": {
+      "attachment": 3,
+      "rupture": 1,
+      "agency": 2,
+      "escape": 0,
+      "identity": 1,
+      "social_critique": 0,
+      "mortality": 0,
+      "renewal": 2
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "Distance does not diminish the feeling of closeness.",
+        "evidence_lines": [
+          1,
+          2
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "Life's challenges are easier when shared with a loved one.",
+        "evidence_lines": [
+          8,
+          9
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "Choosing to embrace life's journey together is essential.",
+        "evidence_lines": [
+          6,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "caution": "The narrator's feelings may not reflect reality.",
+    "id": "T08",
+    "position": 8
+  },
+  {
+    "stance": "The narrator expresses a genuine, uncomplicated love that transcends superficiality.",
+    "movement": "The song shifts from personal declarations to a universal acceptance of love's simplicity.",
+    "unresolved": "The nature of love remains open to interpretation.",
+    "tension": 1,
+    "themes": {
+      "attachment": 2,
+      "rupture": 0,
+      "agency": 2,
+      "escape": 0,
+      "identity": 1,
+      "social_critique": 1,
+      "mortality": 0,
+      "renewal": 2
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "Love is portrayed as simple yet profound, free from pretense.",
+        "evidence_lines": [
+          1,
+          5,
+          7
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The narrator emphasizes love's innocence and purity through natural imagery.",
+        "evidence_lines": [
+          11,
+          12,
+          13
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "Love is inclusive, seeing all individuals as beings of light regardless of gender.",
+        "evidence_lines": [
+          14,
+          16,
+          22
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary based on personal experiences.",
+    "id": "T09",
+    "position": 9
+  },
+  {
+    "stance": "The narrator expresses gratitude towards death for imparting lessons on living fully.",
+    "movement": "The song shifts from reflection on death to celebration of life and gratitude.",
+    "unresolved": "The relationship between life and death remains complex and intertwined.",
+    "tension": 3,
+    "themes": {
+      "attachment": 2,
+      "rupture": 2,
+      "agency": 3,
+      "escape": 0,
+      "identity": 2,
+      "social_critique": 0,
+      "mortality": 3,
+      "renewal": 3
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "Death teaches the narrator valuable lessons about living.",
+        "evidence_lines": [
+          1,
+          63
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The narrator finds joy and renewal after confronting mortality.",
+        "evidence_lines": [
+          5,
+          6
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "Gratitude for life and love emerges from the acceptance of death.",
+        "evidence_lines": [
+          21,
+          59
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary; themes of death and life are deeply personal.",
+    "id": "T10",
+    "position": 10
+  },
+  {
+    "stance": "The narrator expresses a deep connection to nature and love, feeling captivated by the elements.",
+    "movement": "The song shifts between moments of enchantment and longing, with repetitive affirmations of love.",
+    "unresolved": "The narrator's desire for love remains unfulfilled amidst natural imagery.",
+    "tension": 3,
+    "themes": {
+      "attachment": 2,
+      "rupture": 0,
+      "agency": 2,
+      "escape": 1,
+      "identity": 2,
+      "social_critique": 0,
+      "mortality": 0,
+      "renewal": 1
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "Nature's beauty enhances the narrator's feelings of love and connection.",
+        "evidence_lines": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The narrator feels a strong pull towards love, symbolized by the sea.",
+        "evidence_lines": [
+          11,
+          12,
+          26
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "Repetition emphasizes the narrator's longing and desire for love.",
+        "evidence_lines": [
+          27,
+          28,
+          29
+        ]
+      }
+    ],
+    "caution": "Avoid interpreting the narrator's feelings as solely personal; they reflect broader themes.",
+    "id": "T11",
+    "position": 11
+  },
+  {
+    "stance": "Wishing well for Nicolás, embracing his journey beyond this life.",
+    "movement": "Repetition of farewell phrases contrasts with the evolving imagery of nature and celebration.",
+    "unresolved": "The tension between grief and celebration remains.",
+    "tension": 3,
+    "themes": {
+      "attachment": 2,
+      "rupture": 3,
+      "agency": 1,
+      "escape": 2,
+      "identity": 2,
+      "social_critique": 0,
+      "mortality": 3,
+      "renewal": 2
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "Nicolás is encouraged to embrace his journey without fear.",
+        "evidence_lines": [
+          6,
+          22
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "Nature and community celebrate Nicolás's life and memory.",
+        "evidence_lines": [
+          4,
+          28
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "Grief is expressed but transformed into a celebration of his spirit.",
+        "evidence_lines": [
+          14,
+          26
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary; emotional responses can be deeply personal.",
+    "id": "T12",
+    "position": 12
+  }
+]

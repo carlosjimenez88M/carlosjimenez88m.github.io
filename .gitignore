@@ -75,3 +75,7 @@ execution_log.txt
 .AppleDouble
 .LSOverride
 ._*
+
+# Private research inputs, provider responses, and local MLflow stores
+.research-cache/
+mlruns/

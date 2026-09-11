@@ -1,0 +1,29 @@
+[
+  {
+    "kind": "return",
+    "question": "Which track in the first half and which track in the second half both use repetition to emphasize a motif of longing or desire, and how do these motifs differ in their thematic focus and unresolved tensions?",
+    "target_ids": [
+      "T02",
+      "T16"
+    ],
+    "expected": "Track T02 (position 2) uses repetition to express deep attraction mixed with uncertainty about love's future, highlighting emotional doubt and questioning permanence. Track T16 (position 16) repeats expressions of love and longing but reveals uncertainty about expressing feelings and the unpredictability of the loved one. Both emphasize desire through repetition, but T02 focuses on uncertainty about love's growth, while T16 centers on hesitation and complexity in affection."
+  },
+  {
+    "kind": "change",
+    "question": "Identify one track from the first half and one from the second half where the narrator's stance shifts from expressing emotional pain or fear to a more hopeful or joyful attitude, and explain how this change is reflected in the movement and unresolved elements of each track.",
+    "target_ids": [
+      "T04",
+      "T10"
+    ],
+    "expected": "In the first half, track T04 (position 4) shows the narrator pleading for trust amid emotional breakdown and fear of abandonment, with unresolved fears remaining. In the second half, track T10 (position 10) expresses a welcoming, joyful attitude toward a figure of light and happiness, emphasizing celebration and whimsy, though the meaning remains ambiguous. The shift moves from vulnerability and fear to joy and celebration, reflecting a change in emotional stance and movement from pain to positivity."
+  },
+  {
+    "kind": "counterevidence",
+    "question": "Which two tracks, separated by at least four positions, provide evidence against a single smooth narrative by contrasting a motif of societal critique and violence with one of personal admiration and identity, and how do their unresolved tensions challenge a unified thematic progression?",
+    "target_ids": [
+      "T03",
+      "T12"
+    ],
+    "expected": "Track T03 (position 3) explores violence, absurdity, and societal failure through Maxwell's actions, with unresolved motivations and dark humor complicating interpretation. Track T12 (position 12) admires Polythene Pam's unique identity and bold fashion, with ambiguity about her complexity. The contrast between societal critique involving violence and personal admiration of individuality challenges a smooth narrative, revealing divergent themes and unresolved tensions that resist a unified story arc."
+  }
+]

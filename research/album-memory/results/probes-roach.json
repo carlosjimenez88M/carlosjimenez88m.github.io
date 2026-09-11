@@ -1,0 +1,29 @@
+[
+  {
+    "kind": "return",
+    "question": "Which track in the first half and which track in the second half both revisit the motif of societal critique intertwined with emotional rupture, and how do their perspectives on agency and identity differ?",
+    "target_ids": [
+      "T04",
+      "T11"
+    ],
+    "expected": "Track T04 (position 4) critiques societal detachment and emotional numbness, emphasizing manipulation and collective guilt with moderate agency (2) and strong identity concerns (3). Track T11 (position 12) also involves social critique (2) but focuses more on internal chaos, moral struggle, and unstable identity with similar agency (2). The first centers on external societal forces causing emotional rupture, while the second blends societal critique with personal moral turmoil."
+  },
+  {
+    "kind": "change",
+    "question": "Identify one track from the first half and one from the second half where the narrator's stance shifts from expressing survival and external conflict to revealing internal chaos and a struggle for control, and explain how their unresolved tensions reflect this contrast.",
+    "target_ids": [
+      "T06",
+      "T11"
+    ],
+    "expected": "Track T06 (position 6) expresses survival amidst external chaos and violence with unresolved cycles of violence and self-destruction. Track T11 (position 12) reveals internal chaos, moral instability, and identity struggles with unresolved fate. The contrast lies in T06's external focus on survival and societal violence versus T11's internal focus on moral and identity turmoil."
+  },
+  {
+    "kind": "counterevidence",
+    "question": "Which two tracks, separated by at least four positions, provide evidence against a single smooth narrative of despair by contrasting a narrator overwhelmed by addiction and external pressures with one who rejects materialism and calls for inner revolution?",
+    "target_ids": [
+      "T10",
+      "T05"
+    ],
+    "expected": "Track T10 (position 10) depicts a narrator struggling with addiction, overwhelmed and pressured to conform, with an unfulfilled desire for change. Track T05 (position 5) rejects materialism and societal obsession, emphasizing inner revolution and dissatisfaction with possessions. Together, they counter a single despair narrative by juxtaposing entrapment in addiction with active rejection of material values."
+  }
+]

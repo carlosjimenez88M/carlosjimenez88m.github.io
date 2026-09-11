@@ -1,0 +1,699 @@
+[
+  {
+    "stance": "The narrator expresses a joyful embrace of life and love across various cultures.",
+    "movement": "The song shifts from personal reflections to broader experiences of travel and connection.",
+    "unresolved": "The narrator's longing for connection remains ambiguous.",
+    "tension": 2,
+    "themes": {
+      "attachment": 2,
+      "rupture": 0,
+      "agency": 2,
+      "escape": 1,
+      "identity": 1,
+      "social_critique": 0,
+      "mortality": 0,
+      "renewal": 2
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "Life's beauty is celebrated through global experiences.",
+        "evidence_lines": [
+          11,
+          23
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The narrator seeks connection and companionship.",
+        "evidence_lines": [
+          12,
+          28
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "Traveling brings a sense of freedom and joy.",
+        "evidence_lines": [
+          32,
+          34
+        ]
+      }
+    ],
+    "caution": "Avoid interpreting the narrator's experiences as prescriptive.",
+    "id": "T01",
+    "position": 1
+  },
+  {
+    "stance": "The narrator reflects on a complex, interconnected existence within a vast universe.",
+    "movement": "Repetition of the narrator's identity as a 'sidewinder' emphasizes a struggle for self-definition.",
+    "unresolved": "The relationship between personal identity and universal connection remains unclear.",
+    "tension": 3,
+    "themes": {
+      "attachment": 1,
+      "rupture": 0,
+      "agency": 2,
+      "escape": 1,
+      "identity": 3,
+      "social_critique": 0,
+      "mortality": 2,
+      "renewal": 1
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "Existence is complex and intertwined within a vast universe.",
+        "evidence_lines": [
+          1,
+          2,
+          4
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The narrator's identity is fluid and multifaceted.",
+        "evidence_lines": [
+          5,
+          11,
+          19
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "Emotional experiences connect individuals despite external pressures.",
+        "evidence_lines": [
+          15,
+          17,
+          18
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary; avoid assuming a direct correlation with the artist's life.",
+    "id": "T02",
+    "position": 2
+  },
+  {
+    "stance": "The narrator expresses a desire for connection amidst feelings of isolation and longing.",
+    "movement": "Repetition of sharing experiences with birds contrasts with moments of personal struggle.",
+    "unresolved": "The narrator's loneliness remains despite attempts to connect.",
+    "tension": 3,
+    "themes": {
+      "attachment": 2,
+      "rupture": 2,
+      "agency": 1,
+      "escape": 1,
+      "identity": 2,
+      "social_critique": 0,
+      "mortality": 1,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator wishes for someone to see their emotional scars.",
+        "evidence_lines": [
+          1,
+          30
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The narrator feels a mix of vulnerability and bravado in their interactions.",
+        "evidence_lines": [
+          7,
+          8,
+          20
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The repeated imagery of sharing with birds highlights ongoing loneliness.",
+        "evidence_lines": [
+          5,
+          11,
+          25
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary; avoid assuming a direct autobiographical connection.",
+    "id": "T03",
+    "position": 3
+  },
+  {
+    "stance": "The narrator grapples with internal conflict and a sense of separation.",
+    "movement": "Repetition of questioning time and separation contrasts with moments of resolution.",
+    "unresolved": "The struggle between acceptance and despair remains unclear.",
+    "tension": 3,
+    "themes": {
+      "attachment": 1,
+      "rupture": 3,
+      "agency": 2,
+      "escape": 2,
+      "identity": 3,
+      "social_critique": 1,
+      "mortality": 2,
+      "renewal": 2
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator feels a persistent sense of sliding away from stability.",
+        "evidence_lines": [
+          1,
+          15,
+          37
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "There is a recurring theme of separation and its emotional toll.",
+        "evidence_lines": [
+          2,
+          16,
+          30
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator expresses a desire for change despite feeling trapped.",
+        "evidence_lines": [
+          8,
+          22,
+          34
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary; avoid assuming a direct autobiographical connection.",
+    "id": "T04",
+    "position": 4
+  },
+  {
+    "stance": "The narrator expresses a bold, confrontational attitude towards challenges and relationships.",
+    "movement": "The refrain emphasizes a cyclical return to the call for dominance.",
+    "unresolved": "The narrator's intentions and relationships remain ambiguous.",
+    "tension": 3,
+    "themes": {
+      "attachment": 1,
+      "rupture": 2,
+      "agency": 3,
+      "escape": 2,
+      "identity": 2,
+      "social_critique": 2,
+      "mortality": 0,
+      "renewal": 1
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator seeks to assert control and dominance in various situations.",
+        "evidence_lines": [
+          1,
+          12,
+          43
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "There is a recurring theme of confrontation and defiance against authority.",
+        "evidence_lines": [
+          10,
+          40
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator grapples with personal flaws and complexities in relationships.",
+        "evidence_lines": [
+          23,
+          25,
+          26
+        ]
+      }
+    ],
+    "caution": "The aggressive tone may mask deeper vulnerabilities.",
+    "id": "T05",
+    "position": 5
+  },
+  {
+    "stance": "The lyrics critique the allure and consequences of a superficial lifestyle.",
+    "movement": "Repetition of 'Dream of Californication' emphasizes obsession with this ideal.",
+    "unresolved": "The tension between aspiration and reality remains unclear.",
+    "tension": 3,
+    "themes": {
+      "attachment": 2,
+      "rupture": 2,
+      "agency": 1,
+      "escape": 2,
+      "identity": 3,
+      "social_critique": 3,
+      "mortality": 1,
+      "renewal": 2
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "Hollywood promotes an unattainable dream that captivates many.",
+        "evidence_lines": [
+          3,
+          6,
+          17
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The pursuit of fame and beauty can lead to destructive outcomes.",
+        "evidence_lines": [
+          7,
+          31,
+          33
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "Cultural icons symbolize both aspiration and the pitfalls of modern life.",
+        "evidence_lines": [
+          19,
+          23,
+          24
+        ]
+      }
+    ],
+    "caution": "Avoid romanticizing the superficial aspects of fame.",
+    "id": "T06",
+    "position": 6
+  },
+  {
+    "stance": "The narrator expresses a desire for freedom and connection amidst chaos.",
+    "movement": "Repetition of calls for clarity contrasts with moments of urgency and action.",
+    "unresolved": "The purpose of conflict remains unclear and questioned.",
+    "tension": 3,
+    "themes": {
+      "attachment": 1,
+      "rupture": 2,
+      "agency": 2,
+      "escape": 2,
+      "identity": 2,
+      "social_critique": 2,
+      "mortality": 1,
+      "renewal": 1
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator questions the meaning behind their struggles.",
+        "evidence_lines": [
+          8,
+          22
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "There is a tension between desire for freedom and societal expectations.",
+        "evidence_lines": [
+          12,
+          33
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator reflects on the burdens of material possessions.",
+        "evidence_lines": [
+          15,
+          27
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary; avoid assuming a direct narrative.",
+    "id": "T07",
+    "position": 7
+  },
+  {
+    "stance": "The narrator questions the listener's emotional and physical state, suggesting a sense of loss.",
+    "movement": "The repetition of drifting and fading emphasizes a continuous state of decline.",
+    "unresolved": "The narrator's concerns about connection and identity remain unanswered.",
+    "tension": 3,
+    "themes": {
+      "attachment": 2,
+      "rupture": 2,
+      "agency": 1,
+      "escape": 0,
+      "identity": 3,
+      "social_critique": 1,
+      "mortality": 2,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The listener may feel disconnected from their loved ones.",
+        "evidence_lines": [
+          2,
+          3
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "There is a sense of fading and loss throughout the song.",
+        "evidence_lines": [
+          4,
+          8,
+          14
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The imagery of the moon suggests themes of femininity and motherhood.",
+        "evidence_lines": [
+          12,
+          19
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary; avoid assuming a direct narrative.",
+    "id": "T08",
+    "position": 8
+  },
+  {
+    "stance": "The narrator expresses a carefree attitude towards relationships and experiences.",
+    "movement": "The song shifts between moments of connection and disconnection.",
+    "unresolved": "The relationship dynamics remain ambiguous and complex.",
+    "tension": 3,
+    "themes": {
+      "attachment": 2,
+      "rupture": 2,
+      "agency": 2,
+      "escape": 1,
+      "identity": 2,
+      "social_critique": 1,
+      "mortality": 0,
+      "renewal": 1
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator reflects on the complexities of love and choice.",
+        "evidence_lines": [
+          13,
+          14
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The imagery of summer in London evokes nostalgia and longing.",
+        "evidence_lines": [
+          9,
+          21
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The contrast between American and English identities highlights cultural differences.",
+        "evidence_lines": [
+          8,
+          20
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary; avoid assuming a direct narrative.",
+    "id": "T09",
+    "position": 9
+  },
+  {
+    "stance": "The narrator expresses a preference for simplicity and natural elements.",
+    "movement": "Repetition of phrases emphasizes a carefree attitude towards life.",
+    "unresolved": "The relationship between nature and personal identity remains unclear.",
+    "tension": 2,
+    "themes": {
+      "attachment": 1,
+      "rupture": 0,
+      "agency": 2,
+      "escape": 1,
+      "identity": 2,
+      "social_critique": 1,
+      "mortality": 0,
+      "renewal": 1
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator enjoys the simplicity of dirt and nature.",
+        "evidence_lines": [
+          5,
+          20,
+          29,
+          35
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "There is a recurring theme of living in dreams and natural states.",
+        "evidence_lines": [
+          8,
+          23
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator reflects on societal expectations and personal freedom.",
+        "evidence_lines": [
+          16,
+          26
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary due to abstract imagery.",
+    "id": "T10",
+    "position": 10
+  },
+  {
+    "stance": "The narrator expresses a deep yearning for connection and understanding with another person.",
+    "movement": "The song shifts from isolation to a desire for closeness and intimacy.",
+    "unresolved": "The narrator's longing for connection remains unfulfilled.",
+    "tension": 3,
+    "themes": {
+      "attachment": 3,
+      "rupture": 1,
+      "agency": 2,
+      "escape": 1,
+      "identity": 2,
+      "social_critique": 0,
+      "mortality": 0,
+      "renewal": 2
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator feels a strong connection to someone who understands them.",
+        "evidence_lines": [
+          10,
+          22
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The desire for closeness contrasts with feelings of isolation.",
+        "evidence_lines": [
+          2,
+          15
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator reflects on the importance of love and connection.",
+        "evidence_lines": [
+          28,
+          4
+        ]
+      }
+    ],
+    "caution": "The narrator's feelings may not reflect reality.",
+    "id": "T11",
+    "position": 11
+  },
+  {
+    "stance": "The narrator expresses a deep connection and admiration for someone significant.",
+    "movement": "The song shifts from celebration to reflection on the complexities of the relationship.",
+    "unresolved": "The nature of the relationship remains ambiguous and complex.",
+    "tension": 3,
+    "themes": {
+      "attachment": 3,
+      "rupture": 2,
+      "agency": 1,
+      "escape": 0,
+      "identity": 2,
+      "social_critique": 0,
+      "mortality": 0,
+      "renewal": 1
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator acknowledges the importance of the other person in their life.",
+        "evidence_lines": [
+          2,
+          31
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "There is a recognition of flaws and forgiveness in the relationship.",
+        "evidence_lines": [
+          24,
+          26
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator sees the other in a new, positive light despite past issues.",
+        "evidence_lines": [
+          15,
+          39
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary; the emotional depth can lead to multiple readings.",
+    "id": "T12",
+    "position": 12
+  },
+  {
+    "stance": "Embraces unconventional expressions and desires without guilt.",
+    "movement": "Repetition of themes of freedom and acceptance amidst chaos.",
+    "unresolved": "Ambiguity in relationships and personal identity persists.",
+    "tension": 3,
+    "themes": {
+      "attachment": 1,
+      "rupture": 2,
+      "agency": 2,
+      "escape": 1,
+      "identity": 3,
+      "social_critique": 2,
+      "mortality": 0,
+      "renewal": 1
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "Engaging in playful acts is not morally wrong.",
+        "evidence_lines": [
+          1,
+          37
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The narrator feels a connection to the chaotic environment.",
+        "evidence_lines": [
+          14,
+          36
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "Unspoken feelings are mutually recognized and accepted.",
+        "evidence_lines": [
+          16,
+          56
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary due to abstract imagery.",
+    "id": "T13",
+    "position": 13
+  },
+  {
+    "stance": "The narrator expresses a desire for urgency and transformation amidst pain and uncertainty.",
+    "movement": "The repetition of 'it's right on time' emphasizes a cyclical return to a pivotal moment.",
+    "unresolved": "The relationship between pain and renewal remains ambiguous.",
+    "tension": 3,
+    "themes": {
+      "attachment": 1,
+      "rupture": 2,
+      "agency": 2,
+      "escape": 1,
+      "identity": 2,
+      "social_critique": 1,
+      "mortality": 2,
+      "renewal": 2
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator seeks a fresh start through heartbreak.",
+        "evidence_lines": [
+          5
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "There is a sense of urgency to embrace the present moment.",
+        "evidence_lines": [
+          13,
+          30
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator grapples with identity and existential themes.",
+        "evidence_lines": [
+          23,
+          24
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary due to abstract imagery and emotional complexity.",
+    "id": "T14",
+    "position": 14
+  },
+  {
+    "stance": "The narrator expresses a desire for adventure and escape with friends.",
+    "movement": "The song shifts from a call to adventure to reflections on beauty and experience.",
+    "unresolved": "The longing for freedom contrasts with the weight of past experiences.",
+    "tension": 2,
+    "themes": {
+      "attachment": 2,
+      "rupture": 1,
+      "agency": 2,
+      "escape": 3,
+      "identity": 1,
+      "social_critique": 0,
+      "mortality": 1,
+      "renewal": 2
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The journey symbolizes a quest for freedom and connection.",
+        "evidence_lines": [
+          1,
+          3,
+          4,
+          20,
+          21
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "Reflections on beauty suggest deeper meanings behind appearances.",
+        "evidence_lines": [
+          6,
+          7,
+          10,
+          24,
+          27
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "Past experiences shape the present, influencing the desire for escape.",
+        "evidence_lines": [
+          11,
+          12,
+          14
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary; avoid assuming a direct narrative.",
+    "id": "T15",
+    "position": 15
+  }
+]

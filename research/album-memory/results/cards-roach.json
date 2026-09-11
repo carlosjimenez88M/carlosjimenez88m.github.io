@@ -1,0 +1,583 @@
+[
+  {
+    "stance": "The narrator asserts dominance and control over the audience's thoughts and perceptions.",
+    "movement": "The song shifts from a confident declaration to a repetitive questioning of societal issues.",
+    "unresolved": "The root causes of societal problems remain ambiguous and unaddressed.",
+    "tension": 3,
+    "themes": {
+      "attachment": 0,
+      "rupture": 2,
+      "agency": 3,
+      "escape": 0,
+      "identity": 1,
+      "social_critique": 3,
+      "mortality": 1,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator emphasizes their influence over listeners' minds.",
+        "evidence_lines": [
+          8,
+          21,
+          43
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "Societal issues are attributed to various entities like government and media.",
+        "evidence_lines": [
+          22,
+          36,
+          66
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator suggests a bleak view of humanity's role in societal problems.",
+        "evidence_lines": [
+          60,
+          61,
+          62
+        ]
+      }
+    ],
+    "caution": "The aggressive tone may provoke strong reactions or misinterpretations.",
+    "id": "T01",
+    "position": 1
+  },
+  {
+    "stance": "The narrator expresses deep despair and a sense of hopelessness about life.",
+    "movement": "The song oscillates between moments of contemplation and repeated cries for help.",
+    "unresolved": "The narrator's internal conflict about life and death remains unanswered.",
+    "tension": 4,
+    "themes": {
+      "attachment": 1,
+      "rupture": 3,
+      "agency": 1,
+      "escape": 2,
+      "identity": 2,
+      "social_critique": 1,
+      "mortality": 3,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator feels overwhelmed and contemplates self-harm.",
+        "evidence_lines": [
+          1,
+          3,
+          9,
+          13
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "Loss and emptiness are central to the narrator's struggles.",
+        "evidence_lines": [
+          22,
+          23,
+          18,
+          19
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator seeks validation and reassurance from others.",
+        "evidence_lines": [
+          15,
+          27,
+          44
+        ]
+      }
+    ],
+    "caution": "The themes of self-harm and suicide are sensitive and should be approached carefully.",
+    "id": "T02",
+    "position": 2
+  },
+  {
+    "stance": "The narrator expresses deep emotional pain and confusion stemming from family issues.",
+    "movement": "Repetition of feelings of isolation contrasts with moments of yearning for connection.",
+    "unresolved": "The narrator's desire for truth and healing remains unfulfilled.",
+    "tension": 4,
+    "themes": {
+      "attachment": 2,
+      "rupture": 3,
+      "agency": 1,
+      "escape": 0,
+      "identity": 2,
+      "social_critique": 1,
+      "mortality": 0,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator feels abandoned and questions parental love.",
+        "evidence_lines": [
+          15,
+          16,
+          18,
+          20
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "Emotional pain is overwhelming, leading to feelings of weakness.",
+        "evidence_lines": [
+          23,
+          24,
+          26,
+          30
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator struggles with expressing their pain and seeks understanding.",
+        "evidence_lines": [
+          35,
+          36,
+          39,
+          40
+        ]
+      }
+    ],
+    "caution": "The emotional content may resonate deeply; approach with care.",
+    "id": "T03",
+    "position": 3
+  },
+  {
+    "stance": "Critique of societal detachment and emotional numbness.",
+    "movement": "Repetition of themes emphasizes the pervasive nature of disconnection.",
+    "unresolved": "Questions about identity and emotional authenticity remain unanswered.",
+    "tension": 3,
+    "themes": {
+      "attachment": 0,
+      "rupture": 3,
+      "agency": 2,
+      "escape": 1,
+      "identity": 3,
+      "social_critique": 3,
+      "mortality": 1,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "Society fosters emotional detachment and anti-social behavior.",
+        "evidence_lines": [
+          1,
+          2,
+          21,
+          22
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "People are manipulated and lack genuine emotional responses.",
+        "evidence_lines": [
+          3,
+          4,
+          23,
+          24
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "Collective guilt exists in the face of societal lies.",
+        "evidence_lines": [
+          29,
+          30,
+          31,
+          32
+        ]
+      }
+    ],
+    "caution": "Avoid oversimplifying the critique of modern society.",
+    "id": "T04",
+    "position": 4
+  },
+  {
+    "stance": "Rejects materialism and societal obsession with possessions.",
+    "movement": "Repetitive insistence on rejecting money and possessions, contrasting with calls for inner revolution.",
+    "unresolved": "Struggles with the emptiness of material pursuits.",
+    "tension": 3,
+    "themes": {
+      "attachment": 0,
+      "rupture": 3,
+      "agency": 2,
+      "escape": 2,
+      "identity": 2,
+      "social_critique": 3,
+      "mortality": 1,
+      "renewal": 2
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "Material possessions do not fulfill deeper needs.",
+        "evidence_lines": [
+          9,
+          25
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "Society's obsession with money leads to personal dissatisfaction.",
+        "evidence_lines": [
+          11,
+          13
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "True fulfillment comes from within, not from external possessions.",
+        "evidence_lines": [
+          6,
+          27
+        ]
+      }
+    ],
+    "caution": "Avoid interpreting the rejection of materialism as a complete solution.",
+    "id": "T05",
+    "position": 5
+  },
+  {
+    "stance": "The narrator expresses a sense of survival amidst chaos and violence.",
+    "movement": "The song shifts from personal empowerment to a bleak reflection on human nature.",
+    "unresolved": "The cycle of violence and self-destruction remains unbroken.",
+    "tension": 4,
+    "themes": {
+      "attachment": 1,
+      "rupture": 3,
+      "agency": 2,
+      "escape": 0,
+      "identity": 2,
+      "social_critique": 3,
+      "mortality": 2,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "Survival is a constant struggle against others.",
+        "evidence_lines": [
+          1,
+          3
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "Human nature is inherently destructive and violent.",
+        "evidence_lines": [
+          13,
+          14,
+          15
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "Corruption feeds on societal violence and suffering.",
+        "evidence_lines": [
+          9,
+          10,
+          25
+        ]
+      }
+    ],
+    "caution": "The portrayal of violence may be interpreted in various ways.",
+    "id": "T06",
+    "position": 6
+  },
+  {
+    "stance": "The narrator reflects on a tumultuous relationship marked by violence and emotional turmoil.",
+    "movement": "The song shifts from personal conflict to broader societal issues and existential threats.",
+    "unresolved": "The struggle between love and danger remains ambiguous and unresolved.",
+    "tension": 4,
+    "themes": {
+      "attachment": 2,
+      "rupture": 3,
+      "agency": 2,
+      "escape": 1,
+      "identity": 2,
+      "social_critique": 3,
+      "mortality": 2,
+      "renewal": 1
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The girl endures abuse but ultimately fights back against her partner.",
+        "evidence_lines": [
+          2,
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The relationship is fraught with love and dependency, creating inner conflict.",
+        "evidence_lines": [
+          12,
+          14,
+          23
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "Societal decay and personal chaos intertwine, reflecting broader dangers.",
+        "evidence_lines": [
+          9,
+          10,
+          36
+        ]
+      }
+    ],
+    "caution": "The portrayal of violence and chaos may be triggering for some listeners.",
+    "id": "T07",
+    "position": 7
+  },
+  {
+    "stance": "The narrator expresses deep distrust and anger towards deceitful individuals.",
+    "movement": "The song shifts from personal grievances to broader reflections on betrayal.",
+    "unresolved": "The narrator's feelings of betrayal and anger remain intense and unresolved.",
+    "tension": 4,
+    "themes": {
+      "attachment": 0,
+      "rupture": 3,
+      "agency": 2,
+      "escape": 1,
+      "identity": 2,
+      "social_critique": 3,
+      "mortality": 1,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "Betrayal leads to feelings of anger and a desire for distance.",
+        "evidence_lines": [
+          1,
+          8,
+          10
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The narrator reflects on the pain of betrayal and its consequences.",
+        "evidence_lines": [
+          23,
+          25,
+          54
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator critiques those who betray their friends and family.",
+        "evidence_lines": [
+          33,
+          34,
+          35
+        ]
+      }
+    ],
+    "caution": "The intense emotions may not reflect a healthy perspective on relationships.",
+    "id": "T08",
+    "position": 8
+  },
+  {
+    "stance": "The narrator feels overwhelmed and trapped by their own choices and circumstances.",
+    "movement": "The song shifts from self-blame to a sense of despair and questioning self-worth.",
+    "unresolved": "The narrator struggles with feelings of inadequacy and the desire for change.",
+    "tension": 4,
+    "themes": {
+      "attachment": 1,
+      "rupture": 2,
+      "agency": 2,
+      "escape": 2,
+      "identity": 3,
+      "social_critique": 1,
+      "mortality": 0,
+      "renewal": 1
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator feels drained and trapped by their routine.",
+        "evidence_lines": [
+          1,
+          2,
+          5
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "There is a recurring sense of inadequacy and questioning of self-worth.",
+        "evidence_lines": [
+          9,
+          11,
+          49
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator expresses a desire for change but feels stuck in a cycle.",
+        "evidence_lines": [
+          34,
+          36,
+          52
+        ]
+      }
+    ],
+    "caution": "The narrator's feelings may not reflect reality; self-perception can be distorted.",
+    "id": "T09",
+    "position": 9
+  },
+  {
+    "stance": "The narrator struggles with addiction and the pressure to conform.",
+    "movement": "Repetition of commands contrasts with the narrator's desire for change.",
+    "unresolved": "The narrator's wish for change remains unfulfilled.",
+    "tension": 3,
+    "themes": {
+      "attachment": 1,
+      "rupture": 2,
+      "agency": 1,
+      "escape": 3,
+      "identity": 2,
+      "social_critique": 1,
+      "mortality": 0,
+      "renewal": 1
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator feels isolated and overwhelmed by their addiction.",
+        "evidence_lines": [
+          3,
+          4,
+          9,
+          10
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "External voices urge the narrator to conform and fight their struggles.",
+        "evidence_lines": [
+          11,
+          21,
+          34
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator expresses a desire for change but remains trapped in a cycle.",
+        "evidence_lines": [
+          38,
+          41,
+          43
+        ]
+      }
+    ],
+    "caution": "The lyrics reflect complex emotional struggles and should be approached thoughtfully.",
+    "id": "T10",
+    "position": 10
+  },
+  {
+    "stance": "The narrator expresses deep internal chaos and a struggle for control over their life.",
+    "movement": "The song oscillates between moments of despair and a desire for escape.",
+    "unresolved": "The narrator's pain and confusion remain persistent and unresolved.",
+    "tension": 4,
+    "themes": {
+      "attachment": 1,
+      "rupture": 3,
+      "agency": 2,
+      "escape": 3,
+      "identity": 2,
+      "social_critique": 2,
+      "mortality": 1,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator feels overwhelmed by their chaotic mental state.",
+        "evidence_lines": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "There is a recurring desire to escape from their painful reality.",
+        "evidence_lines": [
+          18,
+          30,
+          40
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator grapples with inner voices and external pressures.",
+        "evidence_lines": [
+          53,
+          56,
+          63
+        ]
+      }
+    ],
+    "caution": "The lyrics depict intense emotional struggles and should be approached carefully.",
+    "id": "T11",
+    "position": 11
+  },
+  {
+    "stance": "The narrator expresses a chaotic struggle with morality and identity.",
+    "movement": "Repetition of instability and chaos contrasts with moments of reflection.",
+    "unresolved": "The narrator's fate remains uncertain amidst their turmoil.",
+    "tension": 4,
+    "themes": {
+      "attachment": 1,
+      "rupture": 2,
+      "agency": 2,
+      "escape": 1,
+      "identity": 3,
+      "social_critique": 2,
+      "mortality": 2,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator feels their words can harm others.",
+        "evidence_lines": [
+          1
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "There is a constant struggle between good and evil.",
+        "evidence_lines": [
+          7,
+          17,
+          29,
+          33
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator's life is chaotic and unstable.",
+        "evidence_lines": [
+          9,
+          19,
+          31
+        ]
+      }
+    ],
+    "caution": "The imagery may provoke strong emotional responses.",
+    "id": "T12",
+    "position": 12
+  }
+]

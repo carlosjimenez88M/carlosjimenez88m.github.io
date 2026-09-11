@@ -1,0 +1,722 @@
+[
+  {
+    "case_id": "rhcp-summary-counterevidence-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-summary-return-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-recent3-return-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-summary-counterevidence-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-selective6-counterevidence-1",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-summary-change-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-full-counterevidence-0",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-summary-return-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-selective6-change-0",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-summary-return-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-full-counterevidence-1",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-full-return-1",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-recent3-change-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-selective6-change-1",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-full-return-0",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-selective6-change-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-selective6-change-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-selective6-counterevidence-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-selective6-change-0",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-recent3-return-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-summary-return-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-summary-counterevidence-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-summary-return-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-recent3-return-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-full-return-0",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-selective6-return-2",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-recent3-change-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-recent3-counterevidence-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-summary-change-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-summary-change-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-selective6-change-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-recent3-counterevidence-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-summary-change-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-full-change-2",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-summary-counterevidence-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-summary-return-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-recent3-counterevidence-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-summary-counterevidence-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-recent3-change-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-selective6-change-0",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-summary-change-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-full-counterevidence-2",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-recent3-counterevidence-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-selective6-counterevidence-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-recent3-change-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-full-change-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-full-counterevidence-0",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-selective6-return-1",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-summary-counterevidence-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-summary-counterevidence-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-summary-return-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-summary-return-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-selective6-counterevidence-2",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-recent3-change-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-selective6-return-2",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-full-counterevidence-1",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-selective6-return-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-full-return-1",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-full-change-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-recent3-return-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-recent3-return-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-selective6-counterevidence-0",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-full-counterevidence-2",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-selective6-return-1",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-full-change-2",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-selective6-counterevidence-0",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-full-return-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-full-counterevidence-2",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-selective6-counterevidence-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-selective6-change-2",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-summary-return-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-selective6-change-2",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-summary-change-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-full-change-0",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-recent3-counterevidence-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-recent3-return-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-full-counterevidence-2",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-selective6-return-2",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-recent3-change-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-summary-counterevidence-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-selective6-change-1",
+    "citations_span_halves": true,
+    "answer_within_90_words": false
+  },
+  {
+    "case_id": "roach-recent3-counterevidence-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-recent3-return-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-recent3-change-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-recent3-change-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-recent3-counterevidence-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-summary-change-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-recent3-change-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-recent3-return-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-summary-change-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-full-return-1",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-full-change-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-full-change-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-recent3-counterevidence-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-selective6-return-1",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-full-change-1",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-selective6-counterevidence-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-full-counterevidence-0",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-summary-change-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-recent3-counterevidence-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-summary-return-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-recent3-change-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-recent3-change-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-selective6-return-0",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-selective6-counterevidence-1",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-selective6-counterevidence-2",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-recent3-counterevidence-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-summary-counterevidence-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-summary-change-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-recent3-return-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-summary-return-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-recent3-return-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-selective6-return-0",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-summary-change-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-selective6-counterevidence-2",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-full-return-0",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-full-return-2",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-summary-return-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-summary-counterevidence-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-full-change-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-selective6-return-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-recent3-counterevidence-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-full-counterevidence-1",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-full-return-2",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-full-counterevidence-1",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-recent3-counterevidence-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-recent3-return-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-selective6-return-2",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-selective6-change-2",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-recent3-return-0",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-full-return-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-full-change-0",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-full-change-1",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-full-change-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-selective6-return-0",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "rhcp-full-return-2",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "natalia-selective6-change-1",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-selective6-counterevidence-1",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-full-return-0",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-summary-counterevidence-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-full-counterevidence-0",
+    "citations_span_halves": true,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "roach-summary-change-2",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-recent3-change-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  },
+  {
+    "case_id": "beatles-summary-counterevidence-1",
+    "citations_span_halves": false,
+    "answer_within_90_words": true
+  }
+]

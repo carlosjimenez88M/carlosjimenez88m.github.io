@@ -1,0 +1,27 @@
+{
+  "judge": {
+    "calls": 144,
+    "input_tokens": 482350,
+    "output_tokens": 10633
+  },
+  "annotation": {
+    "calls": 56,
+    "input_tokens": 33886,
+    "output_tokens": 16424
+  },
+  "generation": {
+    "calls": 144,
+    "input_tokens": 227805,
+    "output_tokens": 17758
+  },
+  "probe": {
+    "calls": 8,
+    "input_tokens": 27522,
+    "output_tokens": 3654
+  },
+  "summary": {
+    "calls": 56,
+    "input_tokens": 27875,
+    "output_tokens": 11815
+  }
+}

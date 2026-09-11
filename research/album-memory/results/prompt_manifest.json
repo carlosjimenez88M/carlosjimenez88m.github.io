@@ -1,0 +1,7 @@
+{
+  "answer": "prompts:/album-memory-answer/1",
+  "judge": "prompts:/album-memory-judge/1",
+  "annotation": "prompts:/album-memory-annotation/1",
+  "summary": "prompts:/album-memory-summary/1",
+  "probe": "prompts:/album-memory-probe/1"
+}

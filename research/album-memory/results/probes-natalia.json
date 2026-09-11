@@ -1,0 +1,29 @@
+[
+  {
+    "kind": "return",
+    "question": "Which track in the first half and which track in the second half both revisit the motif of nature as a source of emotional support, and how do their uses of this motif differ in expressing the narrator's needs or healing?",
+    "target_ids": [
+      "T04",
+      "T10"
+    ],
+    "expected": "Track T04 uses the wind as a recurring motif symbolizing comfort, liberation, and emotional release, emphasizing the narrator's yearning for freedom and connection. Track T10 employs natural imagery, especially the sea, to express enchantment and longing for love, highlighting a deep desire for connection amid nature's beauty. While both use nature as emotional support, T04 focuses on healing through freedom and release, whereas T10 centers on love's allure and longing."
+  },
+  {
+    "kind": "change",
+    "question": "Identify one track from the first half and one from the second half where the narrator's stance shifts from struggling with internal conflict or fear to embracing renewal and gratitude, and explain how this contrast is reflected in their themes and unresolved tensions.",
+    "target_ids": [
+      "T01",
+      "T09"
+    ],
+    "expected": "In the first half, track T01 reveals the narrator's profound solitude and inner turmoil, struggling to reconcile conflict with a desire for connection, leaving tensions unresolved. In contrast, track T09 in the second half expresses gratitude toward death for teaching life lessons, celebrating renewal and embracing life despite mortality. This contrast shows a shift from internal struggle and fear to acceptance, gratitude, and renewal."
+  },
+  {
+    "kind": "counterevidence",
+    "question": "Which two tracks, separated by at least four positions, provide evidence against interpreting the album as a single smooth narrative of healing and connection, and what elements in their stances or unresolved tensions challenge this interpretation?",
+    "target_ids": [
+      "T03",
+      "T12"
+    ],
+    "expected": "Track T03 in the first half depicts the narrator trapped in memories and longing, unable to move on from a past relationship, with unresolved emptiness and struggle. Track T12 in the second half expresses grief and the tension between mourning and celebration, indicating ongoing emotional complexity. Together, these tracks challenge a smooth narrative of healing by highlighting persistent struggles and unresolved tensions throughout the album."
+  }
+]

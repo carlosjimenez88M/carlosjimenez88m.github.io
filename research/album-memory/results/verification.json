@@ -1,0 +1,9 @@
+{
+  "corpus_tracks": 56,
+  "completed_cases": 144,
+  "graph_spans": 144,
+  "traces": 288,
+  "provider_receipts_verified": true,
+  "source_hashes_verified": true,
+  "scope": "Structural and provenance audit, not semantic validation of interpretations or judge scores."
+}

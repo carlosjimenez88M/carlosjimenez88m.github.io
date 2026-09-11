@@ -1,0 +1,827 @@
+[
+  {
+    "stance": "The narrator expresses a desire for connection amidst chaotic imagery.",
+    "movement": "The repeated call to 'come together' contrasts with the chaotic descriptions of characters.",
+    "unresolved": "The relationship between chaos and unity remains unclear.",
+    "tension": 3,
+    "themes": {
+      "attachment": 1,
+      "rupture": 2,
+      "agency": 2,
+      "escape": 1,
+      "identity": 2,
+      "social_critique": 2,
+      "mortality": 1,
+      "renewal": 1
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator feels overwhelmed yet seeks freedom and unity.",
+        "evidence_lines": [
+          16,
+          17
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "Descriptions of characters suggest a blend of absurdity and depth.",
+        "evidence_lines": [
+          5,
+          13,
+          24
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The repeated phrase emphasizes a longing for collective experience.",
+        "evidence_lines": [
+          17,
+          36
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary due to abstract imagery.",
+    "id": "T01",
+    "position": 1
+  },
+  {
+    "stance": "The narrator expresses a deep attraction and uncertainty about love.",
+    "movement": "Repetition of desire contrasts with moments of doubt.",
+    "unresolved": "The narrator questions the future of their love.",
+    "tension": 3,
+    "themes": {
+      "attachment": 3,
+      "rupture": 0,
+      "agency": 1,
+      "escape": 0,
+      "identity": 1,
+      "social_critique": 0,
+      "mortality": 0,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator feels a unique attraction to their partner.",
+        "evidence_lines": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "There is uncertainty about the growth of love.",
+        "evidence_lines": [
+          11,
+          12
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator is committed but questions their feelings.",
+        "evidence_lines": [
+          4,
+          8,
+          18
+        ]
+      }
+    ],
+    "caution": "Emotional expressions may not reflect reality.",
+    "id": "T02",
+    "position": 2
+  },
+  {
+    "stance": "The narrative explores themes of violence and absurdity through a darkly humorous lens.",
+    "movement": "The song shifts from a playful courtship to a series of violent acts.",
+    "unresolved": "The motivations behind Maxwell's actions remain unclear.",
+    "tension": 4,
+    "themes": {
+      "attachment": 1,
+      "rupture": 3,
+      "agency": 2,
+      "escape": 0,
+      "identity": 2,
+      "social_critique": 2,
+      "mortality": 3,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "Maxwell's violent actions disrupt relationships and lead to fatal consequences.",
+        "evidence_lines": [
+          9,
+          10,
+          12
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The absurdity of the situation highlights the dark humor in the narrative.",
+        "evidence_lines": [
+          1,
+          3,
+          27
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The judicial system's failure to address Maxwell's actions reflects societal issues.",
+        "evidence_lines": [
+          25,
+          30,
+          36
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary due to the song's surreal nature.",
+    "id": "T03",
+    "position": 3
+  },
+  {
+    "stance": "The narrator pleads for trust and reassurance in a fragile relationship.",
+    "movement": "Repetition of pleas contrasts with moments of emotional breakdown.",
+    "unresolved": "The narrator's fear of abandonment remains unaddressed.",
+    "tension": 3,
+    "themes": {
+      "attachment": 3,
+      "rupture": 3,
+      "agency": 1,
+      "escape": 0,
+      "identity": 2,
+      "social_critique": 0,
+      "mortality": 2,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator insists they will never cause harm.",
+        "evidence_lines": [
+          2,
+          4,
+          16
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The narrator expresses deep emotional pain from rejection.",
+        "evidence_lines": [
+          10,
+          12,
+          19,
+          21
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator fears being left alone and unable to cope.",
+        "evidence_lines": [
+          6,
+          8,
+          14
+        ]
+      }
+    ],
+    "caution": "Emotional expressions may not reflect reality.",
+    "id": "T04",
+    "position": 4
+  },
+  {
+    "stance": "The desire for a carefree, joyful existence in a hidden underwater paradise.",
+    "movement": "Repetition of longing for the octopus's garden contrasts with moments of imagined joy.",
+    "unresolved": "The longing for escape remains unfulfilled.",
+    "tension": 2,
+    "themes": {
+      "attachment": 2,
+      "rupture": 0,
+      "agency": 1,
+      "escape": 3,
+      "identity": 1,
+      "social_critique": 0,
+      "mortality": 0,
+      "renewal": 2
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator envisions a safe, joyful space underwater.",
+        "evidence_lines": [
+          1,
+          2,
+          4,
+          9,
+          10
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "Friendship and shared experiences enhance the joy of this escape.",
+        "evidence_lines": [
+          5,
+          6,
+          21,
+          24
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The absence of authority allows for freedom and happiness.",
+        "evidence_lines": [
+          22,
+          20
+        ]
+      }
+    ],
+    "caution": "Idealized escape may overlook real-world challenges.",
+    "id": "T05",
+    "position": 5
+  },
+  {
+    "stance": "The narrator expresses an intense desire for someone, highlighting emotional turmoil.",
+    "movement": "Repetition of desire contrasts with the introduction of a heavy emotional weight.",
+    "unresolved": "The nature of the relationship remains unclear and burdensome.",
+    "tension": 3,
+    "themes": {
+      "attachment": 3,
+      "rupture": 0,
+      "agency": 1,
+      "escape": 0,
+      "identity": 0,
+      "social_critique": 0,
+      "mortality": 0,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator's longing is overwhelming and consuming.",
+        "evidence_lines": [
+          1,
+          2,
+          4,
+          5,
+          10,
+          26
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The repeated mention of 'heavy' suggests emotional burden.",
+        "evidence_lines": [
+          13,
+          14,
+          20,
+          21
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator's desire is persistent yet fraught with madness.",
+        "evidence_lines": [
+          3,
+          6,
+          9,
+          30
+        ]
+      }
+    ],
+    "caution": "Emotional expressions may not reflect a healthy relationship dynamic.",
+    "id": "T06",
+    "position": 6
+  },
+  {
+    "stance": "A hopeful outlook emerges after a prolonged period of hardship.",
+    "movement": "The song shifts from winter's despair to the arrival of warmth and positivity.",
+    "unresolved": "The lingering effects of past struggles remain uncertain.",
+    "tension": 2,
+    "themes": {
+      "attachment": 1,
+      "rupture": 2,
+      "agency": 2,
+      "escape": 1,
+      "identity": 0,
+      "social_critique": 0,
+      "mortality": 0,
+      "renewal": 3
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The arrival of the sun symbolizes the end of a difficult period.",
+        "evidence_lines": [
+          4,
+          9,
+          12
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The narrator expresses relief and optimism about the future.",
+        "evidence_lines": [
+          7,
+          22,
+          39
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The gradual melting of ice represents emotional thawing and renewal.",
+        "evidence_lines": [
+          29,
+          31
+        ]
+      }
+    ],
+    "caution": "Avoid overly literal interpretations of seasonal metaphors.",
+    "id": "T07",
+    "position": 7
+  },
+  {
+    "stance": "The narrator expresses a deep emotional connection to the world and love.",
+    "movement": "Repetition of natural elements emphasizes their impact on feelings.",
+    "unresolved": "The relationship between love and nature remains ambiguous.",
+    "tension": 2,
+    "themes": {
+      "attachment": 2,
+      "rupture": 0,
+      "agency": 1,
+      "escape": 0,
+      "identity": 1,
+      "social_critique": 0,
+      "mortality": 0,
+      "renewal": 1
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The roundness of the world evokes strong feelings.",
+        "evidence_lines": [
+          2,
+          4
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The high wind stimulates deep thoughts.",
+        "evidence_lines": [
+          6,
+          8
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The blue sky triggers emotional responses.",
+        "evidence_lines": [
+          14,
+          16
+        ]
+      }
+    ],
+    "caution": "Emotional expressions may not reflect reality.",
+    "id": "T08",
+    "position": 8
+  },
+  {
+    "stance": "Frustration over unreciprocated efforts and a sense of disillusionment with life.",
+    "movement": "Transition from despair to a fleeting sense of hope and dreams.",
+    "unresolved": "The struggle between reality and the desire for escape remains.",
+    "tension": 3,
+    "themes": {
+      "attachment": 1,
+      "rupture": 2,
+      "agency": 1,
+      "escape": 2,
+      "identity": 1,
+      "social_critique": 2,
+      "mortality": 1,
+      "renewal": 2
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "Negotiations lead to disappointment and breakdown.",
+        "evidence_lines": [
+          1,
+          3,
+          4,
+          5,
+          7,
+          8
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "A sense of aimlessness and lost potential is expressed.",
+        "evidence_lines": [
+          9,
+          10,
+          11,
+          12,
+          14,
+          15
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "A dream of escape and hope emerges amidst despair.",
+        "evidence_lines": [
+          22,
+          24,
+          26
+        ]
+      }
+    ],
+    "caution": "Avoid taking the lyrics literally; they reflect complex emotions.",
+    "id": "T09",
+    "position": 9
+  },
+  {
+    "stance": "The narrator expresses a welcoming and joyful attitude towards a figure of light and happiness.",
+    "movement": "The repetition of the sun king emphasizes a consistent theme of joy.",
+    "unresolved": "The meaning of the sun king remains ambiguous.",
+    "tension": 1,
+    "themes": {
+      "attachment": 1,
+      "rupture": 0,
+      "agency": 1,
+      "escape": 0,
+      "identity": 1,
+      "social_critique": 0,
+      "mortality": 0,
+      "renewal": 2
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The arrival of the sun king brings joy and laughter.",
+        "evidence_lines": [
+          1,
+          2,
+          3,
+          7
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The repeated mention of the sun king signifies a celebration.",
+        "evidence_lines": [
+          2,
+          11
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The lyrics include playful and whimsical imagery.",
+        "evidence_lines": [
+          12,
+          13,
+          14
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary due to abstract language.",
+    "id": "T10",
+    "position": 10
+  },
+  {
+    "stance": "The narrator presents a critical view of Mr. Mustard's peculiar habits and lifestyle.",
+    "movement": "The song shifts from Mr. Mustard's actions to his sister's contrasting ambition.",
+    "unresolved": "The relationship dynamics between Mr. Mustard and his sister remain unclear.",
+    "tension": 2,
+    "themes": {
+      "attachment": 1,
+      "rupture": 1,
+      "agency": 2,
+      "escape": 0,
+      "identity": 2,
+      "social_critique": 3,
+      "mortality": 0,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "Mr. Mustard's odd habits reflect his disconnection from society.",
+        "evidence_lines": [
+          1,
+          2,
+          3,
+          5,
+          6
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "His sister's industrious nature contrasts sharply with his behavior.",
+        "evidence_lines": [
+          8,
+          9,
+          10
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "Mr. Mustard's public outbursts reveal his lack of social awareness.",
+        "evidence_lines": [
+          12,
+          13
+        ]
+      }
+    ],
+    "caution": "Avoid romanticizing the characters' flaws.",
+    "id": "T11",
+    "position": 11
+  },
+  {
+    "stance": "The narrator admires Polythene Pam's unique and striking appearance.",
+    "movement": "The admiration shifts from her looks to her bold fashion choices.",
+    "unresolved": "The complexity of her identity remains ambiguous.",
+    "tension": 2,
+    "themes": {
+      "attachment": 1,
+      "rupture": 0,
+      "agency": 2,
+      "escape": 0,
+      "identity": 3,
+      "social_critique": 1,
+      "mortality": 0,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "Polythene Pam is strikingly attractive yet unconventional.",
+        "evidence_lines": [
+          2,
+          10
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "Her bold fashion choices highlight her unique identity.",
+        "evidence_lines": [
+          3,
+          6,
+          7
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "She garners attention and intrigue in society.",
+        "evidence_lines": [
+          8,
+          9
+        ]
+      }
+    ],
+    "caution": "Avoid oversimplifying her identity based on appearance.",
+    "id": "T12",
+    "position": 12
+  },
+  {
+    "stance": "The narrator reflects on a woman's lost potential and the consequences of her choices.",
+    "movement": "The song shifts from observation to personal reflection on relationships.",
+    "unresolved": "Questions about awareness and support linger throughout.",
+    "tension": 3,
+    "themes": {
+      "attachment": 2,
+      "rupture": 2,
+      "agency": 1,
+      "escape": 1,
+      "identity": 2,
+      "social_critique": 2,
+      "mortality": 0,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The woman, once vibrant, now struggles with her identity.",
+        "evidence_lines": [
+          4,
+          6
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The narrator feels trapped by unspoken truths.",
+        "evidence_lines": [
+          14,
+          15
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "There is a sense of missed opportunities and lack of awareness.",
+        "evidence_lines": [
+          8,
+          20
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary; context is essential.",
+    "id": "T13",
+    "position": 13
+  },
+  {
+    "stance": "The narrator expresses a longing for comfort and safety associated with home.",
+    "movement": "The song oscillates between memories of home and soothing reassurances.",
+    "unresolved": "The desire to return home remains unfulfilled.",
+    "tension": 2,
+    "themes": {
+      "attachment": 2,
+      "rupture": 1,
+      "agency": 1,
+      "escape": 0,
+      "identity": 1,
+      "social_critique": 0,
+      "mortality": 0,
+      "renewal": 1
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "There was once a clear path back to safety.",
+        "evidence_lines": [
+          1,
+          2,
+          9,
+          10
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "The narrator offers comfort through lullabies.",
+        "evidence_lines": [
+          3,
+          4,
+          7,
+          8,
+          11,
+          12
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "Home symbolizes a place of peace and happiness.",
+        "evidence_lines": [
+          5,
+          6
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary; context is essential.",
+    "id": "T14",
+    "position": 14
+  },
+  {
+    "stance": "The narrator expresses a sense of burden and inevitability regarding emotional weight.",
+    "movement": "Repetition emphasizes the ongoing nature of the burden.",
+    "unresolved": "The source of the weight remains unclear.",
+    "tension": 3,
+    "themes": {
+      "attachment": 2,
+      "rupture": 2,
+      "agency": 1,
+      "escape": 0,
+      "identity": 1,
+      "social_critique": 0,
+      "mortality": 0,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The weight of responsibility is a persistent burden.",
+        "evidence_lines": [
+          1,
+          2,
+          3,
+          4,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "Celebrations are overshadowed by personal breakdown.",
+        "evidence_lines": [
+          7,
+          8
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "Emotional connections are fraught with tension and reluctance.",
+        "evidence_lines": [
+          5,
+          6
+        ]
+      }
+    ],
+    "caution": "Interpretations may vary; context is crucial.",
+    "id": "T15",
+    "position": 15
+  },
+  {
+    "stance": "The narrator expresses a longing for connection and love, questioning its permanence.",
+    "movement": "The repetition of love emphasizes its significance and the emotional weight it carries.",
+    "unresolved": "The nature of love's reciprocity remains uncertain.",
+    "tension": 2,
+    "themes": {
+      "attachment": 3,
+      "rupture": 0,
+      "agency": 1,
+      "escape": 0,
+      "identity": 1,
+      "social_critique": 0,
+      "mortality": 0,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The narrator seeks reassurance about love's presence in dreams.",
+        "evidence_lines": [
+          2
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "Repetition of 'love you' highlights the depth of affection.",
+        "evidence_lines": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The conclusion suggests a balance between giving and receiving love.",
+        "evidence_lines": [
+          15,
+          16
+        ]
+      }
+    ],
+    "caution": "Repetitive expressions may mask deeper emotional complexities.",
+    "id": "T16",
+    "position": 16
+  },
+  {
+    "stance": "The narrator admires a woman but feels uncertain about expressing their feelings.",
+    "movement": "The narrator's desire to claim the woman contrasts with her unpredictable nature.",
+    "unresolved": "The narrator's intentions remain unfulfilled and uncertain.",
+    "tension": 3,
+    "themes": {
+      "attachment": 2,
+      "rupture": 1,
+      "agency": 1,
+      "escape": 0,
+      "identity": 1,
+      "social_critique": 0,
+      "mortality": 0,
+      "renewal": 0
+    },
+    "claims": [
+      {
+        "claim_id": "C1",
+        "paraphrase": "The woman is appealing but lacks depth in conversation.",
+        "evidence_lines": [
+          1
+        ]
+      },
+      {
+        "claim_id": "C2",
+        "paraphrase": "Her unpredictable nature complicates the narrator's feelings.",
+        "evidence_lines": [
+          2
+        ]
+      },
+      {
+        "claim_id": "C3",
+        "paraphrase": "The narrator's love is hindered by a need for intoxication.",
+        "evidence_lines": [
+          3
+        ]
+      }
+    ],
+    "caution": "The narrator's feelings may not reflect reality.",
+    "id": "T17",
+    "position": 17
+  }
+]

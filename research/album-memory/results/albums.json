@@ -1,0 +1,90 @@
+[
+  {
+    "id": "rhcp",
+    "artist": "Red Hot Chili Peppers",
+    "album": "Californication",
+    "year": 1999,
+    "tracks": [
+      "Around the World",
+      "Parallel Universe",
+      "Scar Tissue",
+      "Otherside",
+      "Get on Top",
+      "Californication",
+      "Easily",
+      "Porcelain",
+      "Emit Remmus",
+      "I Like Dirt",
+      "This Velvet Glove",
+      "Savior",
+      "Purple Stain",
+      "Right on Time",
+      "Road Trippin'"
+    ]
+  },
+  {
+    "id": "roach",
+    "artist": "Papa Roach",
+    "album": "Infest",
+    "year": 2000,
+    "tracks": [
+      "Infest",
+      "Last Resort",
+      "Broken Home",
+      "Dead Cell",
+      "Between Angels and Insects",
+      "Blood Brothers",
+      "Revenge",
+      "Snakes",
+      "Never Enough",
+      "Binge",
+      "Thrown Away",
+      "Tightrope"
+    ]
+  },
+  {
+    "id": "beatles",
+    "artist": "The Beatles",
+    "album": "Abbey Road",
+    "year": 1969,
+    "tracks": [
+      "Come Together",
+      "Something",
+      "Maxwell's Silver Hammer",
+      "Oh! Darling",
+      "Octopus's Garden",
+      "I Want You (She's So Heavy)",
+      "Here Comes the Sun",
+      "Because",
+      "You Never Give Me Your Money",
+      "Sun King",
+      "Mean Mr. Mustard",
+      "Polythene Pam",
+      "She Came In Through the Bathroom Window",
+      "Golden Slumbers",
+      "Carry That Weight",
+      "The End",
+      "Her Majesty"
+    ]
+  },
+  {
+    "id": "natalia",
+    "artist": "Natalia Lafourcade",
+    "album": "De todas las flores",
+    "year": 2022,
+    "tracks": [
+      "Vine solita",
+      "De todas las flores",
+      "Pasan los días",
+      "Llévame viento",
+      "El lugar correcto",
+      "Pajarito colibrí",
+      "María la curandera",
+      "Caminar bonito",
+      "Mi manera de querer",
+      "Muerte",
+      "Canta la arena",
+      "Que te vaya bonito Nicolás"
+    ]
+  }
+]
