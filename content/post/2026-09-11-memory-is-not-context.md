@@ -88,7 +88,7 @@ For this revision, a Codex AI assistant reviewed all **72 final responses** from
 
 The separate [blind-review packet](/examples/album-memory-v2/human-review.html) contains **24 Full + 24 Embedding1600 + 24 Adaptive responses**, shuffled with policy labels and automated scores withheld. Including the economical baseline matters: reviewing only full context and adaptive memory would leave the comparison that motivates this article unexamined. The form separates evidence support, attribution, the requested relation and narrative defensibility, plus whether the answer should have abstained. No human ratings have been collected.
 
-This is a **post-hoc, non-blind AI editorial audit**, with prior access to policy results. It is not human review, an independent adjudication, or a new gold standard. I report concrete disagreements rather than turning its judgments into a replacement accuracy percentage. The findings are inspectable precisely because the source addresses and original verdicts remain available.
+The completed AI audit is a **post-hoc, non-blind editorial review**, with prior access to policy results. It is not human review, an independent adjudication, or a new gold standard. I report concrete disagreements rather than turning its judgments into a replacement accuracy percentage. The findings are inspectable precisely because the source addresses and original verdicts remain available.
 
 ### A correct address can support the wrong interpretation
 
