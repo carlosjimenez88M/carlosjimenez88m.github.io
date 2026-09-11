@@ -1,0 +1,134 @@
+[
+  {
+    "id": "E01",
+    "type": "contrast",
+    "topic": "Desire for connection vs. emotional burden",
+    "interpretation": "T01's longing for unity contrasts with T15's depiction of emotional weight as a persistent burden, highlighting different facets of attachment.",
+    "evidence": [
+      "T01:C1",
+      "T15:C1"
+    ],
+    "uncertainty": "Emotional expressions may be metaphorical or literal."
+  },
+  {
+    "id": "E02",
+    "type": "return",
+    "topic": "Longing for love and reassurance",
+    "interpretation": "T16's repeated affirmations of love echo T02's deep attraction and uncertainty, both emphasizing the complexity of romantic desire.",
+    "evidence": [
+      "T16:C2",
+      "T02:C1"
+    ],
+    "uncertainty": "Repetitive expressions may mask deeper complexities."
+  },
+  {
+    "id": "E03",
+    "type": "counterpoint",
+    "topic": "Escape through idealized spaces vs. harsh realities",
+    "interpretation": "T05's underwater paradise as joyful escape contrasts with T03's violent narrative, juxtaposing innocence and brutality.",
+    "evidence": [
+      "T05:C1",
+      "T03:C1"
+    ],
+    "uncertainty": "Idealized escape may overlook real-world challenges."
+  },
+  {
+    "id": "E04",
+    "type": "contrast",
+    "topic": "Hopeful renewal vs. disillusionment",
+    "interpretation": "T07's emergence of warmth and renewal contrasts with T09's frustration and despair, reflecting differing responses to hardship.",
+    "evidence": [
+      "T07:C1",
+      "T09:C1"
+    ],
+    "uncertainty": "Seasonal metaphors may be symbolic rather than literal."
+  },
+  {
+    "id": "E05",
+    "type": "transformation",
+    "topic": "From fear of abandonment to seeking comfort",
+    "interpretation": "T04's fear and pleas for reassurance transform into T14's longing for home and safety, showing a movement from vulnerability to solace.",
+    "evidence": [
+      "T04:C3",
+      "T14:C1"
+    ],
+    "uncertainty": "Narrative voices may differ in perspective."
+  },
+  {
+    "id": "E06",
+    "type": "counterpoint",
+    "topic": "Joyful celebration vs. emotional breakdown",
+    "interpretation": "T10's playful sun king imagery contrasts with T15's overshadowed celebrations, highlighting tension between external joy and internal pain.",
+    "evidence": [
+      "T10:C1",
+      "T15:C2"
+    ],
+    "uncertainty": "Abstract language allows multiple interpretations."
+  },
+  {
+    "id": "E07",
+    "type": "contrast",
+    "topic": "Social critique through character flaws",
+    "interpretation": "T11 critiques Mr. Mustard's disconnection and social unawareness, contrasting with T12's admiration of Polythene Pam's bold identity, reflecting societal norms and rebellion.",
+    "evidence": [
+      "T11:C1",
+      "T12:C2"
+    ],
+    "uncertainty": "Avoid romanticizing or oversimplifying characters."
+  },
+  {
+    "id": "E08",
+    "type": "return",
+    "topic": "Uncertainty in romantic intentions",
+    "interpretation": "T17's uncertain desire to claim a woman returns to themes in T02 about questioning love's future, both exploring hesitation in relationships.",
+    "evidence": [
+      "T17:C2",
+      "T02:C2"
+    ],
+    "uncertainty": "Narrator's feelings may not reflect reality."
+  },
+  {
+    "id": "E09",
+    "type": "transformation",
+    "topic": "From chaos to collective longing",
+    "interpretation": "T01's chaotic imagery and desire for unity transform into T16's focused longing for love, showing a narrowing from social to personal connection.",
+    "evidence": [
+      "T01:C3",
+      "T16:C2"
+    ],
+    "uncertainty": "Multiple narrators may influence interpretation."
+  },
+  {
+    "id": "E10",
+    "type": "contrast",
+    "topic": "Absurd violence vs. emotional turmoil",
+    "interpretation": "T03's dark humor and violence contrast with T06's intense emotional desire and madness, juxtaposing external chaos with internal struggle.",
+    "evidence": [
+      "T03:C2",
+      "T06:C3"
+    ],
+    "uncertainty": "Surreal and emotional elements complicate clarity."
+  },
+  {
+    "id": "E11",
+    "type": "counterpoint",
+    "topic": "Attachment and rupture in relationships",
+    "interpretation": "T04's fear of abandonment and emotional pain counterpoint T13's reflection on lost potential and unspoken truths, both addressing rupture in attachment.",
+    "evidence": [
+      "T04:C2",
+      "T13:C2"
+    ],
+    "uncertainty": "Context is essential for full understanding."
+  },
+  {
+    "id": "E12",
+    "type": "return",
+    "topic": "Nature's impact on emotional connection",
+    "interpretation": "T08's deep emotional responses to natural elements return themes of attachment and identity found in T07's hopeful renewal, linking environment and feeling.",
+    "evidence": [
+      "T08:C3",
+      "T07:C3"
+    ],
+    "uncertainty": "Emotional expressions may be symbolic."
+  }
+]

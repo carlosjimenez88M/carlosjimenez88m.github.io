@@ -1,0 +1,7 @@
+{
+  "answer": "prompts:/album-v2-answer/2",
+  "sufficiency": "prompts:/album-v2-sufficiency/2",
+  "verifier": "prompts:/album-v2-verifier/2",
+  "relations": "prompts:/album-v2-relations/2",
+  "questions": "prompts:/album-v2-questions/2"
+}

@@ -1,0 +1,32 @@
+{
+  "answer": {
+    "calls": 538,
+    "input_tokens": 777549,
+    "output_tokens": 77085
+  },
+  "sufficiency": {
+    "calls": 120,
+    "input_tokens": 172242,
+    "output_tokens": 7545
+  },
+  "verification": {
+    "calls": 522,
+    "input_tokens": 345046,
+    "output_tokens": 61138
+  },
+  "negative_audit": {
+    "calls": 4,
+    "input_tokens": 12297,
+    "output_tokens": 291
+  },
+  "questions": {
+    "calls": 5,
+    "input_tokens": 18860,
+    "output_tokens": 4019
+  },
+  "relations": {
+    "calls": 4,
+    "input_tokens": 12544,
+    "output_tokens": 4734
+  }
+}

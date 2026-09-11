@@ -1,0 +1,60 @@
+[
+  {
+    "kind": "local",
+    "question": "Considering two adjacent songs early in the album, how do their portrayals of attachment and rupture differ in expressing the narrator's emotional state and unresolved tensions?",
+    "target_ids": [
+      "T01",
+      "T02"
+    ],
+    "expected": "The first song (T01) conveys profound solitude and a struggle for agency, with unresolved inner turmoil despite a determination to embrace life. The next song (T02) reflects on lost connections and nostalgia, oscillating between joy and sorrow, with a lingering longing for reunion. Together, they show contrasting emotional states: isolation versus nostalgic attachment, both with unresolved tensions around connection.",
+    "answerable": true
+  },
+  {
+    "kind": "distant",
+    "question": "Select one song from the first half and one from the second half, separated by at least four tracks, that both address renewal but differ in how they frame the narrator's relationship with mortality and agency. How do these differences manifest?",
+    "target_ids": [
+      "T05",
+      "T10"
+    ],
+    "expected": "The first-half song (T05) focuses on personal growth and self-acknowledgment, emphasizing embracing the present despite past pain, with unresolved struggle over emotions. The second-half song (T10) expresses enchantment with nature and love, highlighting longing and desire amid natural imagery, with less direct confrontation of mortality. Thus, T05 frames renewal through agency and self-reflection, while T10 centers on renewal via connection and longing, with differing tensions around mortality.",
+    "answerable": true
+  },
+  {
+    "kind": "transformation",
+    "question": "Identify two separated tracks that contrast in their stance on how the narrator deals with pain and healing, showing a transformation in approach rather than a simple topic change. What are the key differences?",
+    "target_ids": [
+      "T03",
+      "T07"
+    ],
+    "expected": "The earlier track (T03) reveals the narrator trapped in memories and longing, struggling with emptiness and unable to move on, reflecting pain as persistent and unresolved. The later track (T07) encourages healing through nature and love, emphasizing self-care, transformation, and acceptance of pain's complexity. This contrast shows a transformation from being stuck in pain to actively seeking healing and growth.",
+    "answerable": true
+  },
+  {
+    "kind": "contradiction",
+    "question": "Which two tracks, separated by at least four positions, provide evidence that challenges a smooth interpretive account of the album as a linear emotional progression, and what aspects of their unresolved tensions or stances contradict such a reading?",
+    "target_ids": [
+      "T03",
+      "T12"
+    ],
+    "expected": "Track T03 depicts the narrator caught in longing and emptiness, unable to move on, with unresolved struggle. Track T12 expresses grief mixed with celebration, showing ongoing emotional complexity and tension between mourning and acceptance. Their unresolved tensions and emotional states contradict a smooth linear progression by highlighting persistent struggles and ambivalence throughout the album.",
+    "answerable": true
+  },
+  {
+    "kind": "multi_hop",
+    "question": "Considering three songs in chronological order with the first and last separated by at least six tracks, how does the middle song qualify or complicate the emotional journey suggested by the first and last, and what return or shift occurs by the final track?",
+    "target_ids": [
+      "T01",
+      "T05",
+      "T10"
+    ],
+    "expected": "The first song (T01) expresses profound solitude and inner conflict with unresolved tension. The middle song (T05) shifts toward personal growth and embracing the present but still struggles with past emotions, qualifying the initial turmoil with emerging agency. The final song (T10) returns to themes of longing and enchantment with nature and love, suggesting a renewed desire for connection rather than full resolution. This sequence complicates a straightforward emotional journey by interposing growth yet ending with persistent longing.",
+    "answerable": true
+  },
+  {
+    "kind": "abstention",
+    "question": "Is there any explicit evidence in the cards about a specific event where the narrator physically leaves a familiar place to start anew, and how does this event impact the album's themes?",
+    "target_ids": [],
+    "expected": "No explicit evidence of a physical departure or relocation event is present in the cards; thus, the impact of such an event on the album's themes cannot be established from the given information.",
+    "answerable": false
+  }
+]

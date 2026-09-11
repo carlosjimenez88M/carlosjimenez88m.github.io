@@ -1,0 +1,134 @@
+[
+  {
+    "id": "E01",
+    "type": "contrast",
+    "topic": "Struggle with solitude vs. longing for connection",
+    "interpretation": "T01 shows internal conflict and solitude, while T03 emphasizes being trapped in memories and longing for connection, highlighting different emotional responses to rupture.",
+    "evidence": [
+      "T01:C1",
+      "T03:C1"
+    ],
+    "uncertainty": "Emotional states may overlap or coexist ambiguously."
+  },
+  {
+    "id": "E02",
+    "type": "return",
+    "topic": "Nature as healing and liberation",
+    "interpretation": "T04 and T07 both use natural elements as sources of comfort and healing, suggesting a recurring motif of nature facilitating emotional release and transformation.",
+    "evidence": [
+      "T04:C1",
+      "T07:C1"
+    ],
+    "uncertainty": "The symbolic meaning of nature may vary by song context."
+  },
+  {
+    "id": "E03",
+    "type": "transformation",
+    "topic": "From grief to celebration of life",
+    "interpretation": "T12 moves from grief to celebration of Nicolás's spirit, paralleling T10's shift from death reflection to gratitude for life, showing transformation through acceptance.",
+    "evidence": [
+      "T12:C3",
+      "T10:C3"
+    ],
+    "uncertainty": "The emotional tone may differ in intensity and focus."
+  },
+  {
+    "id": "E04",
+    "type": "counterpoint",
+    "topic": "Agency in embracing life vs. struggle with fear",
+    "interpretation": "T06 encourages overcoming fear and embracing freedom, contrasting with T01's unresolved inner turmoil and struggle for agency, highlighting tension in personal empowerment.",
+    "evidence": [
+      "T06:C2",
+      "T01:C2"
+    ],
+    "uncertainty": "The narrator's resolve may fluctuate within songs."
+  },
+  {
+    "id": "E05",
+    "type": "contrast",
+    "topic": "Simple love vs. complex emotional struggle",
+    "interpretation": "T09 portrays love as pure and uncomplicated, while T03 reveals deep longing and emotional complexity, contrasting idealized love with painful attachment.",
+    "evidence": [
+      "T09:C1",
+      "T03:C1"
+    ],
+    "uncertainty": "Love's portrayal may be idealized or nuanced."
+  },
+  {
+    "id": "E06",
+    "type": "return",
+    "topic": "Repetition emphasizing longing",
+    "interpretation": "Both T04 and T11 use repetition to emphasize the narrator's deep need for connection and longing, reinforcing emotional intensity through lyrical structure.",
+    "evidence": [
+      "T04:C3",
+      "T11:C3"
+    ],
+    "uncertainty": "Repetition may serve different emotional purposes."
+  },
+  {
+    "id": "E07",
+    "type": "transformation",
+    "topic": "Pain transforming into renewal",
+    "interpretation": "T07 highlights healing and transformation of pain into beauty, which resonates with T05's movement from past pain to embracing the present, both addressing renewal through struggle.",
+    "evidence": [
+      "T07:C2",
+      "T05:C3"
+    ],
+    "uncertainty": "The process of healing is portrayed with varying optimism."
+  },
+  {
+    "id": "E08",
+    "type": "counterpoint",
+    "topic": "Attachment through memory vs. acceptance of loss",
+    "interpretation": "T02 dwells on nostalgia and unfulfilled reunion, while T12 embraces letting go and celebrating beyond life, presenting opposing responses to rupture and attachment.",
+    "evidence": [
+      "T02:C3",
+      "T12:C1"
+    ],
+    "uncertainty": "Emotional resolution remains ambiguous in both."
+  },
+  {
+    "id": "E09",
+    "type": "contrast",
+    "topic": "Agency in self-growth vs. feeling trapped",
+    "interpretation": "T05 focuses on self-acknowledgment and growth, contrasting with T03's sense of being trapped in memories, illustrating different stages of identity and agency development.",
+    "evidence": [
+      "T05:C1",
+      "T03:C1"
+    ],
+    "uncertainty": "Narrator perspectives may overlap or shift."
+  },
+  {
+    "id": "E10",
+    "type": "return",
+    "topic": "Attachment despite distance",
+    "interpretation": "T08 and T02 both emphasize enduring attachment despite physical separation, reinforcing themes of closeness and memory across distance and rupture.",
+    "evidence": [
+      "T08:C1",
+      "T02:C1"
+    ],
+    "uncertainty": "Feelings may be idealized or conflicted."
+  },
+  {
+    "id": "E11",
+    "type": "transformation",
+    "topic": "From longing to acceptance",
+    "interpretation": "T03's unresolved longing contrasts with T07's gradual acceptance and healing, suggesting a narrative progression from emotional struggle to self-care and transformation.",
+    "evidence": [
+      "T03:C3",
+      "T07:C3"
+    ],
+    "uncertainty": "The timeline of emotional change is not explicit."
+  },
+  {
+    "id": "E12",
+    "type": "counterpoint",
+    "topic": "Social critique vs. personal love",
+    "interpretation": "T09 includes subtle social critique within its portrayal of universal love, contrasting with T01's more introspective focus on personal solitude and agency, highlighting different thematic scopes.",
+    "evidence": [
+      "T09:C3",
+      "T01:C2"
+    ],
+    "uncertainty": "Social critique may be implicit or peripheral."
+  }
+]

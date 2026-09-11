@@ -1,0 +1,34 @@
+[
+  {
+    "model": "text-embedding-3-small",
+    "usage": {
+      "prompt_tokens": 2942,
+      "total_tokens": 2942
+    },
+    "items": 33
+  },
+  {
+    "model": "text-embedding-3-small",
+    "usage": {
+      "prompt_tokens": 2633,
+      "total_tokens": 2633
+    },
+    "items": 30
+  },
+  {
+    "model": "text-embedding-3-small",
+    "usage": {
+      "prompt_tokens": 3204,
+      "total_tokens": 3204
+    },
+    "items": 35
+  },
+  {
+    "model": "text-embedding-3-small",
+    "usage": {
+      "prompt_tokens": 2693,
+      "total_tokens": 2693
+    },
+    "items": 30
+  }
+]

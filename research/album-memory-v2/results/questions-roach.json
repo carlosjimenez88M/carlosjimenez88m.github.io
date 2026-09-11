@@ -1,0 +1,60 @@
+[
+  {
+    "kind": "local",
+    "question": "Considering two adjacent songs, how does the first track's assertion of control over listeners contrast with the second track's expression of despair and internal conflict, and what unresolved tensions emerge from this juxtaposition?",
+    "target_ids": [
+      "T01",
+      "T02"
+    ],
+    "expected": "The first track asserts dominance and control over the audience's thoughts, emphasizing societal issues but leaving root causes ambiguous. The adjacent second track shifts to deep despair and hopelessness, oscillating between contemplation and cries for help, with unresolved internal conflict about life and death. Together, they highlight a tension between external control and internal vulnerability without resolving societal or personal struggles.",
+    "answerable": true
+  },
+  {
+    "kind": "distant",
+    "question": "Select one song from the first half and one from the second half, separated by at least four positions, that both critique societal issues but differ in their focus on emotional detachment versus chaotic internal struggle; how do their stances and unresolved questions compare?",
+    "target_ids": [
+      "T04",
+      "T11"
+    ],
+    "expected": "The first-half track critiques societal detachment and emotional numbness, emphasizing manipulation and collective guilt with unresolved questions about identity and authenticity. The distant second-half track expresses chaotic struggles with morality and identity, highlighting instability and internal turmoil with unresolved fate. Both engage social critique but differ as one focuses on external societal disconnection and the other on internal moral chaos.",
+    "answerable": true
+  },
+  {
+    "kind": "transformation",
+    "question": "Identify two separated tracks that contrast in their stance on coping with societal pressures: one depicting a narrator overwhelmed by addiction and external commands, the other rejecting materialism and advocating inner revolution; how do their unresolved tensions reflect this transformation?",
+    "target_ids": [
+      "T10",
+      "T05"
+    ],
+    "expected": "One track shows a narrator struggling with addiction, feeling isolated and pressured to conform, with an unfulfilled desire for change. The other rejects materialism and societal obsession, insisting on inner revolution and recognizing the emptiness of possessions. Their unresolved tensions contrast entrapment in addiction versus active rejection of material values, illustrating a transformation in coping with societal pressures.",
+    "answerable": true
+  },
+  {
+    "kind": "contradiction",
+    "question": "Which two tracks, separated by at least four positions, present conflicting perspectives on agency and survival, with one emphasizing personal empowerment amidst violence and the other revealing deep despair and hopelessness, thereby challenging a unified interpretive account?",
+    "target_ids": [
+      "T06",
+      "T02"
+    ],
+    "expected": "One track emphasizes survival as a constant struggle against others, expressing personal empowerment but acknowledging a bleak cycle of violence and self-destruction. The other conveys deep despair and hopelessness, oscillating between contemplation and cries for help, with unresolved internal conflict. Their contrasting stances on agency and emotional state challenge a smooth narrative of either empowerment or despair alone.",
+    "answerable": true
+  },
+  {
+    "kind": "multi_hop",
+    "question": "Considering three songs in chronological order with the first and last separated by at least six positions, how does the middle track qualify or complicate a narrative that begins with societal critique of emotional numbness and ends with chaotic moral struggle?",
+    "target_ids": [
+      "T04",
+      "T08",
+      "T11"
+    ],
+    "expected": "The first track critiques societal detachment and emotional numbness, highlighting manipulation and collective guilt. The middle track expresses feelings of being overwhelmed and trapped by choices, with a desire for change but persistent inadequacy, complicating the narrative by introducing personal despair and self-doubt. The last track reveals chaotic moral and identity struggles, with unresolved fate. Together, they form a multi-layered progression from societal critique through personal crisis to internal chaos.",
+    "answerable": true
+  },
+  {
+    "kind": "abstention",
+    "question": "Is there any track in the album that explicitly describes a concrete event of reconciliation or healing between the narrator and a family member?",
+    "target_ids": [],
+    "expected": "No track explicitly establishes a concrete event of reconciliation or healing between the narrator and a family member; such a relation or event is not supported by the provided annotations.",
+    "answerable": false
+  }
+]

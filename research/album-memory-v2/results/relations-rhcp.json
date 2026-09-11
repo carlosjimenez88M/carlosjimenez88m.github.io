@@ -1,0 +1,134 @@
+[
+  {
+    "id": "E01",
+    "type": "return",
+    "topic": "Yearning for connection and emotional intimacy",
+    "interpretation": "Both T03 and T11 express a deep longing for connection, highlighting vulnerability and complexity in relationships despite unresolved loneliness.",
+    "evidence": [
+      "T03:C1",
+      "T11:C1"
+    ],
+    "uncertainty": "Different emotional tones; connection may be idealized or conflicted."
+  },
+  {
+    "id": "E02",
+    "type": "contrast",
+    "topic": "Attitudes toward freedom and escape",
+    "interpretation": "T01 celebrates joyful travel and connection, while T04 reveals internal conflict and a sense of separation despite desires for change.",
+    "evidence": [
+      "T01:C3",
+      "T04:C1"
+    ],
+    "uncertainty": "Both involve escape but differ in emotional resolution."
+  },
+  {
+    "id": "E03",
+    "type": "transformation",
+    "topic": "From confrontation to vulnerability",
+    "interpretation": "T05's bold, confrontational stance contrasts with T12's acceptance of unconventional desires, suggesting a shift from aggression to playful freedom.",
+    "evidence": [
+      "T05:C1",
+      "T12:C1"
+    ],
+    "uncertainty": "Ambiguity in narrator's intentions complicates direct transformation."
+  },
+  {
+    "id": "E04",
+    "type": "counterpoint",
+    "topic": "Complex identity amid societal critique",
+    "interpretation": "T06 critiques superficial lifestyles and fame, while T10 embraces simplicity and nature, offering opposing views on identity and societal expectations.",
+    "evidence": [
+      "T06:C1",
+      "T10:C1"
+    ],
+    "uncertainty": "Both address identity but with differing thematic focus."
+  },
+  {
+    "id": "E05",
+    "type": "return",
+    "topic": "Ambiguity in longing and isolation",
+    "interpretation": "T07 and T08 both explore fading connections and ambiguous relationship dynamics, emphasizing unresolved emotional states.",
+    "evidence": [
+      "T07:C2",
+      "T08:C1"
+    ],
+    "uncertainty": "Narrator's perspective and listener's role remain unclear."
+  },
+  {
+    "id": "E06",
+    "type": "contrast",
+    "topic": "Expressions of agency and control",
+    "interpretation": "T05 asserts dominance and control, whereas T09 reflects a carefree attitude toward life and freedom, highlighting different expressions of agency.",
+    "evidence": [
+      "T05:C1",
+      "T09:C1"
+    ],
+    "uncertainty": "Agency is expressed differently; one confrontational, one relaxed."
+  },
+  {
+    "id": "E07",
+    "type": "transformation",
+    "topic": "From personal reflection to universal connection",
+    "interpretation": "T02's complex identity within a vast universe contrasts with T01's joyful embrace of life, suggesting a movement from introspection to outward connection.",
+    "evidence": [
+      "T02:C1",
+      "T01:C1"
+    ],
+    "uncertainty": "Relationship between personal and universal remains ambiguous."
+  },
+  {
+    "id": "E08",
+    "type": "counterpoint",
+    "topic": "Renewal through pain versus celebration",
+    "interpretation": "T14 seeks renewal and transformation amidst pain, while T01 celebrates life and love, presenting opposing emotional responses to experience.",
+    "evidence": [
+      "T14:C1",
+      "T01:C1"
+    ],
+    "uncertainty": "Both involve renewal but differ in emotional framing."
+  },
+  {
+    "id": "E09",
+    "type": "return",
+    "topic": "Unresolved tension in relationships",
+    "interpretation": "T03 and T09 both depict ambiguous and complex relationship dynamics, with themes of attachment and rupture recurring in both.",
+    "evidence": [
+      "T03:C2",
+      "T09:C3"
+    ],
+    "uncertainty": "Narrator's feelings and relationship outcomes remain unclear."
+  },
+  {
+    "id": "E10",
+    "type": "contrast",
+    "topic": "Social critique versus personal freedom",
+    "interpretation": "T06 critiques societal obsession with fame, while T12 embraces chaotic freedom and acceptance, highlighting tension between societal norms and individual desires.",
+    "evidence": [
+      "T06:C3",
+      "T12:C2"
+    ],
+    "uncertainty": "Both address social critique but with different attitudes."
+  },
+  {
+    "id": "E11",
+    "type": "transformation",
+    "topic": "From isolation to desire for intimacy",
+    "interpretation": "T08's drifting and fading imagery contrasts with T11's deep admiration and complex relationship, suggesting a movement toward emotional closeness.",
+    "evidence": [
+      "T08:C2",
+      "T11:C1"
+    ],
+    "uncertainty": "Emotional states differ; connection remains ambiguous."
+  },
+  {
+    "id": "E12",
+    "type": "counterpoint",
+    "topic": "Attachment amidst rupture and renewal",
+    "interpretation": "T04's internal conflict and separation contrasts with T15's adventurous escape and quest for connection, reflecting different responses to rupture and renewal.",
+    "evidence": [
+      "T04:C2",
+      "T15:C1"
+    ],
+    "uncertainty": "Both involve rupture but differ in agency and resolution."
+  }
+]

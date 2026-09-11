@@ -1,0 +1,11 @@
+{
+  "primary_and_threshold_cases": 504,
+  "conversation_turns": 32,
+  "sessions": 8,
+  "relations": 48,
+  "blind_review_items": 48,
+  "receipt_references_checked": 1502,
+  "budget_checks": 649,
+  "human_ratings_collected": 0,
+  "scope": "Structural, receipt, budget and session audit only; online-verifier errors are documented in the article."
+}

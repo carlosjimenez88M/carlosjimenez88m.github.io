@@ -1,0 +1,60 @@
+[
+  {
+    "kind": "local",
+    "question": "Considering two adjacent songs, how does the first express a desire for connection amid chaos, and the second reveal deep attraction mixed with uncertainty? How do their movements and unresolved tensions interplay to shape the emotional landscape?",
+    "target_ids": [
+      "T01",
+      "T02"
+    ],
+    "expected": "The first song (T01) conveys a yearning for unity amidst chaotic imagery, emphasizing collective experience but leaving the relationship between chaos and unity unclear. The adjacent second song (T02) focuses on deep attraction coupled with doubt about love's future, highlighting emotional uncertainty. Together, their movements contrast collective longing with personal desire, and their unresolved tensions underscore ambiguity in connection and love's permanence.",
+    "answerable": true
+  },
+  {
+    "kind": "distant",
+    "question": "Select one song from the first half and one from the second half, separated by at least four positions, that both use repetition to emphasize longing or desire. How do their thematic focuses and unresolved tensions differ despite this shared device?",
+    "target_ids": [
+      "T02",
+      "T16"
+    ],
+    "expected": "The first-half song (T02) repeats desire to express attraction and uncertainty about love's growth, with unresolved questions about the future of the relationship. The second-half song (T16) also uses repetition of love and longing but centers on hesitation and unpredictability in expressing feelings. While both emphasize desire, T02 focuses on emotional doubt about love's permanence, whereas T16 highlights complexity and unfulfilled intentions.",
+    "answerable": true
+  },
+  {
+    "kind": "transformation",
+    "question": "Identify two non-adjacent songs that contrast in their stance on emotional burden: one depicting persistent weight overshadowing celebrations, and another expressing hopeful renewal after hardship. How do their movements and unresolved elements reflect this transformation?",
+    "target_ids": [
+      "T15",
+      "T07"
+    ],
+    "expected": "The first song (T15) portrays emotional weight as a persistent burden overshadowing moments of celebration, with unresolved sources of this weight. The later song (T07) shifts to hopeful renewal, symbolized by the arrival of sun and thawing ice, though lingering effects of past struggles remain uncertain. Their movements contrast ongoing burden with emerging optimism, reflecting a transformation from heaviness to tentative hope.",
+    "answerable": true
+  },
+  {
+    "kind": "contradiction",
+    "question": "Which two songs, separated by at least four positions, present conflicting views on social critique and personal identity—one highlighting societal failure and violence, the other admiring unique individual identity—and how do their unresolved tensions resist a cohesive interpretive account?",
+    "target_ids": [
+      "T03",
+      "T12"
+    ],
+    "expected": "The earlier song (T03) focuses on violence, absurdity, and societal critique through Maxwell's actions, with unclear motivations and dark humor complicating understanding. The later song (T12) admires Polythene Pam's striking individuality and boldness, with ambiguity about her identity. Their unresolved tensions—societal failure versus personal admiration—contradict a smooth narrative by juxtaposing harsh social realities with celebration of uniqueness, challenging unified interpretation.",
+    "answerable": true
+  },
+  {
+    "kind": "multi_hop",
+    "question": "Considering three songs in chronological order with the first and last separated by at least six positions, how does the middle song qualify or complicate a theme of longing or desire introduced early and revisited later? Discuss how the movements and unresolved tensions across these songs create a nuanced emotional trajectory.",
+    "target_ids": [
+      "T02",
+      "T06",
+      "T16"
+    ],
+    "expected": "The first song (T02) introduces deep attraction mixed with uncertainty about love's future. The middle song (T06) complicates this by expressing intense desire coupled with emotional turmoil and burden, adding a darker, consuming aspect. The last song (T16) revisits longing with repeated expressions of love but reveals hesitation and unpredictability. Together, these create a trajectory from hopeful attraction through emotional weight to complex, unresolved affection.",
+    "answerable": true
+  },
+  {
+    "kind": "abstention",
+    "question": "Is there evidence in the provided annotations about a specific event where a character named Maxwell reconciles with Polythene Pam, and how does this event influence the album's overall narrative?",
+    "target_ids": [],
+    "expected": "No evidence or claims in the annotations establish any reconciliation event between Maxwell and Polythene Pam, nor its influence on the album's narrative. This relation is not supported by the supplied cards.",
+    "answerable": false
+  }
+]

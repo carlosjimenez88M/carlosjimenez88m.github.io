@@ -1,0 +1,2522 @@
+[
+  {
+    "case_id": "beatles-transformation-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-transformation-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-relational-2400-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-summary-300-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-transformation-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-summary-300-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-relational-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-relational-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-summary-300-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-summary-300-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-relational-1200-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-relational-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-relational-1600-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-summary-300-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-relational-1600-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-relational-2400-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-relational-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-transformation-summary-300-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-relational-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-relational-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-summary-300-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-relational-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-relational-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-relational-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-relational-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-relational-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-transformation-relational-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-relational-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-relational-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-relational-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-transformation-relational-1200-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-relational-1600-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-transformation-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-relational-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-summary-300-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-transformation-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-relational-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-transformation-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-relational-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-relational-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-recent-100000-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-summary-300-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-relational-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-transformation-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-summary-300-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-transformation-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-transformation-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-relational-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-relational-800-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-relational-1200-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-relational-1600-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-summary-300-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-summary-300-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-relational-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-relational-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-summary-300-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-relational-2400-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-relational-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-relational-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-summary-300-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-adaptive-100000-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-relational-1200-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-relational-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-summary-300-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-relational-1600-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-summary-300-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-relational-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-transformation-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-summary-300-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-transformation-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-summary-300-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-transformation-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-transformation-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-relational-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-summary-300-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-relational-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-summary-300-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-relational-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-summary-300-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-relational-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-relational-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-transformation-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-transformation-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-relational-1200-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-relational-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-relational-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-recent-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-tfidf-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-relational-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-embedding-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-relational-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-relational-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-transformation-embedding-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-relational-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-tfidf-1600-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-summary-300-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-tfidf-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-embedding-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-tfidf-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-relational-2400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-relational-800-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-adaptive-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-full-100000-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-relational-1200-t3",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-relational-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-embedding-1200-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-embedding-400-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-tfidf-800-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-summary-300-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-summary-300-t3",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-transformation-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-adaptive-100000-t2",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-adaptive-100000-t2",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-multi_hop-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-transformation-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-contradiction-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-abstention-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-contradiction-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-abstention-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-local-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-contradiction-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-transformation-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-distant-adaptive-100000-t4",
+    "passes": false,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-transformation-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-local-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-local-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-multi_hop-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-multi_hop-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-distant-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-abstention-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-contradiction-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-local-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-distant-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "roach-transformation-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "beatles-multi_hop-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "natalia-distant-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  },
+  {
+    "case_id": "rhcp-abstention-adaptive-100000-t4",
+    "passes": true,
+    "note": "Necessary ID alignment only; not semantic proof."
+  }
+]

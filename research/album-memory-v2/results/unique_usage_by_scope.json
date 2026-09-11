@@ -1,0 +1,22 @@
+{
+  "primary_and_threshold": {
+    "calls": 1063,
+    "input_tokens": 1145927,
+    "output_tokens": 132296
+  },
+  "sessions_only": {
+    "calls": 112,
+    "input_tokens": 144531,
+    "output_tokens": 13017
+  },
+  "smoke_or_failed_attempts": {
+    "calls": 5,
+    "input_tokens": 4379,
+    "output_tokens": 455
+  },
+  "preparation": {
+    "calls": 13,
+    "input_tokens": 43701,
+    "output_tokens": 9044
+  }
+}

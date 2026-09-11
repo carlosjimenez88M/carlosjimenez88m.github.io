@@ -1,0 +1,60 @@
+[
+  {
+    "kind": "local",
+    "question": "How do the interpretations of two adjacent songs reveal a shift in the narrator's experience of identity and agency, particularly focusing on their emotional states and desires?",
+    "target_ids": [
+      "T05",
+      "T06"
+    ],
+    "expected": "Track T05 (position 5) shows a bold, confrontational narrator asserting control amid ambiguous relationships, grappling with flaws and defiance. Adjacent track T06 (position 6) shifts to questioning the meaning of struggles, balancing desire for freedom with societal expectations, and reflecting on material burdens. Together, they reveal a movement from aggressive assertion to introspective questioning of agency and identity.",
+    "answerable": true
+  },
+  {
+    "kind": "distant",
+    "question": "Select one song from the first half and one from the second half, separated by at least four tracks, that both explore themes of attachment and rupture, and explain how their unresolved tensions differ.",
+    "target_ids": [
+      "T03",
+      "T08"
+    ],
+    "expected": "Track T03 (position 3) expresses a desire for connection amid loneliness and vulnerability, with unresolved loneliness despite attempts to connect. Track T08 (position 8) questions the listener's emotional state, emphasizing fading and loss, with unresolved concerns about connection and identity. Both address attachment and rupture but differ in focus: personal struggle versus external observation of decline.",
+    "answerable": true
+  },
+  {
+    "kind": "transformation",
+    "question": "Identify two non-adjacent tracks that contrast in their stance on agency—one showing assertive control and the other expressing vulnerability—and describe how this transformation is reflected in their interpretations.",
+    "target_ids": [
+      "T05",
+      "T03"
+    ],
+    "expected": "Track T05 (position 5) presents a narrator with a confrontational, dominant stance, asserting control and defiance despite ambiguous intentions. In contrast, track T03 (position 3) reveals vulnerability and longing, with the narrator feeling isolated and emotionally exposed. This contrast highlights a transformation from assertive agency to fragile vulnerability within the album's narrative.",
+    "answerable": true
+  },
+  {
+    "kind": "contradiction",
+    "question": "Which two tracks, separated by at least four positions, present unresolved themes that challenge a smooth interpretive account of identity and renewal, and how do their tensions oppose each other?",
+    "target_ids": [
+      "T02",
+      "T10"
+    ],
+    "expected": "Track T02 (position 2) grapples with complex, fluid identity within a vast universe, with unresolved tension between personal and universal connection, and moderate tension. Track T10 (position 10) expresses a carefree preference for simplicity and nature, with unclear links between nature and identity and lower tension. Their differing thematic focus and tension levels complicate a unified interpretation of identity and renewal.",
+    "answerable": true
+  },
+  {
+    "kind": "multi_hop",
+    "question": "Considering three songs in chronological order with the first and last separated by at least six tracks, how does the middle track qualify or complicate the themes of escape and agency found in the first and last?",
+    "target_ids": [
+      "T01",
+      "T07",
+      "T15"
+    ],
+    "expected": "Track T01 (position 1) celebrates joyful life and connection with themes of agency and escape. Track T15 (position 15) expresses a desire for adventure and escape with friends, reflecting on beauty and past experiences. The middle track T07 (position 7) complicates this by questioning the meaning of struggles and balancing desire for freedom with societal expectations, adding ambiguity to the themes of escape and agency.",
+    "answerable": true
+  },
+  {
+    "kind": "abstention",
+    "question": "Is there any explicit evidence in the interpretations that the album's narrator resolves all feelings of rupture and longing by the final track?",
+    "target_ids": [],
+    "expected": "No explicit evidence indicates that the narrator fully resolves feelings of rupture and longing by the album's end; unresolved tensions about connection and identity persist throughout the interpretations.",
+    "answerable": false
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "id": "E01",
+    "type": "contrast",
+    "topic": "Narrator's control vs. despair",
+    "interpretation": "T01 asserts dominance over minds, while T02 reveals vulnerability and hopelessness, highlighting differing responses to societal pressures.",
+    "evidence": [
+      "T01:C1",
+      "T02:C1"
+    ],
+    "uncertainty": "Different narrators may reflect varied emotional states, not direct opposition."
+  },
+  {
+    "id": "E02",
+    "type": "return",
+    "topic": "Societal critique and emotional detachment",
+    "interpretation": "T04 revisits themes of societal manipulation and emotional numbness initially suggested in T01's critique of media and government influence.",
+    "evidence": [
+      "T01:C2",
+      "T04:C1"
+    ],
+    "uncertainty": "Overlap may reflect shared themes rather than direct narrative continuation."
+  },
+  {
+    "id": "E03",
+    "type": "transformation",
+    "topic": "From personal pain to societal violence",
+    "interpretation": "T03's family emotional turmoil transforms into T06's broader reflection on violence and survival, expanding personal rupture to societal scale.",
+    "evidence": [
+      "T03:C2",
+      "T06:C2"
+    ],
+    "uncertainty": "Connection assumes thematic progression, not explicit narrative link."
+  },
+  {
+    "id": "E04",
+    "type": "counterpoint",
+    "topic": "Material rejection vs. survival struggle",
+    "interpretation": "T05 rejects materialism as empty, contrasting with T06's focus on survival amid violence, suggesting differing priorities in response to societal decay.",
+    "evidence": [
+      "T05:C1",
+      "T06:C1"
+    ],
+    "uncertainty": "Different thematic focuses may not be directly opposing but complementary."
+  },
+  {
+    "id": "E05",
+    "type": "contrast",
+    "topic": "Desire for change vs. entrapment",
+    "interpretation": "T09 expresses desire for change but feels trapped, contrasting with T10's chaotic struggle and oscillation between despair and escape.",
+    "evidence": [
+      "T09:C3",
+      "T10:C2"
+    ],
+    "uncertainty": "Both express struggle; contrast lies in emotional tone and agency."
+  },
+  {
+    "id": "E06",
+    "type": "return",
+    "topic": "Betrayal and anger revisited",
+    "interpretation": "T08's anger at betrayal echoes T07's depiction of violent, chaotic relationships, both exploring interpersonal rupture and distrust.",
+    "evidence": [
+      "T08:C1",
+      "T07:C1"
+    ],
+    "uncertainty": "Emotional intensity may differ; not necessarily same narrative voice."
+  },
+  {
+    "id": "E07",
+    "type": "transformation",
+    "topic": "Internal chaos to moral struggle",
+    "interpretation": "T11's chaotic mental state and desire for escape evolve into T12's deeper moral and identity turmoil, reflecting escalating internal conflict.",
+    "evidence": [
+      "T11:C1",
+      "T12:C2"
+    ],
+    "uncertainty": "Transformation inferred from thematic progression, not explicit."
+  },
+  {
+    "id": "E08",
+    "type": "counterpoint",
+    "topic": "Agency in societal critique",
+    "interpretation": "T01 emphasizes narrator's control over perceptions, while T04 highlights societal manipulation reducing genuine agency, presenting opposing views on power.",
+    "evidence": [
+      "T01:C1",
+      "T04:C2"
+    ],
+    "uncertainty": "May reflect different perspectives rather than contradiction."
+  },
+  {
+    "id": "E09",
+    "type": "contrast",
+    "topic": "Attachment and rupture dynamics",
+    "interpretation": "T03 focuses on familial abandonment and yearning, contrasting with T04's societal detachment and emotional numbness, showing rupture at personal vs. collective levels.",
+    "evidence": [
+      "T03:C1",
+      "T04:C1"
+    ],
+    "uncertainty": "Different scales of rupture complicate direct comparison."
+  },
+  {
+    "id": "E10",
+    "type": "return",
+    "topic": "Desire for change amid addiction",
+    "interpretation": "T10's chaotic struggle for control parallels T09's addiction and wish for change, both depicting cycles of entrapment and hope.",
+    "evidence": [
+      "T10:C3",
+      "T09:C3"
+    ],
+    "uncertainty": "Overlap may reflect common emotional themes, not narrative continuity."
+  },
+  {
+    "id": "E11",
+    "type": "transformation",
+    "topic": "From personal betrayal to societal decay",
+    "interpretation": "T08's personal betrayal and anger transform into T07's depiction of chaotic relationships intertwined with societal decay, expanding scope from individual to collective.",
+    "evidence": [
+      "T08:C3",
+      "T07:C3"
+    ],
+    "uncertainty": "Transformation inferred; direct link not explicit."
+  },
+  {
+    "id": "E12",
+    "type": "counterpoint",
+    "topic": "Hope and renewal vs. unresolved pain",
+    "interpretation": "T05 suggests inner revolution and renewal beyond materialism, contrasting with T02's persistent despair and unresolved internal conflict.",
+    "evidence": [
+      "T05:C3",
+      "T02:C3"
+    ],
+    "uncertainty": "Hope and despair coexist ambiguously; not strictly oppositional."
+  }
+]
