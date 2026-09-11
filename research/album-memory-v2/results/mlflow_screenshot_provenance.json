@@ -1,0 +1,11 @@
+{
+  "capture_type": "Unedited screenshot of the original MLflow 3.16.0 UI",
+  "trace_id": "tr-a50ba4b65ccff2fe53c6b809b54a0237",
+  "run_id": "508a1277f52d4f8d9d6619b4b110d887",
+  "case_id": "roach-distant-adaptive-100000-t3",
+  "chat_model_spans": 13,
+  "trace_tokens": 19831,
+  "view": "Full-screen trace; timeline enabled; Chat model spans only; parents hidden; first sufficiency output selected.",
+  "image_sha256": "bfa5fd04d3b497a542b933b1e9d7b45b5e13f48d009293cbf2e6d3bfdbe67033",
+  "note": "No trace was recreated and no model was rerun for this capture. UI Success denotes execution completion. UI cost is an automatically displayed estimate, not a separately validated dated price analysis."
+}

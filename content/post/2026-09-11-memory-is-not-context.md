@@ -1,7 +1,7 @@
 ---
 author: Carlos Daniel Jiménez
 date: 2026-09-11T00:00:00-05:00
-lastmod: 2026-09-11T09:20:51-05:00
+lastmod: 2026-09-11T11:02:07-05:00
 title: "Memory Is Not Context: Token Budgets, Narrative Relations, and Agent Economics"
 description: "Context optimization is not agent optimization: a critical four-album study of retrieval, verifier failures, and whole-trajectory accounting with LangGraph and MLflow."
 categories: ["Engineering", "Music Analysis"]
@@ -17,7 +17,7 @@ In [Part I](/post/2026-09-11-langgraph-mlflow-album-memory/), I examined how muc
 
 The result challenges the engineering hypothesis. It also challenges the instrument used to evaluate it.
 
-## I. The result, before the architecture
+## I. Results at a glance
 
 Each setting answers the same 24 questions: 20 positive questions and four questions whose premises are not established by the source cards. “Acceptance” below means the positive answer passed an online model verifier and a structural gate. It does **not** mean independently established correctness. Trajectory tokens include all generation, sufficiency and verification calls, averaged over all 24 questions.
 
@@ -86,6 +86,8 @@ The original article acknowledged one false positive. That was necessary, but in
 
 For this revision, a Codex AI assistant reviewed all **72 final responses** from full context, embedding retrieval at 1,600 tokens, and adaptive retrieval at threshold three. The review read answer prose, structured claims and the complete source-card claims, checking support, attribution, the requested relation, temporal scope, interpretive restraint and abstention. Its [case-by-case notes](/examples/album-memory-v2/editorial-audit.json) are published.
 
+The separate [blind-review packet](/examples/album-memory-v2/human-review.html) contains **24 Full + 24 Embedding1600 + 24 Adaptive responses**, shuffled with policy labels and automated scores withheld. Including the economical baseline matters: reviewing only full context and adaptive memory would leave the comparison that motivates this article unexamined. The form separates evidence support, attribution, the requested relation and narrative defensibility, plus whether the answer should have abstained. No human ratings have been collected.
+
 This is a **post-hoc, non-blind AI editorial audit**, with prior access to policy results. It is not human review, an independent adjudication, or a new gold standard. I report concrete disagreements rather than turning its judgments into a replacement accuracy percentage. The findings are inspectable precisely because the source addresses and original verdicts remain available.
 
 ### A correct address can support the wrong interpretation
@@ -142,7 +144,9 @@ The implementation uses `mlflow.langchain.autolog()` and `mlflow.openai.autolog(
 
 Those records let us examine the *Infest* execution that opened this article:
 
-{{< figure src="/img/album-memory-v2/infest-receipt-sequence.svg" alt="Thirteen ordered provider calls for the Infest distant adaptive question, grouped by five growing memory caps, totaling 19831 input and output tokens." caption="Reconstructed from the execution's ordered provider receipts, not an MLflow UI screenshot or a timing diagram. Five sufficiency calls, four generations and four verifications precede an accepted answer with a known attribution error." >}}
+{{< figure src="/img/album-memory-v2/mlflow-infest-trace.png" alt="Actual MLflow trace for the Infest distant adaptive case. Thirteen chat-model spans appear on the execution timeline; the header records 19,831 tokens. The first sufficiency response identifies missing second-half evidence." caption="The original Infest execution in MLflow 3.16.0, filtered to its thirteen chat-model spans. The selected first call explains why retrieval must expand; the header counts the complete trace. Success means the execution completed, not that its interpretation was correct." >}}
+
+The screenshot makes the stopping problem concrete: the first call identifies a real absence of evidence, but that reasonable decision opens a path whose eventual cost and correctness must still be assessed. The UI’s rounded dollar estimate is not the dated pricing analysis discussed below.
 
 The first sufficiency call declines to generate. At subsequent caps the controller generates, verifies and expands. The final exposed memory is 2,326 tokens, but that number omits the previous contexts, repeated instructions, sufficiency decisions, generated attempts and verdicts. The complete logical trajectory is 19,831 tokens.
 
@@ -180,23 +184,13 @@ There is no embedding conversation control and no matched no-history ablation. B
 
 [LangGraph's memory documentation](https://docs.langchain.com/oss/python/langgraph/add-memory) distinguishes thread persistence from memory shared across sessions. The experiment uses in-process storage and checkpoints; it does not demonstrate durable production memory. Persisting an archive is also separate from choosing which parts become model input.
 
-## IX. What would make the next claim credible?
+## IX. What this study leaves unresolved
 
-The revision leaves the original executions intact. The following comparisons are **proposed follow-up experiments, not completed results**. Their purpose is to separate effects the current design combines.
+The useful limit of this experiment is now clearer. It exposes the cost of deciding what to retrieve and the weakness of treating a stopping verdict as an independent measure of quality. It does not yet tell us which routing policy should replace this controller. Adding another policy here would require a new comparison, and would make it too easy to revise the question around whichever result arrived next.
 
-**First, repair and independently evaluate the task.** The blank [72-response review packet](/examples/album-memory-v2/human-review.html) now includes full, embedding 1,600 and adaptive outputs, hiding policy and model scores. Its rubric separates support, attribution, requested relation and narrative defensibility on a 0–2 scale, plus whether abstention was warranted. Two independent human reviewers could adjudicate disagreements and estimate agreement; no human ratings or kappa statistic exist in this release. Before new benchmark runs, question wording and reference chronology also need adjudication. Repeated generation cannot repair an invalid target.
+The independent review also remains unfinished. A three-policy packet is a better basis for that work, but preparing it is not equivalent to collecting judgments. Before a stronger correctness claim, reviewers need to examine the evidence and the questions themselves, including ambiguous narrative requirements and the flawed chronological reference. More generations cannot resolve those defects on their own.
 
-**Second, separate graph retrieval from graph prose.** The present relational policy changes both candidate selection and the text shown to the generator. A controlled ablation should use the same retrieved edge ranking to select source addresses, then expose cards alone. Compare embedding-to-cards, relation-to-cards-plus-explanations, and relation-to-cards under matched memory budgets. Also compare matched card sets with and without relation prose: otherwise a result still mixes selection with how many cards fit. Freeze deduplication, packing and ordering before evaluation. Only then can an improvement be assigned to retrieving relations or explaining them.
-
-**Third, manipulate distraction while holding evidence fixed.** The current embedding grid increases designated evidence availability from 59.1% to 100%, while citation given exposure falls from 92.3% to 68.2%. Different items enter the denominator at different budgets. That does not identify context dilution.
-
-{{< figure src="/img/album-memory-v2/budget-utilization.svg" alt="Evidence availability rises across budget caps while conditional citation generally declines; selected evidence changes across those caps." caption="Availability and citation given exposure answer different questions. These curves neither measure transformer attention nor establish that additional context caused distraction." >}}
-
-A stronger test would retain identical target claims, vary distractor count, and randomize whether targets appear at the beginning, middle, end or split positions. Distractors would need checking for alternative valid answers; twelve distractors are not available for every target set in every album. The causal outcome would be support and correct attribution for the same evidence under those interventions. [Lost in the Middle](https://arxiv.org/abs/2307.03172) motivates investigating positional effects; it does not establish them for this task or these models.
-
-**Fourth, constrain the trajectory before another call.** A cost-aware controller needs cumulative usage, retrieval rounds, verification failures and an explicit remaining budget in state. Stopping only after cumulative use exceeds a limit is not a hard cap: the next call can overshoot. Admission control must reserve its known input and maximum allowed output, with a refusal or fallback when the call cannot fit. A proposed jump from 400 to 1,600 should identify missing evidence rather than assume every intermediate inspection is useful. Static embeddings, the present controller and this revised controller would then face the same independently evaluated workload.
-
-Finally, repeat the critical settings after freezing that protocol. Repeated runs can characterize hosted-model variation, but they do not create new albums or questions. Analysis should preserve pairing and clustering by question and album. With only four albums, even an attractive interval cannot establish broad artist-level generalization.
+I would stop this experiment at that boundary. Its contribution is the distinction between the evidence an agent exposes, the interpretation it produces, and the total process required to produce it. The next study should begin with those distinctions as design constraints.
 
 ## X. What I would carry forward
 
@@ -210,6 +204,8 @@ For AI software engineering, that requirement reaches beyond prompting. The sour
 
 The next implementation should be judged on whether it recovers and attributes the required evidence more reliably at an acceptable total cost. More elaborate memory earns its complexity through that comparison.
 
+The series can now move from **Part I — What Should an Agent Remember?**, on memory and narrative, through **Part II — Memory Is Not Context**, on exposure, evidence use and agent economics, to a planned **Part III — Context Optimization Is Not Agent Optimization**. Its working question is *Adaptive Memory Is a Routing Problem: Choosing What an Agent Should Retrieve Under a Token Budget*. Task-aware routing, relation-index retrieval and hard trajectory budgets belong to that next experiment; they are not results of this one.
+
 ## Reproduction and revision record
 
 The [experiment package](/examples/album-memory-v2-study.zip) contains the frozen source cards, relations, questions, all 504 primary/threshold trajectories, 32 conversation turns, provider-usage exports, analysis scripts, figures and review materials. The [complete results table](/examples/album-memory-v2/policy_means.csv) retains the original acceptance and post-hoc ID screen. The [task table](/examples/album-memory-v2/revision_task_table.csv) supports the new heatmap.
@@ -218,4 +214,4 @@ The environment remains pinned to MLflow 3.16.0 and LangGraph 1.2.11. Generation
 
 The omitted controls remain informative within their contracts: recent three accepts 4/20 positives; the original summary accepts none because it lacks addressable source claims under the stricter provenance requirement. That zero does not demonstrate that provenance-preserving summarization would fail. Leave-one-album-out threshold selection reaches 18/20 online acceptance at about 10,905 tokens per query and 85% after the earlier ID screen. It selects thresholds only; prior corpus inspection and selection of the embedding budget remain limitations.
 
-**Revision, September 11, 2026:** the argument has been reorganized around trajectory cost and evaluator validity. This version adds a qualitative AI audit of 72 responses, task-level and conversation figures, and the *Infest* receipt reconstruction. It expands the blank human-review packet from 48 to 72 responses. It does not change historical model outputs, invent human judgments, or present the proposed ablations as executed. Full lyrics, credentials, private trace databases and the blind-review policy key remain excluded.
+**Revision, September 11, 2026:** the argument has been reorganized around trajectory cost and evaluator validity. This version adds a qualitative AI audit of 72 responses, task-level and conversation figures, and a real screenshot of the original *Infest* trace in MLflow. The receipt reconstruction remains in the downloadable artifacts. The blank blind-review packet includes 24 responses from each of Full, Embedding1600 and Adaptive. The results overview is at the beginning, and follow-up experimental protocols have been reserved for Part III. It does not change historical model outputs, invent human judgments, or present the proposed ablations as executed. Full lyrics, credentials, private trace databases and the blind-review policy key remain excluded.

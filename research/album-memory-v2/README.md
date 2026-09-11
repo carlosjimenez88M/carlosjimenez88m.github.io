@@ -97,3 +97,7 @@ musical concerns limit claims of novelty and generalization.
 ## Editorial revision, September 11, 2026
 
 `editorial-review/audit.json` contains 72 qualitative AI review notes for full, embedding 1600 and adaptive threshold 3. This was a post-hoc, non-blind review of answer prose, claims, questions and source cards, not human validation. It adds no accuracy estimate and changes none of the 504 original trajectories. `editorial-review/build.py` packages the written notes; it does not generate judgments. `revision_figures.py` reproduces the task, conversation and receipt figures offline. The blank human packet now includes all three policies and has no completed ratings. Proposed controlled ablations and repeated runs in the revised article remain unexecuted.
+
+## Final editorial scope
+
+The article now opens with Results at a glance and links the existing 72-item blind packet (24 Full, 24 Embedding1600, 24 Adaptive). `results/mlflow_screenshot_provenance.json` identifies the original trace and the unedited UI capture included at `static/img/album-memory-v2/mlflow-infest-trace.png`. The trace contains 13 chat-model spans and 19,831 tokens. Chat-model filtering hides orchestration spans only. No model was rerun or trace reconstructed for the screenshot. Follow-up routing and budget experiments are reserved for Part III.
