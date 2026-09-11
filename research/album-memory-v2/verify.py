@@ -26,8 +26,8 @@ def main():
  for album in ALBUMS:
   aid=album['id'];addresses={f"{c['id']}:{v['claim_id']}" for c in cards_for(aid) for v in c['claims']}
   for edge in read(OUT/f'relations-{aid}.json'):assert len(edge['evidence'])==2 and set(edge['evidence'])<=addresses
- assert len(read(Path(__file__).parent/'human-review/items.json'))==48
- report=dict(primary_and_threshold_cases=504,conversation_turns=32,sessions=8,relations=48,blind_review_items=48,receipt_references_checked=receipt_checks,budget_checks=budget_checks,human_ratings_collected=0,scope='Structural, receipt, budget and session audit only; online-verifier errors are documented in the article.')
+ assert len(read(Path(__file__).parent/'human-review/items.json'))==72
+ report=dict(primary_and_threshold_cases=504,conversation_turns=32,sessions=8,relations=48,blind_review_items=72,receipt_references_checked=receipt_checks,budget_checks=budget_checks,human_ratings_collected=0,scope='Structural, receipt, budget and session audit only; online-verifier errors are documented in the article.')
  write(OUT/'verification.json',report);print(dumps(report))
 def cards_for(aid):return read(OLD/f'cards-{aid}.json')
 if __name__=='__main__':main()

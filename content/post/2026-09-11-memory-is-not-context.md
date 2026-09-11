@@ -1,281 +1,221 @@
 ---
 author: Carlos Daniel Jiménez
 date: 2026-09-11T00:00:00-05:00
+lastmod: 2026-09-11T09:20:51-05:00
 title: "Memory Is Not Context: Token Budgets, Narrative Relations, and Agent Economics"
-description: "Part II of a four-album experiment: budgeted retrieval, an adaptive LangGraph controller, claim-level verification, and MLflow trajectory accounting."
+description: "Context optimization is not agent optimization: a critical four-album study of retrieval, verifier failures, and whole-trajectory accounting with LangGraph and MLflow."
 categories: ["Engineering", "Music Analysis"]
 tags: ["langgraph", "mlflow", "memory", "evaluation", "narrative", "context-engineering"]
 draft: false
 ---
 
-An agent can store an entire album and still fail to answer a question about two songs. Giving it the complete archive does not tell it which relationship matters. Compressing that archive does not guarantee that the relationship survives.
+An agent answered a question about *Infest* with 2,326 tokens of memory in its final context. Getting to that answer required thirteen model calls and 19,831 input and output tokens. The verifier accepted it. One of its claims attributed evidence from the fourth song to the first.
 
-In [Part I](/post/2026-09-11-langgraph-mlflow-album-memory/), selecting six song cards used 54% fewer generation input tokens than the full archive and recovered more of the designated evidence in citations. But the judge also rewarded answers that missed the question's temporal requirement. That combination changes the next experiment. We need to study the path from stored evidence to a correctly attributed answer, and count the resources consumed along that path.
+That execution contains the central problem of this study. A smaller context can conceal a more expensive decision process, and an accepted answer can conceal an unsupported interpretation. Neither becomes visible if the experiment ends at the final prompt or the aggregate score.
 
-**Can an agent remember more while exposing less—and can it recognize when less is insufficient?**
+In [Part I](/post/2026-09-11-langgraph-mlflow-album-memory/), I examined how much evidence about an album survives different memory policies. Here the question becomes more demanding: **does representing relations between songs, and letting an agent expand its context, improve the evidence it can use enough to justify the additional work?**
 
-The measured result is a useful correction to the hypothesis: a 1,600-token embedding retriever and the adaptive controller both reached 90% online-verifier acceptance, but the adaptive controller consumed about 3.8 times as many trajectory tokens. A later attribution check also exposed a false positive in that acceptance.
+The result challenges the engineering hypothesis. It also challenges the instrument used to evaluate it.
 
-The word *recognize* creates an engineering obligation. A controller that retrieves again whenever it feels uncertain can consume more resources than simply reading the archive. A verifier that accepts plausible prose can make an economical system appear reliable. Both belong inside the measurement.
+## I. The result, before the architecture
 
-## I. Separate availability, use, and attribution
+Each setting answers the same 24 questions: 20 positive questions and four questions whose premises are not established by the source cards. “Acceptance” below means the positive answer passed an online model verifier and a structural gate. It does **not** mean independently established correctness. Trajectory tokens include all generation, sufficiency and verification calls, averaged over all 24 questions.
 
-Start with a distinction we can actually observe:
+| Policy | Positive answers accepted | Mean trajectory tokens |
+| --- | ---: | ---: |
+| Full source cards | 15/20 · 75% | 2,890 |
+| Embedding retrieval · 1,200-token cap | 16/20 · 80% | 2,249 |
+| Embedding retrieval · 1,600-token cap | 18/20 · 90% | 2,713 |
+| Adaptive relational memory · threshold 3 | 18/20 · 90% | 10,336 |
 
-```text
-Stored cards and relation hypotheses
-                  ↓
-          Retrieved candidates
-                  ↓
-       Evidence exposed in context
-                  ↓
-         Evidence cited in output
-                  ↓
-      Claims supported by their sources
-```
+**Adaptive memory matched the best observed embedding setting's acceptance while consuming approximately 3.8× its trajectory tokens.** Under those two measured quantities, the simpler retriever dominates this controller.
 
-The last two steps are different. A citation can name a real song while attributing another song's content to it. The first experiment included exactly that failure.
+There are two immediate qualifications. The 1,600-token setting was selected after inspecting the budget grid; it is an observed comparison point, not a validated optimum. More seriously, the adaptive controller uses the online verifier to decide whether to retry. Its score measures success at satisfying that checker through bounded search. It is not an independent evaluation of the resulting answer.
 
-For designated target items, I define retrieval availability as the fraction exposed to the generator. Citation utilization is the fraction of exposed target items that the answer cites. Attribution is assessed at the level of the answer's individual claims and their cited source claims. These definitions do not reveal transformer attention or prove that a passage caused an output. Even an uncited passage can affect generation.
+A previous deterministic attribution screen reduced adaptive acceptance to 85% while leaving embeddings at 90%. The deeper review in this revision finds semantic failures in embeddings too. Neither percentage should be promoted to an accuracy claim.
 
-Recomputing the original pilot makes the denominator problem concrete:
+{{< figure src="/img/album-memory-v2/pareto-frontier.svg" alt="Observed online acceptance versus complete trajectory tokens. Embeddings at 1600 and adaptive both reach 18 of 20, at substantially different resource use." caption="The empirical frontier describes this evaluator and these observations. It is not a validated frontier of interpretive correctness." >}}
 
-| Part I policy | Designated items exposed | Exposed items cited | Citation given exposure |
-| --- | ---: | ---: | ---: |
-| Full archive | 72 | 39 | 54.2% |
-| Selective 6 | 54 | 47 | 87.0% |
-| Recent 3 | 18 | 18 | 100% |
+The useful conclusion is therefore narrower than a ranking of memory architectures: **context optimization is not agent optimization.** Context size is one resource inside a trajectory. The evidence standard must apply to the answer produced at the end of that trajectory, including the relations its prose asserts.
 
-Recent three wins the conditional ratio because it receives very little of the required evidence. It does not win the task. Selection changes the denominator. That is why utilization must be displayed beside availability, rather than interpreted as a universal measure of reading ability.
+## II. Why use albums to investigate agent memory?
 
-The summary requires another qualification. In Part I, an identifier could survive without its supporting claim. In this experiment, a name inside prose does not count as exposure of a source claim. A conditional ratio with no exposed source claims is undefined, not zero.
+My interest in musical and argumentative arcs begins with a distinction that retrieval systems often flatten: recurrence is not development. Two songs can discuss loss without occupying successive stages of recovery. A later expression of gratitude can coexist with grief. A different voice can introduce resistance without continuing the same protagonist's story.
 
-I also avoid calling uncited context “waste.” We can measure the fraction associated with citations, but cannot establish that the remainder was irrelevant to the model. Operational measures should not claim access to hidden cognitive mechanisms.
+An argumentative arc requires more than shared vocabulary. A position encounters a qualification, an alternative, or counterevidence. The analytical task is to identify that relationship and explain why its sources support it. An album gives the problem an explicit order while leaving its interpretation open to disagreement.
 
-## II. An album is a useful memory environment
+The corpus contains *Californication*, *Infest*, *Abbey Road*, and *De todas las flores*: 56 analytical units, including “Tightrope” separately from “Thrown Away.” Each unit contributes three paraphrased source claims with addresses such as `T04:C2`. The experiment operates on those **168 model-produced claims**, inherited from Part I. They are silver annotations, not human ground truth.
 
-The corpus remains the same: *Californication*, *Infest*, *Abbey Road*, and *De todas las flores*. Their 56 analytical units include “Tightrope” separately from “Thrown Away.” This continuity lets us examine the engineering extension without silently changing the corpus.
+This boundary matters. The inputs do not represent harmony, timbre, performance, production or transitions. In *Abbey Road*, continuity can be carried by the music while the lyrics change characters. English paraphrases of Natalia Lafourcade's Spanish lyrics introduce another layer of interpretation. Even full context means all the cards, not all the evidence a listener could use.
 
-It also limits the result. The cards were already inspected in Part I, and the albums were selected intentionally. This is an extension of a small pilot, not an independent replication or evidence about whole discographies.
+The study consequently tests an agent's handling of a bounded analytical representation. It does not discover an album's definitive narrative, validate the annotations against the lyrics, or establish four general musical topologies from four chosen examples.
 
-Each card has a position and three paraphrased claims tied to private lyric line references. The new memory format assigns global addresses such as `T05:C2`. A relation has two supporting addresses, an interpretive type, a topic, a short explanation, and an uncertainty. Relations are constructed before the new questions.
+The engineering distinction has a useful precedent in [LongMemEval](https://arxiv.org/abs/2410.10813), which separates indexing, retrieval and reading in conversational memory. I borrow that decomposition, not its benchmark validity or results. Here we also need to distinguish reading a source from defending a relation between sources.
 
-```yaml
-id: E01
-# Schema illustration; not a measured edge.
-type: contrast
-topic: approaches to connection
-evidence:
-  - T02:C1
-  - T11:C2
-interpretation: A proposed contrast that must be checked against both claims.
-uncertainty: Shared vocabulary does not establish one narrator.
-```
+## III. What was actually compared
 
-I do not attach an invented probability to an interpretive edge. A number such as 0.81 would suggest calibration that this study does not provide. The relation is a hypothesis with addresses, not a second independent source confirming its own input cards.
+The memory policies share the answer model, question and source-card archive. What changes is selection and, for the adaptive policy, the path taken before stopping.
 
-The four albums offer different possible stresses. *Californication* distributes connection, vulnerability, movement, and social critique across songs. *Infest* can make distinct objects of conflict look alike if memory retains only emotional intensity. *Abbey Road* combines contrasting characters and a coda, while much of its continuity is musical and therefore outside lyric-only inputs. *De todas las flores* allows us to examine changing roles of healing, nature, and farewell without assuming that loss simply disappears.
-
-These are reasons to examine results by album. They are not validated assignments of four narrative topologies. One album per proposed pattern cannot establish that a topology determines the best memory policy.
-
-## III. Retrieve relations, then expand their evidence
-
-The experiment compares seven policy families:
-
-| Policy | What it exposes |
+| Policy | Selection and exposed representation |
 | --- | --- |
-| Full | Every compact source card |
-| Recent | The last three compact source cards |
-| Summary | The original rolling summary, with its original provenance limitations |
+| Full | All compact source cards |
+| Recent | Last three source cards |
+| Summary | Part I's rolling summary, retaining its provenance limitations |
 | TF-IDF | Whole cards ranked by lexical relevance |
 | Embedding | Whole cards ranked by semantic similarity |
-| Relational | Retrieved relation hypotheses plus the cards supporting them |
-| Adaptive relational | Relational context that can expand after sufficiency or attribution failure |
+| Relational | Ranked relation hypotheses plus their supporting cards |
+| Adaptive relational | Relational retrieval with expansion after insufficient evidence or failed verification |
 
-The three ranked retrieval policies use exposed-memory budgets of 400, 800, 1,200, 1,600, and 2,400 tokens. Full is the unbounded reference. Recent and summary remain single controls; repeating the same context under different budget labels would not create additional observations.
+The three ranked retrieval methods use memory caps of 400, 800, 1,200, 1,600 and 2,400 tokens. Cards are packed whole; the instruction and question are additional input. Relation prose consumes the same budget as source evidence. Recent and summary are single controls, not repeated under artificial budget labels.
 
-A budget applies to the serialized memory, measured with the model family's tokenizer. The instruction, question, and provider framing are additional input. Cards are packed whole. Relation text counts against the budget when it is exposed. If a complete edge and its cards do not fit, the relational policy can include a ranked source card; it cannot pretend to have included a complete relation.
+The relation memory contains twelve generated edges per album. Each edge has two source addresses, a type—return, contrast, transformation or counterpoint—and an interpretive explanation with a caution. Edges are constructed before the new questions and carry no numerical confidence. An edge is a hypothesis derived from the cards, not independent corroboration of them.
 
-The embedding policy uses `text-embedding-3-small`. LangGraph's indexed `InMemoryStore` holds separate card and relation namespaces per album. Relation retrieval ranks edge descriptions and adds a small, fixed preference for the relation types relevant to the public task: for example, contrast for a question challenging a smooth account. It then expands the referenced cards. Neither ranking stage receives the designated answer IDs.
+{{< figure src="/img/album-memory-v2/relation-memory.svg" alt="Twelve source-addressed relation hypotheses per album connect track positions, colored by interpretive relation type." caption="The tested relation memory. Arc height is layout, not confidence or evidential strength. Sparse generated edges can omit the relationship a question needs." >}}
 
-This design tests a precise idea: a narrative question may benefit from retrieving a relationship rather than the nearest single passage. It does not assume that embeddings fail at contradiction or that graph retrieval wins. A bad edge can direct retrieval toward exactly the wrong pair.
+Retrieval uses `text-embedding-3-small` through separate card and relation namespaces in LangGraph's `InMemoryStore`. Relation ranking also includes a fixed preference for types relevant to the public task. Neither retriever receives the designated answer IDs.
 
-The store is in memory for this experiment. It is reused within a process, but is not a durable production database. The [LangGraph memory documentation](https://docs.langchain.com/oss/python/langgraph/add-memory) distinguishes persistent thread state from cross-session memory and describes database-backed options. Changing the storage backend would not itself change which tokens enter a model request.
+The adaptive controller starts at 400 tokens and can visit 800, 1,200, 1,600, 2,400 and complete relational memory. A sufficiency model assigns an ordinal score from zero to four. At the primary threshold of three, the controller generates when evidence appears sufficient, then verifies the answer. Failure can trigger another expansion. The process terminates at the final level; it has a round limit but no hard cumulative-token limit.
 
-## IV. Six task types and a stricter answer contract
+There are six questions per album: local adjacency, distant comparison, transformation, contradiction, an ordered three-song relation, and an unsupported premise requiring abstention. The answer contract requests at most 90 words and four atomic claims, each citing exact source addresses. Questions and expected answers are model-generated. A separate model challenged the proposed negative cases against the complete cards, which improves screening without making them human-validated negatives.
 
-The new question set contains one question of each type per album:
+The primary grid contains 456 trajectories. Two additional adaptive thresholds add 48, for 504 total. These are **24 questions evaluated repeatedly under different settings**, not 504 independent research examples. Each question-setting has one generated outcome; this grid does not estimate variation from repeated hosted-model execution.
 
-| Task | Required evidence structure |
-| --- | --- |
-| Local | Two adjacent songs |
-| Distant | One song from each half, at least four positions apart |
-| Transformation | Two separated songs contrasting a stance on a shared concern |
-| Contradiction | Two separated songs challenging a proposed smooth reading |
-| Multi-hop | Three songs in order, first and last at least six positions apart |
-| Abstention | A requested premise not established by the available cards |
+## IV. The evaluator became part of the result
 
-Questions make their structural demands explicit but withhold designated track IDs. Target pairs and expected answers remain silver annotations. Some new questions revisit concerns already raised by Part I; they are not an untouched benchmark of unknown concepts.
+The original article acknowledged one false positive. That was necessary, but insufficient. It left the impression that correcting one source-ID mismatch might recover a trustworthy ranking.
 
-A separate adversarial check reads the complete card archive to challenge each proposed negative question. That makes the negative cases less arbitrary, but it is still model review of model-produced cards. Lack of support in the cards does not establish that a relation is absent from the music.
+For this revision, a Codex AI assistant reviewed all **72 final responses** from full context, embedding retrieval at 1,600 tokens, and adaptive retrieval at threshold three. The review read answer prose, structured claims and the complete source-card claims, checking support, attribution, the requested relation, temporal scope, interpretive restraint and abstention. Its [case-by-case notes](/examples/album-memory-v2/editorial-audit.json) are published.
 
-The generator must produce an answer of at most 90 words and no more than four atomic claims. Each claim must cite exact addresses such as `T04:C2`. It must abstain if evidence or provenance is insufficient. This is stricter than Part I's track-ID contract, so the new scores cannot be treated as a direct continuation of the old quality scale.
+This is a **post-hoc, non-blind AI editorial audit**, with prior access to policy results. It is not human review, an independent adjudication, or a new gold standard. I report concrete disagreements rather than turning its judgments into a replacement accuracy percentage. The findings are inspectable precisely because the source addresses and original verdicts remain available.
 
-The online verifier receives the question, the answer, and the cited source claims. It checks each assertion separately, whether every substantive sentence is represented among the claims, and whether the answer addresses the question. A structural gate also checks the requested track positions and whether references were actually exposed. The verifier does not see silver targets or expected answers.
+### A correct address can support the wrong interpretation
 
-An initial smoke test exposed a useful implementation failure: a free-form verifier grouped several claims into one result. The final verifier uses a structured response requiring a separate result for every claim index. This enforces coverage of the verification task, not the correctness of the verdict. Model errors remain possible.
+The expensive *Infest* response assigns societal manipulation to T01 while citing `T04:C2`. The verifier accepts that inconsistent mapping. An explicit-ID check catches it, reducing the primary adaptive result from 18 to 17 accepted positives.
 
-Malformed generator outputs fail visibly. They do not become successful abstentions. An adaptive policy can spend another round trying to recover, and that round counts against its resource use.
+But consider the embedding answer to Natalia Lafourcade's three-song question. Its prose describes T08 as nostalgia and loss. Its cited `T08:C1` says that distance does not diminish closeness. Those are different propositions. The verifier explicitly treats the latter as supporting the former. The source address is valid, so the earlier ID-alignment screen misses the error.
 
-## V. The adaptive controller has a stopping problem
+This changes how I interpret the embedding result. It remains the economical baseline under the recorded evaluator; it has not demonstrated 90% correctness. The failure is in the semantic binding between prose and evidence, where a syntactically valid citation provides little protection.
 
-The primary controller begins with 400 memory tokens. Its available levels are 400, 800, 1,200, 1,600, 2,400, and the complete relation memory.
+### Contrasting emotions do not refute a linear arc
 
-```text
-Select evidence within the current budget
-                    ↓
-       Is the evidence sufficient?
-          no ↙              ↘ yes
-    Expand budget          Generate
-          ↑                    ↓
-          └────── Attribution and scope check
-                         fail ↙      ↘ pass
-                    Expand           Finish
-```
+For Natalia's contradiction question, full context and embeddings describe early solitude in T01 followed by gratitude in T10. Adaptive contrasts sorrow in T02 with celebration in T12. Either pair can be compatible with a straightforward recovery narrative. To challenge that narrative, the answer must explain a return, persistence, reversal or coexistence that the proposed linear reading cannot adequately account for.
 
-The sufficiency model sees only the question, its public structural constraint, and exposed memory. It gives an ordinal score from zero to four. The primary stopping threshold is three: apparently complete evidence, allowing interpretive ambiguity. That score is not a calibrated probability.
+The embedding answer's claim of counterevidence is therefore under-argued even though its two source addresses are sensible. The problem is not solved by finding more relevant text. The model must establish the requested relation rather than repeat the question's label.
 
-If the answer then fails attribution or scope verification, the graph can expand again. Expansion stops at the complete memory. A failure at that point remains a failure; the controller cannot generate indefinitely until it happens to receive a favorable verdict.
+The verifier adds another failure: it rejects the full-context Natalia response with a supposed lack of distinct, sufficiently separated tracks, despite the T01/T10 pair. The full and embedding responses have the same main answer and claim list, with different limitation text, yet receive different verdicts. This is a concrete consistency problem, not a controlled estimate of stochastic judge variance.
 
-There is a subtle cost here. The complete relational representation contains edge explanations as well as source cards, so it can exceed the size of the full-card baseline. Adaptive retrieval is not guaranteed to remain cheaper after repeated inspections and retries. That possibility is part of the hypothesis, not an implementation embarrassment to hide.
+### The benchmark can supply the wrong chronology
 
-## VI. Count the trajectory, not just the last answer
+The *Abbey Road* transformation reference compares the burden in T15 with renewal in T07, calling T07 the later song. It is earlier. All three policies reproduce language suggesting movement from burden to hope.
 
-[MLflow's LangGraph integration](https://mlflow.org/docs/latest/genai/tracing/integrations/listing/langgraph) captures the graph execution. The experiment also records provider calls, prompt versions, chosen budgets, selected evidence, verification results, and session identifiers.
+The question permits a contrast between non-adjacent songs, so the pair need not be rejected. The error is converting that contrast into a forward album progression. The source cards support opposing stances; the sequence does not support the implied order.
 
-For every trajectory, the accounting separates sufficiency, generation, and verification input/output tokens. The final context size is reported separately. Embedding and relation-construction work belong to preparation. Counting them as free would favor the more elaborate memories.
+This is an upstream measurement problem. Correcting only generated answers would leave a flawed reference and an invitingly directional task framing intact. Future evaluation needs to distinguish **contrast**, **ordered change**, and **continuity of a voice** instead of letting “transformation” stand for all three.
 
-The primary economic measure is total trajectory tokens per model-verified supported answer:
+### Individually supported claims do not establish a three-song argument
 
-```text
-total input and output tokens for the evaluated workload
--------------------------------------------------------
-      supported, non-abstaining positive answers
-```
+The full and embedding *Californication* multi-hop answers describe an opening, a middle and an ending, but cite four tracks. T02 supplies identity; T07 supplies societal pressure. Their prose compresses those into one middle role.
 
-The denominator excludes negative questions, whose correct abstention rate is reported separately. The numerator includes the workload's negative cases and failed attempts because they consume resources too. If no positive answer passes, the ratio is undefined; it is not zero and should not become an attractive point on a chart.
+The deterministic gate checks for at least three cited positions and sufficient endpoint distance. It cannot establish which single song occupies the middle role, or whether the prose follows the cited ordering. The model verifier nevertheless accepts the answers. The citations can each be locally true while their composition fails to identify the requested structure.
 
-This is a token measure, not a dollar estimate. Input and output tokens can have different prices, and cached-token pricing complicates the conversion. The artifacts retain provider usage so a dated pricing model can be applied explicitly.
+A stronger contract would name each selected role explicitly and validate its sources against that role. Merely requesting more atomic claims will not prevent their recombination into an unsupported sentence.
 
-Completed calls are cached for resumption and shared deterministic prefixes. Logical trajectory token use counts every call the policy requires, even when this particular experimental replay can reuse a receipt. Unique provider-call totals are exported separately. Neither quantity should be mislabeled as the other.
+These cases support a methodological conclusion before an architectural one: the evaluator conflates source entailment, relation adequacy and narrative plausibility. Research on [LLM-as-a-judge](https://arxiv.org/abs/2306.05685) documents the usefulness and limitations of model evaluation; agreement reported on other tasks cannot validate this album-specific verifier. Here the failures are visible in its own explanations.
 
-Latency also needs a qualification: concurrent execution and cached receipts do not provide a clean cold-start latency comparison. Figures using the sum of recorded call latencies label it as such.
+## V. Which questions make the controller expensive?
 
-## VII. Choose a threshold without using the test album's scores
+The aggregate hides two relevant distinctions: a policy can retrieve useful distant evidence while failing transformation questions, and it can spend heavily on a task without improving its acceptance.
 
-In addition to the primary threshold of three, the experiment runs fixed thresholds two and four. This adds 48 trajectories to the 456 primary settings, for 504 cases in total. The additional runs make threshold alternatives observable rather than imagining what an unexecuted branch would have produced.
+{{< figure src="/img/album-memory-v2/task-acceptance-tokens.svg" alt="Two heatmaps compare four policies across six task types: accepted responses out of four and mean whole-trajectory tokens." caption="Four questions per cell. Positive-task columns use online acceptance; the abstention column uses correct negative refusals. One changed answer moves a cell by 25 percentage points." >}}
 
-Leave-one-album-out selection chooses a threshold using the other three albums. The fixed feasibility targets are supported-answer rate at least 0.8, evidence availability at least 0.5, and model attribution at least 0.8. Among feasible choices, it minimizes mean trajectory tokens. If none is feasible, it selects the highest supported-answer rate and then the lower token use, and reports the failure to meet the targets.
+At the displayed 2,400-token setting, relational retrieval receives 4/4 acceptance on distant and multi-hop questions, but only 1/4 on transformation and contradiction. That is a reason to investigate specialization, not evidence that a relation graph generally improves compositional reasoning. Embeddings also receive 4/4 on multi-hop, and the narrative audit identifies weaknesses within supposedly successful outputs.
 
-The held-out album contributes no scores to that choice. But all four source corpora and the Part I experiment were already known, and graph construction uses each album's cards. This is a check on threshold selection, not proof of generalization to new artists or a large unseen distribution.
+Adaptive contradiction questions consume a mean **15,803 trajectory tokens**, against **2,773** for embeddings. Their accepted counts are 2/4 and 4/4 respectively. Adaptive multi-hop questions consume 11,540 tokens versus 2,850, with equal 4/4 acceptance. The extra process does not earn a measured advantage in those cells.
 
-## VIII. Reuse changes the accounting, not the evidence
+Unsupported-premise questions are also expensive for adaptive retrieval: 11,813 tokens on average, with 3/4 correct abstentions. More search can be reasonable before declaring that evidence is absent, but this workload shows why refusal policy belongs in resource accounting. The *Californication* negative also exposes a conceptual error: lack of explicit proof that every tension resolves is not proof that every tension remains unresolved.
 
-Part I's summaries consumed 27,875 input tokens across four albums. Their mean answer-input reduction relative to full context was about 3,061 tokens. Dividing those quantities gives approximately 9.1 **total queries across a balanced four-album workload**, assuming all four summaries were built up front.
+The heatmap does not establish general task difficulty. Each cell contains one question per album, the settings shown were inspected after the run, and the judge has documented errors. Its role is diagnostic: it tells us which executions deserve explanation and which apparent strengths require independent review.
 
-It is not 9.1 queries per album. Averaged per album, the same input-only arithmetic is about 2.3 queries, with individual break-even points depending on each album's preparation cost and request sizes. Output tokens, common annotation work, and prices are excluded from that calculation.
+## VI. MLflow makes the trajectory inspectable; it does not validate it
 
-More importantly, amortization cannot restore lost provenance. A summary can recover its construction cost while remaining unable to support the required claims. The relevant comparison is expected reuse at an acceptable evidence standard, not compression in isolation.
+The implementation uses `mlflow.langchain.autolog()` and `mlflow.openai.autolog()`, a root `context_allocation` span, per-case runs, versioned prompt URIs and exported provider receipts. [MLflow's LangGraph integration](https://mlflow.org/docs/latest/genai/tracing/integrations/listing/langgraph/) supports graph tracing and additional child spans. Here the frozen result also records selected addresses, budget rounds, verifier outputs, models and prompt fingerprints.
 
-## IX. The result did not favor the most elaborate memory
+Those records let us examine the *Infest* execution that opened this article:
 
-All 504 cases completed. The table below shows selected primary settings; the full grid is included in the downloadable results. Each setting answers 20 positive questions and four negative questions. The rate is acceptance by the **online model verifier plus structural gate**, not independently measured correctness.
+{{< figure src="/img/album-memory-v2/infest-receipt-sequence.svg" alt="Thirteen ordered provider calls for the Infest distant adaptive question, grouped by five growing memory caps, totaling 19831 input and output tokens." caption="Reconstructed from the execution's ordered provider receipts, not an MLflow UI screenshot or a timing diagram. Five sufficiency calls, four generations and four verifications precede an accepted answer with a known attribution error." >}}
 
-| Setting | Positive answers accepted | Mean trajectory tokens | Tokens per accepted positive answer |
-| --- | ---: | ---: | ---: |
-| Full cards | 15/20 · 75% | 2,890 | 4,624 |
-| Recent three | 4/20 · 20% | 1,418 | 8,507 |
-| Original summary | 0/20 · 0% | 1,145 | Undefined |
-| TF-IDF, budget 800 | 13/20 · 65% | 1,819 | 3,358 |
-| Embeddings, budget 1,200 | 16/20 · 80% | 2,249 | 3,373 |
-| Embeddings, budget 1,600 | 18/20 · 90% | 2,713 | 3,617 |
-| Relational, budget 2,400 | 12/20 · 60% | 3,520 | 7,039 |
-| Adaptive relational, threshold 3 | 18/20 · 90% | 10,336 | 13,782 |
+The first sufficiency call declines to generate. At subsequent caps the controller generates, verifies and expands. The final exposed memory is 2,326 tokens, but that number omits the previous contexts, repeated instructions, sufficiency decisions, generated attempts and verdicts. The complete logical trajectory is 19,831 tokens.
 
-{{< figure src="/img/album-memory-v2/pareto-frontier.svg" alt="The empirical frontier compares whole-trajectory tokens with online verifier acceptance. Embedding retrieval at a 1600-token memory cap and adaptive relational retrieval both reach 90 percent acceptance, but adaptive requires about 10336 trajectory tokens versus 2713." caption="An empirical frontier of automated acceptance, not a validated frontier of musical correctness. The dashed line joins nondominated observed settings." >}}
+A contrasting distant *Californication* execution finishes at the first 400-token cap, exposing 330 memory tokens and consuming 2,305 trajectory tokens. Adaptation can stop cheaply. The problem is the distribution of paths it actually takes, together with the reliability of its stopping rule.
 
-Under these observations, embedding retrieval at 1,600 memory tokens dominates the primary adaptive controller: equal acceptance with about **3.8 times fewer trajectory tokens**. It also dominates the full-card baseline on these two axes. The adaptive controller does not demonstrate the efficiency advantage I hoped to test.
+{{< figure src="/img/album-memory-v2/trajectory-economics.svg" alt="Mean trajectory tokens split into sufficiency, answer generation and verification for four selected policies." caption="Control and verification are part of the evaluated system. Counting only the final generation would favor policies that move work into other calls." >}}
 
-The summary is technically nondominated at the extreme low-cost end because it is the cheapest setting. It also accepts no positive answers. This is why a Pareto frontier needs a minimum quality requirement. Membership alone does not make a policy useful. The legacy summary also lacks addressable source claims under the new contract, so it cannot pass that provenance gate. Its zero is a representation-compatibility result for this control, not evidence that every form of summarization fails.
+For AI engineering, the trace should answer distinct questions: which evidence reached each call, what justified another round, which prompt version produced the verdict, and how much work preceded termination? The score alone answers none of them. Conversely, a complete trace cannot make an unsupported verdict correct.
 
-The 1,600-token embedding point is an observed grid result, chosen after seeing the measurements. It is not a validated optimum for new questions. There is one generation per setting and question, and hosted models can vary even at temperature zero. Apparent reversals between neighboring budgets may reflect sampling, selection composition, or model behavior; the experiment does not isolate those causes.
+The review suggests an equally important distinction in assessment storage. The controller's stopping verdict, a deterministic attribution check, a post-hoc AI audit and a human judgment should retain separate identities. [MLflow's assessment API](https://mlflow.org/docs/latest/genai/assessments/feedback/) records feedback with its source and rationale, distinguishing model judges, code and humans. An AI review belongs under a model source, not `HUMAN`.
 
-### More available evidence, less conditional citation
+In this release, the new audit is a separate public artifact keyed to the original case IDs; it has **not** been inserted into the historical traces as human feedback. Original scores remain unchanged. That preserves what the controller actually saw rather than rewriting its execution with knowledge acquired afterward.
 
-For embedding retrieval, designated evidence availability rises from 59.1% at budget 400 to 100% at budget 2,400. Conditional citation falls from 92.3% to 68.2%. Relational availability rises from 38.6% to 95.5%, while its conditional citation falls from 100% to 50.0%.
+## VII. A smaller prompt is only one part of the budget
 
-{{< figure src="/img/album-memory-v2/budget-utilization.svg" alt="Across five token caps, evidence availability increases for lexical, embedding, and relational retrieval, while conditional citation generally decreases." caption="The target items in the denominator change as the context expands. These curves suggest questions about evidence use; they do not measure internal attention or establish a causal distraction effect." >}}
+I use input plus output tokens as the primary resource measure because receipts make that quantity auditable. It is not a currency conversion: the generator and verifier use different models, and input, cached input and output can carry different prices.
 
-This is consistent with a gap between availability and use, but it does not prove context dilution. Small contexts preferentially retain the easiest or most salient evidence. Increasing the budget adds different items and changes that denominator. A causal test would hold target evidence fixed while manipulating distractors or its position in the rendered context.
+A dated dollar calculation would sum, per model, **uncached input × input price + cached input × cached price + output × output price**. Cached input must first be subtracted from total input to avoid counting it twice. The 3.8× token ratio must not be relabeled a 3.8× dollar ratio without that calculation.
 
-The distance breakdown is similarly descriptive. Track distance is confounded with task and album, and some strata contain only one question. It is not a randomized needle-position experiment.
+The experiment also distinguishes logical trajectory use from unique provider expenditure. Completed calls can be reused during resumption or across deterministic prefixes. A policy's logical trajectory still includes the calls its execution requires, even if the research replay reused a receipt. Preparation—embeddings, relation construction and card annotation—is accounted for separately. Concurrency and reused receipts also prevent a clean production-latency comparison.
 
-{{< figure src="/img/album-memory-v2/distance-breakdown.svg" alt="Accepted-answer rates by distance between designated source positions, with separate lines for full, lexical, embedding, relational, and adaptive policies." caption="Distance describes these questions; it does not isolate why a policy succeeds or fails. The retrieval curves pool budgets, unlike the single full and adaptive settings." >}}
+The workload's tokens per accepted positive answer divide all trajectory tokens, including failures and negative questions, by the number of accepted positive answers. At embedding 1,600 this is about 3,617; adaptive is about 13,782. The denominator remains evaluator acceptance, so this measure inherits its errors.
 
-## X. Where the adaptive tokens went
+Part I's summary amortization illustrates another trap. Building four summaries used 27,875 input tokens; dividing by the mean answer-input saving gives approximately 9.1 total queries across a balanced four-album workload, or 2.3 per album on average. That is an input-only reuse calculation. A summary can repay its construction cost while still losing the provenance this task requires.
 
-The efficient adaptive case and the expensive one have different stories.
+## VIII. Conversation state suggests a tradeoff, not a memory victory
 
-For the distant *Californication* question, the initial 400-token cap exposes cards T04 and T15 in 330 memory tokens. One sufficiency call, one answer, and one verification call lead to acceptance. The complete trajectory consumes 2,305 input and output tokens. Its cited pair differs from the designated pair, illustrating why exact target recall and a defensible answer need separate treatment.
+The additional conversation diagnostic contains eight actual four-turn executions: one conversation per album under full and adaptive policies. Each conversation reuses its compiled graph and thread ID. Later turns receive up to 250 tokens of previous claim records under both policies, with earlier outputs treated as fallible.
 
-For the distant *Infest* question, the controller visits five caps: 400, 800, 1,200, 1,600, and 2,400. It performs five sufficiency calls, four generations, and four verifications. The final answer uses a 2,326-token context, but the whole trajectory consumes **19,831 tokens**. Looking only at that final context would hide most of the work.
+{{< figure src="/img/album-memory-v2/conversation-tradeoff.svg" alt="Full context has 11 of 16 accepted conversation turns and about 3286 tokens per turn; adaptive has 15 of 16 and about 8970 tokens per turn." caption="Adaptive gains four online-accepted turns across this workload and consumes about 2.73× the trajectory tokens per turn. These linked turns are not independent samples." >}}
 
-{{< figure src="/img/album-memory-v2/trajectory-economics.svg" alt="Stacked bars separate sufficiency, generation, and verification tokens for full cards, TF-IDF at 800, embeddings at 1600, and adaptive relational memory." caption="The controller is part of the resource cost. A small final prompt does not imply a small trajectory." >}}
+Across the 16 turns per policy, adaptive uses 90,940 additional trajectory tokens for four additional online acceptances: **22,735 extra tokens per additional accepted turn**. This is a descriptive workload difference, not a causal price for memory improvement.
 
-An initial budget is not a spending cap. The present controller can repeat analysis and verification at successively larger levels. A resource-constrained version needs a bound on **cumulative trajectory tokens**, a policy for jumping to a larger context when expansion is likely, and an explicit decision about when another verification attempt is worth its cost. Those changes would require another measured comparison.
+There is no embedding conversation control and no matched no-history ablation. Both policies receive history, and adaptive changes retrieval, sufficiency assessment and retries together. Consequently, the observed difference cannot isolate the value of conversational memory or demonstrate long-term retention. The same evaluator dependencies apply.
 
-The extra relation text also has a price. It can explain why two cards belong together, but it consumes capacity that could otherwise expose source claims. In this particular graph, twelve generated edges per album are sparse and incomplete. An important pair may be missing from the graph or ranked poorly. The weaker relational results are evidence against treating this implementation as automatically superior to similarity retrieval.
+[LangGraph's memory documentation](https://docs.langchain.com/oss/python/langgraph/add-memory) distinguishes thread persistence from memory shared across sessions. The experiment uses in-process storage and checkpoints; it does not demonstrate durable production memory. Persisting an archive is also separate from choosing which parts become model input.
 
-{{< figure src="/img/album-memory-v2/relation-memory.svg" alt="Four arc diagrams show the 12 generated relation hypotheses for each album, colored by return, contrast, transformation, and counterpoint, with endpoints at their source track positions." caption="The relation graph used by the experiment. Edge height is a layout choice, not strength or confidence. These are model-generated hypotheses with source addresses." >}}
+## IX. What would make the next claim credible?
 
-## XI. Even the stricter verifier accepted a wrong attribution
+The revision leaves the original executions intact. The following comparisons are **proposed follow-up experiments, not completed results**. Their purpose is to separate effects the current design combines.
 
-The expensive *Infest* answer contains a particularly revealing claim. It assigns a critique to T01 while citing `T04:C2`. The verifier marks the claim supported and repeats the inconsistent mapping in its explanation. Structured output ensured a verdict for each claim; it did not ensure that the verdict was right.
+**First, repair and independently evaluate the task.** The blank [72-response review packet](/examples/album-memory-v2/human-review.html) now includes full, embedding 1,600 and adaptive outputs, hiding policy and model scores. Its rubric separates support, attribution, requested relation and narrative defensibility on a 0–2 scale, plus whether abstention was warranted. Two independent human reviewers could adjudicate disagreements and estimate agreement; no human ratings or kappa statistic exist in this release. Before new benchmark runs, question wording and reference chronology also need adjudication. Repeated generation cannot repair an invalid target.
 
-I added a clearly **post-hoc** check: when a claim explicitly names a track ID, that track must be represented among the claim's source addresses. This catches one accepted positive answer for each adaptive threshold and one for relational retrieval at budget 1,200. The primary adaptive rate falls from 90% online acceptance to **85% after this additional screen**. The embedding 1,600 point remains at 90% under the same screen.
+**Second, separate graph retrieval from graph prose.** The present relational policy changes both candidate selection and the text shown to the generator. A controlled ablation should use the same retrieved edge ranking to select source addresses, then expose cards alone. Compare embedding-to-cards, relation-to-cards-plus-explanations, and relation-to-cards under matched memory budgets. Also compare matched card sets with and without relation prose: otherwise a result still mixes selection with how many cards fit. Freeze deduplication, packing and ordering before evaluation. Only then can an improvement be assigned to retrieving relations or explaining them.
 
-That check is only a necessary condition. It cannot detect a wrong attribution expressed without an explicit track ID, or a subtler interpretive error. Its purpose is to prevent a known mistake from disappearing inside an aggregate.
+**Third, manipulate distraction while holding evidence fixed.** The current embedding grid increases designated evidence availability from 59.1% to 100%, while citation given exposure falls from 92.3% to 68.2%. Different items enter the denominator at different budgets. That does not identify context dilution.
 
-There is also a measurement dependency: the adaptive policy retries until the same online verifier accepts an answer. Its acceptance rate is therefore a measure of satisfying that checker under a bounded search, not an independent evaluation of correctness. Human review—or an independent, validated evaluation procedure—is necessary before promoting that rate to a claim about reliable interpretation.
+{{< figure src="/img/album-memory-v2/budget-utilization.svg" alt="Evidence availability rises across budget caps while conditional citation generally declines; selected evidence changes across those caps." caption="Availability and citation given exposure answer different questions. These curves neither measure transformer attention nor establish that additional context caused distraction." >}}
 
-The blind review packet contains 48 responses: full and primary adaptive outputs for every album/task combination. Policies and model scores are hidden. Reviewers receive the complete source-card claims and rate support, attribution, and arc plausibility. **No human ratings have been collected for this version**, and no agreement statistic is reported. The packet also makes clear that reviewing cards is not the same as independently annotating the lyrics.
+A stronger test would retain identical target claims, vary distractor count, and randomize whether targets appear at the beginning, middle, end or split positions. Distractors would need checking for alternative valid answers; twelve distractors are not available for every target set in every album. The causal outcome would be support and correct attribution for the same evidence under those interventions. [Lost in the Middle](https://arxiv.org/abs/2307.03172) motivates investigating positional effects; it does not establish them for this task or these models.
 
-## XII. Threshold selection and actual conversations
+**Fourth, constrain the trajectory before another call.** A cost-aware controller needs cumulative usage, retrieval rounds, verification failures and an explicit remaining budget in state. Stopping only after cumulative use exceeds a limit is not a hard cap: the next call can overshoot. Admission control must reserve its known input and maximum allowed output, with a refusal or fallback when the call cannot fit. A proposed jump from 400 to 1,600 should identify missing evidence rather than assume every intermediate inspection is useful. Static embeddings, the present controller and this revised controller would then face the same independently evaluated workload.
 
-Leave-one-album-out selection chooses threshold four for *Californication* and three for the other albums. Its held-out aggregate is 18 of 20 positive answers accepted, with about 10,905 trajectory tokens per question. The post-hoc explicit-track screen lowers that acceptance to 85%. Threshold selection does not remove the cost disadvantage.
+Finally, repeat the critical settings after freezing that protocol. Repeated runs can characterize hosted-model variation, but they do not create new albums or questions. Analysis should preserve pairing and clustering by question and album. With only four albums, even an attractive interval cannot establish broad artist-level generalization.
 
-The conversation diagnostic adds 32 turns: four linked questions per album under full and adaptive policies. Each four-turn conversation reuses one compiled graph and thread ID, and MLflow groups its traces under one session ID. Later questions receive up to 250 tokens of previous claims, including whether they passed verification. Both policies use the same history cap. Earlier outputs are explicitly treated as fallible, and new claims still need source evidence.
+## X. What I would carry forward
 
-The full policy receives acceptance on 11 of 16 turns, using about 3,286 trajectory tokens per turn. Adaptive receives acceptance on 15 of 16, using about 8,970. Twelve later turns per policy include prior claim records. These are observations of actual linked executions; they do not establish long-term knowledge retention, and the same verifier limitations apply.
+Embedding retrieval at 1,600 tokens is the baseline the next memory design must earn its way past in this workload. Its advantage is economical execution under the observed checker. The audit prevents me from treating that advantage as a validated claim about interpretive correctness.
 
-The conversations reuse task concerns from the primary question set and can propagate earlier model mistakes. They should be read as an operational diagnostic of thread memory and history exposure, not as another independent benchmark or an unseen musical discussion.
+The relation graph remains valuable as an inspectable research representation: it can preserve a proposed return, make counterevidence visible, or expose where two readings disagree. That value does not imply that injecting its prose improves an agent. A useful representation for a researcher and an effective context policy for a generator are different empirical questions.
 
-{{< figure src="/img/album-memory-v2/amortization.svg" alt="Cumulative input-token lines from Part I cross at about 9.1 total queries after constructing summaries for all four albums." caption="An input-only reuse calculation from Part I. Financial and evidential break-even are different questions, and this figure does not estimate dollars." >}}
+For the musical work, the most consequential failure is the conversion of a comparison into a story: two emotions become a transformation, three citations become a coherent arc, or a later reference becomes an earlier song. Better memory should preserve the distinctions that make an interpretation contestable, including the possibility that the proposed arc is not supported.
 
-## What I would carry into the next implementation
+For AI software engineering, that requirement reaches beyond prompting. The source schema, role bindings, stopping policy, evaluator and resource ledger all participate in the system's behavior. MLflow helps preserve the evidence needed to examine those decisions; LangGraph makes their control flow explicit. Neither substitutes for a defensible research question.
 
-The first implementation decision would be simpler than the original hypothesis suggested: keep a compact source-card retriever as a strong baseline. The observed embedding point achieves the adaptive controller's online acceptance with far less trajectory work. A relation graph should justify its extra structure through held-out retrieval or attribution gains.
+The next implementation should be judged on whether it recovers and attributes the required evidence more reliably at an acceptable total cost. More elaborate memory earns its complexity through that comparison.
 
-For the adaptive controller, I would make cumulative expenditure a first-class state variable and separate the stopping checker from the final evaluation. I would also preserve atomic source addresses through every compression step and validate explicit source/entity consistency before paying for another model judgment.
+## Reproduction and revision record
 
-For musical interpretation, the graph remains useful as an inspectable collection of hypotheses: a return, a changed stance, a counterpoint, a coda. Its usefulness as a representation does not imply that injecting all of its prose makes an LLM reason better. The interesting question is which relations help recover the needed evidence at the moment of a question.
+The [experiment package](/examples/album-memory-v2-study.zip) contains the frozen source cards, relations, questions, all 504 primary/threshold trajectories, 32 conversation turns, provider-usage exports, analysis scripts, figures and review materials. The [complete results table](/examples/album-memory-v2/policy_means.csv) retains the original acceptance and post-hoc ID screen. The [task table](/examples/album-memory-v2/revision_task_table.csv) supports the new heatmap.
 
-The result is therefore more specific than “adaptive memory beats static context.” **Stored memory, exposed context, and accepted evidence are separate engineering decisions. More sophisticated memory can improve a checker's acceptance while making the trajectory less efficient—and the checker can still be wrong.**
+The environment remains pinned to MLflow 3.16.0 and LangGraph 1.2.11. Generation uses `gpt-4o-mini`; preparation, sufficiency and verification use `gpt-4.1-mini`. Exact resolved model IDs, prompt URIs and provider receipts are retained. The package distinguishes offline analysis from new paid API executions.
 
-## Reproduce and review
+The omitted controls remain informative within their contracts: recent three accepts 4/20 positives; the original summary accepts none because it lacks addressable source claims under the stricter provenance requirement. That zero does not demonstrate that provenance-preserving summarization would fail. Leave-one-album-out threshold selection reaches 18/20 online acceptance at about 10,905 tokens per query and 85% after the earlier ID screen. It selects thresholds only; prior corpus inspection and selection of the embedding budget remain limitations.
 
-The [Part II experiment package](/examples/album-memory-v2-study.zip) contains code, frozen cards and relation hypotheses, questions, all 504 primary/threshold records, 32 conversation turns, aggregate tables, provider-usage exports, figure generators, and the blind review packet. The [full results table](/examples/album-memory-v2/policy_means.csv) includes the complete budget grid and the post-hoc screen.
-
-The environment reuses the pinned MLflow 3.16.0 and LangGraph 1.2.11 stack from Part I. Generation uses `gpt-4o-mini`; relations, questions, sufficiency, and verification use `gpt-4.1-mini`. The resolved model identifiers and provider receipts remain attached to the records. The README distinguishes offline reproduction of the analysis from new paid API calls.
-
-Full lyrics, credentials, raw private trace databases, and the policy key for human review are excluded. The published experiment remains a model-annotated, model-checked four-album pilot. Its detailed failure cases are part of the result, not exceptions to remove before drawing the frontier.
+**Revision, September 11, 2026:** the argument has been reorganized around trajectory cost and evaluator validity. This version adds a qualitative AI audit of 72 responses, task-level and conversation figures, and the *Infest* receipt reconstruction. It expands the blank human-review packet from 48 to 72 responses. It does not change historical model outputs, invent human judgments, or present the proposed ablations as executed. Full lyrics, credentials, private trace databases and the blind-review policy key remain excluded.

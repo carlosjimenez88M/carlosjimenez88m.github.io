@@ -4,7 +4,7 @@ Seven memory policy families; five fixed context budgets for three retrieval
 methods; a bounded adaptive controller; six question types across four albums.
 The fixed primary grid contains 456 trajectories. Two extra adaptive thresholds
 add 48 cases for leave-one-album-out selection. Eight four-turn conversations add
-32 separately reported turns. All scores are automated; 48 blinded human-review
+32 separately reported turns. All scores are automated; 72 blinded human-review
 items are prepared but no human labels have been collected.
 
 ## Read the results without calling a model
@@ -93,3 +93,7 @@ controller behavior were not rewritten. The article describes the false positive
 No human agreement or kappa is reported. The negative questions and source cards
 are model-produced and model-audited. Previous corpus inspection and overlapping
 musical concerns limit claims of novelty and generalization.
+
+## Editorial revision, September 11, 2026
+
+`editorial-review/audit.json` contains 72 qualitative AI review notes for full, embedding 1600 and adaptive threshold 3. This was a post-hoc, non-blind review of answer prose, claims, questions and source cards, not human validation. It adds no accuracy estimate and changes none of the 504 original trajectories. `editorial-review/build.py` packages the written notes; it does not generate judgments. `revision_figures.py` reproduces the task, conversation and receipt figures offline. The blank human packet now includes all three policies and has no completed ratings. Proposed controlled ablations and repeated runs in the revised article remain unexecuted.

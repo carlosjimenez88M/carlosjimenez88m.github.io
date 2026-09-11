@@ -1,0 +1,25 @@
+setting,task,accepted,total,mean_trajectory_tokens
+Full,local,2,4,2987.0
+Full,distant,4,4,3065.5
+Full,transformation,4,4,2956.75
+Full,contradiction,2,4,2932.25
+Full,multi_hop,3,4,3037.75
+Full,abstention,3,4,2361.5
+Embedding 1600,local,3,4,2849.25
+Embedding 1600,distant,3,4,2880.0
+Embedding 1600,transformation,4,4,2753.5
+Embedding 1600,contradiction,4,4,2773.0
+Embedding 1600,multi_hop,4,4,2850.25
+Embedding 1600,abstention,3,4,2172.5
+Relational 2400,local,2,4,3685.75
+Relational 2400,distant,4,4,3780.5
+Relational 2400,transformation,1,4,3492.5
+Relational 2400,contradiction,1,4,3570.0
+Relational 2400,multi_hop,4,4,3712.75
+Relational 2400,abstention,4,4,2876.25
+Adaptive t3,local,4,4,7389.25
+Adaptive t3,distant,4,4,8102.75
+Adaptive t3,transformation,4,4,7368.25
+Adaptive t3,contradiction,2,4,15803.25
+Adaptive t3,multi_hop,4,4,11540.0
+Adaptive t3,abstention,3,4,11813.25

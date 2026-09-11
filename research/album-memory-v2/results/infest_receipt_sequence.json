@@ -1,0 +1,72 @@
+{
+  "case_id": "roach-distant-adaptive-100000-t3",
+  "mlflow_run_id": "508a1277f52d4f8d9d6619b4b110d887",
+  "source": "Frozen ordered provider receipts, not an MLflow UI screenshot or timing chart",
+  "calls": [
+    {
+      "cap": 400,
+      "stage": "sufficiency",
+      "tokens": 679
+    },
+    {
+      "cap": 800,
+      "stage": "sufficiency",
+      "tokens": 1116
+    },
+    {
+      "cap": 800,
+      "stage": "answer",
+      "tokens": 1267
+    },
+    {
+      "cap": 800,
+      "stage": "verification",
+      "tokens": 831
+    },
+    {
+      "cap": 1200,
+      "stage": "sufficiency",
+      "tokens": 1600
+    },
+    {
+      "cap": 1200,
+      "stage": "answer",
+      "tokens": 1723
+    },
+    {
+      "cap": 1200,
+      "stage": "verification",
+      "tokens": 849
+    },
+    {
+      "cap": 1600,
+      "stage": "sufficiency",
+      "tokens": 2052
+    },
+    {
+      "cap": 1600,
+      "stage": "answer",
+      "tokens": 2188
+    },
+    {
+      "cap": 1600,
+      "stage": "verification",
+      "tokens": 852
+    },
+    {
+      "cap": 2400,
+      "stage": "sufficiency",
+      "tokens": 2822
+    },
+    {
+      "cap": 2400,
+      "stage": "answer",
+      "tokens": 2970
+    },
+    {
+      "cap": 2400,
+      "stage": "verification",
+      "tokens": 882
+    }
+  ]
+}

@@ -1,0 +1,3672 @@
+{
+  "review_type": "Qualitative AI editorial audit",
+  "reviewer": "Codex AI assistant; not a human researcher",
+  "date": "2026-09-11",
+  "blinded": false,
+  "independent_validation": false,
+  "scope": "All 72 final outputs for full, embedding 1600 and adaptive threshold 3; complete 168 source-card claims read by album. No raw-lyric reannotation. Original policy results were known before review. No new model experiment or human ratings.",
+  "criteria": [
+    "Support for each assertion in cited source claims",
+    "Correct entity and source attribution, including answer prose",
+    "Requested relation and temporal scope",
+    "Defensibility without assuming narrator identity or causal chronology",
+    "Whether unsupported premises warrant withholding an answer"
+  ],
+  "scoring": "Qualitative notes only; no replacement accuracy, ordinal ratings, or inter-rater agreement inferred.",
+  "runs_sha256": "f8adb86ae2a1d69330289947dbbf71b1bd6f1bdc9146e35df2bf85d12c8d22a7",
+  "items": [
+    {
+      "case_id": "rhcp-local-adaptive-100000-t3",
+      "question": "How do the interpretations of two adjacent songs reveal a shift in the narrator's experience of identity and agency, particularly focusing on their emotional states and desires?",
+      "answer": {
+        "answer": "The adjacent songs reveal a shift from a desire for freedom and connection (T07) to a sense of loss and disconnection (T08). The narrator's emotional state transitions from questioning societal expectations to reflecting on fading relationships, highlighting a struggle with identity and agency.",
+        "claims": [
+          {
+            "text": "The narrator questions the meaning behind their struggles.",
+            "sources": [
+              "T07:C1"
+            ]
+          },
+          {
+            "text": "There is a tension between desire for freedom and societal expectations.",
+            "sources": [
+              "T07:C2"
+            ]
+          },
+          {
+            "text": "The listener may feel disconnected from their loved ones.",
+            "sources": [
+              "T08:C1"
+            ]
+          },
+          {
+            "text": "There is a sense of fading and loss throughout the song.",
+            "sources": [
+              "T08:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T07:C1/C2 and T08:C1/C2 support a contrast in freedom and disconnection; the answer adds connection to T07 and treats different voices as one continuing narrator.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T07:C1 exactly."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim matches source T07:C2 exactly."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Claim matches source T08:C1 exactly."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Claim matches source T08:C2 exactly."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "All answer assertions are supported by cited sources and address the shift in narrator's identity, agency, emotions, and desires between two adjacent songs."
+      }
+    },
+    {
+      "case_id": "rhcp-local-embedding-1600-t3",
+      "question": "How do the interpretations of two adjacent songs reveal a shift in the narrator's experience of identity and agency, particularly focusing on their emotional states and desires?",
+      "answer": {
+        "answer": "The adjacent songs reveal a transition from joyful global connections to a complex struggle for self-definition. The narrator's emotional state shifts from celebrating life's beauty to grappling with identity and interconnectedness, highlighting a desire for agency amidst external pressures.",
+        "claims": [
+          {
+            "text": "Life's beauty is celebrated through global experiences.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "The narrator's identity is fluid and multifaceted.",
+            "sources": [
+              "T02:C2"
+            ]
+          },
+          {
+            "text": "Existence is complex and intertwined within a vast universe.",
+            "sources": [
+              "T02:C1"
+            ]
+          },
+          {
+            "text": "The narrator seeks connection and companionship.",
+            "sources": [
+              "T01:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T01:C1/C2 and T02:C1/C2 support adjacency and a contrast in scale of identity. Struggle and pressure are stronger than the cited claims alone; T02:C3 would help support pressure.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T01:C1 about celebrating life's beauty globally."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim matches source T02:C2 about fluid, multifaceted identity."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Claim matches source T02:C1 about complex, intertwined existence."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Claim matches source T01:C2 about seeking connection and companionship."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "All claims correspond to adjacent tracks and show emotional and identity shifts, addressing narrator's experience and desires."
+      }
+    },
+    {
+      "case_id": "rhcp-local-full-100000-t3",
+      "question": "How do the interpretations of two adjacent songs reveal a shift in the narrator's experience of identity and agency, particularly focusing on their emotional states and desires?",
+      "answer": {
+        "answer": "The interpretations of tracks T01 and T02 reveal a shift from joyful connection and celebration of life to a complex struggle for self-definition within a vast universe. The narrator's emotional state transitions from embracing freedom and companionship to grappling with a fluid identity and interconnected existence.",
+        "claims": [
+          {
+            "text": "Life's beauty is celebrated through global experiences.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "The narrator's identity is fluid and multifaceted.",
+            "sources": [
+              "T02:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "The analysis lacks specific emotional states and desires from the songs."
+      },
+      "review_note": "T01:C1 and T02:C2 support the main contrast. Freedom, companionship and interconnected existence in the prose exceed the two submitted atomic claims.",
+      "online_accepted": 0,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches the answer's description of joyful connection and celebration of life."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim supports the answer's mention of fluid identity and complex self-definition."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": false,
+        "reason": "Answer lacks specific emotional states and desires, only general identity and experience shifts are cited."
+      }
+    },
+    {
+      "case_id": "rhcp-distant-adaptive-100000-t3",
+      "question": "Select one song from the first half and one from the second half, separated by at least four tracks, that both explore themes of attachment and rupture, and explain how their unresolved tensions differ.",
+      "answer": {
+        "answer": "In track 4, the narrator grapples with separation and internal conflict, feeling a persistent sense of instability. In contrast, track 15 explores a quest for freedom and connection through adventure, reflecting a desire to escape. While both songs address themes of attachment and rupture, T04 emphasizes emotional turmoil, whereas T15 focuses on the pursuit of new experiences.",
+        "claims": [
+          {
+            "text": "The narrator feels a persistent sense of sliding away from stability.",
+            "sources": [
+              "T04:C1"
+            ]
+          },
+          {
+            "text": "There is a recurring theme of separation and its emotional toll.",
+            "sources": [
+              "T04:C2"
+            ]
+          },
+          {
+            "text": "The journey symbolizes a quest for freedom and connection.",
+            "sources": [
+              "T15:C1"
+            ]
+          },
+          {
+            "text": "Past experiences shape the present, influencing the desire for escape.",
+            "sources": [
+              "T15:C3"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T04:C1/C2 and T15:C1/C3 provide a defensible alternative pair satisfying halves and distance. Escape is supported; rupture in T15 remains an interpretive inference rather than an explicit claim.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T04:C1 about instability."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim matches source T04:C2 about separation and emotional toll."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Claim matches source T15:C1 about journey symbolizing freedom and connection."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Claim matches source T15:C3 about past experiences influencing escape desire."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer cites one track from 1-7 (track 4) and one from 8-15 (track 15), separated by more than four tracks, discussing attachment and rupture with differing unresolved tensions."
+      }
+    },
+    {
+      "case_id": "rhcp-distant-embedding-1600-t3",
+      "question": "Select one song from the first half and one from the second half, separated by at least four tracks, that both explore themes of attachment and rupture, and explain how their unresolved tensions differ.",
+      "answer": {
+        "answer": "From the first half, track 3 explores isolation and longing, while track 12 from the second half reflects on connection and forgiveness. Track 3's unresolved tension stems from a desire for recognition amidst loneliness, contrasting with track 12's focus on acceptance despite flaws. Both songs highlight the complexities of attachment, but track 3 emphasizes emotional scars, while track 12 celebrates growth and understanding.",
+        "claims": [
+          {
+            "text": "Track 3 expresses a desire for connection amidst feelings of isolation.",
+            "sources": [
+              "T03:C1"
+            ]
+          },
+          {
+            "text": "Track 12 acknowledges the importance of the other person despite past issues.",
+            "sources": [
+              "T12:C1"
+            ]
+          },
+          {
+            "text": "Track 3 highlights ongoing loneliness through imagery of sharing with birds.",
+            "sources": [
+              "T03:C3"
+            ]
+          },
+          {
+            "text": "Track 12 recognizes flaws and forgiveness in the relationship.",
+            "sources": [
+              "T12:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T03:C1/C3 and T12:C1/C2 support recognition versus forgiveness and meet distance. The phrase past issues belongs more precisely to T12:C3 than T12:C1.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Track 3 shows desire for connection and isolation per T03:C1 and T03:C3."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Track 12 shows connection and forgiveness per T12:C1 and T12:C2."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Track 3's tension is loneliness and desire for recognition per T03:C1 and T03:C3."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Track 12's tension is acceptance despite flaws per T12:C1 and T12:C2."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer cites tracks 3 and 12, separated by 8 tracks, both exploring attachment and rupture with differing unresolved tensions."
+      }
+    },
+    {
+      "case_id": "rhcp-distant-full-100000-t3",
+      "question": "Select one song from the first half and one from the second half, separated by at least four tracks, that both explore themes of attachment and rupture, and explain how their unresolved tensions differ.",
+      "answer": {
+        "answer": "From the first half, track 4 explores separation and emotional toll, while track 12 in the second half reflects on connection and forgiveness. The former emphasizes instability, while the latter acknowledges flaws yet celebrates the bond.",
+        "claims": [
+          {
+            "text": "The narrator feels a persistent sense of sliding away from stability.",
+            "sources": [
+              "T04:C1"
+            ]
+          },
+          {
+            "text": "The narrator acknowledges the importance of the other person in their life.",
+            "sources": [
+              "T12:C1"
+            ]
+          },
+          {
+            "text": "There is a recurring theme of separation and its emotional toll.",
+            "sources": [
+              "T04:C2"
+            ]
+          },
+          {
+            "text": "There is a recognition of flaws and forgiveness in the relationship.",
+            "sources": [
+              "T12:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T04:C1/C2 and T12:C1/C2 support separation versus forgiveness and the requested distance. A bounded contrast is defensible without a single narrator.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Track 4 shows separation and emotional toll, indicating attachment and rupture."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Track 12 shows connection and forgiveness, indicating attachment and rupture."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Track 4 emphasizes instability and separation."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Track 12 acknowledges flaws and celebrates bond through forgiveness."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer cites track 4 (1-7) and track 12 (8-15), separated by 7 tracks, explaining differing unresolved tensions of instability vs forgiveness."
+      }
+    },
+    {
+      "case_id": "rhcp-transformation-adaptive-100000-t3",
+      "question": "Identify two non-adjacent tracks that contrast in their stance on agency—one showing assertive control and the other expressing vulnerability—and describe how this transformation is reflected in their interpretations.",
+      "answer": {
+        "answer": "Track T05 showcases assertive control through a bold, confrontational attitude, while T12 expresses vulnerability by reflecting on emotional complexities and admiration. This transformation highlights a shift from aggression to deeper emotional connection.",
+        "claims": [
+          {
+            "text": "The narrator seeks to assert control and dominance in various situations.",
+            "sources": [
+              "T05:C1"
+            ]
+          },
+          {
+            "text": "The narrator acknowledges the importance of the other person in their life.",
+            "sources": [
+              "T12:C1"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T05:C1 supports dominance; T12:C1 supports valuing another person but does not by itself establish vulnerability. The move from aggression to emotional complexity is under-argued.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T05:C1 confirms assertive control stance in T05."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T12:C1 shows vulnerability and emotional connection in T12."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Both tracks contrast agency stance: T05 assertive control, T12 vulnerability; transformation reflected in interpretations."
+      }
+    },
+    {
+      "case_id": "rhcp-transformation-embedding-1600-t3",
+      "question": "Identify two non-adjacent tracks that contrast in their stance on agency—one showing assertive control and the other expressing vulnerability—and describe how this transformation is reflected in their interpretations.",
+      "answer": {
+        "answer": "In track T05, the narrator asserts control and dominance, showcasing a confrontational attitude towards challenges. In contrast, track T03 reveals vulnerability, expressing a longing for connection amidst isolation. This transformation highlights the tension between assertiveness and emotional fragility.",
+        "claims": [
+          {
+            "text": "The narrator seeks to assert control and dominance in various situations.",
+            "sources": [
+              "T05:C1"
+            ]
+          },
+          {
+            "text": "The narrator wishes for someone to see their emotional scars.",
+            "sources": [
+              "T03:C1"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T05:C1 and T03:C1 support control versus vulnerability. This is a contrast across non-adjacent songs, not a chronological transition from T05 to the earlier T03.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T05:C1 supports assertive control in T05."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T03:C1 supports vulnerability in T03."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Both tracks contrast agency: T05 shows assertiveness, T03 shows vulnerability, fulfilling the question's requirement."
+      }
+    },
+    {
+      "case_id": "rhcp-transformation-full-100000-t3",
+      "question": "Identify two non-adjacent tracks that contrast in their stance on agency—one showing assertive control and the other expressing vulnerability—and describe how this transformation is reflected in their interpretations.",
+      "answer": {
+        "answer": "In track T05, the narrator asserts control and dominance, showcasing a bold attitude towards challenges. In contrast, track T03 reveals vulnerability, expressing a longing for connection amidst isolation. This transformation highlights the duality of strength and fragility in human experiences.",
+        "claims": [
+          {
+            "text": "The narrator seeks to assert control and dominance in various situations.",
+            "sources": [
+              "T05:C1"
+            ]
+          },
+          {
+            "text": "The narrator wishes for someone to see their emotional scars.",
+            "sources": [
+              "T03:C1"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "The contrasting stances on agency are evident in the themes of control and vulnerability."
+      },
+      "review_note": "T05:C1 and T03:C1 support the contrast. The generic duality conclusion adds little; avoid turning this reversed pair into an album progression.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T05:C1 supports assertive control stance in T05."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T03:C1 supports vulnerability stance in T03."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Both tracks contrast agency: T05 shows assertive control, T03 shows vulnerability, fulfilling the question's requirement."
+      }
+    },
+    {
+      "case_id": "rhcp-contradiction-adaptive-100000-t3",
+      "question": "Which two tracks, separated by at least four positions, present unresolved themes that challenge a smooth interpretive account of identity and renewal, and how do their tensions oppose each other?",
+      "answer": {
+        "answer": "Tracks T04 and T15 present unresolved themes of identity and renewal. T04 grapples with internal conflict and separation, while T15 seeks adventure and connection. Their tensions oppose each other, as T04 reflects on emotional tolls of separation, contrasting with T15's quest for freedom and escape.",
+        "claims": [
+          {
+            "text": "The narrator feels a persistent sense of sliding away from stability in T04.",
+            "sources": [
+              "T04:C1"
+            ]
+          },
+          {
+            "text": "The journey symbolizes a quest for freedom and connection in T15.",
+            "sources": [
+              "T15:C1"
+            ]
+          },
+          {
+            "text": "There is a recurring theme of separation and its emotional toll in T04.",
+            "sources": [
+              "T04:C2"
+            ]
+          },
+          {
+            "text": "Past experiences shape the present, influencing the desire for escape in T15.",
+            "sources": [
+              "T15:C3"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T04:C1/C2 and T15:C1/C3 meet distance and support separation versus escape. That contrast can still fit a smooth renewal narrative; no specific account is actually refuted.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T04 shows instability and separation themes per T04:C1 and T04:C2."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T15 depicts quest for freedom and connection per T15:C1."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "T04's theme of separation and emotional toll is explicit in T04:C2."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "T15's desire for escape influenced by past is in T15:C3."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer identifies two tracks (T04, T15) with opposing unresolved themes, supported by cited sources."
+      }
+    },
+    {
+      "case_id": "rhcp-contradiction-embedding-1600-t3",
+      "question": "Which two tracks, separated by at least four positions, present unresolved themes that challenge a smooth interpretive account of identity and renewal, and how do their tensions oppose each other?",
+      "answer": {
+        "answer": "Tracks T02 and T14 present unresolved themes of identity and renewal. T02 emphasizes a complex existence, while T14 highlights urgency for transformation amidst pain. Their tensions reveal a struggle between understanding oneself and the desire for change.",
+        "claims": [
+          {
+            "text": "Existence is complex and intertwined within a vast universe.",
+            "sources": [
+              "T02:C1"
+            ]
+          },
+          {
+            "text": "The narrator seeks a fresh start through heartbreak.",
+            "sources": [
+              "T14:C1"
+            ]
+          },
+          {
+            "text": "The narrator grapples with identity and existential themes.",
+            "sources": [
+              "T14:C3"
+            ]
+          },
+          {
+            "text": "The narrator's identity is fluid and multifaceted.",
+            "sources": [
+              "T02:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T02:C1/C2 and T14:C1/C3 support distinct treatments of identity. Complexity followed by renewal does not itself contradict a smooth progression.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T02:C1 supports complex existence theme in T02."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T14:C1 supports fresh start through heartbreak in T14."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "T14:C3 supports grappling with identity and existential themes in T14."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "T02:C2 supports fluid and multifaceted identity in T02."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer cites T02 and T14 with evidence of unresolved identity and renewal themes opposing each other."
+      }
+    },
+    {
+      "case_id": "rhcp-contradiction-full-100000-t3",
+      "question": "Which two tracks, separated by at least four positions, present unresolved themes that challenge a smooth interpretive account of identity and renewal, and how do their tensions oppose each other?",
+      "answer": {
+        "answer": "Tracks T01 and T02 present unresolved themes of identity and renewal. T01 celebrates life's beauty through connection, while T02 emphasizes the struggle for self-definition in a complex universe, creating tension between joy and existential uncertainty.",
+        "claims": [
+          {
+            "text": "Life's beauty is celebrated through global experiences.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "Existence is complex and intertwined within a vast universe.",
+            "sources": [
+              "T02:C1"
+            ]
+          },
+          {
+            "text": "The narrator seeks connection and companionship.",
+            "sources": [
+              "T01:C2"
+            ]
+          },
+          {
+            "text": "The narrator's identity is fluid and multifaceted.",
+            "sources": [
+              "T02:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T01 and T02 are adjacent, violating the explicit four-position minimum. Their thematic difference also does not establish opposition to renewal.",
+      "online_accepted": 0,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T01:C1 supports celebration of life's beauty through global experiences."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T02:C1 supports complexity of existence in a vast universe."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "T01:C2 supports narrator seeking connection and companionship."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "T02:C2 supports fluid and multifaceted narrator identity."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": false,
+        "reason": "Answer does not specify tracks separated by at least four positions or how tensions oppose each other."
+      }
+    },
+    {
+      "case_id": "rhcp-multi_hop-adaptive-100000-t3",
+      "question": "Considering three songs in chronological order with the first and last separated by at least six tracks, how does the middle track qualify or complicate the themes of escape and agency found in the first and last?",
+      "answer": {
+        "answer": "The first track celebrates joyful travel and connection, while the middle track complicates this with themes of internal conflict and separation. The last track reflects a desire for freedom amidst chaos, echoing the first's themes but highlighting societal tensions. Together, they illustrate a complex journey of escape and agency.",
+        "claims": [
+          {
+            "text": "The first track celebrates joyful travel and connection, contrasting with the middle track's internal conflict.",
+            "sources": [
+              "T01:C3",
+              "T04:C1"
+            ]
+          },
+          {
+            "text": "The last track reflects a desire for freedom amidst chaos, echoing the first's themes.",
+            "sources": [
+              "T01:C3",
+              "T07:C2"
+            ]
+          },
+          {
+            "text": "The middle track complicates escape themes with a sense of separation despite desires for change.",
+            "sources": [
+              "T04:C2",
+              "T04:C3"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T01, T04 and T07 form a valid ordered triple spanning six positions. T04:C2/C3 provide a real qualification of freedom; chaos in T07 is stronger than C2. Last means last selected song, not album closer.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Sources confirm joyful travel and contrast with internal conflict in middle track."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Sources show last track's desire for freedom echoes first track's themes."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Sources indicate middle track complicates escape with separation and desire for change."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer cites three songs in order, with first and last separated by six tracks, discussing escape and agency themes."
+      }
+    },
+    {
+      "case_id": "rhcp-multi_hop-embedding-1600-t3",
+      "question": "Considering three songs in chronological order with the first and last separated by at least six tracks, how does the middle track qualify or complicate the themes of escape and agency found in the first and last?",
+      "answer": {
+        "answer": "The first track celebrates life's beauty through global experiences, while the last track expresses a desire for adventure and escape. The middle track complicates these themes by reflecting on a complex existence and the struggle for self-definition, highlighting the tension between the desire for freedom and societal expectations.",
+        "claims": [
+          {
+            "text": "Life's beauty is celebrated through global experiences.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "The narrator's identity is fluid and multifaceted.",
+            "sources": [
+              "T02:C2"
+            ]
+          },
+          {
+            "text": "The journey symbolizes a quest for freedom and connection.",
+            "sources": [
+              "T15:C1"
+            ]
+          },
+          {
+            "text": "There is a tension between desire for freedom and societal expectations.",
+            "sources": [
+              "T07:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "The answer is based on the themes of three specific tracks."
+      },
+      "review_note": "The prose describes three roles but cites four tracks: T01, T02, T07 and T15. The middle role merges T02 identity with T07 societal pressure; individually true claims do not identify one middle song.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T01:C1 about life's beauty and global experiences."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim matches source T02:C2 about fluid, multifaceted identity."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Claim matches source T15:C1 about journey symbolizing quest for freedom."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Claim matches source T07:C2 about tension between freedom desire and societal expectations."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "All three songs are cited in order with first and last separated by at least six tracks; the middle track's theme complicates escape and agency as asked."
+      }
+    },
+    {
+      "case_id": "rhcp-multi_hop-full-100000-t3",
+      "question": "Considering three songs in chronological order with the first and last separated by at least six tracks, how does the middle track qualify or complicate the themes of escape and agency found in the first and last?",
+      "answer": {
+        "answer": "The first track celebrates life's beauty through global experiences, while the last track expresses a desire for adventure and escape. The middle track complicates these themes by reflecting on the struggle for self-definition within a complex existence, highlighting the tension between personal agency and external pressures.",
+        "claims": [
+          {
+            "text": "Life's beauty is celebrated through global experiences.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "The narrator's identity is fluid and multifaceted.",
+            "sources": [
+              "T02:C2"
+            ]
+          },
+          {
+            "text": "The journey symbolizes a quest for freedom and connection.",
+            "sources": [
+              "T15:C1"
+            ]
+          },
+          {
+            "text": "There is a tension between desire for freedom and societal expectations.",
+            "sources": [
+              "T07:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "The middle track's themes of identity complicate the escape and agency found in the first and last tracks."
+      },
+      "review_note": "The same four-track ambiguity occurs: T02 supplies identity and T07 supplies societal pressure, while the prose presents a single middle song. The gate accepts at least three IDs and cannot resolve that binding.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Source T01:C1 confirms celebration of life's beauty through global experiences."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Source T02:C2 supports fluid, multifaceted narrator identity complicating themes."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Source T07:C2 indicates tension between freedom desire and societal expectations."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Source T15:C1 confirms journey symbolizes quest for freedom and connection."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "All claims correspond to the three songs in order, with middle track complicating escape and agency themes as requested."
+      }
+    },
+    {
+      "case_id": "rhcp-abstention-adaptive-100000-t3",
+      "question": "Is there any explicit evidence in the interpretations that the album's narrator resolves all feelings of rupture and longing by the final track?",
+      "answer": {
+        "answer": "The interpretations suggest that the narrator's feelings of rupture and longing remain unresolved by the final track, as themes of isolation and complexity persist.",
+        "claims": [
+          {
+            "text": "The narrator expresses a desire for connection amidst feelings of isolation and longing.",
+            "sources": [
+              "T03:C1"
+            ]
+          },
+          {
+            "text": "There is a tension between desire for freedom and societal expectations.",
+            "sources": [
+              "T07:C2"
+            ]
+          },
+          {
+            "text": "The listener may feel disconnected from their loved ones.",
+            "sources": [
+              "T08:C1"
+            ]
+          },
+          {
+            "text": "The imagery of summer in London evokes nostalgia and longing.",
+            "sources": [
+              "T09:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "The interpretations do not confirm resolution of emotional states."
+      },
+      "review_note": "Earlier cards T03/T07/T08/T09 do not establish a final state for the whole album. The cautious limitation is preferable to the answer's claim that feelings remain unresolved by the final track; no abstention was emitted.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Narrator's desire for connection and feelings of isolation are established by T03:C1 and T08:C1."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T07:C2 supports tension between desire for freedom and societal expectations."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "T08:C1 supports feeling disconnected from loved ones."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "T09:C2 supports imagery evoking nostalgia and longing."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "All claims support that feelings of rupture and longing remain unresolved; no evidence of resolution by final track."
+      }
+    },
+    {
+      "case_id": "rhcp-abstention-embedding-1600-t3",
+      "question": "Is there any explicit evidence in the interpretations that the album's narrator resolves all feelings of rupture and longing by the final track?",
+      "answer": {
+        "answer": "The album's narrator does not resolve feelings of rupture and longing by the final track; instead, they express ongoing desires for connection and transformation.",
+        "claims": [
+          {
+            "text": "The narrator expresses a desire for urgency and transformation amidst pain and uncertainty.",
+            "sources": [
+              "T14:C1"
+            ]
+          },
+          {
+            "text": "The narrator grapples with identity and existential themes throughout the album.",
+            "sources": [
+              "T14:C3"
+            ]
+          },
+          {
+            "text": "The desire for closeness contrasts with feelings of isolation in the narrative.",
+            "sources": [
+              "T11:C2"
+            ]
+          },
+          {
+            "text": "The narrator reflects on the importance of love and connection despite struggles.",
+            "sources": [
+              "T11:C3"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "The evidence does not support a resolution of feelings."
+      },
+      "review_note": "T11/T14 support ongoing feelings at those positions, not proof about all feelings by the final track. Absence of evidence for complete resolution should not become proof of non-resolution.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T14:C1 about desire for transformation amid pain."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim aligns with source T14:C3 on grappling with identity and existential themes."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Claim reflects source T11:C2 on desire for closeness contrasting isolation."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Claim corresponds to source T11:C3 on importance of love and connection despite struggles."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "All claims support ongoing feelings without resolution, directly addressing the question's premise."
+      }
+    },
+    {
+      "case_id": "rhcp-abstention-full-100000-t3",
+      "question": "Is there any explicit evidence in the interpretations that the album's narrator resolves all feelings of rupture and longing by the final track?",
+      "answer": {
+        "answer": "The album's narrator does not resolve feelings of rupture and longing by the final track; instead, they express ongoing desires for connection and transformation amidst emotional struggles.",
+        "claims": [
+          {
+            "text": "The narrator expresses a desire for change despite feeling trapped.",
+            "sources": [
+              "T04:C3"
+            ]
+          },
+          {
+            "text": "The narrator reflects on the importance of love and connection.",
+            "sources": [
+              "T11:C3"
+            ]
+          },
+          {
+            "text": "The narrator seeks a fresh start through heartbreak.",
+            "sources": [
+              "T14:C1"
+            ]
+          },
+          {
+            "text": "The narrator grapples with identity and existential themes.",
+            "sources": [
+              "T14:C3"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "The evidence does not support a resolution of feelings."
+      },
+      "review_note": "T04/T11/T14 support local desires and tensions, not the categorical final-state conclusion. The response should distinguish lack of explicit evidence from an established unresolved ending.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Source T04:C3 confirms desire for change despite feeling trapped."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Source T11:C3 confirms reflection on love and connection."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Source T14:C1 confirms seeking fresh start through heartbreak."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Source T14:C3 confirms grappling with identity and existential themes."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "All claims show ongoing emotional struggles and desires, no resolution by final track."
+      }
+    },
+    {
+      "case_id": "roach-local-adaptive-100000-t3",
+      "question": "Considering two adjacent songs, how does the first track's assertion of control over listeners contrast with the second track's expression of despair and internal conflict, and what unresolved tensions emerge from this juxtaposition?",
+      "answer": {
+        "answer": "The first track asserts control over listeners' thoughts, while the second track reveals deep despair and hopelessness. This juxtaposition highlights unresolved tensions between dominance and vulnerability, showcasing contrasting emotional responses to societal pressures.",
+        "claims": [
+          {
+            "text": "The narrator emphasizes their influence over listeners' minds.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "The narrator feels overwhelmed and contemplates self-harm.",
+            "sources": [
+              "T02:C1"
+            ]
+          },
+          {
+            "text": "The narrator suggests a bleak view of humanity's role in societal problems.",
+            "sources": [
+              "T01:C3"
+            ]
+          },
+          {
+            "text": "Loss and emptiness are central to the narrator's struggles.",
+            "sources": [
+              "T02:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T01:C1/C3 and T02:C1/C2 support control versus despair across adjacent songs. Shared societal causation is inferred, not established for T02.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T01:C1 about control over listeners' minds."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim matches source T02:C1 about despair and self-harm."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Claim aligns with T01:C3 about bleak societal view."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Claim aligns with T02:C2 about loss and emptiness."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer contrasts first track's control with second's despair, highlighting unresolved tensions as requested."
+      }
+    },
+    {
+      "case_id": "roach-local-embedding-1600-t3",
+      "question": "Considering two adjacent songs, how does the first track's assertion of control over listeners contrast with the second track's expression of despair and internal conflict, and what unresolved tensions emerge from this juxtaposition?",
+      "answer": {
+        "answer": "The first track asserts control over listeners' perceptions, emphasizing influence and societal critique. In contrast, the second track reveals despair and internal conflict, highlighting feelings of hopelessness and a search for validation. This juxtaposition creates unresolved tensions between the narrator's authoritative stance and their subsequent vulnerability, reflecting a complex emotional landscape.",
+        "claims": [
+          {
+            "text": "The narrator emphasizes their influence over listeners' minds.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "The narrator feels overwhelmed and contemplates self-harm.",
+            "sources": [
+              "T02:C1"
+            ]
+          },
+          {
+            "text": "Loss and emptiness are central to the narrator's struggles.",
+            "sources": [
+              "T02:C2"
+            ]
+          },
+          {
+            "text": "Societal issues are attributed to various entities like government and media.",
+            "sources": [
+              "T01:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "The adjacent contrast is well supported by T01:C1/C2 and T02:C1/C2. Search for validation needs T02:C3 and is omitted from the submitted claims; continuity of one narrator is not established.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T01:C1 about narrator's influence over listeners' minds."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim matches source T02:C1 about narrator feeling overwhelmed and self-harm thoughts."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Claim matches source T02:C2 about loss and emptiness in narrator's struggles."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Claim matches source T01:C2 about societal issues attributed to government and media."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer contrasts first track's control and societal critique with second track's despair and internal conflict, highlighting unresolved tensions."
+      }
+    },
+    {
+      "case_id": "roach-local-full-100000-t3",
+      "question": "Considering two adjacent songs, how does the first track's assertion of control over listeners contrast with the second track's expression of despair and internal conflict, and what unresolved tensions emerge from this juxtaposition?",
+      "answer": {
+        "answer": "The first track asserts control over listeners' perceptions, emphasizing influence and societal critique. In contrast, the second track reveals despair and internal conflict, highlighting feelings of hopelessness and a search for validation. This juxtaposition creates unresolved tensions between the narrator's authoritative stance and their subsequent vulnerability, reflecting a complex emotional landscape.",
+        "claims": [
+          {
+            "text": "The narrator emphasizes their influence over listeners' minds.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "The narrator feels overwhelmed and contemplates self-harm.",
+            "sources": [
+              "T02:C1"
+            ]
+          },
+          {
+            "text": "Societal issues are attributed to various entities like government and media.",
+            "sources": [
+              "T01:C2"
+            ]
+          },
+          {
+            "text": "Loss and emptiness are central to the narrator's struggles.",
+            "sources": [
+              "T02:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "The same adjacent contrast is supported. Validation appears in the prose without T02:C3 in the claim list; subsequent vulnerability should be a contrast of voices, not assumed biography.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T01:C1 about narrator's influence over listeners."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim matches source T02:C1 about narrator's despair and self-harm contemplation."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Claim matches source T01:C2 about societal critique by narrator."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Claim matches source T02:C2 about loss and emptiness in narrator's struggles."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer contrasts first track's control and societal critique with second track's despair and internal conflict, highlighting unresolved tensions as requested."
+      }
+    },
+    {
+      "case_id": "roach-distant-adaptive-100000-t3",
+      "question": "Select one song from the first half and one from the second half, separated by at least four positions, that both critique societal issues but differ in their focus on emotional detachment versus chaotic internal struggle; how do their stances and unresolved questions compare?",
+      "answer": {
+        "answer": "From the first half, T01 critiques societal control and emotional detachment, while T07 from the second half explores chaotic internal struggles in relationships. T01 emphasizes dominance over perceptions, contrasting with T07's depiction of personal conflict and societal decay. Both songs raise unresolved questions about agency and emotional responses, yet T01's stance is more assertive, while T07 reveals vulnerability amidst chaos.",
+        "claims": [
+          {
+            "text": "T01 emphasizes their influence over listeners' minds.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "The relationship in T07 is fraught with love and dependency, creating inner conflict.",
+            "sources": [
+              "T07:C2"
+            ]
+          },
+          {
+            "text": "T01 critiques societal manipulation reducing genuine agency.",
+            "sources": [
+              "T04:C2"
+            ]
+          },
+          {
+            "text": "T07 reflects broader societal issues and existential threats.",
+            "sources": [
+              "T07:C3"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "The claim names T01 but cites T04:C2 for manipulation and diminished agency. This is a direct attribution error; the final prose also assigns emotional detachment to T01 rather than T04.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T01 emphasizes influence over listeners' minds (T01:C1)."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T07 depicts love, dependency, and inner conflict (T07:C2)."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "T01 critiques manipulation and lack of genuine emotion (T04:C2)."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "T07 reflects societal decay and personal chaos (T07:C3)."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer compares T01 and T07 on societal critique, emotional detachment vs. internal struggle, and unresolved questions, matching source claims."
+      }
+    },
+    {
+      "case_id": "roach-distant-embedding-1600-t3",
+      "question": "Select one song from the first half and one from the second half, separated by at least four positions, that both critique societal issues but differ in their focus on emotional detachment versus chaotic internal struggle; how do their stances and unresolved questions compare?",
+      "answer": {
+        "answer": "From the first half, track 4 critiques societal detachment, emphasizing emotional numbness. In the second half, track 11 explores chaotic internal struggles, highlighting despair and a desire for escape. Both songs address societal issues but differ in their emotional focus: one critiques external disconnection, while the other delves into personal turmoil. Their unresolved questions reflect a tension between societal critique and individual chaos.",
+        "claims": [
+          {
+            "text": "Track 4 critiques societal detachment and emotional numbness.",
+            "sources": [
+              "T04:C1"
+            ]
+          },
+          {
+            "text": "Track 11 explores chaotic internal struggles and a desire for escape.",
+            "sources": [
+              "T11:C1"
+            ]
+          },
+          {
+            "text": "Both songs address societal issues but differ in emotional focus.",
+            "sources": [
+              "T04:C1",
+              "T11:C1"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "Both tracks are separated by more than four positions."
+      },
+      "review_note": "T04:C1 and T11:C1 support detachment versus inner chaos. Desire for escape requires T11:C2; societal critique in T11 is not established by C1 alone. Distance is valid.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Source T04:C1 states society fosters emotional detachment, matching claim about societal detachment and numbness."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Source T11:C1 describes chaotic mental state and overwhelm, supporting claim about internal struggles and desire for escape."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Both sources address societal or personal issues with differing emotional focus, supporting claim of differing emotional focus."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer cites two tracks separated by more than four positions, contrasting societal detachment and internal chaos, addressing the question fully."
+      }
+    },
+    {
+      "case_id": "roach-distant-full-100000-t3",
+      "question": "Select one song from the first half and one from the second half, separated by at least four positions, that both critique societal issues but differ in their focus on emotional detachment versus chaotic internal struggle; how do their stances and unresolved questions compare?",
+      "answer": {
+        "answer": "From the first half, track 4 critiques societal detachment, emphasizing emotional numbness. In the second half, track 11 explores chaotic internal struggles, highlighting despair and a desire for escape. Both songs address societal issues but differ in focus: track 4 critiques external disconnection, while track 11 delves into personal turmoil. Their unresolved questions reflect a tension between societal critique and individual chaos.",
+        "claims": [
+          {
+            "text": "Track 4 critiques societal detachment and emotional numbness.",
+            "sources": [
+              "T04:C1"
+            ]
+          },
+          {
+            "text": "Track 11 expresses a chaotic internal struggle and desire for escape.",
+            "sources": [
+              "T11:C1"
+            ]
+          },
+          {
+            "text": "Both tracks address societal issues but differ in focus on detachment versus internal chaos.",
+            "sources": [
+              "T04:C1",
+              "T11:C1"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T04:C1 and T11:C1 support the broad contrast, but escape and a societal reading of T11 need additional sources. This is a partial source-coverage problem, not an invalid track distance.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Source T04:C1 states society fosters emotional detachment, supporting critique of societal detachment."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Source T11:C1 describes chaotic mental state, supporting internal struggle and desire for escape."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Combined sources show both address societal issues but differ in focus on detachment vs internal chaos."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer cites two tracks separated by at least four positions, contrasting societal detachment and internal chaos, addressing their stances and unresolved questions."
+      }
+    },
+    {
+      "case_id": "roach-transformation-adaptive-100000-t3",
+      "question": "Identify two separated tracks that contrast in their stance on coping with societal pressures: one depicting a narrator overwhelmed by addiction and external commands, the other rejecting materialism and advocating inner revolution; how do their unresolved tensions reflect this transformation?",
+      "answer": {
+        "answer": "Two tracks contrast in their stance on societal pressures: one (T02) depicts a narrator overwhelmed by despair and addiction, while another (T05) advocates for rejecting materialism and pursuing inner fulfillment. Their unresolved tensions reflect a struggle between external influences and the quest for personal liberation.",
+        "claims": [
+          {
+            "text": "T02's narrator feels overwhelmed and contemplates self-harm due to societal pressures.",
+            "sources": [
+              "T02:C1"
+            ]
+          },
+          {
+            "text": "T05's narrator emphasizes that true fulfillment comes from within, rejecting material possessions.",
+            "sources": [
+              "T05:C3"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "The evidence does not provide a direct link between the two tracks' themes."
+      },
+      "review_note": "T02:C1 describes overwhelm and self-harm, not addiction or external commands. T10:C1/C2 is the requested evidence. Substituting despair for addiction fails the relation even though T05:C3 supports inner fulfillment.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T02:C1 shows narrator overwhelmed and contemplating self-harm, indicating addiction and external pressure."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T05:C3 states fulfillment comes from within, rejecting material possessions, matching rejection of materialism."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Both tracks contrast coping with societal pressures: one overwhelmed by addiction, the other rejecting materialism; unresolved tensions reflect this transformation."
+      }
+    },
+    {
+      "case_id": "roach-transformation-embedding-1600-t3",
+      "question": "Identify two separated tracks that contrast in their stance on coping with societal pressures: one depicting a narrator overwhelmed by addiction and external commands, the other rejecting materialism and advocating inner revolution; how do their unresolved tensions reflect this transformation?",
+      "answer": {
+        "answer": "Two contrasting tracks are T10 and T05. T10 depicts a narrator overwhelmed by addiction and external pressures, feeling trapped and isolated. In contrast, T05 rejects materialism, advocating for inner fulfillment over societal obsessions. Their unresolved tensions reflect a struggle between succumbing to societal commands and seeking personal liberation.",
+        "claims": [
+          {
+            "text": "The narrator feels isolated and overwhelmed by their addiction.",
+            "sources": [
+              "T10:C1"
+            ]
+          },
+          {
+            "text": "True fulfillment comes from within, not from external possessions.",
+            "sources": [
+              "T05:C3"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T10:C1 and T05:C3 correctly locate addiction versus inner fulfillment. External commands are present in T10:C2 but are not cited; treat this as contrast, not forward chronology from T10 to T05.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T10:C1 supports narrator overwhelmed by addiction and isolation."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T05:C3 supports rejection of materialism and inner fulfillment."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Both tracks contrast coping with societal pressures; T10 shows overwhelm, T05 advocates inner revolution; unresolved tensions reflect transformation."
+      }
+    },
+    {
+      "case_id": "roach-transformation-full-100000-t3",
+      "question": "Identify two separated tracks that contrast in their stance on coping with societal pressures: one depicting a narrator overwhelmed by addiction and external commands, the other rejecting materialism and advocating inner revolution; how do their unresolved tensions reflect this transformation?",
+      "answer": {
+        "answer": "Two contrasting tracks are T10 and T05. T10 depicts a narrator overwhelmed by addiction and external pressures, feeling trapped and isolated. In contrast, T05 rejects materialism, advocating for inner fulfillment over societal obsessions. Their unresolved tensions reflect a struggle between external commands and the pursuit of personal liberation.",
+        "claims": [
+          {
+            "text": "The narrator feels isolated and overwhelmed by their addiction.",
+            "sources": [
+              "T10:C1"
+            ]
+          },
+          {
+            "text": "True fulfillment comes from within, not from external possessions.",
+            "sources": [
+              "T05:C3"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "The relevant pair is recovered. T10:C2 would support external commands beyond T10:C1; the retrospective contrast should not imply a chronological transformation.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T10:C1 states narrator overwhelmed by addiction and isolation."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T05:C3 states fulfillment comes from within, rejecting external possessions."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Both tracks contrast coping with societal pressures: one overwhelmed by addiction, the other rejecting materialism for inner fulfillment, reflecting unresolved tensions."
+      }
+    },
+    {
+      "case_id": "roach-contradiction-adaptive-100000-t3",
+      "question": "Which two tracks, separated by at least four positions, present conflicting perspectives on agency and survival, with one emphasizing personal empowerment amidst violence and the other revealing deep despair and hopelessness, thereby challenging a unified interpretive account?",
+      "answer": {
+        "answer": "Tracks T01 and T02 present conflicting perspectives on agency and survival. T01 emphasizes personal empowerment and control over perceptions, while T02 reveals deep despair and hopelessness, challenging a unified interpretation of agency amidst societal issues.",
+        "claims": [
+          {
+            "text": "T01 emphasizes the narrator's influence over listeners' minds, contrasting with T02's expression of overwhelming despair.",
+            "sources": [
+              "T01:C1",
+              "T02:C1"
+            ]
+          },
+          {
+            "text": "T01 asserts dominance, while T02 reveals vulnerability, highlighting differing responses to societal pressures.",
+            "sources": [
+              "T01:C1",
+              "T02:C1"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "Both tracks reflect distinct emotional states, complicating a unified narrative."
+      },
+      "review_note": "T01 and T02 violate the required four-position distance. T01 control over listeners is also not the requested empowerment amid violence.",
+      "online_accepted": 0,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T01 shows influence over minds; T02 shows despair, supporting conflicting perspectives."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T01 asserts dominance; T02 shows vulnerability, evidencing differing societal responses."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer cites two tracks with contrasting views on agency and survival, meeting the question's requirement."
+      }
+    },
+    {
+      "case_id": "roach-contradiction-embedding-1600-t3",
+      "question": "Which two tracks, separated by at least four positions, present conflicting perspectives on agency and survival, with one emphasizing personal empowerment amidst violence and the other revealing deep despair and hopelessness, thereby challenging a unified interpretive account?",
+      "answer": {
+        "answer": "Tracks T06 and T02 present conflicting perspectives on agency and survival. T06 emphasizes personal empowerment amidst chaos, while T02 reveals deep despair and hopelessness, challenging a unified interpretation.",
+        "claims": [
+          {
+            "text": "Survival is a constant struggle against others, emphasizing empowerment amidst chaos.",
+            "sources": [
+              "T06:C1"
+            ]
+          },
+          {
+            "text": "The narrator feels overwhelmed and contemplates self-harm, revealing despair.",
+            "sources": [
+              "T02:C1"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "Both tracks are at least four positions apart."
+      },
+      "review_note": "T06:C1 describes perpetual survival struggle. It does not establish empowerment; T07:C1 offers a more explicit resistance to violence. The cited T02/T06 pair passes distance but weakens the central opposition.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T06:C1 supports empowerment amidst chaos as survival struggle."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T02:C1 supports despair and self-harm contemplation."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Both tracks cited show conflicting perspectives on agency and survival, meeting the question's requirements."
+      }
+    },
+    {
+      "case_id": "roach-contradiction-full-100000-t3",
+      "question": "Which two tracks, separated by at least four positions, present conflicting perspectives on agency and survival, with one emphasizing personal empowerment amidst violence and the other revealing deep despair and hopelessness, thereby challenging a unified interpretive account?",
+      "answer": {
+        "answer": "Tracks 2 and 6 present conflicting perspectives on agency and survival. Track 2 emphasizes despair and hopelessness, while Track 6 highlights personal empowerment amidst chaos. This contrast challenges a unified interpretation.",
+        "claims": [
+          {
+            "text": "The narrator expresses deep despair and a sense of hopelessness about life.",
+            "sources": [
+              "T02:C1"
+            ]
+          },
+          {
+            "text": "Survival is a constant struggle against others.",
+            "sources": [
+              "T06:C1"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "Both tracks are separated by four positions."
+      },
+      "review_note": "T02:C1 and T06:C1 support despair and struggle; they do not establish the prose's empowerment claim. The distance is valid, so the error is semantic rather than positional.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Track 2 shows despair and hopelessness per T02:C1."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Track 6 shows struggle for survival per T06:C1."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Both tracks 2 and 6, separated by four positions, show conflicting views on agency and survival as required."
+      }
+    },
+    {
+      "case_id": "roach-multi_hop-adaptive-100000-t3",
+      "question": "Considering three songs in chronological order with the first and last separated by at least six positions, how does the middle track qualify or complicate a narrative that begins with societal critique of emotional numbness and ends with chaotic moral struggle?",
+      "answer": {
+        "answer": "The narrative begins with societal critique in T01, highlighting emotional numbness. T04 complicates this by emphasizing societal detachment. T12 concludes with chaotic moral struggles, reflecting internal conflict and instability.",
+        "claims": [
+          {
+            "text": "T01 critiques societal influence on emotions, establishing a foundation for the narrative.",
+            "sources": [
+              "T01:C2"
+            ]
+          },
+          {
+            "text": "T04 emphasizes emotional detachment, complicating the initial critique of societal issues.",
+            "sources": [
+              "T04:C1"
+            ]
+          },
+          {
+            "text": "T12 reveals a chaotic struggle with morality, reflecting the culmination of internal conflict.",
+            "sources": [
+              "T12:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "The proposed opening T01:C2 names government/media without emotional numbness. T04:C1 supplies numbness but is moved to the middle; this shifts the requested opening relation. T12:C2 supports moral struggle.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T01:C2 links societal issues to emotional numbness via government and media critique."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T04:C1 states society fosters emotional detachment, complicating initial critique."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "T12:C2 describes struggle between good and evil, indicating chaotic moral conflict."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "All three songs in order show progression from societal emotional numbness to detachment to chaotic moral struggle, matching question's narrative."
+      }
+    },
+    {
+      "case_id": "roach-multi_hop-embedding-1600-t3",
+      "question": "Considering three songs in chronological order with the first and last separated by at least six positions, how does the middle track qualify or complicate a narrative that begins with societal critique of emotional numbness and ends with chaotic moral struggle?",
+      "answer": {
+        "answer": "The narrative begins with societal critique in T04, where emotional numbness is highlighted. T07 complicates this by intertwining personal chaos with societal decay. Finally, T12 concludes with a chaotic moral struggle, emphasizing instability and the conflict between good and evil.",
+        "claims": [
+          {
+            "text": "Society fosters emotional detachment and anti-social behavior.",
+            "sources": [
+              "T04:C1"
+            ]
+          },
+          {
+            "text": "Societal decay and personal chaos intertwine, reflecting broader dangers.",
+            "sources": [
+              "T07:C3"
+            ]
+          },
+          {
+            "text": "There is a constant struggle between good and evil.",
+            "sources": [
+              "T12:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T04:C1, T07:C3 and T12:C2 form a defensible ordered triple: collective detachment, personal/social entanglement, moral struggle. Instability needs T12:C3; the interpretation remains a hypothesis.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T04:C1 states society fosters emotional detachment, matching societal critique of numbness."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T07:C3 shows personal chaos intertwined with societal decay, complicating the narrative."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "T12:C2 describes struggle between good and evil, fitting chaotic moral struggle."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "All three songs in order support the narrative from societal numbness to chaotic moral struggle, with the middle complicating it."
+      }
+    },
+    {
+      "case_id": "roach-multi_hop-full-100000-t3",
+      "question": "Considering three songs in chronological order with the first and last separated by at least six positions, how does the middle track qualify or complicate a narrative that begins with societal critique of emotional numbness and ends with chaotic moral struggle?",
+      "answer": {
+        "answer": "The narrative begins with societal critique of emotional numbness in T04, complicates with T07's tumultuous relationship reflecting personal chaos, and concludes with T12's chaotic moral struggle. T07 highlights the intertwining of personal and societal issues, emphasizing the impact of emotional detachment on relationships.",
+        "claims": [
+          {
+            "text": "Society fosters emotional detachment and anti-social behavior.",
+            "sources": [
+              "T04:C1"
+            ]
+          },
+          {
+            "text": "The relationship is fraught with love and dependency, creating inner conflict.",
+            "sources": [
+              "T07:C2"
+            ]
+          },
+          {
+            "text": "The narrator's life is chaotic and unstable.",
+            "sources": [
+              "T12:C3"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T04:C1, T07:C2 and T12:C3 locate a plausible triple. Moral struggle needs T12:C2 and societal entanglement needs T07:C3; claiming detachment causes the relationship tension exceeds these citations.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T04:C1 supports societal critique of emotional numbness."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T07:C2 supports tumultuous relationship reflecting personal chaos."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "T12:C3 supports chaotic moral struggle narrative conclusion."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "All three songs in order support the narrative from societal critique to personal chaos to moral struggle as requested."
+      }
+    },
+    {
+      "case_id": "roach-abstention-adaptive-100000-t3",
+      "question": "Is there any track in the album that explicitly describes a concrete event of reconciliation or healing between the narrator and a family member?",
+      "answer": {
+        "answer": "The album does not explicitly describe a concrete event of reconciliation or healing between the narrator and a family member. The themes focus more on emotional pain, abandonment, and societal issues.",
+        "claims": [],
+        "abstained": true,
+        "limitation": "No evidence of reconciliation or healing events found in the tracks."
+      },
+      "review_note": "Abstention is appropriate against the complete cards: family abandonment in T03 provides no explicit reconciliation event. The statement should remain scoped to annotations, not all possible lyric readings.",
+      "online_accepted": 0,
+      "online_verification": {
+        "claims": [],
+        "all_assertions_listed": false,
+        "addresses_question": false,
+        "reason": "Abstention; negative-case correctness evaluated separately."
+      }
+    },
+    {
+      "case_id": "roach-abstention-embedding-1600-t3",
+      "question": "Is there any track in the album that explicitly describes a concrete event of reconciliation or healing between the narrator and a family member?",
+      "answer": {
+        "answer": "The album does not contain any explicit tracks that describe a concrete event of reconciliation or healing between the narrator and a family member.",
+        "claims": [],
+        "abstained": true,
+        "limitation": "No evidence of reconciliation or healing events in the provided tracks."
+      },
+      "review_note": "No source card establishes the requested family reconciliation. The limitation properly scopes the withheld answer to the supplied tracks, though album-wide wording is stronger.",
+      "online_accepted": 0,
+      "online_verification": {
+        "claims": [],
+        "all_assertions_listed": false,
+        "addresses_question": false,
+        "reason": "Abstention; negative-case correctness evaluated separately."
+      }
+    },
+    {
+      "case_id": "roach-abstention-full-100000-t3",
+      "question": "Is there any track in the album that explicitly describes a concrete event of reconciliation or healing between the narrator and a family member?",
+      "answer": {
+        "answer": "The album does not contain any explicit descriptions of reconciliation or healing between the narrator and a family member. The themes focus more on emotional pain, isolation, and societal issues.",
+        "claims": [],
+        "abstained": true,
+        "limitation": "No evidence of reconciliation or healing between the narrator and family members is present."
+      },
+      "review_note": "The cards contain family pain but no concrete reconciliation event. Withholding the event narrative is warranted within this evidence set.",
+      "online_accepted": 0,
+      "online_verification": {
+        "claims": [],
+        "all_assertions_listed": false,
+        "addresses_question": false,
+        "reason": "Abstention; negative-case correctness evaluated separately."
+      }
+    },
+    {
+      "case_id": "beatles-local-adaptive-100000-t3",
+      "question": "Considering two adjacent songs, how does the first express a desire for connection amid chaos, and the second reveal deep attraction mixed with uncertainty? How do their movements and unresolved tensions interplay to shape the emotional landscape?",
+      "answer": {
+        "answer": "The first song expresses a chaotic desire for connection, emphasizing a longing for unity despite overwhelming feelings. The second song reveals deep attraction intertwined with uncertainty, highlighting emotional complexities. Their interplay shapes an emotional landscape where the yearning for love contrasts with doubts about its permanence.",
+        "claims": [
+          {
+            "text": "The narrator feels overwhelmed yet seeks freedom and unity.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "The narrator feels a unique attraction to their partner.",
+            "sources": [
+              "T02:C1"
+            ]
+          },
+          {
+            "text": "Repetition of 'love you' highlights the depth of affection.",
+            "sources": [
+              "T16:C2"
+            ]
+          },
+          {
+            "text": "The narrator's desire is persistent yet fraught with madness.",
+            "sources": [
+              "T06:C3"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T01:C1 and T02:C1 locate the adjacent pair, but uncertainty is not supported by the submitted T16:C2 and T06:C3 claims. Those unrelated songs contaminate the two-song explanation despite valid individual paraphrases.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T01:C1 about desire for unity amid overwhelm."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim matches source T02:C1 about unique attraction and uncertainty."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Claim matches source T16:C2 about deep affection via repetition."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Claim matches source T06:C3 about persistent desire with madness."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "All claims correspond to adjacent songs and describe desire, attraction, and emotional tension as asked."
+      }
+    },
+    {
+      "case_id": "beatles-local-embedding-1600-t3",
+      "question": "Considering two adjacent songs, how does the first express a desire for connection amid chaos, and the second reveal deep attraction mixed with uncertainty? How do their movements and unresolved tensions interplay to shape the emotional landscape?",
+      "answer": {
+        "answer": "The first song expresses a desire for connection amid chaos, emphasizing a longing for unity despite overwhelming feelings. The second song reveals deep attraction mixed with uncertainty, highlighting the narrator's commitment yet questioning their feelings. The interplay of chaotic imagery and emotional weight shapes a complex emotional landscape, where longing and doubt coexist.",
+        "claims": [
+          {
+            "text": "The narrator feels overwhelmed yet seeks freedom and unity.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "The narrator feels a unique attraction to their partner.",
+            "sources": [
+              "T02:C1"
+            ]
+          },
+          {
+            "text": "There is uncertainty about the growth of love.",
+            "sources": [
+              "T02:C2"
+            ]
+          },
+          {
+            "text": "The repeated phrase emphasizes a longing for collective experience.",
+            "sources": [
+              "T01:C3"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T01:C1/C3 and T02:C1/C2 support adjacent unity versus uncertain attraction. Commitment would be more precisely supported by T02:C3. No continuous protagonist is established.",
+      "online_accepted": 0,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T01:C1 and T01:C3 about desire for connection amid chaos."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim matches source T02:C1 and T02:C2 about attraction mixed with uncertainty."
+          },
+          {
+            "index": 2,
+            "supported": false,
+            "reason": "No source mentions movements or unresolved tensions shaping emotional landscape."
+          },
+          {
+            "index": 3,
+            "supported": false,
+            "reason": "No source addresses interplay of movements and tensions between songs."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": false,
+        "reason": "Answer addresses emotional themes but lacks evidence on movements, tensions, and their interplay shaping emotional landscape."
+      }
+    },
+    {
+      "case_id": "beatles-local-full-100000-t3",
+      "question": "Considering two adjacent songs, how does the first express a desire for connection amid chaos, and the second reveal deep attraction mixed with uncertainty? How do their movements and unresolved tensions interplay to shape the emotional landscape?",
+      "answer": {
+        "answer": "The first song expresses a desire for connection amid chaos, emphasizing a longing for unity despite overwhelming feelings. The second song reveals deep attraction mixed with uncertainty, highlighting the narrator's commitment yet questioning their feelings. Together, these songs create an emotional landscape of yearning and doubt, where the desire for closeness clashes with the complexities of love.",
+        "claims": [
+          {
+            "text": "The narrator feels overwhelmed yet seeks freedom and unity.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "The narrator feels a unique attraction to their partner.",
+            "sources": [
+              "T02:C1"
+            ]
+          },
+          {
+            "text": "There is uncertainty about the growth of love.",
+            "sources": [
+              "T02:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "The emotional interplay between chaos and attraction is complex."
+      },
+      "review_note": "T01:C1 and T02:C1/C2 support the central interplay. Commitment in the prose is not among the submitted claims, but the requested contrast is defensible.",
+      "online_accepted": 0,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T01:C1 about desire for unity amid overwhelm."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim matches sources T02:C1 and T02:C2 about attraction and uncertainty."
+          },
+          {
+            "index": 2,
+            "supported": false,
+            "reason": "Answer's claim about emotional landscape and interplay not directly supported by sources."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": false,
+        "reason": "Sources support individual song emotions but not their interplay or movement shaping emotional landscape."
+      }
+    },
+    {
+      "case_id": "beatles-distant-adaptive-100000-t3",
+      "question": "Select one song from the first half and one from the second half, separated by at least four positions, that both use repetition to emphasize longing or desire. How do their thematic focuses and unresolved tensions differ despite this shared device?",
+      "answer": {
+        "answer": "In T02, the narrator's deep attraction is marked by uncertainty about love's growth. In T16, longing for connection is emphasized through repeated affirmations of love, questioning its permanence. Both use repetition to convey desire, yet T02 focuses on attraction's complexities, while T16 highlights emotional weight and reassurance.",
+        "claims": [
+          {
+            "text": "The narrator feels a unique attraction to their partner.",
+            "sources": [
+              "T02:C1"
+            ]
+          },
+          {
+            "text": "Repetition of 'love you' highlights the depth of affection.",
+            "sources": [
+              "T16:C2"
+            ]
+          },
+          {
+            "text": "There is uncertainty about the growth of love.",
+            "sources": [
+              "T02:C2"
+            ]
+          },
+          {
+            "text": "The conclusion suggests a balance between giving and receiving love.",
+            "sources": [
+              "T16:C3"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T02:C1/C2 do not establish repetition, while T16:C2 does. The shared device is supported for only one side; love's permanence is also stronger than T16:C3.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T02:C1 about unique attraction."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim matches source T16:C2 about repetition emphasizing affection."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Claim matches source T02:C2 about uncertainty in love growth."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Claim matches source T16:C3 about balance in love giving and receiving."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer cites two songs (T02 and T16) separated by more than four positions, discusses repetition emphasizing desire, and contrasts thematic focuses and tensions."
+      }
+    },
+    {
+      "case_id": "beatles-distant-embedding-1600-t3",
+      "question": "Select one song from the first half and one from the second half, separated by at least four positions, that both use repetition to emphasize longing or desire. How do their thematic focuses and unresolved tensions differ despite this shared device?",
+      "answer": {
+        "answer": "In track 1, the narrator's repeated call for unity amidst chaos emphasizes a longing for connection. In track 16, the repetition of love highlights emotional weight and uncertainty. While both express desire through repetition, track 1 focuses on collective experience, whereas track 16 questions the permanence of love.",
+        "claims": [
+          {
+            "text": "The repeated phrase emphasizes a longing for collective experience.",
+            "sources": [
+              "T01:C3"
+            ]
+          },
+          {
+            "text": "Repetition of 'love you' highlights the depth of affection.",
+            "sources": [
+              "T16:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T01:C3 and T16:C2 support repetition on both sides. Questioning permanence and emotional weight are not established by these two cited claims; the requested unresolved tensions are under-supported.",
+      "online_accepted": 0,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T01:C3 exactly about collective longing."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim matches source T16:C2 exactly about repetition emphasizing affection."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": false,
+        "reason": "Answer contrasts thematic focuses but does not explain unresolved tensions as asked."
+      }
+    },
+    {
+      "case_id": "beatles-distant-full-100000-t3",
+      "question": "Select one song from the first half and one from the second half, separated by at least four positions, that both use repetition to emphasize longing or desire. How do their thematic focuses and unresolved tensions differ despite this shared device?",
+      "answer": {
+        "answer": "In track 1, the narrator's chaotic longing for connection contrasts with track 16's questioning of love's permanence. Both use repetition, but the first emphasizes collective experience, while the latter highlights emotional weight.",
+        "claims": [
+          {
+            "text": "The repeated phrase emphasizes a longing for collective experience.",
+            "sources": [
+              "T01:C3"
+            ]
+          },
+          {
+            "text": "Repetition of 'love you' highlights the depth of affection.",
+            "sources": [
+              "T16:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "Both songs use repetition to convey longing, but their thematic focuses differ significantly."
+      },
+      "review_note": "The shared device is supported by T01:C3/T16:C2, but the claim about permanence needs further argument, even with T16:C1 available in the archive.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Source T01:C3 confirms repetition emphasizes collective longing in track 1."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Source T16:C2 confirms repetition highlights affection depth in track 16."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Both claims about repetition and thematic differences are supported by sources, addressing the question fully."
+      }
+    },
+    {
+      "case_id": "beatles-transformation-adaptive-100000-t3",
+      "question": "Identify two non-adjacent songs that contrast in their stance on emotional burden: one depicting persistent weight overshadowing celebrations, and another expressing hopeful renewal after hardship. How do their movements and unresolved elements reflect this transformation?",
+      "answer": {
+        "answer": "The song T15 depicts emotional burden, overshadowing celebrations with persistent weight, while T07 expresses hopeful renewal after hardship, symbolized by the arrival of warmth. Their movements reflect a transition from despair to optimism, contrasting the heaviness of T15 with the uplifting imagery of T07.",
+        "claims": [
+          {
+            "text": "T15 illustrates emotional weight overshadowing celebrations.",
+            "sources": [
+              "T15:C2"
+            ]
+          },
+          {
+            "text": "T07 symbolizes hopeful renewal with the arrival of warmth.",
+            "sources": [
+              "T07:C1"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "Both songs contrast in their emotional stances on burden and renewal."
+      },
+      "review_note": "T15:C2 and T07:C1 support burden versus renewal. A transition from T15 to T07 reverses album order; it can only be a nonchronological comparison. Unresolved elements are underdeveloped.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T15:C2 states celebrations overshadowed by personal breakdown, indicating emotional burden."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T07:C1 states arrival of sun symbolizes end of difficult period, indicating hopeful renewal."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Both songs contrast emotional burden and hopeful renewal; movements reflect transformation from despair to optimism as per sources."
+      }
+    },
+    {
+      "case_id": "beatles-transformation-embedding-1600-t3",
+      "question": "Identify two non-adjacent songs that contrast in their stance on emotional burden: one depicting persistent weight overshadowing celebrations, and another expressing hopeful renewal after hardship. How do their movements and unresolved elements reflect this transformation?",
+      "answer": {
+        "answer": "The song from T15 depicts emotional burden overshadowing celebrations, while T07 expresses hopeful renewal after hardship. T15's persistent weight contrasts with T07's arrival of warmth, reflecting a transformation from despair to optimism.",
+        "claims": [
+          {
+            "text": "T15 illustrates how emotional burdens overshadow celebrations.",
+            "sources": [
+              "T15:C2"
+            ]
+          },
+          {
+            "text": "T07 symbolizes hope and renewal after a difficult period.",
+            "sources": [
+              "T07:C1"
+            ]
+          },
+          {
+            "text": "T15 emphasizes ongoing emotional weight and tension.",
+            "sources": [
+              "T15:C1"
+            ]
+          },
+          {
+            "text": "T07's warmth signifies relief and optimism about the future.",
+            "sources": [
+              "T07:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T15:C1/C2 and T07:C1/C2 provide a strong contrast in emotional burden. Transformation language must not imply later renewal: T07 precedes T15.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T15:C2 states celebrations overshadowed by breakdown, indicating emotional burden."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T07:C1 states sun arrival symbolizes end of difficulty, implying hopeful renewal."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "T15:C1 states weight of responsibility is persistent burden, showing ongoing tension."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "T07:C2 states narrator expresses relief and optimism, indicating warmth and hope."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "All claims about contrasting emotional burdens and hopeful renewal are supported by sources; transformation reflected in persistent burden vs relief."
+      }
+    },
+    {
+      "case_id": "beatles-transformation-full-100000-t3",
+      "question": "Identify two non-adjacent songs that contrast in their stance on emotional burden: one depicting persistent weight overshadowing celebrations, and another expressing hopeful renewal after hardship. How do their movements and unresolved elements reflect this transformation?",
+      "answer": {
+        "answer": "The song depicting emotional burden is T15, where celebrations are overshadowed by persistent weight. In contrast, T07 expresses hope and renewal after hardship, symbolized by the arrival of warmth. The movements reflect a transition from despair to optimism, with unresolved elements highlighting the struggle between emotional heaviness and the desire for joy.",
+        "claims": [
+          {
+            "text": "Celebrations are overshadowed by personal breakdown in T15.",
+            "sources": [
+              "T15:C2"
+            ]
+          },
+          {
+            "text": "The arrival of the sun symbolizes the end of a difficult period in T07.",
+            "sources": [
+              "T07:C1"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "The answer is based on contrasting emotional stances in two songs."
+      },
+      "review_note": "The contrast is supported, but the prose describes a transition from T15 to T07. The silver reference makes the same chronological mistake; unresolved elements are asserted rather than evidenced.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T15:C2 states celebrations overshadowed by breakdown, matching emotional burden claim."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T07:C1 states sun arrival symbolizes end of difficulty, matching hopeful renewal claim."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Both songs contrast emotional burden and hope; movements and unresolved elements implied by symbolism in sources."
+      }
+    },
+    {
+      "case_id": "beatles-contradiction-adaptive-100000-t3",
+      "question": "Which two songs, separated by at least four positions, present conflicting views on social critique and personal identity—one highlighting societal failure and violence, the other admiring unique individual identity—and how do their unresolved tensions resist a cohesive interpretive account?",
+      "answer": {
+        "answer": "The songs \"Mr. Mustard\" (T11) and \"Polythene Pam\" (T12) present conflicting views on social critique and personal identity. T11 critiques Mr. Mustard's disconnection from society, while T12 admires Polythene Pam's unique identity. Their unresolved tensions highlight societal norms versus individual expression, resisting a cohesive interpretive account.",
+        "claims": [
+          {
+            "text": "Mr. Mustard's odd habits reflect his disconnection from society.",
+            "sources": [
+              "T11:C1"
+            ]
+          },
+          {
+            "text": "Polythene Pam's bold fashion choices highlight her unique identity.",
+            "sources": [
+              "T12:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "Both songs are separated by more than four positions."
+      },
+      "review_note": "T11 and T12 are adjacent despite the limitation claiming more than four positions. T11 disconnection also substitutes for the requested societal violence; the deterministic gate correctly rejects the spacing.",
+      "online_accepted": 0,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T11:C1 supports Mr. Mustard's societal disconnection."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T12:C2 supports Polythene Pam's unique identity."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": false,
+        "reason": "Songs are adjacent (T11 and T12), not separated by at least four positions; no evidence on conflicting social critique or unresolved tensions."
+      }
+    },
+    {
+      "case_id": "beatles-contradiction-embedding-1600-t3",
+      "question": "Which two songs, separated by at least four positions, present conflicting views on social critique and personal identity—one highlighting societal failure and violence, the other admiring unique individual identity—and how do their unresolved tensions resist a cohesive interpretive account?",
+      "answer": {
+        "answer": "The songs \"T03\" and \"T11\" present conflicting views: \"T03\" critiques societal violence, while \"T11\" highlights individual absurdity. Their unresolved tensions resist a cohesive interpretation due to differing focuses on societal critique versus personal identity.",
+        "claims": [
+          {
+            "text": "\"T03\" critiques societal violence through dark humor and absurdity.",
+            "sources": [
+              "T03:C1"
+            ]
+          },
+          {
+            "text": "\"T11\" highlights individual absurdity and disconnection from society.",
+            "sources": [
+              "T11:C1"
+            ]
+          },
+          {
+            "text": "The contrasting themes create tension that complicates interpretation.",
+            "sources": [
+              "T03:C2"
+            ]
+          },
+          {
+            "text": "Both songs reflect on identity but from opposing perspectives.",
+            "sources": [
+              "T11:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T11:C1 describes disconnection, not admiration of unique identity. T12 is the more direct match. A relation-level statement cites only T03:C2 or T11:C2 and cannot establish both sides.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T03:C1 shows societal violence via Maxwell's actions."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T11:C1 shows individual absurdity and disconnection."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "T03:C2 notes absurdity creating dark humor, implying tension."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "T11:C2 contrasts individual traits, reflecting opposing perspectives."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer cites two songs with conflicting views on society and identity, highlighting unresolved tensions resisting cohesive interpretation."
+      }
+    },
+    {
+      "case_id": "beatles-contradiction-full-100000-t3",
+      "question": "Which two songs, separated by at least four positions, present conflicting views on social critique and personal identity—one highlighting societal failure and violence, the other admiring unique individual identity—and how do their unresolved tensions resist a cohesive interpretive account?",
+      "answer": {
+        "answer": "The songs \"T03\" and \"T12\" present conflicting views: \"T03\" critiques societal violence, while \"T12\" celebrates individual uniqueness. Their unresolved tensions highlight the struggle between societal critique and personal identity, resisting a cohesive interpretation.",
+        "claims": [
+          {
+            "text": "\"T03\" critiques societal issues through violent absurdity, while \"T12\" admires unique identity and boldness.",
+            "sources": [
+              "T03:C3",
+              "T12:C1"
+            ]
+          },
+          {
+            "text": "The juxtaposition of societal failure in \"T03\" and individual admiration in \"T12\" creates interpretive tension.",
+            "sources": [
+              "T03:C1",
+              "T12:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "Claims are based on specific song content."
+      },
+      "review_note": "T03/T12 satisfy distance and support societal failure versus distinct identity. Their juxtaposition need not be a contradiction or defeat a cohesive account; the answer needs to specify the account being challenged.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T03 shows societal failure and violence; T12 shows unique individual identity."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Sources show tension between societal critique (T03) and individual admiration (T12)."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer cites two songs with at least four positions apart, showing conflicting views and interpretive tension as requested."
+      }
+    },
+    {
+      "case_id": "beatles-multi_hop-adaptive-100000-t3",
+      "question": "Considering three songs in chronological order with the first and last separated by at least six positions, how does the middle song qualify or complicate a theme of longing or desire introduced early and revisited later? Discuss how the movements and unresolved tensions across these songs create a nuanced emotional trajectory.",
+      "answer": {
+        "answer": "The middle song (T02) complicates the theme of longing by introducing uncertainty about love, contrasting with the earlier chaotic desire for connection (T01) and the later focused longing for reassurance (T16). This emotional trajectory reflects a shift from collective yearning to personal affection, highlighting the complexities of romantic feelings.",
+        "claims": [
+          {
+            "text": "The narrator feels a unique attraction to their partner.",
+            "sources": [
+              "T02:C1"
+            ]
+          },
+          {
+            "text": "There is uncertainty about the growth of love.",
+            "sources": [
+              "T02:C2"
+            ]
+          },
+          {
+            "text": "The repeated phrase emphasizes a longing for collective experience.",
+            "sources": [
+              "T01:C3"
+            ]
+          },
+          {
+            "text": "Repetition of 'love you' highlights the depth of affection.",
+            "sources": [
+              "T16:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T01/T02/T16 form an ordered triple and support collective longing, uncertain attraction, and affection. Reassurance is in T16:C1 but not cited. The comparison is plausible without assuming one romance.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T02:C2 about uncertainty in love growth."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim matches source T01:C3 about collective longing early on."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Claim matches source T16:C2 about deep affection later."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Claim about emotional trajectory aligns with combined sources showing shift in feelings."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "All claims correspond to sources and address the emotional trajectory and theme of longing across three songs."
+      }
+    },
+    {
+      "case_id": "beatles-multi_hop-embedding-1600-t3",
+      "question": "Considering three songs in chronological order with the first and last separated by at least six positions, how does the middle song qualify or complicate a theme of longing or desire introduced early and revisited later? Discuss how the movements and unresolved tensions across these songs create a nuanced emotional trajectory.",
+      "answer": {
+        "answer": "In the songs T01, T02, and T09, the theme of longing evolves. T01 introduces a desire for connection amidst chaos, T02 complicates this with uncertainty in love, and T09 reflects frustration over unreciprocated efforts. This trajectory illustrates how longing can shift from hopeful to disillusioned, highlighting emotional complexities.",
+        "claims": [
+          {
+            "text": "The narrator feels overwhelmed yet seeks freedom and unity.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "There is uncertainty about the growth of love.",
+            "sources": [
+              "T02:C2"
+            ]
+          },
+          {
+            "text": "A sense of aimlessness and lost potential is expressed.",
+            "sources": [
+              "T09:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T01/T02/T09 form a valid triple. T09:C2 supports aimlessness, not unreciprocated efforts; T09:C1 would contextualize negotiations but still needs care before framing this as romantic disillusionment.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T01:C1 states narrator seeks freedom and unity, implying desire amidst chaos."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T02:C2 indicates uncertainty about love's growth, complicating initial longing."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "T09:C2 expresses aimlessness and lost potential, reflecting frustration over unreciprocated efforts."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "All three songs in order show evolving longing, from hopeful to uncertain to frustrated, creating nuanced emotional trajectory."
+      }
+    },
+    {
+      "case_id": "beatles-multi_hop-full-100000-t3",
+      "question": "Considering three songs in chronological order with the first and last separated by at least six positions, how does the middle song qualify or complicate a theme of longing or desire introduced early and revisited later? Discuss how the movements and unresolved tensions across these songs create a nuanced emotional trajectory.",
+      "answer": {
+        "answer": "In the songs T01, T06, and T16, the theme of longing evolves. T01 introduces a desire for connection amidst chaos, T06 complicates this with overwhelming emotional turmoil, and T16 revisits longing with a focus on love's permanence. The movements from chaotic yearning to heavy emotional weight and finally to a quest for reassurance create a nuanced emotional trajectory, highlighting the complexities of desire and connection.",
+        "claims": [
+          {
+            "text": "The narrator feels overwhelmed yet seeks freedom and unity.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "The narrator's longing is overwhelming and consuming.",
+            "sources": [
+              "T06:C1"
+            ]
+          },
+          {
+            "text": "The narrator seeks reassurance about love's presence in dreams.",
+            "sources": [
+              "T16:C1"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T01:C1, T06:C1 and T16:C1 support a coherent ordered contrast in kinds of longing. Permanence slightly overstates reassurance about love in dreams; this is an interpretive trajectory, not a shared narrator's history.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T01:C1 states narrator seeks freedom and unity, indicating desire for connection amidst chaos."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T06:C1 describes longing as overwhelming and consuming, showing emotional turmoil."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "T16:C1 shows narrator seeks reassurance about love, revisiting longing with focus on permanence."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "All three songs in order show evolving longing theme with emotional complexity and unresolved tensions, matching the question's scope."
+      }
+    },
+    {
+      "case_id": "beatles-abstention-adaptive-100000-t3",
+      "question": "Is there evidence in the provided annotations about a specific event where a character named Maxwell reconciles with Polythene Pam, and how does this event influence the album's overall narrative?",
+      "answer": {
+        "answer": "There is no evidence in the provided annotations about Maxwell reconciling with Polythene Pam. The memory lacks specific details regarding their relationship or any reconciliation event.",
+        "claims": [],
+        "abstained": true,
+        "limitation": "No claims support the premise of reconciliation."
+      },
+      "review_note": "No card establishes a Maxwell/Pam reconciliation. The explicit refusal to invent a shared event is appropriate.",
+      "online_accepted": 0,
+      "online_verification": {
+        "claims": [],
+        "all_assertions_listed": false,
+        "addresses_question": false,
+        "reason": "Abstention; negative-case correctness evaluated separately."
+      }
+    },
+    {
+      "case_id": "beatles-abstention-embedding-1600-t3",
+      "question": "Is there evidence in the provided annotations about a specific event where a character named Maxwell reconciles with Polythene Pam, and how does this event influence the album's overall narrative?",
+      "answer": {
+        "answer": "There is no evidence in the provided annotations about a specific event where Maxwell reconciles with Polythene Pam. The memory lacks details on their relationship dynamics or any reconciliation event.",
+        "claims": [],
+        "abstained": true,
+        "limitation": "No specific event or reconciliation evidence found."
+      },
+      "review_note": "No shared event is established by T03 and T12 or the rest of the cards. Abstention is appropriately evidence-bounded.",
+      "online_accepted": 0,
+      "online_verification": {
+        "claims": [],
+        "all_assertions_listed": false,
+        "addresses_question": false,
+        "reason": "Abstention; negative-case correctness evaluated separately."
+      }
+    },
+    {
+      "case_id": "beatles-abstention-full-100000-t3",
+      "question": "Is there evidence in the provided annotations about a specific event where a character named Maxwell reconciles with Polythene Pam, and how does this event influence the album's overall narrative?",
+      "answer": {
+        "answer": "There is no evidence in the provided annotations about Maxwell reconciling with Polythene Pam. The memory lacks specific details regarding their relationship or any reconciliation event.",
+        "claims": [],
+        "abstained": true,
+        "limitation": "No specific event or reconciliation evidence found in the memory."
+      },
+      "review_note": "The archive supplies separate characters but no reconciliation. The response correctly withholds the proposed event.",
+      "online_accepted": 0,
+      "online_verification": {
+        "claims": [],
+        "all_assertions_listed": false,
+        "addresses_question": false,
+        "reason": "Abstention; negative-case correctness evaluated separately."
+      }
+    },
+    {
+      "case_id": "natalia-local-adaptive-100000-t3",
+      "question": "Considering two adjacent songs early in the album, how do their portrayals of attachment and rupture differ in expressing the narrator's emotional state and unresolved tensions?",
+      "answer": {
+        "answer": "The first song portrays solitude and internal conflict, while the second reflects on nostalgia and the pain of separation. Together, they illustrate contrasting emotional responses to attachment and rupture.",
+        "claims": [
+          {
+            "text": "The narrator feels alone in life and death.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "Memories of laughter and companionship linger despite physical absence.",
+            "sources": [
+              "T02:C1"
+            ]
+          },
+          {
+            "text": "There is a struggle between internal conflict and the desire for peace.",
+            "sources": [
+              "T01:C2"
+            ]
+          },
+          {
+            "text": "The beauty of shared experiences contrasts with the pain of separation.",
+            "sources": [
+              "T02:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T01:C1/C2 and T02:C1/C2 support adjacent solitude versus remembered companionship. The unresolved contrast is clear; it remains a relation between song voices.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim 0 matches source T01:C1 about solitude and internal conflict."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim 1 matches source T02:C1 about nostalgia and lingering memories."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Claim 2 matches source T01:C2 about internal conflict and desire for peace."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Claim 3 matches source T02:C2 about beauty of shared experiences vs pain."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "All claims correspond to two adjacent songs and contrast attachment and rupture in emotional states."
+      }
+    },
+    {
+      "case_id": "natalia-local-embedding-1600-t3",
+      "question": "Considering two adjacent songs early in the album, how do their portrayals of attachment and rupture differ in expressing the narrator's emotional state and unresolved tensions?",
+      "answer": {
+        "answer": "The first two tracks portray contrasting emotional states: the first expresses solitude and a struggle for agency, while the second reflects on nostalgia and the pain of lost connections. This juxtaposition highlights unresolved tensions between isolation and the longing for connection.",
+        "claims": [
+          {
+            "text": "The narrator feels alone in life and death.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "Memories of laughter and companionship linger despite physical absence.",
+            "sources": [
+              "T02:C1"
+            ]
+          },
+          {
+            "text": "There is a struggle between internal conflict and the desire for peace.",
+            "sources": [
+              "T01:C2"
+            ]
+          },
+          {
+            "text": "The beauty of shared experiences contrasts with the pain of separation.",
+            "sources": [
+              "T02:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T01:C1/C2 and T02:C1/C2 support the contrast. Agency is an interpretive gloss on the desire for peace, but the emotional relation is defensible.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T01:C1 about solitude and struggle for agency."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim matches source T02:C1 about nostalgia and lost connections."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Claim matches source T01:C2 about internal conflict and desire for peace."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Claim matches source T02:C2 about beauty of shared experiences and pain of separation."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer contrasts two adjacent tracks' emotional states and unresolved tensions as per sources."
+      }
+    },
+    {
+      "case_id": "natalia-local-full-100000-t3",
+      "question": "Considering two adjacent songs early in the album, how do their portrayals of attachment and rupture differ in expressing the narrator's emotional state and unresolved tensions?",
+      "answer": {
+        "answer": "The first two tracks portray contrasting emotional states: the first expresses solitude and a struggle for agency, while the second reflects on nostalgia and the pain of lost connections. This juxtaposition highlights unresolved tensions between isolation and the longing for connection.",
+        "claims": [
+          {
+            "text": "The narrator feels alone in life and death.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "Memories of laughter and companionship linger despite physical absence.",
+            "sources": [
+              "T02:C1"
+            ]
+          },
+          {
+            "text": "There is a struggle between internal conflict and the desire for peace.",
+            "sources": [
+              "T01:C2"
+            ]
+          },
+          {
+            "text": "The beauty of shared experiences contrasts with the pain of separation.",
+            "sources": [
+              "T02:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "The same cited pair supports the emotional contrast. The agent should frame agency and continuity as interpretations rather than a proven single life story.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T01:C1 about solitude and struggle for agency."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim matches source T02:C1 about nostalgia and lost connections."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Claim matches source T01:C2 about internal conflict and desire for peace."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Claim matches source T02:C2 about beauty of shared experiences vs pain of separation."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer contrasts two adjacent tracks' emotional states and unresolved tensions as per sources."
+      }
+    },
+    {
+      "case_id": "natalia-distant-adaptive-100000-t3",
+      "question": "Select one song from the first half and one from the second half, separated by at least four tracks, that both address renewal but differ in how they frame the narrator's relationship with mortality and agency. How do these differences manifest?",
+      "answer": {
+        "answer": "In track 1, the narrator grapples with solitude and a struggle for agency, feeling alone in life and death. In contrast, track 11 expresses a deep connection to nature and love, emphasizing emotional liberation. The first song highlights internal conflict, while the second focuses on the beauty of connection, showcasing different approaches to renewal and mortality.",
+        "claims": [
+          {
+            "text": "The narrator feels alone in life and death.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "The narrator feels a strong pull towards love, symbolized by the sea.",
+            "sources": [
+              "T11:C2"
+            ]
+          },
+          {
+            "text": "There is a struggle between internal conflict and the desire for peace.",
+            "sources": [
+              "T01:C2"
+            ]
+          },
+          {
+            "text": "Nature's beauty enhances the narrator's feelings of love and connection.",
+            "sources": [
+              "T11:C1"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T11:C1/C2 concern nature and love, not mortality. Pairing it with T01 meets distance but misses a central condition of the question; T10 provides explicit mortality evidence.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T01:C1 exactly."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim matches source T11:C2 exactly."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Claim matches source T01:C2 exactly."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Claim matches source T11:C1 exactly."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer cites two songs (tracks 1 and 11) separated by at least four tracks, contrasting internal conflict with connection to nature and love, addressing renewal and mortality."
+      }
+    },
+    {
+      "case_id": "natalia-distant-embedding-1600-t3",
+      "question": "Select one song from the first half and one from the second half, separated by at least four tracks, that both address renewal but differ in how they frame the narrator's relationship with mortality and agency. How do these differences manifest?",
+      "answer": {
+        "answer": "In track 1, the narrator grapples with solitude and agency, feeling alone in life and death. In contrast, track 10 celebrates life and renewal, expressing gratitude for lessons learned from mortality. The first song emphasizes struggle, while the second highlights acceptance and joy after confronting death.",
+        "claims": [
+          {
+            "text": "The narrator feels alone in life and death.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "Death teaches the narrator valuable lessons about living.",
+            "sources": [
+              "T10:C1"
+            ]
+          },
+          {
+            "text": "The narrator finds joy and renewal after confronting mortality.",
+            "sources": [
+              "T10:C2"
+            ]
+          },
+          {
+            "text": "There is a struggle between internal conflict and the desire for peace.",
+            "sources": [
+              "T01:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "The answer is based on the emotional themes of the selected tracks."
+      },
+      "review_note": "T01:C1/C2 and T10:C1/C2 recover the relevant mortality contrast and satisfy halves/distance. Gratitude is explicit in T10:C3 rather than the cited C1/C2.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T01:C1 exactly."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim matches source T10:C1 exactly."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Claim matches source T10:C2 exactly."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Claim matches source T01:C2 exactly."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "All claims correspond to the answer's points about renewal, mortality, and agency differences between tracks 1 and 10."
+      }
+    },
+    {
+      "case_id": "natalia-distant-full-100000-t3",
+      "question": "Select one song from the first half and one from the second half, separated by at least four tracks, that both address renewal but differ in how they frame the narrator's relationship with mortality and agency. How do these differences manifest?",
+      "answer": {
+        "answer": "In track 1, the narrator grapples with solitude and a struggle for agency, feeling alone in life and death. In contrast, track 10 reflects gratitude towards death, emphasizing renewal and joy in living fully after confronting mortality. The first song frames mortality as a source of internal conflict, while the second celebrates life lessons learned from death, showcasing different approaches to renewal.",
+        "claims": [
+          {
+            "text": "The narrator feels alone in life and death.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "Death teaches the narrator valuable lessons about living.",
+            "sources": [
+              "T10:C1"
+            ]
+          },
+          {
+            "text": "The narrator finds joy and renewal after confronting mortality.",
+            "sources": [
+              "T10:C2"
+            ]
+          },
+          {
+            "text": "There is a struggle between internal conflict and the desire for peace.",
+            "sources": [
+              "T01:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T01:C1/C2 and T10:C1/C2 support struggle versus renewal after mortality. Gratitude is supported elsewhere in T10:C3; the selected contrast is otherwise well grounded.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T01:C1 exactly."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim matches source T10:C1 exactly."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Claim matches source T10:C2 exactly."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Claim matches source T01:C2 exactly."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer compares two songs (tracks 1 and 10) separated by at least four tracks, discussing renewal and differing views on mortality and agency as supported by sources."
+      }
+    },
+    {
+      "case_id": "natalia-transformation-adaptive-100000-t3",
+      "question": "Identify two separated tracks that contrast in their stance on how the narrator deals with pain and healing, showing a transformation in approach rather than a simple topic change. What are the key differences?",
+      "answer": {
+        "answer": "In T05, the narrator emphasizes self-reflection and acknowledges past pain, moving towards embracing the present. In contrast, T07 encourages healing through nature and love, focusing on transformation and self-care. The key difference lies in T05's introspective approach versus T07's outward encouragement for renewal.",
+        "claims": [
+          {
+            "text": "The narrator acknowledges a need for solitude and self-reflection in T05.",
+            "sources": [
+              "T05:C1"
+            ]
+          },
+          {
+            "text": "Healing is encouraged through natural elements and love in T07.",
+            "sources": [
+              "T07:C1"
+            ]
+          },
+          {
+            "text": "The present moment is emphasized as the ideal time for action in T05.",
+            "sources": [
+              "T05:C3"
+            ]
+          },
+          {
+            "text": "Pain can transform into something beautiful and new in T07.",
+            "sources": [
+              "T07:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T05:C1/C3 and T07:C1/C2 support self-reflection versus encouragement toward healing. Outward encouragement should not erase T07:C3's self-love; no shared narrator needs to be presumed.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T05:C1 supports self-reflection and solitude."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T07:C1 supports healing through nature and love."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "T05:C3 supports emphasis on present moment action."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "T07:C2 supports transformation of pain into beauty."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer compares two distinct tracks on pain and healing, showing transformation in approach with cited claims."
+      }
+    },
+    {
+      "case_id": "natalia-transformation-embedding-1600-t3",
+      "question": "Identify two separated tracks that contrast in their stance on how the narrator deals with pain and healing, showing a transformation in approach rather than a simple topic change. What are the key differences?",
+      "answer": {
+        "answer": "In T01, the narrator grapples with solitude and strives for agency, while in T07, healing is encouraged through nature and love, emphasizing transformation. T01 reflects internal conflict, whereas T07 promotes self-love and acceptance of pain's beauty.",
+        "claims": [
+          {
+            "text": "The narrator feels alone in life and death.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "Healing is encouraged through natural elements and love.",
+            "sources": [
+              "T07:C1"
+            ]
+          },
+          {
+            "text": "There is a struggle between internal conflict and the desire for peace.",
+            "sources": [
+              "T01:C2"
+            ]
+          },
+          {
+            "text": "Pain can transform into something beautiful and new.",
+            "sources": [
+              "T07:C2"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T01:C1/C2 and T07:C1/C2 support a shift in approach. Pain becoming something beautiful is not identical to accepting pain's beauty; self-love requires T07:C3.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T01:C1 about solitude and agency."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim matches source T07:C1 about healing via nature and love."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Claim matches source T01:C2 about internal conflict and desire for peace."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Claim matches source T07:C2 about pain transforming into beauty."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer compares two distinct tracks on pain and healing, showing transformation in approach as requested."
+      }
+    },
+    {
+      "case_id": "natalia-transformation-full-100000-t3",
+      "question": "Identify two separated tracks that contrast in their stance on how the narrator deals with pain and healing, showing a transformation in approach rather than a simple topic change. What are the key differences?",
+      "answer": {
+        "answer": "In T01, the narrator grapples with solitude and strives for agency, while in T07, healing is encouraged through nature and love, emphasizing transformation. T01 reflects internal conflict, whereas T07 promotes self-love and acceptance of pain's beauty. The shift from isolation to embracing healing illustrates a significant transformation in the narrator's approach to pain.",
+        "claims": [
+          {
+            "text": "The narrator feels alone in life and death in T01.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "Healing is encouraged through natural elements and love in T07.",
+            "sources": [
+              "T07:C1"
+            ]
+          },
+          {
+            "text": "There is a struggle between internal conflict and the desire for peace in T01.",
+            "sources": [
+              "T01:C2"
+            ]
+          },
+          {
+            "text": "Self-love and intuition are essential for healing in T07.",
+            "sources": [
+              "T07:C3"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T01:C1/C2 and T07:C1/C3 support isolation versus practices of healing. A change across song positions is defensible; proof of one narrator's completed transformation is not available.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches source T01:C1 about narrator's solitude."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Claim matches source T07:C1 about healing via nature and love."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Claim matches source T01:C2 about internal conflict and desire for peace."
+          },
+          {
+            "index": 3,
+            "supported": true,
+            "reason": "Claim matches source T07:C3 about self-love and intuition for healing."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer compares two distinct tracks on pain and healing, showing transformation from isolation to acceptance and self-love."
+      }
+    },
+    {
+      "case_id": "natalia-contradiction-adaptive-100000-t3",
+      "question": "Which two tracks, separated by at least four positions, provide evidence that challenges a smooth interpretive account of the album as a linear emotional progression, and what aspects of their unresolved tensions or stances contradict such a reading?",
+      "answer": {
+        "answer": "Tracks T02 and T12 challenge a smooth emotional progression. T02 reflects on nostalgia and loss, while T12 embraces acceptance and celebration of life, creating tension between attachment and letting go.",
+        "claims": [
+          {
+            "text": "T02 emphasizes nostalgia and sorrow tied to lost connections.",
+            "sources": [
+              "T02:C3"
+            ]
+          },
+          {
+            "text": "T12 encourages embracing loss and celebrating life beyond death.",
+            "sources": [
+              "T12:C1"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "Both tracks illustrate contrasting emotional responses to loss."
+      },
+      "review_note": "T02 sorrow followed by T12 celebration can fit a linear healing account. The answer does not explain why it contradicts that account. T12:C1 encourages a journey; C2/C3 are needed for celebration and grief.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T02 shows melancholy about loss; T12 shows embracing journey, indicating contrasting emotions."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T12's encouragement to embrace journey contrasts with T02's sorrow, evidencing tension."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer cites two tracks separated by at least four positions with contrasting emotional stances, challenging smooth linear progression."
+      }
+    },
+    {
+      "case_id": "natalia-contradiction-embedding-1600-t3",
+      "question": "Which two tracks, separated by at least four positions, provide evidence that challenges a smooth interpretive account of the album as a linear emotional progression, and what aspects of their unresolved tensions or stances contradict such a reading?",
+      "answer": {
+        "answer": "Tracks 1 and 10 challenge a smooth emotional progression. Track 1 reveals profound solitude and struggle for agency, while Track 10 celebrates life after confronting death, creating tension between despair and gratitude.",
+        "claims": [
+          {
+            "text": "Track 1 expresses profound solitude and struggle for agency.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "Track 10 celebrates life and gratitude after confronting death.",
+            "sources": [
+              "T10:C3"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "Both tracks illustrate contrasting emotional states that disrupt a linear narrative."
+      },
+      "review_note": "T01 despair followed by T10 gratitude is compatible with the very linear progression the question asks the answer to challenge. Valid IDs and contrasting emotions do not establish counterevidence.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Track 1 shows solitude and struggle; Track 10 shows gratitude after death acceptance."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "Both tracks illustrate contrasting emotional states disrupting linear narrative."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "Answer cites two tracks separated by at least four positions and explains their contradictory emotional stances."
+      }
+    },
+    {
+      "case_id": "natalia-contradiction-full-100000-t3",
+      "question": "Which two tracks, separated by at least four positions, provide evidence that challenges a smooth interpretive account of the album as a linear emotional progression, and what aspects of their unresolved tensions or stances contradict such a reading?",
+      "answer": {
+        "answer": "Tracks 1 and 10 challenge a smooth emotional progression. Track 1 reveals profound solitude and struggle for agency, while Track 10 celebrates life after confronting death, creating tension between despair and gratitude.",
+        "claims": [
+          {
+            "text": "Track 1 expresses profound solitude and struggle for agency.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "Track 10 celebrates life and gratitude after confronting death.",
+            "sources": [
+              "T10:C3"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "The same contrast and claims as the embedding answer remain compatible with linear recovery. The verifier additionally invents a spacing defect: T01/T10 are distinct and nine positions apart.",
+      "online_accepted": 0,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Track 1 shows solitude and struggle; Track 10 shows gratitude after death acceptance."
+          },
+          {
+            "index": 1,
+            "supported": false,
+            "reason": "Answer does not cite a second distinct track separated by four positions."
+          }
+        ],
+        "all_assertions_listed": false,
+        "addresses_question": false,
+        "reason": "Only one track pair cited; answer lacks two distinct tracks separated by four positions and detailed contradictory aspects."
+      }
+    },
+    {
+      "case_id": "natalia-multi_hop-adaptive-100000-t3",
+      "question": "Considering three songs in chronological order with the first and last separated by at least six tracks, how does the middle song qualify or complicate the emotional journey suggested by the first and last, and what return or shift occurs by the final track?",
+      "answer": {
+        "answer": "The emotional journey begins with T01, where the narrator feels profound solitude. T02 complicates this with nostalgia for lost connections, while T10 concludes with gratitude for life after confronting death, suggesting a shift from isolation to acceptance and celebration.",
+        "claims": [
+          {
+            "text": "The narrator feels alone in life and death.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "Memories of laughter and companionship linger despite physical absence.",
+            "sources": [
+              "T02:C1"
+            ]
+          },
+          {
+            "text": "Gratitude for life and love emerges from the acceptance of death.",
+            "sources": [
+              "T10:C3"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "The emotional journey's complexity requires more context on the songs' transitions."
+      },
+      "review_note": "T01:C1, T02:C1 and T10:C3 support the ordered solitude-memory-acceptance comparison. The middle preserves remembered connection. Final refers to the selected triple, since the album has twelve units.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T01:C1 states narrator feels alone in life and death, matching claim."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T02:C1 indicates lingering memories complicate solitude, supporting claim."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "T10:C3 shows gratitude after accepting death, confirming claim."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "All three songs cited in order with first and last separated by at least six tracks; emotional journey from solitude to nostalgia to acceptance is described."
+      }
+    },
+    {
+      "case_id": "natalia-multi_hop-embedding-1600-t3",
+      "question": "Considering three songs in chronological order with the first and last separated by at least six tracks, how does the middle song qualify or complicate the emotional journey suggested by the first and last, and what return or shift occurs by the final track?",
+      "answer": {
+        "answer": "The emotional journey begins with the narrator's profound solitude in the first song (T01), complicates with nostalgia and loss in the middle song (T08), and culminates in gratitude for love and life in the final track (T10). This progression reflects a shift from isolation to connection and acceptance.",
+        "claims": [
+          {
+            "text": "The narrator feels alone in life and death.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "Distance does not diminish the feeling of closeness.",
+            "sources": [
+              "T08:C1"
+            ]
+          },
+          {
+            "text": "Death teaches the narrator valuable lessons about living.",
+            "sources": [
+              "T10:C1"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "max 25 words"
+      },
+      "review_note": "T08:C1 says distance does not diminish closeness; it does not support the prose's nostalgia and loss. The verifier explicitly accepts this semantic substitution. T10 is last selected, not the album's final track.",
+      "online_accepted": 1,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "T01:C1 states narrator feels alone, matching 'profound solitude' in first song."
+          },
+          {
+            "index": 1,
+            "supported": true,
+            "reason": "T08:C1 indicates closeness despite distance, aligning with 'nostalgia and loss' complicating journey."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "T10:C1 shows death teaches about living, supporting 'gratitude for love and life' in final track."
+          }
+        ],
+        "all_assertions_listed": true,
+        "addresses_question": true,
+        "reason": "All three songs cited in order with at least six tracks apart; emotional journey from solitude to connection to acceptance is supported."
+      }
+    },
+    {
+      "case_id": "natalia-multi_hop-full-100000-t3",
+      "question": "Considering three songs in chronological order with the first and last separated by at least six tracks, how does the middle song qualify or complicate the emotional journey suggested by the first and last, and what return or shift occurs by the final track?",
+      "answer": {
+        "answer": "The emotional journey begins with the narrator's profound solitude in T01, complicating the narrative with nostalgia and loss in T08. By T10, there is a shift towards gratitude for life, suggesting acceptance and renewal.",
+        "claims": [
+          {
+            "text": "The narrator feels alone in life and death.",
+            "sources": [
+              "T01:C1"
+            ]
+          },
+          {
+            "text": "Memories of laughter and companionship linger despite physical absence.",
+            "sources": [
+              "T02:C1"
+            ]
+          },
+          {
+            "text": "Death teaches the narrator valuable lessons about living.",
+            "sources": [
+              "T10:C1"
+            ]
+          }
+        ],
+        "abstained": false,
+        "limitation": "The middle song's emotional complexity is not fully explored."
+      },
+      "review_note": "The prose assigns nostalgia/loss to T08 while its claim cites T02:C1. That binding is wrong; the online verifier notices it, although its assertion about invalid first-last distance is itself incorrect.",
+      "online_accepted": 0,
+      "online_verification": {
+        "claims": [
+          {
+            "index": 0,
+            "supported": true,
+            "reason": "Claim matches T01:C1 about narrator's solitude."
+          },
+          {
+            "index": 1,
+            "supported": false,
+            "reason": "Claim about nostalgia and loss in T08 not supported; T02:C1 mentions memories but not in middle song T08."
+          },
+          {
+            "index": 2,
+            "supported": true,
+            "reason": "Claim about shift to gratitude in T10 supported by T10:C1."
+          }
+        ],
+        "all_assertions_listed": false,
+        "addresses_question": false,
+        "reason": "Middle song's emotional role unclear; no evidence for nostalgia/loss in T08; first and last songs not separated by six tracks as required."
+      }
+    },
+    {
+      "case_id": "natalia-abstention-adaptive-100000-t3",
+      "question": "Is there any explicit evidence in the cards about a specific event where the narrator physically leaves a familiar place to start anew, and how does this event impact the album's themes?",
+      "answer": {
+        "answer": "The memory does not provide explicit evidence of a narrator physically leaving a familiar place to start anew. Themes of solitude, longing, and emotional struggle are present, but no specific event of departure is mentioned.",
+        "claims": [],
+        "abstained": true,
+        "limitation": "No evidence of a physical departure event is found in the provided memory."
+      },
+      "review_note": "No card supplies a concrete physical departure. The answer correctly separates emotional renewal from an evidenced event and abstains.",
+      "online_accepted": 0,
+      "online_verification": {
+        "claims": [],
+        "all_assertions_listed": false,
+        "addresses_question": false,
+        "reason": "Abstention; negative-case correctness evaluated separately."
+      }
+    },
+    {
+      "case_id": "natalia-abstention-embedding-1600-t3",
+      "question": "Is there any explicit evidence in the cards about a specific event where the narrator physically leaves a familiar place to start anew, and how does this event impact the album's themes?",
+      "answer": {
+        "answer": "The memory does not provide explicit evidence of a narrator physically leaving a familiar place to start anew. Themes of solitude, nostalgia, and emotional struggles are present, but no specific event of departure is mentioned.",
+        "claims": [],
+        "abstained": true,
+        "limitation": "No evidence of a physical departure event is found in the provided memory."
+      },
+      "review_note": "The absence of an explicit physical departure in the cards warrants withholding the event narrative. The limitation stays within the supplied memory.",
+      "online_accepted": 0,
+      "online_verification": {
+        "claims": [],
+        "all_assertions_listed": false,
+        "addresses_question": false,
+        "reason": "Abstention; negative-case correctness evaluated separately."
+      }
+    },
+    {
+      "case_id": "natalia-abstention-full-100000-t3",
+      "question": "Is there any explicit evidence in the cards about a specific event where the narrator physically leaves a familiar place to start anew, and how does this event impact the album's themes?",
+      "answer": {
+        "answer": "The memory does not provide explicit evidence of a narrator physically leaving a familiar place to start anew. Themes of solitude, nostalgia, and emotional struggles are present, but no specific event of departure is mentioned.",
+        "claims": [],
+        "abstained": true,
+        "limitation": "No evidence of a physical departure event is found in the provided memory."
+      },
+      "review_note": "The answer appropriately avoids converting emotional change into a literal departure event not established by the cards.",
+      "online_accepted": 0,
+      "online_verification": {
+        "claims": [],
+        "all_assertions_listed": false,
+        "addresses_question": false,
+        "reason": "Abstention; negative-case correctness evaluated separately."
+      }
+    }
+  ]
+}
