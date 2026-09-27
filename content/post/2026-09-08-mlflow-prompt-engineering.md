@@ -8,6 +8,16 @@ categories: ["Engineering", "LLMOps"]
 tags: ["mlflow", "prompts", "evaluation", "tracing", "genai", "production", "testing", "gcp", "gemini", "cloud-run"]
 series: ["genai"]
 draft: false
+images: ["/img/social/prompts-release-artifacts.png"]
+socialImageAlt: "A prompt change can alter an application just as a code change can"
+readerGuide:
+  summary: "A prompt change can alter an application just as a code change can. This walkthrough connects observed failures, prompt versions, evaluation, tracing, and controlled releases. It uses a documentation assistant to explain what evidence should accompany a change before it reaches production."
+  scope: "An educational workflow targeting MLflow 3.16.0, using synthetic support documentation. It does not report measured production improvements."
+  resources:
+    - label: "Inspect example code"
+      url: "/examples/mlflow_prompt_workflow.py"
+    - label: "Experiment index"
+      url: "/experiments/"
 ---
 
 A prompt can be three paragraphs long and still change the behavior of an entire application. It can decide whether an assistant answers, abstains, calls a tool, or invents the argument that the tool receives. Yet it is often reviewed with less discipline than a change to a configuration file.

@@ -6,6 +6,16 @@ description: "An empirical study of bounded memory, distant lyrical evidence, an
 categories: ["Engineering", "Music Analysis"]
 tags: ["langgraph", "mlflow", "memory", "narrative", "music", "evaluation"]
 draft: false
+images: ["/img/social/album-memory.png"]
+socialImageAlt: "A fluent account of an album can lose the evidence connecting its beginning and ending"
+readerGuide:
+  summary: "A fluent account of an album can lose the evidence connecting its beginning and ending. This pilot compares full context, recent tracks, a rolling summary, and selective memory to examine what survives each policy. Follow the argument first, then inspect the recorded outputs and code."
+  scope: "Four selected albums, model-produced lyric paraphrases, and automated judgments. The study does not measure sound or human attention, and the cards are not human-validated ground truth."
+  resources:
+    - label: "Download study materials"
+      url: "/examples/album-memory-study.zip"
+    - label: "Experiment index"
+      url: "/experiments/"
 ---
 
 An album ends. An agent has read every lyric. We ask it whether the ending transforms something established near the beginning.

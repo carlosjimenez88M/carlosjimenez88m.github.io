@@ -6,6 +6,9 @@ draft: false
 description: "A technical breakdown of CPU, GPU, TPU, and Edge AI hardware tradeoffs for training and inference workloads — with real-world cost data and a deep dive into Raspberry Pi 5 + Hailo-10H."
 categories: ["Engineering", "LLMOps"]
 tags: ["cpu", "gpu", "tpu", "edge-ai", "inference", "deep-learning", "nvidia", "hardware", "raspberry-pi", "gcp", "hailo", "edge-computing"]
+readerGuide:
+  summary: "Training and serving a model impose different constraints. This overview compares CPUs, GPUs, TPUs, and edge devices through memory, latency, throughput, and operating cost."
+  scope: "A dated architecture overview. Hardware capabilities, vendor claims, and prices require current verification and workload-specific measurement before a purchase."
 ---
 
 CPU · GPU · TPU · Edge Computing

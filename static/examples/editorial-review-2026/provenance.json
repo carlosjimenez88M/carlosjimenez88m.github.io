@@ -1,0 +1,32 @@
+{
+  "editorial_revision": "2026-09-27",
+  "scope": "Inspection of existing files, not a scientific replication or model rerun.",
+  "attention_windows": {
+    "source": {
+      "path": "tidytuesday/data/attention_windows_results.csv",
+      "sha256": "487db13ff8af20498c713efa7a172d8eed4fc1b6b13a3ce2373df930a92b73f0"
+    },
+    "aggregation": "Unweighted arithmetic mean of attention_window by artist over all CSV rows.",
+    "groups": {
+      "Pink Floyd": {
+        "rows": 208,
+        "mean": 0.052884615384615384
+      },
+      "The Beatles": {
+        "rows": 403,
+        "mean": 0.4119106699751861
+      }
+    },
+    "limitation": "CSV lacks model, threshold and run identifiers; the previous headline cannot be reconciled from this file alone."
+  },
+  "aquamosh": [
+    {
+      "path": "tidytuesday/aquamosh-analysis/outputs/exports/cross_model_invariance.csv",
+      "sha256": "22bd54f6f79dfaa82e8bcf77c30832cef3517b6237a0753288d2a818de34aee2"
+    },
+    {
+      "path": "tidytuesday/aquamosh-analysis/outputs/exports/llm_judge_stratified.csv",
+      "sha256": "7f3dae4696fee3339cfa7f59b1ba3dce04774ae8adb4b0ed452ac2935531fd39"
+    }
+  ]
+}

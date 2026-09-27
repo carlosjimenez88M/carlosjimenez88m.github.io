@@ -3,17 +3,28 @@
 
 <div class="home-minimal">
   <header class="home-intro">
-    <h1>Hi, I'm Carlos Daniel.</h1>
+    <p class="eyebrow">Carlos Daniel Jiménez · AI Software Engineer</p>
+    <h1>Music, meaning,<br>and reliable AI.</h1>
     <p class="hero-lead">
-      I'm an AI Software Engineer. My writing and research follow two main lines:
-      <a href="/ai-engineering/">building AI systems</a> and
-      <a href="/music-analysis/">understanding narrative arcs in music</a>.
+      I study how AI systems interpret and remember, through musical narratives
+      and experiments you can examine.
     </p>
-    <p class="home-context">I work on prompts, evaluations, agents, and production infrastructure.
-      I also study how songs and albums develop ideas through narrative, repetition, and thematic change,
-      using NLP, embeddings, and LLMs to examine their structure and the limits of computational interpretation.</p>
-    <p class="home-links"><a href="/start-here/">Start here</a> · <a href="/about/">About me</a> · <a href="/index.xml">RSS</a></p>
+    <p class="home-context">An album can return to an idea without repeating its words.
+      An agent can cite a source without supporting its answer.
+      My work explores those gaps through <a href="/music-analysis/">music research</a>
+      and <a href="/ai-engineering/">AI engineering</a>.</p>
+    <p class="home-links"><a class="primary-link" href="/start-here/">Find a place to start →</a>
+      <a href="/work-with-me/">Work with me</a></p>
   </header>
+
+  <section class="featured-essay" aria-labelledby="featured-title">
+    <p class="eyebrow">A question to start with</p>
+    <h2 id="featured-title"><a href="/post/2026-09-11-memory-is-not-context/">Can a smaller context make an agent more expensive?</a></h2>
+    <p>A four-album experiment follows the evidence and the model calls behind an answer.
+      It asks what a memory policy saves, what it misses, and whether the evaluator can tell.</p>
+    <p class="feature-links"><a href="/post/2026-09-11-memory-is-not-context/">Read the study →</a>
+      <a href="/experiments/">Inspect the experiments</a></p>
+  </section>
 
   {{ range slice "/ai-engineering" "/music-analysis" }}
   {{ $hub := site.GetPage . }}
@@ -26,7 +37,7 @@
   <section class="home-latest" aria-labelledby="{{ $hub.File.ContentBaseName }}-heading">
     <h2 id="{{ $hub.File.ContentBaseName }}-heading"><a href="{{ $hub.RelPermalink }}">{{ $hub.Title }}</a></h2>
     <div class="essay-list">
-      {{ range first 5 (sort $matches "Date" "desc") }}
+      {{ range first 3 (sort $matches "Date" "desc") }}
       <article class="essay-row">
         <time class="essay-meta" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "Jan 02, 2006" }}</time>
         <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
@@ -36,5 +47,13 @@
     <p class="home-more"><a href="{{ $hub.RelPermalink }}">More in this research line →</a></p>
   </section>
   {{ end }}
+
+  <section class="work-note" aria-labelledby="work-note-title">
+    <p class="eyebrow">For teams building with AI</p>
+    <h2 id="work-note-title">Does the evidence support the answer?</h2>
+    <p>I help teams examine retrieval, agent memory, and evaluation through a focused diagnostic:
+      a bounded set of cases, a clear rubric, and recommendations grounded in the observed failures.</p>
+    <a href="/work-with-me/">Explore a diagnostic →</a>
+  </section>
 </div>
 {{ end }}

@@ -1,0 +1,19 @@
+{{- with .Params.editorialNote }}
+<aside class="editorial-note" aria-label="Editorial update">
+  <p><strong>Editorial update · {{ .date }}</strong></p>
+  <p>{{ .text | markdownify }}</p>
+  <a href="/research-notes/">Methods and correction log →</a>
+</aside>
+{{- end }}
+{{- with .Params.readerGuide }}
+<aside class="reading-guide" aria-label="This essay at a glance">
+  <p class="eyebrow">At a glance</p>
+  <p>{{ .summary | markdownify }}</p>
+  {{- with .scope }}<p class="reading-guide__scope"><strong>Scope.</strong> {{ . | markdownify }}</p>{{ end }}
+  {{- with .resources }}
+  <ul class="reading-guide__links">
+    {{- range . }}<li><a href="{{ .url }}">{{ .label }}</a></li>{{ end }}
+  </ul>
+  {{- end }}
+</aside>
+{{- end }}

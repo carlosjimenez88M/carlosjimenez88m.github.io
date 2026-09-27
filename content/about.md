@@ -1,6 +1,9 @@
 ---
 title: "About"
 layout: "page"
+description: "Carlos Daniel Jiménez: AI engineering, statistics, and research into music, meaning, and evidence."
+hideMeta: true
+ShowToc: false
 ---
 
 <img class="about-avatar" src="/img/perfil_con_emi.jpg" alt="Carlos Daniel Jiménez" width="150" height="150" loading="lazy">
@@ -24,6 +27,8 @@ I think the finest evening imaginable is a conversation with Sabina and Asimov a
 * I love programming on the Raspberry Pi — doing it with Tmux and Nvim connected to the Raspberry Pi
 
 ## About my work
+
+I investigate how AI systems interpret meaning, retain evidence, and behave under practical constraints. On this site I connect [music research](/music-analysis/) with [AI engineering](/ai-engineering/), publishing experiments and their limitations. I also offer a [focused diagnostic for teams evaluating memory and retrieval](/work-with-me/).
 
 Former AI Software Engineering Lead at Globant, where I worked end-to-end (e2e) across sectors such as Finance, Streaming, Healthcare, Human Resources, and Retail.
 

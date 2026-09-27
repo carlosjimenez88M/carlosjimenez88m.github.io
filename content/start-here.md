@@ -1,43 +1,40 @@
 ---
-title: "Start Here"
+title: "Start here"
 layout: "page"
-description: "Two primary reading paths: AI Software Engineering and research into narrative arcs in music with NLP, embeddings, and LLMs."
+description: "Three ways into The Probability Engine: understand a question, inspect an experiment, or apply the method to your AI system."
+hideMeta: true
+ShowToc: false
 ---
 
-My research and writing follow two primary lines: **AI Software Engineering** and **narrative arcs in music**. One examines how to build and operate AI applications; the other asks how songs and albums develop stories and arguments, and how computational methods can help us understand them.
+I study how AI systems interpret meaning and remember evidence. Musical narratives give me a setting for asking difficult questions; engineering gives me ways to examine the answers. Choose the path that fits what you want to do.
 
-## Narrative arcs in music
+## Understand a question
 
-Start with [Attention Windows: Beatles vs Pink Floyd](/post/2026-02-10-attention-windows-beatles-floyd/), which examines semantic persistence in lyrics and the gap between lexical similarity and thematic coherence.
+**What must an agent remember to explain an album?** Start with [What Should an Agent Remember?](/post/2026-09-11-langgraph-mlflow-album-memory/). It compares ways of retaining evidence across four albums and explains why a fluent summary can still lose the relationship a question asks about. You can follow the argument without running code.
 
-My broader questions concern how ideas unfold across a song or an album: what persists, what changes, and how repetition or shifts in perspective shape an arc. NLP, embeddings, and LLMs are tools for investigating those questions, with interpretation and statistical scrutiny guiding what their results mean.
+Then read [Memory Is Not Context](/post/2026-09-11-memory-is-not-context/): a smaller final context can conceal many additional model calls, and an automated verifier can accept an unsupported interpretation.
 
-The [Narrative Arcs in Music index](/music-analysis/) collects this research and its published essays.
+For the musical questions behind this work, explore [Narrative Arcs in Music](/music-analysis/).
 
-## AI Software Engineering
+## Inspect an experiment
 
-This line focuses on prompts, evaluations, agents, MLOps, cloud infrastructure, and inference on constrained hardware. The [AI Software Engineering index](/ai-engineering/) collects the writing. The following paths offer places to begin.
+The [experiment index](/experiments/) links the study designs, code, recorded outputs, and review materials. Each entry says whether it is a measured study, an exploratory analysis, or an educational walkthrough.
 
-### Prompts, evaluation, and LLMOps
+Begin with the album-memory experiments. You can inspect published results without making paid API calls. Repeating live model runs is a separate step with its own requirements and costs.
 
-Start with [MLflow for AI Engineering: Prompts Are Release Artifacts](/post/2026-09-08-mlflow-prompt-engineering/). It follows a prompt change from registration and tracing through evaluation, optimization, and release, using MLflow 3.16.0.
+Read the [methods and corrections notes](/research-notes/) alongside the results. Model-generated judgments are not independent human validation, and a result on selected albums is not a finding about every artist or application.
 
-The recurring question is simple: what evidence should we require before changing the behavior of an AI application?
+## Apply the method
 
-### Building and operating ML systems
+For a team operating an AI application, start with [Prompts Are Release Artifacts](/post/2026-09-08-mlflow-prompt-engineering/). It connects observed failures, versioned prompts, evaluation, and release decisions using a synthetic support-documentation example.
 
-The pipeline series follows the work from orchestration to production:
+If your team needs to investigate retrieval, memory, or unsupported answers, read about the [memory and evidence diagnostic](/work-with-me/).
 
-1. [Pipeline and Orchestration](/post/anatomia-pipeline-mlops-part-1-en/)
-2. [Deployment and Infrastructure](/post/anatomia-pipeline-mlops-part-2-en/)
-3. [Production and Best Practices](/post/anatomia-pipeline-mlops-part-3-en/)
+## Explore the wider archive
 
-For the statistical background, read [Statistical Learning: Foundations, Bias-Variance and the Art of Estimation](/post/2026-03-12-statistical-learning-foundations/).
+- [AI Engineering](/ai-engineering/) — evaluation, prompts, infrastructure, and production systems.
+- [Music Research](/music-analysis/) — narrative, multilingual lyrics, and computational interpretation.
+- [Edge + Agentic AI](/edge-agentic-ai/) — inference and constraints on smaller devices.
+- [All writing](/post/) — the complete chronological archive.
 
-### Inference, architecture, and the edge
-
-[AI Architecture: Training and Inference](/post/2026-04-05-ai-architecture-training-inference/) explores hardware choices. [Edge Computing and Edge Machine Learning](/post/edge-computing/) and [MLOps on Raspberry Pi 5](/post/mlops_raspberrypi5/) bring those questions to smaller devices.
-
-The [Edge + Agentic AI](/edge-agentic-ai/) section collects this line of work.
-
-Browse [all writing](/post/), read [about me](/about/), or follow new essays through [RSS](/index.xml) and the [newsletter](/follow/).
+[Receive new essays by email](/follow/) or follow the [RSS feed](/index.xml).

@@ -10,6 +10,10 @@
 {{- $scratch.Add "meta" (slice (printf "<span>%s</span>" (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime)))) }}
 {{- end }}
 
+{{- if and (not .Date.IsZero) (.Lastmod.After .Date) -}}
+{{- $scratch.Add "meta" (slice (printf "<span>Updated %s</span>" (.Lastmod | time.Format (default ":date_long" site.Params.DateFormat)))) }}
+{{- end }}
+
 {{- with ($scratch.Get "meta") }}
 {{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
 {{- end -}}

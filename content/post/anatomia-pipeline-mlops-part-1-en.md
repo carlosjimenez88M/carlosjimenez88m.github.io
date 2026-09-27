@@ -9,6 +9,9 @@ description: "Part 1: Philosophy, project architecture and orchestration with Hy
 series: ["Anatomy of an MLOps Pipeline"]
 aliases:
   - /mlops/anatomia-pipeline-mlops-part-1-en/
+readerGuide:
+  summary: "Follow a model from data preparation through orchestration, tuning, and registration. This first part explains the project structure and the records needed to make a pipeline understandable and repeatable."
+  scope: "A technical walkthrough. Adapt the examples and validate dependencies, data contracts, and infrastructure for your own environment."
 ---
 
 > **Complete MLOps Series:** [Part 1 (current)](/post/anatomia-pipeline-mlops-part-1-en/) | [Part 2: Deployment →](/post/anatomia-pipeline-mlops-part-2-en/) | [Part 3: Production →](/post/anatomia-pipeline-mlops-part-3-en/)

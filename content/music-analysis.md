@@ -1,64 +1,47 @@
 ---
 title: "Narrative Arcs in Music"
 layout: "hub"
-description: "A primary research line on how songs and albums develop narrative and thematic arcs, studied through NLP, embeddings, and LLMs."
-hubTitle: "Writing on music, narrative, and computational interpretation"
-hubDescription: "These are the essays already published around music analysis, NLP, embeddings, and LLM-based interpretation."
+description: "How songs and albums develop ideas, and how computational interpretations can be examined against their evidence."
+hubTitle: "Writing on music and interpretation"
+hubDescription: "Essays on narrative, multilingual lyrics, and the limits of the measurements used to study them."
 hubCategories: ["Music Analysis"]
 hubTags: ["music-analysis", "computational-musicology"]
 ---
 
-## Narrative and the development of ideas
+## How does an album develop an idea?
 
-Understanding narrative arcs in music is one of my two primary lines of research and writing, alongside [AI Software Engineering](/ai-engineering/). I study how songs and albums introduce ideas, develop tensions, return to themes, and transform their meaning over time.
+A theme can return with different words. A new voice can complicate what an earlier song appeared to say. An ending can resolve a tension, preserve it, or make us reconsider the beginning.
 
-By an arc, I mean more than a sequence of topics: I am interested in how the progression of a work builds a story or an argument. Repetition, changes in perspective, and the relationship between tracks are part of that structure.
+I study those relationships through close reading, NLP, embeddings, and LLM-based experiments. The question is whether a computational account preserves the distinctions that matter to an interpretation — and what evidence would let us disagree with it.
 
-NLP, embeddings, and LLMs offer ways to investigate these questions. A central concern is whether their measurements capture that development or only similarities in vocabulary.
+Music is a subject of this research in its own right. It also provides demanding examples for [AI engineering](/ai-engineering/): memory, source attribution, multilingual retrieval, and the cost of reasoning over evidence.
 
-Music is where NLP tools fail in interesting and instructive ways. The standard workflow for text analysis works reasonably well on news, reviews, and documentation. Once you move into lyrics, metaphor, repetition, voice, and thematic indirection, the usual assumptions start to break.
+## Start with the album-memory studies
 
-That failure is useful. It tells us something about the limits of embeddings, the gap between lexical and conceptual coherence, and the extent to which LLMs can or cannot recover higher-order structure through reasoning.
+[What Should an Agent Remember?](/post/2026-09-11-langgraph-mlflow-album-memory/) compares four ways of retaining evidence across four albums. It asks what is lost when an interpretation depends on songs far apart in the sequence.
 
-So this section sits at the intersection of three things:
+[Memory Is Not Context](/post/2026-09-11-memory-is-not-context/) follows that question through retrieval, verification, and resource accounting. An answer may satisfy a model verifier while still making an unsupported claim.
 
-- **NLP as measurement**
-- **LLMs as interpreters and reasoning systems**
-- **Music as a hard case for both**
+These studies work with model-produced paraphrases of lyrics. They do not observe the full musical performance, and they do not establish definitive narratives for the albums.
 
----
+[Inspect the designs, outputs, and review materials →](/experiments/)
 
-## The core problem
+## Earlier explorations
 
-Distributional semantics often confuses repeated vocabulary with thematic unity and varied language with conceptual drift.
+[When Lyrics Change Language: Aquamosh](/post/2026-05-20-aquamosh-quadrilingual-anatomy/) examines the association between language transitions and similarity thresholds. Its revised interpretation distinguishes an automated judge from human validation.
 
-Pink Floyd's *The Dark Side of the Moon* can articulate a unified meditation on mortality using different images in every track. A transformer embedding model may interpret that as incoherence because the surface language changes. A Beatles song with tighter lexical repetition can score as more coherent for exactly the opposite reason.
+[Attention Windows: Beatles and Pink Floyd](/post/2026-02-10-attention-windows-beatles-floyd/) now documents an unresolved numerical provenance issue and explains why a similarity statistic cannot simply be interpreted as listener attention.
 
-Both measurements are computationally defensible. Both can be interpretively misleading. That tension is the point.
+Both articles have dated entries in the [correction log](/research-notes/).
 
----
+## Questions still open
 
-## What I am doing here
+**Interpretation and agreement.** Which relationships can readers support consistently, and where should disagreement remain part of the result?
 
-### [Attention Windows: Measuring Narrative Cognitive Load in Beatles vs Pink Floyd](/post/2026-02-10-attention-windows-beatles-floyd/)
-*February 2026*
+**Larger and more varied corpora.** How much of an observed pattern belongs to selected songs, languages, or genres?
 
-This is the founding piece of the section. It introduces **Attention Windows**, a framework for measuring semantic persistence in lyrics using transformer embeddings, and then shows why the most intuitive interpretation of the results is wrong.
+**Lyrics and sound.** What changes when harmony, timbre, recurrence, performance, and transitions enter the evidence?
 
-The result is not just a Beatles-versus-Floyd comparison. It is an argument about what embeddings are actually measuring in poetic domains.
+**Application.** Which failures suggested by musical examples also occur in a particular retrieval or agent system? That transfer needs its own evaluation.
 
-### What comes next
-
-**Larger corpora.** I want to test whether the lexical-versus-conceptual coherence gap holds across more artists and genres.
-
-**LLM-based interpretive layers.** The open question is whether LLMs can reason over semantic fields in a way that compensates for the blind spots of embedding similarity.
-
-**Lyrics plus audio.** A fuller approach should combine text, structure, harmony, timbre, and recurrence rather than pretending lyrics alone are the whole object.
-
----
-
-## Method, briefly
-
-All analyses use Python. Statistical claims include effect sizes, p-values, and null-model comparisons where appropriate. If a result is surprising, I try to say whether the surprise is informative, fragile, or merely artifactual.
-
-I am a vinyl collector and a serious listener. That matters less as biography than as method: it forces me to be suspicious of neat computational answers to questions that are structurally hard.
+I am a vinyl collector and a serious listener. The listening keeps the computational representation in perspective: a model sees what we give it, while a musical work can hold more than the experiment observes.

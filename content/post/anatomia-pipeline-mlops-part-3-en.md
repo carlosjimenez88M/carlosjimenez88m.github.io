@@ -9,6 +9,9 @@ description: "Part 3: Model selection strategies, advanced testing, production p
 series: ["Anatomy of an MLOps Pipeline"]
 aliases:
   - /mlops/anatomia-pipeline-mlops-part-3-en/
+readerGuide:
+  summary: "What should happen after the model is trained? This part examines selection, testing, drift, monitoring, and the operational checks needed to maintain a deployed system."
+  scope: "Engineering patterns and examples. Choose evaluation criteria and monitoring thresholds for the application and its failure costs."
 ---
 
 > **Complete MLOps Series:** [← Part 1: Pipeline](/post/anatomia-pipeline-mlops-part-1-en/) | [← Part 2: Deployment](/post/anatomia-pipeline-mlops-part-2-en/) | **Part 3 (current)**

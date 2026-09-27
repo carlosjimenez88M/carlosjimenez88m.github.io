@@ -14,9 +14,12 @@ That is one of the two primary lines of this blog. I write about the engineering
 
 ## Suggested starting points
 
+- [Memory Is Not Context](/post/2026-09-11-memory-is-not-context/) — distinguish the final prompt from the complete agent trajectory, and verifier acceptance from independently supported answers.
 - [MLflow for AI Engineering: Prompts Are Release Artifacts](/post/2026-09-08-mlflow-prompt-engineering/) — version prompts, evaluate changes, inspect traces, and make controlled releases.
 - [Anatomy of an MLOps Pipeline, Part 1](/post/anatomia-pipeline-mlops-part-1-en/) — orchestration and reproducible pipelines; continue with [deployment](/post/anatomia-pipeline-mlops-part-2-en/) and [production](/post/anatomia-pipeline-mlops-part-3-en/).
 - [AI Architecture: Training and Inference](/post/2026-04-05-ai-architecture-training-inference/) — hardware and the operational constraints around inference.
 - [Statistical Learning: Foundations](/post/2026-03-12-statistical-learning-foundations/) — estimation, bias, and variance behind the evaluation work.
 
 For constrained hardware and autonomous workflows, see [Edge + Agentic AI](/edge-agentic-ai/). The other primary line is [narrative arcs in music](/music-analysis/): how songs and albums develop ideas, and what computational methods can tell us about that structure.
+
+For code, recorded outputs, and scope notes, visit [Experiments & materials](/experiments/). If your team needs to investigate its own retrieval, memory, or evaluation workflow, read about the [memory and evidence diagnostic](/work-with-me/).

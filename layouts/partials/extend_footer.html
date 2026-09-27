@@ -1,6 +1,9 @@
 <div class="newsletter-band">
   <div class="newsletter-band__inner">
-    <p class="newsletter-band__line">New essays by email. No funnels, no filler.</p>
+    <div>
+      <p class="newsletter-band__line">Experiments in music, meaning, and AI.</p>
+      <p class="newsletter-band__note">One email per new essay, maximum. No course pitches. <a href="/follow/">What to expect</a></p>
+    </div>
     <form
       action="https://buttondown.com/api/emails/embed-subscribe/carlosjimenez88m"
       method="post"
@@ -22,3 +25,15 @@
     </form>
   </div>
 </div>
+<nav class="footer-links" aria-label="More about this publication">
+  <a href="/experiments/">Experiments</a>
+  <a href="/research-notes/">Methods & corrections</a>
+  <a href="/work-with-me/">Work with me</a>
+  <a href="https://www.linkedin.com/in/djimenezm">LinkedIn</a>
+  <a href="https://x.com/DanielJimenezM9">X</a>
+  <a href="/index.xml">RSS</a>
+</nav>
+{{- if and hugo.IsProduction site.Config.Services.GoogleAnalytics.ID }}
+{{- $engagement := resources.Get "js/engagement.js" | minify | fingerprint }}
+<script defer src="{{ $engagement.RelPermalink }}" integrity="{{ $engagement.Data.Integrity }}" crossorigin="anonymous"></script>
+{{- end }}

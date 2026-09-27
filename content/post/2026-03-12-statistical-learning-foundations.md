@@ -9,6 +9,9 @@ tags: ["statistical-learning", "bias-variance", "knn", "linear-regression", "isl
 series:
   - Statistical Learning
   - Machine Learning
+readerGuide:
+  summary: "What can a model learn from finite data, and what remains uncertain? This walkthrough develops prediction, estimation, bias and variance, and classification through mathematical explanations and Python examples."
+  scope: "A teaching essay on statistical learning, with examples and simulations. Its introductory scenarios are not deployment recommendations."
 ---
 
 ## Abstract

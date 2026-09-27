@@ -1,16 +1,20 @@
 ---
 title: "Follow The Probability Engine"
-description: "Stay updated with new posts on LLMOps, AI Engineering, and Music Analysis"
+description: "Receive new essays on music, meaning, agent memory, and AI evaluation. One email per essay, maximum."
 layout: "page"
+hideMeta: true
+ShowToc: false
 ---
 
 ## Stay Connected
 
-Get notified when I publish new content about LLMOps, AI software engineering, and computational music analysis.
+Receive new essays about music, meaning, and AI: what an experiment found, how it was built, and what its results leave unresolved. Topics include narrative interpretation, agent memory, retrieval, evaluation, and the engineering around them.
 
 ### Email Newsletter
 
 One email per post, maximum. No spam, no course pitches — just technical writing.
+
+For an example, read [What Should an Agent Remember?](/post/2026-09-11-langgraph-mlflow-album-memory/). Subscribe when you would like the next investigation in your inbox. You can unsubscribe through the link in each email. Buttondown handles signup and delivery.
 
 <form
   action="https://buttondown.com/api/emails/embed-subscribe/carlosjimenez88m"
@@ -25,14 +29,15 @@ One email per post, maximum. No spam, no course pitches — just technical writi
       type="email"
       name="email"
       id="bd-email-follow"
+      aria-label="Email address"
       placeholder="your@email.com"
       required
-      style="flex: 1; min-width: 250px; padding: 0.75rem 1rem; font-size: 1rem; border: 1px solid var(--border); border-radius: 6px; background: var(--theme); color: var(--content);"
+      style="flex: 1 1 250px; min-width: 0; width: 100%; padding: 0.75rem 1rem; font-size: 1rem; border: 1px solid var(--border); border-radius: 6px; background: var(--theme); color: var(--content);"
     />
     <input
       type="submit"
       value="Subscribe"
-      style="padding: 0.75rem 2rem; font-size: 1rem; font-weight: 600; color: #fff; background: var(--primary); border: none; border-radius: 6px; cursor: pointer;"
+      style="padding: 0.75rem 2rem; font-size: 1rem; font-weight: 600; color: var(--theme); background: var(--primary); border: none; border-radius: 6px; cursor: pointer;"
     />
   </div>
   <p style="margin-top: 1rem; font-size: 0.875rem; color: var(--secondary);">
@@ -57,3 +62,5 @@ Popular readers: [Feedly](https://feedly.com/) · [Inoreader](https://www.inorea
 ### Social
 
 [LinkedIn](https://www.linkedin.com/in/djimenezm) · [X / Twitter](https://x.com/DanielJimenezM9) · [GitHub](https://github.com/carlosjimenez88M) · [Email](mailto:danieljimenez88m@gmail.com)
+
+For a professional inquiry, use the [Work with me](/work-with-me/) page. Newsletter signup does not subscribe you to a separate course or sales list.

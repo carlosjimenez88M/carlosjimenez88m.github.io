@@ -2,6 +2,9 @@
 
 Personal blog of **Carlos Daniel Jiménez**.
 
+**Music, meaning, and reliable AI.** Research on interpretation and evidence,
+with a focused consulting offer for agent memory, retrieval, and evaluation.
+
 🌐 **Live:** https://carlosdanieljimenez.com/
 
 Two primary lines of research and writing:
@@ -24,6 +27,9 @@ theme, deployed to GitHub Pages.
 │   ├── post/               # Essays (one .md per post)
 │   ├── about.md            # /about/  (single source — no duplicates)
 │   ├── start-here.md       # Editorial entry point
+│   ├── work-with-me.md     # Scoped consulting offer
+│   ├── experiments.md      # Designs, outputs, and evidence status
+│   ├── research-notes.md   # Methods and dated correction log
 │   ├── ai-engineering.md   # Hub page (layout: hub)
 │   └── music-analysis.md   # Hub page (layout: hub)
 ├── layouts/                # Theme overrides
@@ -97,6 +103,26 @@ API keys and credentials live in a local `.env` that is **git-ignored** — see
 `.gitignore`. Never commit `.env`, `*.key`, `*.pem`, or service-account JSON.
 
 ---
+
+## Editorial and distribution workflow
+
+- [LinkedIn and X plan](docs/visibilidad-linkedin-x.md): four weeks of posts, profile copy, and UTM links.
+- [Measurement and publishing](docs/medicion-y-publicacion.md): optional GA4 setup, event meanings, and deployment boundaries.
+- Run `python3 scripts/audit_editorial_exports.py` to regenerate the file-inspection provenance summary; this makes no model calls.
+- Run `python3 scripts/create_social_cards.py` with Pillow to regenerate sharing images. The PNGs are committed under `static/img/social/`.
+
+Long essays can include a reading guide in their front matter:
+
+```yaml
+readerGuide:
+  summary: "The question, what the essay examines, and what the reader can learn."
+  scope: "The corpus, evidence status, and limits of the conclusion."
+  resources:
+    - label: "Inspect the experiment"
+      url: "/experiments/"
+```
+
+Keep corrections dated with `lastmod` and a visible `editorialNote`; record substantive changes in `content/research-notes.md`. Do not describe a stored-output inspection as a new model run or human validation.
 
 ## Contact
 

@@ -10,6 +10,9 @@ series:
   - Embeddings
 aliases:
   - /tidytuesday/2026-01-07-literary_mapping/
+readerGuide:
+  summary: "How might a vector representation help examine the development of a story? This exploration combines text preparation, semantic projections, and narrative maps to propose readings of Christmas novels."
+  scope: "Exploratory literary analysis. Geometric distance and projected variance need interpretation; they are not direct measurements of emotion or plot."
 ---
 
 

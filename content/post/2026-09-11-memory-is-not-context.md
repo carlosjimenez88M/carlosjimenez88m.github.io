@@ -7,6 +7,16 @@ description: "Context optimization is not agent optimization: a critical four-al
 categories: ["Engineering", "Music Analysis"]
 tags: ["langgraph", "mlflow", "memory", "evaluation", "narrative", "context-engineering"]
 draft: false
+images: ["/img/social/memory-is-not-context.png"]
+socialImageAlt: "A smaller final context can conceal a more expensive sequence of model calls"
+readerGuide:
+  summary: "A smaller final context can conceal a more expensive sequence of model calls. This study compares memory policies, follows the evidence behind their answers, and examines cases where the verifier accepts an unsupported interpretation. The central engineering question is what the complete decision process costs and establishes."
+  scope: "Four albums and a fallible online verifier. Acceptance is not independently established correctness; the human-review packet has no completed ratings."
+  resources:
+    - label: "Download study materials"
+      url: "/examples/album-memory-v2-study.zip"
+    - label: "Experiment index"
+      url: "/experiments/"
 ---
 
 An agent answered a question about *Infest* with 2,326 tokens of memory in its final context. Getting to that answer required thirteen model calls and 19,831 input and output tokens. The verifier accepted it. One of its claims attributed evidence from the fourth song to the first.

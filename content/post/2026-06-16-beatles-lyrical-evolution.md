@@ -11,6 +11,9 @@ series:
   - Computational Musicology
 aliases:
   - /tidytuesday/2026-06-16-beatles-evolution/
+readerGuide:
+  summary: "Do four Beatles albums form distinct regions in a representation of their lyrics? This analysis combines topic modeling, embedding geometry, and song graphs to examine album boundaries and changes in vocabulary."
+  scope: "Four selected albums and model-dependent representations of lyrics. Topic labels and geometric separation are not a complete account of musical evolution or artist intention."
 ---
 
 ## Abstract

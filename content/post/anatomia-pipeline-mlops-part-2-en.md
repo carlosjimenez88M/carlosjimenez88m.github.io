@@ -9,6 +9,9 @@ description: "Part 2: CI/CD with GitHub Actions, W&B vs MLflow comparison, compl
 series: ["Anatomy of an MLOps Pipeline"]
 aliases:
   - /mlops/anatomia-pipeline-mlops-part-2-en/
+readerGuide:
+  summary: "Move from a training pipeline to a deployable service. This part covers automation, experiment tracking, containers, and a FastAPI interface, connecting deployment choices to reproducibility and operations."
+  scope: "Implementation examples require environment-specific configuration and testing; they do not establish reliability for a new deployment."
 ---
 
 > **Complete MLOps Series:** [← Part 1: Pipeline](/post/anatomia-pipeline-mlops-part-1-en/) | **Part 2 (current)** | [Part 3: Production →](/post/anatomia-pipeline-mlops-part-3-en/)
