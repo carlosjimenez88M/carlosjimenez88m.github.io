@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="545.472pt" height="324.288pt" viewBox="0 0 545.472 324.288" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.3, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 324.288
+L 545.472 324.288
+L 545.472 0
+L 0 0
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 127.749888 155.851697
+L 317.912832 155.851697
+Q 323.165952 155.851697 323.165952 150.60811
+L 323.165952 82.44149
+Q 323.165952 77.197903 317.912832 77.197903
+L 127.749888 77.197903
+Q 122.496768 77.197903 122.496768 82.44149
+L 122.496768 150.60811
+Q 122.496768 155.851697 127.749888 155.851697
+z
+" clip-path="url(#pc45d6e7338)" style="fill: #ffffff; stroke: #23618b; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 336.824064 155.851697
+L 526.987008 155.851697
+Q 532.240128 155.851697 532.240128 150.60811
+L 532.240128 82.44149
+Q 532.240128 77.197903 526.987008 77.197903
+L 336.824064 77.197903
+Q 331.570944 77.197903 331.570944 82.44149
+L 331.570944 150.60811
+Q 331.570944 155.851697 336.824064 155.851697
+z
+" clip-path="url(#pc45d6e7338)" style="fill: #ffffff; stroke: #23618b; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 127.749888 248.138814
+L 317.912832 248.138814
+Q 323.165952 248.138814 323.165952 242.895228
+L 323.165952 174.728607
+Q 323.165952 169.485021 317.912832 169.485021
+L 127.749888 169.485021
+Q 122.496768 169.485021 122.496768 174.728607
+L 122.496768 242.895228
+Q 122.496768 248.138814 127.749888 248.138814
+z
+" clip-path="url(#pc45d6e7338)" style="fill: #ffffff; stroke: #c5652b; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 336.824064 248.138814
+L 526.987008 248.138814
+Q 532.240128 248.138814 532.240128 242.895228
+L 532.240128 174.728607
+Q 532.240128 169.485021 526.987008 169.485021
+L 336.824064 169.485021
+Q 331.570944 169.485021 331.570944 174.728607
+L 331.570944 242.895228
+Q 331.570944 248.138814 336.824064 248.138814
+z
+" clip-path="url(#pc45d6e7338)" style="fill: #ffffff; stroke: #c5652b; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 600; font-size: 12.5px; font-family: 'DejaVu Sans'; fill: #243745" transform="translate(167.543274 37.853565)">Expected under</text>
+    <text style="font-weight: 600; font-size: 12.5px; font-family: 'DejaVu Sans'; fill: #243745" transform="translate(174.985657 54.225342)">the reference</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 600; font-size: 12.5px; font-family: 'DejaVu Sans'; fill: #243745" transform="translate(367.123309 37.853565)">Unexpected under</text>
+    <text style="font-weight: 600; font-size: 12.5px; font-family: 'DejaVu Sans'; fill: #243745" transform="translate(384.059833 54.225342)">the reference</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 600; font-size: 11.5px; font-family: 'DejaVu Sans'; fill: #23618b" transform="translate(12.181248 111.42425)">Within</text>
+    <text style="font-weight: 600; font-size: 11.5px; font-family: 'DejaVu Sans'; fill: #23618b" transform="translate(12.181248 126.923195)">practical control</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 600; font-size: 11.5px; font-family: 'DejaVu Sans'; fill: #c5652b" transform="translate(12.181248 203.711367)">Outside</text>
+    <text style="font-weight: 600; font-size: 11.5px; font-family: 'DejaVu Sans'; fill: #c5652b" transform="translate(12.181248 219.210313)">practical control</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #243745" transform="translate(153.720735 111.749644)">A chosen configuration</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #243745" transform="translate(166.246673 127.922456)">with known effects</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #243745" transform="translate(360.773661 111.749644)">A chosen configuration;</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #243745" transform="translate(342.423036 127.922456)">its effect was underestimated</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #243745" transform="translate(149.328548 204.036761)">Inherited access to tools</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #243745" transform="translate(156.469485 220.209573)">known before the trial</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #243745" transform="translate(380.683348 204.036761)">An unanticipated</text>
+    <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #243745" transform="translate(388.557411 220.209573)">shared outage</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #5d6b75" x="272.736" y="268.5888" transform="rotate(-0 272.736 268.5888)">Illustrative inputs, not classifications of complete outcomes.</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #5d6b75" x="272.736" y="289.563145" transform="rotate(-0 272.736 289.563145)">Practical control depends on the actor and time horizon.</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #5d6b75" x="272.736" y="310.53749" transform="rotate(-0 272.736 310.53749)">Control of an action does not imply control of every consequence.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc45d6e7338">
+   <rect x="10.08" y="10.08" width="525.312" height="304.128"/>
+  </clipPath>
+ </defs>
+</svg>
