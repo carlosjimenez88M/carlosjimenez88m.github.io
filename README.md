@@ -73,7 +73,7 @@ to the repo root, commits, and pushes to `master`. GitHub Pages serves the resul
 within a few minutes.
 
 The three-part series **A Statistical Account of Luck** has releases on October
-5, 12, and 19, 2026. The first essay is released today; subsequent essays use
+5, 12, and 19, 2026. The first essay was released October 5; subsequent essays use
 future `publishDate` values at 08:00 America/Bogota and complete Buttondown
 emails are scheduled at 09:00. The Codex
 scheduled follow-up rebuilds and pushes due posts using

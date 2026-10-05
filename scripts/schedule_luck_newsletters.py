@@ -6,6 +6,8 @@ after checking its public article and every PNG used by the email. API and publi
 HTTP sessions are separate. Receipts checkpoint mutation intent and readback;
 an ambiguous send is never retried automatically. Credentials are loaded only
 by main(), and are never included in public requests or printed output.
+Buttondown can acknowledge immediate publication while temporarily reporting
+scheduled with a due timestamp; this is recorded as pending delivery, not sent.
 """
 import argparse
 from datetime import datetime, timezone
@@ -123,7 +125,7 @@ def check_public_article(session, release, body):
 
 
 def synchronize(root, api_session, public_session, now, *, sync_bodies=False,
-                sync_dates=False, publish_part=None):
+                sync_dates=False, publish_part=None, current_time=None):
     if now.tzinfo is None or now.utcoffset() is None:
         raise SystemExit('Current time must contain an explicit timezone.')
     releases = json.loads((root / 'research/luck/releases.json').read_text())['releases']
@@ -135,22 +137,40 @@ def synchronize(root, api_session, public_session, now, *, sync_bodies=False,
     receipt = root / '.research-cache/luck-buttondown-receipts.json'
     saved = json.loads(receipt.read_text()) if receipt.exists() else {}
     receipt.parent.mkdir(exist_ok=True)
+    clock = current_time or (lambda: datetime.now(timezone.utc))
 
     def checkpoint():
         temporary = receipt.with_suffix('.tmp')
         temporary.write_text(json.dumps(saved, indent=2) + '\n')
         temporary.replace(receipt)
 
-    def record(slug, email):
+    def record(slug, email, *, delivery_pending=False):
         prior = saved.get(slug, {})
         saved[slug] = {k: email[k] for k in
                        ('id', 'subject', 'status', 'publish_date', 'canonical_url', 'absolute_url')}
         saved[slug]['body_sha256'] = hashlib.sha256(email['body'].encode()).hexdigest()
-        saved[slug]['verified_at'] = now.isoformat()
+        saved[slug]['verified_at'] = clock().isoformat()
         if prior.get('public_check'):
             saved[slug]['public_check'] = prior['public_check']
+        if delivery_pending:
+            saved[slug]['publication_state'] = 'accepted_pending_delivery'
+            saved[slug]['pending_request'] = 'publish'
+            saved[slug]['publish_accepted_at'] = prior.get('publish_accepted_at', clock().isoformat())
+            if prior.get('request_started_at'):
+                saved[slug]['request_started_at'] = prior['request_started_at']
         checkpoint()
-        print(json.dumps({k: saved[slug][k] for k in ('id', 'subject', 'status', 'publish_date')}))
+        report = {k: saved[slug][k] for k in ('id', 'subject', 'status', 'publish_date')}
+        if delivery_pending:
+            report['publication_state'] = saved[slug]['publication_state']
+        print(json.dumps(report))
+
+    def verified_due_schedule(email, release, body, canonical):
+        # Check a fresh time after readback: the service's immediate timestamp
+        # can be a few seconds later than the invocation's initial `now`.
+        return (email['status'] == 'scheduled' and email.get('publish_date') is not None
+                and aware_time(email['publish_date']) <= clock()
+                and email['body'] == body and email['subject'] == release['subject']
+                and email['slug'] == release['slug'] and email['canonical_url'] == canonical)
 
     candidates = list_candidates(api_session)
     for release in sorted(releases, key=lambda r: r['part']):
@@ -211,10 +231,13 @@ def synchronize(root, api_session, public_session, now, *, sync_bodies=False,
             raise SystemExit(f"Email is {email['status']}; stopped without sending or creating a replacement.")
         if email.get('archival_mode') != 'enabled' or any(email.get('filters', {}).get(k) for k in ('filters', 'groups')):
             raise SystemExit('Email archive or audience differs from the authorized unrestricted newsletter.')
+        if prior.get('pending_request') == 'publish':
+            if verified_due_schedule(email, release, body, canonical):
+                record(slug, email, delivery_pending=True)
+                continue
+            raise SystemExit('An earlier publish outcome remains unknown or has a future/different readback; no POST retry attempted.')
         if publish_part == release['part']:
             public_check = check_public_article(public_session, release, body)
-            if prior.get('pending_request') == 'publish':
-                raise SystemExit('An earlier publish outcome remains unknown; no POST retry attempted.')
             saved[slug] = {'id': email['id'], 'pending_request': 'publish',
                            'request_started_at': now.isoformat(), 'public_check': public_check}
             checkpoint()
@@ -224,7 +247,7 @@ def synchronize(root, api_session, public_session, now, *, sync_bodies=False,
                     'canonical_url': canonical, 'archival_mode': 'enabled'})
             except UnknownOutcome:
                 recovered = api_request(api_session, 'GET', '/emails/' + email['id'])
-                if recovered['status'] not in FINISHED:
+                if recovered['status'] not in FINISHED and not verified_due_schedule(recovered, release, body, canonical):
                     raise SystemExit('Publish outcome is unknown; readback is not queued or sent. No POST retry attempted.') from None
                 email = recovered
             except SystemExit:
@@ -232,13 +255,16 @@ def synchronize(root, api_session, public_session, now, *, sync_bodies=False,
                 checkpoint()
                 raise
             else:
+                saved[slug]['publish_accepted_at'] = clock().isoformat()
+                checkpoint()
                 email = api_request(api_session, 'GET', '/emails/' + email['id'])
-            if email['status'] not in FINISHED:
-                raise SystemExit('Publish readback is not queued or sent; no POST retry attempted.')
+            delivery_pending = verified_due_schedule(email, release, body, canonical)
+            if email['status'] not in FINISHED and not delivery_pending:
+                raise SystemExit('Publish readback is not queued or due-scheduled; no POST retry attempted.')
             if (email['body'] != body or email['subject'] != release['subject']
                     or email['slug'] != slug or email['canonical_url'] != canonical):
                 raise SystemExit('Published content differs from the reviewed essay; no repeat send attempted.')
-            record(slug, email)
+            record(slug, email, delivery_pending=delivery_pending)
             continue
         if when <= now:
             raise SystemExit('An overdue email is still unsent; use --publish-part explicitly after verifying its public article.')

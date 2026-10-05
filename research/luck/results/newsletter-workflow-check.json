@@ -1,6 +1,6 @@
 {
   "fixture": "temporary files and simulated HTTP sessions; no .env reads or real API calls",
-  "tests_run": 13,
+  "tests_run": 16,
   "status": "passed",
   "checks": [
     "same-id body/subject/date/canonical updates",
@@ -11,6 +11,9 @@
     "API credential isolated from public requests",
     "unknown mutation recovery without POST retry",
     "all-date slug recovery",
+    "due-scheduled acknowledgment recorded as pending delivery",
+    "legacy pending receipt recovery and continued future synchronization",
+    "future publish readback rejected without retry",
     "receipt identity validation",
     "timezone-aware timestamps required"
   ]

@@ -37,6 +37,7 @@ class FakeAPI:
         self.emails = {email['id']: deepcopy(email) for email in emails}
         self.calls = []
         self.publish_failure = None
+        self.publish_at = None
         self.create_failure = None
 
     def request(self, method, url, **kwargs):
@@ -73,6 +74,9 @@ class FakeAPI:
                 raise requests.Timeout('simulated')
             email.update(kwargs['json'])
             email['status'] = 'about_to_send'
+            if self.publish_failure in {'scheduled_now', 'scheduled_future'}:
+                email['status'] = 'scheduled'
+                email['publish_date'] = self.publish_at.isoformat()
             if self.publish_failure == 'timeout_after':
                 raise requests.Timeout('simulated')
             return Response(email)
@@ -129,7 +133,8 @@ class NewsletterChecks(unittest.TestCase):
 
     def sync(self, **kwargs):
         with redirect_stdout(io.StringIO()):
-            return scheduler.synchronize(self.root, self.api, self.public, self.now, **kwargs)
+            return scheduler.synchronize(self.root, self.api, self.public, self.now,
+                                         current_time=lambda: self.now + timedelta(seconds=5), **kwargs)
 
     def posts(self):
         return [call for call in self.api.calls if call[0] == 'POST']
@@ -197,6 +202,48 @@ class NewsletterChecks(unittest.TestCase):
         self.sync(publish_part=1)
         self.assertEqual(len(self.posts()), 1)
 
+    def test_successful_due_scheduled_readback_is_pending_delivery_without_resend(self):
+        self.api.publish_failure = 'scheduled_now'
+        # Service timestamp is later than invocation time but before readback.
+        self.api.publish_at = self.now + timedelta(seconds=3)
+        self.api.emails['test-part-2'].update(body='Old body', subject='Old title',
+                                            publish_date=(self.now + timedelta(days=30)).isoformat())
+        saved = self.sync(publish_part=1, sync_bodies=True, sync_dates=True)
+        first = saved[self.releases[0]['slug']]
+        self.assertEqual(first['status'], 'scheduled')
+        self.assertEqual(first['publication_state'], 'accepted_pending_delivery')
+        self.assertEqual(self.api.emails['test-part-2']['body'], self.bodies[2])
+        self.assertEqual(self.api.emails['test-part-2']['subject'], self.releases[1]['subject'])
+        self.sync(publish_part=1)
+        self.sync(sync_bodies=True, sync_dates=True)
+        self.assertEqual(len(self.posts()), 1)
+        self.api.emails['test-part-1']['status'] = 'sent'
+        saved = self.sync()
+        self.assertNotIn('pending_request', saved[self.releases[0]['slug']])
+        self.assertEqual(len(self.posts()), 1)
+
+    def test_legacy_pending_receipt_recovers_due_schedule_and_syncs_future(self):
+        self.api.emails['test-part-1']['publish_date'] = (self.now + timedelta(seconds=3)).isoformat()
+        receipt = self.root / '.research-cache/luck-buttondown-receipts.json'
+        receipt.parent.mkdir()
+        receipt.write_text(json.dumps({self.releases[0]['slug']: {
+            'id': 'test-part-1', 'pending_request': 'publish',
+            'request_started_at': self.now.isoformat()}}))
+        self.api.emails['test-part-3']['body'] = 'Old body'
+        saved = self.sync(sync_bodies=True, sync_dates=True)
+        self.assertEqual(saved[self.releases[0]['slug']]['publication_state'], 'accepted_pending_delivery')
+        self.assertEqual(self.api.emails['test-part-3']['body'], self.bodies[3])
+        self.assertFalse(self.posts())
+
+    def test_successful_publish_with_future_readback_stops_without_retry(self):
+        self.api.publish_failure = 'scheduled_future'
+        self.api.publish_at = self.now + timedelta(days=2)
+        with self.assertRaisesRegex(SystemExit, 'not queued or due-scheduled'):
+            self.sync(publish_part=1)
+        with self.assertRaisesRegex(SystemExit, 'future/different readback'):
+            self.sync(publish_part=1)
+        self.assertEqual(len(self.posts()), 1)
+
     def test_publish_unknown_outcome_is_not_retried(self):
         self.api.publish_failure = 'timeout_before'
         with self.assertRaisesRegex(SystemExit, 'Publish outcome is unknown'):
@@ -251,6 +298,9 @@ if __name__ == '__main__':
                           'existing-id immediate publication and idempotent rerun', 'article and image 404 block send',
                           'correct article title required', 'API credential isolated from public requests',
                           'unknown mutation recovery without POST retry', 'all-date slug recovery',
+                          'due-scheduled acknowledgment recorded as pending delivery',
+                          'legacy pending receipt recovery and continued future synchronization',
+                          'future publish readback rejected without retry',
                           'receipt identity validation', 'timezone-aware timestamps required']}
     (ROOT / 'research/luck/results/newsletter-workflow-check.json').write_text(json.dumps(summary, indent=2) + '\n')
     raise SystemExit(0 if result.wasSuccessful() else 1)
