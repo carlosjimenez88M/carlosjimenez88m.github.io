@@ -72,6 +72,8 @@ assert reliability == Fraction(4,13) and mean_five_reliability == Fraction(20,29
 
 # A separate array-based reconstruction of the historical cohort summaries.
 applied=json.loads((Path(__file__).parent/'results/applied-case.json').read_text())
+import hashlib
+assert hashlib.sha256((Path(__file__).parent/'data/berkeley-admissions.csv').read_bytes()).hexdigest()==applied['source']['csv_sha256']
 with (Path(__file__).parent/'data/berkeley-admissions.csv').open() as stream:
     rows=list(csv.DictReader(stream))
 counts=np.array([[[(int(next(row['admitted'] for row in rows if row['department']==dept and row['recorded_sex']==group))),

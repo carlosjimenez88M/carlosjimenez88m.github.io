@@ -50,7 +50,7 @@ def refresh_data():
         raise ValueError("Expected 24 aggregate cell counts")
     DATA.parent.mkdir(parents=True, exist_ok=True)
     with DATA.open("w", newline="") as stream:
-        writer = csv.DictWriter(stream, fieldnames=["department", "recorded_sex", "admitted", "rejected", "applications"])
+        writer = csv.DictWriter(stream, fieldnames=["department", "recorded_sex", "admitted", "rejected", "applications"], lineterminator="\n")
         writer.writeheader()
         for dept_index, dept in enumerate("ABCDEF"):
             for group_index, group in enumerate(["Male", "Female"]):

@@ -24,14 +24,25 @@ Parts II and III were updated on their original ids and independently retrieved:
 that edition's subject, full body, canonical URL, and unrestricted audience.
 
 The subsequent expansion names the reference-class problem, compares modal and
-control accounts of luck, adds a descriptive analysis of 4,526 public Berkeley
-application records, specifies a repeated-batch design, and distinguishes
+control accounts of luck, adds a descriptive analysis of public Berkeley counts
+covering 4,526 applications, specifies a repeated-batch design, and distinguishes
 population reliability from individual attribution. Part III derives pass@k and
 proposes policy interventions, credible perturbations, and state-consistent replay.
 That agent protocol is a research design; it has not been run on a live system.
 The first essay now contains five figures; the complete package contains eight.
-The expanded source and local browser preview have passed verification. Live
-deployment and same-id newsletter/archive synchronization are pending below.
+The expanded edition was deployed and verified over HTTPS on October 5: the new
+date-free canonical article returns 200, contains the real-data analysis and
+editorial note, and renders without KaTeX errors. The previous public URL returns
+an HTML redirect to the new canonical. All five newsletter PNGs were fetched and
+validated. Both future canonical articles still return 404, as intended.
+
+Buttondown synchronization was verified by fresh API readback. The first email
+retains its original id, `sent` state, and October 5 15:07:43.986082 UTC send time.
+Only its public archive body and canonical URL were updated; no publication
+request or second send occurred. The delivered-body hash is preserved separately
+from the revised archive hash in the ignored receipt. Parts II and III retain
+their original ids and scheduled dates, with exact matches to the expanded
+subject, complete body, and new canonical URL.
 
 The existing Codex follow-up “Publicar serie estadística sobre la suerte” was
 updated for October 12 and 19, ending October 19. Local blog publication requires
