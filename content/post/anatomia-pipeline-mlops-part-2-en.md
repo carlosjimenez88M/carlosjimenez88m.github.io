@@ -271,7 +271,7 @@ unit-tests:
         flags: unittests
         fail_ci_if_error: false
 ```
-![](img/action2.png)
+![](/mlops/img/action2.png)
 
 **Key patterns:**
 
@@ -1617,7 +1617,7 @@ This project uses **three distinct Dockerfiles**, each optimized for its specifi
 3. **Streamlit Container (`streamlit_app/Dockerfile`)**: Provides interactive web interface
 
 This separation is not accidental—it's an architectural decision that reflects the different requirements of each component.
-![](img/app1.png)
+![](/mlops/img/app1.png)
 ---
 
 ### 1. Pipeline Container: Training with MLflow Tracking
@@ -1915,7 +1915,7 @@ ENV PORT=8080
 CMD exec uvicorn app.main:app --host 0.0.0.0 --port ${PORT}
 ```
 
-![](img/action.png)
+![](/mlops/img/action.png)
 
 Cloud Run injects `PORT` as an env var (can be 8080, 8081, etc.). The API must read this value, not hardcode it.
 
@@ -2245,8 +2245,8 @@ Docker Compose starts the API before Streamlit. This prevents Streamlit from fai
 **Limitation:** `depends_on` only waits for the container to **start**, not for the API to be **ready** (healthcheck pass). For that, you need an init container or retry logic in Streamlit.
 
 
-![](img/app1.png)
-![](img/app2.png)
+![](/mlops/img/app1.png)
+![](/mlops/img/app2.png)
 ---
 
 ### Complete Execution Commands
@@ -2837,7 +2837,7 @@ class PredictionRequest(BaseModel):
 ```
 
 
-![](img/api.png)
+![](/mlops/img/api.png)
 
 **Why support batch:**
 - **Reduced latency:** 3 individual requests = 150ms. 1 batch of 3 = 60ms.

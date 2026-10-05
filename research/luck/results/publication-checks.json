@@ -1,0 +1,41 @@
+[
+  {
+    "clock": "2026-10-05T08:00:00-05:00",
+    "published_parts": [],
+    "checked_local_links": 0,
+    "missing_local_links": []
+  },
+  {
+    "clock": "2026-10-12T07:59:59-05:00",
+    "published_parts": [],
+    "checked_local_links": 0,
+    "missing_local_links": []
+  },
+  {
+    "clock": "2026-10-12T08:00:01-05:00",
+    "published_parts": [
+      1
+    ],
+    "checked_local_links": 24,
+    "missing_local_links": []
+  },
+  {
+    "clock": "2026-10-19T08:00:01-05:00",
+    "published_parts": [
+      1,
+      2
+    ],
+    "checked_local_links": 53,
+    "missing_local_links": []
+  },
+  {
+    "clock": "2026-10-26T08:00:01-05:00",
+    "published_parts": [
+      1,
+      2,
+      3
+    ],
+    "checked_local_links": 83,
+    "missing_local_links": []
+  }
+]

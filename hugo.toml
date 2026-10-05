@@ -6,6 +6,24 @@ languageCode = "en-us"
 enableEmoji = true
 enableRobotsTXT = true
 
+# Publish the figures and interactive graph used by the essays directly from
+# their analysis output folders. Keep datasets, notebooks and generated page
+# redirects outside the static mount.
+[[module.mounts]]
+  source = "static"
+  target = "static"
+
+[[module.mounts]]
+  source = "tidytuesday"
+  target = "static/tidytuesday"
+  includeFiles = [
+    "img1.png",
+    "img2.png",
+    "2026-03-12-statistical-learning/*.png",
+    "2026-06-16-beatles-evolution/*.png",
+    "2026-06-16-beatles-evolution/beatles_song_graph.html"
+  ]
+
 [pagination]
   pagerSize = 5
 

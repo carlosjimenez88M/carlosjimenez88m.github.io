@@ -137,7 +137,7 @@ full_dataset['birthdate'] = full_dataset['birthdate'].astype('Int64')
 full_dataset['deathdate'] = full_dataset['deathdate'].astype('Int64')
 full_dataset['author_age_at_death'] = full_dataset['deathdate'] - full_dataset['birthdate']
 ```
-![](https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/tidytuesday/img1.png?raw=true)
+![](/tidytuesday/img1.png)
 
 The intention of calculating authors' age at death was to validate some correlation between their narrative length and age. The result was null, but for experimental purposes, it functioned as an important theoretical arc—knowing whether longevity was reflected in their texts (remember, there's a study saying Nobel Prize winners live several years longer than the societal average).
 
@@ -234,7 +234,7 @@ df_chunks['embedding'] = df_chunks['text_chunk'].apply(get_embedding_safe)
 df_chunks.head()
 ```
 
-![](https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/tidytuesday/img2.png?raw=true)
+![](/tidytuesday/img2.png)
 
 ## Finding Optimal Clusters
 

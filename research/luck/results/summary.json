@@ -1,0 +1,127 @@
+{
+  "kind": "Analytical calculations and synthetic demonstrations only",
+  "seed": 20261005,
+  "python": "3.13.2",
+  "numpy": "2.4.6",
+  "scipy": "1.15.3",
+  "matplotlib": "3.10.3",
+  "binomial": {
+    "0.5": {
+      "mean": 10.0,
+      "variance": 5.0,
+      "probability_15_or_more": 0.020694732666015625,
+      "mid_percentile_at_15": 0.9866981506347656
+    },
+    "0.6": {
+      "mean": 12.0,
+      "variance": 4.800000000000001,
+      "probability_15_or_more": 0.12559897272303744,
+      "mid_percentile_at_15": 0.9117245370413981
+    },
+    "0.7": {
+      "mean": 14.0,
+      "variance": 4.200000000000001,
+      "probability_15_or_more": 0.41637082944748116,
+      "mid_percentile_at_15": 0.6730606958374588
+    }
+  },
+  "uncertain_probability": {
+    "prior": "Beta(1,1)",
+    "training_successes": 12,
+    "training_trials": 20,
+    "posterior": "Beta(13,9)",
+    "predictive_probability_15_or_more": 0.19092223616220383,
+    "predictive_variance": 8.828602227811714
+  },
+  "shared_environment": {
+    "alpha": 2.4,
+    "beta": 1.6,
+    "intraclass_correlation": 0.2,
+    "variance_count": 23.04,
+    "independent_variance_count": 4.800000000000001
+  },
+  "selection": {
+    "worlds": 20000,
+    "mu": 70.0,
+    "skill_sd": 4.0,
+    "occasion_sd": 6.0,
+    "shrinkage_weight": 0.3076923076923077,
+    "rows": [
+      {
+        "candidates": 1,
+        "selected_score": 69.99182448052946,
+        "selected_latent_mean": 70.02284843924792,
+        "independent_repeat_mean": 70.07106046568488,
+        "selection_optimism": -0.03102395871847321,
+        "mcse_selected_score": 0.05135080427845986
+      },
+      {
+        "candidates": 5,
+        "selected_score": 78.36297076689192,
+        "selected_latent_mean": 72.55807497481855,
+        "independent_repeat_mean": 72.54432120554124,
+        "selection_optimism": 5.804895792073373,
+        "mcse_selected_score": 0.033958685749846465
+      },
+      {
+        "candidates": 20,
+        "selected_score": 83.45221233887091,
+        "selected_latent_mean": 74.1317030629048,
+        "independent_repeat_mean": 74.11519992017904,
+        "selection_optimism": 9.320509275966105,
+        "mcse_selected_score": 0.026808968642399976
+      },
+      {
+        "candidates": 100,
+        "selected_score": 88.10751811999123,
+        "selected_latent_mean": 75.60271283470647,
+        "independent_repeat_mean": 75.63746786004062,
+        "selection_optimism": 12.504805285284759,
+        "mcse_selected_score": 0.022028549141336166
+      }
+    ]
+  },
+  "collider": {
+    "population_correlation": -0.00101644676867666,
+    "selected_correlation": -0.732679751279692,
+    "selected_count": 15684,
+    "rule": "skill + shock > 2"
+  },
+  "reinforcement": {
+    "worlds": 20000,
+    "draws": 500,
+    "initial_weights": [
+      1,
+      1
+    ],
+    "independent_share_sd": 0.022369865454535554,
+    "reinforced_share_sd": 0.2894261961120655,
+    "expected_share_after_first_win": 0.6673333333333333,
+    "simulated_share_after_first_win": 0.6640762000000001
+  },
+  "clustered_evaluation": {
+    "users": 40,
+    "tasks_per_user": 3,
+    "generations_per_task": 4,
+    "true_difference": 0.02,
+    "sd_user": 0.06,
+    "sd_task": 0.04,
+    "sd_run": 0.04,
+    "observed_mean": 0.03481492062857251,
+    "cluster_se": 0.013022315806813352,
+    "naive_se": 0.004388223344820245,
+    "cluster_95_interval": [
+      0.008474800688279965,
+      0.06115504056886506
+    ],
+    "naive_95_interval": [
+      0.02621400287272483,
+      0.043415838384420195
+    ],
+    "repeated_panels": 4000,
+    "cluster_95_coverage": 0.9465,
+    "naive_95_coverage": 0.50275,
+    "analytical_se": 0.010327955589886445
+  },
+  "script_sha256": "68132260b8a8494076a72b6e3718b6f70d181c9a45d7aaccff8857aa16bc50f0"
+}

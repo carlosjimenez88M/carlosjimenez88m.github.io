@@ -72,6 +72,16 @@ The script builds the site (`hugo --cleanDestinationDir --minify`), copies `publ
 to the repo root, commits, and pushes to `master`. GitHub Pages serves the result
 within a few minutes.
 
+The three-part series **A Statistical Account of Luck** has releases on October
+12, 19, and 26, 2026. Its essays use future `publishDate` values at 08:00
+America/Bogota; complete Buttondown emails are scheduled at 09:00. The Codex
+scheduled follow-up rebuilds and pushes due posts using
+`python3 scripts/publish_luck_series.py --apply`, which requires a clean `master`
+checkout and stages only generated files. Local scheduled publication requires
+the machine and Codex app to be running; Buttondown sends independently.
+See [research/luck/README.md](research/luck/README.md) for the research,
+reproduction instructions, release manifest, and critical review.
+
 ---
 
 ## Writing a new post
@@ -94,6 +104,12 @@ tags: ["nlp", "embeddings", "..."]
 
 Music posts pair with an analysis folder under `tidytuesday/` (Python notebooks +
 scripts that produce the figures the post embeds from `/tidytuesday/<slug>/`).
+The explicit static mount in `hugo.toml` publishes the referenced figures and
+interactive Beatles graph from those folders, including on a clean build.
+When adding new public analysis assets, extend its `includeFiles` list; do not
+mount the entire research tree (datasets and notebooks are not site assets).
+MLOps figures under `content/mlops/img/` are served at `/mlops/img/`; use those
+root-relative URLs in posts rather than `img/...` relative to the article.
 
 ---
 

@@ -1,0 +1,8 @@
+<aside class="reader-guide" aria-label="A Statistical Account of Luck series">
+  <strong>A Statistical Account of Luck</strong>
+  <ol>
+    {{ range slice (dict "path" "/post/2026-10-12-statistical-luck-reference" "title" "What Can Statistics Mean by Luck?" "date" "October 12, 2026") (dict "path" "/post/2026-10-19-statistical-luck-winners" "title" "Why Winners Look More Skilled Than They Are" "date" "October 19, 2026") (dict "path" "/post/2026-10-26-statistical-luck-ai-evaluation" "title" "A Statistical Framework for Luck in AI Evaluation" "date" "October 26, 2026") }}
+    <li>{{ with $.Page.Site.GetPage .path }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ else }}{{ .title }} — scheduled for {{ .date }}{{ end }}</li>
+    {{ end }}
+  </ol>
+</aside>

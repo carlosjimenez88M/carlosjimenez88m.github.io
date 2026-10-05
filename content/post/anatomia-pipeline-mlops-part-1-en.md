@@ -782,7 +782,7 @@ This **trick is critical**. You can't evaluate imputation strategies on real mis
 
 It's **cross-validation for preprocessing**, not just for models.
 
-![](img/imputation.png)
+![](/mlops/img/imputation.png)
 #### 3. Why KNN Needs Scaling
 
 ```python
@@ -846,7 +846,7 @@ mlflow.log_artifact("artifacts/imputer.pkl")
 **With this:** "I compared 4 strategies. IterativeImputer with RandomForest had 15% lower RMSE than median. Here's the plot in W&B dashboard run `abc123`. The imputer is serialized in MLflow."
 
 Now you have **quantifiable evidence** of why you chose what you chose. Six months later, when someone asks, **the data is there**.
-![](img/gcp2.png)
+![](/mlops/img/gcp2.png)
 ---
 
 <a name="step-03"></a>
@@ -1419,7 +1419,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-![](img/optimization.png)
+![](/mlops/img/optimization.png)
 ### Critical Technical Decisions
 
 #### 1. Bayesian Optimization, Not Random Search
@@ -1499,7 +1499,7 @@ wandb.log({
 })
 ```
 
-![](img/feature_selection.png)
+![](/mlops/img/feature_selection.png)
 
 Random Forest calculates feature importances **for free**. It would be valuable to log it to understand which features dominate the model.
 
@@ -1818,7 +1818,7 @@ with open(config_path, 'w') as f:
 mlflow.log_artifact(str(config_path), artifact_path="config")
 ```
 
-![](img/optimization.png)
+![](/mlops/img/optimization.png)
 
 This YAML is logged to MLflow **AND** saved in the repo (in `configs/model_config.yaml`).
 
@@ -1842,7 +1842,7 @@ When you commit `model_config.yaml`, the diff shows:
 
 It's **auditable**. You know exactly what changed between versions.
 
-![](img/hardware1.png)
+![](/mlops/img/hardware1.png)
 
 ### The Complete Flow: Sweep → Registration → Production
 

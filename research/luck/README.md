@@ -1,0 +1,76 @@
+# A Statistical Account of Luck
+
+Three English essays for The Probability Engine: October 12, 19, and 26, 2026.
+Research and calculations completed October 5, 2026. The dates are release dates,
+not dates of data collection. Author: Carlos Daniel Jiménez.
+
+This is a methodological synthesis using primary sources and deliberately simple
+generative examples. It is not an empirical study of people's success, a systematic
+literature review, or a validated attribution scale. No embedding or generation API
+was needed. The code makes no provider calls.
+
+## Reproduce the demonstrations
+
+From the repository root, with Python 3.13.2 and the versions in `requirements.txt`:
+
+```sh
+MPLCONFIGDIR=/tmp/luck-mpl python3 research/luck/analysis.py
+python3 research/luck/verify.py
+```
+
+The executable uses seed 20261005. `results/summary.json` records parameters,
+software versions, full-precision results, and the analysis script's SHA-256.
+`results/synthetic-user-means.csv` contains the forty synthetic user averages.
+Figures are written to `static/img/luck/` as SVG and PNG. Numerical results are
+deterministic for the recorded environment; figure metadata can differ on rerun.
+
+For the downloadable package, extract its contents at the root of an empty folder
+and run the same commands. The archive preserves repository-relative paths.
+
+## Design and interpretation
+
+| Demonstration | Design | What it establishes under the model | What it does not establish |
+| --- | --- | --- | --- |
+| Reference distributions | Exact Binomial(20,p), p=.5,.6,.7 | An outcome's excess and tail depend on its reference | The appropriate reference for a person |
+| Unknown probability | Beta(1,1) prior, 12/20 earlier trials, new 20-trial prediction | Parameter uncertainty changes the predictive distribution | Exchangeability of changing real populations |
+| Shared environment | Batch P~Beta(2.4,1.6), 20 conditional trials | Common environment increases marginal variance | Whether a wide observed distribution reflects this mechanism |
+| Selection | 20,000 worlds per pool size; latent N(70,4²), error N(0,6²) | Selection finds higher means and favorable noise | A calibrated correction for dependent real leaderboards |
+| Collider | 200,000 independent standard-normal pairs, retain sum>2 | Inclusion alone can create association | An empirical relationship between human attributes |
+| Reinforcement | Symmetric (1,1) Pólya urn, 500 draws, 20,000 worlds | Early variation persists under the stipulated update | Feedback identified from final shares or sequences |
+| Clustered evaluation | 40 users × 3 tasks × 4 runs, Gaussian differences | Dependence determines precision; check across 4,000 panels | Validity of a real rubric or representativeness of a sample |
+
+The urn is generated through its **exact beta-binomial marginal representation**,
+not by sequentially updating weights. This is mathematically equivalent for the
+reported counts. It also exposes the observational equivalence between feedback
+and a fixed latent propensity drawn once per world.
+
+The Gaussian scores are unbounded synthetic units. They are not accuracies,
+human ability measurements, or model-service results. The clustered example uses
+paired differences, so its components represent variability of those differences.
+The user-level t interval is justified here by iid normal user means. These
+conditions must be re-examined for any real application.
+
+With the full repository, `python3 research/luck/verify_release_workflow.py`
+also exercises publication in a temporary checkout and a local bare remote:
+due-only release, idempotent reruns, generated-file staging, stale-output removal,
+and rejection of unrelated unfinished changes. It does not push to production.
+
+See `sources.md` for the scope of primary-source reading and `critical-review.md`
+for claims challenged or narrowed. `verify.py` checks results against exact finite
+sums, quadrature, exchangeability identities, and the analytical sampling variance.
+
+## Releases
+
+The blog source files have future `publishDate` values at 08:00 America/Bogota.
+Buttondown receives full essays at 09:00 on the same dates, adapted for email:
+absolute asset links, PNG figures, native display-math blocks, and readable Unicode
+inline notation. `export_newsletters.py` generates those files from the essays.
+Future installments are described by date until their release, so early emails
+do not link to unavailable pages.
+
+Hugo is a static generator. A future date alone cannot update the deployed site.
+The scheduled Codex follow-up runs `scripts/publish_luck_series.py` to rebuild and
+push due articles. Local scheduled work requires the machine and Codex app to be
+running. Buttondown's scheduled delivery is hosted independently. The publication
+manifest records the exact three releases; newsletter API receipts are local and
+ignored in `.research-cache/luck-buttondown-receipts.json`.

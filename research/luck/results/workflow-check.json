@@ -1,0 +1,13 @@
+{
+  "fixture": "temporary checkout and local bare remote; no production push",
+  "checks": [
+    "due-only publication",
+    "clean checkout after build",
+    "local remote updated",
+    "repeat is idempotent",
+    "obsolete generated output removed",
+    "source preserved",
+    "dirty checkout rejected without staging"
+  ],
+  "status": "passed"
+}
