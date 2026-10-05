@@ -1,5 +1,5 @@
 """Exercise the publisher in a temporary checkout and local bare remote only."""
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 import importlib.util
 import json
 from pathlib import Path
@@ -20,11 +20,25 @@ def main():
         run('git','init','--bare','--initial-branch=master',str(remote))
         run('git','init','--initial-branch=master',str(checkout))
         for name in ('content','themes','layouts','assets','static','tidytuesday'):
-            shutil.copytree(ROOT/name,checkout/name,ignore=shutil.ignore_patterns('__pycache__','*.pkl','data','*.ipynb'))
+            patterns=['__pycache__','*.pkl','data','*.ipynb']
+            if name=='tidytuesday':patterns.append('index.html')
+            shutil.copytree(ROOT/name,checkout/name,ignore=shutil.ignore_patterns(*patterns))
         for name in ('hugo.toml','.gitignore'):
             shutil.copy2(ROOT/name,checkout/name)
+        # Root assets include deployed fingerprinted CSS alongside source.
+        # Mirror those outputs into public so their role matches production.
+        for stylesheet in (checkout/'assets/css').glob('stylesheet.*.css'):
+            mirror=checkout/'public'/stylesheet.relative_to(checkout)
+            mirror.parent.mkdir(parents=True,exist_ok=True)
+            shutil.copy2(stylesheet,mirror)
         (checkout/'research/luck').mkdir(parents=True)
-        shutil.copy2(ROOT/'research/luck/releases.json',checkout/'research/luck/releases.json')
+        manifest=json.loads((ROOT/'research/luck/releases.json').read_text())
+        first=min(manifest['releases'],key=lambda r:datetime.fromisoformat(r['blog_at']))
+        release_clock=datetime.fromisoformat(first['blog_at'])+timedelta(seconds=1)
+        old_manifest=json.loads(json.dumps(manifest))
+        old_first=next(r for r in old_manifest['releases'] if r['part']==first['part'])
+        old_first['blog_at']=(release_clock+timedelta(days=1)).isoformat()
+        (checkout/'research/luck/releases.json').write_text(json.dumps(old_manifest,indent=2)+'\n')
         (checkout/'notes-user-owned.txt').write_text('Keep this source file unchanged.\n')
         for prefix in (checkout,checkout/'public'):
             css=prefix/'assets/css/stylesheet.old.css'
@@ -36,12 +50,22 @@ def main():
         run('git','add','.',cwd=checkout)
         run('git','commit','-m','Temporary fixture',cwd=checkout)
         run('git','push','-u','origin','master',cwd=checkout)
+        # A remote update makes I due, while the checkout initially says it is
+        # not due. The publisher must fetch and then recompute the manifest.
+        editor=Path(td)/'remote-editor'
+        run('git','clone',str(remote),str(editor))
+        run('git','config','user.name','Release Verification',cwd=editor)
+        run('git','config','user.email','release-check@example.invalid',cwd=editor)
+        (editor/'research/luck/releases.json').write_text(json.dumps(manifest,indent=2)+'\n')
+        run('git','add','research/luck/releases.json',cwd=editor)
+        run('git','commit','-m','Advance the first release in the remote manifest',cwd=editor)
+        run('git','push','origin','master',cwd=editor)
         spec=importlib.util.spec_from_file_location('luck_publisher',ROOT/'scripts/publish_luck_series.py')
         publisher=importlib.util.module_from_spec(spec);spec.loader.exec_module(publisher)
         publisher.ROOT=checkout
         class Clock:
             @staticmethod
-            def now(tz):return datetime(2026,10,12,13,0,1,tzinfo=timezone.utc)
+            def now(tz):return release_clock.astimezone(tz)
             fromisoformat=staticmethod(datetime.fromisoformat)
         publisher.datetime=Clock
         old_argv=sys.argv;sys.argv=['publish_luck_series.py','--apply']
@@ -65,11 +89,33 @@ def main():
                 assert 'unrelated changes' in str(error)
             else:raise AssertionError('Dirty checkout was not rejected')
             assert not run('git','diff','--cached','--name-only',cwd=checkout)
+            run('git','restore','notes-user-owned.txt',cwd=checkout)
+            # A static root file must never overwrite an independently tracked
+            # source at the same path, even outside protected directories.
+            (checkout/'static/notes-user-owned.txt').write_text('Colliding static output.\n')
+            run('git','add','static/notes-user-owned.txt',cwd=checkout)
+            run('git','commit','-m','Add a deliberate collision fixture',cwd=checkout)
+            try:publisher.main()
+            except SystemExit as error:
+                assert 'tracked source file' in str(error)
+            else:raise AssertionError('Tracked root source collision was not rejected')
+            assert (checkout/'notes-user-owned.txt').read_text()=='Keep this source file unchanged.\n'
+            assert not run('git','status','--porcelain',cwd=checkout)
+            naive=json.loads(json.dumps(manifest))
+            naive['releases'][0]['blog_at']='2026-10-05T08:00:00'
+            (checkout/'research/luck/releases.json').write_text(json.dumps(naive))
+            try:publisher.releases_at(release_clock)
+            except SystemExit as error:
+                assert 'explicit timezone' in str(error)
+            else:raise AssertionError('Naive release timestamp was not rejected')
         finally:sys.argv=old_argv
     result={'fixture':'temporary checkout and local bare remote; no production push',
             'checks':['due-only publication','clean checkout after build','local remote updated',
                       'repeat is idempotent','obsolete generated output removed',
-                      'source preserved','dirty checkout rejected without staging'],
+                      'source preserved','dirty checkout rejected without staging',
+                      'release boundaries recomputed after pull',
+                      'tracked root source collision rejected before copying',
+                      'timezone-aware release timestamps required'],
             'status':'passed'}
     (ROOT/'research/luck/results/workflow-check.json').write_text(json.dumps(result,indent=2)+'\n')
     print(json.dumps(result,indent=2))

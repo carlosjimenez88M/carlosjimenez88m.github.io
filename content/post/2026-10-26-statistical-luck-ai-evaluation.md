@@ -1,7 +1,7 @@
 ---
 author: Carlos Daniel Jiménez
-date: 2026-10-26T08:00:00-05:00
-publishDate: 2026-10-26T08:00:00-05:00
+date: 2026-10-19T08:00:00-05:00
+publishDate: 2026-10-19T08:00:00-05:00
 title: "A Statistical Framework for Luck in AI Evaluation"
 description: "A practical synthesis for separating favorable runs, causal improvements, unequal exposure, and deployment risk—with a reproducible clustered-evaluation example."
 categories: ["Applied Statistics", "Engineering"]
@@ -119,8 +119,8 @@ The framework cannot assign a percentage of an engineer's achievement to luck. I
 
 It can make a narrower contribution. It can expose when a reference was chosen after the outcome; show when a selected maximum exaggerates repeat performance; distinguish additional executions from additional independent evidence; and connect uncertainty to a decision with stated consequences.
 
-Across the series, the conclusion that survives is this: **luck is a relational statistical description of contingency, anchored to information, a reference process, and a boundary around control.** Favorable surprise is measurable under a model. Causal attribution requires additional evidence. The model does not decide moral credit.
+Across the series, the conclusion that survives has two parts: **a statistical reference describes favorable surprise; an account of practical control is needed to interpret consequential variation as luck.** A predictable advantage can be unchosen, and an unexpected improvement can be deliberate. Neither a residual nor a tail identifies a causal share. The model does not decide moral credit.
 
 For AI engineering, that conclusion changes the question we ask of success. We ask whether a procedure can be expected to help the intended users, how fragile that expectation is, and whether our evidence includes the attempts that did not look impressive. A good run remains welcome. The work is to make our next decision depend on more than its good fortune.
 
-The [study package](/examples/luck-study.zip) contains all calculations, synthetic data summaries, figures, source notes, and critical-review decisions. No new embedding service or hosted generation model was needed: the uncertainty examined here comes from the statistical design, not from a shortage of representations.
+The [study package](/examples/luck-study.zip) contains all calculations, synthetic data summaries, figures, source notes, and critical-review decisions.

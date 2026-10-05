@@ -40,4 +40,20 @@ coverage=cl['cluster_95_coverage'];mcse=math.sqrt(.95*.05/4000)
 assert abs(coverage-.95) < 4*mcse
 for p,q in [(0.,.4),(.2,.8),(.6,.6),(1.,.5)]:
     assert math.isclose(p*(q-1)**2+(1-p)*q*q,p*(1-p)+(q-p)**2,abs_tol=1e-12)
-print('Verified: exact tails, Gaussian maximum, urn equivalence, sampling variance, interval inputs, coverage, Brier identity.')
+# Independently check the new graphical comparisons with finite sums and moments.
+graphics=json.loads((Path(__file__).parent/'results/graphics.json').read_text())
+m=13/22
+plugin_tail=sum(math.comb(20,k)*m**k*(1-m)**(20-k) for k in range(15,21))
+assert math.isclose(plugin_tail, graphics['plug_in_posterior_mean']['probability_15_or_more'], rel_tol=1e-12)
+assert math.isclose(20*m*(1-m), graphics['plug_in_posterior_mean']['variance'], rel_tol=1e-12)
+v=13*9/(22**2*23)
+assert math.isclose(20*m*(1-m)+20*19*v,graphics['posterior_predictive']['variance'],rel_tol=1e-12)
+shared_tail=sum(math.comb(20,k)*beta(k+2.4,20-k+1.6)/beta(2.4,1.6) for k in range(15,21))
+assert math.isclose(shared_tail,graphics['shared_environment']['probability_15_or_more'],rel_tol=1e-11)
+assert math.isclose(20*.6*.4*(1+19*.2),graphics['shared_environment']['variance'],rel_tol=1e-12)
+q=data['binomial']['0.5']['probability_15_or_more']
+assert math.isclose(1-(1-q)**100,.8764595887372029,rel_tol=1e-12)
+# These are intervention predictions, distinct from conditioning on an observed A.
+assert math.isclose((1+499/2)/500,.501,rel_tol=1e-12)
+assert math.isclose((1+499*2/3)/500,.6673333333333333,rel_tol=1e-12)
+print('Verified: exact tails and mean-matched graphics, Gaussian maximum, urn observational equivalence and intervention contrast, sampling variance, interval inputs, coverage, Brier identity.')

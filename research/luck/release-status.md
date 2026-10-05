@@ -1,39 +1,46 @@
-# Release preparation — October 5, 2026
+# Release revision — October 5, 2026
 
-All three complete newsletter bodies were created with status `scheduled` in
-Buttondown and retrieved independently through its API. Persisted subject,
-body, canonical URL, unrestricted audience, status, and timestamp matched the
-local release manifest. No email was sent during preparation.
+The author requested a critical rereading, clearer graphics, and the first
+publication today. The revised cadence is October 5, 12, and 19. Stable slugs
+retain their original date prefixes so canonical links and Buttondown ids do not
+change when a release is advanced.
 
-| Part | Blog rebuild (America/Bogota) | Buttondown hosted send (America/Bogota) |
+| Part | Blog release (America/Bogota) | Buttondown delivery (America/Bogota) |
 | --- | --- | --- |
-| I | October 12, 08:00 | October 12, 09:00 |
-| II | October 19, 08:00 | October 19, 09:00 |
-| III | October 26, 08:00 | October 26, 09:00 |
+| I | October 5, today | Immediately after verification of the live article |
+| II | October 12, 08:00 | October 12, 09:00 |
+| III | October 19, 08:00 | October 19, 09:00 |
 
-A Codex thread follow-up named “Publicar serie estadística sobre la suerte” is
-active for those Mondays, ending October 26. Local publication depends on the
-machine and app being available. There is no fourth installment. The follow-up
-checks the deployed URLs and must not create duplicate newsletter deliveries.
+The first release and newsletter synchronization are pending at the time of
+this preparation record. Hosted state must be read back after publication; the
+local manifest alone does not establish that a newsletter has been sent.
 
-Publication-boundary builds passed at five clock values: today; immediately
-before the first release; and just after each of the three release times.
-The results are in `results/publication-checks.json`. Published-series pages
-had no missing local links in these builds. Later installments appear as dated
-upcoming text until available. Browser inspection found no KaTeX error nodes or
-unrendered display delimiters in the final previews of the three essays.
+The existing Codex follow-up “Publicar serie estadística sobre la suerte” was
+updated for October 12 and 19, ending October 19. Local blog publication requires
+the machine and app to be available; Buttondown delivery is hosted independently.
+No fourth installment is scheduled.
 
-Numerical checks passed in `verify.py`: exact finite sums, maximum-score
-quadrature, ordered-path urn equivalence, sampling variance, recorded interval
-inputs, Monte Carlo coverage, and the Brier identity. The four figures were also
-visually inspected. This verification does not validate the synthetic models
-against any real-world population.
+Publication-boundary builds passed for the current time, immediately before the
+first release, and just after each of the three releases. The results are in
+`results/publication-checks.json`. Rendered essays have no missing local links;
+unreleased installments appear as dated upcoming text. Browser inspection of
+the revised first essay found no KaTeX error nodes. Its four graphics and the
+other three series figures were inspected at desktop and mobile figure widths.
 
-The publisher also passed an isolated end-to-end check using a temporary checkout
-and local bare remote. It published only the first due essay, pushed the local
-remote, preserved source files, removed stale generated output, avoided a new
-commit on rerun, and rejected a dirty checkout without staging unrelated edits.
-See `results/workflow-check.json`. The check did not push to production.
+Numerical checks in `verify.py` include exact tail sums, comparisons at equal
+means, shared-environment variance, selected Gaussian maxima, ordered-path urn
+equivalence, the forced-first-win intervention contrast, sampling variance,
+recorded interval inputs, Monte Carlo coverage, and the Brier identity. They
+validate calculations under stipulated models, not their empirical relevance.
 
-API receipts with email ids and body hashes are kept in the ignored local file
+`verify_release_workflow.py` passed using a temporary checkout and local bare
+remote: due-only release, idempotent reruns, stale-output cleanup, dirty-checkout
+rejection, boundaries recalculated after pull, and source-collision protection.
+`verify_newsletter_workflow.py` passed 13 simulated API tests for same-id content
+and date updates, immediate publication, live-page and image checks, credential
+isolation, and recovery without repeated POSTs after ambiguous requests. These
+tests make no production push or real API call. Results are recorded in
+`results/workflow-check.json` and `results/newsletter-workflow-check.json`.
+
+Actual API receipts with email ids and body hashes remain in the ignored
 `.research-cache/luck-buttondown-receipts.json`; credentials remain in `.env`.

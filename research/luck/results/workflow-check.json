@@ -7,7 +7,10 @@
     "repeat is idempotent",
     "obsolete generated output removed",
     "source preserved",
-    "dirty checkout rejected without staging"
+    "dirty checkout rejected without staging",
+    "release boundaries recomputed after pull",
+    "tracked root source collision rejected before copying",
+    "timezone-aware release timestamps required"
   ],
   "status": "passed"
 }

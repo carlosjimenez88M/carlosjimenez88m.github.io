@@ -1,0 +1,17 @@
+{
+  "fixture": "temporary files and simulated HTTP sessions; no .env reads or real API calls",
+  "tests_run": 13,
+  "status": "passed",
+  "checks": [
+    "same-id body/subject/date/canonical updates",
+    "date mismatch rejected without flag",
+    "existing-id immediate publication and idempotent rerun",
+    "article and image 404 block send",
+    "correct article title required",
+    "API credential isolated from public requests",
+    "unknown mutation recovery without POST retry",
+    "all-date slug recovery",
+    "receipt identity validation",
+    "timezone-aware timestamps required"
+  ]
+}

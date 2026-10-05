@@ -1,6 +1,6 @@
 # A Statistical Account of Luck
 
-Three English essays for The Probability Engine: October 12, 19, and 26, 2026.
+Three English essays for The Probability Engine: October 5, 12, and 19, 2026.
 Research and calculations completed October 5, 2026. The dates are release dates,
 not dates of data collection. Author: Carlos Daniel Jiménez.
 
@@ -15,14 +15,17 @@ From the repository root, with Python 3.13.2 and the versions in `requirements.t
 
 ```sh
 MPLCONFIGDIR=/tmp/luck-mpl python3 research/luck/analysis.py
+MPLCONFIGDIR=/tmp/luck-mpl python3 research/luck/graphics.py
 python3 research/luck/verify.py
 ```
 
 The executable uses seed 20261005. `results/summary.json` records parameters,
 software versions, full-precision results, and the analysis script's SHA-256.
 `results/synthetic-user-means.csv` contains the forty synthetic user averages.
-Figures are written to `static/img/luck/` as SVG and PNG. Numerical results are
-deterministic for the recorded environment; figure metadata can differ on rerun.
+The analysis writes baseline figures; run `graphics.py` afterward to replace them
+with the seven final SVG and PNG figures in `static/img/luck/`. Its exact
+comparisons are recorded separately in `results/graphics.json`. Numerical results
+are deterministic for the recorded environment; figure metadata can differ on rerun.
 
 For the downloadable package, extract its contents at the root of an empty folder
 and run the same commands. The archive preserves repository-relative paths.
@@ -32,7 +35,7 @@ and run the same commands. The archive preserves repository-relative paths.
 | Demonstration | Design | What it establishes under the model | What it does not establish |
 | --- | --- | --- | --- |
 | Reference distributions | Exact Binomial(20,p), p=.5,.6,.7 | An outcome's excess and tail depend on its reference | The appropriate reference for a person |
-| Unknown probability | Beta(1,1) prior, 12/20 earlier trials, new 20-trial prediction | Parameter uncertainty changes the predictive distribution | Exchangeability of changing real populations |
+| Unknown probability | Beta(1,1) prior, 12/20 earlier trials, new 20-trial prediction; mean-matched plug-in comparison | Parameter uncertainty changes prediction even when the mean is held fixed | The fixed-p conditional independence of changing real populations |
 | Shared environment | Batch P~Beta(2.4,1.6), 20 conditional trials | Common environment increases marginal variance | Whether a wide observed distribution reflects this mechanism |
 | Selection | 20,000 worlds per pool size; latent N(70,4²), error N(0,6²) | Selection finds higher means and favorable noise | A calibrated correction for dependent real leaderboards |
 | Collider | 200,000 independent standard-normal pairs, retain sum>2 | Inclusion alone can create association | An empirical relationship between human attributes |
@@ -53,16 +56,24 @@ conditions must be re-examined for any real application.
 With the full repository, `python3 research/luck/verify_release_workflow.py`
 also exercises publication in a temporary checkout and a local bare remote:
 due-only release, idempotent reruns, generated-file staging, stale-output removal,
+recalculation after synchronization, source-collision protection,
 and rejection of unrelated unfinished changes. It does not push to production.
+`python3 research/luck/verify_newsletter_workflow.py` uses mocked API responses to
+check rescheduling, edited bodies, public-page verification, duplicate prevention,
+and recovery from ambiguous requests; it does not contact Buttondown.
 
 See `sources.md` for the scope of primary-source reading and `critical-review.md`
 for claims challenged or narrowed. `verify.py` checks results against exact finite
-sums, quadrature, exchangeability identities, and the analytical sampling variance.
+sums, quadrature, exchangeability identities, intervention predictions, and the
+analytical sampling variance. `verify_publication.py` builds the current release
+and all three temporal boundaries, checking the essays’ local links.
 
 ## Releases
 
-The blog source files have future `publishDate` values at 08:00 America/Bogota.
-Buttondown receives full essays at 09:00 on the same dates, adapted for email:
+The first essay has a release date of October 5; subsequent essays have future
+`publishDate` values at 08:00 America/Bogota on October 12 and 19. The first
+newsletter is published immediately after the live blog is verified. Subsequent
+Buttondown deliveries are scheduled at 09:00, adapted for email:
 absolute asset links, PNG figures, native display-math blocks, and readable Unicode
 inline notation. `export_newsletters.py` generates those files from the essays.
 Future installments are described by date until their release, so early emails

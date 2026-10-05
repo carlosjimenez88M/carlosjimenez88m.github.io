@@ -1,8 +1,9 @@
 # Critical review of the argument
 
-Completed October 5, 2026. This is a documented self-review, not independent peer
-review. Each row tests an inference that could make the essays more confident than
-their evidence permits.
+Completed and revised October 5, 2026. This documents self-review followed by an
+independent computational and conceptual reading by another coding agent. It is
+not external human peer review. Each row tests an inference that could make the
+essays more confident than their evidence permits.
 
 | Tempting claim | Objection or counterexample | Result of review |
 | --- | --- | --- |
@@ -23,6 +24,11 @@ their evidence permits.
 | The correct user-level interval always works | Shared shocks, nonnormal small samples, unequal weights, and poor sampling can invalidate it | Exact justification only for iid normal user means in this example |
 | A proper score validates a probability after one event | Propriety is an expectation property; calibration needs repeated relevant outcomes | Single-result inference rejected |
 | A complete checklist eliminates luck | Uncertainty, reference errors, and missing mechanisms remain | Framework positioned as inspectable commitments, not a validated metric |
+| Documenting control makes every favorable excess luck | Description is not evidence that the contribution was beyond control | Original working definition replaced with separate surprise and control questions |
+| Exchangeability alone gives our posterior predictive model | The model also stipulates conditional iid Bernoulli draws at a fixed shared p and a Beta prior | Assumptions stated explicitly before the posterior |
+| The 2.07% tail describes a winner noticed among 100 groups | Selection changes the event being predicted | Added exact 87.65% chance of at least one qualifying group; independent-group assumption disclosed |
+| Observing and forcing the first urn win are equivalent | Intervention does not update a latent fixed propensity as an observation does | Added forced-win contrast: 0.6673 for the updated urn versus 0.501 for a fixed-propensity mixture |
+| Joining discrete mass points makes the event easy to read | It can suggest a continuous density and leave tail mass unclear | Replaced with discrete bars and the complete upper-tail event highlighted |
 
 Numerical review is separate from interpretive review. `verify.py` checks exact
 results and model implications; it cannot validate a synthetic model's relevance
@@ -30,6 +36,8 @@ to a real population. Monte Carlo error is disclosed rather than hidden behind
 additional decimal places. The coverage demonstration changes no parameter after
 observing its results; its seed and complete configuration remain in the code.
 
-The final conclusion is deliberately relational: favorable contingency can be
-described with a prospective reference and a declared boundary around control;
-causal attribution and moral credit require additional arguments and evidence.
+The revised conclusion keeps two objects separate: a prospective statistical
+description of favorable surprise and an evidenced account of practical control.
+Their combination can inform an account of luck; neither establishes a causal
+share or moral credit. The first public release was advanced to October 5 at the
+author's request, after this review.

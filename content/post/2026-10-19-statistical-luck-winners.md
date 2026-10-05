@@ -1,8 +1,8 @@
 ---
 author: Carlos Daniel Jiménez
-date: 2026-10-19T08:00:00-05:00
-publishDate: 2026-10-19T08:00:00-05:00
-title: "Why Winners Look More Skilled Than They Are"
+date: 2026-10-12T08:00:00-05:00
+publishDate: 2026-10-12T08:00:00-05:00
+title: "Why Winners Can Look More Skilled Than They Are"
 description: "Selection, survival, and reinforcement change what success can tell us. Synthetic demonstrations and experimental evidence expose the limits of learning from winners."
 categories: ["Applied Statistics"]
 tags: ["statistics", "luck", "selection-bias", "machine-learning", "evaluation"]
@@ -90,7 +90,7 @@ The absent denominator matters. A story about the founder who concentrated every
 
 ## Early outcomes can change later probabilities
 
-So far, the noise disappears on repetition. Some processes preserve it by changing future opportunity.
+In the selection experiment, the first occasion's favorable variation is not carried into an independent repeat. The new measurement still contains new variation. Some processes instead preserve an early advantage by changing future opportunity.
 
 Take two alternatives, A and B, initially assigned weights one and one. Select an alternative with probability proportional to its current weight, then add one to the selected weight. After $a$ selections of A and $b$ of B,
 
@@ -106,9 +106,13 @@ Exactly the same sequence probability results if we first draw a fixed $P\sim\op
 
 In the urn interpretation, the long-run A share has a uniform distribution on $[0,1]$. For independent fair selections, it converges to one half. With 500 selections across 20,000 worlds, the simulated share standard deviations were 0.2894 and 0.0224, respectively. The urn simulation uses the exact beta-binomial representation above, rather than iterating each draw.
 
-{{< figure src="/img/luck/reinforcement.svg" alt="Distributions of the A share after five hundred selections: independent fair draws concentrate near one half, while the symmetric reinforced urn produces a broad distribution." caption="Two stipulated processes with equal starting weights. This contrast illustrates persistence of early variation; it does not identify reinforcement from an observed market distribution." >}}
+{{< figure src="/img/luck/reinforcement.svg" alt="Exact probabilities for the A share after five hundred selections: independent fair draws concentrate near one half, while every count from zero to five hundred is equally likely in the symmetric reinforced urn." caption="Exact model probabilities for 500 draws. This contrast illustrates persistence of early variation; it does not identify reinforcement from an observed market distribution." >}}
 
 After A wins the first draw, its expected final share at draw 500 becomes $(1+499\times2/3)/500=0.6673$. That calculation is a consequence of this urn's rules. It is not a measured advantage enjoyed by an actual artist, company, or model.
+
+An intervention reveals why the two causal stories matter. **Force the first selection to be A**, rather than observing that A happened to win. In the urn, also apply its ordinary weight update: future draws then begin at weights (2,1), giving an expected final A share of 0.6673. In the fixed-propensity model, forcing the first selection supplies no information about the previously drawn P and does not change it. The expected final share is instead $(1+499\times1/2)/500=0.501$.
+
+Observing the first win and forcing it are different operations. The observable histories agree under the two unmodified models; their responses to this specified intervention do not. To infer reinforcement in a real process, we need evidence that bears on the mechanism, rather than only a distribution with unequal winners.
 
 ## What experimental evidence adds
 
@@ -120,7 +124,7 @@ These studies strengthen particular mechanism claims through particular designs.
 
 The simulation [*Talent versus Luck* by Pluchino, Biondo, and Rapisarda](https://arxiv.org/html/1802.07068v3) asks a different question: what outcomes can follow from stipulated encounters and compounding rewards? It is useful as a generative thought experiment. Its talent distribution, opportunities, and capital update rules are assumptions. A simulated concentration of wealth cannot validate those assumptions or estimate luck's contribution to actual wealth.
 
-I initially considered using that model as the organizing framework. Its dependence on chosen mechanisms made a more modest framework necessary: selection, exposure, and reinforcement must be investigated separately, with evidence appropriate to each.
+Selection, exposure, and reinforcement must therefore be investigated separately, with evidence appropriate to each. A generative model can make a mechanism explicit without showing that it generated the world we observed.
 
 ## A conclusion that does not erase ability
 
@@ -128,6 +132,6 @@ Three claims survive the review. Selecting a noisy maximum can inflate the obser
 
 None establishes that achievement is entirely accidental. Our first simulation explicitly selects better latent candidates. Nor can the final outcome alone tell us whether feedback, unequal starting conditions, or persistent quality produced an advantage. The urn's exact observational equivalence makes that limitation unusually clear.
 
-The mature response to an impressive result is therefore neither worship nor dismissal. It is to preserve the attempt history, state the selection rule, seek independent repetition, and investigate the mechanism that shaped later exposure. Those are also the ingredients needed to evaluate an AI system without mistaking its most fortunate run for its expected behavior.
+An impressive result deserves an account of how it became visible: preserve the attempt history, state the selection rule, seek independent repetition, and investigate the mechanism that shaped later exposure. Those are also the ingredients needed to evaluate an AI system without mistaking its most fortunate run for its expected behavior.
 
 The [study package](/examples/luck-study.zip) supplies the code, full numerical results, and source and assumption notes. Every simulated quantity in this essay is synthetic; the cited studies retain their own populations and identification limits.

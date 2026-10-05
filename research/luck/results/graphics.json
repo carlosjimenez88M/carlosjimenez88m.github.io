@@ -1,0 +1,28 @@
+{
+  "plug_in_posterior_mean": {
+    "p": 0.5909090909090909,
+    "mean": 11.818181818181818,
+    "probability_15_or_more": 0.10945758859468752,
+    "variance": 4.834710743801652
+  },
+  "posterior_predictive": {
+    "mean": 11.818181818181818,
+    "probability_15_or_more": 0.19092223616220383,
+    "variance": 8.828602227811714
+  },
+  "shared_environment": {
+    "mean": 12.0,
+    "intraclass_correlation": 0.2,
+    "probability_15_or_more": 0.34878214568941635,
+    "variance": 23.04
+  },
+  "figures": [
+    "reference-distributions",
+    "posterior-predictive",
+    "shared-environment",
+    "prediction-and-control",
+    "selection-and-regression",
+    "reinforcement",
+    "evaluation-units"
+  ]
+}

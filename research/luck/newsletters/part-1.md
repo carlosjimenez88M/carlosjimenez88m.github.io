@@ -14,9 +14,9 @@ This is the first of three essays. I want to find a useful statistical represent
 
 1. [What Can Statistics Mean by Luck?](https://carlosdanieljimenez.com/post/2026-10-12-statistical-luck-reference/)
 
-2. Why Winners Look More Skilled Than They Are — scheduled for 2026-10-19
+2. Why Winners Can Look More Skilled Than They Are — scheduled for 2026-10-12
 
-3. A Statistical Framework for Luck in AI Evaluation — scheduled for 2026-10-26
+3. A Statistical Framework for Luck in AI Evaluation — scheduled for 2026-10-19
 
 ## A word doing several different jobs
 
@@ -24,7 +24,7 @@ We use *luck* for a favorable surprise, for circumstances outside someone's cont
 
 A person may inherit reliable access to education. That advantage can be highly predictable from their circumstances and still lie outside their control. A system may deliver an unexpectedly good answer because its evaluation omitted an easy subgroup. That surprise may reflect a flawed model of the experiment. A careful decision may have a bad outcome without having been a bad decision.
 
-[Frank Knight's discussion of risk and uncertainty](https://www.econlib.org/library/Knight/knRUP.html?chapter_num=9) is useful here: a probability calculation presupposes that we can give a defensible account of the relevant possibilities. His distinction cautions against treating a unique, poorly understood situation like a familiar repeated gamble. It does not prevent us from expressing uncertain beliefs with probabilities; it asks us to examine their warrant.
+[Frank Knight's discussion of risk and uncertainty](https://www.econlib.org/library/Knight/knRUP.html?chapter_num=9) is useful here: a probability calculation presupposes that we can give a defensible account of the relevant possibilities. His distinction cautions against treating a unique, poorly understood situation like a familiar repeated gamble. In this series I will still express uncertain beliefs with probabilities. That is a contemporary modeling choice, accompanied by Knight's warning about their warrant.
 
 There is also an ethical question that probability does not settle. The opening of [Thomas Nagel's “Moral Luck”](https://www.cambridge.org/core/books/abs/mortal-questions/moral-luck/A3EEA631B0CA6F1A322A56E85FB77DB4) places moral assessment in tension with consequences beyond the agent's control. I take that as a boundary for this series: describing the distribution of consequences cannot, by itself, decide what a person deserves.
 
@@ -36,13 +36,21 @@ Here A denotes a specified action, X the circumstances we choose to represent, a
 
 The notation makes room for contingency. It does not identify its causes.
 
-## An operational definition, with its conditions attached
+## Surprise and control are two different questions
 
-For a bounded experiment, I propose the following description:
+It is tempting to call a favorable deviation from a forecast “realized statistical luck,” provided that control is documented. That definition is too broad. Documenting control does not establish that the favorable contribution lay outside it. The formula would give a precise name to an unresolved attribution.
 
-> Realized statistical luck is the favorability of an observed outcome relative to a predictive distribution declared before that outcome, accompanied by an explicit account of what the actor could control.
+I will instead keep two questions separate. **How favorable and unexpected was the outcome under the declared prediction?** And **which consequential circumstances were beyond this actor's practical control?** Their answers may inform an account of luck, but neither supplies the other.
 
-This is a proposed working definition, not a theorem or an established universal index. It has two parts. The distribution describes what was expected; the control account prevents an unexpected residual from silently becoming an attribution of merit or blame.
+A well-resourced starting position can be predictable yet beyond the recipient's control. A team's deliberate improvement can surprise an observer whose forecast omitted the changed procedure. In the first case, little predictive surprise does not erase good fortune. In the second, surprise does not establish it. These classifications depend on the actor, the feasible actions, and the time horizon; control is often partial rather than binary.
+
+![Conceptual diagram separates whether an input or circumstance is expected under the reference from whether it is within an actor's practical control.](https://carlosdanieljimenez.com/img/luck/prediction-and-control.png)
+
+*Hypothetical sources of variation, not causal classifications of complete outcomes. Prediction concerns an information set; practical control concerns an actor and a time horizon. Many real cases have mixed control.*
+
+For the statistical part, declare the outcome and the prediction before observing the result. For the control part, describe the process and seek evidence about its mechanisms. I use good or bad luck for favorable or unfavorable contingencies beyond practical control, while treating the quantities below as descriptions of the prediction. This working usage does not exhaust the philosophical meanings of luck.
+
+## Measuring the predictive excess
 
 Let I₀ be the information available before observation and M the modeling assumptions. First declare the predictive distribution
 
@@ -52,7 +60,7 @@ If larger values are preferable and the expectation exists, an elementary descri
 
 <div class='buttondown-block-math'>[ D=y-\mathbb E[Y\mid A,I_0,M]. ]</div>
 
-It answers how far the result exceeded its declared expectation, in the outcome's units. A standardized version divides by the predictive standard deviation when that quantity is finite and nonzero. Neither quantity is a causal share of success. Changing the model can change both.
+Call D the **predictive excess**. It answers how far the result exceeded its declared expectation, in the outcome's units. A standardized version divides by the predictive standard deviation when that quantity is finite and nonzero. Neither quantity is a causal share of success, and a positive excess is not automatically good luck. Changing the model can change both.
 
 A percentile answers a different question. For a discrete outcome, I use the mid-distribution rank
 
@@ -74,29 +82,59 @@ Suppose the twenty attempts are independent, each with a known success probabili
 | 0.60 | 12 | 3 | 12.56% |
 | 0.70 | 14 | 1 | 41.64% |
 
-![Binomial probability masses for twenty attempts at probabilities 0.5, 0.6, and 0.7, with fifteen successes marked.](https://carlosdanieljimenez.com/img/luck/reference-distributions.png)
+![Three stacked binomial distributions for twenty attempts with success probabilities 0.5, 0.6, and 0.7. Bars at fifteen or more successes are highlighted; their probabilities are 2.07, 12.56, and 41.64 percent.](https://carlosdanieljimenez.com/img/luck/reference-distributions.png)
 
-*Exact probabilities, not fitted human-performance data. The reference distribution changes the interpretation of the same observation.*
+*The orange bars show the entire upper-tail event, K ≥ 15. The distributions are stipulated references, not estimates of people's ability.*
 
 The arithmetic is straightforward. Choosing the reference is the difficult part. Should we compare this person with beginners, experienced practitioners, or people with comparable access to tools? Should an AI system be compared with another system under the same budget, or with the process it would replace? Those choices express the question we are asking. They cannot be recovered from the number fifteen alone.
 
 There is a further trap. If we estimate p from these same twenty outcomes and then judge how surprising those outcomes were under the fitted value, we have let the observation rewrite its own expectation. For a prospective assessment, fit on earlier evidence, preserve uncertainty, and freeze the reference before the new outcomes arrive.
 
+The opportunities to notice a result also belong in that reference. Under p = 0.50, a **preselected** group has a 2.07% chance of fifteen or more successes. Among one hundred independent groups tested under those same rules, the probability that *at least one* reaches that threshold is **87.65%**:
+
+<div class='buttondown-block-math'>[ \Pr(\text{at least one qualifying group})=1-(1-0.0206947)^{100}\approx0.8765. ]</div>
+
+The count did not become less real. The observation process changed from following one fixed group to searching a hundred. This is the kind of denominator problem emphasized in [Diaconis and Mosteller's study of coincidences](https://www.stat.berkeley.edu/~aldous/157/Papers/diaconis_mosteller.pdf): apparent improbability depends on the opportunities and definitions that produced the noticed event. Our numerical example is its own calculation, not a result from their paper. Dependence between groups would change it.
+
 ## Uncertainty about the probability changes the prediction
 
-Suppose earlier data contained twelve successes in twenty trials. Under a declared uniform prior, p ∼ Beta(1, 1), the posterior is p | earlier data ∼ Beta(13, 9). For a *new* batch of twenty trials, integrate over that posterior:
+Suppose earlier data contained twelve successes in twenty trials. Assume that, conditional on the same fixed but unknown p, the earlier and later trials are independent Bernoulli draws. Under a declared uniform prior, p ∼ Beta(1, 1), the posterior is p | earlier data ∼ Beta(13, 9). For a *new* batch of twenty trials, integrate over that posterior:
 
 <div class='buttondown-block-math'>[ \Pr(K=k\mid\text{earlier data})={20\choose k}\frac{B(k+13,20-k+9)}{B(13,9)}. ]</div>
 
-The predictive probability of fifteen or more is **19.09%**. Plugging the earlier proportion, 0.60, into a binomial gave 12.56%. The gap incorporates uncertainty about the shared probability; the prior also shifts its posterior mean to 13/22. It would be incorrect to attribute the entire gap to one of those changes alone.
+The predictive probability of fifteen or more is **19.09%**. Comparing it only with the earlier plug-in result, 12.56%, would mix two changes. The posterior mean is 13/22, slightly below 0.60. We can show the intermediate calculation:
 
-The prior is deliberately simple, not universally appropriate. Exchangeability between the earlier and later trials is an assumption. A changing population or an adaptive system can make this posterior predictive distribution inappropriate even when every calculation is correct.
+| Treatment of the probability | Mean successes in the new batch | Probability of 15 or more |
+| --- | ---: | ---: |
+| Fix p at the earlier proportion, 0.60 | 12.00 | 12.56% |
+| Fix p at the posterior mean, 13/22 | 11.82 | 10.95% |
+| Integrate over the posterior Beta(13,9) | 11.82 | 19.09% |
+
+The last two rows have the same mean. Their difference isolates the consequence of retaining posterior uncertainty rather than treating its mean as known. Their count variances are **4.83** and **8.83**, respectively. More generally, for a posterior mean m and variance v, the variance of n new conditional Bernoulli trials is
+
+<div class='buttondown-block-math'>[ \operatorname{Var}(K\mid\text{earlier data})=nm(1-m)+n(n-1)v. ]</div>
+
+The second term expresses uncertainty shared across the predictions. It is not a new physical interaction between trials. Nor does wider variance imply that every chosen tail probability must increase; the increase shown here concerns this particular upper tail.
+
+![Binomial predictions fixing p at 13/22 and beta-binomial predictions integrating Beta(13,9) have the same mean but upper-tail probabilities of 10.95 and 19.09 percent.](https://carlosdanieljimenez.com/img/luck/posterior-predictive.png)
+
+*Keep the mean fixed to examine what integrating over an uncertain probability changes. The shaded event is fifteen or more successes in the new batch.*
+
+The prior is deliberately simple, not universally appropriate. The fixed-probability, conditional-independence model is an assumption about both batches. A changing population or an adaptive system can make this posterior predictive distribution inappropriate even when every calculation is correct.
+
+## When an environment is shared
 
 Dependence creates another route to wider predictions. Imagine that each batch has its own environment, P ∼ Beta(2.4, 1.6), and the twenty trials are independent only *conditional* on that environment. Their marginal success probability is still 0.60, but the shared environment induces correlation 0.20. The count's variance is
 
 <div class='buttondown-block-math'>[ \operatorname{Var}(K)=np(1-p)\{1+(n-1)\rho\}=23.04, ]</div>
 
 compared with 4.80 under unconditional independence. The beta-binomial mathematics resembles the previous calculation. Its interpretation differs: one model represents uncertainty about a fixed parameter; the other represents changing environments shared by a batch. A wide outcome distribution alone does not tell us which mechanism produced it.
+
+![Independent Binomial(20,0.6) trials are concentrated near twelve successes; a shared Beta(2.4,1.6) environment spreads the distribution while preserving that mean.](https://carlosdanieljimenez.com/img/luck/shared-environment.png)
+
+*Both models expect twelve successes. Shared exposure changes how much variation survives aggregation. Their count variances are 4.80 and 23.04.*
+
+For AI evaluation, imagine responses collected during the same outage, session, or unusually easy batch of prompts. They can share conditions that independent-trial arithmetic ignores. The example shows a mechanism worth investigating; its chosen correlation is not an estimate for any deployed system.
 
 ## Does better knowledge remove luck?
 
@@ -118,6 +156,8 @@ A second objection is that the control boundary is not supplied by probability t
 
 A third objection is that a good outcome may reveal ability, rather than merely favorable variation. Nothing here denies that. The unresolved question is how much evidence one observed outcome supplies, particularly when that outcome was selected because it was the best. That is the subject of the next essay.
 
-My provisional conclusion is therefore narrow: **luck can be represented statistically as favorable contingency relative to a declared reference, but cannot be identified with unexplained variation alone.** The representation is useful when it disciplines a prediction or an experiment. It becomes misleading when promoted into a percentage of personal deservingness.
+My conclusion is therefore deliberately limited: **statistics can describe the favorability and surprise of a realization under a declared reference; interpreting it as luck additionally requires evidence about control and the process.** Predictable advantages can be unchosen. Unexpected improvements can be deliberate. A residual, a rank, or a tail cannot settle that distinction.
+
+The useful representation therefore has at least two dimensions: a conditional statistical description and an account of agency. It can discipline a prediction or an experiment. It cannot, without additional arguments, divide an achievement into percentages of skill, luck, and deservingness.
 
 All numerical examples here are exact calculations under stipulated models. The [study package](https://carlosdanieljimenez.com/examples/luck-study.zip) contains the executable analysis, assumptions, source ledger, and a record of conclusions revised during the critical review. It contains no empirical estimate of human luck.
