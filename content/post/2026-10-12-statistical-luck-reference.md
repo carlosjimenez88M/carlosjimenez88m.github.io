@@ -14,9 +14,6 @@ draft: false
 math: true
 images: ["/img/luck/reference-distributions.png"]
 socialImageAlt: "Three reference distributions assign different upper-tail probabilities to fifteen successes in twenty attempts"
-editorialNote:
-  date: "October 5, 2026"
-  text: "This same-day revision names the reference-class problem, situates competing accounts of luck, adds a public-data comparison, and replaces general cautions with repeated-batch and intervention designs. The original newsletter delivery predates this expanded edition."
 readerGuide:
   summary: "A result needs a justified comparison. This essay connects reference classes, surprise, fragility, and control, then shows how real data and better experimental designs sharpen those questions."
   scope: "Primary-source reading, exact probability calculations, and a reproducible analysis of public Berkeley admissions counts. Reference sensitivity, repeated-batch design, and intervention contrasts."

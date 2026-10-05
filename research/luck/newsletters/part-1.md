@@ -2,10 +2,6 @@
 
 [Read this essay on the blog](https://carlosdanieljimenez.com/post/statistical-luck-reference/)
 
-*Editorial update · October 5, 2026*
-
-This same-day revision names the reference-class problem, situates competing accounts of luck, adds a public-data comparison, and replaces general cautions with repeated-batch and intervention designs. The original newsletter delivery predates this expanded edition.
-
 Fifteen successes in twenty attempts. Before knowing anything else, it is tempting to admire the person who achieved them. After learning that the usual success rate is one half, we may begin to speak of good fortune. After learning that it is seven tenths, the same record seems considerably less exceptional.
 
 Nothing about the observed count has changed. What changed was the story we were prepared to tell before seeing it.

@@ -95,8 +95,9 @@ manifest records the exact three releases. `canonical_url` is the public URL;
 slugs omit dates and preserve the original paths as aliases; newsletter API receipts are local and
 ignored in `.research-cache/luck-buttondown-receipts.json`.
 
-The October 5 expansion is logged in the first essay's editorial note and the
-site correction log. Update scheduled bodies with `--sync-bodies`; use
+The October 5 expansion is logged in the site correction log. The author
+requested removal of the first essay's revision banner. Update scheduled bodies
+with `--sync-bodies`; use
 `--sync-archives` for a reviewed revision of an already-sent public archive.
 Archive updates preserve id, slug, status, and send time and make no publication
 request. They cannot alter a message already received by a subscriber. The local
