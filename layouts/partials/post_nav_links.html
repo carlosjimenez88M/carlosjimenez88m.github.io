@@ -1,0 +1,17 @@
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- if and (gt (len $pages) 1) (in $pages . ) }}
+<nav class="paginav" aria-label="Essays by publication date">
+  {{- with $pages.Prev . }}
+  <a class="prev" href="{{ .Permalink }}">
+    <span class="title">« Older essay</span><br>
+    <span>{{- .Name -}}</span>
+  </a>
+  {{- end }}
+  {{- with $pages.Next . }}
+  <a class="next" href="{{ .Permalink }}">
+    <span class="title">Newer essay »</span><br>
+    <span>{{- .Name -}}</span>
+  </a>
+  {{- end }}
+</nav>
+{{- end }}

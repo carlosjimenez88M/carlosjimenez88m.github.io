@@ -1,9 +1,10 @@
 {
   "fixture": "temporary files and simulated HTTP sessions; no .env reads or real API calls",
-  "tests_run": 16,
+  "tests_run": 17,
   "status": "passed",
   "checks": [
     "same-id body/subject/date/canonical updates",
+    "sent-archive revision preserves status/date and sends no POST",
     "date mismatch rejected without flag",
     "existing-id immediate publication and idempotent rerun",
     "article and image 404 block send",

@@ -7,6 +7,8 @@ description: "Selection, survival, and reinforcement change what success can tel
 categories: ["Applied Statistics"]
 tags: ["statistics", "luck", "selection-bias", "machine-learning", "evaluation"]
 series: ["A Statistical Account of Luck"]
+slug: statistical-luck-winners
+aliases: ["/post/2026-10-19-statistical-luck-winners/"]
 draft: false
 math: true
 images: ["/img/luck/selection-and-regression.png"]
@@ -43,7 +45,7 @@ $$\mathbb E[\theta_j\mid Y_j=y]=70+\lambda(y-70),\qquad\lambda=\frac{4^2}{4^2+6^
 
 One way to derive it is to note that $\operatorname{Cov}(\theta,Y)=16$ and $\operatorname{Var}(Y)=52$, then use the conditional mean of a bivariate normal. The same expression is the expected fresh score. A first observation of 88 predicts a repeat mean of approximately 75.54, not 88.
 
-This is regression toward the population mean under a specified model. It does not require the candidate to become less capable. Nor does it imply that the first outcome was meaningless: the posterior mean remains above 70.
+Regression toward the population mean follows from the independent repeat design. The candidate has not become less capable; the first score still supplies evidence, with a posterior mean above 70.
 
 I simulated 20,000 independent selection experiments for each candidate-pool size. In every experiment, the candidate with the largest first score was selected, and received a fresh measurement.
 
@@ -56,13 +58,33 @@ I simulated 20,000 independent selection experiments for each candidate-pool siz
 
 {{< figure src="/img/luck/selection-and-regression.svg" alt="As the number of candidates increases from one to one hundred, the winning observed score rises faster than the selected candidate's latent and repeat performance." caption="Synthetic results, seed 20261005. Searching more candidates finds stronger candidates while also selecting more favorable measurement noise." >}}
 
-The point is not that searching fails. It improves the selected latent mean. The point is that the improvement in the winning observation substantially overstates that gain.
+Searching improves the selected latent mean. The winning observation overstates the gain because selection also finds favorable occasion noise.
 
 For independent candidates, $\Pr(\max_jY_j\le t)=F(t)^m$. Increasing $m$ makes an impressive maximum more likely even without changing the candidate distribution. Under this particular Gaussian model,
 
 $$\mathbb E[Y_{j^*}-\theta_{j^*}]=(1-\lambda)\mathbb E[Y_{j^*}-70].$$
 
 That identity follows by conditioning on all first scores and using the conditional mean above; $j^*$ is the selected index. It describes average selection optimism. It does not tell us the fraction of one winner's achievement caused by luck. A different dependence structure, noise level, or candidate population changes the answer.
+
+## A population percentage answers a different question
+
+The refusal to divide one achievement into earned and accidental pieces should not obscure a legitimate population estimand: **how much of the variation between measured units is reproducible?** Reliability theory asks this question directly. [Shrout and Fleiss (1979)](https://pubmed.ncbi.nlm.nih.gov/18839484/) distinguish forms of the intraclass correlation according to the measurement design and intended application.
+
+For independent repeated measurements under the model above,
+
+$$Y_{ir}=\mu+B_i+\varepsilon_{ir},\qquad
+\operatorname{Var}(Y_{ir})=\sigma_B^2+\sigma_\varepsilon^2,\qquad
+\operatorname{Cov}(Y_{i1},Y_{i2})=\sigma_B^2.$$
+
+Here B is a persistent unit difference and the errors are independent across occasions and units, with zero conditional means. The correlation between two measurements of the same randomly sampled unit is
+
+$$\mathrm{ICC}=\frac{\sigma_B^2}{\sigma_B^2+\sigma_\varepsilon^2}.$$
+
+In our stipulated candidate population, this is 16/52, or **30.77%**. For an average of five independent measurements, the corresponding reliability is 16/(16+36/5), or **68.97%**. These are shares of measurement variance in this population, not shares of any candidate's score. Repeat observations can estimate the components: covariance between occasions estimates the persistent component, while half the variance of paired differences estimates occasion noise. In a balanced Gaussian study, the usual within-unit and between-unit mean squares give the same decomposition.
+
+The interpretation is substantial but specific. Persistent differences can include training, resources, stable evaluator bias, or other enduring conditions alongside ability. Calling the numerator “skill” needs evidence about what persists. Shared occasion shocks require an additional component. Changing the population's range or the number of averaged measurements changes reliability. A narrower population of finalists need not have the ICC of the original candidate pool.
+
+This is the useful distinction: an individual counterfactual asks what would have happened to this unit under a different process; a population variance component asks what differences reproduce under the specified measurement design. We can estimate the latter without pretending to have solved the former.
 
 ## The record of attempts belongs in the result
 
@@ -74,7 +96,7 @@ Candidate errors are often correlated because all candidates share examples or i
 
 [Gelman and Carlin's design analysis](https://stat.columbia.edu/~gelman/research/published/retropower_final.pdf) adds another caution: when estimates are noisy relative to plausible effects, selecting statistically significant results can exaggerate magnitude and can sometimes select the wrong sign. Their Type M and Type S questions concern repeated sampling under assumed effect sizes. A large observed winner is a poor substitute for external information about those sizes.
 
-The remedy is not to distrust every positive result equally. It is to ask what opportunity the procedure had to find one, and which evidence remained untouched when it did.
+An evaluation should preserve both the opportunity to find an impressive result and evidence that remained untouched by that search.
 
 ## Survivors are a selected population
 
@@ -84,7 +106,7 @@ In 200,000 simulated cases, the full-population correlation was approximately �
 
 This is a collider mechanism: inclusion depends jointly on two inputs. It explains how studying only successful cases can distort relationships between their characteristics. It does **not** establish that successful people with one attribute lack another. The threshold and distribution were chosen to demonstrate a possibility, not estimated from human histories.
 
-[Jerker Denrell's work on undersampling failure](https://pubsonline.informs.org/doi/10.1287/orsc.14.2.227.15164) examines a related learning problem: practices associated with visible survivors can appear more effective than they are across all attempts. Its theoretical argument warns against inferring a strategy's value from its surviving users. It does not make every admired practice ineffective.
+[Jerker Denrell's work on undersampling failure](https://pubsonline.informs.org/doi/10.1287/orsc.14.2.227.15164) examines a related learning problem: practices associated with visible survivors can appear more effective than they are across all attempts. The value of a strategy must be assessed over its attempts, including failures absent from the visible record.
 
 The absent denominator matters. A story about the founder who concentrated everything in one risky idea tells us little about all the people who did the same and disappeared from the record. We also need comparable starting conditions, exposure, and the cost of failure. Otherwise the observed biography is doing the work of an experiment that never occurred.
 
@@ -120,7 +142,7 @@ The [Music Lab experiment by Salganik, Dodds, and Watts](https://www.princeton.e
 
 [Bol, de Vaan, and van de Rijt's study of science funding](https://doi.org/10.1073/pnas.1719557115) uses a funding cutoff to compare applicants near the threshold. It provides evidence of cumulative funding advantage in that local setting, including later participation differences. The causal interpretation depends on the regression-discontinuity design's assumptions. It is neither a general percentage of scientific success due to luck nor evidence that all winners and nonwinners were identical.
 
-These studies strengthen particular mechanism claims through particular designs. They do not license an unrestricted claim that quality never matters.
+Each study connects a mechanism to a design and population that can test it. Their strength comes from that specificity.
 
 The simulation [*Talent versus Luck* by Pluchino, Biondo, and Rapisarda](https://arxiv.org/html/1802.07068v3) asks a different question: what outcomes can follow from stipulated encounters and compounding rewards? It is useful as a generative thought experiment. Its talent distribution, opportunities, and capital update rules are assumptions. A simulated concentration of wealth cannot validate those assumptions or estimate luck's contribution to actual wealth.
 
@@ -128,9 +150,7 @@ Selection, exposure, and reinforcement must therefore be investigated separately
 
 ## A conclusion that does not erase ability
 
-Three claims survive the review. Selecting a noisy maximum can inflate the observed advantage. Conditioning on survival can change the relationships we learn. Early outcomes can alter later opportunities when the process contains such feedback.
-
-None establishes that achievement is entirely accidental. Our first simulation explicitly selects better latent candidates. Nor can the final outcome alone tell us whether feedback, unequal starting conditions, or persistent quality produced an advantage. The urn's exact observational equivalence makes that limitation unusually clear.
+Selection finds stronger candidates and favorable noise together. Reliability estimates how much variation reproduces across occasions. Experimental changes to exposure can distinguish mechanisms that ordinary histories leave observationally equivalent. These are complementary questions; together they make success more informative than a winning score alone.
 
 An impressive result deserves an account of how it became visible: preserve the attempt history, state the selection rule, seek independent repetition, and investigate the mechanism that shaped later exposure. Those are also the ingredients needed to evaluate an AI system without mistaking its most fortunate run for its expected behavior.
 

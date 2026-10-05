@@ -1,10 +1,10 @@
 [
   {
-    "clock": "2026-10-05T10:02:11.364637-05:00",
+    "clock": "2026-10-05T10:34:23.679482-05:00",
     "published_parts": [
       1
     ],
-    "checked_local_links": 15,
+    "checked_local_links": 18,
     "missing_local_links": []
   },
   {
@@ -18,7 +18,7 @@
     "published_parts": [
       1
     ],
-    "checked_local_links": 15,
+    "checked_local_links": 18,
     "missing_local_links": []
   },
   {
@@ -27,7 +27,7 @@
       1,
       2
     ],
-    "checked_local_links": 32,
+    "checked_local_links": 35,
     "missing_local_links": []
   },
   {
@@ -37,7 +37,7 @@
       2,
       3
     ],
-    "checked_local_links": 50,
+    "checked_local_links": 54,
     "missing_local_links": []
   }
 ]

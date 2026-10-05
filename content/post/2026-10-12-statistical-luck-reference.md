@@ -2,18 +2,24 @@
 author: Carlos Daniel Jiménez
 date: 2026-10-05T09:00:00-05:00
 publishDate: 2026-10-05T09:00:00-05:00
+lastmod: 2026-10-05T10:29:17-05:00
 title: "What Can Statistics Mean by Luck?"
 description: "Being surprised and being fortunate are different judgments. A statistical account of luck must examine the reference distribution, the opportunities observed, and the boundary around control."
 categories: ["Applied Statistics"]
 tags: ["statistics", "luck", "uncertainty", "evaluation"]
 series: ["A Statistical Account of Luck"]
+slug: statistical-luck-reference
+aliases: ["/post/2026-10-12-statistical-luck-reference/"]
 draft: false
 math: true
 images: ["/img/luck/reference-distributions.png"]
 socialImageAlt: "Three reference distributions assign different upper-tail probabilities to fifteen successes in twenty attempts"
+editorialNote:
+  date: "October 5, 2026"
+  text: "This same-day revision names the reference-class problem, situates competing accounts of luck, adds a public-data comparison, and replaces general cautions with repeated-batch and intervention designs. The original newsletter delivery predates this expanded edition."
 readerGuide:
-  summary: "The same outcome can be rare under one reference and ordinary under another. This essay separates surprise from control, follows the exact calculations, and asks when the language of luck is justified."
-  scope: "Primary-source reading and exact probability calculations, with synthetic illustrations. No estimate of the percentage of human success caused by luck."
+  summary: "A result needs a justified comparison. This essay connects reference classes, surprise, fragility, and control, then shows how real data and better experimental designs sharpen those questions."
+  scope: "Primary-source reading, exact probability calculations, and a reproducible analysis of public Berkeley admissions counts. Reference sensitivity, repeated-batch design, and intervention contrasts."
   resources:
     - label: "Download code, results, and research notes"
       url: "/examples/luck-study.zip"
@@ -29,6 +35,12 @@ This is the first of three essays. I want to find a useful statistical represent
 
 {{< luck-series >}}
 
+## The reference-class problem
+
+The choice has an established name: the **reference-class problem**. One unit belongs to several populations, each potentially supporting a different probability. In [Venn’s *The Logic of Chance*, Chapter IX](https://www.gutenberg.org/cache/epub/57359/pg57359-images.html), the problem appears through a person’s membership in overlapping classes. [Hájek’s analysis](https://www.fitelson.org/probability/hajek_rc.pdf) examines Reichenbach’s proposal to use the narrowest class with reliable statistics and the difficulties it leaves: relevant classes need not be nested, and reliability needs justification.
+
+For a prediction, choose comparable mechanisms and a population relevant to the decision, then test sensitivity to defensible alternatives. Declaring the comparison in advance protects it from hindsight. Its relevance still needs an argument. A token-matched model baseline, human performance, and the process an agent would replace answer different questions even when they use the same score.
+
 ## A word doing several different jobs
 
 We use *luck* for a favorable surprise, for circumstances outside someone's control, and for the consequences of taking a risk. Those meanings overlap, but they are not equivalent.
@@ -39,19 +51,21 @@ A person may inherit reliable access to education. That advantage can be highly 
 
 There is also an ethical question that probability does not settle. The opening of [Thomas Nagel's “Moral Luck”](https://www.cambridge.org/core/books/abs/mortal-questions/moral-luck/A3EEA631B0CA6F1A322A56E85FB77DB4) places moral assessment in tension with consequences beyond the agent's control. I take that as a boundary for this series: describing the distribution of consequences cannot, by itself, decide what a person deserves.
 
+Contemporary accounts add another distinction. [Pritchard’s modal account](https://escholarship.org/content/qt4560725q/qt4560725q.pdf) asks how easily an event could have failed under nearby alternatives with relevant initial conditions fixed. Modal closeness concerns similarity; it is not itself a probability. [Riggs defends a control account](https://academic.oup.com/book/32937/chapter-abstract/278522547) against the modal approach. These are competing accounts, rather than two interchangeable definitions.
+
+For an applied investigation, I will ask three related questions: how unexpected was the result under a justified reference; how fragile is it under specified, credible perturbations; and what feasible actions could change it? A perturbation test makes the second question concrete. Calling its failure frequency a probability requires an explicit sampling distribution over perturbations, beyond a judgment that alternatives are nearby.
+
 To keep those questions visible, consider an outcome generated by
 
 $$Y=g(A,X,U).$$
 
 Here $A$ denotes a specified action, $X$ the circumstances we choose to represent, and $U$ the remaining inputs. Calling all of $U$ “luck” would be premature. It may include unmeasured ability, an instrument's error, an omitted institutional constraint, or a genuinely unpredictable event. Even the boundary between $A$ and $X$ depends on the actor and time horizon: a deployment team can change an evaluation protocol this month, but cannot change which users existed last year.
 
-The notation makes room for contingency. It does not identify its causes.
+This representation becomes useful when we specify the processes and interventions it is meant to describe.
 
 ## Surprise and control are two different questions
 
-It is tempting to call a favorable deviation from a forecast “realized statistical luck,” provided that control is documented. That definition is too broad. Documenting control does not establish that the favorable contribution lay outside it. The formula would give a precise name to an unresolved attribution.
-
-I will instead keep two questions separate. **How favorable and unexpected was the outcome under the declared prediction?** And **which consequential circumstances were beyond this actor's practical control?** Their answers may inform an account of luck, but neither supplies the other.
+A favorable deviation from a forecast supplies evidence about surprise. Practical control concerns which actions and circumstances the actor could change. I will keep the two questions separate: **How favorable and unexpected was the outcome under the declared prediction?** And **which consequential circumstances were beyond this actor's practical control?** Their answers may inform an account of luck, but neither supplies the other.
 
 A well-resourced starting position can be predictable yet beyond the recipient's control. A team's deliberate improvement can surprise an observer whose forecast omitted the changed procedure. In the first case, little predictive surprise does not erase good fortune. In the second, surprise does not establish it. These classifications depend on the actor, the feasible actions, and the time horizon; control is often partial rather than binary.
 
@@ -75,7 +89,7 @@ A percentile answers a different question. For a discrete outcome, I use the mid
 
 $$R(y)=\Pr(Y\lt y\mid A,I_0,M)+\tfrac12\Pr(Y=y\mid A,I_0,M).$$
 
-The half-weight handles ties symmetrically. It is a convention, and its distribution is not exactly uniform for discrete outcomes. An upper-tail probability $\Pr(Y\ge y\mid A,I_0,M)$ is another valid description, provided its direction was chosen beforehand. It is **not** the probability that luck caused the observation.
+The half-weight handles ties symmetrically; the resulting discrete ranks are not exactly uniform. An upper-tail probability $\Pr(Y\ge y\mid A,I_0,M)$ describes the frequency of outcomes at least this high under the reference. Its direction must be chosen beforehand; causal attribution is a separate estimand.
 
 When higher values are not always better, define the utility or loss first. The same response can be fast and harmful, expensive and accurate, or acceptable to one user and unusable to another. A percentile of a convenient metric is not automatically a percentile of a desirable outcome.
 
@@ -103,6 +117,28 @@ $$\Pr(\text{at least one qualifying group})=1-(1-0.0206947)^{100}\approx0.8765.$
 
 The count did not become less real. The observation process changed from following one fixed group to searching a hundred. This is the kind of denominator problem emphasized in [Diaconis and Mosteller's study of coincidences](https://www.stat.berkeley.edu/~aldous/157/Papers/diaconis_mosteller.pdf): apparent improbability depends on the opportunities and definitions that produced the noticed event. Our numerical example is its own calculation, not a result from their paper. Dependence between groups would change it.
 
+## A real comparison that changes with the reference
+
+The [public UCBAdmissions table in R](https://search.r-project.org/R/refmans/datasets/html/UCBAdmissions.html) records 4,526 applications to six large Berkeley departments in 1973, a subset of the university's admissions. [Bickel, Hammel, and O'Connell's original study](https://doi.org/10.1126/science.187.4175.398) examined how different department mixes complicate aggregate comparisons. I use the published counts for a descriptive reanalysis.
+
+The table records 1,198 admissions among 2,691 applications labeled Male and 557 among 1,835 labeled Female. Those marginal rates are 44.52% and 30.35%. Now ask a different question: what comparison results if both groups are summarized under the **same department composition**?
+
+For each department d, take its share of all 4,526 applications as the common weight. Apply those weights to each group's observed departmental admission rates:
+
+$$r_s^{\mathrm{common}}=\sum_d w_dp_{sd},\qquad
+w_d=\frac{N_{\mathrm{Male},d}+N_{\mathrm{Female},d}}{4526}.$$
+
+| Reference composition | Male admission rate | Female admission rate | Female minus male |
+| --- | ---: | ---: | ---: |
+| Each group's actual department mix | 44.52% | 30.35% | −14.16 percentage points |
+| Same pooled department weights | 38.73% | 43.00% | +4.26 percentage points |
+
+{{< figure src="/img/luck/reference-class-case.svg" alt="Berkeley admission rates under actual department mixes and common pooled weights; the aggregate female-minus-male contrast changes from minus 14.16 to plus 4.26 percentage points, while within-department differences have both signs." caption="Published 1973 cohort counts from six departments; our pooled-weight standardization. The reference composition changes the descriptive comparison. Department-specific rates remain unchanged." >}}
+
+The direction changes because the questions differ. The marginal rates describe the actual application mixes; standardization compares the groups at a declared common mix. Neither replaces the other automatically. A fairness inquiry must justify the composition it uses, especially when access and prior inequality can influence department choice.
+
+These aggregates contain no individual qualifications or counterfactual admissions decisions. The reversal establishes the importance of the reference; it does not establish the absence of discrimination or measure anyone's luck. The comparison also varies by department: female rates are higher in A, B, D, and F, and male rates in C and E. The [downloadable analysis](/examples/luck-study.zip) preserves all twelve aggregate rows and computes both summaries with exact rational arithmetic. Predicting future applicants would require a separate model of comparability across cohorts.
+
 ## Uncertainty about the probability changes the prediction
 
 Suppose earlier data contained twelve successes in twenty trials. Assume that, conditional on the same fixed but unknown $p$, the earlier and later trials are independent Bernoulli draws. Under a declared uniform prior, $p\sim\operatorname{Beta}(1,1)$, the posterior is $p\mid\text{earlier data}\sim\operatorname{Beta}(13,9)$. For a *new* batch of twenty trials, integrate over that posterior:
@@ -125,7 +161,7 @@ The second term expresses uncertainty shared across the predictions. It is not a
 
 {{< figure src="/img/luck/posterior-predictive.svg" alt="Binomial predictions fixing p at 13/22 and beta-binomial predictions integrating Beta(13,9) have the same mean but upper-tail probabilities of 10.95 and 19.09 percent." caption="Keep the mean fixed to examine what integrating over an uncertain probability changes. The shaded event is fifteen or more successes in the new batch." >}}
 
-The prior is deliberately simple, not universally appropriate. The fixed-probability, conditional-independence model is an assumption about both batches. A changing population or an adaptive system can make this posterior predictive distribution inappropriate even when every calculation is correct.
+The uniform prior and fixed-probability likelihood are commitments about both batches. Prior sensitivity and changes in the population belong in the assessment of the prediction.
 
 ## When an environment is shared
 
@@ -139,28 +175,50 @@ compared with 4.80 under unconditional independence. The beta-binomial mathemati
 
 For AI evaluation, imagine responses collected during the same outage, session, or unusually easy batch of prompts. They can share conditions that independent-trial arithmetic ignores. The example shows a mechanism worth investigating; its chosen correlation is not an estimate for any deployed system.
 
-## Does better knowledge remove luck?
+## What data would distinguish the mechanisms?
 
-If information $I_1$ refines $I_0$ under the same coherent probability model, the conditional law of total variance gives
+A single count is a poor design for learning about batch variation. Repeated batches change the question. Collect independent batches with recorded environments and multiple trials per batch; keep their identities rather than pooling the successes. A hierarchical model can represent
 
-$$\operatorname{Var}(Y\mid I_0)=\mathbb E[\operatorname{Var}(Y\mid I_1)\mid I_0]+\operatorname{Var}(\mathbb E[Y\mid I_1]\mid I_0).$$
+$$K_b\mid P_b\sim\operatorname{Binomial}(n,P_b),\qquad
+P_b\sim\operatorname{Beta}(\alpha,\beta),\qquad
+\mu=\mathbb E[P_b],\quad\tau^2=\operatorname{Var}(P_b).$$
 
-With finite second moments, more information reduces unexplained variance **on average**. It need not reduce it for every particular information realization. Learning that an unusually volatile situation applies can increase the variance of the relevant conditional prediction.
+For equal batch sizes, its observable count variance is
 
-This is an accounting identity about information, not a physical intervention. Knowing why an advantage exists does not put it under the recipient's control. Explaining a disparity statistically does not establish that it was earned. And a richer model can move variability from the residual into a predictor without changing anybody's circumstances.
+$$\operatorname{Var}(K_b)=n\mu(1-\mu)+n(n-1)\tau^2.$$
 
-These distinctions matter when an explanation becomes a judgment. A regression residual is whatever the fitted specification did not account for. If the specification omits skill, its residual partly contains skill. If it omits unequal opportunity, the same happens to opportunity. Naming that residual “luck” does not repair the omissions.
+The first term is ordinary Bernoulli variation; the second is excess variation shared within a batch. Under this common-beta, conditional-independence model, many independent batches with at least two trials per batch let us estimate both the mean and this excess. A likelihood or Bayesian fit then reports **between-batch heterogeneity** and **uncertainty about the population mean** as separate objects. More batches improve our estimate of the mean; they do not make genuinely different environments identical. With one trial per batch, these binary observations contain no within-batch information to identify the extra component.
 
-## What survives the objections
+This design distinguishes the stipulated fixed-p and varying-environment models. Explaining the variation as an outage, task difficulty, or drift requires the corresponding records and design. Crossing the same tasks with several environments helps separate task mix from environmental effects. In AI evaluation, retain task ids, session ids, timestamps, tool versions, and repeat occasions. Those fields determine which hierarchical comparison the data can support.
 
-The strongest objection to this approach is that its answer depends on the reference distribution. I agree. That dependence is precisely what should be exposed. A claim about favorable surprise is incomplete until it states *relative to what information, under what assumptions, for what purpose*.
+## Turning control into an intervention question
 
-A second objection is that the control boundary is not supplied by probability theory. That is also true. We must document it through the design of the study, evidence about the decision process, and sometimes ethical argument. Statistics can test a model's consequences; it cannot manufacture the missing account of agency.
+Control becomes operational when we name a feasible change. Let A denote a policy chosen before the outcome, X pre-action conditions, and U external inputs. Treating the equation as a structural model requires a further commitment: the outcome mechanism remains applicable when we set the action differently. Then
 
-A third objection is that a good outcome may reveal ability, rather than merely favorable variation. Nothing here denies that. The unresolved question is how much evidence one observed outcome supplies, particularly when that outcome was selected because it was the best. That is the subject of the next essay.
+$$Y(a)=g(a,X,U),\qquad
+\Delta=\mathbb E[Y\mid\operatorname{do}(A=a_1)]-
+\mathbb E[Y\mid\operatorname{do}(A=a_0)].$$
 
-My conclusion is therefore deliberately limited: **statistics can describe the favorability and surprise of a realization under a declared reference; interpreting it as luck additionally requires evidence about control and the process.** Predictable advantages can be unchosen. Unexpected improvements can be deliberate. A residual, a rank, or a tail cannot settle that distinction.
+The intervention sets an action; conditioning merely selects units that happened to take it. [Pearl's account of structural causal models](https://ftp.cs.ucla.edu/pub/stat_ser/r350.pdf) gives this distinction a formal language. Define the feasible policies, the budget, the outcome, and the population before estimating their contrast. Random assignment supplies evidence about policy effects. Observational comparisons need a defensible account of confounding and overlap in the pre-action conditions.
 
-The useful representation therefore has at least two dimensions: a conditional statistical description and an account of agency. It can discipline a prediction or an experiment. It cannot, without additional arguments, divide an achievement into percentages of skill, luck, and deservingness.
+For an agent, the feasible change might be its retry policy. Evaluate alternative policies on independently sampled environments, with paired runs where a controlled test harness supports them. Inject a specified tool failure and measure whether recovery depends on the policy. That experiment can show which failures an action changes and which environmental variation remains under each action. The third essay develops the replay protocol and its assumptions.
 
-All numerical examples here are exact calculations under stipulated models. The [study package](/examples/luck-study.zip) contains the executable analysis, assumptions, source ledger, and a record of conclusions revised during the critical review. It contains no empirical estimate of human luck.
+We have now moved from declaring a boundary around control to testing particular consequences of changing actions. It is a causal assessment of a feasible intervention, not a universal partition of a person's agency.
+
+## Check the reference, then learn from it
+
+A declared model becomes credible through checks that match its intended use. For prospective prediction, retain new batches and compare their event frequencies and interval coverage with the forecasts. Examine relevant subgroups and deployment conditions; good average calibration can conceal a poor reference for the decision at hand.
+
+Model diagnosis asks a related question. [Gelman, Meng, and Stern’s posterior predictive assessment](https://stat.columbia.edu/~gelman/research/published/A6n41.pdf) compares observed discrepancies with replicated data generated under the fitted model. For the batch example, preserve batch identities in those replications and inspect their spread or clustering. Fitting and checking the same data is legitimate for this diagnostic purpose. Its tail area has a different interpretation from a prospective surprise probability or an ordinary uniformly calibrated frequentist p-value.
+
+A failure directs the next investigation: perhaps the task mix changed, the environments vary, or the forecast omitted a known constraint. Better information can explain more variation without changing the circumstances themselves. Predictive improvement and practical control remain separate achievements.
+
+## What this account lets us investigate
+
+A statistical account of luck becomes useful when it produces questions that a study can answer. State the population and justify its relevance. Measure the outcome against the prospective prediction. Test how the result changes under credible perturbations. Use repeated observations to learn which variation persists, and interventions to learn what feasible actions change.
+
+These operations supply different estimands. Favorable surprise describes a realization relative to a prediction. Reproducibility describes variation across units and occasions. A policy effect compares intervention distributions. Keeping them distinct allows the investigation to be ambitious without making a tail probability stand in for a causal explanation.
+
+The same outcome can look exceptional under one reference and ordinary under another. The response is to examine why each comparison deserves to guide the decision. That is a substantive task in statistics, with consequences for how we evaluate people, models, and procedures.
+
+The [study package](/examples/luck-study.zip) contains the calculations, the public admissions table and its provenance, source notes, and the critical-review record. The next essay examines what a selected winner reveals about persistent performance and favorable occasion variation.

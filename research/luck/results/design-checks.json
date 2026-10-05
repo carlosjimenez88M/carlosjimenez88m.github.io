@@ -1,0 +1,19 @@
+{
+  "pass_at_k": {
+    "n": 10,
+    "k": 3,
+    "p": 0.2,
+    "expected_subset": 0.488,
+    "expected_plugin": 0.45056
+  },
+  "population_reliability": {
+    "single": 0.3076923076923077,
+    "mean_of_five": 0.6896551724137931
+  },
+  "berkeley": {
+    "applications": 4526,
+    "observed_female_minus_male": -0.14164542824654186,
+    "common_mix_female_minus_male": 0.042636797771302914
+  },
+  "status": "passed"
+}

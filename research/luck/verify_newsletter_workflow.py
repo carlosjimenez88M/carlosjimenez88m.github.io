@@ -97,7 +97,7 @@ class FakePublic:
         self.calls.append(url)
         if url.endswith('.png'):
             return Response(status=self.image_status, content=b'\x89PNG\r\n\x1a\nmock')
-        release = next(r for r in self.releases if '/post/' + r['slug'] + '/' in url)
+        release = next(r for r in self.releases if url == r.get('canonical_url', scheduler.BASE + '/post/' + r['slug'] + '/'))
         title = 'Wrong essay' if self.wrong_title else release['subject'].split(' — Part')[0]
         return Response(status=self.article_status, text=f'<link rel="canonical" href="{url}"><h1>{title}</h1>')
 
@@ -119,7 +119,7 @@ class NewsletterChecks(unittest.TestCase):
             (self.root / f"research/luck/newsletters/part-{release['part']}.md").write_text(body)
         emails = [dict(id=f"test-part-{r['part']}", slug=r['slug'], subject=r['subject'],
                        status='scheduled', body=self.bodies[r['part']], publish_date=r['newsletter_at'],
-                       canonical_url=f"{scheduler.BASE}/post/{r['slug']}/", archival_mode='enabled',
+                       canonical_url=r.get('canonical_url', f"{scheduler.BASE}/post/{r['slug']}/"), archival_mode='enabled',
                        absolute_url='https://buttondown.com/test/archive/' + r['slug'] + '/',
                        filters={'filters': [], 'groups': []}) for r in self.releases]
         self.api = FakeAPI(emails)
@@ -139,6 +139,22 @@ class NewsletterChecks(unittest.TestCase):
     def posts(self):
         return [call for call in self.api.calls if call[0] == 'POST']
 
+    def test_sent_archive_revision_preserves_identity_send_time_and_status(self):
+        email = self.api.emails['test-part-1']
+        email.update(status='sent', body='Previously delivered body',
+                     canonical_url='https://example.invalid/old/', publish_date=self.now.isoformat())
+        before = (email['id'], email['slug'], email['status'], email['publish_date'])
+        self.sync(sync_archives=True)
+        self.assertEqual((email['id'], email['slug'], email['status'], email['publish_date']), before)
+        self.assertEqual(email['body'], self.bodies[1])
+        self.assertEqual(email['canonical_url'], self.releases[0]['canonical_url'])
+        self.assertFalse(self.posts())
+        self.assertTrue(all('status' not in call[2]['json'] and 'publish_date' not in call[2]['json']
+                            for call in self.api.calls if call[0] == 'PATCH'))
+        patches = len([call for call in self.api.calls if call[0] == 'PATCH'])
+        self.sync(sync_archives=True)
+        self.assertEqual(len([call for call in self.api.calls if call[0] == 'PATCH']), patches)
+
     def test_body_subject_date_and_canonical_sync_reuse_ids(self):
         email = self.api.emails['test-part-2']
         email.update(body='Old body', subject='Old title', canonical_url='https://example.invalid/old/',
@@ -147,7 +163,7 @@ class NewsletterChecks(unittest.TestCase):
         self.assertEqual(email['body'], self.bodies[2])
         self.assertEqual(email['subject'], self.releases[1]['subject'])
         self.assertEqual(scheduler.aware_time(email['publish_date']), scheduler.aware_time(self.releases[1]['newsletter_at']))
-        self.assertEqual(email['canonical_url'], f"{scheduler.BASE}/post/{self.releases[1]['slug']}/")
+        self.assertEqual(email['canonical_url'], self.releases[1].get('canonical_url', f"{scheduler.BASE}/post/{self.releases[1]['slug']}/"))
         self.assertFalse(self.posts())
         self.assertEqual(len(self.api.emails), 3)
 
@@ -294,7 +310,8 @@ if __name__ == '__main__':
     result = unittest.TextTestRunner(verbosity=2).run(suite)
     summary = {'fixture': 'temporary files and simulated HTTP sessions; no .env reads or real API calls',
                'tests_run': result.testsRun, 'status': 'passed' if result.wasSuccessful() else 'failed',
-               'checks': ['same-id body/subject/date/canonical updates', 'date mismatch rejected without flag',
+               'checks': ['same-id body/subject/date/canonical updates',
+                   'sent-archive revision preserves status/date and sends no POST', 'date mismatch rejected without flag',
                           'existing-id immediate publication and idempotent rerun', 'article and image 404 block send',
                           'correct article title required', 'API credential isolated from public requests',
                           'unknown mutation recovery without POST retry', 'all-date slug recovery',

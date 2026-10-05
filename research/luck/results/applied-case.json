@@ -1,0 +1,159 @@
+{
+  "kind": "Descriptive reanalysis of published historical aggregate counts; not a luck estimate or causal effect",
+  "source": {
+    "dataset": "R datasets::UCBAdmissions",
+    "data_url": "https://svn.r-project.org/R/trunk/src/library/datasets/data/UCBAdmissions.R",
+    "documentation_url": "https://search.r-project.org/R/refmans/datasets/html/UCBAdmissions.html",
+    "original_paper_doi": "https://doi.org/10.1126/science.187.4175.398",
+    "source_r_sha256": "86a5801b122ec1f172098303de35c9df9a8c4c09f2f81dc9f03bfafdde102d5e",
+    "source_verified_date": "2026-10-05",
+    "csv_sha256": "fbebbf0f51097270b25f27e6596250f9db8919d51c96a4ffec04bca9697c0f0e"
+  },
+  "cohort": {
+    "year": 1973,
+    "departments": 6,
+    "applications": 4526,
+    "scope": "Six largest departments represented in UCBAdmissions; not all Berkeley applications",
+    "recorded_sex_labels": [
+      "Male",
+      "Female"
+    ]
+  },
+  "group_totals": {
+    "Male": {
+      "admitted": 1198,
+      "rejected": 1493,
+      "applications": 2691
+    },
+    "Female": {
+      "admitted": 557,
+      "rejected": 1278,
+      "applications": 1835
+    }
+  },
+  "observed_mix": {
+    "admission_rates": {
+      "Male": 0.4451876625789669,
+      "Female": 0.30354223433242505
+    },
+    "exact_rate_fractions": {
+      "Male": "1198/2691",
+      "Female": "557/1835"
+    },
+    "female_minus_male": -0.14164542824654186,
+    "female_minus_male_percentage_points": -14.164542824654186
+  },
+  "common_pooled_department_mix": {
+    "definition": "w_d = applications in department d / 4526, pooled across the two recorded groups",
+    "admission_rates": {
+      "Male": 0.38731858268942226,
+      "Female": 0.4299553804607252
+    },
+    "exact_rate_fractions": {
+      "Male": "6950786544238699/17945915468280800",
+      "Female": "231969464265097/539519854401000"
+    },
+    "female_minus_male": 0.04263679777130291,
+    "female_minus_male_percentage_points": 4.263679777130291
+  },
+  "departments": [
+    {
+      "department": "A",
+      "pooled_applications": 933,
+      "common_weight": 0.20614228899690676,
+      "exact_common_weight": "933/4526",
+      "rates": {
+        "Male": 0.6206060606060606,
+        "Female": 0.8240740740740741
+      },
+      "group_department_shares": {
+        "Male": 0.30657748049052397,
+        "Female": 0.05885558583106267
+      },
+      "female_minus_male_percentage_points": 20.346801346801346
+    },
+    {
+      "department": "B",
+      "pooled_applications": 585,
+      "common_weight": 0.12925320371188687,
+      "exact_common_weight": "585/4526",
+      "rates": {
+        "Male": 0.6303571428571428,
+        "Female": 0.68
+      },
+      "group_department_shares": {
+        "Male": 0.20810107766629507,
+        "Female": 0.013623978201634877
+      },
+      "female_minus_male_percentage_points": 4.964285714285714
+    },
+    {
+      "department": "C",
+      "pooled_applications": 918,
+      "common_weight": 0.20282810428634557,
+      "exact_common_weight": "459/2263",
+      "rates": {
+        "Male": 0.36923076923076925,
+        "Female": 0.3406408094435076
+      },
+      "group_department_shares": {
+        "Male": 0.12077294685990338,
+        "Female": 0.3231607629427793
+      },
+      "female_minus_male_percentage_points": -2.8589959787261643
+    },
+    {
+      "department": "D",
+      "pooled_applications": 792,
+      "common_weight": 0.17498895271763146,
+      "exact_common_weight": "396/2263",
+      "rates": {
+        "Male": 0.33093525179856115,
+        "Female": 0.34933333333333333
+      },
+      "group_department_shares": {
+        "Male": 0.15496098104793757,
+        "Female": 0.20435967302452315
+      },
+      "female_minus_male_percentage_points": 1.8398081534772182
+    },
+    {
+      "department": "E",
+      "pooled_applications": 584,
+      "common_weight": 0.12903225806451613,
+      "exact_common_weight": "4/31",
+      "rates": {
+        "Male": 0.2774869109947644,
+        "Female": 0.23918575063613232
+      },
+      "group_department_shares": {
+        "Male": 0.07097733184689707,
+        "Female": 0.21416893732970027
+      },
+      "female_minus_male_percentage_points": -3.8301160358632083
+    },
+    {
+      "department": "F",
+      "pooled_applications": 714,
+      "common_weight": 0.15775519222271323,
+      "exact_common_weight": "357/2263",
+      "rates": {
+        "Male": 0.058981233243967826,
+        "Female": 0.07038123167155426
+      },
+      "group_department_shares": {
+        "Male": 0.13861018208844295,
+        "Female": 0.18583106267029972
+      },
+      "female_minus_male_percentage_points": 1.1399998427586424
+    }
+  ],
+  "uncertainty": "No confidence intervals: these are exact descriptive proportions for the recorded cohort, not sampled future populations.",
+  "limitations": [
+    "Changing weights changes the descriptive estimand; it does not change the recorded admissions decisions.",
+    "Department may mediate prior inequality; conditioning on it cannot establish the absence of discrimination.",
+    "Qualifications, application processes, and individual counterfactuals are absent from these aggregate cells.",
+    "These records do not identify who was lucky or what fraction of an outcome was earned.",
+    "A single admissions cycle cannot identify between-cycle variability or stable applicant-level variance."
+  ]
+}

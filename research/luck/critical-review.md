@@ -29,6 +29,15 @@ essays more confident than their evidence permits.
 | The 2.07% tail describes a winner noticed among 100 groups | Selection changes the event being predicted | Added exact 87.65% chance of at least one qualifying group; independent-group assumption disclosed |
 | Observing and forcing the first urn win are equivalent | Intervention does not update a latent fixed propensity as an observation does | Added forced-win contrast: 0.6673 for the updated urn versus 0.501 for a fixed-propensity mixture |
 | Joining discrete mass points makes the event easy to read | It can suggest a continuous density and leave tail mass unclear | Replaced with discrete bars and the complete upper-tail event highlighted |
+| Advance declaration solves the reference-class problem | A frozen comparison may be irrelevant; overlapping classes need not nest | Added Venn and Hájek and the need to justify decision relevance |
+| A rare event is modally fragile | Modal similarity does not supply a probability distribution | Added competing modal/control accounts and a declared perturbation protocol |
+| Nonidentification from a single batch is the end of analysis | Independent replicated batches can identify heterogeneity under the stipulated hierarchy | Added conditional-independence assumptions, a repeated-batch design, and separation of variance from mean uncertainty |
+| No individual luck percentage means no legitimate population decomposition | Repeat measurements identify reproducible components under a measurement model | Added ICC and mean-of-five reliability; persistence is not automatically skill |
+| Toy references suffice for an applied account | Real aggregate data can change a substantive descriptive comparison | Added a frozen public admissions table and pooled-weight reanalysis; no causal discrimination or luck claim |
+| Using the same sample is always illegitimate | U-statistics and posterior predictive diagnosis use data legitimately for their stated targets | Added pass@k unbiasedness and distinguished diagnostic reuse from prospective confirmation |
+| Fixing a seed creates the historical counterfactual | Request order, provider nondeterminism, and policy-dependent tool state can break pairing | Added semantic random tapes, compatible tool replay, and simulator validation |
+| Every caveat needs another sentence in the essay | Repeated exclusions obscure the positive inferential tasks | Rewrote conclusions around estimands and designs; moved technical details to notes |
+
 
 Numerical review is separate from interpretive review. `verify.py` checks exact
 results and model implications; it cannot validate a synthetic model's relevance
@@ -41,3 +50,12 @@ description of favorable surprise and an evidenced account of practical control.
 Their combination can inform an account of luck; neither establishes a causal
 share or moral credit. The first public release was advanced to October 5 at the
 author's request, after this review.
+
+## Expanded edition after the reader critique
+
+The first newsletter predates the expansion. The online article and archived
+edition are revised with a visible date; the delivered message remains its
+original version and is not resent. Parts II and III are updated before their
+scheduled delivery. Public canonical paths omit date prefixes; original paths
+remain aliases. The agent-policy evaluation remains a proposed protocol, not
+an empirical experiment or a hosted-model run.

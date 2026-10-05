@@ -1,7 +1,9 @@
 """Synchronize authorized Buttondown essays without creating duplicate sends.
 
 --sync-bodies updates edited scheduled bodies; --sync-dates moves the same ids
-only to future times. --publish-part N sends that existing email immediately,
+only to future times. --sync-archives edits the public archive of an already-sent
+email while preserving its id, slug, status, and send time; it makes no publish
+request. --publish-part N sends that existing email immediately,
 after checking its public article and every PNG used by the email. API and public
 HTTP sessions are separate. Receipts checkpoint mutation intent and readback;
 an ambiguous send is never retried automatically. Credentials are loaded only
@@ -100,7 +102,7 @@ class ArticleParser(HTMLParser):
 def check_public_article(session, release, body):
     if session.headers.get('Authorization'):
         raise SystemExit('Public verification requires a session without Authorization.')
-    url = f"{BASE}/post/{release['slug']}/"
+    url = release.get('canonical_url', f"{BASE}/post/{release['slug']}/")
     try:
         response = session.get(url, timeout=45)
         if response.status_code != 200:
@@ -125,7 +127,7 @@ def check_public_article(session, release, body):
 
 
 def synchronize(root, api_session, public_session, now, *, sync_bodies=False,
-                sync_dates=False, publish_part=None, current_time=None):
+                sync_dates=False, publish_part=None, current_time=None, sync_archives=False):
     if now.tzinfo is None or now.utcoffset() is None:
         raise SystemExit('Current time must contain an explicit timezone.')
     releases = json.loads((root / 'research/luck/releases.json').read_text())['releases']
@@ -152,6 +154,9 @@ def synchronize(root, api_session, public_session, now, *, sync_bodies=False,
         saved[slug]['verified_at'] = clock().isoformat()
         if prior.get('public_check'):
             saved[slug]['public_check'] = prior['public_check']
+        for field in ('delivered_body_sha256', 'archive_revised_at'):
+            if prior.get(field):
+                saved[slug][field] = prior[field]
         if delivery_pending:
             saved[slug]['publication_state'] = 'accepted_pending_delivery'
             saved[slug]['pending_request'] = 'publish'
@@ -177,7 +182,7 @@ def synchronize(root, api_session, public_session, now, *, sync_bodies=False,
         slug = release['slug']
         body = (root / f"research/luck/newsletters/part-{release['part']}.md").read_text()
         when = aware_time(release['newsletter_at'])
-        canonical = f'{BASE}/post/{slug}/'
+        canonical = release.get('canonical_url', f'{BASE}/post/{slug}/')
         matches = [e for e in candidates if e.get('slug') == slug and e.get('status') != 'deleted']
         if len(matches) > 1:
             raise SystemExit('Duplicate slug exists; stopped for review.')
@@ -221,8 +226,27 @@ def synchronize(root, api_session, public_session, now, *, sync_bodies=False,
         if email['slug'] != slug:
             raise SystemExit('Retrieved email does not match the expected stable slug.')
         if email['status'] in FINISHED:
+            if email['status'] == 'sent' and sync_archives:
+                if email.get('archival_mode') != 'enabled':
+                    raise SystemExit('Sent email is not publicly archived; stopped without mutation.')
+                public_check = check_public_article(public_session, release, body)
+                changes = {field: value for field, value in
+                           (('body', body), ('subject', release['subject']), ('canonical_url', canonical))
+                           if email.get(field) != value}
+                sent_at = email['publish_date']
+                if changes:
+                    saved[slug]['delivered_body_sha256'] = prior.get('delivered_body_sha256', hashlib.sha256(email['body'].encode()).hexdigest())
+                    saved[slug]['archive_revised_at'] = clock().isoformat()
+                    checkpoint()
+                    api_request(api_session, 'PATCH', '/emails/' + email['id'], json=changes)
+                    email = api_request(api_session, 'GET', '/emails/' + email['id'])
+                if (email['status'] != 'sent' or email['publish_date'] != sent_at
+                        or email['body'] != body or email['subject'] != release['subject']
+                        or email['slug'] != slug or email['canonical_url'] != canonical):
+                    raise SystemExit('Archive readback differs; no publication request was made.')
+                saved[slug]['public_check'] = public_check
             if email['canonical_url'] != canonical:
-                raise SystemExit('Queued or sent email has an unexpected canonical URL; stopped for review.')
+                raise SystemExit('Queued or sent email has an unexpected canonical URL; use --sync-archives for an authorized sent-archive revision.')
             if aware_time(release['blog_at']) > now and publish_part != release['part']:
                 raise SystemExit('A future installment has already been queued or sent; stopped for review.')
             record(slug, email)
@@ -300,6 +324,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--sync-bodies', action='store_true', help='Update edited bodies and subjects on the existing ids.')
     parser.add_argument('--sync-dates', action='store_true', help='Move existing scheduled ids to their future manifest dates.')
+    parser.add_argument('--sync-archives', action='store_true', help='Update already-sent public archive content without changing its send status or date.')
     parser.add_argument('--publish-part', type=int, choices=(1, 2, 3), help='Send this existing part now, after public page and PNG verification.')
     args = parser.parse_args()
     key = dotenv_values(ROOT / '.env').get('BUTTONDOWN_API_KEY')
@@ -308,7 +333,8 @@ def main():
     with requests.Session() as api_session, requests.Session() as public_session:
         api_session.headers['Authorization'] = 'Token ' + key
         synchronize(ROOT, api_session, public_session, datetime.now(timezone.utc),
-                    sync_bodies=args.sync_bodies, sync_dates=args.sync_dates, publish_part=args.publish_part)
+                    sync_bodies=args.sync_bodies, sync_dates=args.sync_dates, publish_part=args.publish_part,
+                    sync_archives=args.sync_archives)
 
 
 if __name__ == '__main__':

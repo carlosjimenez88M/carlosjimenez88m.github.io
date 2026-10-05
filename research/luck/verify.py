@@ -56,4 +56,38 @@ assert math.isclose(1-(1-q)**100,.8764595887372029,rel_tol=1e-12)
 # These are intervention predictions, distinct from conditioning on an observed A.
 assert math.isclose((1+499/2)/500,.501,rel_tol=1e-12)
 assert math.isclose((1+499*2/3)/500,.6673333333333333,rel_tol=1e-12)
-print('Verified: exact tails and mean-matched graphics, Gaussian maximum, urn observational equivalence and intervention contrast, sampling variance, interval inputs, coverage, Brier identity.')
+# Fresh-attempt pass@k versus the nonlinear plug-in, enumerated exactly.
+from fractions import Fraction
+import csv
+n, k, chance = 10, 3, Fraction(1, 5)
+weights = [Fraction(math.comb(n,c))*chance**c*(1-chance)**(n-c) for c in range(n+1)]
+subset = sum(weight*(1-Fraction(math.comb(n-c,k) if n-c>=k else 0,math.comb(n,k)))
+             for c,weight in enumerate(weights))
+plugin = sum(weight*(1-(1-Fraction(c,n))**k) for c,weight in enumerate(weights))
+assert subset == 1-(1-chance)**k == Fraction(61,125)
+assert plugin == Fraction(1408,3125)
+reliability = Fraction(16,16+36)
+mean_five_reliability = Fraction(16)/(16+Fraction(36,5))
+assert reliability == Fraction(4,13) and mean_five_reliability == Fraction(20,29)
+
+# A separate array-based reconstruction of the historical cohort summaries.
+applied=json.loads((Path(__file__).parent/'results/applied-case.json').read_text())
+with (Path(__file__).parent/'data/berkeley-admissions.csv').open() as stream:
+    rows=list(csv.DictReader(stream))
+counts=np.array([[[(int(next(row['admitted'] for row in rows if row['department']==dept and row['recorded_sex']==group))),
+                   (int(next(row['applications'] for row in rows if row['department']==dept and row['recorded_sex']==group)))]
+                  for group in ('Male','Female')] for dept in 'ABCDEF'])
+assert counts[:,:,1].sum()==4526
+raw=counts[:,:,0].sum(axis=0)/counts[:,:,1].sum(axis=0)
+common_weights=counts[:,:,1].sum(axis=1)/4526
+common=(counts[:,:,0]/counts[:,:,1]).T@common_weights
+assert np.allclose(raw,[applied['observed_mix']['admission_rates'][g] for g in ('Male','Female')])
+assert np.allclose(common,[applied['common_pooled_department_mix']['admission_rates'][g] for g in ('Male','Female')])
+assert raw[1]-raw[0]<0<common[1]-common[0]
+new_checks={'pass_at_k':{'n':n,'k':k,'p':float(chance),'expected_subset':float(subset),
+                        'expected_plugin':float(plugin)},
+            'population_reliability':{'single':float(reliability),'mean_of_five':float(mean_five_reliability)},
+            'berkeley':{'applications':4526,'observed_female_minus_male':float(raw[1]-raw[0]),
+                        'common_mix_female_minus_male':float(common[1]-common[0])},'status':'passed'}
+(Path(__file__).parent/'results/design-checks.json').write_text(json.dumps(new_checks,indent=2)+'\n')
+print('Verified: reference and predictive tails, selection, urn intervention, population reliability, pass@k, historical reference comparison, clustered precision and scoring identity.')

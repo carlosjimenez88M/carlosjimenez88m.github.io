@@ -38,7 +38,11 @@ def main():
     out=ROOT/'research/luck/newsletters';out.mkdir(exist_ok=True)
     for release in releases:
         source=(ROOT/'content/post'/f"{release['slug']}.md").read_text()
+        frontmatter=source.split('---',2)[1]
         body=source.split('---',2)[2].strip()
+        revision=re.search(r'editorialNote:\n  date: "([^"]+)"\n  text: ("[^\n]+")', frontmatter)
+        if revision:
+            body='*Editorial update · '+revision[1]+'*\n\n'+json.loads(revision[2])+'\n\n'+body
         # Buttondown supports display math, but not inline math. Preserve the
         # former in its native block and adapt the latter to readable notation.
         blocks=[]
@@ -57,14 +61,14 @@ def main():
         for r in releases:
             title=r['subject'].split(' — Part')[0]
             if r['part']<=release['part']:
-                series.append(f"{r['part']}. [{title}]({BASE}/post/{r['slug']}/)")
+                series.append(f"{r['part']}. [{title}]({r.get('canonical_url', BASE + '/post/' + r['slug'] + '/')})")
             else:
                 date=r['blog_at'].split('T')[0]
                 series.append(f"{r['part']}. {title} — scheduled for {date}")
         body=body.replace('{{< luck-series >}}','\n\n'.join(series))
         body=re.sub(r'\]\((/[^)]+)\)',lambda m:']('+BASE+m[1]+')',body)
         body=("<!-- buttondown-editor-mode: plaintext -->\n\n"
-              +f"[Read this essay on the blog]({BASE}/post/{release['slug']}/)\n\n"+body+'\n')
+              +f"[Read this essay on the blog]({release.get('canonical_url', BASE + '/post/' + release['slug'] + '/')})\n\n"+body+'\n')
         assert '{{<' not in body and '$' not in body
         (out/f"part-{release['part']}.md").write_text(body)
         print(f"Exported complete newsletter part {release['part']}: {len(body.split())} words")

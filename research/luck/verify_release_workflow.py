@@ -7,6 +7,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+from urllib.parse import urlsplit
 
 ROOT=Path(__file__).resolve().parents[2]
 
@@ -78,7 +79,12 @@ def main():
             assert run('git','rev-parse','origin/master',cwd=checkout)==first
             releases=json.loads((checkout/'research/luck/releases.json').read_text())['releases']
             for r in releases:
-                assert (checkout/'post'/r['slug']/'index.html').exists()==(r['part']==1)
+                canonical_path=urlsplit(r.get('canonical_url', f"/post/{r['slug']}/")).path.lstrip('/')
+                assert (checkout/canonical_path/'index.html').exists()==(r['part']==1)
+                legacy=checkout/'post'/r['slug']/'index.html'
+                assert legacy.exists()==(r['part']==1)
+                if r['part']==1 and r.get('canonical_url'):
+                    assert r['canonical_url'] in legacy.read_text() and 'http-equiv=refresh' in legacy.read_text()
             assert not (checkout/'assets/css/stylesheet.old.css').exists()
             assert (checkout/'notes-user-owned.txt').read_text()=='Keep this source file unchanged.\n'
             committed=run('git','diff-tree','--no-commit-id','--name-only','-r','HEAD',cwd=checkout).splitlines()

@@ -14,6 +14,7 @@ import shutil
 import subprocess
 import tempfile
 import tomllib
+from urllib.parse import urlsplit
 
 ROOT=Path(__file__).resolve().parents[1]
 PROTECTED={'.git','.env','content','research','scripts','layouts','themes','static','assets','archetypes','resources'}
@@ -83,7 +84,8 @@ def main():
         subprocess.run(['hugo','--destination',str(build),'--cacheDir',td+'/cache',
                         '--noBuildLock','--minify','--clock',now.isoformat()],cwd=ROOT,env=build_env,check=True)
         for release in releases:
-            exists=(build/'post'/release['slug']/'index.html').is_file()
+            article_path=urlsplit(release.get('canonical_url', f"/post/{release['slug']}/")).path.lstrip('/')
+            exists=(build/article_path/'index.html').is_file()
             if exists!=(release in due):raise SystemExit('Release boundary failed; stopped before copying files.')
         files=[p.relative_to(build) for p in build.rglob('*') if p.is_file()]
         if any(is_protected(p) for p in files):raise SystemExit('Generated output collides with source paths.')

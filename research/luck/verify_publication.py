@@ -55,16 +55,21 @@ def main():
             missing = []
             count = 0
             for release in releases:
-                article = build / 'post' / release['slug'] / 'index.html'
+                canonical = release.get('canonical_url', f"{BASE}/post/{release['slug']}/")
+                article = build / urlsplit(canonical).path.lstrip('/') / 'index.html'
                 if not article.exists():
                     continue
                 published.append(release['part'])
+                legacy=build/'post'/release['slug']/'index.html'
+                if release.get('canonical_url'):
+                    assert legacy.exists() and canonical in legacy.read_text()
+                    assert 'http-equiv=refresh' in legacy.read_text()
                 parser = MainLinks()
                 parser.feed(article.read_text())
                 for link in parser.links:
                     if link.startswith('#'):
                         continue
-                    parsed = urlsplit(urljoin(f"{BASE}/post/{release['slug']}/", link))
+                    parsed = urlsplit(urljoin(canonical, link))
                     if parsed.netloc != urlsplit(BASE).netloc:
                         continue
                     count += 1

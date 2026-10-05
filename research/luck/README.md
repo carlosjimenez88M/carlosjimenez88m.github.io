@@ -5,7 +5,8 @@ Research and calculations completed October 5, 2026. The dates are release dates
 not dates of data collection. Author: Carlos Daniel Jiménez.
 
 This is a methodological synthesis using primary sources and deliberately simple
-generative examples. It is not an empirical study of people's success, a systematic
+generative examples, plus a descriptive reanalysis of public admissions counts.
+It is not an original study identifying luck in people's success, a systematic
 literature review, or a validated attribution scale. No embedding or generation API
 was needed. The code makes no provider calls.
 
@@ -16,6 +17,7 @@ From the repository root, with Python 3.13.2 and the versions in `requirements.t
 ```sh
 MPLCONFIGDIR=/tmp/luck-mpl python3 research/luck/analysis.py
 MPLCONFIGDIR=/tmp/luck-mpl python3 research/luck/graphics.py
+MPLCONFIGDIR=/tmp/luck-mpl python3 research/luck/applied_case.py
 python3 research/luck/verify.py
 ```
 
@@ -23,7 +25,11 @@ The executable uses seed 20261005. `results/summary.json` records parameters,
 software versions, full-precision results, and the analysis script's SHA-256.
 `results/synthetic-user-means.csv` contains the forty synthetic user averages.
 The analysis writes baseline figures; run `graphics.py` afterward to replace them
-with the seven final SVG and PNG figures in `static/img/luck/`. Its exact
+with seven synthetic/conceptual SVG and PNG figures in `static/img/luck/`.
+`applied_case.py` adds the eighth figure from the frozen public table. Its source
+provenance and exact rational results are in `results/applied-case.json`;
+`verify.py` independently reconstructs the summaries and records the reliability
+and pass@k checks in `results/design-checks.json`. The synthetic figures’ exact
 comparisons are recorded separately in `results/graphics.json`. Numerical results
 are deterministic for the recorded environment; figure metadata can differ on rerun.
 
@@ -34,6 +40,7 @@ and run the same commands. The archive preserves repository-relative paths.
 
 | Demonstration | Design | What it establishes under the model | What it does not establish |
 | --- | --- | --- | --- |
+| Public-data reference | 4,526 Berkeley applications in six departments, 1973; observed and common composition | A descriptive contrast changes under a different declared population mix | Discrimination, qualifications, or individual luck |
 | Reference distributions | Exact Binomial(20,p), p=.5,.6,.7 | An outcome's excess and tail depend on its reference | The appropriate reference for a person |
 | Unknown probability | Beta(1,1) prior, 12/20 earlier trials, new 20-trial prediction; mean-matched plug-in comparison | Parameter uncertainty changes prediction even when the mean is held fixed | The fixed-p conditional independence of changing real populations |
 | Shared environment | Batch P~Beta(2.4,1.6), 20 conditional trials | Common environment increases marginal variance | Whether a wide observed distribution reflects this mechanism |
@@ -83,5 +90,14 @@ Hugo is a static generator. A future date alone cannot update the deployed site.
 The scheduled Codex follow-up runs `scripts/publish_luck_series.py` to rebuild and
 push due articles. Local scheduled work requires the machine and Codex app to be
 running. Buttondown's scheduled delivery is hosted independently. The publication
-manifest records the exact three releases; newsletter API receipts are local and
+manifest records the exact three releases. `canonical_url` is the public URL;
+`slug` is the original source filename and stable Buttondown identity. The Hugo
+slugs omit dates and preserve the original paths as aliases; newsletter API receipts are local and
 ignored in `.research-cache/luck-buttondown-receipts.json`.
+
+The October 5 expansion is logged in the first essay's editorial note and the
+site correction log. Update scheduled bodies with `--sync-bodies`; use
+`--sync-archives` for a reviewed revision of an already-sent public archive.
+Archive updates preserve id, slug, status, and send time and make no publication
+request. They cannot alter a message already received by a subscriber. The local
+receipt preserves the delivered-body hash separately from the revised archive.

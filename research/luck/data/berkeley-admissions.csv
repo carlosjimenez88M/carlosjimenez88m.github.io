@@ -1,0 +1,13 @@
+department,recorded_sex,admitted,rejected,applications
+A,Male,512,313,825
+A,Female,89,19,108
+B,Male,353,207,560
+B,Female,17,8,25
+C,Male,120,205,325
+C,Female,202,391,593
+D,Male,138,279,417
+D,Female,131,244,375
+E,Male,53,138,191
+E,Female,94,299,393
+F,Male,22,351,373
+F,Female,24,317,341

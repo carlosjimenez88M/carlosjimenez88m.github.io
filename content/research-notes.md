@@ -18,6 +18,14 @@ This publication brings interpretation and experiments together. A musical readi
 
 The [experiment index](/experiments/) links the available materials and current evidence status. When a numerical claim cannot be reconciled with its artifacts, it should remain unresolved rather than be promoted as a result.
 
+## October 5, 2026 — A Statistical Account of Luck
+
+The [expanded first essay](/post/statistical-luck-reference/) names the reference-class problem, distinguishes modal fragility from probabilistic rarity, and locates the disagreement between modal and control accounts of luck. It adds a descriptive reanalysis of the public Berkeley admissions table: changing the declared department composition changes the comparison from −14.16 to +4.26 percentage points (Female minus Male). This is a change of estimand, not a causal estimate of discrimination or luck.
+
+The series now specifies the repeated-batch design needed to estimate environmental heterogeneity and distinguishes population reliability from attribution of an individual's achievement. The later essays add the finite-pool and fresh-attempt interpretations of pass@k, benchmark exposure and adaptive selection, and a proposed factorial agent-policy evaluation with valid environment replay. The proposed agent protocol has not been run; no hosted-model result or human validation is claimed.
+
+The study package contains source-reading scopes, the twelve public aggregate rows, exact calculations, and the revised critical-review record. Public URLs now omit date prefixes; the original URLs redirect to the same essays. The first newsletter was sent before this expansion. Its online archived edition can be revised; messages already delivered to subscribers retain their original content. No second email was sent for this revision.
+
 ## September 27, 2026 — Attention Windows
 
 The [revised article](/post/2026-02-10-attention-windows-beatles-floyd/) replaces the title's cognitive-load claim with a question about embedding similarity. It withdraws claims of structural impossibility, universal embedding failure, and effects on commercial recommendation systems that were not tested.
