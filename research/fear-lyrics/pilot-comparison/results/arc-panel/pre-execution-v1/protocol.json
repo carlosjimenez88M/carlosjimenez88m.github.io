@@ -1,0 +1,80 @@
+{
+  "version": "anonymous_ordered_arc_panel_v2_20261011",
+  "expected_songs": 40,
+  "songs": 40,
+  "corpus_identity": "fded4ed556667111235f3c95990169858c9eb59071befe9aa2d1acc479f5bb9d",
+  "models": [
+    "openai/gpt-5.4-mini",
+    "openai/gpt-5.4-nano"
+  ],
+  "adjudicator": "openai/gpt-5.4-mini",
+  "maximum_adjudications": 20,
+  "prompt_sha256": "8936f2a9ef673095a8c55b6321ae7d4633a612bdbb6d6cded5bbb8a15e813008",
+  "third_prompt_sha256": "164392de04927c5ce53f938d93c294c0039826bb1355c4abd63d5116cceef4bf",
+  "schema_sha256": "25c7709468e63af712936c2c41469b32042fcd447ac4f0ce935b5b7310836928",
+  "categories": {
+    "voice": [
+      "first_singular",
+      "first_collective",
+      "third_person_story",
+      "dialogue_or_multiple",
+      "impersonal",
+      "unclear"
+    ],
+    "stance": [
+      "avoidance",
+      "resistance",
+      "care",
+      "ambivalence",
+      "resignation",
+      "other"
+    ],
+    "fear_relevance": [
+      "explicit",
+      "implied",
+      "absent",
+      "uncertain"
+    ],
+    "fear_polarity": [
+      "affirmed",
+      "denied",
+      "hypothetical",
+      "mixed",
+      "unclear",
+      "absent"
+    ],
+    "arc": [
+      "no_supported_arc",
+      "repetition",
+      "contrast",
+      "confrontation",
+      "turn",
+      "unresolved",
+      "mixed",
+      "unclear"
+    ]
+  },
+  "subtopic_ontology": {
+    "surveillance_pursuit": "Vigilancia y persecución",
+    "collective_violence": "Violencia colectiva",
+    "loss_abandonment": "Abandono y pérdida",
+    "fragility_identity": "Fragilidad e identidad",
+    "uncertainty_change": "Incertidumbre y cambio",
+    "relational_coercion": "Coerción relacional",
+    "supernatural": "Sobrenatural",
+    "other": "Otro",
+    "none": "Sin motivo identificado",
+    "uncertain": "Lectura incierta"
+  },
+  "adjudication_trigger": "The two valid readers disagree on subtopic set, fear_relevance, fear_polarity or arc; or a reader has invalid JSON/IDs/order. Voice/stance/step granularity differences are recorded but do not alone trigger review.",
+  "adjudication_selection": "Disagreement cases sorted by anonymous-song hash; at most the frozen cap, without years/artists, and remaining cases stay unresolved.",
+  "voting": "At least2 matching categorical votes per field; subtopics individually require2 votes and may have at most2 consensus labels; cyclic3-label majorities remain unresolved. The third critic is another call to mini, blind to both prior reports and their disagreement. Same model is correlated, not an independent model. No calibrated confidence or majority guarantee of correctness.",
+  "narrative": "Two steps by default,at most3when supported,0when no supported arc. Every asserted arc needs links connecting consecutive anchors; crossing evidence spans rejected. Argumentative relations differ from validated emotional intensity or universal six-shape forms.",
+  "input": "Only ordered anonymous block IDs/text; same8-line/min4-word analysis segmentation, exact repetitions retained. Provider headers stripped. No year,artist,title,selection hypothesis or seedtopic in payload.",
+  "metadata_blindness_limit": "Known lyrics may be recognized from pretrained knowledge; omission of explicit metadata does not guarantee unfamiliarity.",
+  "public_paraphrases": "At most12words each; any five-word lyric overlap withheld. Raw responses/complete blocks remain private; model-specific votes and disagreements public.",
+  "historical_scope": "Descriptive comparison within the selected balanced corpus; categories predeclared before reading, not unsupervised discovered emotion classes. Related models and repeated artists may share dependencies. Subtopics are multilabel presence per song and percentages may sum above100; unresolved remains in denominator.",
+  "maximum_output_tokens": 400,
+  "ledger_ceiling_usd": 0.8,
+  "network_default": "disabled"
+}

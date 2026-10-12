@@ -1,0 +1,59 @@
+{
+  "prototypes": {
+    "fear": {
+      "en": [
+        "I feel afraid of what might happen next.",
+        "Uncertainty makes me anxious and vulnerable.",
+        "I dread losing someone and do not feel safe."
+      ],
+      "es": [
+        "Siento miedo de lo que podría pasar después.",
+        "La incertidumbre me hace sentir ansiedad y vulnerabilidad.",
+        "Temo perder a alguien y no me siento a salvo."
+      ]
+    },
+    "threat": {
+      "en": [
+        "Someone is pursuing me and threatens to hurt me.",
+        "Danger approaches through violence and destruction.",
+        "An outside force puts our safety at risk."
+      ],
+      "es": [
+        "Alguien me persigue y amenaza con hacerme daño.",
+        "El peligro se acerca mediante violencia y destrucción.",
+        "Una fuerza externa pone nuestra seguridad en riesgo."
+      ]
+    },
+    "avoidance": {
+      "en": [
+        "I hide and run away to avoid the danger.",
+        "I remain silent and keep my distance from what scares me.",
+        "I escape instead of facing what I fear."
+      ],
+      "es": [
+        "Me escondo y huyo para evitar el peligro.",
+        "Guardo silencio y me alejo de lo que me asusta.",
+        "Escapo en lugar de enfrentar lo que temo."
+      ]
+    },
+    "coping": {
+      "en": [
+        "I face the danger and find support to carry on.",
+        "I act despite my fear and regain a sense of agency.",
+        "Together we confront uncertainty and learn to cope."
+      ],
+      "es": [
+        "Enfrento el peligro y encuentro apoyo para seguir adelante.",
+        "Actúo a pesar del miedo y recupero mi capacidad de actuar.",
+        "Juntos afrontamos la incertidumbre y aprendemos a sobrellevarla."
+      ]
+    }
+  },
+  "limitation": "These are prototype-similarity trajectories, not validated emotions or literary plot arcs. Stanza/window order is inferred from provider formatting; interpolation is for visualization. Shuffling does not control repetition, metaphor, narrator changes, or historical confounds.",
+  "min_blocks_for_order_test": 3,
+  "permutations": 1000,
+  "permutation_seed": 20261012,
+  "arithmetic": "float64 einsum with explicit finiteness checks",
+  "permutation_tie_tolerance": 1e-12,
+  "p_adjustment": "Benjamini-Hochberg within each variant; exploratory families"
+}

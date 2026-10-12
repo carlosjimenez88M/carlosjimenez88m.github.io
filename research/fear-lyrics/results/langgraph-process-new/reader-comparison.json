@@ -1,0 +1,79 @@
+{
+  "categories": [
+    {
+      "model": "openai/gpt-5.4-mini",
+      "category": "positive_complete_context",
+      "contexts": 8,
+      "abstained": 1,
+      "emitted": 7,
+      "invalid_citation_reviews": 0
+    },
+    {
+      "model": "openai/gpt-5.4-mini",
+      "category": "positive_incomplete_context",
+      "contexts": 8,
+      "abstained": 7,
+      "emitted": 1,
+      "invalid_citation_reviews": 0
+    },
+    {
+      "model": "openai/gpt-5.4-mini",
+      "category": "negative",
+      "contexts": 8,
+      "abstained": 8,
+      "emitted": 0,
+      "invalid_citation_reviews": 0
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "category": "positive_complete_context",
+      "contexts": 8,
+      "abstained": 1,
+      "emitted": 7,
+      "invalid_citation_reviews": 0
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "category": "positive_incomplete_context",
+      "contexts": 8,
+      "abstained": 7,
+      "emitted": 1,
+      "invalid_citation_reviews": 0
+    },
+    {
+      "model": "openai/gpt-5.4-nano",
+      "category": "negative",
+      "contexts": 8,
+      "abstained": 8,
+      "emitted": 0,
+      "invalid_citation_reviews": 0
+    }
+  ],
+  "same_support_decision": 20,
+  "same_final_abstention": 22,
+  "paired_contexts": 24,
+  "final_abstention_disagreements": [
+    {
+      "query_id": "shower_intruder_es",
+      "question": "¿Dónde teme el hablante encontrar a un intruso mientras se lava el cabello en la ducha?",
+      "mini": "insufficient",
+      "nano": "supported",
+      "mini_abstained": true,
+      "nano_abstained": false
+    },
+    {
+      "query_id": "lunar_bargain_es",
+      "question": "¿Qué pasajes conectan un pacto de entregar al primer hijo con una acusación posterior de traición y el abandono del niño?",
+      "mini": "supported",
+      "nano": "partial",
+      "mini_abstained": false,
+      "nano_abstained": true
+    }
+  ],
+  "context_origin": {
+    "retrieval_source": "research/fear-lyrics/pilot-40/results/rag-ablation",
+    "method": "hybrid",
+    "arm": "rewrite_1_neighbors_0",
+    "context_pool_identity": "e62d3efa23c2f86557acde58fe46fe76bdb6e8ea1383af03014155142c7fa27e"
+  }
+}

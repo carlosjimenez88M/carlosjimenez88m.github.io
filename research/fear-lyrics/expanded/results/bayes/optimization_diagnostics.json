@@ -1,0 +1,106 @@
+{
+  "fits": 243,
+  "converged_fits": 232,
+  "nonconverged_fits": [
+    {
+      "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "topic_id": 9,
+      "prior_context": "language_en",
+      "mu": 0.10170691887813439,
+      "kappa": 199.99999999999991,
+      "converged": false,
+      "flags": "kappa_upper_bound;profile_support_touches_bound;fewer_than_ten_cells"
+    },
+    {
+      "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "topic_id": 11,
+      "prior_context": "language_en",
+      "mu": 0.10170691887813439,
+      "kappa": 199.99999999999991,
+      "converged": false,
+      "flags": "kappa_upper_bound;profile_support_touches_bound;fewer_than_ten_cells"
+    },
+    {
+      "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "topic_id": 33,
+      "prior_context": "language_es",
+      "mu": 0.085394503597091,
+      "kappa": 199.99999999999991,
+      "converged": false,
+      "flags": "kappa_upper_bound;profile_support_touches_bound;fewer_than_ten_cells"
+    },
+    {
+      "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "topic_id": 36,
+      "prior_context": "language_en",
+      "mu": 0.085394503597091,
+      "kappa": 199.99999999999991,
+      "converged": false,
+      "flags": "kappa_upper_bound;profile_support_touches_bound;fewer_than_ten_cells"
+    },
+    {
+      "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "topic_id": 41,
+      "prior_context": "pooled_languages",
+      "mu": 0.01711245957696373,
+      "kappa": 199.99999999999991,
+      "converged": false,
+      "flags": "kappa_upper_bound;profile_support_touches_bound;broad_kappa_profile"
+    },
+    {
+      "model": "intfloat/multilingual-e5-small",
+      "topic_id": 4,
+      "prior_context": "language_en",
+      "mu": 0.31699531467883396,
+      "kappa": 199.99999999999991,
+      "converged": false,
+      "flags": "kappa_upper_bound;profile_support_touches_bound;fewer_than_ten_cells"
+    },
+    {
+      "model": "intfloat/multilingual-e5-small",
+      "topic_id": 10,
+      "prior_context": "language_en",
+      "mu": 0.13485222249765472,
+      "kappa": 199.99999999999991,
+      "converged": false,
+      "flags": "kappa_upper_bound;profile_support_touches_bound;fewer_than_ten_cells"
+    },
+    {
+      "model": "intfloat/multilingual-e5-small",
+      "topic_id": 11,
+      "prior_context": "pooled_languages",
+      "mu": 0.01711245957696373,
+      "kappa": 199.99999999999991,
+      "converged": false,
+      "flags": "kappa_upper_bound;profile_support_touches_bound;broad_kappa_profile"
+    },
+    {
+      "model": "intfloat/multilingual-e5-small",
+      "topic_id": 17,
+      "prior_context": "pooled_languages",
+      "mu": 0.01711245957696373,
+      "kappa": 199.99999999999991,
+      "converged": false,
+      "flags": "kappa_upper_bound;profile_support_touches_bound;broad_kappa_profile"
+    },
+    {
+      "model": "intfloat/multilingual-e5-small",
+      "topic_id": 19,
+      "prior_context": "pooled_languages",
+      "mu": 0.01711245957696373,
+      "kappa": 199.99999999999991,
+      "converged": false,
+      "flags": "kappa_upper_bound;profile_support_touches_bound;broad_kappa_profile"
+    },
+    {
+      "model": "intfloat/multilingual-e5-small",
+      "topic_id": 27,
+      "prior_context": "pooled_languages",
+      "mu": 0.01711245957696373,
+      "kappa": 199.99999999999991,
+      "converged": false,
+      "flags": "kappa_upper_bound;profile_support_touches_bound;broad_kappa_profile"
+    }
+  ],
+  "interpretation": "Finite flagged estimates are retained for sensitivity; an optimizer convergence flag does not establish identifiability or calibrated intervals."
+}

@@ -1,0 +1,13 @@
+{
+  "study_cutoff": "2026-10-11",
+  "llm_observed_usd": 0.3831829,
+  "pilot_embedding_large_usd": 0.00304447,
+  "additional_embedding_observed_usd": 0.00083213,
+  "total_observed_usd": 0.3870595,
+  "human_authorized_ceiling_usd": 1,
+  "raw_corpus_hosted_scope": "original386 blocks only; expanded120 pending authorization",
+  "includes_billed_invalid_format_responses": true,
+  "new_context_reader_requests": 24,
+  "context_reader_decisions": 48,
+  "note": "Cached decisions retain their original charge; reuse is not a new request. Excludes local hardware and inbound data acquisition costs."
+}

@@ -1,0 +1,80 @@
+{
+  "status": "executed_offline_posthoc",
+  "primary_panel_identity": "b3ea680e02b19d72adc943947884033267c949c19427228e75dd04dac924e6b4",
+  "primary_status_unchanged": {
+    "executed": 64,
+    "executed_invalid_panel_schema": 36
+  },
+  "interpretation": "Categorical enum/type validity is measured separately from trajectory chronology. Existing votes only, no additional API or relaxed arc validator.",
+  "categories_origin": "Frozen ontology,model readings;enum validity doesnot establish semantic correctness.",
+  "temporal_scope": "All selected40songs remain denominator;unresolved/missing retained;subtopics multilabel may sum above100%.",
+  "third_review_scope": "Uses the existing20blind critic calls selected by the original strict/core disagreement protocol,not newly selected from posthoc semantic fields.",
+  "invalid_primary_reasons": {
+    "Steps violate text order.": 36
+  },
+  "fields": [
+    {
+      "field": "voice",
+      "songs": 40,
+      "initial_votes": 80,
+      "valid_initial_enum_votes": 80,
+      "initial_agree_songs": 30,
+      "majority_resolved_songs": 37,
+      "unresolved_songs": 3,
+      "validity": "Field type/enum only;not semantic correctness"
+    },
+    {
+      "field": "stance",
+      "songs": 40,
+      "initial_votes": 80,
+      "valid_initial_enum_votes": 80,
+      "initial_agree_songs": 19,
+      "majority_resolved_songs": 28,
+      "unresolved_songs": 12,
+      "validity": "Field type/enum only;not semantic correctness"
+    },
+    {
+      "field": "fear_relevance",
+      "songs": 40,
+      "initial_votes": 80,
+      "valid_initial_enum_votes": 80,
+      "initial_agree_songs": 20,
+      "majority_resolved_songs": 33,
+      "unresolved_songs": 7,
+      "validity": "Field type/enum only;not semantic correctness"
+    },
+    {
+      "field": "fear_polarity",
+      "songs": 40,
+      "initial_votes": 80,
+      "valid_initial_enum_votes": 80,
+      "initial_agree_songs": 19,
+      "majority_resolved_songs": 27,
+      "unresolved_songs": 13,
+      "validity": "Field type/enum only;not semantic correctness"
+    },
+    {
+      "field": "subtopics",
+      "songs": 40,
+      "initial_votes": 80,
+      "valid_initial_enum_votes": 80,
+      "initial_agree_songs": 10,
+      "majority_resolved_songs": 35,
+      "unresolved_songs": 5,
+      "validity": "Field type/enum only;not semantic correctness"
+    },
+    {
+      "field": "arc",
+      "songs": 40,
+      "initial_votes": 80,
+      "valid_initial_enum_votes": 48,
+      "initial_agree_songs": 7,
+      "majority_resolved_songs": 14,
+      "unresolved_songs": 26,
+      "validity": "Whole strict chronology/anchor schema"
+    }
+  ],
+  "anchored_cases": 14,
+  "new_api_calls": 0,
+  "new_cost_usd": 0
+}

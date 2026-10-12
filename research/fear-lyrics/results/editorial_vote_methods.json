@@ -1,0 +1,26 @@
+{
+  "reviewer": "fear_methods_research",
+  "reviewer_kind": "automated_methodological_editorial_review",
+  "decision": "accept",
+  "scope": [
+    "arc_section",
+    "temporal_conclusion"
+  ],
+  "article_sha256": "3421ea5727bdc3ff4232c973c99349bbb66ff63f193a36ba522d3a1d46900416",
+  "article_path": "content/post/2026-10-11-miedo-embeddings-bertopic-rag.md",
+  "evidence": {
+    "fieldwise_summary": "pilot-comparison/results/arc-panel/fieldwise-posthoc/summary.json",
+    "anchored_cases": "pilot-comparison/results/arc-panel/fieldwise-posthoc/anchored_cases.json",
+    "temporal_counts": "pilot-comparison/results/arc-panel/fieldwise-posthoc/concern_presence_by_period.csv"
+  },
+  "checks": {
+    "voice_consensus": 37,
+    "fear_relevance_resolved": 33,
+    "fear_reference_explicit_or_implied": 23,
+    "strict_supported_arcs": 14,
+    "repetition_arcs": 12,
+    "selected_case_metadata_and_anchors": "verified5illustrations",
+    "temporal_claim_scope": "selected_case_recurrence_not_monotone_or_population_evolution"
+  },
+  "limitation": "Editorial votes check correspondence and argument; they do not constitute literary gold or independent new song observations."
+}

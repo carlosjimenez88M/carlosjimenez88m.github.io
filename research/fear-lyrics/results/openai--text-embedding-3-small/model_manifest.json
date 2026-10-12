@@ -1,0 +1,46 @@
+{
+  "encoder": {
+    "model_id": "openai/text-embedding-3-small",
+    "input_type": "verified_external_embedding_bundle",
+    "normalization": "L2, cosine similarity",
+    "dimensions": 1024,
+    "max_seq_length": 8192,
+    "provider_metadata": {
+      "provider": "openai",
+      "model_id": "text-embedding-3-small",
+      "revision": null,
+      "prefixes": {
+        "query": "",
+        "passage": ""
+      },
+      "usage": {
+        "newly_accounted_usd": 0.0005168800000000002,
+        "expanded_phase_actual_usd": 0.00051688,
+        "expanded_phase_input_tokens": 25844,
+        "batch_requests": 18,
+        "input_token_unit_price": 0.02,
+        "pilot_receipts_reused": 0
+      }
+    },
+    "revision_pinned": false
+  },
+  "runtime_seconds": 11.17,
+  "unique_documents": 386,
+  "truncated_documents": 0,
+  "tokenization_unknown_documents": 0,
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.6",
+    "sentence-transformers": "6.1.0",
+    "torch": "2.14.1",
+    "transformers": "5.19.0",
+    "bertopic": "0.17.4",
+    "umap-learn": "0.5.12",
+    "hdbscan": "0.8.44"
+  },
+  "privacy": "Lyrics, provider headings, embeddings, and fitted models are private.",
+  "results_status": "executed",
+  "topic_status": "estimated"
+}

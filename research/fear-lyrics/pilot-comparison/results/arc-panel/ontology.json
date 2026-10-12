@@ -1,0 +1,77 @@
+{
+  "categories": {
+    "voice": [
+      "first_singular",
+      "first_collective",
+      "third_person_story",
+      "dialogue_or_multiple",
+      "impersonal",
+      "unclear"
+    ],
+    "stance": [
+      "avoidance",
+      "resistance",
+      "care",
+      "ambivalence",
+      "resignation",
+      "other"
+    ],
+    "fear_relevance": [
+      "explicit",
+      "implied",
+      "absent",
+      "uncertain"
+    ],
+    "fear_polarity": [
+      "affirmed",
+      "denied",
+      "hypothetical",
+      "mixed",
+      "unclear",
+      "absent"
+    ],
+    "arc": [
+      "no_supported_arc",
+      "repetition",
+      "contrast",
+      "confrontation",
+      "turn",
+      "unresolved",
+      "mixed",
+      "unclear"
+    ]
+  },
+  "subtopics": {
+    "surveillance_pursuit": "Vigilancia y persecución",
+    "collective_violence": "Violencia colectiva",
+    "loss_abandonment": "Abandono y pérdida",
+    "fragility_identity": "Fragilidad e identidad",
+    "uncertainty_change": "Incertidumbre y cambio",
+    "relational_coercion": "Coerción relacional",
+    "supernatural": "Sobrenatural",
+    "other": "Otro",
+    "none": "Sin motivo identificado",
+    "uncertain": "Lectura incierta"
+  },
+  "states": [
+    "threat",
+    "fear",
+    "avoidance",
+    "confrontation",
+    "care",
+    "agency",
+    "exposure",
+    "loss",
+    "negation",
+    "celebration",
+    "reflection",
+    "unclear"
+  ],
+  "relations": [
+    "repetition",
+    "contrast",
+    "confrontation",
+    "turn",
+    "unresolved"
+  ]
+}

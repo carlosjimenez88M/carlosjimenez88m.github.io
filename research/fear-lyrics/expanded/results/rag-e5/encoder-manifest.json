@@ -1,0 +1,25 @@
+{
+  "model_id": "intfloat/multilingual-e5-small",
+  "requested_revision": null,
+  "resolved_commit": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "max_seq_length": 512,
+  "dimensions": 384,
+  "weight_receipt": {
+    "resolved_snapshot_commit": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "cached_weight_files": [
+      {
+        "filename": "model.safetensors",
+        "bytes": 470641600,
+        "sha256": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477"
+      }
+    ],
+    "requested_revision": null,
+    "revision_pinned": false,
+    "receipt_method": "Local Hugging Face snapshot identity and SHA256 of cached model weight files; no network."
+  },
+  "normalization": "L2, cosine similarity",
+  "device": "cpu",
+  "passage_prefix": "passage: ",
+  "prototype_prefix": "query: ",
+  "revision_pinned": false
+}

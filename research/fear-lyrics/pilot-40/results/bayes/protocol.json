@@ -1,0 +1,71 @@
+{
+  "executed": true,
+  "sources": {
+    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2": {
+      "section_assignments_sha256": "26e51668d942dc02bb4d8b29c375e8c3ab4bd117a44d66f83049089f16e46cee",
+      "unique_song_shares_sha256": "2ed0ee8a068aa623e412611558f55e1b7642171d788111cec22cc014f55c0937"
+    },
+    "intfloat/multilingual-e5-small": {
+      "section_assignments_sha256": "7f42cd06c11d5e8861200b7c3e53a9d6703e84ae16aa0bae9bb5911bf54e015c",
+      "unique_song_shares_sha256": "1498860c5156a1df828072490f513469a26839d84f10a550c6eb7cdbf9112f2e"
+    },
+    "openai/text-embedding-3-large": {
+      "section_assignments_sha256": "6011713a74bb81487f13ea17026f5d9c2ecf7ed7ed48b94f89c6acaaa8dccd08",
+      "unique_song_shares_sha256": "e8abfd8746955781ca20e4f2dc14fdb658374a8f01e76692501b82f417785bef"
+    }
+  },
+  "script_sha256": "00d27f82919a9282ee8d7e07544c489591c80c2bb203790cc94e7da9f6fcd7b1",
+  "runtime_seconds": 8.43,
+  "source_article": "https://juliasilge.com/blog/bayesian-blues/",
+  "source_code": "https://github.com/juliasilge/old_bloggy_blog/blob/master/_R/2016-09-28-Bayesian-Blues.Rmd",
+  "observation": "A selected song contains >=1 unique block assigned to a fixed topic. One Bernoulli per song/topic.",
+  "estimand": "Latent topic-presence propensity under a hypothetical exchangeable song-sampling model. Observed finite-corpus c/n is known exactly; purposive selection prevents external prevalence interpretation.",
+  "trials": "Four selected songs per decade/language cell; ten cells; zeros retained. Noise topic -1 is a diagnostic, not a semantic class.",
+  "likelihood": "c_g ~ BetaBinomial(n_g, mu*kappa, (1-mu)*kappa); theta_g | c_g,hyper ~ Beta(alpha+c_g,beta+n_g-c_g)",
+  "eb": "Marginal likelihood with 12 deterministic starts and a kappa profile; plug-in intervals condition on fitted hyperparameters.",
+  "eb_kappa_bounds": [
+    0.05,
+    200.0
+  ],
+  "eb_mu_bounds": [
+    0.0001,
+    0.9999
+  ],
+  "profile": "delta log likelihood >= -1.920729 is a heuristic support diagnostic, not a calibrated interval in this tiny boundary-prone design.",
+  "full_hierarchical": "mu~Beta(1,1); log(kappa)~Normal(log(4),1.5) truncated [.05,200]; Gauss-Legendre quadrature over mu/log(kappa).",
+  "grid": [
+    64,
+    81
+  ],
+  "grid_resolution_comparison": [
+    96,
+    121
+  ],
+  "fixed_priors": {
+    "Jeffreys": [
+      0.5,
+      0.5
+    ],
+    "uniform": [
+      1.0,
+      1.0
+    ]
+  },
+  "pooling": "Compare all ten EN/ES cells with five cells per language. Neither exchangeability assumption is established by this corpus.",
+  "predictive_replicates": 5000,
+  "simulation_seed": 20261012,
+  "leave_one_cell_out": "Refits only hyperprior; topic discovery still reuses all songs. Predictive scores are a conditional sensitivity, not topic generalization.",
+  "credible_intervals": "95% equal-tail intervals. Grid mixture integrates hyperparameter (alpha/beta) uncertainty; its weak hyperprior specification stays fixed. All methods condition on topic assignments and corpus design.",
+  "full_vs_eb_difference": "The hierarchical grid also introduces explicit weak hyperpriors; differences from EB are not solely an uncertainty-only correction at the same maximum-likelihood point.",
+  "unresolved": "Selection bias, dependent artists, unequal provider coverage, song length/detection opportunity, topic/model uncertainty, and population inference are not solved.",
+  "presence_not_composition": "A song can contain multiple topics; presence percentages may sum above 100% and do not equal primary fractional topic shares.",
+  "e5_warning": "E5's two clusters are strongly associated with language; their rates are not fear prevalence.",
+  "figure_selection": "Requested illustrative panels T12/T13 MiniLM and T0 E5; all topics/priors are reported without selecting favorable results.",
+  "article_adaptation": "Keep shrinkage and explicit intervals; replace state population with actual song trials, retain zeros, fit count likelihood, inspect hyperparameter uncertainty.",
+  "article_critique": "The linked Rmd excludes unmentioned states via filter(!is.na(n)); population is not a measured number of Bernoulli song trials.",
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  }
+}

@@ -1,0 +1,13 @@
+encoder,axis,loo_accuracy
+minilm,interiorizacion,0.9375
+minilm,agencia,0.75
+minilm,colectividad,1.0
+e5_small,interiorizacion,0.9375
+e5_small,agencia,0.6875
+e5_small,colectividad,1.0
+e5_large_plain,interiorizacion,0.96875
+e5_large_plain,agencia,1.0
+e5_large_plain,colectividad,1.0
+e5_large_fear,interiorizacion,1.0
+e5_large_fear,agencia,0.96875
+e5_large_fear,colectividad,1.0

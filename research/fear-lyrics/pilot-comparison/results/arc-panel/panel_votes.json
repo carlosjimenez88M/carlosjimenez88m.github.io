@@ -1,0 +1,6113 @@
+[
+  {
+    "song_id": "s1982-60e7787d2b2d",
+    "anonymous_song_id": "s001",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1982,
+    "decade": 1980,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "ac6c4c7e391c27e2677fc4fef1baf98ef983a5b63370d746ae465ae208120185",
+    "reading": {
+      "voice": "dialogue_or_multiple",
+      "stance": "other",
+      "fear_relevance": "explicit",
+      "fear_polarity": "affirmed",
+      "arc": "repetition",
+      "subtopics": [
+        "supernatural",
+        "surveillance_pursuit"
+      ],
+      "label": "Amenaza nocturna y persecución sobrenatural",
+      "summary": "Escena nocturna con acecho y defensa.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "threat",
+          "reading": "Aparece una presencia oscura que alarma.",
+          "source_document_ids": [
+            "s1982-60e7787d2b2d::s000",
+            "s1982-60e7787d2b2d::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b009"
+          ],
+          "state": "exposure",
+          "reading": "La figura queda inmovilizada ante el cerco.",
+          "source_document_ids": [
+            "s1982-60e7787d2b2d::s002",
+            "s1982-60e7787d2b2d::s008"
+          ]
+        },
+        {
+          "ids": [
+            "b010",
+            "b012"
+          ],
+          "state": "care",
+          "reading": "Surge una oferta protectora y envolvente.",
+          "source_document_ids": [
+            "s1982-60e7787d2b2d::s009",
+            "s1982-60e7787d2b2d::s011"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "confrontation",
+          "reading": "La amenaza pasa a cercamiento directo."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "turn",
+          "reading": "La presión cede hacia una protección ambigua."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "76f05313345175d8cae397d98e2a56c71b20efcb4ea55715a1ad8ea536de10a4",
+    "input_tokens": 1737,
+    "output_tokens": 215,
+    "accounted_usd": 0.00227025,
+    "reserved_usd": 0.0085335,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 3.053442874981556,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_2242819ad01e49e885e4bc5ab20ec1f1"
+  },
+  {
+    "song_id": "s2004-641528a4ed5c",
+    "anonymous_song_id": "s002",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2004,
+    "decade": 2000,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "3a24104af6e5bb829912c7be54da063e91cccbd38aaba826ca76f51233a81096",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "loss_abandonment",
+        "relational_coercion"
+      ],
+      "label": "Duelo amoroso con desafío repetido",
+      "summary": "Pérdida afectiva y reproche insistente.",
+      "steps": [
+        {
+          "ids": [
+            "b002",
+            "b003"
+          ],
+          "state": "loss",
+          "reading": "Dolor amoroso y ruptura asumida.",
+          "source_document_ids": [
+            "s2004-641528a4ed5c::s001",
+            "s2004-641528a4ed5c::s002"
+          ]
+        },
+        {
+          "ids": [
+            "b004",
+            "b005"
+          ],
+          "state": "loss",
+          "reading": "Culpa, engaño y desgaste afectivo.",
+          "source_document_ids": [
+            "s2004-641528a4ed5c::s003",
+            "s2004-641528a4ed5c::s004"
+          ]
+        },
+        {
+          "ids": [
+            "b010",
+            "b011"
+          ],
+          "state": "agency",
+          "reading": "Desinterés declarado y espera tensa.",
+          "source_document_ids": [
+            "s2004-641528a4ed5c::s009",
+            "s2004-641528a4ed5c::s010"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "repetition",
+          "reading": "El daño se reitera como queja."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "contrast",
+          "reading": "Del lamento pasa al desdén."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "8cc430943b5f9d47fd339a93fac1aba1e559ba8c346beeb3575b1d721adc8917",
+    "input_tokens": 1544,
+    "output_tokens": 214,
+    "accounted_usd": 0.002121,
+    "reserved_usd": 0.00774675,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.2346614999696612,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_e63fd33355224601a268d49edf8a153f"
+  },
+  {
+    "song_id": "s2024-752f61769347",
+    "anonymous_song_id": "s003",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2024,
+    "decade": 2020,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "43f704cb9d44d98a4d3f5e6234d580ddaa17b1c51109ac0e5dbc91c1fbb93fff",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "hypothetical",
+      "arc": "turn",
+      "subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ],
+      "label": "Pensamiento íntimo y vínculo tenso",
+      "summary": "Pensamiento interno y deseo afectivo con cautela.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "reflection",
+          "reading": "Pensamiento íntimo se vuelve vínculo transformador.",
+          "source_document_ids": [
+            "s2024-752f61769347::s000",
+            "s2024-752f61769347::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "fear",
+          "reading": "Deseo compartido convive con temor anticipado.",
+          "source_document_ids": [
+            "s2024-752f61769347::s002",
+            "s2024-752f61769347::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b005",
+            "b006"
+          ],
+          "state": "care",
+          "reading": "La canción prioriza un tono más amable.",
+          "source_document_ids": [
+            "s2024-752f61769347::s004",
+            "s2024-752f61769347::s005"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "Del recogimiento mental pasa a la relación."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "turn",
+          "reading": "Del temor anticipado vuelve a un cuidado expresivo."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "7a12a81f9a70e107ba1be0b3d19996b68514262758d833808bacc137f8960fe9",
+    "input_tokens": 1236,
+    "output_tokens": 213,
+    "accounted_usd": 0.0018855,
+    "reserved_usd": 0.00702,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.3795987920020707,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_aaf42d4d8a9a4b8d88ae20ad8fb8a5ed"
+  },
+  {
+    "song_id": "s2021-a17cc29d59f5",
+    "anonymous_song_id": "s004",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2021,
+    "decade": 2020,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "5f54cb74efb3f47707d00c6c7000415bd44c365a019b24c6a4afebcb4bd9ebe9",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "explicit",
+      "fear_polarity": "denied",
+      "arc": "mixed",
+      "subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ],
+      "label": "Reclamo filial y defensa corporal",
+      "summary": "Voz íntima celebra y defiende cuerpo materno.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "confrontation",
+          "reading": "Interpela a la madre con reproche afectuoso y llamado público.",
+          "source_document_ids": [
+            "s2021-a17cc29d59f5::s000",
+            "s2021-a17cc29d59f5::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b004",
+            "b007"
+          ],
+          "state": "celebration",
+          "reading": "Exalta vínculo materno y lo vuelve consigna colectiva.",
+          "source_document_ids": [
+            "s2021-a17cc29d59f5::s003",
+            "s2021-a17cc29d59f5::s006"
+          ]
+        },
+        {
+          "ids": [
+            "b008"
+          ],
+          "state": "negation",
+          "reading": "Nombra miedo ajeno al cuerpo y lo rebate.",
+          "source_document_ids": [
+            "s2021-a17cc29d59f5::s007"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "Pasa del reclamo íntimo a la exaltación común."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "confrontation",
+          "reading": "La celebración desemboca en defensa explícita del cuerpo."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "133ca7956017d6c987b6e6b826a4041ab343ffc7b3d95af54ae93ba06d759683",
+    "input_tokens": 1362,
+    "output_tokens": 227,
+    "accounted_usd": 0.002043,
+    "reserved_usd": 0.0071625,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.4593292079516686,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_f296489b5aa542069d00dfa437cce104"
+  },
+  {
+    "song_id": "s2002-74fa275abd80",
+    "anonymous_song_id": "s005",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2002,
+    "decade": 2000,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "b7b4e87c30953c7711c7cf951f198db5102d9610b75e0ed9f90b3af498809349",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "implied",
+      "fear_polarity": "hypothetical",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ],
+      "label": "Ruego afectivo ante pérdidas posibles",
+      "summary": "Pide protección para vínculos, vida y memoria.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "care",
+          "reading": "Ruego por cercanía, familia y comunidad herida.",
+          "source_document_ids": [
+            "s2002-74fa275abd80::s000",
+            "s2002-74fa275abd80::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "reflection",
+          "reading": "Desea más tiempo y amor sin ruptura.",
+          "source_document_ids": [
+            "s2002-74fa275abd80::s002",
+            "s2002-74fa275abd80::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b005",
+            "b011"
+          ],
+          "state": "reflection",
+          "reading": "La súplica se repite como hábito insistente.",
+          "source_document_ids": [
+            "s2002-74fa275abd80::s004",
+            "s2002-74fa275abd80::s010"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "Pasa de pedir resguardo a pedir permanencia."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "La fórmula vuelve sin cambiar la postura."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "ee3e908f1cd5c0cbfd208985f4e1b1d6023392153f427bf15fd615e660dd93e0",
+    "input_tokens": 1577,
+    "output_tokens": 218,
+    "accounted_usd": 0.00216375,
+    "reserved_usd": 0.0078015,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.7094193330267444,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_a7b4cc77ffe746c2a37ac0ae553ff2ad"
+  },
+  {
+    "song_id": "s2017-2c3252eb3c12",
+    "anonymous_song_id": "s006",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2017,
+    "decade": 2010,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "94a668b29ccfd75ef94c422ffde00f0ca7b1c583ec5035053bbed98c0b30e050",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "16f876311e95f53f2250e8b29d9b24f0358113f29647e1f8cd71fa0e5cb4341f",
+    "input_tokens": 1404,
+    "output_tokens": 208,
+    "accounted_usd": 0.001989,
+    "reserved_usd": 0.00734625,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.7300326250260696,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_5489c827f0ad4131b282e5d652a51bf8"
+  },
+  {
+    "song_id": "s1992-92d3c88cd13e",
+    "anonymous_song_id": "s007",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1992,
+    "decade": 1990,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "7d3ed6345237ddd5c240afd737f6da765937a40d1e2bd6188875ca915bdeabb2",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ],
+      "label": "Autoimagen frágil ante vínculo desigual",
+      "summary": "Voz en primera persona oscila entre deseo y desajuste.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "reflection",
+          "reading": "Admira al otro y se rebaja.",
+          "source_document_ids": [
+            "s1992-92d3c88cd13e::s000",
+            "s1992-92d3c88cd13e::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "loss",
+          "reading": "Busca ser notado mientras la otra huye.",
+          "source_document_ids": [
+            "s1992-92d3c88cd13e::s002",
+            "s1992-92d3c88cd13e::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b005"
+          ],
+          "state": "negation",
+          "reading": "Repite exclusión y no pertenencia.",
+          "source_document_ids": [
+            "s1992-92d3c88cd13e::s004"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "contrast",
+          "reading": "Pasa de idealización a distancia."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "La exclusión se reafirma sin cambio."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "4045fc24e6197ef40a7f1d794f1ecfc79e1937dad645453377d23f41fb6e5cba",
+    "input_tokens": 1146,
+    "output_tokens": 211,
+    "accounted_usd": 0.001809,
+    "reserved_usd": 0.00673125,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.383344041998498,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_246266831d3243a3bace230b2d8f7de8"
+  },
+  {
+    "song_id": "s2013-877c19a80720",
+    "anonymous_song_id": "s008",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2013,
+    "decade": 2010,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "9bea86a42cb4c88596b43d07c713814d7a3df35ecacf64dfc89775c587e20a23",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "other",
+        "uncertainty_change"
+      ],
+      "label": "Afirmación vital repetida",
+      "summary": "Predomina una voz que insiste en vivir y seguir.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "celebration",
+          "reading": "Repite una afirmación gozosa y corporal.",
+          "source_document_ids": [
+            "s2013-877c19a80720::s000",
+            "s2013-877c19a80720::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "reflection",
+          "reading": "Introduce heridas, lluvia y sentido del dolor.",
+          "source_document_ids": [
+            "s2013-877c19a80720::s002",
+            "s2013-877c19a80720::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b006",
+            "b011"
+          ],
+          "state": "agency",
+          "reading": "Propone atención, avance y orientación hacia adelante.",
+          "source_document_ids": [
+            "s2013-877c19a80720::s005",
+            "s2013-877c19a80720::s010"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "La celebración incorpora una reflexión sobre el dolor."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "turn",
+          "reading": "La reflexión deriva en impulso de avance."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "458e1de70509abee17f8b7bf020a54454c285241d22c521ea70e3b6033d04549",
+    "input_tokens": 1465,
+    "output_tokens": 207,
+    "accounted_usd": 0.00203025,
+    "reserved_usd": 0.00729375,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.9844639590010047,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_4c80726d7f5344a7b749b138de811910"
+  },
+  {
+    "song_id": "s2000-8ece8cb48467",
+    "anonymous_song_id": "s009",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2000,
+    "decade": 2000,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "5ac99a090eeb7eb649fc99513c13b8db98f762953e936ff7e529590b0ebea35e",
+    "reading": {
+      "voice": "dialogue_or_multiple",
+      "stance": "resistance",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "arc": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "relational_coercion"
+      ],
+      "label": "Vínculo obsesivo y respuesta tardía",
+      "summary": "Relación tensa entre admiración, reclamo y daño.",
+      "steps": [
+        {
+          "ids": [
+            "b003",
+            "b006"
+          ],
+          "state": "reflection",
+          "reading": "Aparece una admiración insistente y espera respuesta.",
+          "source_document_ids": [
+            "s2000-8ece8cb48467::s002",
+            "s2000-8ece8cb48467::s005"
+          ]
+        },
+        {
+          "ids": [
+            "b008",
+            "b013"
+          ],
+          "state": "confrontation",
+          "reading": "Crece el reclamo afectivo y la posesión simbólica.",
+          "source_document_ids": [
+            "s2000-8ece8cb48467::s007",
+            "s2000-8ece8cb48467::s012"
+          ]
+        },
+        {
+          "ids": [
+            "b015",
+            "b020"
+          ],
+          "state": "threat",
+          "reading": "La exigencia deriva en violencia y riesgo extremo.",
+          "source_document_ids": [
+            "s2000-8ece8cb48467::s014",
+            "s2000-8ece8cb48467::s019"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "Pasa de la espera al reproche directo."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "confrontation",
+          "reading": "El reproche se vuelve amenaza y daño."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "eca5116b7e59fd8d06608af33f9b80bc578338804e8cc560fa71f3871463d2ba",
+    "input_tokens": 2856,
+    "output_tokens": 227,
+    "accounted_usd": 0.0031635,
+    "reserved_usd": 0.01170225,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.310922832984943,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_436c093d79e24a829aa6d4a0e8cdd94e"
+  },
+  {
+    "song_id": "s2022-d221fdb58fc4",
+    "anonymous_song_id": "s010",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2022,
+    "decade": 2020,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "6b1b1d8893f05396460274caa2b250838d2dcd723324c4a75c375e1eaddb04e1",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "b7703aa32672c0f5085380875e484dbcd3cda00dcf1fd9a1c370126aaeb2194d",
+    "input_tokens": 1614,
+    "output_tokens": 212,
+    "accounted_usd": 0.0021645,
+    "reserved_usd": 0.00760125,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.403759583015926,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_28666049ffe243b190cf8a34a9860c33"
+  },
+  {
+    "song_id": "s2013-608a7aee9a18",
+    "anonymous_song_id": "s011",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2013,
+    "decade": 2010,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "ee8e46937a221964817a5997589e75917395f5eb3c1ab935be30164ba95d3aad",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "other"
+      ],
+      "label": "Afirmación alegre frente a intento de bajarla",
+      "summary": "Voz en primera persona sostiene alegría y rechazo al descenso.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "celebration",
+          "reading": "Presentación jubilosa con imagen de ligereza y distancia.",
+          "source_document_ids": [
+            "s2013-608a7aee9a18::s000",
+            "s2013-608a7aee9a18::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b004",
+            "b006"
+          ],
+          "state": "confrontation",
+          "reading": "Responde a malas noticias negando su efecto.",
+          "source_document_ids": [
+            "s2013-608a7aee9a18::s003",
+            "s2013-608a7aee9a18::s005"
+          ]
+        },
+        {
+          "ids": [
+            "b009",
+            "b010"
+          ],
+          "state": "reflection",
+          "reading": "Reitera la misma afirmación sin cambio visible.",
+          "source_document_ids": [
+            "s2013-608a7aee9a18::s008",
+            "s2013-608a7aee9a18::s009"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "confrontation",
+          "reading": "La alegría inicial enfrenta el intento de desánimo."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "La respuesta se mantiene y se repite."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "5a802e48ca4701e7c29338b382af269f5a5220d1197229860e9c873e49e3f454",
+    "input_tokens": 1439,
+    "output_tokens": 220,
+    "accounted_usd": 0.00206925,
+    "reserved_usd": 0.0076245,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.1110827089869417,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_51bbab96fb01423f89442324f2d0bdf5"
+  },
+  {
+    "song_id": "s2004-58ef65dc2ae6",
+    "anonymous_song_id": "s012",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2004,
+    "decade": 2000,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "d3dff5224c68e1162e39ead24346f5a544e00e2f944eeb8986068b6dfbb95c9c",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "1f1751fbd5b81d680ede9e2438d890d93caf318572d8c0b388100108a05325b9",
+    "input_tokens": 1332,
+    "output_tokens": 224,
+    "accounted_usd": 0.002007,
+    "reserved_usd": 0.00717075,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.307376499986276,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_1d43d7fd73f84888b91fc33172b55cc1"
+  },
+  {
+    "song_id": "s1984-8b16c1dac4a9",
+    "anonymous_song_id": "s013",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1984,
+    "decade": 1980,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "43297c2def892653799c68e2a54b937bc1b1e3f75e32fcf148fc89963336ab8f",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "hypothetical",
+      "arc": "mixed",
+      "subtopics": [
+        "relational_coercion",
+        "uncertainty_change"
+      ],
+      "label": "Deseo festivo con reclamo relacional",
+      "summary": "Impulso lúdico y reclamo de presencia compartida.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "celebration",
+          "reading": "Impulso festivo y exaltación corporal compartida.",
+          "source_document_ids": [
+            "s1984-8b16c1dac4a9::s000",
+            "s1984-8b16c1dac4a9::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "loss",
+          "reading": "Aparece desajuste afectivo y pedido de aviso.",
+          "source_document_ids": [
+            "s1984-8b16c1dac4a9::s002",
+            "s1984-8b16c1dac4a9::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b007",
+            "b010"
+          ],
+          "state": "care",
+          "reading": "Alterna reproche, consuelo y preferencia por quedarse.",
+          "source_document_ids": [
+            "s1984-8b16c1dac4a9::s006",
+            "s1984-8b16c1dac4a9::s009"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "La euforia cede ante una falta relacional."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "contrast",
+          "reading": "El reclamo deriva hacia cuidado y resguardo."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "33d6c1f8177c5d05da92b83b5ad139a9d4435839ffdf19f5164ea9519ec328bc",
+    "input_tokens": 1553,
+    "output_tokens": 231,
+    "accounted_usd": 0.00220425,
+    "reserved_usd": 0.00783375,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.700447625014931,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_5f3c0b36a6fa417b99f92842caeab97d"
+  },
+  {
+    "song_id": "s1987-b3350477e063",
+    "anonymous_song_id": "s014",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1987,
+    "decade": 1980,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "27eab651d8388fb0bd51a7aba22e1ec7f22213ce2385649a6fbea606e50f05df",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "c86cc5545e9d089325273923059e0f170c6a4274a129b8f13d1dfbc66fb3af8d",
+    "input_tokens": 1258,
+    "output_tokens": 223,
+    "accounted_usd": 0.001947,
+    "reserved_usd": 0.00695175,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.4152016669977456,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_41e584304faa46f3a5e816392c84a84b"
+  },
+  {
+    "song_id": "s2008-4db2a4ef136d",
+    "anonymous_song_id": "s015",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2008,
+    "decade": 2000,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "c7921ab94b9da7df393c2e3891962c2bdcf51bb23284a28b0d319472dd8e1d40",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "label": "Mente alterada, salida buscada",
+      "summary": "Voz íntima oscila entre desorden mental y escape.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "reflection",
+          "reading": "Se formula malestar interno y bloqueo mental.",
+          "source_document_ids": [
+            "s2008-4db2a4ef136d::s000",
+            "s2008-4db2a4ef136d::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b005"
+          ],
+          "state": "threat",
+          "reading": "Se presenta una amenaza mental que altera la percepción.",
+          "source_document_ids": [
+            "s2008-4db2a4ef136d::s002",
+            "s2008-4db2a4ef136d::s004"
+          ]
+        },
+        {
+          "ids": [
+            "b007",
+            "b012"
+          ],
+          "state": "loss",
+          "reading": "Aparecen aislamiento y deseo de liberación.",
+          "source_document_ids": [
+            "s2008-4db2a4ef136d::s006",
+            "s2008-4db2a4ef136d::s011"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "El malestar pasa a amenaza mental nombrada."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "unresolved",
+          "reading": "La amenaza persiste y se pide salida."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "435dc101beb069548b1840c52d0f29e28f62aa4f1bf0333656caf6e173a8bef8",
+    "input_tokens": 1865,
+    "output_tokens": 213,
+    "accounted_usd": 0.00235725,
+    "reserved_usd": 0.0084975,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.199988833977841,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_af14b9f940f24af2818207c2a71dcdc4"
+  },
+  {
+    "song_id": "s1994-56ff6ca6c8bb",
+    "anonymous_song_id": "s016",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1994,
+    "decade": 1990,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "819fb2b71ab0b33c6bb17bca9cda2b7d379248f57a348e409f6d94f0f7f29633",
+    "reading": {
+      "voice": "first_collective",
+      "stance": "resistance",
+      "fear_relevance": "implied",
+      "fear_polarity": "unclear",
+      "arc": "repetition",
+      "subtopics": [
+        "collective_violence",
+        "uncertainty_change"
+      ],
+      "label": "Denuncia repetida de violencia colectiva",
+      "summary": "Voz plural cuestiona violencia persistente y confusión.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "threat",
+          "reading": "Se presenta daño colectivo y distanciamiento defensivo.",
+          "source_document_ids": [
+            "s1994-56ff6ca6c8bb::s000",
+            "s1994-56ff6ca6c8bb::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b005",
+            "b006"
+          ],
+          "state": "reflection",
+          "reading": "Se insiste en continuidad histórica y duda compartida.",
+          "source_document_ids": [
+            "s1994-56ff6ca6c8bb::s004",
+            "s1994-56ff6ca6c8bb::s005"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "repetition",
+          "reading": "La denuncia se repite con alcance histórico."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "e881f970ca5250d1c8cc80231a74bc38af4fb21695e2ed25c417fc31a565f037",
+    "input_tokens": 1236,
+    "output_tokens": 166,
+    "accounted_usd": 0.001674,
+    "reserved_usd": 0.00688725,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.960371833993122,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_58b1649836ab4e33af4fb1c5faefed91"
+  },
+  {
+    "song_id": "s1999-e3d46788c16b",
+    "anonymous_song_id": "s017",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1999,
+    "decade": 1990,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "b73749b6d71ca3fb8ef75f1bf0e85961fec1eb0e3df93c4a6db1183136b4aee4",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "unclear",
+      "arc": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ],
+      "label": "Aislamiento espacial y deseo de regreso",
+      "summary": "Voz única entre distancia, control y añoranza.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "exposure",
+          "reading": "Observa señales apagadas y deriva sin contacto.",
+          "source_document_ids": [
+            "s1999-e3d46788c16b::s000",
+            "s1999-e3d46788c16b::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "agency",
+          "reading": "Se afirma como mando, aunque sigue lejos.",
+          "source_document_ids": [
+            "s1999-e3d46788c16b::s002",
+            "s1999-e3d46788c16b::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b005",
+            "b006"
+          ],
+          "state": "reflection",
+          "reading": "Aparece deseo de volver y rutina suspendida.",
+          "source_document_ids": [
+            "s1999-e3d46788c16b::s004",
+            "s1999-e3d46788c16b::s005"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "contrast",
+          "reading": "Pasa de desamparo a autoafirmación."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "turn",
+          "reading": "La distancia persiste, pero surge añoranza."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "5276e8bcd26001e32893a251adb475949e9918046a1777d55c9b7bd9b095700e",
+    "input_tokens": 1078,
+    "output_tokens": 218,
+    "accounted_usd": 0.0017895,
+    "reserved_usd": 0.00656175,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.309369708003942,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_d449accb99f747f3a3b1473cacd25e63"
+  },
+  {
+    "song_id": "s2014-27b61f0565ce",
+    "anonymous_song_id": "s018",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2014,
+    "decade": 2010,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "b44d5168a6b0110877bfd2204f89118151d75fe665136dbc2623c807a25ffdf5",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "hypothetical",
+      "arc": "mixed",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "label": "Memoria afectiva y duda persistente",
+      "summary": "Recuerdo íntimo con duda sobre seguridad.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "reflection",
+          "reading": "Recuerdo íntimo con contraste afectivo.",
+          "source_document_ids": [
+            "s2014-27b61f0565ce::s000",
+            "s2014-27b61f0565ce::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b006"
+          ],
+          "state": "unclear",
+          "reading": "Pregunta repetida sobre seguridad incierta.",
+          "source_document_ids": [
+            "s2014-27b61f0565ce::s002",
+            "s2014-27b61f0565ce::s005"
+          ]
+        },
+        {
+          "ids": [
+            "b013",
+            "b016"
+          ],
+          "state": "confrontation",
+          "reading": "Accidente, alivio y revisión del vínculo.",
+          "source_document_ids": [
+            "s2014-27b61f0565ce::s012",
+            "s2014-27b61f0565ce::s015"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "repetition",
+          "reading": "La duda se repite sin resolverse."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "turn",
+          "reading": "El recuerdo incorpora daño y alivio."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "58aaa3ef969ede9350d80dd470baa322dbd978410effac22a359aa20727a35f8",
+    "input_tokens": 1998,
+    "output_tokens": 209,
+    "accounted_usd": 0.002439,
+    "reserved_usd": 0.00890925,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.0525765419588424,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_2bcc25d0d3ff44459c722d11aed3f5a0"
+  },
+  {
+    "song_id": "s2015-c11afde63d3a",
+    "anonymous_song_id": "s019",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2015,
+    "decade": 2010,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "c520d167c382174beb32b052ffe3c389c957a7e4efacf9bb80d11ca6ab68349b",
+    "reading": {
+      "voice": "first_collective",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "arc": "mixed",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "label": "Identidad frágil ante cambio social",
+      "summary": "Deseo creativo choca con presión adulta.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b003"
+          ],
+          "state": "reflection",
+          "reading": "La voz compara aspiración artística con autopercepción frágil.",
+          "source_document_ids": [
+            "s2015-c11afde63d3a::s000",
+            "s2015-c11afde63d3a::s002"
+          ]
+        },
+        {
+          "ids": [
+            "b004",
+            "b006"
+          ],
+          "state": "confrontation",
+          "reading": "La presión económica desplaza el juego y la imaginación.",
+          "source_document_ids": [
+            "s2015-c11afde63d3a::s003",
+            "s2015-c11afde63d3a::s005"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "contrast",
+          "reading": "El contraste une deseo personal y exigencia externa."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "d736f07d01952db8fc089fd7c6fd788156fb76506f1a1735476bc6d8b7b307ed",
+    "input_tokens": 1600,
+    "output_tokens": 164,
+    "accounted_usd": 0.001938,
+    "reserved_usd": 0.00813975,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.943110375024844,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_cb30ab240ab146e58dd40969a79e1dd3"
+  },
+  {
+    "song_id": "s2026-2e43c234ac58",
+    "anonymous_song_id": "s020",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2026,
+    "decade": 2020,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "062f729aaee81bb54e2674aed41d18a661dad4251649ae6bc5f22c8a278da51a",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "hypothetical",
+      "arc": "turn",
+      "subtopics": [
+        "relational_coercion",
+        "uncertainty_change"
+      ],
+      "label": "Duda íntima y vínculo insistente",
+      "summary": "Avanza de ajuste incierto a apego insistente.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "reflection",
+          "reading": "Ajuste personal con impulso de limpieza.",
+          "source_document_ids": [
+            "s2026-2e43c234ac58::s000",
+            "s2026-2e43c234ac58::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "unclear",
+          "reading": "Autorrevisión y vínculo que aclara.",
+          "source_document_ids": [
+            "s2026-2e43c234ac58::s002",
+            "s2026-2e43c234ac58::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b005",
+            "b007"
+          ],
+          "state": "exposure",
+          "reading": "Permanencia afectiva ante espacios desconocidos.",
+          "source_document_ids": [
+            "s2026-2e43c234ac58::s004",
+            "s2026-2e43c234ac58::s006"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "La revisión abre una certeza relacional."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "confrontation",
+          "reading": "La certeza convive con desorientación y límite."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "b2632e6bf5fdc5d69307cb927d9da860b3b678f2850edc20bbd227c15816f7a2",
+    "input_tokens": 1277,
+    "output_tokens": 217,
+    "accounted_usd": 0.00193425,
+    "reserved_usd": 0.00724275,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.991591458034236,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_79602e1ed7fd4470aee1e45b8154db03"
+  },
+  {
+    "song_id": "s1991-d25354f1d8f0",
+    "anonymous_song_id": "s021",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1991,
+    "decade": 1990,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "3ff49dab3841ca55100a1b13f6aa477b521442d0346e6ba4e08d7e916bf12c31",
+    "reading": {
+      "voice": "dialogue_or_multiple",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "hypothetical",
+      "arc": "mixed",
+      "subtopics": [
+        "supernatural",
+        "uncertainty_change"
+      ],
+      "label": "Protección nocturna y amenaza imaginada",
+      "summary": "Protección infantil convive con imágenes nocturnas inquietantes.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "care",
+          "reading": "Voz protectora guía al descanso y al umbral nocturno.",
+          "source_document_ids": [
+            "s1991-d25354f1d8f0::s000",
+            "s1991-d25354f1d8f0::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b005"
+          ],
+          "state": "threat",
+          "reading": "Aparecen pensamientos pesados y presencias temidas en la intimidad.",
+          "source_document_ids": [
+            "s1991-d25354f1d8f0::s002",
+            "s1991-d25354f1d8f0::s004"
+          ]
+        },
+        {
+          "ids": [
+            "b006",
+            "b010"
+          ],
+          "state": "celebration",
+          "reading": "El estribillo insiste en el paso hacia un lugar incierto.",
+          "source_document_ids": [
+            "s1991-d25354f1d8f0::s005",
+            "s1991-d25354f1d8f0::s009"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "contrast",
+          "reading": "La protección inicial contrasta con la irrupción de amenazas imaginadas."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "turn",
+          "reading": "La inquietud se desplaza hacia una repetición de avance nocturno."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "3621232b63d8f9c709afe45a5f4f6d2465f6c32e3f79e922122f397671d0d3d0",
+    "input_tokens": 1318,
+    "output_tokens": 241,
+    "accounted_usd": 0.002073,
+    "reserved_usd": 0.007197,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.1708182499860413,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_f9a841282b76498ea2951edec9963fff"
+  },
+  {
+    "song_id": "s2000-a62b1066ea67",
+    "anonymous_song_id": "s022",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2000,
+    "decade": 2000,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "79ec3e8fc97c4f7ab1e3f81ac060c6f5ec4836e1a63e85cae69f3c7883b96635",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "5240265918182952fdb68486c8698e280761527b14d76fbf952d3c226e48a43d",
+    "input_tokens": 1241,
+    "output_tokens": 226,
+    "accounted_usd": 0.00194775,
+    "reserved_usd": 0.00710325,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.07305579201784,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_af6f93a15c3048a7b20c07e933502961"
+  },
+  {
+    "song_id": "s2022-460a59f8aa02",
+    "anonymous_song_id": "s023",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2022,
+    "decade": 2020,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "e59430341b457b6716e6d603f42553f3f140a6760a66d724a24dbfce743d6c0e",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ],
+      "label": "Autorreproche y desajuste persistentes",
+      "summary": "Voz en primera persona se juzga y se desajusta.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "reflection",
+          "reading": "Autocrítica y desajuste personal se repiten.",
+          "source_document_ids": [
+            "s2022-460a59f8aa02::s000",
+            "s2022-460a59f8aa02::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "exposure",
+          "reading": "Se intensifica la exposición de rasgos problemáticos.",
+          "source_document_ids": [
+            "s2022-460a59f8aa02::s002",
+            "s2022-460a59f8aa02::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b005",
+            "b006"
+          ],
+          "state": "loss",
+          "reading": "Aparecen pérdidas imaginadas y culpa reiterada.",
+          "source_document_ids": [
+            "s2022-460a59f8aa02::s004",
+            "s2022-460a59f8aa02::s005"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "repetition",
+          "reading": "La autocrítica continúa sin cambio claro."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "La culpa vuelve con imágenes de pérdida."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "ef238d3b8f459ababde4b7057d91aab4281de68c49c62ee9f685bcd274caabbb",
+    "input_tokens": 1393,
+    "output_tokens": 221,
+    "accounted_usd": 0.00203925,
+    "reserved_usd": 0.0075135,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.003922790987417,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_aa2c3ea3d7da4bd492a0c9afe22fc0bd"
+  },
+  {
+    "song_id": "s2014-e8f5796fbb18",
+    "anonymous_song_id": "s024",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2014,
+    "decade": 2010,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "efb96dba00da8c406caeda7dfaa484f5c4191f338fff9cb3aaaa7de00920ae4c",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "61b7131d074480cd3b23728726068909019025fce393176b1af395aec895e2b0",
+    "input_tokens": 1784,
+    "output_tokens": 166,
+    "accounted_usd": 0.002085,
+    "reserved_usd": 0.00828975,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.9015331250266172,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_0649872e30b94d9aa451b7042d718674"
+  },
+  {
+    "song_id": "s2021-27c16cbb8cff",
+    "anonymous_song_id": "s025",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2021,
+    "decade": 2020,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "533c262c009af613603c84050ede87862483fa4c4543a7f36956c0e0c86b9b56",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "e4e238b8e97bae50889a73334e77c3f5ff21668159441aa70132b6c803bdbf74",
+    "input_tokens": 1254,
+    "output_tokens": 225,
+    "accounted_usd": 0.001953,
+    "reserved_usd": 0.00706425,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.3289029999868944,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_d501f766660540c98b9769e26e3ecf3e"
+  },
+  {
+    "song_id": "s1983-753cd2a7d41b",
+    "anonymous_song_id": "s026",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1983,
+    "decade": 1980,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "02a27d2185afd0eaa57e47527b54361d8979f785551e63ef3faae4d053e1b93b",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "avoidance",
+      "fear_relevance": "explicit",
+      "fear_polarity": "affirmed",
+      "arc": "repetition",
+      "subtopics": [
+        "surveillance_pursuit",
+        "uncertainty_change"
+      ],
+      "label": "Vigilancia percibida y duda persistente",
+      "summary": "Voz única pide privacidad y duda constante.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "exposure",
+          "reading": "Pregunta por observación ajena y desea aislamiento cotidiano.",
+          "source_document_ids": [
+            "s1983-753cd2a7d41b::s000",
+            "s1983-753cd2a7d41b::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b007"
+          ],
+          "state": "fear",
+          "reading": "Declara vigilancia continua, inseguridad y sospecha múltiple.",
+          "source_document_ids": [
+            "s1983-753cd2a7d41b::s002",
+            "s1983-753cd2a7d41b::s006"
+          ]
+        },
+        {
+          "ids": [
+            "b012",
+            "b013"
+          ],
+          "state": "avoidance",
+          "reading": "Reitera molestia, pide privacidad y rechazo persistente.",
+          "source_document_ids": [
+            "s1983-753cd2a7d41b::s011",
+            "s1983-753cd2a7d41b::s012"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "repetition",
+          "reading": "La sospecha se amplía sin resolverse."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "La queja vuelve a insistir en resguardo."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "c50a57e8ef4ff093dcad37888b095863ac12bd6d5783bd0e864a6ae00d8cf941",
+    "input_tokens": 1638,
+    "output_tokens": 226,
+    "accounted_usd": 0.0022455,
+    "reserved_usd": 0.008106,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.603298708971124,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_2139e8579f9f4f6ca0f1814d59bc4795"
+  },
+  {
+    "song_id": "s1990-5b29a6fedb71",
+    "anonymous_song_id": "s027",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1990,
+    "decade": 1990,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "1de133e6f12f2bd802a79bf23422e2a45b64a88beb397be6eac4fd72d96be9ab",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "explicit",
+      "fear_polarity": "hypothetical",
+      "arc": "repetition",
+      "subtopics": [
+        "loss_abandonment",
+        "relational_coercion"
+      ],
+      "label": "Búsqueda insistente ante ausencia afectiva",
+      "summary": "Voz única insiste en buscar y reclamar cercanía.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "loss",
+          "reading": "Dolor por ausencia y distancia afectiva.",
+          "source_document_ids": [
+            "s1990-5b29a6fedb71::s000",
+            "s1990-5b29a6fedb71::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b004"
+          ],
+          "state": "agency",
+          "reading": "Búsqueda concreta sin hallazgo ni alivio.",
+          "source_document_ids": [
+            "s1990-5b29a6fedb71::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b008"
+          ],
+          "state": "reflection",
+          "reading": "Reiteración final sostiene la misma insistencia.",
+          "source_document_ids": [
+            "s1990-5b29a6fedb71::s007"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "Pasa del lamento a la búsqueda activa."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "La insistencia vuelve sin resolver la falta."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "e083566e0c0089694dbd516401fbb517e950cc84fa492c65f67d6c385e66d580",
+    "input_tokens": 1266,
+    "output_tokens": 212,
+    "accounted_usd": 0.0019035,
+    "reserved_usd": 0.006918,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.9520710419747047,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_2b77ed7098b841e885e6ba2f21b7c5d3"
+  },
+  {
+    "song_id": "s1986-9726c0e33862",
+    "anonymous_song_id": "s028",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1986,
+    "decade": 1980,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "c92856ed0bc256bad1689a283112dc942f4a3b0e13fa968bc7dda000a8d66b39",
+    "reading": {
+      "voice": "third_person_story",
+      "stance": "other",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "arc": "mixed",
+      "subtopics": [
+        "collective_violence",
+        "relational_coercion"
+      ],
+      "label": "Conflicto íntimo y violencia externa",
+      "summary": "Relación tensa deriva hacia agresión mortal.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "reflection",
+          "reading": "Rutina compartida con desgaste y tensión.",
+          "source_document_ids": [
+            "s1986-9726c0e33862::s000",
+            "s1986-9726c0e33862::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b004",
+            "b006"
+          ],
+          "state": "threat",
+          "reading": "Redada, engaño y muerte alteran la escena.",
+          "source_document_ids": [
+            "s1986-9726c0e33862::s003",
+            "s1986-9726c0e33862::s005"
+          ]
+        },
+        {
+          "ids": [
+            "b007",
+            "b008"
+          ],
+          "state": "unclear",
+          "reading": "Se reubica la culpa en agresores y rumor.",
+          "source_document_ids": [
+            "s1986-9726c0e33862::s006",
+            "s1986-9726c0e33862::s007"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "La espera cotidiana cede ante la irrupción violenta."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "unresolved",
+          "reading": "La versión final no cierra del todo el sentido."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "c15dc144a69710fc9be091cda0d015ad3c6446a7aff67b548cfdebe7142b2a5e",
+    "input_tokens": 1361,
+    "output_tokens": 221,
+    "accounted_usd": 0.00201525,
+    "reserved_usd": 0.00725775,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.0800027910154313,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_fb16a389cf6d4f53b42eaba3792869ec"
+  },
+  {
+    "song_id": "s2020-6f072260cb90",
+    "anonymous_song_id": "s029",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2020,
+    "decade": 2020,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "1d362ef396064c0d7589e5d355a007200a00ed023adfdfe0aa27084c32755197",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "unclear",
+      "arc": "turn",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "label": "Voz íntima entre quiebre y avance",
+      "summary": "Una voz íntima oscila entre bloqueo y recuperación.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "unclear",
+          "reading": "Bloqueo expresivo y pérdida de centro personal.",
+          "source_document_ids": [
+            "s2020-6f072260cb90::s000",
+            "s2020-6f072260cb90::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b009"
+          ],
+          "state": "reflection",
+          "reading": "Rumiación interna nombra una ansiedad persistente.",
+          "source_document_ids": [
+            "s2020-6f072260cb90::s002",
+            "s2020-6f072260cb90::s008"
+          ]
+        },
+        {
+          "ids": [
+            "b010",
+            "b011"
+          ],
+          "state": "agency",
+          "reading": "Aparece un giro hacia sostén y posibilidad.",
+          "source_document_ids": [
+            "s2020-6f072260cb90::s009",
+            "s2020-6f072260cb90::s010"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "confrontation",
+          "reading": "La tensión interna se vuelve más explícita."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "turn",
+          "reading": "La autopercepción pasa de quiebre a impulso."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "9c6d2529611c35f6578b4fe4fcab5a45d50c3c9e712d77dbaad6aafd488b0a99",
+    "input_tokens": 1470,
+    "output_tokens": 221,
+    "accounted_usd": 0.002097,
+    "reserved_usd": 0.00752025,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.260927499970421,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_de80ef97064d4a05bb18c8063f45d3c4"
+  },
+  {
+    "song_id": "s1993-a759a1183939",
+    "anonymous_song_id": "s030",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1993,
+    "decade": 1990,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "466621396b53028e6afc8b5e17c5319921f942eb3da215dfe8fa9187aaf075ba",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "explicit",
+      "fear_polarity": "denied",
+      "arc": "mixed",
+      "subtopics": [
+        "collective_violence",
+        "surveillance_pursuit"
+      ],
+      "label": "Persecución y resistencia negada",
+      "summary": "Voz perseguida afirma combate y niega miedo.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b004"
+          ],
+          "state": "threat",
+          "reading": "Aparece búsqueda hostil y espera armada.",
+          "source_document_ids": [
+            "s1993-a759a1183939::s000",
+            "s1993-a759a1183939::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b008",
+            "b010"
+          ],
+          "state": "confrontation",
+          "reading": "La amenaza policial se vuelve choque y resistencia.",
+          "source_document_ids": [
+            "s1993-a759a1183939::s007",
+            "s1993-a759a1183939::s009"
+          ]
+        },
+        {
+          "ids": [
+            "b012"
+          ],
+          "state": "negation",
+          "reading": "La voz rechaza el miedo y reivindica justicia.",
+          "source_document_ids": [
+            "s1993-a759a1183939::s011"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "confrontation",
+          "reading": "La persecución deriva en enfrentamiento."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "turn",
+          "reading": "La violencia se reinterpreta como causa justa."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "924f655083abbd82ddca69329e0db0360497259509d84ac9cb07141b7d8b498d",
+    "input_tokens": 1516,
+    "output_tokens": 215,
+    "accounted_usd": 0.0021045,
+    "reserved_usd": 0.00759375,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.08796816697577,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_4ed5ba1475fd4b4bb3435a1e1f030f83"
+  },
+  {
+    "song_id": "s2023-dd058a9c7e57",
+    "anonymous_song_id": "s031",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2023,
+    "decade": 2020,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "8141126f963e73cd9e2831ff5181800a29b9d70a7fc4ef9d4b2c3e95eb652154",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ],
+      "label": "Autonomía tras ruptura",
+      "summary": "Repite duelo y autoafirmación personal.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "loss",
+          "reading": "Pérdida afectiva y quiebre compartido.",
+          "source_document_ids": [
+            "s2023-dd058a9c7e57::s000",
+            "s2023-dd058a9c7e57::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b005"
+          ],
+          "state": "agency",
+          "reading": "Autoapoyo frente a la herida.",
+          "source_document_ids": [
+            "s2023-dd058a9c7e57::s002",
+            "s2023-dd058a9c7e57::s004"
+          ]
+        },
+        {
+          "ids": [
+            "b007",
+            "b010"
+          ],
+          "state": "agency",
+          "reading": "Reafirma independencia y cuidado propio.",
+          "source_document_ids": [
+            "s2023-dd058a9c7e57::s006",
+            "s2023-dd058a9c7e57::s009"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "Del derrumbe pasa al sostén propio."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "La afirmación se intensifica sin cambiar."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "4976f85fe7e4474a9598dee2dd581f59451ac4193dc0bea7fee7bfcd9f699cac",
+    "input_tokens": 1421,
+    "output_tokens": 208,
+    "accounted_usd": 0.00200175,
+    "reserved_usd": 0.007509,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.35793062497396,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_c722cade4cad4bd9b04608c1fb0b105c"
+  },
+  {
+    "song_id": "s2019-1f8fdfe5b713",
+    "anonymous_song_id": "s032",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2019,
+    "decade": 2010,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "81bbaedbf41567e1f0428142660555a63245291679295149a7245056aca25f79",
+    "reading": {
+      "voice": "dialogue_or_multiple",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "arc": "mixed",
+      "subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ],
+      "label": "Interrogación tensa y vínculo coercitivo",
+      "summary": "Voz múltiple entre duda, control y desgaste.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b005"
+          ],
+          "state": "reflection",
+          "reading": "Interroga la relación y su propia imagen.",
+          "source_document_ids": [
+            "s2019-1f8fdfe5b713::s000",
+            "s2019-1f8fdfe5b713::s004"
+          ]
+        },
+        {
+          "ids": [
+            "b006",
+            "b007"
+          ],
+          "state": "threat",
+          "reading": "Aparecen control, vigilancia y amenaza social.",
+          "source_document_ids": [
+            "s2019-1f8fdfe5b713::s005",
+            "s2019-1f8fdfe5b713::s006"
+          ]
+        },
+        {
+          "ids": [
+            "b008",
+            "b011"
+          ],
+          "state": "exposure",
+          "reading": "Se intensifica la dependencia y el cierre.",
+          "source_document_ids": [
+            "s2019-1f8fdfe5b713::s007",
+            "s2019-1f8fdfe5b713::s010"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "confrontation",
+          "reading": "Pasa de preguntar a dominar y advertir."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "turn",
+          "reading": "La presión externa deriva en bloqueo interno."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "0ae86155a92bc34e32c10901189fca1b6a20c0393df998adcfcdcc24d121fd4c",
+    "input_tokens": 1542,
+    "output_tokens": 213,
+    "accounted_usd": 0.002115,
+    "reserved_usd": 0.0077055,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.4654528750106692,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_5e961a5a16b24b7aaaaab1a31f675ead"
+  },
+  {
+    "song_id": "s1998-81cadc29bda5",
+    "anonymous_song_id": "s033",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1998,
+    "decade": 1990,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "0d5d108724d93d69daf724dcc9b746716ba92544f1a087e7d78bf32933efe763",
+    "reading": {
+      "voice": "impersonal",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "collective_violence",
+        "uncertainty_change"
+      ],
+      "label": "Impulso festivo contra daño social",
+      "summary": "Repite ánimo vital y critica daños colectivos.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "reflection",
+          "reading": "Corrige visiones de desigualdad y soledad.",
+          "source_document_ids": [
+            "s1998-81cadc29bda5::s000",
+            "s1998-81cadc29bda5::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b006"
+          ],
+          "state": "agency",
+          "reading": "Propone cantar y adaptarse ante cambios.",
+          "source_document_ids": [
+            "s1998-81cadc29bda5::s002",
+            "s1998-81cadc29bda5::s005"
+          ]
+        },
+        {
+          "ids": [
+            "b009",
+            "b012"
+          ],
+          "state": "confrontation",
+          "reading": "Enumera disfrute común y reproches sociales.",
+          "source_document_ids": [
+            "s1998-81cadc29bda5::s008",
+            "s1998-81cadc29bda5::s011"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "Pasa de consuelo general a acción."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "contrast",
+          "reading": "Contrasta celebración compartida con denuncia."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "685f82dfee05ee9f36e7531bf3382d7738d78f86d774c1f23c5c6e0259be0ab6",
+    "input_tokens": 1593,
+    "output_tokens": 211,
+    "accounted_usd": 0.00214425,
+    "reserved_usd": 0.0078675,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.7069346249918453,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_d4079ea9388547cd98136a21470680b3"
+  },
+  {
+    "song_id": "s2003-863da31c5eaa",
+    "anonymous_song_id": "s034",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2003,
+    "decade": 2000,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "696b40fa32a575a51d6f8b51ef6b2db19642f43fc8c3fc1ba40a88d1dfc9690b",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ],
+      "label": "Desequilibrio amoroso y autoimagen",
+      "summary": "Voz íntima celebra y se desordena ante vínculo intenso.",
+      "steps": [
+        {
+          "ids": [
+            "b004",
+            "b005"
+          ],
+          "state": "reflection",
+          "reading": "La voz admite desconcierto y dependencia afectiva.",
+          "source_document_ids": [
+            "s2003-863da31c5eaa::s003",
+            "s2003-863da31c5eaa::s004"
+          ]
+        },
+        {
+          "ids": [
+            "b007",
+            "b013"
+          ],
+          "state": "agency",
+          "reading": "La voz compara su conducta y acepta exposición.",
+          "source_document_ids": [
+            "s2003-863da31c5eaa::s006",
+            "s2003-863da31c5eaa::s012"
+          ]
+        },
+        {
+          "ids": [
+            "b014",
+            "b015"
+          ],
+          "state": "celebration",
+          "reading": "La insistencia reafirma el mismo desborde amoroso.",
+          "source_document_ids": [
+            "s2003-863da31c5eaa::s013",
+            "s2003-863da31c5eaa::s014"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "Pasa de explicar el efecto a asumirlo."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "La repetición sostiene la misma intensidad afectiva."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "1bc6a98230f72915185c766901a7ef2596a4d1391646660d7c1537941b5babf8",
+    "input_tokens": 2086,
+    "output_tokens": 224,
+    "accounted_usd": 0.0025725,
+    "reserved_usd": 0.00930975,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.8925054169958457,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_4e26c9bc64c84e85b7e34caf9c1d4e7f"
+  },
+  {
+    "song_id": "s2018-fff1d8ae4511",
+    "anonymous_song_id": "s035",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2018,
+    "decade": 2010,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "60a5c634946680124f37913d8334c8f279fe9dc3f047f41256f9e0ce86a7d3d2",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "4dd398402c936d0d946419d9eb5c2162aa5c6c557567ba2579cfff291746369d",
+    "input_tokens": 1513,
+    "output_tokens": 216,
+    "accounted_usd": 0.00210675,
+    "reserved_usd": 0.00739275,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.543244708038401,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_71f1339484a44d6784e19907071addf6"
+  },
+  {
+    "song_id": "s1982-fc0d5bdf6fc1",
+    "anonymous_song_id": "s036",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1982,
+    "decade": 1980,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "62b97cae6f94b253be939db699be5a42a85a1a2b345700bb7c5a64d71cfa4450",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "e08fe14cf4c77f03b551c9bc74102f66ea36023fb187974853eda4e527125b7e",
+    "input_tokens": 1314,
+    "output_tokens": 222,
+    "accounted_usd": 0.0019845,
+    "reserved_usd": 0.00725625,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.4463226670050062,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_cc3c2911443f4347b4d715a61e4193b7"
+  },
+  {
+    "song_id": "s2001-1b296546902b",
+    "anonymous_song_id": "s037",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2001,
+    "decade": 2000,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "50a246a5ea2ed667f2cb35d9279bd6d5c329c02bb1a90f54d27af6ce5d50e678",
+    "reading": {
+      "voice": "unclear",
+      "stance": "care",
+      "fear_relevance": "explicit",
+      "fear_polarity": "denied",
+      "arc": "repetition",
+      "subtopics": [
+        "uncertainty_change"
+      ],
+      "label": "Impulso esperanzado ante cambio incierto",
+      "summary": "Repite ánimo para abrirse al cambio.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "reflection",
+          "reading": "Observa cansancio y propone apertura.",
+          "source_document_ids": [
+            "s2001-1b296546902b::s000",
+            "s2001-1b296546902b::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b006"
+          ],
+          "state": "agency",
+          "reading": "Afirma posibilidad, cambio y salida.",
+          "source_document_ids": [
+            "s2001-1b296546902b::s002",
+            "s2001-1b296546902b::s005"
+          ]
+        },
+        {
+          "ids": [
+            "b012",
+            "b018"
+          ],
+          "state": "celebration",
+          "reading": "Reitera impulso de intentar y brillar.",
+          "source_document_ids": [
+            "s2001-1b296546902b::s011",
+            "s2001-1b296546902b::s017"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "Pasa de diagnóstico a afirmación activa."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "Vuelve sobre el mismo ánimo esperanzado."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "41ac99903021556f8151fd3f415e63199ff27eb53adb1bb05e72959542b27228",
+    "input_tokens": 1541,
+    "output_tokens": 203,
+    "accounted_usd": 0.00206925,
+    "reserved_usd": 0.00778425,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.6374080840032548,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_188046d481d04996ab2cdcdf332dd6d2"
+  },
+  {
+    "song_id": "s1986-e6cc85a542a7",
+    "anonymous_song_id": "s038",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1986,
+    "decade": 1980,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "9d2fb2b49e14b49de71bbf9b20e1be2830674a81443b3f99510f556390c9130b",
+    "reading": {
+      "voice": "third_person_story",
+      "stance": "other",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "relational_coercion"
+      ],
+      "label": "Relato mítico de deseo y daño",
+      "summary": "Relato mítico sobre deseo, violencia y abandono.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "reflection",
+          "reading": "Se presenta una leyenda con deseo insistente.",
+          "source_document_ids": [
+            "s1986-e6cc85a542a7::s000",
+            "s1986-e6cc85a542a7::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "threat",
+          "reading": "Aparece un pacto que exige una pérdida.",
+          "source_document_ids": [
+            "s1986-e6cc85a542a7::s002",
+            "s1986-e6cc85a542a7::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b007",
+            "b008"
+          ],
+          "state": "exposure",
+          "reading": "El niño distinto provoca rechazo y señalamiento.",
+          "source_document_ids": [
+            "s1986-e6cc85a542a7::s006",
+            "s1986-e6cc85a542a7::s007"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "El deseo inicial deriva en exigencia."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "confrontation",
+          "reading": "La exigencia desemboca en rechazo visible."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "47852952b6c9f80a6fada73fe5b27d3df1742c49f29b92bcee0d00f6174e49a6",
+    "input_tokens": 1475,
+    "output_tokens": 213,
+    "accounted_usd": 0.00206475,
+    "reserved_usd": 0.0074835,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.2215947919758037,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_8aef1c115cd74156957d7e62316a411a"
+  },
+  {
+    "song_id": "s1982-273644e36995",
+    "anonymous_song_id": "s039",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1982,
+    "decade": 1980,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "5df5c98846a49c56a04cd2d564d81dd4cb9031f433efaa7b283b8d2e448951ec",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "other"
+      ],
+      "label": "Rutina festiva frente a molestias",
+      "summary": "Rutina corporal festiva pese a molestias externas",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "celebration",
+          "reading": "Actividad repetida con roce vecinal molesto",
+          "source_document_ids": [
+            "s1982-273644e36995::s000",
+            "s1982-273644e36995::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "agency",
+          "reading": "Cuerpo dañado, pero mantiene movimiento",
+          "source_document_ids": [
+            "s1982-273644e36995::s002",
+            "s1982-273644e36995::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b009",
+            "b010"
+          ],
+          "state": "celebration",
+          "reading": "Repetición final sostiene el impulso festivo",
+          "source_document_ids": [
+            "s1982-273644e36995::s008",
+            "s1982-273644e36995::s009"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "contrast",
+          "reading": "Molestia y daño contrastan con control corporal"
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "El cierre repite y refuerza la misma postura"
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "1090740150ac0b855519b7970f3a1c3bf4980060463c14fa4dd40a7fe153852c",
+    "input_tokens": 1306,
+    "output_tokens": 206,
+    "accounted_usd": 0.0019065,
+    "reserved_usd": 0.0070275,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.1590057499706745,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_5ee913dde719400cb4472fcef0639541"
+  },
+  {
+    "song_id": "s1996-126a4f4bfee7",
+    "anonymous_song_id": "s040",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1996,
+    "decade": 1990,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "a86e97cad7f57e8323958dd45c685c710e95044f3f40a199c9f31fb220438354",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "other",
+        "relational_coercion"
+      ],
+      "label": "Exigencias afectivas y límites",
+      "summary": "Deseo propio con شروط relacionales y límites claros.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "agency",
+          "reading": "La voz afirma deseo propio y fija condiciones.",
+          "source_document_ids": [
+            "s1996-126a4f4bfee7::s000",
+            "s1996-126a4f4bfee7::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b004",
+            "b005"
+          ],
+          "state": "confrontation",
+          "reading": "Exige reciprocidad, amistad y respuesta sincera.",
+          "source_document_ids": [
+            "s1996-126a4f4bfee7::s003",
+            "s1996-126a4f4bfee7::s004"
+          ]
+        },
+        {
+          "ids": [
+            "b007",
+            "b009"
+          ],
+          "state": "reflection",
+          "reading": "Reitera reglas afectivas y mantiene el mismo marco.",
+          "source_document_ids": [
+            "s1996-126a4f4bfee7::s006",
+            "s1996-126a4f4bfee7::s008"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "repetition",
+          "reading": "Las condiciones se repiten sin cambiar de postura."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "La exigencia vuelve a formularse con igual sentido."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "f8da489af4a96cbd5a45f3b16af2beeafad2648342b5c4d278cbd553259ed9ef",
+    "input_tokens": 1690,
+    "output_tokens": 219,
+    "accounted_usd": 0.002253,
+    "reserved_usd": 0.0082245,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.1636953339911997,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_bfd85e929fef497e8aae8b5ab9487afe"
+  },
+  {
+    "song_id": "s1982-60e7787d2b2d",
+    "anonymous_song_id": "s001",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 1982,
+    "decade": 1980,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "ac6c4c7e391c27e2677fc4fef1baf98ef983a5b63370d746ae465ae208120185",
+    "reading": {
+      "voice": "dialogue_or_multiple",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "arc": "mixed",
+      "subtopics": [
+        "relational_coercion",
+        "surveillance_pursuit"
+      ],
+      "label": "Amenaza acecha; cercanía promete control",
+      "summary": "Caza nocturna y seducción que inmoviliza",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "threat",
+          "reading": "La noche anuncia acecho en la oscuridad",
+          "source_document_ids": [
+            "s1982-60e7787d2b2d::s000",
+            "s1982-60e7787d2b2d::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b005",
+            "b006"
+          ],
+          "state": "avoidance",
+          "reading": "Se corta la huida; surge parálisis",
+          "source_document_ids": [
+            "s1982-60e7787d2b2d::s004",
+            "s1982-60e7787d2b2d::s005"
+          ]
+        },
+        {
+          "ids": [
+            "b010",
+            "b011"
+          ],
+          "state": "confrontation",
+          "reading": "La voz ofrece abrazo, pero domina",
+          "source_document_ids": [
+            "s1982-60e7787d2b2d::s009",
+            "s1982-60e7787d2b2d::s010"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "Del anuncio al bloqueo del escape"
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "confrontation",
+          "reading": "De la huida imposible a la captura afectiva"
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "6cae8a25505cc703144fbee3c8a66651136280e84af5240bb43e06d520993f85",
+    "input_tokens": 1737,
+    "output_tokens": 215,
+    "accounted_usd": 0.0006161500000000001,
+    "reserved_usd": 0.0022956000000000005,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.8144502500072122,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_7270ec2a9c8d40989e513955bfc5ae25"
+  },
+  {
+    "song_id": "s2004-641528a4ed5c",
+    "anonymous_song_id": "s002",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2004,
+    "decade": 2000,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "3a24104af6e5bb829912c7be54da063e91cccbd38aaba826ca76f51233a81096",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "resignation",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ],
+      "label": "Luto repetido tras abandono amoroso",
+      "summary": "Pena persistente y alma oscurecida por pérdida.",
+      "steps": [
+        {
+          "ids": [
+            "b002",
+            "b003"
+          ],
+          "state": "loss",
+          "reading": "Luto interior por no ser querido",
+          "source_document_ids": [
+            "s2004-641528a4ed5c::s001",
+            "s2004-641528a4ed5c::s002"
+          ]
+        },
+        {
+          "ids": [
+            "b005",
+            "b006"
+          ],
+          "state": "exposure",
+          "reading": "Veneno amoroso deja dolor y calma rota",
+          "source_document_ids": [
+            "s2004-641528a4ed5c::s004",
+            "s2004-641528a4ed5c::s005"
+          ]
+        },
+        {
+          "ids": [
+            "b010",
+            "b011"
+          ],
+          "state": "negation",
+          "reading": "Amor se apaga; queda espera y vacío",
+          "source_document_ids": [
+            "s2004-641528a4ed5c::s009",
+            "s2004-641528a4ed5c::s010"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "La pena se vuelve daño físico-emocional"
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "Se repite el luto, pero cambia el interés"
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "c9b8a0d09537b85086a614c6e827460dd711e5a10cdc3175c40de4b272e56e50",
+    "input_tokens": 1544,
+    "output_tokens": 334,
+    "accounted_usd": 0.0007262999999999999,
+    "reserved_usd": 0.0020858,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.6601547499885783,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_305a53589b3040dea1d0e74f8f6e1b1e"
+  },
+  {
+    "song_id": "s2024-752f61769347",
+    "anonymous_song_id": "s003",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2024,
+    "decade": 2020,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "43f704cb9d44d98a4d3f5e6234d580ddaa17b1c51109ac0e5dbc91c1fbb93fff",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "8ca960569546953810ee1dad207c1818dc8ee4b00186df9b0dda29db690f274e",
+    "input_tokens": 1236,
+    "output_tokens": 205,
+    "accounted_usd": 0.00050345,
+    "reserved_usd": 0.001892,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.8386192919570021,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_6161cad81e3647d79fbeabb94e3b49ed"
+  },
+  {
+    "song_id": "s2021-a17cc29d59f5",
+    "anonymous_song_id": "s004",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2021,
+    "decade": 2020,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "5f54cb74efb3f47707d00c6c7000415bd44c365a019b24c6a4afebcb4bd9ebe9",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "8d8e7d03fda6edcc814feeaccce77a2e8348f8babb237a08c13fcd3eca7de64d",
+    "input_tokens": 1362,
+    "output_tokens": 223,
+    "accounted_usd": 0.0005511500000000001,
+    "reserved_usd": 0.00193,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.860918209014926,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_78382c900c7c4cfa8d461ca4699c932e"
+  },
+  {
+    "song_id": "s2002-74fa275abd80",
+    "anonymous_song_id": "s005",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2002,
+    "decade": 2000,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "b7b4e87c30953c7711c7cf951f198db5102d9610b75e0ed9f90b3af498809349",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "9ec60e6c0eb07c6d38175a18f7c0774ae86c8da0d9df44588ffc434d949f1183",
+    "input_tokens": 1577,
+    "output_tokens": 254,
+    "accounted_usd": 0.0006329,
+    "reserved_usd": 0.0021004,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.9098780420026742,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_fb3a3402b4d949a886c07ef667928ea3"
+  },
+  {
+    "song_id": "s2017-2c3252eb3c12",
+    "anonymous_song_id": "s006",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2017,
+    "decade": 2010,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "94a668b29ccfd75ef94c422ffde00f0ca7b1c583ec5035053bbed98c0b30e050",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "713e046c320815a7497863e8cf816fad0ba7c33a8ad5756f7edd7957cd28ea70",
+    "input_tokens": 1404,
+    "output_tokens": 336,
+    "accounted_usd": 0.0007007999999999999,
+    "reserved_usd": 0.001979,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.516370208992157,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_849acdde5bb2408c9bfa01e053dad71c"
+  },
+  {
+    "song_id": "s1992-92d3c88cd13e",
+    "anonymous_song_id": "s007",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 1992,
+    "decade": 1990,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "7d3ed6345237ddd5c240afd737f6da765937a40d1e2bd6188875ca915bdeabb2",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "7da7c8b1bc5d517f0895ffe5f4b730822a14a9a468c13b5a28efc0c0f2622e97",
+    "input_tokens": 1146,
+    "output_tokens": 206,
+    "accounted_usd": 0.00048670000000000007,
+    "reserved_usd": 0.001815,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.858476416033227,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_87215f361bf6445288b4a70975838f08"
+  },
+  {
+    "song_id": "s2013-877c19a80720",
+    "anonymous_song_id": "s008",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2013,
+    "decade": 2010,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "9bea86a42cb4c88596b43d07c713814d7a3df35ecacf64dfc89775c587e20a23",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ],
+      "label": "Alegría como respuesta a pena y sequía",
+      "summary": "Risa y baile sustituyen llanto; el destino se busca.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "celebration",
+          "reading": "Risa y baile afirman vivir el presente",
+          "source_document_ids": [
+            "s2013-877c19a80720::s000",
+            "s2013-877c19a80720::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "negation",
+          "reading": "La lluvia cura; el llanto se descarta",
+          "source_document_ids": [
+            "s2013-877c19a80720::s002",
+            "s2013-877c19a80720::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b006",
+            "b009"
+          ],
+          "state": "agency",
+          "reading": "Silencio y sueño orientan el camino",
+          "source_document_ids": [
+            "s2013-877c19a80720::s005",
+            "s2013-877c19a80720::s008"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "repetition",
+          "reading": "La celebración responde a la pena"
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "turn",
+          "reading": "Del consuelo se pasa a buscar destino"
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "d3147a8d46625ae598d84898648f8d14615fe9fbb40fdfc9bf9853c6d0ed5c56",
+    "input_tokens": 1465,
+    "output_tokens": 214,
+    "accounted_usd": 0.0005605,
+    "reserved_usd": 0.001965,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.8295263749896549,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_d31b7c2be7404906a285d9222979f787"
+  },
+  {
+    "song_id": "s2000-8ece8cb48467",
+    "anonymous_song_id": "s009",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2000,
+    "decade": 2000,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "5ac99a090eeb7eb649fc99513c13b8db98f762953e936ff7e529590b0ebea35e",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "arc": "confrontation",
+      "subtopics": [
+        "loss_abandonment",
+        "relational_coercion"
+      ],
+      "label": "Carta: abandono, control y cuidado",
+      "summary": "Respuesta que frena daño y corrige expectativas",
+      "steps": [
+        {
+          "ids": [
+            "b015",
+            "b018"
+          ],
+          "state": "avoidance",
+          "reading": "Amenaza de ruptura por silencio y agravio",
+          "source_document_ids": [
+            "s2000-8ece8cb48467::s014",
+            "s2000-8ece8cb48467::s017"
+          ]
+        },
+        {
+          "ids": [
+            "b024",
+            "b026"
+          ],
+          "state": "care",
+          "reading": "Pide calma y aconseja evitar actos locos",
+          "source_document_ids": [
+            "s2000-8ece8cb48467::s023",
+            "s2000-8ece8cb48467::s025"
+          ]
+        },
+        {
+          "ids": [
+            "b027"
+          ],
+          "state": "confrontation",
+          "reading": "Señala noticia: el peligro ya ocurrió",
+          "source_document_ids": [
+            "s2000-8ece8cb48467::s026"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "confrontation",
+          "reading": "El reclamo se responde con límites y consejo"
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "turn",
+          "reading": "El consejo se refuerza con ejemplo real"
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "2d5b6534a65a93274c15996c303461910ea16be2a05d69b7d1d702f5ac84a999",
+    "input_tokens": 2856,
+    "output_tokens": 330,
+    "accounted_usd": 0.0009837000000000001,
+    "reserved_usd": 0.0031406000000000003,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.4652271670056507,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_68e595b0c97448069cc09759ed758e69"
+  },
+  {
+    "song_id": "s2022-d221fdb58fc4",
+    "anonymous_song_id": "s010",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2022,
+    "decade": 2020,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "6b1b1d8893f05396460274caa2b250838d2dcd723324c4a75c375e1eaddb04e1",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ],
+      "label": "Despecho festivo y corte definitivo",
+      "summary": "Corte afectivo y giro de rumbo celebratorio",
+      "steps": [
+        {
+          "ids": [
+            "b002",
+            "b003"
+          ],
+          "state": "celebration",
+          "reading": "Niega contacto; decide salir y olvidar",
+          "source_document_ids": [
+            "s2022-d221fdb58fc4::s001",
+            "s2022-d221fdb58fc4::s002"
+          ]
+        },
+        {
+          "ids": [
+            "b004",
+            "b005"
+          ],
+          "state": "negation",
+          "reading": "Rechaza fama y cierra el vínculo",
+          "source_document_ids": [
+            "s2022-d221fdb58fc4::s003",
+            "s2022-d221fdb58fc4::s004"
+          ]
+        },
+        {
+          "ids": [
+            "b006",
+            "b007"
+          ],
+          "state": "celebration",
+          "reading": "Repite salida; acelera y se distancia",
+          "source_document_ids": [
+            "s2022-d221fdb58fc4::s005",
+            "s2022-d221fdb58fc4::s006"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "De la decisión a la ruptura explícita"
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "La ruptura se sostiene con más celebración"
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "9d325d80fdd3e41601f321057f334f3c99c1c5e79d5f157e4deb776faafa7cfa",
+    "input_tokens": 1614,
+    "output_tokens": 211,
+    "accounted_usd": 0.0005865499999999999,
+    "reserved_usd": 0.002047,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.8720636250218377,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_b644bb62d34f4edbaf83be0d904a21a4"
+  },
+  {
+    "song_id": "s2013-608a7aee9a18",
+    "anonymous_song_id": "s011",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2013,
+    "decade": 2010,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "ee8e46937a221964817a5997589e75917395f5eb3c1ab935be30164ba95d3aad",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "other",
+        "uncertainty_change"
+      ],
+      "label": "Alegría que invita y desactiva la amenaza",
+      "summary": "Se afirma bienestar; se invita a acompañar.",
+      "steps": [
+        {
+          "ids": [
+            "b002",
+            "b003"
+          ],
+          "state": "celebration",
+          "reading": "Propuesta lúdica: felicidad como verdad compartida",
+          "source_document_ids": [
+            "s2013-608a7aee9a18::s001",
+            "s2013-608a7aee9a18::s002"
+          ]
+        },
+        {
+          "ids": [
+            "b004",
+            "b006"
+          ],
+          "state": "negation",
+          "reading": "Se anticipan malas noticias; se niega daño",
+          "source_document_ids": [
+            "s2013-608a7aee9a18::s003",
+            "s2013-608a7aee9a18::s005"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "La invitación responde a la advertencia"
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "353cdb2495254c9cce6d2e224c7fafc8bea0a7af09b2221d7b15b954db9ac860",
+    "input_tokens": 1439,
+    "output_tokens": 163,
+    "accounted_usd": 0.00049155,
+    "reserved_usd": 0.0020532,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.474721458973363,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_62b14cc624b7424ab593a6dff9dfc87b"
+  },
+  {
+    "song_id": "s2004-58ef65dc2ae6",
+    "anonymous_song_id": "s012",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2004,
+    "decade": 2000,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "d3dff5224c68e1162e39ead24346f5a544e00e2f944eeb8986068b6dfbb95c9c",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "4501a4cc56081238c93bcfe92c05d5f42f087222d419ab2ad44adebbf79704fc",
+    "input_tokens": 1332,
+    "output_tokens": 332,
+    "accounted_usd": 0.0006814000000000001,
+    "reserved_usd": 0.0019322,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.5039926249883138,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_a166f4cba4ec494584dd7e08e5382758"
+  },
+  {
+    "song_id": "s1984-8b16c1dac4a9",
+    "anonymous_song_id": "s013",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 1984,
+    "decade": 1980,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "43297c2def892653799c68e2a54b937bc1b1e3f75e32fcf148fc89963336ab8f",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "a6ff9576913d5ff565a2e247dcd200d72fdbd2f010bf34df16edc1e92a89671a",
+    "input_tokens": 1553,
+    "output_tokens": 329,
+    "accounted_usd": 0.00072185,
+    "reserved_usd": 0.002109,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.3176668329979293,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_f6d19cd1e3124272b11760c93892c21e"
+  },
+  {
+    "song_id": "s1987-b3350477e063",
+    "anonymous_song_id": "s014",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 1987,
+    "decade": 1980,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "27eab651d8388fb0bd51a7aba22e1ec7f22213ce2385649a6fbea606e50f05df",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "7056cfe4284ce754e972d18658e444b95899905784c0d505ff48c408560268bf",
+    "input_tokens": 1258,
+    "output_tokens": 206,
+    "accounted_usd": 0.0005091000000000001,
+    "reserved_usd": 0.0018738000000000001,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.828454457980115,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_d69556a16ce74aef998925e0a680ca71"
+  },
+  {
+    "song_id": "s2008-4db2a4ef136d",
+    "anonymous_song_id": "s015",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2008,
+    "decade": 2000,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "c7921ab94b9da7df393c2e3891962c2bdcf51bb23284a28b0d319472dd8e1d40",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "fa8754796d7d98b8e6c11a97c7e4ad613d7730ebeb0ac7ceb9769ef3deef4719",
+    "input_tokens": 1865,
+    "output_tokens": 206,
+    "accounted_usd": 0.0006305,
+    "reserved_usd": 0.002286,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.890476625005249,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_1a629c2e24804a7997463f75d673db6c"
+  },
+  {
+    "song_id": "s1994-56ff6ca6c8bb",
+    "anonymous_song_id": "s016",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 1994,
+    "decade": 1990,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "819fb2b71ab0b33c6bb17bca9cda2b7d379248f57a348e409f6d94f0f7f29633",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "18761216f8c3abd9d80a7ec84f9f961468320991e4fcc2a40e716097045db74b",
+    "input_tokens": 1236,
+    "output_tokens": 218,
+    "accounted_usd": 0.0005197,
+    "reserved_usd": 0.0018566000000000001,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.8374849579995498,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_aa80d4688c7f4a58bb860206053fae73"
+  },
+  {
+    "song_id": "s1999-e3d46788c16b",
+    "anonymous_song_id": "s017",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 1999,
+    "decade": 1990,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "b73749b6d71ca3fb8ef75f1bf0e85961fec1eb0e3df93c4a6db1183136b4aee4",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "6024a564b5730b5a2173eda50ac57c5a8634eecf71ac33749706e8fffd68ad69",
+    "input_tokens": 1078,
+    "output_tokens": 210,
+    "accounted_usd": 0.0004781,
+    "reserved_usd": 0.0017698000000000002,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 5.1765525409718975,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_6c42122117674b99bdb5496a8d30dfef"
+  },
+  {
+    "song_id": "s2014-27b61f0565ce",
+    "anonymous_song_id": "s018",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2014,
+    "decade": 2010,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "b44d5168a6b0110877bfd2204f89118151d75fe665136dbc2623c807a25ffdf5",
+    "reading": {
+      "voice": "first_collective",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "arc": "repetition",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ],
+      "label": "Salir del peligro, pero dudar",
+      "summary": "Se repite la duda de estar a salvo.",
+      "steps": [
+        {
+          "ids": [
+            "b003",
+            "b005"
+          ],
+          "state": "avoidance",
+          "reading": "Buscan seguridad, pero no confían aún",
+          "source_document_ids": [
+            "s2014-27b61f0565ce::s002",
+            "s2014-27b61f0565ce::s004"
+          ]
+        },
+        {
+          "ids": [
+            "b013",
+            "b014"
+          ],
+          "state": "reflection",
+          "reading": "Recuerdan heridas y liberación incompleta",
+          "source_document_ids": [
+            "s2014-27b61f0565ce::s012",
+            "s2014-27b61f0565ce::s013"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "La duda se ancla en recuerdos dolorosos"
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "c157ebfca7d18525aa1bb9058b6c7fdc1929c7b4c7d21acf72207fd302707fb6",
+    "input_tokens": 1998,
+    "output_tokens": 158,
+    "accounted_usd": 0.0005971,
+    "reserved_usd": 0.0023958,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.4865385000011884,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_370e1116f3b54bf48f8e24050f0d52dd"
+  },
+  {
+    "song_id": "s2015-c11afde63d3a",
+    "anonymous_song_id": "s019",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2015,
+    "decade": 2010,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "c520d167c382174beb32b052ffe3c389c957a7e4efacf9bb80d11ca6ab68349b",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "8f0d8f234991e1f9691529f1ccf6f6c218f6abb1822b68ac7cea257f7ce0839d",
+    "input_tokens": 1600,
+    "output_tokens": 214,
+    "accounted_usd": 0.0005875,
+    "reserved_usd": 0.0021906000000000004,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.7878116249921732,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_5db01b9a29f1493cb5dfb088eb1108c4"
+  },
+  {
+    "song_id": "s2026-2e43c234ac58",
+    "anonymous_song_id": "s020",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2026,
+    "decade": 2020,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "062f729aaee81bb54e2674aed41d18a661dad4251649ae6bc5f22c8a278da51a",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "arc": "turn",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ],
+      "label": "Buscar seguridad y pertenencia",
+      "summary": "Se afirma pertenencia mientras se teme perderla.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "avoidance",
+          "reading": "Promete limpieza; evita trampas y excesos",
+          "source_document_ids": [
+            "s2026-2e43c234ac58::s000",
+            "s2026-2e43c234ac58::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b004",
+            "b006"
+          ],
+          "state": "care",
+          "reading": "La luz revela amor; se busca unión",
+          "source_document_ids": [
+            "s2026-2e43c234ac58::s003",
+            "s2026-2e43c234ac58::s005"
+          ]
+        },
+        {
+          "ids": [
+            "b007",
+            "b008"
+          ],
+          "state": "exposure",
+          "reading": "Se exige saber qué es seguro",
+          "source_document_ids": [
+            "s2026-2e43c234ac58::s006",
+            "s2026-2e43c234ac58::s007"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "De control defensivo a reconocimiento afectivo"
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "unresolved",
+          "reading": "La pertenencia persiste, pero la seguridad inquieta"
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "d6eaac84f011ab8b171dd93050386a3851d12c3d9c0b0def04c6d2ed5294e84e",
+    "input_tokens": 1277,
+    "output_tokens": 325,
+    "accounted_usd": 0.00066165,
+    "reserved_usd": 0.0019514,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.4817950000287965,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_d95d631e4ac54dfe89b8daceaf59c939"
+  },
+  {
+    "song_id": "s1991-d25354f1d8f0",
+    "anonymous_song_id": "s021",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 1991,
+    "decade": 1990,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "3ff49dab3841ca55100a1b13f6aa477b521442d0346e6ba4e08d7e916bf12c31",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "ac08598bac03cf5724421558131003a07c9f88672ce5b13b775565fc897618b0",
+    "input_tokens": 1318,
+    "output_tokens": 212,
+    "accounted_usd": 0.0005286000000000001,
+    "reserved_usd": 0.0019392,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.747731333016418,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_c2a472ee685b494ebffaa57862bf251e"
+  },
+  {
+    "song_id": "s2000-a62b1066ea67",
+    "anonymous_song_id": "s022",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2000,
+    "decade": 2000,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "79ec3e8fc97c4f7ab1e3f81ac060c6f5ec4836e1a63e85cae69f3c7883b96635",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "9f52503e11e05166a137bdad51bea1b11faaf675e16abcd835fab6d0e2c483bc",
+    "input_tokens": 1241,
+    "output_tokens": 343,
+    "accounted_usd": 0.0006769500000000001,
+    "reserved_usd": 0.0019142,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.5707863330026157,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_090c4eb952874b9ba0c4f5084ad91a72"
+  },
+  {
+    "song_id": "s2022-460a59f8aa02",
+    "anonymous_song_id": "s023",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2022,
+    "decade": 2020,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "e59430341b457b6716e6d603f42553f3f140a6760a66d724a24dbfce743d6c0e",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "arc": "mixed",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ],
+      "label": "Culpa, abandono y máscara identitaria",
+      "summary": "Autocrítica y miedo al abandono, con ironía.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "avoidance",
+          "reading": "Culpa interna; evita mirarse, teme crisis.",
+          "source_document_ids": [
+            "s2022-460a59f8aa02::s000",
+            "s2022-460a59f8aa02::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "confrontation",
+          "reading": "Se reconoce monstruo; anticipa que se van.",
+          "source_document_ids": [
+            "s2022-460a59f8aa02::s002",
+            "s2022-460a59f8aa02::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b005",
+            "b006"
+          ],
+          "state": "reflection",
+          "reading": "Sueño de muerte; la familia juzga.",
+          "source_document_ids": [
+            "s2022-460a59f8aa02::s004",
+            "s2022-460a59f8aa02::s005"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "De culpa evasiva a anuncio de abandono."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "contrast",
+          "reading": "Del miedo al dejarse, al juicio familiar."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "7492d1da162ce88ea2e8949b1191b2e4cda76817f1026c9782b7b2d22c7673c9",
+    "input_tokens": 1393,
+    "output_tokens": 335,
+    "accounted_usd": 0.00069735,
+    "reserved_usd": 0.0020236,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.4781588750192896,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_922bc8c9656d48ad8c649c1850b6dd78"
+  },
+  {
+    "song_id": "s2014-e8f5796fbb18",
+    "anonymous_song_id": "s024",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2014,
+    "decade": 2010,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "efb96dba00da8c406caeda7dfaa484f5c4191f338fff9cb3aaaa7de00920ae4c",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "other"
+      ],
+      "label": "Deseo y baile como entrega afectiva",
+      "summary": "Mirada y ritmo sostienen anhelo compartido.",
+      "steps": [
+        {
+          "ids": [
+            "b002"
+          ],
+          "state": "care",
+          "reading": "La mirada provoca entrega y súplica nocturna",
+          "source_document_ids": [
+            "s2014-e8f5796fbb18::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "celebration",
+          "reading": "El baile llena vacíos y enciende fuego",
+          "source_document_ids": [
+            "s2014-e8f5796fbb18::s002",
+            "s2014-e8f5796fbb18::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b007",
+            "b010"
+          ],
+          "state": "reflection",
+          "reading": "Se busca cercanía; la distancia frustra",
+          "source_document_ids": [
+            "s2014-e8f5796fbb18::s006",
+            "s2014-e8f5796fbb18::s009"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "De súplica íntima a celebración corporal"
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "contrast",
+          "reading": "Del fuego compartido a la imposibilidad"
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "4188bf45bc8ee7639a9c347edbadde9671a3e7faf0f3ef6f4c1167d954f33d1d",
+    "input_tokens": 1784,
+    "output_tokens": 318,
+    "accounted_usd": 0.0007543,
+    "reserved_usd": 0.0022306000000000006,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.4706912499968894,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_fff4f34e261b4f9cae4c3dde2e7de515"
+  },
+  {
+    "song_id": "s2021-27c16cbb8cff",
+    "anonymous_song_id": "s025",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2021,
+    "decade": 2020,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "533c262c009af613603c84050ede87862483fa4c4543a7f36956c0e0c86b9b56",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "a6a604b1632902ba6216a102e3d626e854389c0365b3e356ff1a10fcd61ac665",
+    "input_tokens": 1254,
+    "output_tokens": 217,
+    "accounted_usd": 0.0005220499999999999,
+    "reserved_usd": 0.0019038000000000002,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.9879466249840334,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_7be577a8f76d42fca4eb03c17ff4e94d"
+  },
+  {
+    "song_id": "s1983-753cd2a7d41b",
+    "anonymous_song_id": "s026",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 1983,
+    "decade": 1980,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "02a27d2185afd0eaa57e47527b54361d8979f785551e63ef3faae4d053e1b93b",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "avoidance",
+      "fear_relevance": "implied",
+      "fear_polarity": "affirmed",
+      "arc": "repetition",
+      "subtopics": [
+        "surveillance_pursuit",
+        "uncertainty_change"
+      ],
+      "label": "Vigilancia invasiva y privacidad imposible",
+      "summary": "Se repite la duda: vigilan, y no hay calma.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b003"
+          ],
+          "state": "fear",
+          "reading": "Vigilan; la privacidad se evapora.",
+          "source_document_ids": [
+            "s1983-753cd2a7d41b::s000",
+            "s1983-753cd2a7d41b::s002"
+          ]
+        },
+        {
+          "ids": [
+            "b004",
+            "b007"
+          ],
+          "state": "avoidance",
+          "reading": "Evita gente y señales; teme exposición.",
+          "source_document_ids": [
+            "s1983-753cd2a7d41b::s003",
+            "s1983-753cd2a7d41b::s006"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "repetition",
+          "reading": "La vigilancia vuelve; crece la evitación."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "89ea5ed9acc4f0cfdc8112df51d6f9dd2f8bae6e5d2be6ae16a2fe42acf8123c",
+    "input_tokens": 1638,
+    "output_tokens": 168,
+    "accounted_usd": 0.0005376000000000001,
+    "reserved_usd": 0.0021816000000000006,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.5266974170226604,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_57ff77985e0d4d75899e57eea7f56b31"
+  },
+  {
+    "song_id": "s1990-5b29a6fedb71",
+    "anonymous_song_id": "s027",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 1990,
+    "decade": 1990,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "1de133e6f12f2bd802a79bf23422e2a45b64a88beb397be6eac4fd72d96be9ab",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "9d11f890c3008153e952f4eec66acb2bfe39d2422bc3ae030a46c7ff5acbc636",
+    "input_tokens": 1266,
+    "output_tokens": 215,
+    "accounted_usd": 0.0005219500000000001,
+    "reserved_usd": 0.0018648000000000002,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.9577671669539995,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_d65defe628ef433da3449c8e30d443a1"
+  },
+  {
+    "song_id": "s1986-9726c0e33862",
+    "anonymous_song_id": "s028",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 1986,
+    "decade": 1980,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "c92856ed0bc256bad1689a283112dc942f4a3b0e13fa968bc7dda000a8d66b39",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "c5186406f373c7b83641357c135e002f6458c099a3865c0196c3acdfb058a5ef",
+    "input_tokens": 1361,
+    "output_tokens": 217,
+    "accounted_usd": 0.00054345,
+    "reserved_usd": 0.0019554,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.0303422499564476,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_c906f93b81ef41e589eb10cf76a0fac3"
+  },
+  {
+    "song_id": "s2020-6f072260cb90",
+    "anonymous_song_id": "s029",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2020,
+    "decade": 2020,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "1d362ef396064c0d7589e5d355a007200a00ed023adfdfe0aa27084c32755197",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "arc": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ],
+      "label": "Ansiedad que bloquea y luego habilita",
+      "summary": "Bloqueo interno; rendición y luego recuperación parcial.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "fear",
+          "reading": "Hablar y respirar fallan; voces internas atacan",
+          "source_document_ids": [
+            "s2020-6f072260cb90::s000",
+            "s2020-6f072260cb90::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b006"
+          ],
+          "state": "avoidance",
+          "reading": "Rendirse por dentro; silencio ahoga y cuestiona",
+          "source_document_ids": [
+            "s2020-6f072260cb90::s002",
+            "s2020-6f072260cb90::s005"
+          ]
+        },
+        {
+          "ids": [
+            "b010",
+            "b011"
+          ],
+          "state": "care",
+          "reading": "Tormenta cede; el sol permite seguir",
+          "source_document_ids": [
+            "s2020-6f072260cb90::s009",
+            "s2020-6f072260cb90::s010"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "El ataque interno empuja a rendición"
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "turn",
+          "reading": "Del ahogo surge capacidad de sanar"
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "a9c18888b953f80e7f6cdc74a681fde990c2eedfd5666a96bbf38e5d05f6fd58",
+    "input_tokens": 1470,
+    "output_tokens": 335,
+    "accounted_usd": 0.00071275,
+    "reserved_usd": 0.0020254,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.796416541968938,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_87fead2affd64c3e963d8040c15cb327"
+  },
+  {
+    "song_id": "s1993-a759a1183939",
+    "anonymous_song_id": "s030",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 1993,
+    "decade": 1990,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "466621396b53028e6afc8b5e17c5319921f942eb3da215dfe8fa9187aaf075ba",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "arc": "confrontation",
+      "subtopics": [
+        "collective_violence",
+        "surveillance_pursuit"
+      ],
+      "label": "Búsqueda policial y resistencia verbal",
+      "summary": "La persecución se vuelve amenaza; se responde con voz.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b004"
+          ],
+          "state": "threat",
+          "reading": "Búsqueda activa; espera en cuarto oscuro",
+          "source_document_ids": [
+            "s1993-a759a1183939::s000",
+            "s1993-a759a1183939::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b008",
+            "b010"
+          ],
+          "state": "confrontation",
+          "reading": "Golpe en puerta; balas y resistencia",
+          "source_document_ids": [
+            "s1993-a759a1183939::s007",
+            "s1993-a759a1183939::s009"
+          ]
+        },
+        {
+          "ids": [
+            "b012"
+          ],
+          "state": "agency",
+          "reading": "Se niega miedo; palabras como justicia",
+          "source_document_ids": [
+            "s1993-a759a1183939::s011"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "confrontation",
+          "reading": "La espera se rompe con irrupción armada"
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "turn",
+          "reading": "Del peligro se afirma agencia verbal"
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "63a0faddcfa3c16c4e114fd09620521d39f5a0b53631e0f35a850c3c3c188e60",
+    "input_tokens": 1516,
+    "output_tokens": 210,
+    "accounted_usd": 0.0005657,
+    "reserved_usd": 0.002045,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.4203357080114074,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_5d7aef9cbe924e0ab357850ce48da149"
+  },
+  {
+    "song_id": "s2023-dd058a9c7e57",
+    "anonymous_song_id": "s031",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2023,
+    "decade": 2020,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "8141126f963e73cd9e2831ff5181800a29b9d70a7fc4ef9d4b2c3e95eb652154",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "18ce2010364653ab76bc5c5eafdb2bdf4a978301d382cdc470eb13f157703f66",
+    "input_tokens": 1421,
+    "output_tokens": 336,
+    "accounted_usd": 0.0007042000000000001,
+    "reserved_usd": 0.0020224,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.744848624977749,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_5c9e92fb147e45eba281d7c7e35ca54a"
+  },
+  {
+    "song_id": "s2019-1f8fdfe5b713",
+    "anonymous_song_id": "s032",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2019,
+    "decade": 2010,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "81bbaedbf41567e1f0428142660555a63245291679295149a7245056aca25f79",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "5728cebf269b6bb245c35eb1c3571caad0672f214497ae71b3f950a37f044623",
+    "input_tokens": 1542,
+    "output_tokens": 344,
+    "accounted_usd": 0.0007384000000000001,
+    "reserved_usd": 0.0020748000000000003,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.974984042055439,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_2e417de337c74c6eadc61f43d60425c7"
+  },
+  {
+    "song_id": "s1998-81cadc29bda5",
+    "anonymous_song_id": "s033",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 1998,
+    "decade": 1990,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "0d5d108724d93d69daf724dcc9b746716ba92544f1a087e7d78bf32933efe763",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "2a0fd0af09f384faf10b6d2130350d71d697ec3789aac938a0cd2d5b4b3a265b",
+    "input_tokens": 1593,
+    "output_tokens": 160,
+    "accounted_usd": 0.0005186,
+    "reserved_usd": 0.002118,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.6703865840099752,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_0a944bb4ea844b948bf1931ee84ec567"
+  },
+  {
+    "song_id": "s2003-863da31c5eaa",
+    "anonymous_song_id": "s034",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2003,
+    "decade": 2000,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "696b40fa32a575a51d6f8b51ef6b2db19642f43fc8c3fc1ba40a88d1dfc9690b",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "216fad9314066abc1c3d6c3f2fd4492bc1b620b15b1178562e3c825c9499b0b5",
+    "input_tokens": 2086,
+    "output_tokens": 205,
+    "accounted_usd": 0.00067345,
+    "reserved_usd": 0.0025026000000000002,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.9840147089562379,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_244418fe191b4afc8ab92c066d9bce28"
+  },
+  {
+    "song_id": "s2018-fff1d8ae4511",
+    "anonymous_song_id": "s035",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2018,
+    "decade": 2010,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "60a5c634946680124f37913d8334c8f279fe9dc3f047f41256f9e0ce86a7d3d2",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "avoidance",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "arc": "mixed",
+      "subtopics": [
+        "supernatural",
+        "uncertainty_change"
+      ],
+      "label": "Noche rara: advertencia y protección íntima",
+      "summary": "Se teme lo nocturno; se busca resguardo personal.",
+      "steps": [
+        {
+          "ids": [
+            "b003"
+          ],
+          "state": "avoidance",
+          "reading": "Advertencia nocturna frena el cruce del puente",
+          "source_document_ids": [
+            "s2018-fff1d8ae4511::s002"
+          ]
+        },
+        {
+          "ids": [
+            "b005"
+          ],
+          "state": "care",
+          "reading": "Protecciones brillantes sostienen la salida callejera",
+          "source_document_ids": [
+            "s2018-fff1d8ae4511::s004"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "Del no salir al salir, con amparo"
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "05bf8537551db783823289aa641f6086a201367eb27f6a165703918477ad95a9",
+    "input_tokens": 1513,
+    "output_tokens": 158,
+    "accounted_usd": 0.0005001000000000001,
+    "reserved_usd": 0.0019914,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.9867764579830691,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_8d77e5ea6fe542d49f065f9a72c3dd84"
+  },
+  {
+    "song_id": "s1982-fc0d5bdf6fc1",
+    "anonymous_song_id": "s036",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 1982,
+    "decade": 1980,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "62b97cae6f94b253be939db699be5a42a85a1a2b345700bb7c5a64d71cfa4450",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "c9a5b16065e5800983856951afa2073f8f19a2f034e5d9443209c39cfd57b8f9",
+    "input_tokens": 1314,
+    "output_tokens": 218,
+    "accounted_usd": 0.0005353,
+    "reserved_usd": 0.001955,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.8647255420219153,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_1897612209c446358fbc8b6f86b5d66a"
+  },
+  {
+    "song_id": "s2001-1b296546902b",
+    "anonymous_song_id": "s037",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 2001,
+    "decade": 2000,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "50a246a5ea2ed667f2cb35d9279bd6d5c329c02bb1a90f54d27af6ce5d50e678",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "404b1a572bac3cfce5854c6187df52f7122a381605caccc53a1ba0a293d2bfd0",
+    "input_tokens": 1541,
+    "output_tokens": 212,
+    "accounted_usd": 0.0005732000000000001,
+    "reserved_usd": 0.0020958,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.7406171250040643,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_7dd5441aaee34d95813df21cf5d32f19"
+  },
+  {
+    "song_id": "s1986-e6cc85a542a7",
+    "anonymous_song_id": "s038",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 1986,
+    "decade": 1980,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "9d2fb2b49e14b49de71bbf9b20e1be2830674a81443b3f99510f556390c9130b",
+    "reading": {
+      "voice": "third_person_story",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "arc": "confrontation",
+      "subtopics": [
+        "loss_abandonment",
+        "supernatural"
+      ],
+      "label": "Luna exige precio; abandono y culpa",
+      "summary": "Pacto lunar, amenaza, y abandono del niño.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b003"
+          ],
+          "state": "threat",
+          "reading": "Pacto con luna: pide hijo primero",
+          "source_document_ids": [
+            "s1986-e6cc85a542a7::s000",
+            "s1986-e6cc85a542a7::s002"
+          ]
+        },
+        {
+          "ids": [
+            "b010",
+            "b011"
+          ],
+          "state": "loss",
+          "reading": "Engaño y violencia; el niño queda solo",
+          "source_document_ids": [
+            "s1986-e6cc85a542a7::s009",
+            "s1986-e6cc85a542a7::s010"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "confrontation",
+          "reading": "El precio del pacto deriva en ruptura"
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "f79ef9b0611af645a83ff591e92dbcfc2e40849eca1082eec2f44e45070ea845",
+    "input_tokens": 1475,
+    "output_tokens": 247,
+    "accounted_usd": 0.00060375,
+    "reserved_usd": 0.0020156,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.5190297499648295,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_11e913c4a16a41a78f0c6d5e457b5502"
+  },
+  {
+    "song_id": "s1982-273644e36995",
+    "anonymous_song_id": "s039",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 1982,
+    "decade": 1980,
+    "language": "es",
+    "stage": "independent_reader",
+    "input_identity": "5df5c98846a49c56a04cd2d564d81dd4cb9031f433efaa7b283b8d2e448951ec",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "arc": "repetition",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ],
+      "label": "Fiesta repetida ante molestias vecinales",
+      "summary": "Bailar y beber sostienen una vida social pese al malestar.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "avoidance",
+          "reading": "Bailo y bebo para esquivar molestias",
+          "source_document_ids": [
+            "s1982-273644e36995::s000",
+            "s1982-273644e36995::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "reflection",
+          "reading": "Dolor corporal convive con vida social",
+          "source_document_ids": [
+            "s1982-273644e36995::s002",
+            "s1982-273644e36995::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b005",
+            "b006"
+          ],
+          "state": "reflection",
+          "reading": "La repetición mantiene el mismo pulso",
+          "source_document_ids": [
+            "s1982-273644e36995::s004",
+            "s1982-273644e36995::s005"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "La evasión se vuelve afirmación social"
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "Se repite el patrón ante el entorno"
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "bee959d5d738dc75119a6d4c6f309a784baebbe9b5406a629673021366a72746",
+    "input_tokens": 1306,
+    "output_tokens": 336,
+    "accounted_usd": 0.0006812000000000001,
+    "reserved_usd": 0.001894,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.395812167029362,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_7362ac6de00e45979bd36e81b9ba6896"
+  },
+  {
+    "song_id": "s1996-126a4f4bfee7",
+    "anonymous_song_id": "s040",
+    "model_id": "openai/gpt-5.4-nano",
+    "year": 1996,
+    "decade": 1990,
+    "language": "en",
+    "stage": "independent_reader",
+    "input_identity": "a86e97cad7f57e8323958dd45c685c710e95044f3f40a199c9f31fb220438354",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "relational_coercion",
+        "uncertainty_change"
+      ],
+      "label": "Condiciones y límites para el acercamiento",
+      "summary": "Se negocia deseo con reglas y tiempos.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "avoidance",
+          "reading": "Define deseo y exige rapidez, sin pasado.",
+          "source_document_ids": [
+            "s1996-126a4f4bfee7::s000",
+            "s1996-126a4f4bfee7::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b004",
+            "b005"
+          ],
+          "state": "confrontation",
+          "reading": "Pone condiciones a la pareja y advierte.",
+          "source_document_ids": [
+            "s1996-126a4f4bfee7::s003",
+            "s1996-126a4f4bfee7::s004"
+          ]
+        },
+        {
+          "ids": [
+            "b008",
+            "b010"
+          ],
+          "state": "celebration",
+          "reading": "Convierte la regla en juego corporal.",
+          "source_document_ids": [
+            "s1996-126a4f4bfee7::s007",
+            "s1996-126a4f4bfee7::s009"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "Del deseo al límite: pasado y tiempo."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "Las condiciones se repiten como invitación."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "ef1a0f273e5ee851052237ab952fc4afd2ccc1bf71ce8a2fe4e58cb86c3218a1",
+    "input_tokens": 1690,
+    "output_tokens": 331,
+    "accounted_usd": 0.00075175,
+    "reserved_usd": 0.0022132,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.519567042007111,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-nano-2026-03-17",
+    "request_id": "req_81ce853333f043aaa8b6ba919749dcf4"
+  },
+  {
+    "song_id": "s1987-b3350477e063",
+    "anonymous_song_id": "s014",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1987,
+    "decade": 1980,
+    "language": "es",
+    "stage": "bounded_third_review",
+    "reading": {
+      "voice": "unclear",
+      "stance": "ambivalence",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ],
+      "label": "Ausencia de hogar y desdibuje humano",
+      "summary": "Falta un hogar; persisten pérdida e identidad frágil.",
+      "steps": [
+        {
+          "ids": [
+            "b002",
+            "b005"
+          ],
+          "state": "loss",
+          "reading": "Se lamenta la falta de un hogar posible.",
+          "source_document_ids": [
+            "s1987-b3350477e063::s001",
+            "s1987-b3350477e063::s004"
+          ]
+        },
+        {
+          "ids": [
+            "b008",
+            "b009"
+          ],
+          "state": "reflection",
+          "reading": "Se observa identidad dudosa y despedidas dolorosas.",
+          "source_document_ids": [
+            "s1987-b3350477e063::s007",
+            "s1987-b3350477e063::s008"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "repetition",
+          "reading": "Ambos tramos reiteran carencia y desgaste humano."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "13d0c09a47462ce6a9271b2f598947090b8f1a25e70f10b7b58b33c705d7c82c",
+    "input_tokens": 1323,
+    "output_tokens": 169,
+    "accounted_usd": 0.00175275,
+    "reserved_usd": 0.00723525,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.4842083749826998,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_1472c8c5298847e68365850bcd601a91"
+  },
+  {
+    "song_id": "s1999-e3d46788c16b",
+    "anonymous_song_id": "s017",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1999,
+    "decade": 1990,
+    "language": "es",
+    "stage": "bounded_third_review",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "a8abf2e5ddd5128dc3303065f8e5330f95ddaa76d6e4610b2bf64da79afbaf00",
+    "input_tokens": 1143,
+    "output_tokens": 220,
+    "accounted_usd": 0.00184725,
+    "reserved_usd": 0.00684525,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.2526176249957643,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_b2b35d84118848609d2e407b6c701dcf"
+  },
+  {
+    "song_id": "s2024-752f61769347",
+    "anonymous_song_id": "s003",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2024,
+    "decade": 2020,
+    "language": "es",
+    "stage": "bounded_third_review",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "hypothetical",
+      "arc": "mixed",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "label": "Pensamiento íntimo y vínculo deseado",
+      "summary": "Pensamiento persistente, vínculo intenso y temor anticipado.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "reflection",
+          "reading": "Pensamiento interno persistente, luego se vuelve menor por el vínculo.",
+          "source_document_ids": [
+            "s2024-752f61769347::s000",
+            "s2024-752f61769347::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "fear",
+          "reading": "Deseo de permanencia junto a temor anticipado al final.",
+          "source_document_ids": [
+            "s2024-752f61769347::s002",
+            "s2024-752f61769347::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b005",
+            "b006"
+          ],
+          "state": "celebration",
+          "reading": "Se prioriza una dedicatoria amplia y un deseo compartido.",
+          "source_document_ids": [
+            "s2024-752f61769347::s004",
+            "s2024-752f61769347::s005"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "Del pensamiento íntimo al vínculo con temor anticipado."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "contrast",
+          "reading": "Del temor al énfasis en celebración y dedicatoria."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "cee51feca4c5458712146d6fbe5b858394a91865cd6f2066c698628fa7ba71ef",
+    "input_tokens": 1301,
+    "output_tokens": 230,
+    "accounted_usd": 0.00201075,
+    "reserved_usd": 0.0073035,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.3704749169992283,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_cee5e9e2ff524bffa48c605707e77aec"
+  },
+  {
+    "song_id": "s2023-dd058a9c7e57",
+    "anonymous_song_id": "s031",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2023,
+    "decade": 2020,
+    "language": "en",
+    "stage": "bounded_third_review",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ],
+      "label": "Duelo íntimo y afirmación propia",
+      "summary": "De la pérdida relacional a la autosuficiencia repetida.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "loss",
+          "reading": "Relación idealizada que se quiebra; aparece retirada dolorosa.",
+          "source_document_ids": [
+            "s2023-dd058a9c7e57::s000",
+            "s2023-dd058a9c7e57::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b005"
+          ],
+          "state": "agency",
+          "reading": "La voz se reafirma con autocuidado y perdón propio.",
+          "source_document_ids": [
+            "s2023-dd058a9c7e57::s002",
+            "s2023-dd058a9c7e57::s004"
+          ]
+        },
+        {
+          "ids": [
+            "b007",
+            "b010"
+          ],
+          "state": "celebration",
+          "reading": "Repite una autosuficiencia celebratoria frente al otro.",
+          "source_document_ids": [
+            "s2023-dd058a9c7e57::s006",
+            "s2023-dd058a9c7e57::s009"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "Del quiebre afectivo pasa a sostenerse sola."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "La afirmación propia vuelve y se intensifica."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "10b8582e7637763dc2e28e09e323cdc756c9e51160cf65d5e24423dd67cd7955",
+    "input_tokens": 1486,
+    "output_tokens": 233,
+    "accounted_usd": 0.002163,
+    "reserved_usd": 0.0077925,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.6061065000249073,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_258fbc7fb9474df7af7b8822f02869b2"
+  },
+  {
+    "song_id": "s2001-1b296546902b",
+    "anonymous_song_id": "s037",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2001,
+    "decade": 2000,
+    "language": "es",
+    "stage": "bounded_third_review",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "explicit",
+      "fear_polarity": "denied",
+      "arc": "repetition",
+      "subtopics": [
+        "uncertainty_change"
+      ],
+      "label": "Impulso repetido hacia el cambio",
+      "summary": "Voz exhorta a abrirse y seguir adelante.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "reflection",
+          "reading": "Observa cansancio y propone apertura posible.",
+          "source_document_ids": [
+            "s2001-1b296546902b::s000",
+            "s2001-1b296546902b::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "agency",
+          "reading": "Nombra miedos y afirma impulso hacia adelante.",
+          "source_document_ids": [
+            "s2001-1b296546902b::s002",
+            "s2001-1b296546902b::s003"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "Pasa de diagnóstico a exhortación activa."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "f3badca53df89a93bcf876e53e99a8ea21ac8404d6139c36371b99aa3a5c9edb",
+    "input_tokens": 1606,
+    "output_tokens": 155,
+    "accounted_usd": 0.001902,
+    "reserved_usd": 0.00806775,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.8234672919497825,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_86d34b51c6f547c09ac74dc626081f2c"
+  },
+  {
+    "song_id": "s1983-753cd2a7d41b",
+    "anonymous_song_id": "s026",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1983,
+    "decade": 1980,
+    "language": "en",
+    "stage": "bounded_third_review",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "avoidance",
+      "fear_relevance": "explicit",
+      "fear_polarity": "affirmed",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "surveillance_pursuit"
+      ],
+      "label": "Vigilancia percibida y privacidad amenazada",
+      "summary": "Voz singular insiste en sentirse observada y sin resguardo.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "threat",
+          "reading": "Pregunta por observación ajena y deseo de aislamiento.",
+          "source_document_ids": [
+            "s1983-753cd2a7d41b::s000",
+            "s1983-753cd2a7d41b::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b007"
+          ],
+          "state": "fear",
+          "reading": "Declara vigilancia sentida, inseguridad y posible paranoia.",
+          "source_document_ids": [
+            "s1983-753cd2a7d41b::s002",
+            "s1983-753cd2a7d41b::s006"
+          ]
+        },
+        {
+          "ids": [
+            "b012",
+            "b013"
+          ],
+          "state": "avoidance",
+          "reading": "Reitera pérdida de privacidad y pide que la dejen.",
+          "source_document_ids": [
+            "s1983-753cd2a7d41b::s011",
+            "s1983-753cd2a7d41b::s012"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "repetition",
+          "reading": "La sospecha se amplía hacia más posibles observadores."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "La misma queja vuelve como insistencia, no cambio."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "f5903b60865a2cec70ce72d23e96e455427d70339a60d7b9a11821bd8246d2e9",
+    "input_tokens": 1703,
+    "output_tokens": 231,
+    "accounted_usd": 0.00231675,
+    "reserved_usd": 0.0083895,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.1381769579602405,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_027d9feff7bc47d78ae17ea78e091a5e"
+  },
+  {
+    "song_id": "s1986-9726c0e33862",
+    "anonymous_song_id": "s028",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1986,
+    "decade": 1980,
+    "language": "es",
+    "stage": "bounded_third_review",
+    "reading": {
+      "voice": "third_person_story",
+      "stance": "other",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "arc": "mixed",
+      "subtopics": [
+        "collective_violence",
+        "relational_coercion"
+      ],
+      "label": "Relación tensa deriva en violencia",
+      "summary": "Rutina compartida, celos y agresión culminan en muerte.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "reflection",
+          "reading": "Rutina doméstica y laboral compartida, con tensión relacional.",
+          "source_document_ids": [
+            "s1986-9726c0e33862::s000",
+            "s1986-9726c0e33862::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b004"
+          ],
+          "state": "confrontation",
+          "reading": "Regreso anticipado, hallazgo de compañía y choque.",
+          "source_document_ids": [
+            "s1986-9726c0e33862::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b006",
+            "b007"
+          ],
+          "state": "loss",
+          "reading": "Muerte de Mario y versión violenta del hecho.",
+          "source_document_ids": [
+            "s1986-9726c0e33862::s005",
+            "s1986-9726c0e33862::s006"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "La rutina se quiebra ante la escena inesperada."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "confrontation",
+          "reading": "El choque deriva en agresión y pérdida."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "2b291b5b00537497fc9d792600fbe7867dc67b1817c802ccfbc58773565910df",
+    "input_tokens": 1426,
+    "output_tokens": 224,
+    "accounted_usd": 0.0020775,
+    "reserved_usd": 0.00754125,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.8168167500407435,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_9f2a8ce6090a407d87c4e8a2e02c8b5d"
+  },
+  {
+    "song_id": "s2014-27b61f0565ce",
+    "anonymous_song_id": "s018",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2014,
+    "decade": 2010,
+    "language": "en",
+    "stage": "bounded_third_review",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "hypothetical",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "label": "Duda persistente sobre seguridad compartida",
+      "summary": "Recuerdo íntimo con dudas repetidas sobre seguridad.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "reflection",
+          "reading": "Recuerdo íntimo y contraste visual compartido.",
+          "source_document_ids": [
+            "s2014-27b61f0565ce::s000",
+            "s2014-27b61f0565ce::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b006"
+          ],
+          "state": "unclear",
+          "reading": "Pregunta reiterada sobre estar a salvo.",
+          "source_document_ids": [
+            "s2014-27b61f0565ce::s002",
+            "s2014-27b61f0565ce::s005"
+          ]
+        },
+        {
+          "ids": [
+            "b013",
+            "b016"
+          ],
+          "state": "reflection",
+          "reading": "Recuerdo de daño, alivio y reconocimiento.",
+          "source_document_ids": [
+            "s2014-27b61f0565ce::s012",
+            "s2014-27b61f0565ce::s015"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "repetition",
+          "reading": "La duda se repite sin resolverse."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "contrast",
+          "reading": "El recuerdo introduce un alivio parcial."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "174b8731a25ad7921725938c85d68cabb844f4dea7c4d759609e48c5d5e7973b",
+    "input_tokens": 2063,
+    "output_tokens": 210,
+    "accounted_usd": 0.00249225,
+    "reserved_usd": 0.00919275,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 1.9884436249849387,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_f9a0942cf114475c9b094c16b2a3ad81"
+  },
+  {
+    "song_id": "s2019-1f8fdfe5b713",
+    "anonymous_song_id": "s032",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2019,
+    "decade": 2010,
+    "language": "en",
+    "stage": "bounded_third_review",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "denied",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ],
+      "label": "Voz inquieta, vínculo tenso",
+      "summary": "Interrogación repetida y vínculo coercitivo ambiguo.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b005"
+          ],
+          "state": "reflection",
+          "reading": "Interroga al otro y cuestiona el vínculo.",
+          "source_document_ids": [
+            "s2019-1f8fdfe5b713::s000",
+            "s2019-1f8fdfe5b713::s004"
+          ]
+        },
+        {
+          "ids": [
+            "b006",
+            "b007"
+          ],
+          "state": "threat",
+          "reading": "Aparece control, exposición y amenaza relacional.",
+          "source_document_ids": [
+            "s2019-1f8fdfe5b713::s005",
+            "s2019-1f8fdfe5b713::s006"
+          ]
+        },
+        {
+          "ids": [
+            "b008",
+            "b009"
+          ],
+          "state": "loss",
+          "reading": "Se impone una renuncia repetida y extrema.",
+          "source_document_ids": [
+            "s2019-1f8fdfe5b713::s007",
+            "s2019-1f8fdfe5b713::s008"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "contrast",
+          "reading": "Pasa de preguntar a describir control."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "turn",
+          "reading": "La presión deriva en pérdida de agencia."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "523c307af0389bdb696b49d04bdbc1f97dd02b933618c15bee969c5a3f6012ec",
+    "input_tokens": 1607,
+    "output_tokens": 214,
+    "accounted_usd": 0.00216825,
+    "reserved_usd": 0.007989,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.1926167919882573,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_b0bc80f5ca6a4c9d8364c069f6a3bdc1"
+  },
+  {
+    "song_id": "s1990-5b29a6fedb71",
+    "anonymous_song_id": "s027",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1990,
+    "decade": 1990,
+    "language": "es",
+    "stage": "bounded_third_review",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "denied",
+      "arc": "repetition",
+      "subtopics": [
+        "loss_abandonment",
+        "relational_coercion"
+      ],
+      "label": "Búsqueda dolida y vínculo insistente",
+      "summary": "Voz única insiste en ausencia, búsqueda y apego.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "loss",
+          "reading": "Dolor por ausencia y desesperación nombrada.",
+          "source_document_ids": [
+            "s1990-5b29a6fedb71::s000",
+            "s1990-5b29a6fedb71::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "agency",
+          "reading": "Búsqueda activa, pero persiste el apego.",
+          "source_document_ids": [
+            "s1990-5b29a6fedb71::s002",
+            "s1990-5b29a6fedb71::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b005",
+            "b008"
+          ],
+          "state": "reflection",
+          "reading": "Reitera la misma queja sin cambio claro.",
+          "source_document_ids": [
+            "s1990-5b29a6fedb71::s004",
+            "s1990-5b29a6fedb71::s007"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "repetition",
+          "reading": "La búsqueda amplía la misma carencia."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "La insistencia vuelve al mismo reclamo."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "6c68af1ea59830e07f00299aac1ba43004cf6fad0d671d8f30464dcd5d461189",
+    "input_tokens": 1331,
+    "output_tokens": 218,
+    "accounted_usd": 0.00197925,
+    "reserved_usd": 0.0072015,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.1630940830218606,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_2accb661c3d54e28bc6e8d35a340766f"
+  },
+  {
+    "song_id": "s2002-74fa275abd80",
+    "anonymous_song_id": "s005",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2002,
+    "decade": 2000,
+    "language": "es",
+    "stage": "bounded_third_review",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "implied",
+      "fear_polarity": "hypothetical",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ],
+      "label": "Peticiones afectivas y vitales repetidas",
+      "summary": "Voz íntima pide protección, permanencia y amor.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "care",
+          "reading": "Pide resguardo para vínculos, familia y pueblo.",
+          "source_document_ids": [
+            "s2002-74fa275abd80::s000",
+            "s2002-74fa275abd80::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "reflection",
+          "reading": "Desea más vida y amor compartido.",
+          "source_document_ids": [
+            "s2002-74fa275abd80::s002",
+            "s2002-74fa275abd80::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b005",
+            "b011"
+          ],
+          "state": "celebration",
+          "reading": "Reitera la súplica diaria sin cambio claro.",
+          "source_document_ids": [
+            "s2002-74fa275abd80::s004",
+            "s2002-74fa275abd80::s010"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "repetition",
+          "reading": "Amplía la petición hacia duración y entrega."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "Vuelve al estribillo, sosteniendo la misma postura."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "6b847897c8a772e7ea11738f5c15f4d86931e21062556f7a2da1f9a12317ae9b",
+    "input_tokens": 1642,
+    "output_tokens": 225,
+    "accounted_usd": 0.002244,
+    "reserved_usd": 0.008085,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.592757124977652,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_648a614723f140b6bb9a24531c0d7952"
+  },
+  {
+    "song_id": "s1982-273644e36995",
+    "anonymous_song_id": "s039",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1982,
+    "decade": 1980,
+    "language": "es",
+    "stage": "bounded_third_review",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "other"
+      ],
+      "label": "Rutina festiva con cuerpo dañado",
+      "summary": "Rutina corporal repetida convive con malestar físico.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "celebration",
+          "reading": "Actividad festiva repetida con molestia vecinal.",
+          "source_document_ids": [
+            "s1982-273644e36995::s000",
+            "s1982-273644e36995::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "reflection",
+          "reading": "Cuerpo deteriorado, pero sociabilidad y movimiento persisten.",
+          "source_document_ids": [
+            "s1982-273644e36995::s002",
+            "s1982-273644e36995::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b009",
+            "b010"
+          ],
+          "state": "celebration",
+          "reading": "Repetición final sin cambio argumental claro.",
+          "source_document_ids": [
+            "s1982-273644e36995::s008",
+            "s1982-273644e36995::s009"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "contrast",
+          "reading": "La fiesta convive con daño corporal."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "La insistencia mantiene la misma postura."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "a0a540c63257b1e55059574bafe6428f991c7bf88d9a4bb0379326d688facbfe",
+    "input_tokens": 1371,
+    "output_tokens": 216,
+    "accounted_usd": 0.00200025,
+    "reserved_usd": 0.007311,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.2383550829836167,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_ebe2f707440b4da18683d26b2b1058e7"
+  },
+  {
+    "song_id": "s2000-a62b1066ea67",
+    "anonymous_song_id": "s022",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2000,
+    "decade": 2000,
+    "language": "en",
+    "stage": "bounded_third_review",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "label": "Yo lírico desbordado y desorientado",
+      "summary": "Voz íntima, identidad frágil y realidad incierta.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "unclear",
+          "reading": "Aparecen daño interno, pérdida de control y yo inestable.",
+          "source_document_ids": [
+            "s2000-a62b1066ea67::s000",
+            "s2000-a62b1066ea67::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "reflection",
+          "reading": "Se añade presión acumulada y autoobservación inquietante.",
+          "source_document_ids": [
+            "s2000-a62b1066ea67::s002",
+            "s2000-a62b1066ea67::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b005",
+            "b006"
+          ],
+          "state": "reflection",
+          "reading": "La misma desorientación vuelve, sin resolverse ni cambiar.",
+          "source_document_ids": [
+            "s2000-a62b1066ea67::s004",
+            "s2000-a62b1066ea67::s005"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "repetition",
+          "reading": "La presión y la inseguridad prolongan el mismo estado."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "La repetición reafirma la desorientación sin giro claro."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "27e8e5e739702498bded8730317b0ad812035a61c756739960b36589a2c8b1f7",
+    "input_tokens": 1306,
+    "output_tokens": 235,
+    "accounted_usd": 0.002037,
+    "reserved_usd": 0.00738675,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.464308082999196,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_9689a3e62361467aaa2cccea1ba15114"
+  },
+  {
+    "song_id": "s1984-8b16c1dac4a9",
+    "anonymous_song_id": "s013",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1984,
+    "decade": 1980,
+    "language": "en",
+    "stage": "bounded_third_review",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "301bc53bc8f3510e537a0257b1002ebe444f0cf2757c5b67140942d1622b7485",
+    "input_tokens": 1618,
+    "output_tokens": 230,
+    "accounted_usd": 0.0022485,
+    "reserved_usd": 0.00811725,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.4140597920049913,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_e7e7025fd7114afc95bc80fe043d2715"
+  },
+  {
+    "song_id": "s1991-d25354f1d8f0",
+    "anonymous_song_id": "s021",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1991,
+    "decade": 1990,
+    "language": "en",
+    "stage": "bounded_third_review",
+    "reading": {
+      "voice": "dialogue_or_multiple",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "arc": "repetition",
+      "subtopics": [
+        "supernatural",
+        "uncertainty_change"
+      ],
+      "label": "Vigilia inquieta con refugio ambiguo",
+      "summary": "Protección nocturna y amenazas imaginadas se repiten.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "care",
+          "reading": "Protección íntima con invitación a partir.",
+          "source_document_ids": [
+            "s1991-d25354f1d8f0::s000",
+            "s1991-d25354f1d8f0::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b005"
+          ],
+          "state": "threat",
+          "reading": "Aparecen visiones amenazantes y presencias ocultas.",
+          "source_document_ids": [
+            "s1991-d25354f1d8f0::s002",
+            "s1991-d25354f1d8f0::s004"
+          ]
+        },
+        {
+          "ids": [
+            "b006",
+            "b010"
+          ],
+          "state": "celebration",
+          "reading": "La salida nocturna se repite como estribillo.",
+          "source_document_ids": [
+            "s1991-d25354f1d8f0::s005",
+            "s1991-d25354f1d8f0::s009"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "contrast",
+          "reading": "La calma protectora cede a imágenes inquietantes."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "Las fórmulas nocturnas vuelven sin resolver la tensión."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "8523cebbbca047403be91bbaccd7c8023b4dd3a4b33da9b36fbc62c578e946a3",
+    "input_tokens": 1383,
+    "output_tokens": 229,
+    "accounted_usd": 0.00206775,
+    "reserved_usd": 0.0074805,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.360786959005054,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_bedb0200fef6435cb6ffd13408ed3d25"
+  },
+  {
+    "song_id": "s2021-27c16cbb8cff",
+    "anonymous_song_id": "s025",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2021,
+    "decade": 2020,
+    "language": "en",
+    "stage": "bounded_third_review",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "700c762ab74564d6b1a0d128f1226098bb0daeb90bd75db3f21897232e0c5334",
+    "input_tokens": 1319,
+    "output_tokens": 227,
+    "accounted_usd": 0.00201075,
+    "reserved_usd": 0.00734775,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.4182083749910817,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_bc2970956800473cbac8d2d301ab3d8f"
+  },
+  {
+    "song_id": "s2008-4db2a4ef136d",
+    "anonymous_song_id": "s015",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2008,
+    "decade": 2000,
+    "language": "en",
+    "stage": "bounded_third_review",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "label": "Voz inquieta, advertencia repetida",
+      "summary": "Una voz oscila entre alarma interna y aviso externo.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "reflection",
+          "reading": "Se formula malestar interno y bloqueo mental.",
+          "source_document_ids": [
+            "s2008-4db2a4ef136d::s000",
+            "s2008-4db2a4ef136d::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b005"
+          ],
+          "state": "threat",
+          "reading": "Se presenta una amenaza mental y advertencia al otro.",
+          "source_document_ids": [
+            "s2008-4db2a4ef136d::s002",
+            "s2008-4db2a4ef136d::s004"
+          ]
+        },
+        {
+          "ids": [
+            "b007",
+            "b012"
+          ],
+          "state": "loss",
+          "reading": "Aparecen desconexión, aislamiento y pedido de liberación.",
+          "source_document_ids": [
+            "s2008-4db2a4ef136d::s006",
+            "s2008-4db2a4ef136d::s011"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "repetition",
+          "reading": "La alarma se reformula como amenaza mental."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "turn",
+          "reading": "La advertencia deriva en deseo de salida."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "cb7c978223e4d856c1addfe9996c6230e7d035ecf2870ced810daefb2ed1bc98",
+    "input_tokens": 1930,
+    "output_tokens": 216,
+    "accounted_usd": 0.0024195,
+    "reserved_usd": 0.008781,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.0080862499889918,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_95be182335a14697889586f40d1ed8d6"
+  },
+  {
+    "song_id": "s2015-c11afde63d3a",
+    "anonymous_song_id": "s019",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2015,
+    "decade": 2010,
+    "language": "en",
+    "stage": "bounded_third_review",
+    "reading": {
+      "voice": "first_collective",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "denied",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "label": "Deseo creativo y presión social",
+      "summary": "Nostalgia, inseguridad y presión económica se repiten.",
+      "steps": [
+        {
+          "ids": [
+            "b001"
+          ],
+          "state": "reflection",
+          "reading": "Deseo de novedad y autovaloración frágil.",
+          "source_document_ids": [
+            "s2015-c11afde63d3a::s000"
+          ]
+        },
+        {
+          "ids": [
+            "b002",
+            "b003"
+          ],
+          "state": "loss",
+          "reading": "Nostalgia compartida y recuerdo de menor presión.",
+          "source_document_ids": [
+            "s2015-c11afde63d3a::s001",
+            "s2015-c11afde63d3a::s002"
+          ]
+        },
+        {
+          "ids": [
+            "b004",
+            "b005"
+          ],
+          "state": "confrontation",
+          "reading": "Choque entre juego infantil y exigencia económica.",
+          "source_document_ids": [
+            "s2015-c11afde63d3a::s003",
+            "s2015-c11afde63d3a::s004"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "repetition",
+          "reading": "La añoranza continúa y se amplía al pasado común."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "contrast",
+          "reading": "El recuerdo amable contrasta con la presión presente."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "61182b38c79375b71b5ac1cf71a2add33fa93f8d51a4b5139a76669ec44cd8b0",
+    "input_tokens": 1665,
+    "output_tokens": 220,
+    "accounted_usd": 0.00223875,
+    "reserved_usd": 0.00842325,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.6209256250294857,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_e53dfb16277c41b99cdd70c8a979ae6e"
+  },
+  {
+    "song_id": "s2021-a17cc29d59f5",
+    "anonymous_song_id": "s004",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 2021,
+    "decade": 2020,
+    "language": "es",
+    "stage": "bounded_third_review",
+    "reading": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "explicit",
+      "fear_polarity": "denied",
+      "arc": "repetition",
+      "subtopics": [
+        "other",
+        "relational_coercion"
+      ],
+      "label": "Reclamo íntimo y celebración materna",
+      "summary": "Voz íntima interpela a la madre y celebra su fuerza.",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "reflection",
+          "reading": "Interpelación directa a una figura materna con tono confesional y llamado colectivo.",
+          "source_document_ids": [
+            "s2021-a17cc29d59f5::s000",
+            "s2021-a17cc29d59f5::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b004",
+            "b007"
+          ],
+          "state": "celebration",
+          "reading": "Se reafirma el vínculo materno y una exaltación repetida de esa presencia.",
+          "source_document_ids": [
+            "s2021-a17cc29d59f5::s003",
+            "s2021-a17cc29d59f5::s006"
+          ]
+        },
+        {
+          "ids": [
+            "b008"
+          ],
+          "state": "negation",
+          "reading": "Se nombra el miedo social y se lo discute, negando su validez.",
+          "source_document_ids": [
+            "s2021-a17cc29d59f5::s007"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "repetition",
+          "reading": "La invocación materna se sostiene y se intensifica sin cambiar de posición."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "turn",
+          "reading": "La celebración deriva hacia una crítica explícita del miedo atribuido al cuerpo."
+        }
+      ],
+      "withheld_lyric_overlap_fields": 0
+    },
+    "status": "executed",
+    "request_hash": "2f8ae45f5842e5bc219207eeddfbe845b4bd008993a3ac69d7d2b5894314c1ce",
+    "input_tokens": 1427,
+    "output_tokens": 250,
+    "accounted_usd": 0.00219525,
+    "reserved_usd": 0.007446,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.329014792048838,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_e3bfff7008204cec90c1675d2aa36361"
+  },
+  {
+    "song_id": "s1982-fc0d5bdf6fc1",
+    "anonymous_song_id": "s036",
+    "model_id": "openai/gpt-5.4-mini",
+    "year": 1982,
+    "decade": 1980,
+    "language": "en",
+    "stage": "bounded_third_review",
+    "status": "executed_invalid_panel_schema",
+    "request_hash": "0914041ad74b7fb4b9ef6b89fd811046795f9acee6099974f77d2671087d0c99",
+    "input_tokens": 1379,
+    "output_tokens": 219,
+    "accounted_usd": 0.00201975,
+    "reserved_usd": 0.00753975,
+    "accounting_basis": "provider_usage_at_standard_paid_rates",
+    "latency_seconds": 2.2786104169790633,
+    "finish_reason": "stop",
+    "returned_model": "gpt-5.4-mini-2026-03-17",
+    "request_id": "req_2d7d93545f7f4b31825e056a0d8a664f"
+  }
+]

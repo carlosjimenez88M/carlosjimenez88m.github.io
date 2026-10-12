@@ -1,0 +1,148 @@
+{
+  "executed": true,
+  "sources": {
+    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2": {
+      "section_assignments_sha256": "26e51668d942dc02bb4d8b29c375e8c3ab4bd117a44d66f83049089f16e46cee",
+      "unique_song_shares_sha256": "2ed0ee8a068aa623e412611558f55e1b7642171d788111cec22cc014f55c0937",
+      "songs": 40,
+      "song_ids_sha256": "071fea8143c7a88b1fa7410e67b30143f61f46d7a144b8e2a5abfe495b8db298",
+      "section_metadata_sha256": "ae8ba00e064109c73f3200beff42905395df8f8bb94199da1ee02fdd6c373939"
+    },
+    "intfloat/multilingual-e5-small": {
+      "section_assignments_sha256": "7f42cd06c11d5e8861200b7c3e53a9d6703e84ae16aa0bae9bb5911bf54e015c",
+      "unique_song_shares_sha256": "1498860c5156a1df828072490f513469a26839d84f10a550c6eb7cdbf9112f2e",
+      "songs": 40,
+      "song_ids_sha256": "071fea8143c7a88b1fa7410e67b30143f61f46d7a144b8e2a5abfe495b8db298",
+      "section_metadata_sha256": "ae8ba00e064109c73f3200beff42905395df8f8bb94199da1ee02fdd6c373939"
+    },
+    "openai/text-embedding-3-large": {
+      "section_assignments_sha256": "6011713a74bb81487f13ea17026f5d9c2ecf7ed7ed48b94f89c6acaaa8dccd08",
+      "unique_song_shares_sha256": "e8abfd8746955781ca20e4f2dc14fdb658374a8f01e76692501b82f417785bef",
+      "songs": 40,
+      "song_ids_sha256": "071fea8143c7a88b1fa7410e67b30143f61f46d7a144b8e2a5abfe495b8db298",
+      "section_metadata_sha256": "ae8ba00e064109c73f3200beff42905395df8f8bb94199da1ee02fdd6c373939"
+    },
+    "openai/text-embedding-3-small": {
+      "section_assignments_sha256": "ba1a0d40d882771a8f55042f3df7a1df018e6a27775336448746103621d938f2",
+      "unique_song_shares_sha256": "2f6d1bf2da9840095bcb2ed2006fe5efa48a7143218283a043aa9207d0511880",
+      "songs": 40,
+      "song_ids_sha256": "071fea8143c7a88b1fa7410e67b30143f61f46d7a144b8e2a5abfe495b8db298",
+      "section_metadata_sha256": "ae8ba00e064109c73f3200beff42905395df8f8bb94199da1ee02fdd6c373939"
+    }
+  },
+  "script_sha256": "11c24e22915c59839a10509d107e98e2c1e20f496c0504c761820a72f86f68c8",
+  "runtime_seconds": 10.03,
+  "source_article": "https://juliasilge.com/blog/bayesian-blues/",
+  "source_code": "https://github.com/juliasilge/old_bloggy_blog/blob/master/_R/2016-09-28-Bayesian-Blues.Rmd",
+  "observation": "A selected song contains >=1 unique block assigned to a fixed topic. One Bernoulli per song/topic.",
+  "estimand": "Latent topic-presence propensity under a hypothetical exchangeable song-sampling model. Observed finite-corpus c/n is known exactly; purposive selection prevents external prevalence interpretation.",
+  "trials": "Actual selected-song count per decade/language cell, inferred and validated before fitting; all zero cells retained. Noise -1 is diagnostic.",
+  "song_denominators": [
+    4
+  ],
+  "expected_cells": 10,
+  "expected_songs_per_cell": 4,
+  "models": [
+    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "intfloat/multilingual-e5-small",
+    "openai/text-embedding-3-large",
+    "openai/text-embedding-3-small"
+  ],
+  "corpus_manifest_sha256": "5466b3b680f1dd3a979414ef25ad7603b6104aaf58130e86f82f4f6914e33ef1",
+  "cohort_check": "Every encoder uses exactly the same song IDs, section IDs, order, canonical repeats and lengths; optional manifest match is strict. This public metadata hash does not itself verify private lyric text bytes. Different fit cohorts are not silently filtered.",
+  "likelihood": "c_g ~ BetaBinomial(n_g, mu*kappa, (1-mu)*kappa); theta_g | c_g,hyper ~ Beta(alpha+c_g,beta+n_g-c_g)",
+  "eb": "Marginal likelihood with 12 deterministic starts and a kappa profile; plug-in intervals condition on fitted hyperparameters.",
+  "eb_kappa_bounds": [
+    0.05,
+    200.0
+  ],
+  "eb_mu_bounds": [
+    0.0001,
+    0.9999
+  ],
+  "profile": "delta log likelihood >= -1.920729 is a heuristic support diagnostic, not a calibrated interval in this tiny boundary-prone design.",
+  "full_hierarchical": "mu~Beta(1,1); log(kappa)~Normal(log(4),1.5) truncated [.05,200]; Gauss-Legendre quadrature over mu/log(kappa).",
+  "grid": [
+    64,
+    81
+  ],
+  "grid_resolution_comparison": [
+    96,
+    121
+  ],
+  "fixed_priors": {
+    "Jeffreys": [
+      0.5,
+      0.5
+    ],
+    "uniform": [
+      1.0,
+      1.0
+    ]
+  },
+  "pooling": "Compare all ten EN/ES cells with five cells per language. Neither exchangeability assumption is established by this corpus.",
+  "predictive_replicates": 5000,
+  "simulation_seed": 20261012,
+  "leave_one_cell_out": "Refits only hyperprior; topic discovery still reuses all songs. Predictive scores are a conditional sensitivity, not topic generalization.",
+  "credible_intervals": "95% equal-tail intervals. Grid mixture integrates hyperparameter (alpha/beta) uncertainty; its weak hyperprior specification stays fixed. All methods condition on topic assignments and corpus design.",
+  "full_vs_eb_difference": "The hierarchical grid also introduces explicit weak hyperpriors; differences from EB are not solely an uncertainty-only correction at the same maximum-likelihood point.",
+  "unresolved": "Selection bias, dependent artists, unequal provider coverage, song length/detection opportunity, topic/model uncertainty, and population inference are not solved.",
+  "presence_not_composition": "A song can contain multiple topics; presence percentages may sum above 100% and do not equal primary fractional topic shares.",
+  "e5_warning": "Language association is diagnosed separately for each embedding space; rates of those topics are not fear prevalence.",
+  "figure_selection": "One non-noise topic per supplied model: maximum mean within-language between-decade variance of observed song presence; smallest ID breaks ties. Exploratory selection on this corpus, not an inferential trend test.",
+  "selected_panels": [
+    {
+      "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "topic_id": 0,
+      "selection_score": 0.07250000000000001,
+      "selection_rule": "maximum_mean_within_language_between_decade_population_variance_of_observed_song_presence; exclude_noise; tie_smallest_topic_id",
+      "terms": [
+        "didn't",
+        "miedo",
+        "shit"
+      ]
+    },
+    {
+      "model": "intfloat/multilingual-e5-small",
+      "topic_id": 1,
+      "selection_score": 0.030000000000000006,
+      "selection_rule": "maximum_mean_within_language_between_decade_population_variance_of_observed_song_presence; exclude_noise; tie_smallest_topic_id",
+      "terms": [
+        "no",
+        "mama",
+        "mama mama"
+      ]
+    },
+    {
+      "model": "openai/text-embedding-3-large",
+      "topic_id": 6,
+      "selection_score": 0.04500000000000001,
+      "selection_rule": "maximum_mean_within_language_between_decade_population_variance_of_observed_song_presence; exclude_noise; tie_smallest_topic_id",
+      "terms": [
+        "bum",
+        "bum bum",
+        "dum bum"
+      ]
+    },
+    {
+      "model": "openai/text-embedding-3-small",
+      "topic_id": 0,
+      "selection_score": 0.020000000000000007,
+      "selection_rule": "maximum_mean_within_language_between_decade_population_variance_of_observed_song_presence; exclude_noise; tie_smallest_topic_id",
+      "terms": [
+        "like",
+        "bum",
+        "it's"
+      ]
+    }
+  ],
+  "temporal_contrast_draws": 20000,
+  "temporal_contrasts": "Earliest-to-latest decade bin for every non-noise topic and language. Shared hyperparameter draws preserve dependence of the hierarchical cells; all fixed assignments conditioned on; no multiplicity correction or complete-2020s claim.",
+  "article_adaptation": "Keep shrinkage and explicit intervals; replace state population with actual song trials, retain zeros, fit count likelihood, inspect hyperparameter uncertainty.",
+  "article_critique": "The linked Rmd excludes unmentioned states via filter(!is.na(n)); population is not a measured number of Bernoulli song trials.",
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  }
+}

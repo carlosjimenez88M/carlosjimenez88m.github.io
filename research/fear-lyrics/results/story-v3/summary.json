@@ -1,0 +1,21 @@
+{
+ "songs": 120,
+ "fear_agreed": 50,
+ "fear_split": 6,
+ "fear_absent": 64,
+ "fear_blocks": 320,
+ "main_encoder": "e5_large_fear",
+ "arc_validation": {
+  "songs": 116,
+  "mean_within_song_spearman": 0.15319443325309184,
+  "share_positive": 0.6724137931034483,
+  "pooled_block_spearman": 0.31761327298209724
+ },
+ "fear_by_period": {
+  "1980–89": 13.5,
+  "1990–99": 8.5,
+  "2000–09": 12.5,
+  "2010–19": 12.0,
+  "2020–26": 6.5
+ }
+}

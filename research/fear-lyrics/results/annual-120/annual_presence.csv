@@ -1,0 +1,988 @@
+year,language,subtopic,label,songs,fear_songs,reference_unresolved,count,one_reader_count,share,one_reader_share,languages_present
+1980,balanced,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+1980,balanced,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+1980,balanced,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+1980,balanced,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+1980,balanced,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+1980,balanced,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+1980,balanced,supernatural,Sobrenatural,0,0,0,0,0,,,
+1980,en,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+1980,en,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+1980,en,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+1980,en,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+1980,en,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+1980,en,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+1980,en,supernatural,Sobrenatural,0,0,0,0,0,,,
+1980,es,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+1980,es,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+1980,es,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+1980,es,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+1980,es,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+1980,es,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+1980,es,supernatural,Sobrenatural,0,0,0,0,0,,,
+1981,balanced,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+1981,balanced,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+1981,balanced,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+1981,balanced,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+1981,balanced,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+1981,balanced,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+1981,balanced,supernatural,Sobrenatural,0,0,0,0,0,,,
+1981,en,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+1981,en,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+1981,en,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+1981,en,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+1981,en,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+1981,en,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+1981,en,supernatural,Sobrenatural,0,0,0,0,0,,,
+1981,es,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+1981,es,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+1981,es,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+1981,es,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+1981,es,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+1981,es,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+1981,es,supernatural,Sobrenatural,0,0,0,0,0,,,
+1982,balanced,surveillance_pursuit,Vigilancia y persecución,3,2,0,0,1,0.0,0.3333333333333333,en|es
+1982,balanced,collective_violence,Violencia colectiva,3,2,0,0,0,0.0,0.0,en|es
+1982,balanced,loss_abandonment,Abandono y pérdida,3,2,0,0,0,0.0,0.0,en|es
+1982,balanced,fragility_identity,Fragilidad e identidad,3,2,0,1,1,0.3333333333333333,0.3333333333333333,en|es
+1982,balanced,uncertainty_change,Incertidumbre y cambio,3,2,0,0,0,0.0,0.0,en|es
+1982,balanced,relational_coercion,Coerción relacional,3,2,0,0,0,0.0,0.0,en|es
+1982,balanced,supernatural,Sobrenatural,3,2,0,1,1,0.3333333333333333,0.3333333333333333,en|es
+1982,en,surveillance_pursuit,Vigilancia y persecución,2,2,0,0,1,0.0,0.5,en
+1982,en,collective_violence,Violencia colectiva,2,2,0,0,0,0.0,0.0,en
+1982,en,loss_abandonment,Abandono y pérdida,2,2,0,0,0,0.0,0.0,en
+1982,en,fragility_identity,Fragilidad e identidad,2,2,0,1,1,0.5,0.5,en
+1982,en,uncertainty_change,Incertidumbre y cambio,2,2,0,0,0,0.0,0.0,en
+1982,en,relational_coercion,Coerción relacional,2,2,0,0,0,0.0,0.0,en
+1982,en,supernatural,Sobrenatural,2,2,0,1,1,0.5,0.5,en
+1982,es,surveillance_pursuit,Vigilancia y persecución,1,0,0,0,0,0.0,0.0,es
+1982,es,collective_violence,Violencia colectiva,1,0,0,0,0,0.0,0.0,es
+1982,es,loss_abandonment,Abandono y pérdida,1,0,0,0,0,0.0,0.0,es
+1982,es,fragility_identity,Fragilidad e identidad,1,0,0,0,0,0.0,0.0,es
+1982,es,uncertainty_change,Incertidumbre y cambio,1,0,0,0,0,0.0,0.0,es
+1982,es,relational_coercion,Coerción relacional,1,0,0,0,0,0.0,0.0,es
+1982,es,supernatural,Sobrenatural,1,0,0,0,0,0.0,0.0,es
+1983,balanced,surveillance_pursuit,Vigilancia y persecución,4,3,1,2,2,0.5,0.5,en
+1983,balanced,collective_violence,Violencia colectiva,4,3,1,1,1,0.25,0.25,en
+1983,balanced,loss_abandonment,Abandono y pérdida,4,3,1,0,0,0.0,0.0,en
+1983,balanced,fragility_identity,Fragilidad e identidad,4,3,1,0,0,0.0,0.0,en
+1983,balanced,uncertainty_change,Incertidumbre y cambio,4,3,1,0,0,0.0,0.0,en
+1983,balanced,relational_coercion,Coerción relacional,4,3,1,1,2,0.25,0.5,en
+1983,balanced,supernatural,Sobrenatural,4,3,1,0,0,0.0,0.0,en
+1983,en,surveillance_pursuit,Vigilancia y persecución,4,3,1,2,2,0.5,0.5,en
+1983,en,collective_violence,Violencia colectiva,4,3,1,1,1,0.25,0.25,en
+1983,en,loss_abandonment,Abandono y pérdida,4,3,1,0,0,0.0,0.0,en
+1983,en,fragility_identity,Fragilidad e identidad,4,3,1,0,0,0.0,0.0,en
+1983,en,uncertainty_change,Incertidumbre y cambio,4,3,1,0,0,0.0,0.0,en
+1983,en,relational_coercion,Coerción relacional,4,3,1,1,2,0.25,0.5,en
+1983,en,supernatural,Sobrenatural,4,3,1,0,0,0.0,0.0,en
+1983,es,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+1983,es,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+1983,es,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+1983,es,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+1983,es,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+1983,es,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+1983,es,supernatural,Sobrenatural,0,0,0,0,0,,,
+1984,balanced,surveillance_pursuit,Vigilancia y persecución,3,0,2,0,0,0.0,0.0,en|es
+1984,balanced,collective_violence,Violencia colectiva,3,0,2,0,0,0.0,0.0,en|es
+1984,balanced,loss_abandonment,Abandono y pérdida,3,0,2,0,0,0.0,0.0,en|es
+1984,balanced,fragility_identity,Fragilidad e identidad,3,0,2,0,0,0.0,0.0,en|es
+1984,balanced,uncertainty_change,Incertidumbre y cambio,3,0,2,0,0,0.0,0.0,en|es
+1984,balanced,relational_coercion,Coerción relacional,3,0,2,0,0,0.0,0.0,en|es
+1984,balanced,supernatural,Sobrenatural,3,0,2,0,0,0.0,0.0,en|es
+1984,en,surveillance_pursuit,Vigilancia y persecución,2,0,1,0,0,0.0,0.0,en
+1984,en,collective_violence,Violencia colectiva,2,0,1,0,0,0.0,0.0,en
+1984,en,loss_abandonment,Abandono y pérdida,2,0,1,0,0,0.0,0.0,en
+1984,en,fragility_identity,Fragilidad e identidad,2,0,1,0,0,0.0,0.0,en
+1984,en,uncertainty_change,Incertidumbre y cambio,2,0,1,0,0,0.0,0.0,en
+1984,en,relational_coercion,Coerción relacional,2,0,1,0,0,0.0,0.0,en
+1984,en,supernatural,Sobrenatural,2,0,1,0,0,0.0,0.0,en
+1984,es,surveillance_pursuit,Vigilancia y persecución,1,0,1,0,0,0.0,0.0,es
+1984,es,collective_violence,Violencia colectiva,1,0,1,0,0,0.0,0.0,es
+1984,es,loss_abandonment,Abandono y pérdida,1,0,1,0,0,0.0,0.0,es
+1984,es,fragility_identity,Fragilidad e identidad,1,0,1,0,0,0.0,0.0,es
+1984,es,uncertainty_change,Incertidumbre y cambio,1,0,1,0,0,0.0,0.0,es
+1984,es,relational_coercion,Coerción relacional,1,0,1,0,0,0.0,0.0,es
+1984,es,supernatural,Sobrenatural,1,0,1,0,0,0.0,0.0,es
+1985,balanced,surveillance_pursuit,Vigilancia y persecución,2,1,1,0,0,0.0,0.0,en|es
+1985,balanced,collective_violence,Violencia colectiva,2,1,1,0,0,0.0,0.0,en|es
+1985,balanced,loss_abandonment,Abandono y pérdida,2,1,1,0,0,0.0,0.0,en|es
+1985,balanced,fragility_identity,Fragilidad e identidad,2,1,1,0,0,0.0,0.0,en|es
+1985,balanced,uncertainty_change,Incertidumbre y cambio,2,1,1,0,0,0.0,0.0,en|es
+1985,balanced,relational_coercion,Coerción relacional,2,1,1,1,1,0.5,0.5,en|es
+1985,balanced,supernatural,Sobrenatural,2,1,1,0,0,0.0,0.0,en|es
+1985,en,surveillance_pursuit,Vigilancia y persecución,1,0,1,0,0,0.0,0.0,en
+1985,en,collective_violence,Violencia colectiva,1,0,1,0,0,0.0,0.0,en
+1985,en,loss_abandonment,Abandono y pérdida,1,0,1,0,0,0.0,0.0,en
+1985,en,fragility_identity,Fragilidad e identidad,1,0,1,0,0,0.0,0.0,en
+1985,en,uncertainty_change,Incertidumbre y cambio,1,0,1,0,0,0.0,0.0,en
+1985,en,relational_coercion,Coerción relacional,1,0,1,0,0,0.0,0.0,en
+1985,en,supernatural,Sobrenatural,1,0,1,0,0,0.0,0.0,en
+1985,es,surveillance_pursuit,Vigilancia y persecución,1,1,0,0,0,0.0,0.0,es
+1985,es,collective_violence,Violencia colectiva,1,1,0,0,0,0.0,0.0,es
+1985,es,loss_abandonment,Abandono y pérdida,1,1,0,0,0,0.0,0.0,es
+1985,es,fragility_identity,Fragilidad e identidad,1,1,0,0,0,0.0,0.0,es
+1985,es,uncertainty_change,Incertidumbre y cambio,1,1,0,0,0,0.0,0.0,es
+1985,es,relational_coercion,Coerción relacional,1,1,0,1,1,1.0,1.0,es
+1985,es,supernatural,Sobrenatural,1,1,0,0,0,0.0,0.0,es
+1986,balanced,surveillance_pursuit,Vigilancia y persecución,4,2,1,0,0,0.0,0.0,en|es
+1986,balanced,collective_violence,Violencia colectiva,4,2,1,0,0,0.0,0.0,en|es
+1986,balanced,loss_abandonment,Abandono y pérdida,4,2,1,0,0,0.0,0.0,en|es
+1986,balanced,fragility_identity,Fragilidad e identidad,4,2,1,0,0,0.0,0.0,en|es
+1986,balanced,uncertainty_change,Incertidumbre y cambio,4,2,1,0,0,0.0,0.0,en|es
+1986,balanced,relational_coercion,Coerción relacional,4,2,1,1,1,0.25,0.25,en|es
+1986,balanced,supernatural,Sobrenatural,4,2,1,1,1,0.25,0.25,en|es
+1986,en,surveillance_pursuit,Vigilancia y persecución,1,0,1,0,0,0.0,0.0,en
+1986,en,collective_violence,Violencia colectiva,1,0,1,0,0,0.0,0.0,en
+1986,en,loss_abandonment,Abandono y pérdida,1,0,1,0,0,0.0,0.0,en
+1986,en,fragility_identity,Fragilidad e identidad,1,0,1,0,0,0.0,0.0,en
+1986,en,uncertainty_change,Incertidumbre y cambio,1,0,1,0,0,0.0,0.0,en
+1986,en,relational_coercion,Coerción relacional,1,0,1,0,0,0.0,0.0,en
+1986,en,supernatural,Sobrenatural,1,0,1,0,0,0.0,0.0,en
+1986,es,surveillance_pursuit,Vigilancia y persecución,3,2,0,0,0,0.0,0.0,es
+1986,es,collective_violence,Violencia colectiva,3,2,0,0,0,0.0,0.0,es
+1986,es,loss_abandonment,Abandono y pérdida,3,2,0,0,0,0.0,0.0,es
+1986,es,fragility_identity,Fragilidad e identidad,3,2,0,0,0,0.0,0.0,es
+1986,es,uncertainty_change,Incertidumbre y cambio,3,2,0,0,0,0.0,0.0,es
+1986,es,relational_coercion,Coerción relacional,3,2,0,1,1,0.3333333333333333,0.3333333333333333,es
+1986,es,supernatural,Sobrenatural,3,2,0,1,1,0.3333333333333333,0.3333333333333333,es
+1987,balanced,surveillance_pursuit,Vigilancia y persecución,2,2,0,0,0,0.0,0.0,es
+1987,balanced,collective_violence,Violencia colectiva,2,2,0,0,0,0.0,0.0,es
+1987,balanced,loss_abandonment,Abandono y pérdida,2,2,0,0,0,0.0,0.0,es
+1987,balanced,fragility_identity,Fragilidad e identidad,2,2,0,1,1,0.5,0.5,es
+1987,balanced,uncertainty_change,Incertidumbre y cambio,2,2,0,0,0,0.0,0.0,es
+1987,balanced,relational_coercion,Coerción relacional,2,2,0,0,0,0.0,0.0,es
+1987,balanced,supernatural,Sobrenatural,2,2,0,1,1,0.5,0.5,es
+1987,en,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+1987,en,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+1987,en,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+1987,en,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+1987,en,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+1987,en,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+1987,en,supernatural,Sobrenatural,0,0,0,0,0,,,
+1987,es,surveillance_pursuit,Vigilancia y persecución,2,2,0,0,0,0.0,0.0,es
+1987,es,collective_violence,Violencia colectiva,2,2,0,0,0,0.0,0.0,es
+1987,es,loss_abandonment,Abandono y pérdida,2,2,0,0,0,0.0,0.0,es
+1987,es,fragility_identity,Fragilidad e identidad,2,2,0,1,1,0.5,0.5,es
+1987,es,uncertainty_change,Incertidumbre y cambio,2,2,0,0,0,0.0,0.0,es
+1987,es,relational_coercion,Coerción relacional,2,2,0,0,0,0.0,0.0,es
+1987,es,supernatural,Sobrenatural,2,2,0,1,1,0.5,0.5,es
+1988,balanced,surveillance_pursuit,Vigilancia y persecución,4,2,1,0,0,0.0,0.0,en|es
+1988,balanced,collective_violence,Violencia colectiva,4,2,1,0,0,0.0,0.0,en|es
+1988,balanced,loss_abandonment,Abandono y pérdida,4,2,1,0,0,0.0,0.0,en|es
+1988,balanced,fragility_identity,Fragilidad e identidad,4,2,1,1,1,0.25,0.25,en|es
+1988,balanced,uncertainty_change,Incertidumbre y cambio,4,2,1,0,0,0.0,0.0,en|es
+1988,balanced,relational_coercion,Coerción relacional,4,2,1,0,0,0.0,0.0,en|es
+1988,balanced,supernatural,Sobrenatural,4,2,1,1,1,0.25,0.25,en|es
+1988,en,surveillance_pursuit,Vigilancia y persecución,2,1,1,0,0,0.0,0.0,en
+1988,en,collective_violence,Violencia colectiva,2,1,1,0,0,0.0,0.0,en
+1988,en,loss_abandonment,Abandono y pérdida,2,1,1,0,0,0.0,0.0,en
+1988,en,fragility_identity,Fragilidad e identidad,2,1,1,0,0,0.0,0.0,en
+1988,en,uncertainty_change,Incertidumbre y cambio,2,1,1,0,0,0.0,0.0,en
+1988,en,relational_coercion,Coerción relacional,2,1,1,0,0,0.0,0.0,en
+1988,en,supernatural,Sobrenatural,2,1,1,0,0,0.0,0.0,en
+1988,es,surveillance_pursuit,Vigilancia y persecución,2,1,0,0,0,0.0,0.0,es
+1988,es,collective_violence,Violencia colectiva,2,1,0,0,0,0.0,0.0,es
+1988,es,loss_abandonment,Abandono y pérdida,2,1,0,0,0,0.0,0.0,es
+1988,es,fragility_identity,Fragilidad e identidad,2,1,0,1,1,0.5,0.5,es
+1988,es,uncertainty_change,Incertidumbre y cambio,2,1,0,0,0,0.0,0.0,es
+1988,es,relational_coercion,Coerción relacional,2,1,0,0,0,0.0,0.0,es
+1988,es,supernatural,Sobrenatural,2,1,0,1,1,0.5,0.5,es
+1989,balanced,surveillance_pursuit,Vigilancia y persecución,2,1,0,1,1,0.5,0.5,es
+1989,balanced,collective_violence,Violencia colectiva,2,1,0,0,0,0.0,0.0,es
+1989,balanced,loss_abandonment,Abandono y pérdida,2,1,0,0,0,0.0,0.0,es
+1989,balanced,fragility_identity,Fragilidad e identidad,2,1,0,0,0,0.0,0.0,es
+1989,balanced,uncertainty_change,Incertidumbre y cambio,2,1,0,0,0,0.0,0.0,es
+1989,balanced,relational_coercion,Coerción relacional,2,1,0,1,1,0.5,0.5,es
+1989,balanced,supernatural,Sobrenatural,2,1,0,0,0,0.0,0.0,es
+1989,en,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+1989,en,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+1989,en,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+1989,en,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+1989,en,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+1989,en,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+1989,en,supernatural,Sobrenatural,0,0,0,0,0,,,
+1989,es,surveillance_pursuit,Vigilancia y persecución,2,1,0,1,1,0.5,0.5,es
+1989,es,collective_violence,Violencia colectiva,2,1,0,0,0,0.0,0.0,es
+1989,es,loss_abandonment,Abandono y pérdida,2,1,0,0,0,0.0,0.0,es
+1989,es,fragility_identity,Fragilidad e identidad,2,1,0,0,0,0.0,0.0,es
+1989,es,uncertainty_change,Incertidumbre y cambio,2,1,0,0,0,0.0,0.0,es
+1989,es,relational_coercion,Coerción relacional,2,1,0,1,1,0.5,0.5,es
+1989,es,supernatural,Sobrenatural,2,1,0,0,0,0.0,0.0,es
+1990,balanced,surveillance_pursuit,Vigilancia y persecución,3,0,2,0,0,0.0,0.0,es
+1990,balanced,collective_violence,Violencia colectiva,3,0,2,0,0,0.0,0.0,es
+1990,balanced,loss_abandonment,Abandono y pérdida,3,0,2,0,0,0.0,0.0,es
+1990,balanced,fragility_identity,Fragilidad e identidad,3,0,2,0,0,0.0,0.0,es
+1990,balanced,uncertainty_change,Incertidumbre y cambio,3,0,2,0,0,0.0,0.0,es
+1990,balanced,relational_coercion,Coerción relacional,3,0,2,0,0,0.0,0.0,es
+1990,balanced,supernatural,Sobrenatural,3,0,2,0,0,0.0,0.0,es
+1990,en,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+1990,en,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+1990,en,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+1990,en,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+1990,en,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+1990,en,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+1990,en,supernatural,Sobrenatural,0,0,0,0,0,,,
+1990,es,surveillance_pursuit,Vigilancia y persecución,3,0,2,0,0,0.0,0.0,es
+1990,es,collective_violence,Violencia colectiva,3,0,2,0,0,0.0,0.0,es
+1990,es,loss_abandonment,Abandono y pérdida,3,0,2,0,0,0.0,0.0,es
+1990,es,fragility_identity,Fragilidad e identidad,3,0,2,0,0,0.0,0.0,es
+1990,es,uncertainty_change,Incertidumbre y cambio,3,0,2,0,0,0.0,0.0,es
+1990,es,relational_coercion,Coerción relacional,3,0,2,0,0,0.0,0.0,es
+1990,es,supernatural,Sobrenatural,3,0,2,0,0,0.0,0.0,es
+1991,balanced,surveillance_pursuit,Vigilancia y persecución,3,1,2,0,0,0.0,0.0,en
+1991,balanced,collective_violence,Violencia colectiva,3,1,2,0,0,0.0,0.0,en
+1991,balanced,loss_abandonment,Abandono y pérdida,3,1,2,0,0,0.0,0.0,en
+1991,balanced,fragility_identity,Fragilidad e identidad,3,1,2,0,0,0.0,0.0,en
+1991,balanced,uncertainty_change,Incertidumbre y cambio,3,1,2,0,0,0.0,0.0,en
+1991,balanced,relational_coercion,Coerción relacional,3,1,2,0,0,0.0,0.0,en
+1991,balanced,supernatural,Sobrenatural,3,1,2,1,1,0.3333333333333333,0.3333333333333333,en
+1991,en,surveillance_pursuit,Vigilancia y persecución,3,1,2,0,0,0.0,0.0,en
+1991,en,collective_violence,Violencia colectiva,3,1,2,0,0,0.0,0.0,en
+1991,en,loss_abandonment,Abandono y pérdida,3,1,2,0,0,0.0,0.0,en
+1991,en,fragility_identity,Fragilidad e identidad,3,1,2,0,0,0.0,0.0,en
+1991,en,uncertainty_change,Incertidumbre y cambio,3,1,2,0,0,0.0,0.0,en
+1991,en,relational_coercion,Coerción relacional,3,1,2,0,0,0.0,0.0,en
+1991,en,supernatural,Sobrenatural,3,1,2,1,1,0.3333333333333333,0.3333333333333333,en
+1991,es,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+1991,es,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+1991,es,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+1991,es,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+1991,es,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+1991,es,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+1991,es,supernatural,Sobrenatural,0,0,0,0,0,,,
+1992,balanced,surveillance_pursuit,Vigilancia y persecución,1,0,1,0,0,0.0,0.0,en
+1992,balanced,collective_violence,Violencia colectiva,1,0,1,0,0,0.0,0.0,en
+1992,balanced,loss_abandonment,Abandono y pérdida,1,0,1,0,0,0.0,0.0,en
+1992,balanced,fragility_identity,Fragilidad e identidad,1,0,1,0,0,0.0,0.0,en
+1992,balanced,uncertainty_change,Incertidumbre y cambio,1,0,1,0,0,0.0,0.0,en
+1992,balanced,relational_coercion,Coerción relacional,1,0,1,0,0,0.0,0.0,en
+1992,balanced,supernatural,Sobrenatural,1,0,1,0,0,0.0,0.0,en
+1992,en,surveillance_pursuit,Vigilancia y persecución,1,0,1,0,0,0.0,0.0,en
+1992,en,collective_violence,Violencia colectiva,1,0,1,0,0,0.0,0.0,en
+1992,en,loss_abandonment,Abandono y pérdida,1,0,1,0,0,0.0,0.0,en
+1992,en,fragility_identity,Fragilidad e identidad,1,0,1,0,0,0.0,0.0,en
+1992,en,uncertainty_change,Incertidumbre y cambio,1,0,1,0,0,0.0,0.0,en
+1992,en,relational_coercion,Coerción relacional,1,0,1,0,0,0.0,0.0,en
+1992,en,supernatural,Sobrenatural,1,0,1,0,0,0.0,0.0,en
+1992,es,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+1992,es,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+1992,es,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+1992,es,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+1992,es,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+1992,es,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+1992,es,supernatural,Sobrenatural,0,0,0,0,0,,,
+1993,balanced,surveillance_pursuit,Vigilancia y persecución,2,1,0,1,1,0.5,0.5,es
+1993,balanced,collective_violence,Violencia colectiva,2,1,0,1,1,0.5,0.5,es
+1993,balanced,loss_abandonment,Abandono y pérdida,2,1,0,0,0,0.0,0.0,es
+1993,balanced,fragility_identity,Fragilidad e identidad,2,1,0,0,0,0.0,0.0,es
+1993,balanced,uncertainty_change,Incertidumbre y cambio,2,1,0,0,0,0.0,0.0,es
+1993,balanced,relational_coercion,Coerción relacional,2,1,0,0,0,0.0,0.0,es
+1993,balanced,supernatural,Sobrenatural,2,1,0,0,0,0.0,0.0,es
+1993,en,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+1993,en,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+1993,en,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+1993,en,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+1993,en,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+1993,en,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+1993,en,supernatural,Sobrenatural,0,0,0,0,0,,,
+1993,es,surveillance_pursuit,Vigilancia y persecución,2,1,0,1,1,0.5,0.5,es
+1993,es,collective_violence,Violencia colectiva,2,1,0,1,1,0.5,0.5,es
+1993,es,loss_abandonment,Abandono y pérdida,2,1,0,0,0,0.0,0.0,es
+1993,es,fragility_identity,Fragilidad e identidad,2,1,0,0,0,0.0,0.0,es
+1993,es,uncertainty_change,Incertidumbre y cambio,2,1,0,0,0,0.0,0.0,es
+1993,es,relational_coercion,Coerción relacional,2,1,0,0,0,0.0,0.0,es
+1993,es,supernatural,Sobrenatural,2,1,0,0,0,0.0,0.0,es
+1994,balanced,surveillance_pursuit,Vigilancia y persecución,4,2,2,0,0,0.0,0.0,en|es
+1994,balanced,collective_violence,Violencia colectiva,4,2,2,1,1,0.25,0.25,en|es
+1994,balanced,loss_abandonment,Abandono y pérdida,4,2,2,0,0,0.0,0.0,en|es
+1994,balanced,fragility_identity,Fragilidad e identidad,4,2,2,0,0,0.0,0.0,en|es
+1994,balanced,uncertainty_change,Incertidumbre y cambio,4,2,2,0,0,0.0,0.0,en|es
+1994,balanced,relational_coercion,Coerción relacional,4,2,2,0,0,0.0,0.0,en|es
+1994,balanced,supernatural,Sobrenatural,4,2,2,0,0,0.0,0.0,en|es
+1994,en,surveillance_pursuit,Vigilancia y persecución,3,2,1,0,0,0.0,0.0,en
+1994,en,collective_violence,Violencia colectiva,3,2,1,1,1,0.3333333333333333,0.3333333333333333,en
+1994,en,loss_abandonment,Abandono y pérdida,3,2,1,0,0,0.0,0.0,en
+1994,en,fragility_identity,Fragilidad e identidad,3,2,1,0,0,0.0,0.0,en
+1994,en,uncertainty_change,Incertidumbre y cambio,3,2,1,0,0,0.0,0.0,en
+1994,en,relational_coercion,Coerción relacional,3,2,1,0,0,0.0,0.0,en
+1994,en,supernatural,Sobrenatural,3,2,1,0,0,0.0,0.0,en
+1994,es,surveillance_pursuit,Vigilancia y persecución,1,0,1,0,0,0.0,0.0,es
+1994,es,collective_violence,Violencia colectiva,1,0,1,0,0,0.0,0.0,es
+1994,es,loss_abandonment,Abandono y pérdida,1,0,1,0,0,0.0,0.0,es
+1994,es,fragility_identity,Fragilidad e identidad,1,0,1,0,0,0.0,0.0,es
+1994,es,uncertainty_change,Incertidumbre y cambio,1,0,1,0,0,0.0,0.0,es
+1994,es,relational_coercion,Coerción relacional,1,0,1,0,0,0.0,0.0,es
+1994,es,supernatural,Sobrenatural,1,0,1,0,0,0.0,0.0,es
+1995,balanced,surveillance_pursuit,Vigilancia y persecución,4,3,0,0,0,0.0,0.0,en|es
+1995,balanced,collective_violence,Violencia colectiva,4,3,0,1,1,0.25,0.25,en|es
+1995,balanced,loss_abandonment,Abandono y pérdida,4,3,0,1,1,0.25,0.25,en|es
+1995,balanced,fragility_identity,Fragilidad e identidad,4,3,0,0,0,0.0,0.0,en|es
+1995,balanced,uncertainty_change,Incertidumbre y cambio,4,3,0,0,0,0.0,0.0,en|es
+1995,balanced,relational_coercion,Coerción relacional,4,3,0,1,1,0.25,0.25,en|es
+1995,balanced,supernatural,Sobrenatural,4,3,0,0,0,0.0,0.0,en|es
+1995,en,surveillance_pursuit,Vigilancia y persecución,3,2,0,0,0,0.0,0.0,en
+1995,en,collective_violence,Violencia colectiva,3,2,0,1,1,0.3333333333333333,0.3333333333333333,en
+1995,en,loss_abandonment,Abandono y pérdida,3,2,0,1,1,0.3333333333333333,0.3333333333333333,en
+1995,en,fragility_identity,Fragilidad e identidad,3,2,0,0,0,0.0,0.0,en
+1995,en,uncertainty_change,Incertidumbre y cambio,3,2,0,0,0,0.0,0.0,en
+1995,en,relational_coercion,Coerción relacional,3,2,0,0,0,0.0,0.0,en
+1995,en,supernatural,Sobrenatural,3,2,0,0,0,0.0,0.0,en
+1995,es,surveillance_pursuit,Vigilancia y persecución,1,1,0,0,0,0.0,0.0,es
+1995,es,collective_violence,Violencia colectiva,1,1,0,0,0,0.0,0.0,es
+1995,es,loss_abandonment,Abandono y pérdida,1,1,0,0,0,0.0,0.0,es
+1995,es,fragility_identity,Fragilidad e identidad,1,1,0,0,0,0.0,0.0,es
+1995,es,uncertainty_change,Incertidumbre y cambio,1,1,0,0,0,0.0,0.0,es
+1995,es,relational_coercion,Coerción relacional,1,1,0,1,1,1.0,1.0,es
+1995,es,supernatural,Sobrenatural,1,1,0,0,0,0.0,0.0,es
+1996,balanced,surveillance_pursuit,Vigilancia y persecución,1,0,0,0,0,0.0,0.0,en
+1996,balanced,collective_violence,Violencia colectiva,1,0,0,0,0,0.0,0.0,en
+1996,balanced,loss_abandonment,Abandono y pérdida,1,0,0,0,0,0.0,0.0,en
+1996,balanced,fragility_identity,Fragilidad e identidad,1,0,0,0,0,0.0,0.0,en
+1996,balanced,uncertainty_change,Incertidumbre y cambio,1,0,0,0,0,0.0,0.0,en
+1996,balanced,relational_coercion,Coerción relacional,1,0,0,0,0,0.0,0.0,en
+1996,balanced,supernatural,Sobrenatural,1,0,0,0,0,0.0,0.0,en
+1996,en,surveillance_pursuit,Vigilancia y persecución,1,0,0,0,0,0.0,0.0,en
+1996,en,collective_violence,Violencia colectiva,1,0,0,0,0,0.0,0.0,en
+1996,en,loss_abandonment,Abandono y pérdida,1,0,0,0,0,0.0,0.0,en
+1996,en,fragility_identity,Fragilidad e identidad,1,0,0,0,0,0.0,0.0,en
+1996,en,uncertainty_change,Incertidumbre y cambio,1,0,0,0,0,0.0,0.0,en
+1996,en,relational_coercion,Coerción relacional,1,0,0,0,0,0.0,0.0,en
+1996,en,supernatural,Sobrenatural,1,0,0,0,0,0.0,0.0,en
+1996,es,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+1996,es,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+1996,es,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+1996,es,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+1996,es,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+1996,es,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+1996,es,supernatural,Sobrenatural,0,0,0,0,0,,,
+1997,balanced,surveillance_pursuit,Vigilancia y persecución,1,0,1,0,0,0.0,0.0,es
+1997,balanced,collective_violence,Violencia colectiva,1,0,1,0,0,0.0,0.0,es
+1997,balanced,loss_abandonment,Abandono y pérdida,1,0,1,0,0,0.0,0.0,es
+1997,balanced,fragility_identity,Fragilidad e identidad,1,0,1,0,0,0.0,0.0,es
+1997,balanced,uncertainty_change,Incertidumbre y cambio,1,0,1,0,0,0.0,0.0,es
+1997,balanced,relational_coercion,Coerción relacional,1,0,1,0,0,0.0,0.0,es
+1997,balanced,supernatural,Sobrenatural,1,0,1,0,0,0.0,0.0,es
+1997,en,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+1997,en,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+1997,en,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+1997,en,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+1997,en,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+1997,en,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+1997,en,supernatural,Sobrenatural,0,0,0,0,0,,,
+1997,es,surveillance_pursuit,Vigilancia y persecución,1,0,1,0,0,0.0,0.0,es
+1997,es,collective_violence,Violencia colectiva,1,0,1,0,0,0.0,0.0,es
+1997,es,loss_abandonment,Abandono y pérdida,1,0,1,0,0,0.0,0.0,es
+1997,es,fragility_identity,Fragilidad e identidad,1,0,1,0,0,0.0,0.0,es
+1997,es,uncertainty_change,Incertidumbre y cambio,1,0,1,0,0,0.0,0.0,es
+1997,es,relational_coercion,Coerción relacional,1,0,1,0,0,0.0,0.0,es
+1997,es,supernatural,Sobrenatural,1,0,1,0,0,0.0,0.0,es
+1998,balanced,surveillance_pursuit,Vigilancia y persecución,4,2,0,0,0,0.0,0.0,en|es
+1998,balanced,collective_violence,Violencia colectiva,4,2,0,1,1,0.25,0.25,en|es
+1998,balanced,loss_abandonment,Abandono y pérdida,4,2,0,0,0,0.0,0.0,en|es
+1998,balanced,fragility_identity,Fragilidad e identidad,4,2,0,0,0,0.0,0.0,en|es
+1998,balanced,uncertainty_change,Incertidumbre y cambio,4,2,0,0,0,0.0,0.0,en|es
+1998,balanced,relational_coercion,Coerción relacional,4,2,0,0,0,0.0,0.0,en|es
+1998,balanced,supernatural,Sobrenatural,4,2,0,0,0,0.0,0.0,en|es
+1998,en,surveillance_pursuit,Vigilancia y persecución,1,0,0,0,0,0.0,0.0,en
+1998,en,collective_violence,Violencia colectiva,1,0,0,0,0,0.0,0.0,en
+1998,en,loss_abandonment,Abandono y pérdida,1,0,0,0,0,0.0,0.0,en
+1998,en,fragility_identity,Fragilidad e identidad,1,0,0,0,0,0.0,0.0,en
+1998,en,uncertainty_change,Incertidumbre y cambio,1,0,0,0,0,0.0,0.0,en
+1998,en,relational_coercion,Coerción relacional,1,0,0,0,0,0.0,0.0,en
+1998,en,supernatural,Sobrenatural,1,0,0,0,0,0.0,0.0,en
+1998,es,surveillance_pursuit,Vigilancia y persecución,3,2,0,0,0,0.0,0.0,es
+1998,es,collective_violence,Violencia colectiva,3,2,0,1,1,0.3333333333333333,0.3333333333333333,es
+1998,es,loss_abandonment,Abandono y pérdida,3,2,0,0,0,0.0,0.0,es
+1998,es,fragility_identity,Fragilidad e identidad,3,2,0,0,0,0.0,0.0,es
+1998,es,uncertainty_change,Incertidumbre y cambio,3,2,0,0,0,0.0,0.0,es
+1998,es,relational_coercion,Coerción relacional,3,2,0,0,0,0.0,0.0,es
+1998,es,supernatural,Sobrenatural,3,2,0,0,0,0.0,0.0,es
+1999,balanced,surveillance_pursuit,Vigilancia y persecución,1,0,1,0,0,0.0,0.0,es
+1999,balanced,collective_violence,Violencia colectiva,1,0,1,0,0,0.0,0.0,es
+1999,balanced,loss_abandonment,Abandono y pérdida,1,0,1,0,0,0.0,0.0,es
+1999,balanced,fragility_identity,Fragilidad e identidad,1,0,1,0,0,0.0,0.0,es
+1999,balanced,uncertainty_change,Incertidumbre y cambio,1,0,1,0,0,0.0,0.0,es
+1999,balanced,relational_coercion,Coerción relacional,1,0,1,0,0,0.0,0.0,es
+1999,balanced,supernatural,Sobrenatural,1,0,1,0,0,0.0,0.0,es
+1999,en,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+1999,en,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+1999,en,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+1999,en,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+1999,en,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+1999,en,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+1999,en,supernatural,Sobrenatural,0,0,0,0,0,,,
+1999,es,surveillance_pursuit,Vigilancia y persecución,1,0,1,0,0,0.0,0.0,es
+1999,es,collective_violence,Violencia colectiva,1,0,1,0,0,0.0,0.0,es
+1999,es,loss_abandonment,Abandono y pérdida,1,0,1,0,0,0.0,0.0,es
+1999,es,fragility_identity,Fragilidad e identidad,1,0,1,0,0,0.0,0.0,es
+1999,es,uncertainty_change,Incertidumbre y cambio,1,0,1,0,0,0.0,0.0,es
+1999,es,relational_coercion,Coerción relacional,1,0,1,0,0,0.0,0.0,es
+1999,es,supernatural,Sobrenatural,1,0,1,0,0,0.0,0.0,es
+2000,balanced,surveillance_pursuit,Vigilancia y persecución,2,2,0,0,0,0.0,0.0,en
+2000,balanced,collective_violence,Violencia colectiva,2,2,0,0,0,0.0,0.0,en
+2000,balanced,loss_abandonment,Abandono y pérdida,2,2,0,0,0,0.0,0.0,en
+2000,balanced,fragility_identity,Fragilidad e identidad,2,2,0,1,1,0.5,0.5,en
+2000,balanced,uncertainty_change,Incertidumbre y cambio,2,2,0,0,0,0.0,0.0,en
+2000,balanced,relational_coercion,Coerción relacional,2,2,0,1,1,0.5,0.5,en
+2000,balanced,supernatural,Sobrenatural,2,2,0,0,0,0.0,0.0,en
+2000,en,surveillance_pursuit,Vigilancia y persecución,2,2,0,0,0,0.0,0.0,en
+2000,en,collective_violence,Violencia colectiva,2,2,0,0,0,0.0,0.0,en
+2000,en,loss_abandonment,Abandono y pérdida,2,2,0,0,0,0.0,0.0,en
+2000,en,fragility_identity,Fragilidad e identidad,2,2,0,1,1,0.5,0.5,en
+2000,en,uncertainty_change,Incertidumbre y cambio,2,2,0,0,0,0.0,0.0,en
+2000,en,relational_coercion,Coerción relacional,2,2,0,1,1,0.5,0.5,en
+2000,en,supernatural,Sobrenatural,2,2,0,0,0,0.0,0.0,en
+2000,es,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+2000,es,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+2000,es,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+2000,es,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+2000,es,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+2000,es,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+2000,es,supernatural,Sobrenatural,0,0,0,0,0,,,
+2001,balanced,surveillance_pursuit,Vigilancia y persecución,1,1,0,0,0,0.0,0.0,es
+2001,balanced,collective_violence,Violencia colectiva,1,1,0,0,0,0.0,0.0,es
+2001,balanced,loss_abandonment,Abandono y pérdida,1,1,0,0,0,0.0,0.0,es
+2001,balanced,fragility_identity,Fragilidad e identidad,1,1,0,0,0,0.0,0.0,es
+2001,balanced,uncertainty_change,Incertidumbre y cambio,1,1,0,1,1,1.0,1.0,es
+2001,balanced,relational_coercion,Coerción relacional,1,1,0,0,0,0.0,0.0,es
+2001,balanced,supernatural,Sobrenatural,1,1,0,0,0,0.0,0.0,es
+2001,en,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+2001,en,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+2001,en,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+2001,en,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+2001,en,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+2001,en,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+2001,en,supernatural,Sobrenatural,0,0,0,0,0,,,
+2001,es,surveillance_pursuit,Vigilancia y persecución,1,1,0,0,0,0.0,0.0,es
+2001,es,collective_violence,Violencia colectiva,1,1,0,0,0,0.0,0.0,es
+2001,es,loss_abandonment,Abandono y pérdida,1,1,0,0,0,0.0,0.0,es
+2001,es,fragility_identity,Fragilidad e identidad,1,1,0,0,0,0.0,0.0,es
+2001,es,uncertainty_change,Incertidumbre y cambio,1,1,0,1,1,1.0,1.0,es
+2001,es,relational_coercion,Coerción relacional,1,1,0,0,0,0.0,0.0,es
+2001,es,supernatural,Sobrenatural,1,1,0,0,0,0.0,0.0,es
+2002,balanced,surveillance_pursuit,Vigilancia y persecución,4,2,0,0,0,0.0,0.0,en|es
+2002,balanced,collective_violence,Violencia colectiva,4,2,0,1,1,0.25,0.25,en|es
+2002,balanced,loss_abandonment,Abandono y pérdida,4,2,0,0,0,0.0,0.0,en|es
+2002,balanced,fragility_identity,Fragilidad e identidad,4,2,0,1,1,0.25,0.25,en|es
+2002,balanced,uncertainty_change,Incertidumbre y cambio,4,2,0,0,0,0.0,0.0,en|es
+2002,balanced,relational_coercion,Coerción relacional,4,2,0,0,0,0.0,0.0,en|es
+2002,balanced,supernatural,Sobrenatural,4,2,0,0,0,0.0,0.0,en|es
+2002,en,surveillance_pursuit,Vigilancia y persecución,1,1,0,0,0,0.0,0.0,en
+2002,en,collective_violence,Violencia colectiva,1,1,0,0,0,0.0,0.0,en
+2002,en,loss_abandonment,Abandono y pérdida,1,1,0,0,0,0.0,0.0,en
+2002,en,fragility_identity,Fragilidad e identidad,1,1,0,1,1,1.0,1.0,en
+2002,en,uncertainty_change,Incertidumbre y cambio,1,1,0,0,0,0.0,0.0,en
+2002,en,relational_coercion,Coerción relacional,1,1,0,0,0,0.0,0.0,en
+2002,en,supernatural,Sobrenatural,1,1,0,0,0,0.0,0.0,en
+2002,es,surveillance_pursuit,Vigilancia y persecución,3,1,0,0,0,0.0,0.0,es
+2002,es,collective_violence,Violencia colectiva,3,1,0,1,1,0.3333333333333333,0.3333333333333333,es
+2002,es,loss_abandonment,Abandono y pérdida,3,1,0,0,0,0.0,0.0,es
+2002,es,fragility_identity,Fragilidad e identidad,3,1,0,0,0,0.0,0.0,es
+2002,es,uncertainty_change,Incertidumbre y cambio,3,1,0,0,0,0.0,0.0,es
+2002,es,relational_coercion,Coerción relacional,3,1,0,0,0,0.0,0.0,es
+2002,es,supernatural,Sobrenatural,3,1,0,0,0,0.0,0.0,es
+2003,balanced,surveillance_pursuit,Vigilancia y persecución,6,3,2,0,0,0.0,0.0,en|es
+2003,balanced,collective_violence,Violencia colectiva,6,3,2,0,0,0.0,0.0,en|es
+2003,balanced,loss_abandonment,Abandono y pérdida,6,3,2,0,0,0.0,0.0,en|es
+2003,balanced,fragility_identity,Fragilidad e identidad,6,3,2,2,3,0.3333333333333333,0.5,en|es
+2003,balanced,uncertainty_change,Incertidumbre y cambio,6,3,2,0,0,0.0,0.0,en|es
+2003,balanced,relational_coercion,Coerción relacional,6,3,2,2,2,0.3333333333333333,0.3333333333333333,en|es
+2003,balanced,supernatural,Sobrenatural,6,3,2,0,0,0.0,0.0,en|es
+2003,en,surveillance_pursuit,Vigilancia y persecución,5,3,2,0,0,0.0,0.0,en
+2003,en,collective_violence,Violencia colectiva,5,3,2,0,0,0.0,0.0,en
+2003,en,loss_abandonment,Abandono y pérdida,5,3,2,0,0,0.0,0.0,en
+2003,en,fragility_identity,Fragilidad e identidad,5,3,2,2,3,0.4,0.6,en
+2003,en,uncertainty_change,Incertidumbre y cambio,5,3,2,0,0,0.0,0.0,en
+2003,en,relational_coercion,Coerción relacional,5,3,2,2,2,0.4,0.4,en
+2003,en,supernatural,Sobrenatural,5,3,2,0,0,0.0,0.0,en
+2003,es,surveillance_pursuit,Vigilancia y persecución,1,0,0,0,0,0.0,0.0,es
+2003,es,collective_violence,Violencia colectiva,1,0,0,0,0,0.0,0.0,es
+2003,es,loss_abandonment,Abandono y pérdida,1,0,0,0,0,0.0,0.0,es
+2003,es,fragility_identity,Fragilidad e identidad,1,0,0,0,0,0.0,0.0,es
+2003,es,uncertainty_change,Incertidumbre y cambio,1,0,0,0,0,0.0,0.0,es
+2003,es,relational_coercion,Coerción relacional,1,0,0,0,0,0.0,0.0,es
+2003,es,supernatural,Sobrenatural,1,0,0,0,0,0.0,0.0,es
+2004,balanced,surveillance_pursuit,Vigilancia y persecución,5,3,1,1,1,0.2,0.2,en|es
+2004,balanced,collective_violence,Violencia colectiva,5,3,1,0,0,0.0,0.0,en|es
+2004,balanced,loss_abandonment,Abandono y pérdida,5,3,1,1,1,0.2,0.2,en|es
+2004,balanced,fragility_identity,Fragilidad e identidad,5,3,1,0,2,0.0,0.4,en|es
+2004,balanced,uncertainty_change,Incertidumbre y cambio,5,3,1,0,1,0.0,0.2,en|es
+2004,balanced,relational_coercion,Coerción relacional,5,3,1,1,1,0.2,0.2,en|es
+2004,balanced,supernatural,Sobrenatural,5,3,1,0,0,0.0,0.0,en|es
+2004,en,surveillance_pursuit,Vigilancia y persecución,1,0,1,0,0,0.0,0.0,en
+2004,en,collective_violence,Violencia colectiva,1,0,1,0,0,0.0,0.0,en
+2004,en,loss_abandonment,Abandono y pérdida,1,0,1,0,0,0.0,0.0,en
+2004,en,fragility_identity,Fragilidad e identidad,1,0,1,0,0,0.0,0.0,en
+2004,en,uncertainty_change,Incertidumbre y cambio,1,0,1,0,0,0.0,0.0,en
+2004,en,relational_coercion,Coerción relacional,1,0,1,0,0,0.0,0.0,en
+2004,en,supernatural,Sobrenatural,1,0,1,0,0,0.0,0.0,en
+2004,es,surveillance_pursuit,Vigilancia y persecución,4,3,0,1,1,0.25,0.25,es
+2004,es,collective_violence,Violencia colectiva,4,3,0,0,0,0.0,0.0,es
+2004,es,loss_abandonment,Abandono y pérdida,4,3,0,1,1,0.25,0.25,es
+2004,es,fragility_identity,Fragilidad e identidad,4,3,0,0,2,0.0,0.5,es
+2004,es,uncertainty_change,Incertidumbre y cambio,4,3,0,0,1,0.0,0.25,es
+2004,es,relational_coercion,Coerción relacional,4,3,0,1,1,0.25,0.25,es
+2004,es,supernatural,Sobrenatural,4,3,0,0,0,0.0,0.0,es
+2005,balanced,surveillance_pursuit,Vigilancia y persecución,2,0,1,0,0,0.0,0.0,es
+2005,balanced,collective_violence,Violencia colectiva,2,0,1,0,0,0.0,0.0,es
+2005,balanced,loss_abandonment,Abandono y pérdida,2,0,1,0,0,0.0,0.0,es
+2005,balanced,fragility_identity,Fragilidad e identidad,2,0,1,0,0,0.0,0.0,es
+2005,balanced,uncertainty_change,Incertidumbre y cambio,2,0,1,0,0,0.0,0.0,es
+2005,balanced,relational_coercion,Coerción relacional,2,0,1,0,0,0.0,0.0,es
+2005,balanced,supernatural,Sobrenatural,2,0,1,0,0,0.0,0.0,es
+2005,en,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+2005,en,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+2005,en,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+2005,en,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+2005,en,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+2005,en,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+2005,en,supernatural,Sobrenatural,0,0,0,0,0,,,
+2005,es,surveillance_pursuit,Vigilancia y persecución,2,0,1,0,0,0.0,0.0,es
+2005,es,collective_violence,Violencia colectiva,2,0,1,0,0,0.0,0.0,es
+2005,es,loss_abandonment,Abandono y pérdida,2,0,1,0,0,0.0,0.0,es
+2005,es,fragility_identity,Fragilidad e identidad,2,0,1,0,0,0.0,0.0,es
+2005,es,uncertainty_change,Incertidumbre y cambio,2,0,1,0,0,0.0,0.0,es
+2005,es,relational_coercion,Coerción relacional,2,0,1,0,0,0.0,0.0,es
+2005,es,supernatural,Sobrenatural,2,0,1,0,0,0.0,0.0,es
+2006,balanced,surveillance_pursuit,Vigilancia y persecución,2,0,0,0,0,0.0,0.0,en|es
+2006,balanced,collective_violence,Violencia colectiva,2,0,0,0,0,0.0,0.0,en|es
+2006,balanced,loss_abandonment,Abandono y pérdida,2,0,0,0,0,0.0,0.0,en|es
+2006,balanced,fragility_identity,Fragilidad e identidad,2,0,0,0,0,0.0,0.0,en|es
+2006,balanced,uncertainty_change,Incertidumbre y cambio,2,0,0,0,0,0.0,0.0,en|es
+2006,balanced,relational_coercion,Coerción relacional,2,0,0,0,0,0.0,0.0,en|es
+2006,balanced,supernatural,Sobrenatural,2,0,0,0,0,0.0,0.0,en|es
+2006,en,surveillance_pursuit,Vigilancia y persecución,1,0,0,0,0,0.0,0.0,en
+2006,en,collective_violence,Violencia colectiva,1,0,0,0,0,0.0,0.0,en
+2006,en,loss_abandonment,Abandono y pérdida,1,0,0,0,0,0.0,0.0,en
+2006,en,fragility_identity,Fragilidad e identidad,1,0,0,0,0,0.0,0.0,en
+2006,en,uncertainty_change,Incertidumbre y cambio,1,0,0,0,0,0.0,0.0,en
+2006,en,relational_coercion,Coerción relacional,1,0,0,0,0,0.0,0.0,en
+2006,en,supernatural,Sobrenatural,1,0,0,0,0,0.0,0.0,en
+2006,es,surveillance_pursuit,Vigilancia y persecución,1,0,0,0,0,0.0,0.0,es
+2006,es,collective_violence,Violencia colectiva,1,0,0,0,0,0.0,0.0,es
+2006,es,loss_abandonment,Abandono y pérdida,1,0,0,0,0,0.0,0.0,es
+2006,es,fragility_identity,Fragilidad e identidad,1,0,0,0,0,0.0,0.0,es
+2006,es,uncertainty_change,Incertidumbre y cambio,1,0,0,0,0,0.0,0.0,es
+2006,es,relational_coercion,Coerción relacional,1,0,0,0,0,0.0,0.0,es
+2006,es,supernatural,Sobrenatural,1,0,0,0,0,0.0,0.0,es
+2007,balanced,surveillance_pursuit,Vigilancia y persecución,1,1,0,0,0,0.0,0.0,en
+2007,balanced,collective_violence,Violencia colectiva,1,1,0,0,0,0.0,0.0,en
+2007,balanced,loss_abandonment,Abandono y pérdida,1,1,0,1,1,1.0,1.0,en
+2007,balanced,fragility_identity,Fragilidad e identidad,1,1,0,0,0,0.0,0.0,en
+2007,balanced,uncertainty_change,Incertidumbre y cambio,1,1,0,0,0,0.0,0.0,en
+2007,balanced,relational_coercion,Coerción relacional,1,1,0,0,0,0.0,0.0,en
+2007,balanced,supernatural,Sobrenatural,1,1,0,0,0,0.0,0.0,en
+2007,en,surveillance_pursuit,Vigilancia y persecución,1,1,0,0,0,0.0,0.0,en
+2007,en,collective_violence,Violencia colectiva,1,1,0,0,0,0.0,0.0,en
+2007,en,loss_abandonment,Abandono y pérdida,1,1,0,1,1,1.0,1.0,en
+2007,en,fragility_identity,Fragilidad e identidad,1,1,0,0,0,0.0,0.0,en
+2007,en,uncertainty_change,Incertidumbre y cambio,1,1,0,0,0,0.0,0.0,en
+2007,en,relational_coercion,Coerción relacional,1,1,0,0,0,0.0,0.0,en
+2007,en,supernatural,Sobrenatural,1,1,0,0,0,0.0,0.0,en
+2007,es,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+2007,es,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+2007,es,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+2007,es,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+2007,es,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+2007,es,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+2007,es,supernatural,Sobrenatural,0,0,0,0,0,,,
+2008,balanced,surveillance_pursuit,Vigilancia y persecución,1,1,0,0,0,0.0,0.0,en
+2008,balanced,collective_violence,Violencia colectiva,1,1,0,0,0,0.0,0.0,en
+2008,balanced,loss_abandonment,Abandono y pérdida,1,1,0,0,0,0.0,0.0,en
+2008,balanced,fragility_identity,Fragilidad e identidad,1,1,0,1,1,1.0,1.0,en
+2008,balanced,uncertainty_change,Incertidumbre y cambio,1,1,0,0,0,0.0,0.0,en
+2008,balanced,relational_coercion,Coerción relacional,1,1,0,0,0,0.0,0.0,en
+2008,balanced,supernatural,Sobrenatural,1,1,0,0,0,0.0,0.0,en
+2008,en,surveillance_pursuit,Vigilancia y persecución,1,1,0,0,0,0.0,0.0,en
+2008,en,collective_violence,Violencia colectiva,1,1,0,0,0,0.0,0.0,en
+2008,en,loss_abandonment,Abandono y pérdida,1,1,0,0,0,0.0,0.0,en
+2008,en,fragility_identity,Fragilidad e identidad,1,1,0,1,1,1.0,1.0,en
+2008,en,uncertainty_change,Incertidumbre y cambio,1,1,0,0,0,0.0,0.0,en
+2008,en,relational_coercion,Coerción relacional,1,1,0,0,0,0.0,0.0,en
+2008,en,supernatural,Sobrenatural,1,1,0,0,0,0.0,0.0,en
+2008,es,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+2008,es,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+2008,es,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+2008,es,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+2008,es,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+2008,es,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+2008,es,supernatural,Sobrenatural,0,0,0,0,0,,,
+2009,balanced,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+2009,balanced,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+2009,balanced,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+2009,balanced,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+2009,balanced,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+2009,balanced,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+2009,balanced,supernatural,Sobrenatural,0,0,0,0,0,,,
+2009,en,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+2009,en,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+2009,en,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+2009,en,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+2009,en,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+2009,en,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+2009,en,supernatural,Sobrenatural,0,0,0,0,0,,,
+2009,es,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+2009,es,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+2009,es,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+2009,es,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+2009,es,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+2009,es,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+2009,es,supernatural,Sobrenatural,0,0,0,0,0,,,
+2010,balanced,surveillance_pursuit,Vigilancia y persecución,1,1,0,0,0,0.0,0.0,es
+2010,balanced,collective_violence,Violencia colectiva,1,1,0,1,1,1.0,1.0,es
+2010,balanced,loss_abandonment,Abandono y pérdida,1,1,0,0,0,0.0,0.0,es
+2010,balanced,fragility_identity,Fragilidad e identidad,1,1,0,0,0,0.0,0.0,es
+2010,balanced,uncertainty_change,Incertidumbre y cambio,1,1,0,0,0,0.0,0.0,es
+2010,balanced,relational_coercion,Coerción relacional,1,1,0,0,0,0.0,0.0,es
+2010,balanced,supernatural,Sobrenatural,1,1,0,0,0,0.0,0.0,es
+2010,en,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+2010,en,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+2010,en,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+2010,en,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+2010,en,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+2010,en,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+2010,en,supernatural,Sobrenatural,0,0,0,0,0,,,
+2010,es,surveillance_pursuit,Vigilancia y persecución,1,1,0,0,0,0.0,0.0,es
+2010,es,collective_violence,Violencia colectiva,1,1,0,1,1,1.0,1.0,es
+2010,es,loss_abandonment,Abandono y pérdida,1,1,0,0,0,0.0,0.0,es
+2010,es,fragility_identity,Fragilidad e identidad,1,1,0,0,0,0.0,0.0,es
+2010,es,uncertainty_change,Incertidumbre y cambio,1,1,0,0,0,0.0,0.0,es
+2010,es,relational_coercion,Coerción relacional,1,1,0,0,0,0.0,0.0,es
+2010,es,supernatural,Sobrenatural,1,1,0,0,0,0.0,0.0,es
+2011,balanced,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+2011,balanced,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+2011,balanced,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+2011,balanced,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+2011,balanced,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+2011,balanced,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+2011,balanced,supernatural,Sobrenatural,0,0,0,0,0,,,
+2011,en,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+2011,en,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+2011,en,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+2011,en,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+2011,en,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+2011,en,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+2011,en,supernatural,Sobrenatural,0,0,0,0,0,,,
+2011,es,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+2011,es,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+2011,es,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+2011,es,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+2011,es,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+2011,es,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+2011,es,supernatural,Sobrenatural,0,0,0,0,0,,,
+2012,balanced,surveillance_pursuit,Vigilancia y persecución,3,3,0,0,0,0.0,0.0,en|es
+2012,balanced,collective_violence,Violencia colectiva,3,3,0,0,0,0.0,0.0,en|es
+2012,balanced,loss_abandonment,Abandono y pérdida,3,3,0,0,0,0.0,0.0,en|es
+2012,balanced,fragility_identity,Fragilidad e identidad,3,3,0,1,2,0.3333333333333333,0.6666666666666666,en|es
+2012,balanced,uncertainty_change,Incertidumbre y cambio,3,3,0,0,1,0.0,0.3333333333333333,en|es
+2012,balanced,relational_coercion,Coerción relacional,3,3,0,0,0,0.0,0.0,en|es
+2012,balanced,supernatural,Sobrenatural,3,3,0,0,0,0.0,0.0,en|es
+2012,en,surveillance_pursuit,Vigilancia y persecución,2,2,0,0,0,0.0,0.0,en
+2012,en,collective_violence,Violencia colectiva,2,2,0,0,0,0.0,0.0,en
+2012,en,loss_abandonment,Abandono y pérdida,2,2,0,0,0,0.0,0.0,en
+2012,en,fragility_identity,Fragilidad e identidad,2,2,0,1,2,0.5,1.0,en
+2012,en,uncertainty_change,Incertidumbre y cambio,2,2,0,0,1,0.0,0.5,en
+2012,en,relational_coercion,Coerción relacional,2,2,0,0,0,0.0,0.0,en
+2012,en,supernatural,Sobrenatural,2,2,0,0,0,0.0,0.0,en
+2012,es,surveillance_pursuit,Vigilancia y persecución,1,1,0,0,0,0.0,0.0,es
+2012,es,collective_violence,Violencia colectiva,1,1,0,0,0,0.0,0.0,es
+2012,es,loss_abandonment,Abandono y pérdida,1,1,0,0,0,0.0,0.0,es
+2012,es,fragility_identity,Fragilidad e identidad,1,1,0,0,0,0.0,0.0,es
+2012,es,uncertainty_change,Incertidumbre y cambio,1,1,0,0,0,0.0,0.0,es
+2012,es,relational_coercion,Coerción relacional,1,1,0,0,0,0.0,0.0,es
+2012,es,supernatural,Sobrenatural,1,1,0,0,0,0.0,0.0,es
+2013,balanced,surveillance_pursuit,Vigilancia y persecución,4,0,1,0,0,0.0,0.0,en|es
+2013,balanced,collective_violence,Violencia colectiva,4,0,1,0,0,0.0,0.0,en|es
+2013,balanced,loss_abandonment,Abandono y pérdida,4,0,1,0,0,0.0,0.0,en|es
+2013,balanced,fragility_identity,Fragilidad e identidad,4,0,1,0,0,0.0,0.0,en|es
+2013,balanced,uncertainty_change,Incertidumbre y cambio,4,0,1,0,0,0.0,0.0,en|es
+2013,balanced,relational_coercion,Coerción relacional,4,0,1,0,0,0.0,0.0,en|es
+2013,balanced,supernatural,Sobrenatural,4,0,1,0,0,0.0,0.0,en|es
+2013,en,surveillance_pursuit,Vigilancia y persecución,3,0,1,0,0,0.0,0.0,en
+2013,en,collective_violence,Violencia colectiva,3,0,1,0,0,0.0,0.0,en
+2013,en,loss_abandonment,Abandono y pérdida,3,0,1,0,0,0.0,0.0,en
+2013,en,fragility_identity,Fragilidad e identidad,3,0,1,0,0,0.0,0.0,en
+2013,en,uncertainty_change,Incertidumbre y cambio,3,0,1,0,0,0.0,0.0,en
+2013,en,relational_coercion,Coerción relacional,3,0,1,0,0,0.0,0.0,en
+2013,en,supernatural,Sobrenatural,3,0,1,0,0,0.0,0.0,en
+2013,es,surveillance_pursuit,Vigilancia y persecución,1,0,0,0,0,0.0,0.0,es
+2013,es,collective_violence,Violencia colectiva,1,0,0,0,0,0.0,0.0,es
+2013,es,loss_abandonment,Abandono y pérdida,1,0,0,0,0,0.0,0.0,es
+2013,es,fragility_identity,Fragilidad e identidad,1,0,0,0,0,0.0,0.0,es
+2013,es,uncertainty_change,Incertidumbre y cambio,1,0,0,0,0,0.0,0.0,es
+2013,es,relational_coercion,Coerción relacional,1,0,0,0,0,0.0,0.0,es
+2013,es,supernatural,Sobrenatural,1,0,0,0,0,0.0,0.0,es
+2014,balanced,surveillance_pursuit,Vigilancia y persecución,3,2,0,0,0,0.0,0.0,en|es
+2014,balanced,collective_violence,Violencia colectiva,3,2,0,0,0,0.0,0.0,en|es
+2014,balanced,loss_abandonment,Abandono y pérdida,3,2,0,1,1,0.3333333333333333,0.3333333333333333,en|es
+2014,balanced,fragility_identity,Fragilidad e identidad,3,2,0,1,1,0.3333333333333333,0.3333333333333333,en|es
+2014,balanced,uncertainty_change,Incertidumbre y cambio,3,2,0,1,1,0.3333333333333333,0.3333333333333333,en|es
+2014,balanced,relational_coercion,Coerción relacional,3,2,0,0,0,0.0,0.0,en|es
+2014,balanced,supernatural,Sobrenatural,3,2,0,0,0,0.0,0.0,en|es
+2014,en,surveillance_pursuit,Vigilancia y persecución,2,2,0,0,0,0.0,0.0,en
+2014,en,collective_violence,Violencia colectiva,2,2,0,0,0,0.0,0.0,en
+2014,en,loss_abandonment,Abandono y pérdida,2,2,0,1,1,0.5,0.5,en
+2014,en,fragility_identity,Fragilidad e identidad,2,2,0,1,1,0.5,0.5,en
+2014,en,uncertainty_change,Incertidumbre y cambio,2,2,0,1,1,0.5,0.5,en
+2014,en,relational_coercion,Coerción relacional,2,2,0,0,0,0.0,0.0,en
+2014,en,supernatural,Sobrenatural,2,2,0,0,0,0.0,0.0,en
+2014,es,surveillance_pursuit,Vigilancia y persecución,1,0,0,0,0,0.0,0.0,es
+2014,es,collective_violence,Violencia colectiva,1,0,0,0,0,0.0,0.0,es
+2014,es,loss_abandonment,Abandono y pérdida,1,0,0,0,0,0.0,0.0,es
+2014,es,fragility_identity,Fragilidad e identidad,1,0,0,0,0,0.0,0.0,es
+2014,es,uncertainty_change,Incertidumbre y cambio,1,0,0,0,0,0.0,0.0,es
+2014,es,relational_coercion,Coerción relacional,1,0,0,0,0,0.0,0.0,es
+2014,es,supernatural,Sobrenatural,1,0,0,0,0,0.0,0.0,es
+2015,balanced,surveillance_pursuit,Vigilancia y persecución,6,2,1,0,0,0.0,0.0,en|es
+2015,balanced,collective_violence,Violencia colectiva,6,2,1,1,1,0.16666666666666666,0.16666666666666666,en|es
+2015,balanced,loss_abandonment,Abandono y pérdida,6,2,1,0,0,0.0,0.0,en|es
+2015,balanced,fragility_identity,Fragilidad e identidad,6,2,1,1,2,0.16666666666666666,0.3333333333333333,en|es
+2015,balanced,uncertainty_change,Incertidumbre y cambio,6,2,1,2,2,0.3333333333333333,0.3333333333333333,en|es
+2015,balanced,relational_coercion,Coerción relacional,6,2,1,0,0,0.0,0.0,en|es
+2015,balanced,supernatural,Sobrenatural,6,2,1,0,0,0.0,0.0,en|es
+2015,en,surveillance_pursuit,Vigilancia y persecución,2,2,0,0,0,0.0,0.0,en
+2015,en,collective_violence,Violencia colectiva,2,2,0,1,1,0.5,0.5,en
+2015,en,loss_abandonment,Abandono y pérdida,2,2,0,0,0,0.0,0.0,en
+2015,en,fragility_identity,Fragilidad e identidad,2,2,0,1,1,0.5,0.5,en
+2015,en,uncertainty_change,Incertidumbre y cambio,2,2,0,2,2,1.0,1.0,en
+2015,en,relational_coercion,Coerción relacional,2,2,0,0,0,0.0,0.0,en
+2015,en,supernatural,Sobrenatural,2,2,0,0,0,0.0,0.0,en
+2015,es,surveillance_pursuit,Vigilancia y persecución,4,0,1,0,0,0.0,0.0,es
+2015,es,collective_violence,Violencia colectiva,4,0,1,0,0,0.0,0.0,es
+2015,es,loss_abandonment,Abandono y pérdida,4,0,1,0,0,0.0,0.0,es
+2015,es,fragility_identity,Fragilidad e identidad,4,0,1,0,1,0.0,0.25,es
+2015,es,uncertainty_change,Incertidumbre y cambio,4,0,1,0,0,0.0,0.0,es
+2015,es,relational_coercion,Coerción relacional,4,0,1,0,0,0.0,0.0,es
+2015,es,supernatural,Sobrenatural,4,0,1,0,0,0.0,0.0,es
+2016,balanced,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+2016,balanced,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+2016,balanced,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+2016,balanced,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+2016,balanced,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+2016,balanced,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+2016,balanced,supernatural,Sobrenatural,0,0,0,0,0,,,
+2016,en,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+2016,en,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+2016,en,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+2016,en,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+2016,en,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+2016,en,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+2016,en,supernatural,Sobrenatural,0,0,0,0,0,,,
+2016,es,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+2016,es,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+2016,es,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+2016,es,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+2016,es,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+2016,es,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+2016,es,supernatural,Sobrenatural,0,0,0,0,0,,,
+2017,balanced,surveillance_pursuit,Vigilancia y persecución,2,1,0,0,0,0.0,0.0,es
+2017,balanced,collective_violence,Violencia colectiva,2,1,0,0,0,0.0,0.0,es
+2017,balanced,loss_abandonment,Abandono y pérdida,2,1,0,0,0,0.0,0.0,es
+2017,balanced,fragility_identity,Fragilidad e identidad,2,1,0,1,1,0.5,0.5,es
+2017,balanced,uncertainty_change,Incertidumbre y cambio,2,1,0,0,0,0.0,0.0,es
+2017,balanced,relational_coercion,Coerción relacional,2,1,0,1,1,0.5,0.5,es
+2017,balanced,supernatural,Sobrenatural,2,1,0,0,0,0.0,0.0,es
+2017,en,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+2017,en,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+2017,en,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+2017,en,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+2017,en,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+2017,en,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+2017,en,supernatural,Sobrenatural,0,0,0,0,0,,,
+2017,es,surveillance_pursuit,Vigilancia y persecución,2,1,0,0,0,0.0,0.0,es
+2017,es,collective_violence,Violencia colectiva,2,1,0,0,0,0.0,0.0,es
+2017,es,loss_abandonment,Abandono y pérdida,2,1,0,0,0,0.0,0.0,es
+2017,es,fragility_identity,Fragilidad e identidad,2,1,0,1,1,0.5,0.5,es
+2017,es,uncertainty_change,Incertidumbre y cambio,2,1,0,0,0,0.0,0.0,es
+2017,es,relational_coercion,Coerción relacional,2,1,0,1,1,0.5,0.5,es
+2017,es,supernatural,Sobrenatural,2,1,0,0,0,0.0,0.0,es
+2018,balanced,surveillance_pursuit,Vigilancia y persecución,3,2,0,0,0,0.0,0.0,en|es
+2018,balanced,collective_violence,Violencia colectiva,3,2,0,1,1,0.3333333333333333,0.3333333333333333,en|es
+2018,balanced,loss_abandonment,Abandono y pérdida,3,2,0,0,0,0.0,0.0,en|es
+2018,balanced,fragility_identity,Fragilidad e identidad,3,2,0,0,1,0.0,0.3333333333333333,en|es
+2018,balanced,uncertainty_change,Incertidumbre y cambio,3,2,0,0,0,0.0,0.0,en|es
+2018,balanced,relational_coercion,Coerción relacional,3,2,0,0,0,0.0,0.0,en|es
+2018,balanced,supernatural,Sobrenatural,3,2,0,1,1,0.3333333333333333,0.3333333333333333,en|es
+2018,en,surveillance_pursuit,Vigilancia y persecución,1,1,0,0,0,0.0,0.0,en
+2018,en,collective_violence,Violencia colectiva,1,1,0,1,1,1.0,1.0,en
+2018,en,loss_abandonment,Abandono y pérdida,1,1,0,0,0,0.0,0.0,en
+2018,en,fragility_identity,Fragilidad e identidad,1,1,0,0,1,0.0,1.0,en
+2018,en,uncertainty_change,Incertidumbre y cambio,1,1,0,0,0,0.0,0.0,en
+2018,en,relational_coercion,Coerción relacional,1,1,0,0,0,0.0,0.0,en
+2018,en,supernatural,Sobrenatural,1,1,0,0,0,0.0,0.0,en
+2018,es,surveillance_pursuit,Vigilancia y persecución,2,1,0,0,0,0.0,0.0,es
+2018,es,collective_violence,Violencia colectiva,2,1,0,0,0,0.0,0.0,es
+2018,es,loss_abandonment,Abandono y pérdida,2,1,0,0,0,0.0,0.0,es
+2018,es,fragility_identity,Fragilidad e identidad,2,1,0,0,0,0.0,0.0,es
+2018,es,uncertainty_change,Incertidumbre y cambio,2,1,0,0,0,0.0,0.0,es
+2018,es,relational_coercion,Coerción relacional,2,1,0,0,0,0.0,0.0,es
+2018,es,supernatural,Sobrenatural,2,1,0,1,1,0.5,0.5,es
+2019,balanced,surveillance_pursuit,Vigilancia y persecución,2,1,1,0,0,0.0,0.0,en
+2019,balanced,collective_violence,Violencia colectiva,2,1,1,0,0,0.0,0.0,en
+2019,balanced,loss_abandonment,Abandono y pérdida,2,1,1,0,0,0.0,0.0,en
+2019,balanced,fragility_identity,Fragilidad e identidad,2,1,1,1,1,0.5,0.5,en
+2019,balanced,uncertainty_change,Incertidumbre y cambio,2,1,1,0,0,0.0,0.0,en
+2019,balanced,relational_coercion,Coerción relacional,2,1,1,1,1,0.5,0.5,en
+2019,balanced,supernatural,Sobrenatural,2,1,1,0,0,0.0,0.0,en
+2019,en,surveillance_pursuit,Vigilancia y persecución,2,1,1,0,0,0.0,0.0,en
+2019,en,collective_violence,Violencia colectiva,2,1,1,0,0,0.0,0.0,en
+2019,en,loss_abandonment,Abandono y pérdida,2,1,1,0,0,0.0,0.0,en
+2019,en,fragility_identity,Fragilidad e identidad,2,1,1,1,1,0.5,0.5,en
+2019,en,uncertainty_change,Incertidumbre y cambio,2,1,1,0,0,0.0,0.0,en
+2019,en,relational_coercion,Coerción relacional,2,1,1,1,1,0.5,0.5,en
+2019,en,supernatural,Sobrenatural,2,1,1,0,0,0.0,0.0,en
+2019,es,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+2019,es,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+2019,es,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+2019,es,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+2019,es,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+2019,es,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+2019,es,supernatural,Sobrenatural,0,0,0,0,0,,,
+2020,balanced,surveillance_pursuit,Vigilancia y persecución,3,1,1,0,0,0.0,0.0,en|es
+2020,balanced,collective_violence,Violencia colectiva,3,1,1,0,0,0.0,0.0,en|es
+2020,balanced,loss_abandonment,Abandono y pérdida,3,1,1,0,0,0.0,0.0,en|es
+2020,balanced,fragility_identity,Fragilidad e identidad,3,1,1,1,1,0.3333333333333333,0.3333333333333333,en|es
+2020,balanced,uncertainty_change,Incertidumbre y cambio,3,1,1,0,0,0.0,0.0,en|es
+2020,balanced,relational_coercion,Coerción relacional,3,1,1,0,0,0.0,0.0,en|es
+2020,balanced,supernatural,Sobrenatural,3,1,1,0,0,0.0,0.0,en|es
+2020,en,surveillance_pursuit,Vigilancia y persecución,1,0,0,0,0,0.0,0.0,en
+2020,en,collective_violence,Violencia colectiva,1,0,0,0,0,0.0,0.0,en
+2020,en,loss_abandonment,Abandono y pérdida,1,0,0,0,0,0.0,0.0,en
+2020,en,fragility_identity,Fragilidad e identidad,1,0,0,0,0,0.0,0.0,en
+2020,en,uncertainty_change,Incertidumbre y cambio,1,0,0,0,0,0.0,0.0,en
+2020,en,relational_coercion,Coerción relacional,1,0,0,0,0,0.0,0.0,en
+2020,en,supernatural,Sobrenatural,1,0,0,0,0,0.0,0.0,en
+2020,es,surveillance_pursuit,Vigilancia y persecución,2,1,1,0,0,0.0,0.0,es
+2020,es,collective_violence,Violencia colectiva,2,1,1,0,0,0.0,0.0,es
+2020,es,loss_abandonment,Abandono y pérdida,2,1,1,0,0,0.0,0.0,es
+2020,es,fragility_identity,Fragilidad e identidad,2,1,1,1,1,0.5,0.5,es
+2020,es,uncertainty_change,Incertidumbre y cambio,2,1,1,0,0,0.0,0.0,es
+2020,es,relational_coercion,Coerción relacional,2,1,1,0,0,0.0,0.0,es
+2020,es,supernatural,Sobrenatural,2,1,1,0,0,0.0,0.0,es
+2021,balanced,surveillance_pursuit,Vigilancia y persecución,6,2,1,0,0,0.0,0.0,en|es
+2021,balanced,collective_violence,Violencia colectiva,6,2,1,0,0,0.0,0.0,en|es
+2021,balanced,loss_abandonment,Abandono y pérdida,6,2,1,0,0,0.0,0.0,en|es
+2021,balanced,fragility_identity,Fragilidad e identidad,6,2,1,0,1,0.0,0.16666666666666666,en|es
+2021,balanced,uncertainty_change,Incertidumbre y cambio,6,2,1,0,0,0.0,0.0,en|es
+2021,balanced,relational_coercion,Coerción relacional,6,2,1,1,1,0.16666666666666666,0.16666666666666666,en|es
+2021,balanced,supernatural,Sobrenatural,6,2,1,0,0,0.0,0.0,en|es
+2021,en,surveillance_pursuit,Vigilancia y persecución,3,1,1,0,0,0.0,0.0,en
+2021,en,collective_violence,Violencia colectiva,3,1,1,0,0,0.0,0.0,en
+2021,en,loss_abandonment,Abandono y pérdida,3,1,1,0,0,0.0,0.0,en
+2021,en,fragility_identity,Fragilidad e identidad,3,1,1,0,0,0.0,0.0,en
+2021,en,uncertainty_change,Incertidumbre y cambio,3,1,1,0,0,0.0,0.0,en
+2021,en,relational_coercion,Coerción relacional,3,1,1,1,1,0.3333333333333333,0.3333333333333333,en
+2021,en,supernatural,Sobrenatural,3,1,1,0,0,0.0,0.0,en
+2021,es,surveillance_pursuit,Vigilancia y persecución,3,1,0,0,0,0.0,0.0,es
+2021,es,collective_violence,Violencia colectiva,3,1,0,0,0,0.0,0.0,es
+2021,es,loss_abandonment,Abandono y pérdida,3,1,0,0,0,0.0,0.0,es
+2021,es,fragility_identity,Fragilidad e identidad,3,1,0,0,1,0.0,0.3333333333333333,es
+2021,es,uncertainty_change,Incertidumbre y cambio,3,1,0,0,0,0.0,0.0,es
+2021,es,relational_coercion,Coerción relacional,3,1,0,0,0,0.0,0.0,es
+2021,es,supernatural,Sobrenatural,3,1,0,0,0,0.0,0.0,es
+2022,balanced,surveillance_pursuit,Vigilancia y persecución,4,1,2,0,0,0.0,0.0,en|es
+2022,balanced,collective_violence,Violencia colectiva,4,1,2,0,0,0.0,0.0,en|es
+2022,balanced,loss_abandonment,Abandono y pérdida,4,1,2,1,1,0.25,0.25,en|es
+2022,balanced,fragility_identity,Fragilidad e identidad,4,1,2,1,1,0.25,0.25,en|es
+2022,balanced,uncertainty_change,Incertidumbre y cambio,4,1,2,0,0,0.0,0.0,en|es
+2022,balanced,relational_coercion,Coerción relacional,4,1,2,0,0,0.0,0.0,en|es
+2022,balanced,supernatural,Sobrenatural,4,1,2,0,0,0.0,0.0,en|es
+2022,en,surveillance_pursuit,Vigilancia y persecución,2,1,1,0,0,0.0,0.0,en
+2022,en,collective_violence,Violencia colectiva,2,1,1,0,0,0.0,0.0,en
+2022,en,loss_abandonment,Abandono y pérdida,2,1,1,1,1,0.5,0.5,en
+2022,en,fragility_identity,Fragilidad e identidad,2,1,1,1,1,0.5,0.5,en
+2022,en,uncertainty_change,Incertidumbre y cambio,2,1,1,0,0,0.0,0.0,en
+2022,en,relational_coercion,Coerción relacional,2,1,1,0,0,0.0,0.0,en
+2022,en,supernatural,Sobrenatural,2,1,1,0,0,0.0,0.0,en
+2022,es,surveillance_pursuit,Vigilancia y persecución,2,0,1,0,0,0.0,0.0,es
+2022,es,collective_violence,Violencia colectiva,2,0,1,0,0,0.0,0.0,es
+2022,es,loss_abandonment,Abandono y pérdida,2,0,1,0,0,0.0,0.0,es
+2022,es,fragility_identity,Fragilidad e identidad,2,0,1,0,0,0.0,0.0,es
+2022,es,uncertainty_change,Incertidumbre y cambio,2,0,1,0,0,0.0,0.0,es
+2022,es,relational_coercion,Coerción relacional,2,0,1,0,0,0.0,0.0,es
+2022,es,supernatural,Sobrenatural,2,0,1,0,0,0.0,0.0,es
+2023,balanced,surveillance_pursuit,Vigilancia y persecución,2,0,1,0,1,0.0,0.5,en|es
+2023,balanced,collective_violence,Violencia colectiva,2,0,1,0,0,0.0,0.0,en|es
+2023,balanced,loss_abandonment,Abandono y pérdida,2,0,1,0,0,0.0,0.0,en|es
+2023,balanced,fragility_identity,Fragilidad e identidad,2,0,1,0,0,0.0,0.0,en|es
+2023,balanced,uncertainty_change,Incertidumbre y cambio,2,0,1,0,0,0.0,0.0,en|es
+2023,balanced,relational_coercion,Coerción relacional,2,0,1,0,0,0.0,0.0,en|es
+2023,balanced,supernatural,Sobrenatural,2,0,1,0,0,0.0,0.0,en|es
+2023,en,surveillance_pursuit,Vigilancia y persecución,1,0,0,0,0,0.0,0.0,en
+2023,en,collective_violence,Violencia colectiva,1,0,0,0,0,0.0,0.0,en
+2023,en,loss_abandonment,Abandono y pérdida,1,0,0,0,0,0.0,0.0,en
+2023,en,fragility_identity,Fragilidad e identidad,1,0,0,0,0,0.0,0.0,en
+2023,en,uncertainty_change,Incertidumbre y cambio,1,0,0,0,0,0.0,0.0,en
+2023,en,relational_coercion,Coerción relacional,1,0,0,0,0,0.0,0.0,en
+2023,en,supernatural,Sobrenatural,1,0,0,0,0,0.0,0.0,en
+2023,es,surveillance_pursuit,Vigilancia y persecución,1,0,1,0,1,0.0,1.0,es
+2023,es,collective_violence,Violencia colectiva,1,0,1,0,0,0.0,0.0,es
+2023,es,loss_abandonment,Abandono y pérdida,1,0,1,0,0,0.0,0.0,es
+2023,es,fragility_identity,Fragilidad e identidad,1,0,1,0,0,0.0,0.0,es
+2023,es,uncertainty_change,Incertidumbre y cambio,1,0,1,0,0,0.0,0.0,es
+2023,es,relational_coercion,Coerción relacional,1,0,1,0,0,0.0,0.0,es
+2023,es,supernatural,Sobrenatural,1,0,1,0,0,0.0,0.0,es
+2024,balanced,surveillance_pursuit,Vigilancia y persecución,3,1,1,0,0,0.0,0.0,en|es
+2024,balanced,collective_violence,Violencia colectiva,3,1,1,0,0,0.0,0.0,en|es
+2024,balanced,loss_abandonment,Abandono y pérdida,3,1,1,1,2,0.3333333333333333,0.6666666666666666,en|es
+2024,balanced,fragility_identity,Fragilidad e identidad,3,1,1,0,0,0.0,0.0,en|es
+2024,balanced,uncertainty_change,Incertidumbre y cambio,3,1,1,0,0,0.0,0.0,en|es
+2024,balanced,relational_coercion,Coerción relacional,3,1,1,0,0,0.0,0.0,en|es
+2024,balanced,supernatural,Sobrenatural,3,1,1,0,0,0.0,0.0,en|es
+2024,en,surveillance_pursuit,Vigilancia y persecución,2,0,1,0,0,0.0,0.0,en
+2024,en,collective_violence,Violencia colectiva,2,0,1,0,0,0.0,0.0,en
+2024,en,loss_abandonment,Abandono y pérdida,2,0,1,0,1,0.0,0.5,en
+2024,en,fragility_identity,Fragilidad e identidad,2,0,1,0,0,0.0,0.0,en
+2024,en,uncertainty_change,Incertidumbre y cambio,2,0,1,0,0,0.0,0.0,en
+2024,en,relational_coercion,Coerción relacional,2,0,1,0,0,0.0,0.0,en
+2024,en,supernatural,Sobrenatural,2,0,1,0,0,0.0,0.0,en
+2024,es,surveillance_pursuit,Vigilancia y persecución,1,1,0,0,0,0.0,0.0,es
+2024,es,collective_violence,Violencia colectiva,1,1,0,0,0,0.0,0.0,es
+2024,es,loss_abandonment,Abandono y pérdida,1,1,0,1,1,1.0,1.0,es
+2024,es,fragility_identity,Fragilidad e identidad,1,1,0,0,0,0.0,0.0,es
+2024,es,uncertainty_change,Incertidumbre y cambio,1,1,0,0,0,0.0,0.0,es
+2024,es,relational_coercion,Coerción relacional,1,1,0,0,0,0.0,0.0,es
+2024,es,supernatural,Sobrenatural,1,1,0,0,0,0.0,0.0,es
+2025,balanced,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+2025,balanced,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+2025,balanced,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+2025,balanced,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+2025,balanced,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+2025,balanced,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+2025,balanced,supernatural,Sobrenatural,0,0,0,0,0,,,
+2025,en,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+2025,en,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+2025,en,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+2025,en,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+2025,en,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+2025,en,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+2025,en,supernatural,Sobrenatural,0,0,0,0,0,,,
+2025,es,surveillance_pursuit,Vigilancia y persecución,0,0,0,0,0,,,
+2025,es,collective_violence,Violencia colectiva,0,0,0,0,0,,,
+2025,es,loss_abandonment,Abandono y pérdida,0,0,0,0,0,,,
+2025,es,fragility_identity,Fragilidad e identidad,0,0,0,0,0,,,
+2025,es,uncertainty_change,Incertidumbre y cambio,0,0,0,0,0,,,
+2025,es,relational_coercion,Coerción relacional,0,0,0,0,0,,,
+2025,es,supernatural,Sobrenatural,0,0,0,0,0,,,
+2026,balanced,surveillance_pursuit,Vigilancia y persecución,6,1,2,0,0,0.0,0.0,en|es
+2026,balanced,collective_violence,Violencia colectiva,6,1,2,0,0,0.0,0.0,en|es
+2026,balanced,loss_abandonment,Abandono y pérdida,6,1,2,0,0,0.0,0.0,en|es
+2026,balanced,fragility_identity,Fragilidad e identidad,6,1,2,0,0,0.0,0.0,en|es
+2026,balanced,uncertainty_change,Incertidumbre y cambio,6,1,2,1,2,0.16666666666666666,0.3333333333333333,en|es
+2026,balanced,relational_coercion,Coerción relacional,6,1,2,0,0,0.0,0.0,en|es
+2026,balanced,supernatural,Sobrenatural,6,1,2,0,0,0.0,0.0,en|es
+2026,en,surveillance_pursuit,Vigilancia y persecución,3,0,2,0,0,0.0,0.0,en
+2026,en,collective_violence,Violencia colectiva,3,0,2,0,0,0.0,0.0,en
+2026,en,loss_abandonment,Abandono y pérdida,3,0,2,0,0,0.0,0.0,en
+2026,en,fragility_identity,Fragilidad e identidad,3,0,2,0,0,0.0,0.0,en
+2026,en,uncertainty_change,Incertidumbre y cambio,3,0,2,0,1,0.0,0.3333333333333333,en
+2026,en,relational_coercion,Coerción relacional,3,0,2,0,0,0.0,0.0,en
+2026,en,supernatural,Sobrenatural,3,0,2,0,0,0.0,0.0,en
+2026,es,surveillance_pursuit,Vigilancia y persecución,3,1,0,0,0,0.0,0.0,es
+2026,es,collective_violence,Violencia colectiva,3,1,0,0,0,0.0,0.0,es
+2026,es,loss_abandonment,Abandono y pérdida,3,1,0,0,0,0.0,0.0,es
+2026,es,fragility_identity,Fragilidad e identidad,3,1,0,0,0,0.0,0.0,es
+2026,es,uncertainty_change,Incertidumbre y cambio,3,1,0,1,1,0.3333333333333333,0.3333333333333333,es
+2026,es,relational_coercion,Coerción relacional,3,1,0,0,0,0.0,0.0,es
+2026,es,supernatural,Sobrenatural,3,1,0,0,0,0.0,0.0,es

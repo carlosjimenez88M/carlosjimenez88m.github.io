@@ -1,0 +1,6 @@
+{
+ "songs": 116,
+ "mean_within_song_spearman": 0.15319443325309184,
+ "share_positive": 0.6724137931034483,
+ "pooled_block_spearman": 0.31761327298209724
+}

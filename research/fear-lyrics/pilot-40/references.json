@@ -1,0 +1,1493 @@
+{
+  "study_cutoff": "2026-10-11",
+  "scope": "Corpus release, chart/certification and author-context sources; technical research bibliography is separate.",
+  "sources": [
+    {
+      "url": "https://www.michaeljackson.com/albums/thriller/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1982-60e7787d2b2d"
+      ],
+      "authority": "Official Michael Jackson catalogue",
+      "authority_type": "artist_catalogue",
+      "descriptive_label": "Official Michael Jackson catalogue: Michael Jackson — Thriller",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1982
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/michael-jackson-thriller/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1982-60e7787d2b2d"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Michael Jackson — Thriller",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://dbrecords.co.uk/files/assets/uploads/2019/11/DB-Discography-Singles.pdf",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1982-fc0d5bdf6fc1"
+      ],
+      "authority": "David Bates / DB Records",
+      "authority_type": "primary_ar_discography_archive",
+      "descriptive_label": "David Bates / DB Records: Tears for Fears — Mad World",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1982
+      ],
+      "release_dates_recorded_in_manifest": [
+        "1982-09-20"
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/tears-for-fears-mad-world/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1982-fc0d5bdf6fc1"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Tears for Fears — Mad World",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/cd/song/1278579752",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1983-753cd2a7d41b"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Rockwell — Somebody's Watching Me",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1983
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/rockwell-somebodys-watching-me/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1983-753cd2a7d41b"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Rockwell — Somebody's Watching Me",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=R14lGgHgVJM",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1984-8b16c1dac4a9"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Wham! — Wake Me Up Before You Go-Go",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1984
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/wham-wake-me-up-before-you-go-go/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1984-8b16c1dac4a9"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Wham! — Wake Me Up Before You Go-Go",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://los40.com/los40/2019/02/26/los40classic/1551195323_179202.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata",
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1987-b3350477e063"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Duncan Dhu — En algún lugar",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1987
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2022/03/23/los40classic/1648050931_474943.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "author_context_or_interpretation"
+      ],
+      "song_ids": [
+        "s1987-b3350477e063"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Duncan Dhu — En algún lugar",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=sIIEP6pVACA",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1986-e6cc85a542a7"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Mecano — Hijo de la Luna",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1986
+      ]
+    },
+    {
+      "url": "https://www.top40.nl/mecano/mecano-hijo-de-la-luna-3154",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1986-e6cc85a542a7"
+      ],
+      "authority": "Stichting Nederlandse Top 40",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Stichting Nederlandse Top 40: Mecano — Hijo de la Luna",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=c_ivHFrF8XQ",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1986-9726c0e33862"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Mecano — Cruz de Navajas",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1986
+      ]
+    },
+    {
+      "url": "https://los40.com/2026/06/21/cuarenta-anos-de-entre-el-cielo-y-el-suelo-el-disco-que-convirtio-a-mecano-en-algo-mucho-mas-grande-que-un-fenomeno-juvenil/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1986-9726c0e33862"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Mecano — Cruz de Navajas",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.rtve.es/play/videos/aplauso/alaska-pegamoides-tocan-bailando-aplauso-1982/638218/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1982-273644e36995"
+      ],
+      "authority": "RTVE broadcast archive",
+      "authority_type": "contemporaneous_performance_archive",
+      "descriptive_label": "RTVE broadcast archive: Alaska y los Pegamoides — Bailando",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1982
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2016/08/30/musica/1472536956_844781.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1982-273644e36995"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Alaska y los Pegamoides — Bailando",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.metallica.com/releases/singles/?page=2",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1991-d25354f1d8f0"
+      ],
+      "authority": "Metallica",
+      "authority_type": "artist_catalogue",
+      "descriptive_label": "Metallica: Metallica — Enter Sandman",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1991
+      ],
+      "release_dates_recorded_in_manifest": [
+        "1991-07-29"
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/metallica-enter-sandman/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1991-d25354f1d8f0"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Metallica — Enter Sandman",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://uc.cranberries.com/biography",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1994-56ff6ca6c8bb"
+      ],
+      "authority": "The Cranberries",
+      "authority_type": "artist_biography",
+      "descriptive_label": "The Cranberries: The Cranberries — Zombie",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1994
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/cranberries-zombie-0/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1994-56ff6ca6c8bb"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: The Cranberries — Zombie",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9RfVp-GhKfs",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1992-92d3c88cd13e"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Radiohead — Creep",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1992
+      ],
+      "release_dates_recorded_in_manifest": [
+        "1992-09-21"
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/radiohead-creep/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1992-92d3c88cd13e"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Radiohead — Creep",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=tscL_I2v7pU",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1996-126a4f4bfee7"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Spice Girls — Wannabe",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1996
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/spice-girls-wannabe/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1996-126a4f4bfee7"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Spice Girls — Wannabe",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://los40.com/los40/2019/03/11/los40classic/1552305882_811331.html?outputType=amp",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata",
+        "commercial_evidence",
+        "author_context_or_interpretation"
+      ],
+      "song_ids": [
+        "s1999-e3d46788c16b"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: M-Clan — Llamando a la Tierra",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1999
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=EDkQB9b3cBw",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1990-5b29a6fedb71"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Maná — Rayando el Sol",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1990
+      ]
+    },
+    {
+      "url": "https://los40.com/2025/09/03/lady-gaga-mana-lola-indigo-y-modern-talking-despidieron-las-vacaciones-en-el-n1-de-los40/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1990-5b29a6fedb71"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Maná — Rayando el Sol",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=pjPA7CXutDw",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1993-a759a1183939"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Los Fabulosos Cadillacs — Matador",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1993
+      ]
+    },
+    {
+      "url": "https://www.worldradiohistory.com/Archive-All-Music/Billboard/90s/1995/BB-1995-06-10.pdf",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1993-a759a1183939"
+      ],
+      "authority": "Historical Billboard / Music & Media issue",
+      "authority_type": "archive_of_contemporaneous_primary_trade_press",
+      "descriptive_label": "Historical Billboard / Music & Media issue: Los Fabulosos Cadillacs — Matador",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.latercera.com/culto/2023/06/27/los-fabulosos-cadillacs-a-30-anos-de-matador-no-nos-cambio-la-vida-es-una-cancion-mas-de-las-nuestras/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "author_context_or_interpretation"
+      ],
+      "song_ids": [
+        "s1993-a759a1183939"
+      ],
+      "authority": "La Tercera, direct songwriter interview",
+      "authority_type": "author_context_interview",
+      "descriptive_label": "La Tercera, direct songwriter interview: Los Fabulosos Cadillacs — Matador",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=t8pjh1URlXs",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1998-81cadc29bda5"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Celia Cruz — La Vida Es Un Carnaval",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1998
+      ]
+    },
+    {
+      "url": "https://billboard.com.co/olga-tanon-ivy-queen-y-la-india-rinden-vibrante-tributo-a-celia-cruz-en-mujeres-latinas-en-la-musica/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1998-81cadc29bda5"
+      ],
+      "authority": "Billboard Colombia",
+      "authority_type": "music_trade_press",
+      "descriptive_label": "Billboard Colombia: Celia Cruz — La Vida Es Un Carnaval",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.rhino.com/product/hybrid-theory",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2000-a62b1066ea67"
+      ],
+      "authority": "Rhino / Warner Music",
+      "authority_type": "label_catalogue",
+      "descriptive_label": "Rhino / Warner Music: Linkin Park — Crawling",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2000
+      ],
+      "release_dates_recorded_in_manifest": [
+        "2000-10-24"
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/linkin-park-crawling/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2000-a62b1066ea67"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Linkin Park — Crawling",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=wmGjajXDHKo",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2008-4db2a4ef136d"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Rihanna — Disturbia",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2008
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/rihanna-disturbia/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2008-4db2a4ef136d"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Rihanna — Disturbia",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7u1Jj6aRIec",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2000-8ece8cb48467"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Eminem feat. Dido — Stan",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2000
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/eminem-stan/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2000-8ece8cb48467"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Eminem feat. Dido — Stan",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.officialcharts.com/chart-news/official-charts-flashback-2003-beyonce-cemented-her-solo-superstar-status-with-crazy-in-love__23361/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2003-863da31c5eaa"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Beyoncé feat. JAY-Z — Crazy In Love",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2003
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/beyonce-crazy-in-love/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2003-863da31c5eaa"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Beyoncé feat. JAY-Z — Crazy In Love",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/song/160709872",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2004-58ef65dc2ae6"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: M-Clan — Miedo",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2004
+      ]
+    },
+    {
+      "url": "https://www.ayto-launion.org/2021/08/09/la-banda-murciana-m-clan-impregna-la-union-de-rock-acustico/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2004-58ef65dc2ae6"
+      ],
+      "authority": "Ayuntamiento de La Unión",
+      "authority_type": "primary_concert_organizer_programme",
+      "descriptive_label": "Ayuntamiento de La Unión: M-Clan — Miedo",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://elpais.com/cultura/2016/04/19/actualidad/1461067862_598794.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "author_context_or_interpretation"
+      ],
+      "song_ids": [
+        "s2004-58ef65dc2ae6"
+      ],
+      "authority": "El País, direct songwriter interview",
+      "authority_type": "author_context_interview",
+      "descriptive_label": "El País, direct songwriter interview: M-Clan — Miedo",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=TmwrXCzyY5w",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2001-1b296546902b"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Diego Torres — Color Esperanza",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2001
+      ],
+      "release_dates_recorded_in_manifest": [
+        "2001-10-31"
+      ]
+    },
+    {
+      "url": "https://los40.com/2024/04/06/cuanto-dinero-ha-ganado-diego-torres-con-color-esperanza/?outputType=amp",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2001-1b296546902b"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Diego Torres — Color Esperanza",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.qobuz.com/ie-en/album/a-dios-le-pido-juanes/0060249854098",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2002-74fa275abd80"
+      ],
+      "authority": "Qobuz, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Qobuz, label-supplied metadata: Juanes — A Dios Le Pido",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2002
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2021/04/28/los40classic/1619597238_346224.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2002-74fa275abd80",
+        "s2004-641528a4ed5c"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Juanes — A Dios Le Pido",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.top40.nl/juanes/a-dios-le-pido-1170",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2002-74fa275abd80"
+      ],
+      "authority": "Stichting Nederlandse Top 40",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Stichting Nederlandse Top 40: Juanes — A Dios Le Pido",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.worldradiohistory.com/Archive-All-Music/Billboard/00s/2002/BB-2002-05-04.pdf",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "author_context_or_interpretation"
+      ],
+      "song_ids": [
+        "s2002-74fa275abd80"
+      ],
+      "authority": "Historical Billboard / Music & Media issue",
+      "authority_type": "archive_of_contemporaneous_primary_trade_press",
+      "descriptive_label": "Historical Billboard / Music & Media issue: Juanes — A Dios Le Pido",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7fwUH0oRmkQ",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2004-641528a4ed5c"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Juanes — La Camisa Negra",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2004
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=yizkt5BubGo",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2015-c11afde63d3a"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: twenty one pilots — Stressed Out",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2015
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/twenty-one-pilots-stressed-out/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2015-c11afde63d3a"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: twenty one pilots — Stressed Out",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YFervpMG_sM",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2019-1f8fdfe5b713"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Billie Eilish — bury a friend",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2019
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/billie-eilish-bury-a-friend/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2019-1f8fdfe5b713"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Billie Eilish — bury a friend",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=J7X5rErExeU",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2014-27b61f0565ce"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Taylor Swift — Out Of The Woods",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2014
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/taylor-swift-out-of-the-woods/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2014-27b61f0565ce"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Taylor Swift — Out Of The Woods",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://sony.mediaroom.com/2013-12-17-GRAMMY-Award-Winning-Superstar-Pharrell-Williams-Signs-With-Columbia-Records",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2013-608a7aee9a18"
+      ],
+      "authority": "Columbia Records / Sony",
+      "authority_type": "contemporaneous_label_press_release",
+      "descriptive_label": "Columbia Records / Sony: Pharrell Williams — Happy",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2013
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/pharrell-happy/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2013-608a7aee9a18"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Pharrell Williams — Happy",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.sonymusic.es/eventos/rozalen-estrena-hoy-la-puerta-violeta-nuevo-adelanto-de-su-nuevo-album-cuando-el-rio-suena/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2017-2c3252eb3c12"
+      ],
+      "authority": "Sony Music España",
+      "authority_type": "label_catalogue_or_press_release",
+      "descriptive_label": "Sony Music España: Rozalén — La Puerta Violeta",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2017
+      ],
+      "release_dates_recorded_in_manifest": [
+        "2017-09-11"
+      ]
+    },
+    {
+      "url": "https://www.elportaldemusica.es/single/rozalen-la-puerta-violeta",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2017-2c3252eb3c12"
+      ],
+      "authority": "PROMUSICAE / El Portal de Música",
+      "authority_type": "primary_chart_and_certification_registry",
+      "descriptive_label": "PROMUSICAE / El Portal de Música: Rozalén — La Puerta Violeta",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.sonymusic.es/eventos/rozalen-estrena-el-videoclip-de-la-puerta-violeta-un-himno-contra-la-violencia-de-genero/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "author_context_or_interpretation"
+      ],
+      "song_ids": [
+        "s2017-2c3252eb3c12"
+      ],
+      "authority": "Sony Music España",
+      "authority_type": "label_catalogue_or_press_release",
+      "descriptive_label": "Sony Music España: Rozalén — La Puerta Violeta",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.sonymusic.es/novedad/rosalia-malamente/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2018-fff1d8ae4511"
+      ],
+      "authority": "Sony Music España",
+      "authority_type": "label_catalogue_or_press_release",
+      "descriptive_label": "Sony Music España: Rosalía — Malamente",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2018
+      ]
+    },
+    {
+      "url": "https://www.elportaldemusica.es/single/rosalia-malamente",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2018-fff1d8ae4511"
+      ],
+      "authority": "PROMUSICAE / El Portal de Música",
+      "authority_type": "primary_chart_and_certification_registry",
+      "descriptive_label": "PROMUSICAE / El Portal de Música: Rosalía — Malamente",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.sonymusic.es/lanzamientos/vivir-mi-vida-el-nuevo-single-de-marc-anthony-ya-esta-la-venta-y-se-situa-en-el-top10-en-itunes/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2013-877c19a80720"
+      ],
+      "authority": "Sony Music España",
+      "authority_type": "label_catalogue_or_press_release",
+      "descriptive_label": "Sony Music España: Marc Anthony — Vivir Mi Vida",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2013
+      ]
+    },
+    {
+      "url": "https://www.elportaldemusica.es/single/marc-anthony-vivir-mi-vida",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2013-877c19a80720"
+      ],
+      "authority": "PROMUSICAE / El Portal de Música",
+      "authority_type": "primary_chart_and_certification_registry",
+      "descriptive_label": "PROMUSICAE / El Portal de Música: Marc Anthony — Vivir Mi Vida",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NUsoVlDFqZg",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2014-e8f5796fbb18"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Enrique Iglesias feat. Descemer Bueno, Gente de Zona — Bailando",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2014
+      ]
+    },
+    {
+      "url": "https://www.elportaldemusica.es/awards/index?Aw=&page=154&per-page=10",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2014-e8f5796fbb18"
+      ],
+      "authority": "PROMUSICAE / El Portal de Música",
+      "authority_type": "primary_chart_and_certification_registry",
+      "descriptive_label": "PROMUSICAE / El Portal de Música: Enrique Iglesias feat. Descemer Bueno, Gente de Zona — Bailando",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=fzeWc3zh01g",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2021-27c16cbb8cff"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Billie Eilish — Your Power",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2021
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/billie-eilish-your-power/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2021-27c16cbb8cff"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Billie Eilish — Your Power",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://blog.youtube/creator-and-artist-stories/taylor-swift-youtube-shorts-tsantiherochallenge/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2022-460a59f8aa02"
+      ],
+      "authority": "YouTube Music team",
+      "authority_type": "primary_distribution_launch_announcement",
+      "descriptive_label": "YouTube Music team: Taylor Swift — Anti-Hero",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2022
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/taylor-swift-anti-hero/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2022-460a59f8aa02"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Taylor Swift — Anti-Hero",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.sonymusic.ca/press_release/miley-cyrus-releases-new-single-flowers-watch-video-now",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2023-dd058a9c7e57"
+      ],
+      "authority": "Sony Music Canada",
+      "authority_type": "label_press_release",
+      "descriptive_label": "Sony Music Canada: Miley Cyrus — Flowers",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2023
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/miley-cyrus-flowers/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2023-dd058a9c7e57"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Miley Cyrus — Flowers",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/harry-styles-aperture-0/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata",
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2026-2e43c234ac58"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Harry Styles — Aperture",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2026
+      ],
+      "release_dates_recorded_in_manifest": [
+        "2026-01-23"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ChPy6Q30b38",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2020-6f072260cb90"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Carla Morrison — Ansiedad",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2020
+      ]
+    },
+    {
+      "url": "https://open.spotify.com/track/0p8tyL3rNbptJgICX2ZVL8",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2020-6f072260cb90"
+      ],
+      "authority": "Spotify, label-supplied track metadata",
+      "authority_type": "primary_platform_metadata_and_reach",
+      "descriptive_label": "Spotify, label-supplied track metadata: Carla Morrison — Ansiedad",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8RB9ePnlNRs",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2024-752f61769347"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Amaia — Tengo Un Pensamiento",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2024
+      ],
+      "release_dates_recorded_in_manifest": [
+        "2024-12-19"
+      ]
+    },
+    {
+      "url": "https://www.elportaldemusica.es/single/amaia-tengo-un-pensamiento",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2024-752f61769347"
+      ],
+      "authority": "PROMUSICAE / El Portal de Música",
+      "authority_type": "primary_chart_and_certification_registry",
+      "descriptive_label": "PROMUSICAE / El Portal de Música: Amaia — Tengo Un Pensamiento",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.sonymusic.es/novedad/rosalia-despecha/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2022-d221fdb58fc4"
+      ],
+      "authority": "Sony Music España",
+      "authority_type": "label_catalogue_or_press_release",
+      "descriptive_label": "Sony Music España: Rosalía — DESPECHÁ",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2022
+      ]
+    },
+    {
+      "url": "https://www.elportaldemusica.es/single/rosalia-despecha",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2022-d221fdb58fc4"
+      ],
+      "authority": "PROMUSICAE / El Portal de Música",
+      "authority_type": "primary_chart_and_certification_registry",
+      "descriptive_label": "PROMUSICAE / El Portal de Música: Rosalía — DESPECHÁ",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.sonymusic.com.pe/rosalia-despecha/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "author_context_or_interpretation"
+      ],
+      "song_ids": [
+        "s2022-d221fdb58fc4"
+      ],
+      "authority": "Sony Music Perú",
+      "authority_type": "label_press_release_with_artist_statement",
+      "descriptive_label": "Sony Music Perú: Rosalía — DESPECHÁ",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CfcnRbYmGLs",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2021-a17cc29d59f5"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Rigoberta Bandini — Ay Mamá",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2021
+      ],
+      "release_dates_recorded_in_manifest": [
+        "2021-12-23"
+      ]
+    },
+    {
+      "url": "https://www.elportaldemusica.es/single/rigoberta-bandini-ay-mama",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2021-a17cc29d59f5"
+      ],
+      "authority": "PROMUSICAE / El Portal de Música",
+      "authority_type": "primary_chart_and_certification_registry",
+      "descriptive_label": "PROMUSICAE / El Portal de Música: Rigoberta Bandini — Ay Mamá",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    }
+  ],
+  "public_notes": [
+    "Release year and year of chart success differ for several songs; metadata records distinguish them.",
+    "Chart territories and metrics differ. No cross-chart aggregate popularity score is justified.",
+    "Source dates, artist aliases, editions and source authority are recorded in corpus-manifest.json.",
+    "2026 is partial and has one explicitly dated candidate, Aperture (2026-01-23).",
+    "Selection labels are hypotheses, not independent human annotations."
+  ]
+}

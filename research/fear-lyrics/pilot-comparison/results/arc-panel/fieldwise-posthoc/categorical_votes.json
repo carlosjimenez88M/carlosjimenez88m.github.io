@@ -1,0 +1,3096 @@
+[
+  {
+    "song_id": "s1982-60e7787d2b2d",
+    "anonymous_song_id": "s001",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 1982,
+    "decade": 1980,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "dialogue_or_multiple",
+      "stance": "other",
+      "fear_relevance": "explicit",
+      "fear_polarity": "affirmed",
+      "subtopics": [
+        "supernatural",
+        "surveillance_pursuit"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "76f05313345175d8cae397d98e2a56c71b20efcb4ea55715a1ad8ea536de10a4"
+  },
+  {
+    "song_id": "s2004-641528a4ed5c",
+    "anonymous_song_id": "s002",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2004,
+    "decade": 2000,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "loss_abandonment",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "8cc430943b5f9d47fd339a93fac1aba1e559ba8c346beeb3575b1d721adc8917"
+  },
+  {
+    "song_id": "s2024-752f61769347",
+    "anonymous_song_id": "s003",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2024,
+    "decade": 2020,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "hypothetical",
+      "subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "turn",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "7a12a81f9a70e107ba1be0b3d19996b68514262758d833808bacc137f8960fe9"
+  },
+  {
+    "song_id": "s2021-a17cc29d59f5",
+    "anonymous_song_id": "s004",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2021,
+    "decade": 2020,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "explicit",
+      "fear_polarity": "denied",
+      "subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "mixed",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "133ca7956017d6c987b6e6b826a4041ab343ffc7b3d95af54ae93ba06d759683"
+  },
+  {
+    "song_id": "s2002-74fa275abd80",
+    "anonymous_song_id": "s005",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2002,
+    "decade": 2000,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "implied",
+      "fear_polarity": "hypothetical",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "ee3e908f1cd5c0cbfd208985f4e1b1d6023392153f427bf15fd615e660dd93e0"
+  },
+  {
+    "song_id": "s2017-2c3252eb3c12",
+    "anonymous_song_id": "s006",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2017,
+    "decade": 2010,
+    "language": "es",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "16f876311e95f53f2250e8b29d9b24f0358113f29647e1f8cd71fa0e5cb4341f"
+  },
+  {
+    "song_id": "s1992-92d3c88cd13e",
+    "anonymous_song_id": "s007",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 1992,
+    "decade": 1990,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "4045fc24e6197ef40a7f1d794f1ecfc79e1937dad645453377d23f41fb6e5cba"
+  },
+  {
+    "song_id": "s2013-877c19a80720",
+    "anonymous_song_id": "s008",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2013,
+    "decade": 2010,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "other",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "458e1de70509abee17f8b7bf020a54454c285241d22c521ea70e3b6033d04549"
+  },
+  {
+    "song_id": "s2000-8ece8cb48467",
+    "anonymous_song_id": "s009",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2000,
+    "decade": 2000,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "dialogue_or_multiple",
+      "stance": "resistance",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "mixed",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "eca5116b7e59fd8d06608af33f9b80bc578338804e8cc560fa71f3871463d2ba"
+  },
+  {
+    "song_id": "s2022-d221fdb58fc4",
+    "anonymous_song_id": "s010",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2022,
+    "decade": 2020,
+    "language": "es",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "explicit",
+      "fear_polarity": "denied",
+      "subtopics": [
+        "other",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "b7703aa32672c0f5085380875e484dbcd3cda00dcf1fd9a1c370126aaeb2194d"
+  },
+  {
+    "song_id": "s2013-608a7aee9a18",
+    "anonymous_song_id": "s011",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2013,
+    "decade": 2010,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "other"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "5a802e48ca4701e7c29338b382af269f5a5220d1197229860e9c873e49e3f454"
+  },
+  {
+    "song_id": "s2004-58ef65dc2ae6",
+    "anonymous_song_id": "s012",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2004,
+    "decade": 2000,
+    "language": "es",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "1f1751fbd5b81d680ede9e2438d890d93caf318572d8c0b388100108a05325b9"
+  },
+  {
+    "song_id": "s1984-8b16c1dac4a9",
+    "anonymous_song_id": "s013",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 1984,
+    "decade": 1980,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "hypothetical",
+      "subtopics": [
+        "relational_coercion",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "mixed",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "33d6c1f8177c5d05da92b83b5ad139a9d4435839ffdf19f5164ea9519ec328bc"
+  },
+  {
+    "song_id": "s1987-b3350477e063",
+    "anonymous_song_id": "s014",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 1987,
+    "decade": 1980,
+    "language": "es",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "unclear",
+      "stance": "resignation",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "c86cc5545e9d089325273923059e0f170c6a4274a129b8f13d1dfbc66fb3af8d"
+  },
+  {
+    "song_id": "s2008-4db2a4ef136d",
+    "anonymous_song_id": "s015",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2008,
+    "decade": 2000,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "435dc101beb069548b1840c52d0f29e28f62aa4f1bf0333656caf6e173a8bef8"
+  },
+  {
+    "song_id": "s1994-56ff6ca6c8bb",
+    "anonymous_song_id": "s016",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 1994,
+    "decade": 1990,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_collective",
+      "stance": "resistance",
+      "fear_relevance": "implied",
+      "fear_polarity": "unclear",
+      "subtopics": [
+        "collective_violence",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "e881f970ca5250d1c8cc80231a74bc38af4fb21695e2ed25c417fc31a565f037"
+  },
+  {
+    "song_id": "s1999-e3d46788c16b",
+    "anonymous_song_id": "s017",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 1999,
+    "decade": 1990,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "unclear",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "mixed",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "5276e8bcd26001e32893a251adb475949e9918046a1777d55c9b7bd9b095700e"
+  },
+  {
+    "song_id": "s2014-27b61f0565ce",
+    "anonymous_song_id": "s018",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2014,
+    "decade": 2010,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "hypothetical",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "mixed",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "58aaa3ef969ede9350d80dd470baa322dbd978410effac22a359aa20727a35f8"
+  },
+  {
+    "song_id": "s2015-c11afde63d3a",
+    "anonymous_song_id": "s019",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2015,
+    "decade": 2010,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_collective",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "mixed",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "d736f07d01952db8fc089fd7c6fd788156fb76506f1a1735476bc6d8b7b307ed"
+  },
+  {
+    "song_id": "s2026-2e43c234ac58",
+    "anonymous_song_id": "s020",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2026,
+    "decade": 2020,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "hypothetical",
+      "subtopics": [
+        "relational_coercion",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "turn",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "b2632e6bf5fdc5d69307cb927d9da860b3b678f2850edc20bbd227c15816f7a2"
+  },
+  {
+    "song_id": "s1991-d25354f1d8f0",
+    "anonymous_song_id": "s021",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 1991,
+    "decade": 1990,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "dialogue_or_multiple",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "hypothetical",
+      "subtopics": [
+        "supernatural",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "mixed",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "3621232b63d8f9c709afe45a5f4f6d2465f6c32e3f79e922122f397671d0d3d0"
+  },
+  {
+    "song_id": "s2000-a62b1066ea67",
+    "anonymous_song_id": "s022",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2000,
+    "decade": 2000,
+    "language": "en",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "affirmed",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "5240265918182952fdb68486c8698e280761527b14d76fbf952d3c226e48a43d"
+  },
+  {
+    "song_id": "s2022-460a59f8aa02",
+    "anonymous_song_id": "s023",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2022,
+    "decade": 2020,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "ef238d3b8f459ababde4b7057d91aab4281de68c49c62ee9f685bcd274caabbb"
+  },
+  {
+    "song_id": "s2014-e8f5796fbb18",
+    "anonymous_song_id": "s024",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2014,
+    "decade": 2010,
+    "language": "es",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "relational_coercion",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "61b7131d074480cd3b23728726068909019025fce393176b1af395aec895e2b0"
+  },
+  {
+    "song_id": "s2021-27c16cbb8cff",
+    "anonymous_song_id": "s025",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2021,
+    "decade": 2020,
+    "language": "en",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "dialogue_or_multiple",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "relational_coercion",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "e4e238b8e97bae50889a73334e77c3f5ff21668159441aa70132b6c803bdbf74"
+  },
+  {
+    "song_id": "s1983-753cd2a7d41b",
+    "anonymous_song_id": "s026",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 1983,
+    "decade": 1980,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "avoidance",
+      "fear_relevance": "explicit",
+      "fear_polarity": "affirmed",
+      "subtopics": [
+        "surveillance_pursuit",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "c50a57e8ef4ff093dcad37888b095863ac12bd6d5783bd0e864a6ae00d8cf941"
+  },
+  {
+    "song_id": "s1990-5b29a6fedb71",
+    "anonymous_song_id": "s027",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 1990,
+    "decade": 1990,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "explicit",
+      "fear_polarity": "hypothetical",
+      "subtopics": [
+        "loss_abandonment",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "e083566e0c0089694dbd516401fbb517e950cc84fa492c65f67d6c385e66d580"
+  },
+  {
+    "song_id": "s1986-9726c0e33862",
+    "anonymous_song_id": "s028",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 1986,
+    "decade": 1980,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "third_person_story",
+      "stance": "other",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "collective_violence",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "mixed",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "c15dc144a69710fc9be091cda0d015ad3c6446a7aff67b548cfdebe7142b2a5e"
+  },
+  {
+    "song_id": "s2020-6f072260cb90",
+    "anonymous_song_id": "s029",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2020,
+    "decade": 2020,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "unclear",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "turn",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "9c6d2529611c35f6578b4fe4fcab5a45d50c3c9e712d77dbaad6aafd488b0a99"
+  },
+  {
+    "song_id": "s1993-a759a1183939",
+    "anonymous_song_id": "s030",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 1993,
+    "decade": 1990,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "explicit",
+      "fear_polarity": "denied",
+      "subtopics": [
+        "collective_violence",
+        "surveillance_pursuit"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "mixed",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "924f655083abbd82ddca69329e0db0360497259509d84ac9cb07141b7d8b498d"
+  },
+  {
+    "song_id": "s2023-dd058a9c7e57",
+    "anonymous_song_id": "s031",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2023,
+    "decade": 2020,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "4976f85fe7e4474a9598dee2dd581f59451ac4193dc0bea7fee7bfcd9f699cac"
+  },
+  {
+    "song_id": "s2019-1f8fdfe5b713",
+    "anonymous_song_id": "s032",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2019,
+    "decade": 2010,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "dialogue_or_multiple",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "mixed",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "0ae86155a92bc34e32c10901189fca1b6a20c0393df998adcfcdcc24d121fd4c"
+  },
+  {
+    "song_id": "s1998-81cadc29bda5",
+    "anonymous_song_id": "s033",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 1998,
+    "decade": 1990,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "impersonal",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "collective_violence",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "685f82dfee05ee9f36e7531bf3382d7738d78f86d774c1f23c5c6e0259be0ab6"
+  },
+  {
+    "song_id": "s2003-863da31c5eaa",
+    "anonymous_song_id": "s034",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2003,
+    "decade": 2000,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "1bc6a98230f72915185c766901a7ef2596a4d1391646660d7c1537941b5babf8"
+  },
+  {
+    "song_id": "s2018-fff1d8ae4511",
+    "anonymous_song_id": "s035",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2018,
+    "decade": 2010,
+    "language": "es",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "implied",
+      "fear_polarity": "hypothetical",
+      "subtopics": [
+        "other",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "4dd398402c936d0d946419d9eb5c2162aa5c6c557567ba2579cfff291746369d"
+  },
+  {
+    "song_id": "s1982-fc0d5bdf6fc1",
+    "anonymous_song_id": "s036",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 1982,
+    "decade": 1980,
+    "language": "en",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "unclear",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "e08fe14cf4c77f03b551c9bc74102f66ea36023fb187974853eda4e527125b7e"
+  },
+  {
+    "song_id": "s2001-1b296546902b",
+    "anonymous_song_id": "s037",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 2001,
+    "decade": 2000,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "unclear",
+      "stance": "care",
+      "fear_relevance": "explicit",
+      "fear_polarity": "denied",
+      "subtopics": [
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "41ac99903021556f8151fd3f415e63199ff27eb53adb1bb05e72959542b27228"
+  },
+  {
+    "song_id": "s1986-e6cc85a542a7",
+    "anonymous_song_id": "s038",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 1986,
+    "decade": 1980,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "third_person_story",
+      "stance": "other",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "loss_abandonment",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "mixed",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "47852952b6c9f80a6fada73fe5b27d3df1742c49f29b92bcee0d00f6174e49a6"
+  },
+  {
+    "song_id": "s1982-273644e36995",
+    "anonymous_song_id": "s039",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 1982,
+    "decade": 1980,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "other"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "1090740150ac0b855519b7970f3a1c3bf4980060463c14fa4dd40a7fe153852c"
+  },
+  {
+    "song_id": "s1996-126a4f4bfee7",
+    "anonymous_song_id": "s040",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "independent_reader",
+    "year": 1996,
+    "decade": 1990,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "other",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "f8da489af4a96cbd5a45f3b16af2beeafad2648342b5c4d278cbd553259ed9ef"
+  },
+  {
+    "song_id": "s1982-60e7787d2b2d",
+    "anonymous_song_id": "s001",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 1982,
+    "decade": 1980,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "dialogue_or_multiple",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "relational_coercion",
+        "surveillance_pursuit"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "mixed",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "6cae8a25505cc703144fbee3c8a66651136280e84af5240bb43e06d520993f85"
+  },
+  {
+    "song_id": "s2004-641528a4ed5c",
+    "anonymous_song_id": "s002",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2004,
+    "decade": 2000,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resignation",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "c9b8a0d09537b85086a614c6e827460dd711e5a10cdc3175c40de4b272e56e50"
+  },
+  {
+    "song_id": "s2024-752f61769347",
+    "anonymous_song_id": "s003",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2024,
+    "decade": 2020,
+    "language": "es",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "implied",
+      "fear_polarity": "denied",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "8ca960569546953810ee1dad207c1818dc8ee4b00186df9b0dda29db690f274e"
+  },
+  {
+    "song_id": "s2021-a17cc29d59f5",
+    "anonymous_song_id": "s004",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2021,
+    "decade": 2020,
+    "language": "es",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "dialogue_or_multiple",
+      "stance": "care",
+      "fear_relevance": "implied",
+      "fear_polarity": "denied",
+      "subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "8d8e7d03fda6edcc814feeaccce77a2e8348f8babb237a08c13fcd3eca7de64d"
+  },
+  {
+    "song_id": "s2002-74fa275abd80",
+    "anonymous_song_id": "s005",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2002,
+    "decade": 2000,
+    "language": "es",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "implied",
+      "fear_polarity": "denied",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "9ec60e6c0eb07c6d38175a18f7c0774ae86c8da0d9df44588ffc434d949f1183"
+  },
+  {
+    "song_id": "s2017-2c3252eb3c12",
+    "anonymous_song_id": "s006",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2017,
+    "decade": 2010,
+    "language": "es",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "713e046c320815a7497863e8cf816fad0ba7c33a8ad5756f7edd7957cd28ea70"
+  },
+  {
+    "song_id": "s1992-92d3c88cd13e",
+    "anonymous_song_id": "s007",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 1992,
+    "decade": 1990,
+    "language": "en",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "7da7c8b1bc5d517f0895ffe5f4b730822a14a9a468c13b5a28efc0c0f2622e97"
+  },
+  {
+    "song_id": "s2013-877c19a80720",
+    "anonymous_song_id": "s008",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2013,
+    "decade": 2010,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "d3147a8d46625ae598d84898648f8d14615fe9fbb40fdfc9bf9853c6d0ed5c56"
+  },
+  {
+    "song_id": "s2000-8ece8cb48467",
+    "anonymous_song_id": "s009",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2000,
+    "decade": 2000,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "confrontation",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "2d5b6534a65a93274c15996c303461910ea16be2a05d69b7d1d702f5ac84a999"
+  },
+  {
+    "song_id": "s2022-d221fdb58fc4",
+    "anonymous_song_id": "s010",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2022,
+    "decade": 2020,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "9d325d80fdd3e41601f321057f334f3c99c1c5e79d5f157e4deb776faafa7cfa"
+  },
+  {
+    "song_id": "s2013-608a7aee9a18",
+    "anonymous_song_id": "s011",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2013,
+    "decade": 2010,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "other",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "353cdb2495254c9cce6d2e224c7fafc8bea0a7af09b2221d7b15b954db9ac860"
+  },
+  {
+    "song_id": "s2004-58ef65dc2ae6",
+    "anonymous_song_id": "s012",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2004,
+    "decade": 2000,
+    "language": "es",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "4501a4cc56081238c93bcfe92c05d5f42f087222d419ab2ad44adebbf79704fc"
+  },
+  {
+    "song_id": "s1984-8b16c1dac4a9",
+    "anonymous_song_id": "s013",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 1984,
+    "decade": 1980,
+    "language": "en",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "a6ff9576913d5ff565a2e247dcd200d72fdbd2f010bf34df16edc1e92a89671a"
+  },
+  {
+    "song_id": "s1987-b3350477e063",
+    "anonymous_song_id": "s014",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 1987,
+    "decade": 1980,
+    "language": "es",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_collective",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "7056cfe4284ce754e972d18658e444b95899905784c0d505ff48c408560268bf"
+  },
+  {
+    "song_id": "s2008-4db2a4ef136d",
+    "anonymous_song_id": "s015",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2008,
+    "decade": 2000,
+    "language": "en",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "avoidance",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "fa8754796d7d98b8e6c11a97c7e4ad613d7730ebeb0ac7ceb9769ef3deef4719"
+  },
+  {
+    "song_id": "s1994-56ff6ca6c8bb",
+    "anonymous_song_id": "s016",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 1994,
+    "decade": 1990,
+    "language": "en",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "collective_violence",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "18761216f8c3abd9d80a7ec84f9f961468320991e4fcc2a40e716097045db74b"
+  },
+  {
+    "song_id": "s1999-e3d46788c16b",
+    "anonymous_song_id": "s017",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 1999,
+    "decade": 1990,
+    "language": "es",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "6024a564b5730b5a2173eda50ac57c5a8634eecf71ac33749706e8fffd68ad69"
+  },
+  {
+    "song_id": "s2014-27b61f0565ce",
+    "anonymous_song_id": "s018",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2014,
+    "decade": 2010,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_collective",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "c157ebfca7d18525aa1bb9058b6c7fdc1929c7b4c7d21acf72207fd302707fb6"
+  },
+  {
+    "song_id": "s2015-c11afde63d3a",
+    "anonymous_song_id": "s019",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2015,
+    "decade": 2010,
+    "language": "en",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "8f0d8f234991e1f9691529f1ccf6f6c218f6abb1822b68ac7cea257f7ce0839d"
+  },
+  {
+    "song_id": "s2026-2e43c234ac58",
+    "anonymous_song_id": "s020",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2026,
+    "decade": 2020,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "turn",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "d6eaac84f011ab8b171dd93050386a3851d12c3d9c0b0def04c6d2ed5294e84e"
+  },
+  {
+    "song_id": "s1991-d25354f1d8f0",
+    "anonymous_song_id": "s021",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 1991,
+    "decade": 1990,
+    "language": "en",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "other",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "ac08598bac03cf5724421558131003a07c9f88672ce5b13b775565fc897618b0"
+  },
+  {
+    "song_id": "s2000-a62b1066ea67",
+    "anonymous_song_id": "s022",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2000,
+    "decade": 2000,
+    "language": "en",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "affirmed",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "9f52503e11e05166a137bdad51bea1b11faaf675e16abcd835fab6d0e2c483bc"
+  },
+  {
+    "song_id": "s2022-460a59f8aa02",
+    "anonymous_song_id": "s023",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2022,
+    "decade": 2020,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "mixed",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "7492d1da162ce88ea2e8949b1191b2e4cda76817f1026c9782b7b2d22c7673c9"
+  },
+  {
+    "song_id": "s2014-e8f5796fbb18",
+    "anonymous_song_id": "s024",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2014,
+    "decade": 2010,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "other"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "4188bf45bc8ee7639a9c347edbadde9671a3e7faf0f3ef6f4c1167d954f33d1d"
+  },
+  {
+    "song_id": "s2021-27c16cbb8cff",
+    "anonymous_song_id": "s025",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2021,
+    "decade": 2020,
+    "language": "en",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "dialogue_or_multiple",
+      "stance": "resistance",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "a6a604b1632902ba6216a102e3d626e854389c0365b3e356ff1a10fcd61ac665"
+  },
+  {
+    "song_id": "s1983-753cd2a7d41b",
+    "anonymous_song_id": "s026",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 1983,
+    "decade": 1980,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "avoidance",
+      "fear_relevance": "implied",
+      "fear_polarity": "affirmed",
+      "subtopics": [
+        "surveillance_pursuit",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "89ea5ed9acc4f0cfdc8112df51d6f9dd2f8bae6e5d2be6ae16a2fe42acf8123c"
+  },
+  {
+    "song_id": "s1990-5b29a6fedb71",
+    "anonymous_song_id": "s027",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 1990,
+    "decade": 1990,
+    "language": "es",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resignation",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "9d11f890c3008153e952f4eec66acb2bfe39d2422bc3ae030a46c7ff5acbc636"
+  },
+  {
+    "song_id": "s1986-9726c0e33862",
+    "anonymous_song_id": "s028",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 1986,
+    "decade": 1980,
+    "language": "es",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "collective_violence",
+        "loss_abandonment"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "c5186406f373c7b83641357c135e002f6458c099a3865c0196c3acdfb058a5ef"
+  },
+  {
+    "song_id": "s2020-6f072260cb90",
+    "anonymous_song_id": "s029",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2020,
+    "decade": 2020,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "mixed",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "a9c18888b953f80e7f6cdc74a681fde990c2eedfd5666a96bbf38e5d05f6fd58"
+  },
+  {
+    "song_id": "s1993-a759a1183939",
+    "anonymous_song_id": "s030",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 1993,
+    "decade": 1990,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "collective_violence",
+        "surveillance_pursuit"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "confrontation",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "63a0faddcfa3c16c4e114fd09620521d39f5a0b53631e0f35a850c3c3c188e60"
+  },
+  {
+    "song_id": "s2023-dd058a9c7e57",
+    "anonymous_song_id": "s031",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2023,
+    "decade": 2020,
+    "language": "en",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "18ce2010364653ab76bc5c5eafdb2bdf4a978301d382cdc470eb13f157703f66"
+  },
+  {
+    "song_id": "s2019-1f8fdfe5b713",
+    "anonymous_song_id": "s032",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2019,
+    "decade": 2010,
+    "language": "en",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "dialogue_or_multiple",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "5728cebf269b6bb245c35eb1c3571caad0672f214497ae71b3f950a37f044623"
+  },
+  {
+    "song_id": "s1998-81cadc29bda5",
+    "anonymous_song_id": "s033",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 1998,
+    "decade": 1990,
+    "language": "es",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_collective",
+      "stance": "care",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "2a0fd0af09f384faf10b6d2130350d71d697ec3789aac938a0cd2d5b4b3a265b"
+  },
+  {
+    "song_id": "s2003-863da31c5eaa",
+    "anonymous_song_id": "s034",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2003,
+    "decade": 2000,
+    "language": "en",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "other"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "216fad9314066abc1c3d6c3f2fd4492bc1b620b15b1178562e3c825c9499b0b5"
+  },
+  {
+    "song_id": "s2018-fff1d8ae4511",
+    "anonymous_song_id": "s035",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2018,
+    "decade": 2010,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "avoidance",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "supernatural",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "mixed",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "05bf8537551db783823289aa641f6086a201367eb27f6a165703918477ad95a9"
+  },
+  {
+    "song_id": "s1982-fc0d5bdf6fc1",
+    "anonymous_song_id": "s036",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 1982,
+    "decade": 1980,
+    "language": "en",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "c9a5b16065e5800983856951afa2073f8f19a2f034e5d9443209c39cfd57b8f9"
+  },
+  {
+    "song_id": "s2001-1b296546902b",
+    "anonymous_song_id": "s037",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 2001,
+    "decade": 2000,
+    "language": "es",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "implied",
+      "fear_polarity": "denied",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "404b1a572bac3cfce5854c6187df52f7122a381605caccc53a1ba0a293d2bfd0"
+  },
+  {
+    "song_id": "s1986-e6cc85a542a7",
+    "anonymous_song_id": "s038",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 1986,
+    "decade": 1980,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "third_person_story",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "supernatural"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "confrontation",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "f79ef9b0611af645a83ff591e92dbcfc2e40849eca1082eec2f44e45070ea845"
+  },
+  {
+    "song_id": "s1982-273644e36995",
+    "anonymous_song_id": "s039",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 1982,
+    "decade": 1980,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "bee959d5d738dc75119a6d4c6f309a784baebbe9b5406a629673021366a72746"
+  },
+  {
+    "song_id": "s1996-126a4f4bfee7",
+    "anonymous_song_id": "s040",
+    "model_id": "openai/gpt-5.4-nano",
+    "stage": "independent_reader",
+    "year": 1996,
+    "decade": 1990,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "relational_coercion",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "ef1a0f273e5ee851052237ab952fc4afd2ccc1bf71ce8a2fe4e58cb86c3218a1"
+  },
+  {
+    "song_id": "s1987-b3350477e063",
+    "anonymous_song_id": "s014",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "bounded_third_review",
+    "year": 1987,
+    "decade": 1980,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "unclear",
+      "stance": "ambivalence",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "13d0c09a47462ce6a9271b2f598947090b8f1a25e70f10b7b58b33c705d7c82c"
+  },
+  {
+    "song_id": "s1999-e3d46788c16b",
+    "anonymous_song_id": "s017",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "bounded_third_review",
+    "year": 1999,
+    "decade": 1990,
+    "language": "es",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "a8abf2e5ddd5128dc3303065f8e5330f95ddaa76d6e4610b2bf64da79afbaf00"
+  },
+  {
+    "song_id": "s2024-752f61769347",
+    "anonymous_song_id": "s003",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "bounded_third_review",
+    "year": 2024,
+    "decade": 2020,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "hypothetical",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "mixed",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "cee51feca4c5458712146d6fbe5b858394a91865cd6f2066c698628fa7ba71ef"
+  },
+  {
+    "song_id": "s2023-dd058a9c7e57",
+    "anonymous_song_id": "s031",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "bounded_third_review",
+    "year": 2023,
+    "decade": 2020,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "10b8582e7637763dc2e28e09e323cdc756c9e51160cf65d5e24423dd67cd7955"
+  },
+  {
+    "song_id": "s2001-1b296546902b",
+    "anonymous_song_id": "s037",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "bounded_third_review",
+    "year": 2001,
+    "decade": 2000,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "explicit",
+      "fear_polarity": "denied",
+      "subtopics": [
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "f3badca53df89a93bcf876e53e99a8ea21ac8404d6139c36371b99aa3a5c9edb"
+  },
+  {
+    "song_id": "s1983-753cd2a7d41b",
+    "anonymous_song_id": "s026",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "bounded_third_review",
+    "year": 1983,
+    "decade": 1980,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "avoidance",
+      "fear_relevance": "explicit",
+      "fear_polarity": "affirmed",
+      "subtopics": [
+        "fragility_identity",
+        "surveillance_pursuit"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "f5903b60865a2cec70ce72d23e96e455427d70339a60d7b9a11821bd8246d2e9"
+  },
+  {
+    "song_id": "s1986-9726c0e33862",
+    "anonymous_song_id": "s028",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "bounded_third_review",
+    "year": 1986,
+    "decade": 1980,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "third_person_story",
+      "stance": "other",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "collective_violence",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "mixed",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "2b291b5b00537497fc9d792600fbe7867dc67b1817c802ccfbc58773565910df"
+  },
+  {
+    "song_id": "s2014-27b61f0565ce",
+    "anonymous_song_id": "s018",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "bounded_third_review",
+    "year": 2014,
+    "decade": 2010,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "hypothetical",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "174b8731a25ad7921725938c85d68cabb844f4dea7c4d759609e48c5d5e7973b"
+  },
+  {
+    "song_id": "s2019-1f8fdfe5b713",
+    "anonymous_song_id": "s032",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "bounded_third_review",
+    "year": 2019,
+    "decade": 2010,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "denied",
+      "subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "523c307af0389bdb696b49d04bdbc1f97dd02b933618c15bee969c5a3f6012ec"
+  },
+  {
+    "song_id": "s1990-5b29a6fedb71",
+    "anonymous_song_id": "s027",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "bounded_third_review",
+    "year": 1990,
+    "decade": 1990,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "denied",
+      "subtopics": [
+        "loss_abandonment",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "6c68af1ea59830e07f00299aac1ba43004cf6fad0d671d8f30464dcd5d461189"
+  },
+  {
+    "song_id": "s2002-74fa275abd80",
+    "anonymous_song_id": "s005",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "bounded_third_review",
+    "year": 2002,
+    "decade": 2000,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "implied",
+      "fear_polarity": "hypothetical",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "6b847897c8a772e7ea11738f5c15f4d86931e21062556f7a2da1f9a12317ae9b"
+  },
+  {
+    "song_id": "s1982-273644e36995",
+    "anonymous_song_id": "s039",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "bounded_third_review",
+    "year": 1982,
+    "decade": 1980,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "fragility_identity",
+        "other"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "a0a540c63257b1e55059574bafe6428f991c7bf88d9a4bb0379326d688facbfe"
+  },
+  {
+    "song_id": "s2000-a62b1066ea67",
+    "anonymous_song_id": "s022",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "bounded_third_review",
+    "year": 2000,
+    "decade": 2000,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "27e8e5e739702498bded8730317b0ad812035a61c756739960b36589a2c8b1f7"
+  },
+  {
+    "song_id": "s1984-8b16c1dac4a9",
+    "anonymous_song_id": "s013",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "bounded_third_review",
+    "year": 1984,
+    "decade": 1980,
+    "language": "en",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "hypothetical",
+      "subtopics": [
+        "relational_coercion",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "301bc53bc8f3510e537a0257b1002ebe444f0cf2757c5b67140942d1622b7485"
+  },
+  {
+    "song_id": "s1991-d25354f1d8f0",
+    "anonymous_song_id": "s021",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "bounded_third_review",
+    "year": 1991,
+    "decade": 1990,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "dialogue_or_multiple",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "supernatural",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "8523cebbbca047403be91bbaccd7c8023b4dd3a4b33da9b36fbc62c578e946a3"
+  },
+  {
+    "song_id": "s2021-27c16cbb8cff",
+    "anonymous_song_id": "s025",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "bounded_third_review",
+    "year": 2021,
+    "decade": 2020,
+    "language": "en",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "dialogue_or_multiple",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "700c762ab74564d6b1a0d128f1226098bb0daeb90bd75db3f21897232e0c5334"
+  },
+  {
+    "song_id": "s2008-4db2a4ef136d",
+    "anonymous_song_id": "s015",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "bounded_third_review",
+    "year": 2008,
+    "decade": 2000,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "cb7c978223e4d856c1addfe9996c6230e7d035ecf2870ced810daefb2ed1bc98"
+  },
+  {
+    "song_id": "s2015-c11afde63d3a",
+    "anonymous_song_id": "s019",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "bounded_third_review",
+    "year": 2015,
+    "decade": 2010,
+    "language": "en",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_collective",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "denied",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "61182b38c79375b71b5ac1cf71a2add33fa93f8d51a4b5139a76669ec44cd8b0"
+  },
+  {
+    "song_id": "s2021-a17cc29d59f5",
+    "anonymous_song_id": "s004",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "bounded_third_review",
+    "year": 2021,
+    "decade": 2020,
+    "language": "es",
+    "status": "executed",
+    "primary_strict_status": "executed",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "explicit",
+      "fear_polarity": "denied",
+      "subtopics": [
+        "other",
+        "relational_coercion"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": "repetition",
+    "strict_arc_anchor_structure_valid": true,
+    "request_hash": "2f8ae45f5842e5bc219207eeddfbe845b4bd008993a3ac69d7d2b5894314c1ce"
+  },
+  {
+    "song_id": "s1982-fc0d5bdf6fc1",
+    "anonymous_song_id": "s036",
+    "model_id": "openai/gpt-5.4-mini",
+    "stage": "bounded_third_review",
+    "year": 1982,
+    "decade": 1980,
+    "language": "en",
+    "status": "executed_invalid_panel_schema",
+    "primary_strict_status": "executed_invalid_panel_schema",
+    "categorical_votes": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ]
+    },
+    "category_validity": {
+      "voice": true,
+      "stance": true,
+      "fear_relevance": true,
+      "fear_polarity": true,
+      "subtopics": true
+    },
+    "strict_arc_vote": null,
+    "strict_arc_anchor_structure_valid": false,
+    "request_hash": "0914041ad74b7fb4b9ef6b89fd811046795f9acee6099974f77d2671087d0c99"
+  }
+]

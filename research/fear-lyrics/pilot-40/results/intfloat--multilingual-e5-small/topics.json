@@ -1,0 +1,123 @@
+{
+  "parameters": {
+    "seed": 17,
+    "documents": 386,
+    "umap_neighbors": 15,
+    "umap_components": 5,
+    "umap_min_dist": 0.0,
+    "umap_metric": "cosine",
+    "hdbscan_metric": "euclidean_in_umap_space",
+    "min_cluster_size": 8,
+    "min_samples": 3,
+    "cluster_selection_method": "eom",
+    "ctfidf_reduce_frequent_words": true,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "topic_reduction": "none",
+    "fit_weight": "one_per_unique_song_block",
+    "lexical_preprocessing_language": "multilingual",
+    "lexical_accents_preserved": true,
+    "descriptor_repair": "Fixed original clustering labels; only multilingual c-TF-IDF and hierarchy recomputed."
+  },
+  "topics": [
+    {
+      "topic_id": 0,
+      "unique_blocks": 196,
+      "songs": 20,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "like",
+          "ctfidf_weight": 0.4161312077843885
+        },
+        {
+          "term": "it's",
+          "ctfidf_weight": 0.395676190387934
+        },
+        {
+          "term": "wanna",
+          "ctfidf_weight": 0.395676190387934
+        },
+        {
+          "term": "now",
+          "ctfidf_weight": 0.3911972775215859
+        },
+        {
+          "term": "got",
+          "ctfidf_weight": 0.3889023703523367
+        },
+        {
+          "term": "don't",
+          "ctfidf_weight": 0.3768195500537574
+        },
+        {
+          "term": "love",
+          "ctfidf_weight": 0.35728115937759547
+        },
+        {
+          "term": "feel",
+          "ctfidf_weight": 0.35196997881596637
+        },
+        {
+          "term": "know",
+          "ctfidf_weight": 0.3425652056033791
+        },
+        {
+          "term": "crazy",
+          "ctfidf_weight": 0.33927857496077574
+        }
+      ]
+    },
+    {
+      "topic_id": 1,
+      "unique_blocks": 190,
+      "songs": 26,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "no",
+          "ctfidf_weight": 0.5807761565459203
+        },
+        {
+          "term": "mama",
+          "ctfidf_weight": 0.5269283996421921
+        },
+        {
+          "term": "mama mama",
+          "ctfidf_weight": 0.5238364157693008
+        },
+        {
+          "term": "uh",
+          "ctfidf_weight": 0.4758463471980532
+        },
+        {
+          "term": "mal",
+          "ctfidf_weight": 0.45663291934028477
+        },
+        {
+          "term": "matador",
+          "ctfidf_weight": 0.447189504969079
+        },
+        {
+          "term": "uh uh",
+          "ctfidf_weight": 0.4301495582444961
+        },
+        {
+          "term": "mal mu",
+          "ctfidf_weight": 0.41114046798221804
+        },
+        {
+          "term": "mu mal",
+          "ctfidf_weight": 0.41114046798221804
+        },
+        {
+          "term": "mu",
+          "ctfidf_weight": 0.41114046798221804
+        }
+      ]
+    }
+  ],
+  "interpretation": "c-TF-IDF descriptors require human naming and inspection. A topic is not evidence of an emotion."
+}

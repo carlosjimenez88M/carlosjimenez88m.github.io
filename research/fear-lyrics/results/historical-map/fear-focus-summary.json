@@ -1,0 +1,79 @@
+{
+  "selected_songs": 40,
+  "fear_reference_songs": 23,
+  "fear_reference_counts": {
+    "unresolved": 7,
+    "explicit": 12,
+    "implied": 11,
+    "absent": 10
+  },
+  "arcs_all_selected": {
+    "unresolved": 26,
+    "repetition": 12,
+    "turn": 1,
+    "mixed": 1
+  },
+  "arcs_fear_reference": {
+    "unresolved": 15,
+    "repetition": 6,
+    "turn": 1,
+    "mixed": 1
+  },
+  "polarity_fear_reference": {
+    "hypothetical": 4,
+    "denied": 2,
+    "mixed": 8,
+    "unresolved": 7,
+    "affirmed": 2
+  },
+  "fear_reference_by_period": [
+    {
+      "decade": 1980,
+      "selected_songs": 8,
+      "fear_reference_songs": 4,
+      "arcs_fear_reference": {
+        "unresolved": 2,
+        "repetition": 1,
+        "mixed": 1
+      }
+    },
+    {
+      "decade": 1990,
+      "selected_songs": 8,
+      "fear_reference_songs": 4,
+      "arcs_fear_reference": {
+        "unresolved": 3,
+        "repetition": 1
+      }
+    },
+    {
+      "decade": 2000,
+      "selected_songs": 8,
+      "fear_reference_songs": 6,
+      "arcs_fear_reference": {
+        "repetition": 3,
+        "unresolved": 3
+      }
+    },
+    {
+      "decade": 2010,
+      "selected_songs": 8,
+      "fear_reference_songs": 4,
+      "arcs_fear_reference": {
+        "repetition": 1,
+        "unresolved": 3
+      }
+    },
+    {
+      "decade": 2020,
+      "selected_songs": 8,
+      "fear_reference_songs": 5,
+      "arcs_fear_reference": {
+        "unresolved": 4,
+        "turn": 1
+      }
+    }
+  ],
+  "definition": "Existing field consensus explicit/implied; includes denied/hypothetical polarity. No new model calls.",
+  "arc_definition": "Strict chronological category consensus; unresolved remains in denominator."
+}

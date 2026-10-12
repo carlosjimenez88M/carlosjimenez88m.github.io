@@ -1,0 +1,102 @@
+{
+  "executed": true,
+  "sources": {
+    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2": {
+      "section_assignments_sha256": "1765b387d104032150ef7eb037eb698dee57e19d6c3a7a6a8bf6f6e0b169a216",
+      "unique_song_shares_sha256": "37fdac66307380891b97b545d6026bae02d7f0d8fcd639eb9109a5e9a48e2aa6"
+    },
+    "intfloat/multilingual-e5-small": {
+      "section_assignments_sha256": "b471b7a48c7b000c82efae5ead0111a46cfcc6570316a4442076b147e1ded74e",
+      "unique_song_shares_sha256": "b04a1da309d1d3426445f227ac2b8d6e1efe959ca082017bfb546036d9e8f0c4"
+    }
+  },
+  "script_sha256": "3fab07d93a4a6f8785bd84d8d22a78f82d0ff721c596b4dc572dc3c1e208ca4d",
+  "runtime_seconds": 36.09,
+  "source_article": "https://juliasilge.com/blog/bayesian-blues/",
+  "source_code": "https://github.com/juliasilge/old_bloggy_blog/blob/master/_R/2016-09-28-Bayesian-Blues.Rmd",
+  "observation": "A selected song contains >=1 unique block assigned to a fixed topic. One Bernoulli per song/topic.",
+  "estimand": "Latent topic-presence propensity under a hypothetical exchangeable song-sampling model. Observed finite-corpus c/n is known exactly; purposive selection prevents external prevalence interpretation.",
+  "trials": "Actual selected-song count per decade/language cell, inferred and validated before fitting; all zero cells retained. Noise -1 is diagnostic.",
+  "song_denominators": [
+    12
+  ],
+  "expected_cells": 10,
+  "expected_songs_per_cell": 12,
+  "models": [
+    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "intfloat/multilingual-e5-small"
+  ],
+  "likelihood": "c_g ~ BetaBinomial(n_g, mu*kappa, (1-mu)*kappa); theta_g | c_g,hyper ~ Beta(alpha+c_g,beta+n_g-c_g)",
+  "eb": "Marginal likelihood with 12 deterministic starts and a kappa profile; plug-in intervals condition on fitted hyperparameters.",
+  "eb_kappa_bounds": [
+    0.05,
+    200.0
+  ],
+  "eb_mu_bounds": [
+    0.0001,
+    0.9999
+  ],
+  "profile": "delta log likelihood >= -1.920729 is a heuristic support diagnostic, not a calibrated interval in this tiny boundary-prone design.",
+  "full_hierarchical": "mu~Beta(1,1); log(kappa)~Normal(log(4),1.5) truncated [.05,200]; Gauss-Legendre quadrature over mu/log(kappa).",
+  "grid": [
+    64,
+    81
+  ],
+  "grid_resolution_comparison": [
+    96,
+    121
+  ],
+  "fixed_priors": {
+    "Jeffreys": [
+      0.5,
+      0.5
+    ],
+    "uniform": [
+      1.0,
+      1.0
+    ]
+  },
+  "pooling": "Compare all ten EN/ES cells with five cells per language. Neither exchangeability assumption is established by this corpus.",
+  "predictive_replicates": 5000,
+  "simulation_seed": 20261012,
+  "leave_one_cell_out": "Refits only hyperprior; topic discovery still reuses all songs. Predictive scores are a conditional sensitivity, not topic generalization.",
+  "credible_intervals": "95% equal-tail intervals. Grid mixture integrates hyperparameter (alpha/beta) uncertainty; its weak hyperprior specification stays fixed. All methods condition on topic assignments and corpus design.",
+  "full_vs_eb_difference": "The hierarchical grid also introduces explicit weak hyperpriors; differences from EB are not solely an uncertainty-only correction at the same maximum-likelihood point.",
+  "unresolved": "Selection bias, dependent artists, unequal provider coverage, song length/detection opportunity, topic/model uncertainty, and population inference are not solved.",
+  "presence_not_composition": "A song can contain multiple topics; presence percentages may sum above 100% and do not equal primary fractional topic shares.",
+  "e5_warning": "Language association is diagnosed separately for each embedding space; rates of those topics are not fear prevalence.",
+  "figure_selection": "One non-noise topic per supplied model: maximum mean within-language between-decade variance of observed song presence; smallest ID breaks ties. Exploratory selection on this corpus, not an inferential trend test.",
+  "selected_panels": [
+    {
+      "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "topic_id": 18,
+      "selection_score": 0.014166666666666666,
+      "selection_rule": "maximum_mean_within_language_between_decade_population_variance_of_observed_song_presence; exclude_noise; tie_smallest_topic_id",
+      "terms": [
+        "niebla",
+        "sabrás",
+        "río"
+      ]
+    },
+    {
+      "model": "intfloat/multilingual-e5-small",
+      "topic_id": 7,
+      "selection_score": 0.01111111111111111,
+      "selection_rule": "maximum_mean_within_language_between_decade_population_variance_of_observed_song_presence; exclude_noise; tie_smallest_topic_id",
+      "terms": [
+        "sunday",
+        "hole sun",
+        "bloody sunday"
+      ]
+    }
+  ],
+  "temporal_contrast_draws": 20000,
+  "temporal_contrasts": "Earliest-to-latest decade bin for every non-noise topic and language. Shared hyperparameter draws preserve dependence of the hierarchical cells; all fixed assignments conditioned on; no multiplicity correction or complete-2020s claim.",
+  "article_adaptation": "Keep shrinkage and explicit intervals; replace state population with actual song trials, retain zeros, fit count likelihood, inspect hyperparameter uncertainty.",
+  "article_critique": "The linked Rmd excludes unmentioned states via filter(!is.na(n)); population is not a measured number of Bernoulli song trials.",
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  }
+}

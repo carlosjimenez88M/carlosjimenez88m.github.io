@@ -1,0 +1,24 @@
+{
+  "authorized_destinations": [
+    "OpenAI",
+    "Gemini/GCP"
+  ],
+  "budget_ceiling_usd": 1,
+  "google": {
+    "credentials_metadata_status": 200,
+    "models_attempted": [
+      "gemini-embedding-2",
+      "gemini-embedding-001"
+    ],
+    "inference_http_status": 402,
+    "error_status": "RESOURCE_EXHAUSTED",
+    "failure_category": "billing_payment_credit",
+    "vectors_received": 0,
+    "note": "Authentication permits model listing; inference rejected. No account or billing changes made."
+  },
+  "anthropic": {
+    "key_variable_alias": "ANTROPIC_API_KEY",
+    "raw_corpus_sent": false,
+    "planned_scope": "Original synthetic probes only; Anthropic offers no native embedding model."
+  }
+}

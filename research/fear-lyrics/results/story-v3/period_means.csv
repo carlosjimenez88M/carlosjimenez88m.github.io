@@ -1,0 +1,271 @@
+measure,column,language,period,mean,lo90,hi90,songs,n
+lectura: amenaza interior (internal_self),threat_locus:internal_self,both,1980,0.0,0.0,0.0,13.5,14
+lectura: amenaza interior (internal_self),threat_locus:internal_self,both,1990,0.07692307692307693,0.0,0.18181818181818182,8.5,9
+lectura: amenaza interior (internal_self),threat_locus:internal_self,both,2000,0.16666666666666666,0.05555555555555555,0.2777777777777778,12.5,13
+lectura: amenaza interior (internal_self),threat_locus:internal_self,both,2010,0.17647058823529413,0.058660130718954304,0.3125,12.0,13
+lectura: amenaza interior (internal_self),threat_locus:internal_self,both,2020,0.325,0.0,0.625,6.5,7
+lectura: amenaza interior (internal_self),threat_locus:internal_self,en,1980,0.0,0.0,0.0,7.5,8
+lectura: amenaza interior (internal_self),threat_locus:internal_self,en,1990,0.15384615384615385,0.0,0.3333333333333333,6.5,7
+lectura: amenaza interior (internal_self),threat_locus:internal_self,en,2000,0.3333333333333333,0.1111111111111111,0.5555555555555556,9.0,9
+lectura: amenaza interior (internal_self),threat_locus:internal_self,en,2010,0.35294117647058826,0.11764705882352941,0.625,8.5,9
+lectura: amenaza interior (internal_self),threat_locus:internal_self,en,2020,0.4,0.0,0.8,2.5,3
+lectura: amenaza interior (internal_self),threat_locus:internal_self,es,1980,0.0,0.0,0.0,6.0,6
+lectura: amenaza interior (internal_self),threat_locus:internal_self,es,1990,0.0,0.0,0.0,2.0,2
+lectura: amenaza interior (internal_self),threat_locus:internal_self,es,2000,0.0,0.0,0.0,3.5,4
+lectura: amenaza interior (internal_self),threat_locus:internal_self,es,2010,0.0,0.0,0.0,3.5,4
+lectura: amenaza interior (internal_self),threat_locus:internal_self,es,2020,0.25,0.0,0.5,4.0,4
+lectura: amenaza colectiva,threat_locus:external_collective,both,1980,0.7,0.47916666666666663,0.877083333333322,13.5,14
+lectura: amenaza colectiva,threat_locus:external_collective,both,1990,0.4807692307692308,0.15384615384615385,0.8076923076923077,8.5,9
+lectura: amenaza colectiva,threat_locus:external_collective,both,2000,0.1111111111111111,0.0,0.2222222222222222,12.5,13
+lectura: amenaza colectiva,threat_locus:external_collective,both,2010,0.24789915966386555,0.0992063492063492,0.44705882352941173,12.0,13
+lectura: amenaza colectiva,threat_locus:external_collective,both,2020,0.125,0.0,0.375,6.5,7
+lectura: amenaza colectiva,threat_locus:external_collective,en,1980,0.7333333333333333,0.4666666666666667,1.0,7.5,8
+lectura: amenaza colectiva,threat_locus:external_collective,en,1990,0.46153846153846156,0.15384615384615385,0.7692307692307693,6.5,7
+lectura: amenaza colectiva,threat_locus:external_collective,en,2000,0.2222222222222222,0.0,0.4444444444444444,9.0,9
+lectura: amenaza colectiva,threat_locus:external_collective,en,2010,0.35294117647058826,0.11764705882352941,0.6,8.5,9
+lectura: amenaza colectiva,threat_locus:external_collective,en,2020,0.0,0.0,0.0,2.5,3
+lectura: amenaza colectiva,threat_locus:external_collective,es,1980,0.6666666666666666,0.3333333333333333,1.0,6.0,6
+lectura: amenaza colectiva,threat_locus:external_collective,es,1990,0.5,0.0,1.0,2.0,2
+lectura: amenaza colectiva,threat_locus:external_collective,es,2000,0.0,0.0,0.0,3.5,4
+lectura: amenaza colectiva,threat_locus:external_collective,es,2010,0.14285714285714285,0.0,0.6,3.5,4
+lectura: amenaza colectiva,threat_locus:external_collective,es,2020,0.25,0.0,0.75,4.0,4
+lectura: amenaza de otra persona,threat_locus:external_person,both,1980,0.06666666666666667,0.0,0.1875,13.5,14
+lectura: amenaza de otra persona,threat_locus:external_person,both,1990,0.0,0.0,0.0,8.5,9
+lectura: amenaza de otra persona,threat_locus:external_person,both,2000,0.36507936507936506,0.14285714285714285,0.6111111111111112,12.5,13
+lectura: amenaza de otra persona,threat_locus:external_person,both,2010,0.14285714285714285,0.0,0.3333333333333333,12.0,13
+lectura: amenaza de otra persona,threat_locus:external_person,both,2020,0.2,0.0,0.4,6.5,7
+lectura: amenaza de otra persona,threat_locus:external_person,en,1980,0.13333333333333333,0.0,0.375,7.5,8
+lectura: amenaza de otra persona,threat_locus:external_person,en,1990,0.0,0.0,0.0,6.5,7
+lectura: amenaza de otra persona,threat_locus:external_person,en,2000,0.4444444444444444,0.2222222222222222,0.6666666666666666,9.0,9
+lectura: amenaza de otra persona,threat_locus:external_person,en,2010,0.0,0.0,0.0,8.5,9
+lectura: amenaza de otra persona,threat_locus:external_person,en,2020,0.4,0.0,0.8,2.5,3
+lectura: amenaza de otra persona,threat_locus:external_person,es,1980,0.0,0.0,0.0,6.0,6
+lectura: amenaza de otra persona,threat_locus:external_person,es,1990,0.0,0.0,0.0,2.0,2
+lectura: amenaza de otra persona,threat_locus:external_person,es,2000,0.2857142857142857,0.0,0.6666666666666666,3.5,4
+lectura: amenaza de otra persona,threat_locus:external_person,es,2010,0.2857142857142857,0.0,0.75,3.5,4
+lectura: amenaza de otra persona,threat_locus:external_person,es,2020,0.0,0.0,0.0,4.0,4
+lectura: ficción / sobrenatural,threat_locus:supernatural_fiction,both,1980,0.15,0.0,0.31666666666666665,13.5,14
+lectura: ficción / sobrenatural,threat_locus:supernatural_fiction,both,1990,0.07692307692307693,0.0,0.21428571428571427,8.5,9
+lectura: ficción / sobrenatural,threat_locus:supernatural_fiction,both,2000,0.0,0.0,0.0,12.5,13
+lectura: ficción / sobrenatural,threat_locus:supernatural_fiction,both,2010,0.14285714285714285,0.0,0.375,12.0,13
+lectura: ficción / sobrenatural,threat_locus:supernatural_fiction,both,2020,0.0,0.0,0.0,6.5,7
+lectura: ficción / sobrenatural,threat_locus:supernatural_fiction,en,1980,0.13333333333333333,0.0,0.375,7.5,8
+lectura: ficción / sobrenatural,threat_locus:supernatural_fiction,en,1990,0.15384615384615385,0.0,0.42857142857142855,6.5,7
+lectura: ficción / sobrenatural,threat_locus:supernatural_fiction,en,2000,0.0,0.0,0.0,9.0,9
+lectura: ficción / sobrenatural,threat_locus:supernatural_fiction,en,2010,0.0,0.0,0.0,8.5,9
+lectura: ficción / sobrenatural,threat_locus:supernatural_fiction,en,2020,0.0,0.0,0.0,2.5,3
+lectura: ficción / sobrenatural,threat_locus:supernatural_fiction,es,1980,0.16666666666666666,0.0,0.5,6.0,6
+lectura: ficción / sobrenatural,threat_locus:supernatural_fiction,es,1990,0.0,0.0,0.0,2.0,2
+lectura: ficción / sobrenatural,threat_locus:supernatural_fiction,es,2000,0.0,0.0,0.0,3.5,4
+lectura: ficción / sobrenatural,threat_locus:supernatural_fiction,es,2010,0.2857142857142857,0.0,0.75,3.5,4
+lectura: ficción / sobrenatural,threat_locus:supernatural_fiction,es,2020,0.0,0.0,0.0,4.0,4
+lectura: pérdida de un vínculo,threat_locus:relational_loss,both,1980,0.0,0.0,0.0,13.5,14
+lectura: pérdida de un vínculo,threat_locus:relational_loss,both,1990,0.3653846153846154,0.041666666666666664,0.6785714285714286,8.5,9
+lectura: pérdida de un vínculo,threat_locus:relational_loss,both,2000,0.21428571428571427,0.0,0.5,12.5,13
+lectura: pérdida de un vínculo,threat_locus:relational_loss,both,2010,0.20168067226890757,0.0,0.42857142857142855,12.0,13
+lectura: pérdida de un vínculo,threat_locus:relational_loss,both,2020,0.125,0.0,0.375,6.5,7
+lectura: pérdida de un vínculo,threat_locus:relational_loss,en,1980,0.0,0.0,0.0,7.5,8
+lectura: pérdida de un vínculo,threat_locus:relational_loss,en,1990,0.23076923076923078,0.0,0.5,6.5,7
+lectura: pérdida de un vínculo,threat_locus:relational_loss,en,2000,0.0,0.0,0.0,9.0,9
+lectura: pérdida de un vínculo,threat_locus:relational_loss,en,2010,0.11764705882352941,0.0,0.3333333333333333,8.5,9
+lectura: pérdida de un vínculo,threat_locus:relational_loss,en,2020,0.0,0.0,0.0,2.5,3
+lectura: pérdida de un vínculo,threat_locus:relational_loss,es,1980,0.0,0.0,0.0,6.0,6
+lectura: pérdida de un vínculo,threat_locus:relational_loss,es,1990,0.5,0.0,1.0,2.0,2
+lectura: pérdida de un vínculo,threat_locus:relational_loss,es,2000,0.42857142857142855,0.0,1.0,3.5,4
+lectura: pérdida de un vínculo,threat_locus:relational_loss,es,2010,0.2857142857142857,0.0,0.6708333333333105,3.5,4
+lectura: pérdida de un vínculo,threat_locus:relational_loss,es,2020,0.25,0.0,0.5,4.0,4
+lectura: tiempo / incertidumbre,threat_locus:existential_time,both,1980,0.08333333333333333,0.0,0.25,13.5,14
+lectura: tiempo / incertidumbre,threat_locus:existential_time,both,1990,0.0,0.0,0.0,8.5,9
+lectura: tiempo / incertidumbre,threat_locus:existential_time,both,2000,0.14285714285714285,0.0,0.375,12.5,13
+lectura: tiempo / incertidumbre,threat_locus:existential_time,both,2010,0.08823529411764706,0.0,0.19444444444444445,12.0,13
+lectura: tiempo / incertidumbre,threat_locus:existential_time,both,2020,0.1625,0.0,0.4375,6.5,7
+lectura: tiempo / incertidumbre,threat_locus:existential_time,en,1980,0.0,0.0,0.0,7.5,8
+lectura: tiempo / incertidumbre,threat_locus:existential_time,en,1990,0.0,0.0,0.0,6.5,7
+lectura: tiempo / incertidumbre,threat_locus:existential_time,en,2000,0.0,0.0,0.0,9.0,9
+lectura: tiempo / incertidumbre,threat_locus:existential_time,en,2010,0.17647058823529413,0.0,0.3888888888888889,8.5,9
+lectura: tiempo / incertidumbre,threat_locus:existential_time,en,2020,0.2,0.0,0.5,2.5,3
+lectura: tiempo / incertidumbre,threat_locus:existential_time,es,1980,0.16666666666666666,0.0,0.5,6.0,6
+lectura: tiempo / incertidumbre,threat_locus:existential_time,es,1990,0.0,0.0,0.0,2.0,2
+lectura: tiempo / incertidumbre,threat_locus:existential_time,es,2000,0.2857142857142857,0.0,0.75,3.5,4
+lectura: tiempo / incertidumbre,threat_locus:existential_time,es,2010,0.0,0.0,0.0,3.5,4
+lectura: tiempo / incertidumbre,threat_locus:existential_time,es,2020,0.125,0.0,0.2562499999999659,4.0,4
+lectura: respuesta de confesión,response:confession_naming,both,1980,0.0,0.0,0.0,13.5,14
+lectura: respuesta de confesión,response:confession_naming,both,1990,0.2403846153846154,0.038461538461538464,0.4423076923076923,8.5,9
+lectura: respuesta de confesión,response:confession_naming,both,2000,0.25396825396825395,0.05555555555555555,0.4861111111111111,12.5,13
+lectura: respuesta de confesión,response:confession_naming,both,2010,0.058823529411764705,0.0,0.11764705882352941,12.0,13
+lectura: respuesta de confesión,response:confession_naming,both,2020,0.2625,0.0,0.525,6.5,7
+lectura: respuesta de confesión,response:confession_naming,en,1980,0.0,0.0,0.0,7.5,8
+lectura: respuesta de confesión,response:confession_naming,en,1990,0.23076923076923078,0.0,0.5,6.5,7
+lectura: respuesta de confesión,response:confession_naming,en,2000,0.2222222222222222,0.0,0.4444444444444444,9.0,9
+lectura: respuesta de confesión,response:confession_naming,en,2010,0.11764705882352941,0.0,0.23529411764705882,8.5,9
+lectura: respuesta de confesión,response:confession_naming,en,2020,0.4,0.0,0.8,2.5,3
+lectura: respuesta de confesión,response:confession_naming,es,1980,0.0,0.0,0.0,6.0,6
+lectura: respuesta de confesión,response:confession_naming,es,1990,0.25,0.0,0.5,2.0,2
+lectura: respuesta de confesión,response:confession_naming,es,2000,0.2857142857142857,0.0,0.6666666666666666,3.5,4
+lectura: respuesta de confesión,response:confession_naming,es,2010,0.0,0.0,0.0,3.5,4
+lectura: respuesta de confesión,response:confession_naming,es,2020,0.125,0.0,0.25,4.0,4
+lectura: respuesta de enfrentar/decidir,agentic,both,1980,0.23333333333333334,0.06666666666666667,0.4166666666666667,13.5,14
+lectura: respuesta de enfrentar/decidir,agentic,both,1990,0.3269230769230769,0.0,0.6428571428571428,8.5,9
+lectura: respuesta de enfrentar/decidir,agentic,both,2000,0.5079365079365079,0.2222222222222222,0.7619047619047619,12.5,13
+lectura: respuesta de enfrentar/decidir,agentic,both,2010,0.5630252100840336,0.3210714285714287,0.7906845238095227,12.0,13
+lectura: respuesta de enfrentar/decidir,agentic,both,2020,0.5125,0.1875,0.775,6.5,7
+lectura: respuesta de enfrentar/decidir,agentic,en,1980,0.13333333333333333,0.0,0.375,7.5,8
+lectura: respuesta de enfrentar/decidir,agentic,en,1990,0.15384615384615385,0.0,0.42857142857142855,6.5,7
+lectura: respuesta de enfrentar/decidir,agentic,en,2000,0.4444444444444444,0.2222222222222222,0.6666666666666666,9.0,9
+lectura: respuesta de enfrentar/decidir,agentic,en,2010,0.4117647058823529,0.17647058823529413,0.6666666666666666,8.5,9
+lectura: respuesta de enfrentar/decidir,agentic,en,2020,0.4,0.0,0.8,2.5,3
+lectura: respuesta de enfrentar/decidir,agentic,es,1980,0.3333333333333333,0.0,0.6666666666666666,6.0,6
+lectura: respuesta de enfrentar/decidir,agentic,es,1990,0.5,0.0,1.0,2.0,2
+lectura: respuesta de enfrentar/decidir,agentic,es,2000,0.5714285714285714,0.0,1.0,3.5,4
+lectura: respuesta de enfrentar/decidir,agentic,es,2010,0.7142857142857143,0.32916666666666805,1.0,3.5,4
+lectura: respuesta de enfrentar/decidir,agentic,es,2020,0.625,0.25,1.0,4.0,4
+lectura: respuesta de huir/someterse,passive,both,1980,0.29166666666666663,0.11309523809523808,0.49404761904761907,13.5,14
+lectura: respuesta de huir/someterse,passive,both,1990,0.23076923076923078,0.07692307692307693,0.38461538461538464,8.5,9
+lectura: respuesta de huir/someterse,passive,both,2000,0.18253968253968253,0.05555555555555555,0.38888888888888884,12.5,13
+lectura: respuesta de huir/someterse,passive,both,2010,0.31932773109243695,0.1,0.5555555555555556,12.0,13
+lectura: respuesta de huir/someterse,passive,both,2020,0.0625,0.0,0.1875,6.5,7
+lectura: respuesta de huir/someterse,passive,en,1980,0.3333333333333333,0.06666666666666667,0.6,7.5,8
+lectura: respuesta de huir/someterse,passive,en,1990,0.46153846153846156,0.15384615384615385,0.7692307692307693,6.5,7
+lectura: respuesta de huir/someterse,passive,en,2000,0.2222222222222222,0.0,0.4444444444444444,9.0,9
+lectura: respuesta de huir/someterse,passive,en,2010,0.35294117647058826,0.125,0.5882352941176471,8.5,9
+lectura: respuesta de huir/someterse,passive,en,2020,0.0,0.0,0.0,2.5,3
+lectura: respuesta de huir/someterse,passive,es,1980,0.25,0.0,0.5,6.0,6
+lectura: respuesta de huir/someterse,passive,es,1990,0.0,0.0,0.0,2.0,2
+lectura: respuesta de huir/someterse,passive,es,2000,0.14285714285714285,0.0,0.3333333333333333,3.5,4
+lectura: respuesta de huir/someterse,passive,es,2010,0.2857142857142857,0.0,0.6708333333333105,3.5,4
+lectura: respuesta de huir/someterse,passive,es,2020,0.125,0.0,0.25,4.0,4
+eje: interiorización (bloques de miedo),interiorizacion_fear,both,1980,-0.6786653311551903,-1.0108289152861547,-0.33760451939041125,13.5,14
+eje: interiorización (bloques de miedo),interiorizacion_fear,both,1990,-0.4408665225380656,-1.056047365888272,0.178842171161182,8.5,9
+eje: interiorización (bloques de miedo),interiorizacion_fear,both,2000,0.39438295638726184,0.09025303599922921,0.7083898992010053,12.5,13
+eje: interiorización (bloques de miedo),interiorizacion_fear,both,2010,-0.10232465935530521,-0.437935765170973,0.19682716033796052,12.0,13
+eje: interiorización (bloques de miedo),interiorizacion_fear,both,2020,0.4487712962300805,0.005966446863605327,0.9068526514527291,6.5,7
+eje: interiorización (bloques de miedo),interiorizacion_fear,en,1980,-0.6436018073041024,-1.0975713752214127,-0.14286019415288653,7.5,8
+eje: interiorización (bloques de miedo),interiorizacion_fear,en,1990,-0.07222645206219375,-0.6354873380534409,0.5232620350731807,6.5,7
+eje: interiorización (bloques de miedo),interiorizacion_fear,en,2000,0.6725803753699588,0.2594535256842658,1.166221908993276,9.0,9
+eje: interiorización (bloques de miedo),interiorizacion_fear,en,2010,-0.2403624038620114,-0.6853261055351003,0.13523490933778856,8.5,9
+eje: interiorización (bloques de miedo),interiorizacion_fear,en,2020,0.30272215555856336,-0.11177801628608652,0.7172223274032132,2.5,3
+eje: interiorización (bloques de miedo),interiorizacion_fear,es,1980,-0.7137288550062783,-1.1625714275569077,-0.2221845391968615,6.0,6
+eje: interiorización (bloques de miedo),interiorizacion_fear,es,1990,-0.8095065930139373,-1.7540466711804288,0.13503348515255417,2.0,2
+eje: interiorización (bloques de miedo),interiorizacion_fear,es,2000,0.1161855374045648,-0.2489259288549164,0.5994756426199306,3.5,4
+eje: interiorización (bloques de miedo),interiorizacion_fear,es,2010,0.035713085151400994,-0.48711660731060585,0.4953450535798225,3.5,4
+eje: interiorización (bloques de miedo),interiorizacion_fear,es,2020,0.5948204369015976,-0.14718441123316547,1.3509467100019958,4.0,4
+eje: agencia (toda la letra),agencia_all,both,1980,-0.11960219153733297,-0.3552899068837605,0.11224225249857776,13.5,14
+eje: agencia (toda la letra),agencia_all,both,1990,-0.4199362178327719,-0.9985140022800665,0.15899205590132193,8.5,9
+eje: agencia (toda la letra),agencia_all,both,2000,-0.036566949254989115,-0.3044878979940484,0.2556291960109825,12.5,13
+eje: agencia (toda la letra),agencia_all,both,2010,-0.16869433151241559,-0.4019424294354133,0.11764774981753522,12.0,13
+eje: agencia (toda la letra),agencia_all,both,2020,0.20468192062714488,-0.18255153409162156,0.5678008238053405,6.5,7
+eje: agencia (toda la letra),agencia_all,en,1980,-0.030736049531207617,-0.4893926635454849,0.4119645377481872,7.5,8
+eje: agencia (toda la letra),agencia_all,en,1990,-0.5085674129572199,-0.8680182378578795,-0.19522442921079977,6.5,7
+eje: agencia (toda la letra),agencia_all,en,2000,-0.2504600592835914,-0.6348087772483116,0.12800834952510545,9.0,9
+eje: agencia (toda la letra),agencia_all,en,2010,0.2886763440073157,-0.07958902072222136,0.6516996325072676,8.5,9
+eje: agencia (toda la letra),agencia_all,en,2020,0.34250056890855507,-0.1736565801383943,0.8586577179555045,2.5,3
+eje: agencia (toda la letra),agencia_all,es,1980,-0.2084683335434583,-0.2859850737887036,-0.1412861355286306,6.0,6
+eje: agencia (toda la letra),agencia_all,es,1990,-0.331305022708324,-1.309998231293137,0.647388185876489,2.0,2
+eje: agencia (toda la letra),agencia_all,es,2000,0.17732616077361316,-0.16560758089191632,0.6229741909184038,3.5,4
+eje: agencia (toda la letra),agencia_all,es,2010,-0.6260650070321468,-0.9150681362353505,-0.18185499942949548,3.5,4
+eje: agencia (toda la letra),agencia_all,es,2020,0.06686327234573468,-0.25690156730658775,0.3906281119980571,4.0,4
+eje: colectividad (bloques de miedo),colectividad_fear,both,1980,0.2731767460203024,-0.01781742381145869,0.5678796064811404,13.5,14
+eje: colectividad (bloques de miedo),colectividad_fear,both,1990,0.056373518957223936,-0.47854766653668246,0.5912947044511303,8.5,9
+eje: colectividad (bloques de miedo),colectividad_fear,both,2000,-0.24057858132482432,-0.5404320329781197,0.08507572189183917,12.5,13
+eje: colectividad (bloques de miedo),colectividad_fear,both,2010,0.0778661635876956,-0.2349143372149043,0.4213488102519816,12.0,13
+eje: colectividad (bloques de miedo),colectividad_fear,both,2020,-0.23052042549870694,-0.5970404053517484,0.13276533069476676,6.5,7
+eje: colectividad (bloques de miedo),colectividad_fear,en,1980,0.3248814457491449,-0.1222176427079977,0.7731479615490233,7.5,8
+eje: colectividad (bloques de miedo),colectividad_fear,en,1990,0.19853302227783073,-0.34433310284231927,0.8498913575206699,6.5,7
+eje: colectividad (bloques de miedo),colectividad_fear,en,2000,-0.41281463966905896,-0.9448495670163425,0.10025874432071034,9.0,9
+eje: colectividad (bloques de miedo),colectividad_fear,en,2010,0.47629207987733935,0.07972964073135977,0.8858394896708244,8.5,9
+eje: colectividad (bloques de miedo),colectividad_fear,en,2020,-0.2496451646460726,-0.41522229730393034,-0.12677270354976983,2.5,3
+eje: colectividad (bloques de miedo),colectividad_fear,es,1980,0.22147204629145992,-0.1823749865987677,0.5726036154704006,6.0,6
+eje: colectividad (bloques de miedo),colectividad_fear,es,1990,-0.08578598436338286,-0.836515884710855,0.6649439159840893,2.0,2
+eje: colectividad (bloques de miedo),colectividad_fear,es,2000,-0.06834252298058968,-0.40346533040825705,0.29821236667342793,3.5,4
+eje: colectividad (bloques de miedo),colectividad_fear,es,2010,-0.32055975270194814,-0.8734986705028965,0.2500883450423121,3.5,4
+eje: colectividad (bloques de miedo),colectividad_fear,es,2020,-0.21139568635134132,-0.8280316322802567,0.40524025957757404,4.0,4
+arco: giro a la agencia,arc_shape:turn_to_agency,both,1980,0.03333333333333333,0.0,0.09375,13.5,14
+arco: giro a la agencia,arc_shape:turn_to_agency,both,1990,0.0,0.0,0.0,8.5,9
+arco: giro a la agencia,arc_shape:turn_to_agency,both,2000,0.369047619047619,0.1111111111111111,0.5833333333333334,12.5,13
+arco: giro a la agencia,arc_shape:turn_to_agency,both,2010,0.41596638655462187,0.1875,0.6176470588235294,12.0,13
+arco: giro a la agencia,arc_shape:turn_to_agency,both,2020,0.225,0.0,0.5,6.5,7
+arco: giro a la agencia,arc_shape:turn_to_agency,en,1980,0.06666666666666667,0.0,0.1875,7.5,8
+arco: giro a la agencia,arc_shape:turn_to_agency,en,1990,0.0,0.0,0.0,6.5,7
+arco: giro a la agencia,arc_shape:turn_to_agency,en,2000,0.16666666666666666,0.0,0.3888888888888889,9.0,9
+arco: giro a la agencia,arc_shape:turn_to_agency,en,2010,0.11764705882352941,0.0,0.3333333333333333,8.5,9
+arco: giro a la agencia,arc_shape:turn_to_agency,en,2020,0.2,0.0,0.5,2.5,3
+arco: giro a la agencia,arc_shape:turn_to_agency,es,1980,0.0,0.0,0.0,6.0,6
+arco: giro a la agencia,arc_shape:turn_to_agency,es,1990,0.0,0.0,0.0,2.0,2
+arco: giro a la agencia,arc_shape:turn_to_agency,es,2000,0.5714285714285714,0.0,1.0,3.5,4
+arco: giro a la agencia,arc_shape:turn_to_agency,es,2010,0.7142857142857143,0.32916666666666805,1.0,3.5,4
+arco: giro a la agencia,arc_shape:turn_to_agency,es,2020,0.25,0.0,0.5,4.0,4
+arco: escalada,arc_shape:escalation,both,1980,0.3333333333333333,0.14285714285714285,0.55,13.5,14
+arco: escalada,arc_shape:escalation,both,1990,0.3269230769230769,0.0,0.6428571428571428,8.5,9
+arco: escalada,arc_shape:escalation,both,2000,0.30952380952380953,0.1111111111111111,0.5416666666666666,12.5,13
+arco: escalada,arc_shape:escalation,both,2010,0.058823529411764705,0.0,0.16666666666666666,12.0,13
+arco: escalada,arc_shape:escalation,both,2020,0.1,0.0,0.2,6.5,7
+arco: escalada,arc_shape:escalation,en,1980,0.3333333333333333,0.07692307692307693,0.6,7.5,8
+arco: escalada,arc_shape:escalation,en,1990,0.15384615384615385,0.0,0.42857142857142855,6.5,7
+arco: escalada,arc_shape:escalation,en,2000,0.3333333333333333,0.1111111111111111,0.5555555555555556,9.0,9
+arco: escalada,arc_shape:escalation,en,2010,0.11764705882352941,0.0,0.3333333333333333,8.5,9
+arco: escalada,arc_shape:escalation,en,2020,0.2,0.0,0.4,2.5,3
+arco: escalada,arc_shape:escalation,es,1980,0.3333333333333333,0.0,0.6666666666666666,6.0,6
+arco: escalada,arc_shape:escalation,es,1990,0.5,0.0,1.0,2.0,2
+arco: escalada,arc_shape:escalation,es,2000,0.2857142857142857,0.0,0.6666666666666666,3.5,4
+arco: escalada,arc_shape:escalation,es,2010,0.0,0.0,0.0,3.5,4
+arco: escalada,arc_shape:escalation,es,2020,0.0,0.0,0.0,4.0,4
+arco: bucle,arc_shape:loop,both,1980,0.48333333333333334,0.28125,0.6770833333333333,13.5,14
+arco: bucle,arc_shape:loop,both,1990,0.3076923076923077,0.16666666666666666,0.42857142857142855,8.5,9
+arco: bucle,arc_shape:loop,both,2000,0.3214285714285714,0.16666666666666666,0.5277777777777778,12.5,13
+arco: bucle,arc_shape:loop,both,2010,0.29411764705882354,0.16666666666666666,0.4166666666666667,12.0,13
+arco: bucle,arc_shape:loop,both,2020,0.3,0.125,0.4166666666666667,6.5,7
+arco: bucle,arc_shape:loop,en,1980,0.4666666666666667,0.25,0.6875,7.5,8
+arco: bucle,arc_shape:loop,en,1990,0.6153846153846154,0.3076923076923077,0.8571428571428571,6.5,7
+arco: bucle,arc_shape:loop,en,2000,0.5,0.2777777777777778,0.7222222222222222,9.0,9
+arco: bucle,arc_shape:loop,en,2010,0.5882352941176471,0.3333333333333333,0.8333333333333334,8.5,9
+arco: bucle,arc_shape:loop,en,2020,0.6,0.25,0.8333333333333334,2.5,3
+arco: bucle,arc_shape:loop,es,1980,0.5,0.16666666666666666,0.8333333333333334,6.0,6
+arco: bucle,arc_shape:loop,es,1990,0.0,0.0,0.0,2.0,2
+arco: bucle,arc_shape:loop,es,2000,0.14285714285714285,0.0,0.3333333333333333,3.5,4
+arco: bucle,arc_shape:loop,es,2010,0.0,0.0,0.0,3.5,4
+arco: bucle,arc_shape:loop,es,2020,0.0,0.0,0.0,4.0,4
+arco: episodio,arc_shape:episodic,both,1980,0.0,0.0,0.0,13.5,14
+arco: episodio,arc_shape:episodic,both,1990,0.25,0.0,0.5,8.5,9
+arco: episodio,arc_shape:episodic,both,2000,0.0,0.0,0.0,12.5,13
+arco: episodio,arc_shape:episodic,both,2010,0.14285714285714285,0.0,0.3333333333333333,12.0,13
+arco: episodio,arc_shape:episodic,both,2020,0.375,0.25,0.5,6.5,7
+arco: episodio,arc_shape:episodic,en,1980,0.0,0.0,0.0,7.5,8
+arco: episodio,arc_shape:episodic,en,1990,0.0,0.0,0.0,6.5,7
+arco: episodio,arc_shape:episodic,en,2000,0.0,0.0,0.0,9.0,9
+arco: episodio,arc_shape:episodic,en,2010,0.0,0.0,0.0,8.5,9
+arco: episodio,arc_shape:episodic,en,2020,0.0,0.0,0.0,2.5,3
+arco: episodio,arc_shape:episodic,es,1980,0.0,0.0,0.0,6.0,6
+arco: episodio,arc_shape:episodic,es,1990,0.5,0.0,1.0,2.0,2
+arco: episodio,arc_shape:episodic,es,2000,0.0,0.0,0.0,3.5,4
+arco: episodio,arc_shape:episodic,es,2010,0.2857142857142857,0.0,0.6708333333333105,3.5,4
+arco: episodio,arc_shape:episodic,es,2020,0.75,0.5,1.0,4.0,4
+voz: teme quien canta (yo o nosotros),first_person,both,1980,0.4,0.18333333333333335,0.6190476190476191,13.5,14
+voz: teme quien canta (yo o nosotros),first_person,both,1990,0.6730769230769231,0.35714285714285715,1.0,8.5,9
+voz: teme quien canta (yo o nosotros),first_person,both,2000,0.7738095238095238,0.5436507936507936,0.9722222222222222,12.5,13
+voz: teme quien canta (yo o nosotros),first_person,both,2010,1.0,1.0,1.0,12.0,13
+voz: teme quien canta (yo o nosotros),first_person,both,2020,0.675,0.375,1.0,6.5,7
+voz: teme quien canta (yo o nosotros),first_person,en,1980,0.4666666666666667,0.2,0.75,7.5,8
+voz: teme quien canta (yo o nosotros),first_person,en,1990,0.8461538461538461,0.5714285714285714,1.0,6.5,7
+voz: teme quien canta (yo o nosotros),first_person,en,2000,0.8333333333333334,0.6666666666666666,1.0,9.0,9
+voz: teme quien canta (yo o nosotros),first_person,en,2010,1.0,1.0,1.0,8.5,9
+voz: teme quien canta (yo o nosotros),first_person,en,2020,0.6,0.2,1.0,2.5,3
+voz: teme quien canta (yo o nosotros),first_person,es,1980,0.3333333333333333,0.0,0.6666666666666666,6.0,6
+voz: teme quien canta (yo o nosotros),first_person,es,1990,0.5,0.0,1.0,2.0,2
+voz: teme quien canta (yo o nosotros),first_person,es,2000,0.7142857142857143,0.25,1.0,3.5,4
+voz: teme quien canta (yo o nosotros),first_person,es,2010,1.0,1.0,1.0,3.5,4
+voz: teme quien canta (yo o nosotros),first_person,es,2020,0.75,0.25,1.0,4.0,4
+voz: teme quien canta (yo),who_fears:speaker,both,1980,0.3333333333333333,0.125,0.55,13.5,14
+voz: teme quien canta (yo),who_fears:speaker,both,1990,0.5961538461538461,0.2692307692307692,0.9230769230769231,8.5,9
+voz: teme quien canta (yo),who_fears:speaker,both,2000,0.7738095238095238,0.5436507936507936,0.9722222222222222,12.5,13
+voz: teme quien canta (yo),who_fears:speaker,both,2010,0.5798319327731092,0.3137254901960784,0.8055555555555556,12.0,13
+voz: teme quien canta (yo),who_fears:speaker,both,2020,0.675,0.375,1.0,6.5,7
+voz: teme quien canta (yo),who_fears:speaker,en,1980,0.3333333333333333,0.06666666666666667,0.6,7.5,8
+voz: teme quien canta (yo),who_fears:speaker,en,1990,0.6923076923076923,0.38461538461538464,1.0,6.5,7
+voz: teme quien canta (yo),who_fears:speaker,en,2000,0.8333333333333334,0.6666666666666666,1.0,9.0,9
+voz: teme quien canta (yo),who_fears:speaker,en,2010,0.5882352941176471,0.3333333333333333,0.8666666666666667,8.5,9
+voz: teme quien canta (yo),who_fears:speaker,en,2020,0.6,0.2,1.0,2.5,3
+voz: teme quien canta (yo),who_fears:speaker,es,1980,0.3333333333333333,0.0,0.6666666666666666,6.0,6
+voz: teme quien canta (yo),who_fears:speaker,es,1990,0.5,0.0,1.0,2.0,2
+voz: teme quien canta (yo),who_fears:speaker,es,2000,0.7142857142857143,0.25,1.0,3.5,4
+voz: teme quien canta (yo),who_fears:speaker,es,2010,0.5714285714285714,0.0,1.0,3.5,4
+voz: teme quien canta (yo),who_fears:speaker,es,2020,0.75,0.25,1.0,4.0,4

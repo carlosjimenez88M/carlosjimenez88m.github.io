@@ -1,0 +1,123 @@
+{
+  "mode": "execute",
+  "task": "matched_original_synthetic_relationship_judgments",
+  "models": {
+    "openai/gpt-5.4-mini": {
+      "provider": "openai",
+      "api_id": "gpt-5.4-mini",
+      "rates": [
+        0.75,
+        4.5
+      ],
+      "source": "https://developers.openai.com/api/docs/models/gpt-5.4-mini"
+    },
+    "openai/gpt-5.4-nano": {
+      "provider": "openai",
+      "api_id": "gpt-5.4-nano",
+      "rates": [
+        0.2,
+        1.25
+      ],
+      "source": "https://developers.openai.com/api/docs/models/gpt-5.4-nano",
+      "lifecycle": "Official docs mark deprecated; metadata GET returned 200 on 2026-10-11."
+    },
+    "anthropic/claude-sonnet-4-6": {
+      "provider": "anthropic",
+      "api_id": "claude-sonnet-4-6",
+      "rates": [
+        3.0,
+        15.0
+      ],
+      "source": "https://platform.claude.com/docs/en/models/sonnet-4-6/overview"
+    },
+    "anthropic/claude-haiku-4-5-20251001": {
+      "provider": "anthropic",
+      "api_id": "claude-haiku-4-5-20251001",
+      "rates": [
+        1.0,
+        5.0
+      ],
+      "source": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+      "lifecycle": "Active legacy; metadata GET returned 200 on 2026-10-11."
+    }
+  },
+  "triplets": 20,
+  "planned_rows": 80,
+  "prompt_sha256": "8415249f2f6e626f87713af327c32a18997170b4dca5a272b38d265ecbbec0bb",
+  "prompt_version": "requested-support-v1-20261011",
+  "input_identity": "22a789df6497ab6d735f5f4d7d4b2f4ba22ba0a0a9500a9289d3894f09b4cee1",
+  "max_output_tokens": 400,
+  "temperature": 0,
+  "provider_controls": "Identical textual system/user content; OpenAI adds strict output schema, Anthropic JSON follows prompt. No web/tools or extended thinking.",
+  "core_constraints": [
+    {
+      "probe_id": "negation_en",
+      "field": "relationship_ab",
+      "allowed_labels": [
+        "contradiction"
+      ]
+    },
+    {
+      "probe_id": "negation_es",
+      "field": "relationship_ab",
+      "allowed_labels": [
+        "contradiction"
+      ]
+    },
+    {
+      "probe_id": "role_en",
+      "field": "relationship_ab",
+      "allowed_labels": [
+        "role_reversal"
+      ]
+    },
+    {
+      "probe_id": "role_es",
+      "field": "relationship_ab",
+      "allowed_labels": [
+        "role_reversal"
+      ]
+    },
+    {
+      "probe_id": "translation_en_es",
+      "field": "relationship_ab",
+      "allowed_labels": [
+        "equivalent"
+      ]
+    },
+    {
+      "probe_id": "translation_es_en",
+      "field": "relationship_ab",
+      "allowed_labels": [
+        "equivalent"
+      ]
+    },
+    {
+      "probe_id": "translation_en_es",
+      "field": "relationship_ac",
+      "allowed_labels": [
+        "related_not_equivalent",
+        "unrelated"
+      ]
+    },
+    {
+      "probe_id": "translation_es_en",
+      "field": "relationship_ac",
+      "allowed_labels": [
+        "related_not_equivalent",
+        "unrelated"
+      ]
+    },
+    {
+      "probe_id": "order_en",
+      "field": "relationship_ac",
+      "allowed_labels": [
+        "order_reversal"
+      ]
+    }
+  ],
+  "constraint_provenance": "Assistant-defined diagnostic subset informed by earlier Sonnet pilot, frozen before new model execution; not independent human gold.",
+  "budget": "Shared existing .80 LLM ledger; all previous pilot costs retained; other phases reserved separately under user total USD1.",
+  "privacy": "Original synthetic sentences only, no lyrics/corpus-derived text to any provider. Raw model text private; labels/IDs/usage public.",
+  "scope": "Compare only the same task/input across models. Do not average this with retrieval, lyric sufficiency or embedding tests."
+}

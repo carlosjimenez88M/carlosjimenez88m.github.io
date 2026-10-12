@@ -1,0 +1,143 @@
+{
+  "review": [
+    {
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "requested": 24,
+      "valid_reviews": 24,
+      "status_counts": {
+        "executed": 24
+      },
+      "positive_queries": 16,
+      "negative_queries": 8,
+      "positive_abstentions": 8,
+      "positive_complete_contexts": 8,
+      "complete_context_abstentions": 1,
+      "positive_incomplete_contexts": 8,
+      "incomplete_context_abstentions": 7,
+      "negative_safe_abstentions": 8,
+      "invalid_citation_reviews": 0,
+      "accounted_usd": 0.020694,
+      "limitation": "Comparison to assistant provisional absence/support annotations; not human gold, factual accuracy or independent model validation."
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "requested": 0,
+      "valid_reviews": 0,
+      "status_counts": {},
+      "positive_queries": 0,
+      "negative_queries": 0,
+      "positive_abstentions": 0,
+      "positive_complete_contexts": 0,
+      "complete_context_abstentions": 0,
+      "positive_incomplete_contexts": 0,
+      "incomplete_context_abstentions": 0,
+      "negative_safe_abstentions": 0,
+      "invalid_citation_reviews": 0,
+      "accounted_usd": 0,
+      "limitation": "Comparison to assistant provisional absence/support annotations; not human gold, factual accuracy or independent model validation."
+    }
+  ],
+  "anthropic": {
+    "requested": 20,
+    "status_counts": {
+      "executed": 20
+    },
+    "categories": {
+      "negation": 2,
+      "role_reversal": 2,
+      "crosslingual": 2,
+      "fear_context": 2,
+      "repetition": 2,
+      "paraphrase": 2,
+      "polarity_context": 2,
+      "motive_context": 2,
+      "experiencer": 2,
+      "narrative_order": 1,
+      "long_ending": 1
+    },
+    "accounted_usd": 0.037316999999999996,
+    "scope": "Original synthetic text only; relationship judgments, not embeddings or lyric analysis."
+  },
+  "budget": {
+    "phase_ceiling_usd": 0.8,
+    "accounted_or_reserved_usd": 0.08793825,
+    "settled_usd": 0.08793825,
+    "unknown_outcomes": 0,
+    "requests": 75
+  },
+  "protocol": {
+    "mode": "execute",
+    "lyric_review_queries": 24,
+    "lyric_review_families": 12,
+    "selected_retrieval": "MiniLM hybrid rewrite enabled, neighbors disabled",
+    "synthetic_anthropic_probes": 20,
+    "models": {
+      "openai": "gpt-5.4-mini",
+      "gemini": "gemini-3.8-flash",
+      "anthropic": "claude-sonnet-4-6"
+    },
+    "rates_per_million": {
+      "openai": [
+        0.75,
+        4.5
+      ],
+      "gemini": [
+        0.75,
+        3.75
+      ],
+      "anthropic": [
+        3.0,
+        15.0
+      ]
+    },
+    "max_output_tokens": 400,
+    "phase_ceiling_usd": 0.8,
+    "user_total_ceiling_usd": 1.0,
+    "sources": {
+      "openai": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+      "gemini": "https://ai.google.dev/gemini-api/docs/pricing",
+      "anthropic": "https://platform.claude.com/docs/en/models/sonnet-4-6/overview"
+    },
+    "prompt_version": "requested-support-v1-20261011",
+    "prompt_sha256": "217a62a32f4e4669d17b334d0ebd426582316c6bc6f1ce79dfc6e232b79fccad",
+    "active_providers": [
+      "openai",
+      "anthropic"
+    ],
+    "gemini_inference_status": "canceled_by_latest_user_scope",
+    "evaluation_scope": "Posthoc support review of frozen test contexts; assistant labels only. Empty gated contexts remain empty for both providers.",
+    "privacy": "Only OpenAI receives private context blocks in this run. Gemini inference canceled. Anthropic receives original synthetic sentences only. Public whitelist excludes all model-written claims, uncertainty text and lyric content."
+  },
+  "topic_labels": {
+    "status": "executed",
+    "prompt_version": "topic-interpretation-v1-20261011",
+    "prompt_sha256": "765769428f2ded8475ab0585af78574145d83923291627ab65755a0559a6306f",
+    "source_models": [
+      "openai/text-embedding-3-large",
+      "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+    ],
+    "labeler_model": "gpt-5.4-mini",
+    "requested": 30,
+    "exported_labels": 30,
+    "format_repair_requests": 1,
+    "published_label_word_bounds": [
+      2,
+      6
+    ],
+    "original_prompt_word_bounds": [
+      3,
+      6
+    ],
+    "editorial_format_revision": "After one failed format repair, two-word labels were permitted. Semantic, citation and five-word lyric-overlap checks are unchanged. No extra requests for this revision.",
+    "status_counts": {
+      "llm_hypothesis_unvalidated": 30
+    },
+    "stage_ceiling_usd": 0.04,
+    "accounted_or_reserved_usd": 0.02992725,
+    "selection": "At most 3 nearest-centroid blocks from distinct songs per frozen seed-17 non-noise cluster. Maximum 100 words per block.",
+    "privacy": "Private representative text and raw model output; public original labels screened for five-word lyric overlap.",
+    "limitation": "Postfit LLM proposals based on sampled representatives. Not human validation, calibrated confidence, complete cluster coverage, emotion gold or discovered new subtopics."
+  }
+}

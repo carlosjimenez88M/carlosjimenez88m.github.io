@@ -1,0 +1,11 @@
+{
+  "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "requested_revision": null,
+  "resolved_commit": null,
+  "max_seq_length": 128,
+  "normalization": "L2, cosine similarity",
+  "device": "cpu",
+  "passage_prefix": "",
+  "prototype_prefix": "",
+  "revision_pinned": false
+}

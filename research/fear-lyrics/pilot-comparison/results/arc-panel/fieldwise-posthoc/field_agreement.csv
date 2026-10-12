@@ -1,0 +1,7 @@
+field,songs,initial_votes,valid_initial_enum_votes,initial_agree_songs,majority_resolved_songs,unresolved_songs,validity
+voice,40,80,80,30,37,3,Field type/enum only;not semantic correctness
+stance,40,80,80,19,28,12,Field type/enum only;not semantic correctness
+fear_relevance,40,80,80,20,33,7,Field type/enum only;not semantic correctness
+fear_polarity,40,80,80,19,27,13,Field type/enum only;not semantic correctness
+subtopics,40,80,80,10,35,5,Field type/enum only;not semantic correctness
+arc,40,80,48,7,14,26,Whole strict chronology/anchor schema

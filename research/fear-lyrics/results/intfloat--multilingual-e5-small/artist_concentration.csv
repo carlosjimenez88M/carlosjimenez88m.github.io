@@ -1,0 +1,3 @@
+topic_id,artist_hhi,largest_artist,largest_artist_share,contributing_artists,total_song_normalized_mass,limitation
+0,0.06131933701967967,billie eilish,0.10480084175701072,18,19.083816183816182,"Artist concentration within this selected corpus, not generalization."
+1,0.06437768086806551,mecano,0.09561973721289004,22,20.916183816183818,"Artist concentration within this selected corpus, not generalization."

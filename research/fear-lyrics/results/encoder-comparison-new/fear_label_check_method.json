@@ -1,0 +1,27 @@
+{
+  "annotation_sha256": "6ebce0f1a846770b251de09913034bd0fbb40d081702500a5401280ad94effe7",
+  "annotation_scope": "Existing fieldwise posthoc automatic panel on the same 40 songs",
+  "fear_positive_queries": 23,
+  "fear_resolved_queries": 33,
+  "fear_conditioned_subtopic_resolved_queries": 22,
+  "excluded_unresolved_fear": 7,
+  "candidate_policy": "Rank all 19 other same-language songs; retain first five; mask unresolved labels afterward, not before retrieval",
+  "uniform_reference": "For each query: resolved matching candidates / all resolved candidates within its 19 same-language alternatives. Weight this probability by that query's retained labeled edges.",
+  "aggregation": "Micro-average directed labeled edges, not an equal per-query mean; repeated destinations and shared query songs are dependent",
+  "primary_k": 5,
+  "metrics": [
+    "fear_binary_agreement",
+    "fear_neighbors_of_fear_queries",
+    "fear_conditioned_subtopic_intersection"
+  ],
+  "binary_collapse": "explicit or implied = fear reference; absent = no supported fear reference; unresolved omitted",
+  "subtopic_match": "At least one intersecting fear-conditioned consensus subtopic; both endpoints require a supported fear reference and resolved subtopics",
+  "limitations": [
+    "Automatic correlated reader labels are not independent semantic truth or accuracy gold",
+    "Definitions and missing-label masks change the estimand and denominators",
+    "Frequent uncertainty_change can raise intersection even when narrative role differs",
+    "This is descriptive agreement with this candidate cohort; no population inference or p-value",
+    "The original full-dimensional centroid retrieval omits narrative order and speaker roles"
+  ],
+  "api_calls": 0
+}

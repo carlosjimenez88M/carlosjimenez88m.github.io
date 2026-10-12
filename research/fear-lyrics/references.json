@@ -1,0 +1,4145 @@
+{
+  "study_cutoff": "2026-10-11",
+  "scope": "Corpus release, chart/certification and author-context sources; technical research bibliography is separate.",
+  "sources": [
+    {
+      "url": "https://www.michaeljackson.com/albums/thriller/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1982-60e7787d2b2d"
+      ],
+      "authority": "Official Michael Jackson catalogue",
+      "authority_type": "artist_catalogue",
+      "descriptive_label": "Official Michael Jackson catalogue: Michael Jackson — Thriller",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1982
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/michael-jackson-thriller/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1982-60e7787d2b2d"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Michael Jackson — Thriller",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://dbrecords.co.uk/files/assets/uploads/2019/11/DB-Discography-Singles.pdf",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1982-fc0d5bdf6fc1"
+      ],
+      "authority": "David Bates / DB Records",
+      "authority_type": "primary_ar_discography_archive",
+      "descriptive_label": "David Bates / DB Records: Tears for Fears — Mad World",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1982
+      ],
+      "release_dates_recorded_in_manifest": [
+        "1982-09-20"
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/tears-for-fears-mad-world/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1982-fc0d5bdf6fc1"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Tears for Fears — Mad World",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/cd/song/1278579752",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1983-753cd2a7d41b"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Rockwell — Somebody's Watching Me",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1983
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/rockwell-somebodys-watching-me/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1983-753cd2a7d41b"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Rockwell — Somebody's Watching Me",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=R14lGgHgVJM",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1984-8b16c1dac4a9"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Wham! — Wake Me Up Before You Go-Go",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1984
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/wham-wake-me-up-before-you-go-go/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1984-8b16c1dac4a9"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Wham! — Wake Me Up Before You Go-Go",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://los40.com/los40/2019/02/26/los40classic/1551195323_179202.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata",
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1987-b3350477e063"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Duncan Dhu — En algún lugar",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1987
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2022/03/23/los40classic/1648050931_474943.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "author_context_or_interpretation"
+      ],
+      "song_ids": [
+        "s1987-b3350477e063"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Duncan Dhu — En algún lugar",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=sIIEP6pVACA",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1986-e6cc85a542a7"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Mecano — Hijo de la Luna",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1986
+      ]
+    },
+    {
+      "url": "https://www.top40.nl/mecano/mecano-hijo-de-la-luna-3154",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1986-e6cc85a542a7"
+      ],
+      "authority": "Stichting Nederlandse Top 40",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Stichting Nederlandse Top 40: Mecano — Hijo de la Luna",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=c_ivHFrF8XQ",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1986-9726c0e33862"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Mecano — Cruz de Navajas",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1986
+      ]
+    },
+    {
+      "url": "https://los40.com/2026/06/21/cuarenta-anos-de-entre-el-cielo-y-el-suelo-el-disco-que-convirtio-a-mecano-en-algo-mucho-mas-grande-que-un-fenomeno-juvenil/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1986-9726c0e33862"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Mecano — Cruz de Navajas",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.rtve.es/play/videos/aplauso/alaska-pegamoides-tocan-bailando-aplauso-1982/638218/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1982-273644e36995"
+      ],
+      "authority": "RTVE broadcast archive",
+      "authority_type": "contemporaneous_performance_archive",
+      "descriptive_label": "RTVE broadcast archive: Alaska y los Pegamoides — Bailando",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1982
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2016/08/30/musica/1472536956_844781.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1982-273644e36995"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Alaska y los Pegamoides — Bailando",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.metallica.com/releases/singles/?page=2",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1991-d25354f1d8f0"
+      ],
+      "authority": "Metallica",
+      "authority_type": "artist_catalogue",
+      "descriptive_label": "Metallica: Metallica — Enter Sandman",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1991
+      ],
+      "release_dates_recorded_in_manifest": [
+        "1991-07-29"
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/metallica-enter-sandman/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1991-d25354f1d8f0"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Metallica — Enter Sandman",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://uc.cranberries.com/biography",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1994-56ff6ca6c8bb"
+      ],
+      "authority": "The Cranberries",
+      "authority_type": "artist_biography",
+      "descriptive_label": "The Cranberries: The Cranberries — Zombie",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1994
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/cranberries-zombie-0/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1994-56ff6ca6c8bb"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: The Cranberries — Zombie",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=9RfVp-GhKfs",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1992-92d3c88cd13e"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Radiohead — Creep",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1992
+      ],
+      "release_dates_recorded_in_manifest": [
+        "1992-09-21"
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/radiohead-creep/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1992-92d3c88cd13e"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Radiohead — Creep",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=tscL_I2v7pU",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1996-126a4f4bfee7"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Spice Girls — Wannabe",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1996
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/spice-girls-wannabe/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1996-126a4f4bfee7"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Spice Girls — Wannabe",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://los40.com/los40/2019/03/11/los40classic/1552305882_811331.html?outputType=amp",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata",
+        "commercial_evidence",
+        "author_context_or_interpretation"
+      ],
+      "song_ids": [
+        "s1999-e3d46788c16b"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: M-Clan — Llamando a la Tierra",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1999
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=EDkQB9b3cBw",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1990-5b29a6fedb71"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Maná — Rayando el Sol",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1990
+      ]
+    },
+    {
+      "url": "https://los40.com/2025/09/03/lady-gaga-mana-lola-indigo-y-modern-talking-despidieron-las-vacaciones-en-el-n1-de-los40/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1990-5b29a6fedb71"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Maná — Rayando el Sol",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=pjPA7CXutDw",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1993-a759a1183939"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Los Fabulosos Cadillacs — Matador",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1993
+      ]
+    },
+    {
+      "url": "https://www.worldradiohistory.com/Archive-All-Music/Billboard/90s/1995/BB-1995-06-10.pdf",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1993-a759a1183939"
+      ],
+      "authority": "Historical Billboard / Music & Media issue",
+      "authority_type": "archive_of_contemporaneous_primary_trade_press",
+      "descriptive_label": "Historical Billboard / Music & Media issue: Los Fabulosos Cadillacs — Matador",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.latercera.com/culto/2023/06/27/los-fabulosos-cadillacs-a-30-anos-de-matador-no-nos-cambio-la-vida-es-una-cancion-mas-de-las-nuestras/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "author_context_or_interpretation"
+      ],
+      "song_ids": [
+        "s1993-a759a1183939"
+      ],
+      "authority": "La Tercera, direct songwriter interview",
+      "authority_type": "author_context_interview",
+      "descriptive_label": "La Tercera, direct songwriter interview: Los Fabulosos Cadillacs — Matador",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=t8pjh1URlXs",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1998-81cadc29bda5"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Celia Cruz — La Vida Es Un Carnaval",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1998
+      ]
+    },
+    {
+      "url": "https://billboard.com.co/olga-tanon-ivy-queen-y-la-india-rinden-vibrante-tributo-a-celia-cruz-en-mujeres-latinas-en-la-musica/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1998-81cadc29bda5"
+      ],
+      "authority": "Billboard Colombia",
+      "authority_type": "music_trade_press",
+      "descriptive_label": "Billboard Colombia: Celia Cruz — La Vida Es Un Carnaval",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.rhino.com/product/hybrid-theory",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2000-a62b1066ea67"
+      ],
+      "authority": "Rhino / Warner Music",
+      "authority_type": "label_catalogue",
+      "descriptive_label": "Rhino / Warner Music: Linkin Park — Crawling",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2000
+      ],
+      "release_dates_recorded_in_manifest": [
+        "2000-10-24"
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/linkin-park-crawling/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2000-a62b1066ea67"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Linkin Park — Crawling",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=wmGjajXDHKo",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2008-4db2a4ef136d"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Rihanna — Disturbia",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2008
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/rihanna-disturbia/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2008-4db2a4ef136d"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Rihanna — Disturbia",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7u1Jj6aRIec",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2000-8ece8cb48467"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Eminem feat. Dido — Stan",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2000
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/eminem-stan/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2000-8ece8cb48467"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Eminem feat. Dido — Stan",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.officialcharts.com/chart-news/official-charts-flashback-2003-beyonce-cemented-her-solo-superstar-status-with-crazy-in-love__23361/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2003-863da31c5eaa"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Beyoncé feat. JAY-Z — Crazy In Love",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2003
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/beyonce-crazy-in-love/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2003-863da31c5eaa"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Beyoncé feat. JAY-Z — Crazy In Love",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/song/160709872",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2004-58ef65dc2ae6"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: M-Clan — Miedo",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2004
+      ]
+    },
+    {
+      "url": "https://www.ayto-launion.org/2021/08/09/la-banda-murciana-m-clan-impregna-la-union-de-rock-acustico/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2004-58ef65dc2ae6"
+      ],
+      "authority": "Ayuntamiento de La Unión",
+      "authority_type": "primary_concert_organizer_programme",
+      "descriptive_label": "Ayuntamiento de La Unión: M-Clan — Miedo",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://elpais.com/cultura/2016/04/19/actualidad/1461067862_598794.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "author_context_or_interpretation"
+      ],
+      "song_ids": [
+        "s2004-58ef65dc2ae6"
+      ],
+      "authority": "El País, direct songwriter interview",
+      "authority_type": "author_context_interview",
+      "descriptive_label": "El País, direct songwriter interview: M-Clan — Miedo",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=TmwrXCzyY5w",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2001-1b296546902b"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Diego Torres — Color Esperanza",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2001
+      ],
+      "release_dates_recorded_in_manifest": [
+        "2001-10-31"
+      ]
+    },
+    {
+      "url": "https://los40.com/2024/04/06/cuanto-dinero-ha-ganado-diego-torres-con-color-esperanza/?outputType=amp",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2001-1b296546902b"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Diego Torres — Color Esperanza",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.qobuz.com/ie-en/album/a-dios-le-pido-juanes/0060249854098",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2002-74fa275abd80"
+      ],
+      "authority": "Qobuz, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Qobuz, label-supplied metadata: Juanes — A Dios Le Pido",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2002
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2021/04/28/los40classic/1619597238_346224.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2002-74fa275abd80",
+        "s2004-641528a4ed5c"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Juanes — A Dios Le Pido",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.top40.nl/juanes/a-dios-le-pido-1170",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2002-74fa275abd80"
+      ],
+      "authority": "Stichting Nederlandse Top 40",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Stichting Nederlandse Top 40: Juanes — A Dios Le Pido",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.worldradiohistory.com/Archive-All-Music/Billboard/00s/2002/BB-2002-05-04.pdf",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "author_context_or_interpretation"
+      ],
+      "song_ids": [
+        "s2002-74fa275abd80"
+      ],
+      "authority": "Historical Billboard / Music & Media issue",
+      "authority_type": "archive_of_contemporaneous_primary_trade_press",
+      "descriptive_label": "Historical Billboard / Music & Media issue: Juanes — A Dios Le Pido",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=7fwUH0oRmkQ",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2004-641528a4ed5c"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Juanes — La Camisa Negra",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2004
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=yizkt5BubGo",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2015-c11afde63d3a"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: twenty one pilots — Stressed Out",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2015
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/twenty-one-pilots-stressed-out/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2015-c11afde63d3a"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: twenty one pilots — Stressed Out",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YFervpMG_sM",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2019-1f8fdfe5b713"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Billie Eilish — bury a friend",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2019
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/billie-eilish-bury-a-friend/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2019-1f8fdfe5b713"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Billie Eilish — bury a friend",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=J7X5rErExeU",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2014-27b61f0565ce"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Taylor Swift — Out Of The Woods",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2014
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/taylor-swift-out-of-the-woods/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2014-27b61f0565ce"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Taylor Swift — Out Of The Woods",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://sony.mediaroom.com/2013-12-17-GRAMMY-Award-Winning-Superstar-Pharrell-Williams-Signs-With-Columbia-Records",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2013-608a7aee9a18"
+      ],
+      "authority": "Columbia Records / Sony",
+      "authority_type": "contemporaneous_label_press_release",
+      "descriptive_label": "Columbia Records / Sony: Pharrell Williams — Happy",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2013
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/pharrell-happy/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2013-608a7aee9a18"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Pharrell Williams — Happy",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.sonymusic.es/eventos/rozalen-estrena-hoy-la-puerta-violeta-nuevo-adelanto-de-su-nuevo-album-cuando-el-rio-suena/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2017-2c3252eb3c12"
+      ],
+      "authority": "Sony Music España",
+      "authority_type": "label_catalogue_or_press_release",
+      "descriptive_label": "Sony Music España: Rozalén — La Puerta Violeta",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2017
+      ],
+      "release_dates_recorded_in_manifest": [
+        "2017-09-11"
+      ]
+    },
+    {
+      "url": "https://www.elportaldemusica.es/single/rozalen-la-puerta-violeta",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2017-2c3252eb3c12"
+      ],
+      "authority": "PROMUSICAE / El Portal de Música",
+      "authority_type": "primary_chart_and_certification_registry",
+      "descriptive_label": "PROMUSICAE / El Portal de Música: Rozalén — La Puerta Violeta",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.sonymusic.es/eventos/rozalen-estrena-el-videoclip-de-la-puerta-violeta-un-himno-contra-la-violencia-de-genero/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "author_context_or_interpretation"
+      ],
+      "song_ids": [
+        "s2017-2c3252eb3c12"
+      ],
+      "authority": "Sony Music España",
+      "authority_type": "label_catalogue_or_press_release",
+      "descriptive_label": "Sony Music España: Rozalén — La Puerta Violeta",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.sonymusic.es/novedad/rosalia-malamente/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2018-fff1d8ae4511"
+      ],
+      "authority": "Sony Music España",
+      "authority_type": "label_catalogue_or_press_release",
+      "descriptive_label": "Sony Music España: Rosalía — Malamente",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2018
+      ]
+    },
+    {
+      "url": "https://www.elportaldemusica.es/single/rosalia-malamente",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2018-fff1d8ae4511"
+      ],
+      "authority": "PROMUSICAE / El Portal de Música",
+      "authority_type": "primary_chart_and_certification_registry",
+      "descriptive_label": "PROMUSICAE / El Portal de Música: Rosalía — Malamente",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.sonymusic.es/lanzamientos/vivir-mi-vida-el-nuevo-single-de-marc-anthony-ya-esta-la-venta-y-se-situa-en-el-top10-en-itunes/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2013-877c19a80720"
+      ],
+      "authority": "Sony Music España",
+      "authority_type": "label_catalogue_or_press_release",
+      "descriptive_label": "Sony Music España: Marc Anthony — Vivir Mi Vida",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2013
+      ]
+    },
+    {
+      "url": "https://www.elportaldemusica.es/single/marc-anthony-vivir-mi-vida",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2013-877c19a80720"
+      ],
+      "authority": "PROMUSICAE / El Portal de Música",
+      "authority_type": "primary_chart_and_certification_registry",
+      "descriptive_label": "PROMUSICAE / El Portal de Música: Marc Anthony — Vivir Mi Vida",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=NUsoVlDFqZg",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2014-e8f5796fbb18"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Enrique Iglesias feat. Descemer Bueno, Gente de Zona — Bailando",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2014
+      ]
+    },
+    {
+      "url": "https://www.elportaldemusica.es/awards/index?Aw=&page=154&per-page=10",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2014-e8f5796fbb18"
+      ],
+      "authority": "PROMUSICAE / El Portal de Música",
+      "authority_type": "primary_chart_and_certification_registry",
+      "descriptive_label": "PROMUSICAE / El Portal de Música: Enrique Iglesias feat. Descemer Bueno, Gente de Zona — Bailando",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=fzeWc3zh01g",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2021-27c16cbb8cff"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Billie Eilish — Your Power",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2021
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/billie-eilish-your-power/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2021-27c16cbb8cff"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Billie Eilish — Your Power",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://blog.youtube/creator-and-artist-stories/taylor-swift-youtube-shorts-tsantiherochallenge/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2022-460a59f8aa02"
+      ],
+      "authority": "YouTube Music team",
+      "authority_type": "primary_distribution_launch_announcement",
+      "descriptive_label": "YouTube Music team: Taylor Swift — Anti-Hero",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2022
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/taylor-swift-anti-hero/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2022-460a59f8aa02"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Taylor Swift — Anti-Hero",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.sonymusic.ca/press_release/miley-cyrus-releases-new-single-flowers-watch-video-now",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2023-dd058a9c7e57"
+      ],
+      "authority": "Sony Music Canada",
+      "authority_type": "label_press_release",
+      "descriptive_label": "Sony Music Canada: Miley Cyrus — Flowers",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2023
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/miley-cyrus-flowers/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2023-dd058a9c7e57"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Miley Cyrus — Flowers",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/harry-styles-aperture-0/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata",
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2026-2e43c234ac58"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Harry Styles — Aperture",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2026
+      ],
+      "release_dates_recorded_in_manifest": [
+        "2026-01-23"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=ChPy6Q30b38",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2020-6f072260cb90"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Carla Morrison — Ansiedad",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2020
+      ]
+    },
+    {
+      "url": "https://open.spotify.com/track/0p8tyL3rNbptJgICX2ZVL8",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2020-6f072260cb90"
+      ],
+      "authority": "Spotify, label-supplied track metadata",
+      "authority_type": "primary_platform_metadata_and_reach",
+      "descriptive_label": "Spotify, label-supplied track metadata: Carla Morrison — Ansiedad",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=8RB9ePnlNRs",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2024-752f61769347"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Amaia — Tengo Un Pensamiento",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2024
+      ],
+      "release_dates_recorded_in_manifest": [
+        "2024-12-19"
+      ]
+    },
+    {
+      "url": "https://www.elportaldemusica.es/single/amaia-tengo-un-pensamiento",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2024-752f61769347"
+      ],
+      "authority": "PROMUSICAE / El Portal de Música",
+      "authority_type": "primary_chart_and_certification_registry",
+      "descriptive_label": "PROMUSICAE / El Portal de Música: Amaia — Tengo Un Pensamiento",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.sonymusic.es/novedad/rosalia-despecha/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2022-d221fdb58fc4"
+      ],
+      "authority": "Sony Music España",
+      "authority_type": "label_catalogue_or_press_release",
+      "descriptive_label": "Sony Music España: Rosalía — DESPECHÁ",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2022
+      ]
+    },
+    {
+      "url": "https://www.elportaldemusica.es/single/rosalia-despecha",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2022-d221fdb58fc4"
+      ],
+      "authority": "PROMUSICAE / El Portal de Música",
+      "authority_type": "primary_chart_and_certification_registry",
+      "descriptive_label": "PROMUSICAE / El Portal de Música: Rosalía — DESPECHÁ",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.sonymusic.com.pe/rosalia-despecha/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "author_context_or_interpretation"
+      ],
+      "song_ids": [
+        "s2022-d221fdb58fc4"
+      ],
+      "authority": "Sony Music Perú",
+      "authority_type": "label_press_release_with_artist_statement",
+      "descriptive_label": "Sony Music Perú: Rosalía — DESPECHÁ",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=CfcnRbYmGLs",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2021-a17cc29d59f5"
+      ],
+      "authority": "Official artist/label channel on YouTube",
+      "authority_type": "artist_or_label_supplied_distribution_metadata",
+      "descriptive_label": "Official artist/label channel on YouTube: Rigoberta Bandini — Ay Mamá",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2021
+      ],
+      "release_dates_recorded_in_manifest": [
+        "2021-12-23"
+      ]
+    },
+    {
+      "url": "https://www.elportaldemusica.es/single/rigoberta-bandini-ay-mama",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2021-a17cc29d59f5"
+      ],
+      "authority": "PROMUSICAE / El Portal de Música",
+      "authority_type": "primary_chart_and_certification_registry",
+      "descriptive_label": "PROMUSICAE / El Portal de Música: Rigoberta Bandini — Ay Mamá",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/synchronicity-remastered-2003/1440673959",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1983-bdacdb50f98b"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: The Police — Every Breath You Take",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1983
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/police-every-breath-you-take/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1983-bdacdb50f98b"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: The Police — Every Breath You Take",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/sweet-dreams-are-made-of-this/255965840",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1983-41bd50ac54c9"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Eurythmics — Sweet Dreams (Are Made of This)",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1983
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/eurythmics-sweet-dreams-are-made-of-this/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1983-41bd50ac54c9"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Eurythmics — Sweet Dreams (Are Made of This)",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/hounds-of-love/1675375084",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1985-1f04a95f8e81"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Kate Bush — Running Up That Hill (A Deal with God)",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1985
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/kate-bush-running-up-that-hill/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1985-1f04a95f8e81"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Kate Bush — Running Up That Hill (A Deal with God)",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/purple-rain/1746833068",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1984-b9c079cac51d"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Prince — When Doves Cry",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1984
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/prince-and-the-revolution-when-doves-cry/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1984-b9c079cac51d"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Prince — When Doves Cry",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/slippery-when-wet/1422954626",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1986-9593910160b3"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Bon Jovi — Livin' on a Prayer",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1986
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/bon-jovi-livin-on-a-prayer/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1986-9593910160b3"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Bon Jovi — Livin' on a Prayer",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/tracy-chapman/79565550",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1988-ea597ef91a3e"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Tracy Chapman — Fast Car",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1988
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/tracy-chapman-fast-car/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1988-ea597ef91a3e"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Tracy Chapman — Fast Car",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/simple-pleasures/723398262",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1988-cb31a6e91407"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Bobby McFerrin — Don't Worry, Be Happy",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1988
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/bobby-mcferrin-dont-worry-be-happy/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1988-cb31a6e91407"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Bobby McFerrin — Don't Worry, Be Happy",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.u2.com/products/war",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1983-3c3a612ae99c"
+      ],
+      "authority": "u2.com",
+      "authority_type": "inspect_authority_for_claim",
+      "descriptive_label": "u2.com: U2 — Sunday Bloody Sunday",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1983
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/chart-news/st-patricks-day-most-streamed-songs-by-irish-artists-on-spotify-revealed__8680/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1983-3c3a612ae99c"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: U2 — Sunday Bloody Sunday",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/hombres-g-edici%C3%B3n-30-aniversario/979321009",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1985-53a3bd6d32fc"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Hombres G — Devuélveme a mi chica",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1985
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2021/05/31/musica/1622455799_938644.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1985-53a3bd6d32fc"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Hombres G — Devuélveme a mi chica",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/la-ley-del-desierto/256074137",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1984-1fd12840e045"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Radio Futura — Escuela de calor",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1984
+      ]
+    },
+    {
+      "url": "https://los40.com/2025/11/20/dani-moreno-el-gallo-desvela-los-secretos-de-40-canciones-iconicas-del-pop-espanol-y-se-moja-sobre-la-vuelta-de-mecano-y-el-ultimo-de-la-fila/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1984-1fd12840e045"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Radio Futura — Escuela de calor",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/el-momento-remastered/1443626421",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1987-a97385504c5f"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Nacha Pop — Lucha de gigantes",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1987
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2003/03/13/actualidad/1047510000_271095.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1987-a97385504c5f"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Nacha Pop — Lucha de gigantes",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/caifanes/205701061",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1988-e8466d1c7f62"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Caifanes — Viento",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1988
+      ]
+    },
+    {
+      "url": "https://music.apple.com/us/album/doble-vida/321882524",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1988-fb5abe57ce5b"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Soda Stereo — En la ciudad de la furia",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1988
+      ]
+    },
+    {
+      "url": "https://sodastereo.com/timeline/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1988-fb5abe57ce5b",
+        "s1990-d5be4878b495"
+      ],
+      "authority": "sodastereo.com",
+      "authority_type": "inspect_authority_for_claim",
+      "descriptive_label": "sodastereo.com: Soda Stereo — En la ciudad de la furia",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/pateando-piedras/1102889296",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1986-4a2c045c8d9a"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Los Prisioneros — El baile de los que sobran",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1986
+      ]
+    },
+    {
+      "url": "https://music.apple.com/us/album/luz-v/696478906",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1989-96b2425c5303"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Luz Casal — No me importa nada",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1989
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2005/01/01/videoclips/0000163682_163682.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1989-96b2425c5303"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Luz Casal — No me importa nada",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/qu%C3%A9-hago-aqu%C3%AD/321474630",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1989-0fb262c10117"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Gloria Trevi — Dr. Psiquiatra",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1989
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2019/11/01/musica/1572521511_226250.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1989-0fb262c10117"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Gloria Trevi — Dr. Psiquiatra",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/nevermind-30th-anniversary-super-deluxe/1586410660",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1991-64e5f7b9c689"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Nirvana — Smells Like Teen Spirit",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1991
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/nirvana-smells-like-teen-spirit/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1991-64e5f7b9c689"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Nirvana — Smells Like Teen Spirit",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/out-of-time-25th-anniversary-edition/1442996327",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1991-53d03a7367e9"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: R.E.M. — Losing My Religion",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1991
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/rem-losing-my-religion/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1991-53d03a7367e9"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: R.E.M. — Losing My Religion",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/superunknown-20th-anniversary/1440811129",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1994-48d4a4094f38"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Soundgarden — Black Hole Sun",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1994
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/soundgarden-black-hole-sun/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1994-48d4a4094f38"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Soundgarden — Black Hole Sun",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/gangstas-paradise/1604645496",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1995-bba49f1a0479"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Coolio feat. L.V. — Gangsta's Paradise",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1995
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/coolio-ft-lv-gangstas-paradise/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1995-bba49f1a0479"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Coolio feat. L.V. — Gangsta's Paradise",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/tragic-kingdom/1440845400",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1995-dabe1459c0af"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: No Doubt — Don't Speak",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1995
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/no-doubt-dont-speak/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1995-dabe1459c0af"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: No Doubt — Don't Speak",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/jagged-little-pill-deluxe-edition/1031419925",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1995-4594ad47b7a4"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Alanis Morissette — You Oughta Know",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1995
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/alanis-morissette-you-oughta-know/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1995-4594ad47b7a4"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Alanis Morissette — You Oughta Know",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/the-downward-spiral/1440837096",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1994-6ec1f44e2f91"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Nine Inch Nails — Hurt",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1994
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/nine-inch-nails-hurt/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1994-6ec1f44e2f91"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Nine Inch Nails — Hurt",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/believe/73273758",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1998-6df873c88bfb"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Cher — Believe",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1998
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/cher-believe/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1998-6df873c88bfb"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Cher — Believe",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/senderos-de-traici%C3%B3n/697634139",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1990-6c76920a30e3"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Héroes del Silencio — Entre dos tierras",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1990
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2021/01/19/los40classic/1611051632_218155.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1990-6c76920a30e3"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Héroes del Silencio — Entre dos tierras",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/invisible/40621294",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1995-c008fc43a9e0"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: La Ley — El duelo",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1995
+      ]
+    },
+    {
+      "url": "https://music.apple.com/us/album/dile-al-sol/203780856",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1998-162a4cdeebf7"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: La Oreja de Van Gogh — Cuéntame al oído",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1998
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2019/02/05/los40classic/1549371181_242605.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1998-162a4cdeebf7"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: La Oreja de Van Gogh — Cuéntame al oído",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/d%C3%B3nde-est%C3%A1n-los-ladrones/192682818",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1998-83eba83d60c3"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Shakira — Ojos así",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1998
+      ]
+    },
+    {
+      "url": "https://music.apple.com/us/album/m%C3%A1s-bonus-version/193410821",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1997-14dd5203e308"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Alejandro Sanz — Corazón partío",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1997
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2022/09/09/musica/1662652360_745529.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1997-14dd5203e308"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Alejandro Sanz — Corazón partío",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/amor-prohibido-remasterizado-2024-30th-anniversary/1736650461",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1994-0ffc120badca"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Selena — Amor prohibido",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1994
+      ]
+    },
+    {
+      "url": "https://music.apple.com/us/album/sin-documentos/79382515",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1993-fdc60290dea2"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Los Rodríguez — Sin documentos",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1993
+      ]
+    },
+    {
+      "url": "https://los40.com/2025/05/21/un-21-de-mayo-de-1993-los-rodriguez-cambiaron-para-siempre-el-rumbo-del-rock-latino/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s1993-fdc60290dea2"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Los Rodríguez — Sin documentos",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/canci%C3%B3n-animal/321882757",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s1990-d5be4878b495"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Soda Stereo — De música ligera",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        1990
+      ]
+    },
+    {
+      "url": "https://music.apple.com/us/album/fallen/1440665838",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2003-889e43d5e30e"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Evanescence — Bring Me to Life",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2003
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/evanescence-bring-me-to-life/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2003-889e43d5e30e"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Evanescence — Bring Me to Life",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/american-idiot/1161539183",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2004-c8563d45233f"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Green Day — Boulevard of Broken Dreams",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2004
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/green-day-boulevard-of-broken-dreams/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2004-c8563d45233f"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Green Day — Boulevard of Broken Dreams",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/absolution/1716096819",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2003-dcdb60208d54"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Muse — Time Is Running Out",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2003
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/muse-time-is-running-out/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2003-dcdb60208d54"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Muse — Time Is Running Out",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/meteora/528435845",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2003-da7b9dcde9ea"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Linkin Park — Numb",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2003
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/linkin-park-numb/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2003-da7b9dcde9ea"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Linkin Park — Numb",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/song/1440903439",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2002-db211b5e0194"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Eminem — Lose Yourself",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2002
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/eminem-lose-yourself/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2002-db211b5e0194"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Eminem — Lose Yourself",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/in-the-zone/251947909",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2003-216b2931f02d"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Britney Spears — Toxic",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2003
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/britney-spears-toxic/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2003-216b2931f02d"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Britney Spears — Toxic",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/back-to-black/1440856219",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2006-eea05f46c025"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Amy Winehouse — Back to Black",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2006
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/amy-winehouse-back-to-black/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2006-eea05f46c025"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Amy Winehouse — Back to Black",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/as-i-am-expanded-edition/294461785",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2007-8249e638892e"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Alicia Keys — No One",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2007
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/alicia-keys-no-one/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2007-8249e638892e"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Alicia Keys — No One",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/lim%C3%B3n-y-sal/604807962",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2006-6771ec4b3699"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Julieta Venegas — Limón y sal",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2006
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2006/04/27/actualidad/1146088800_284995.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2006-6771ec4b3699"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Julieta Venegas — Limón y sal",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/pafuera-telara%C3%B1as/696883594",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2004-d35438c77a29"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Bebe — Malo",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2004
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2021/06/18/los40classic/1624007253_412920.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2004-d35438c77a29"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Bebe — Malo",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/la-calle-es-tuya/255020366",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2004-4388d9f56d33"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Estopa — Fuente de energía",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2004
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2004/01/26/actualidad/1075071600_274585.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2004-4388d9f56d33"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Estopa — Fuente de energía",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/estrella-de-mar/696768154",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2002-685ee025cb97"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Amaral — Sin ti no soy nada",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2002
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2021/03/17/los40classic/1615982929_672545.html/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2002-685ee025cb97"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Amaral — Sin ti no soy nada",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/natalia-lafourcade/373992049",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2002-f5ee215919ee"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Natalia Lafourcade — En el 2000",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2002
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2003/05/13/actualidad/1052776800_271613.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2002-f5ee215919ee"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Natalia Lafourcade — En el 2000",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/cuatro-caminos/1444184083",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2003-da41ea3510c2"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Café Tacvba — Eres",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2003
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2003/01/01/videoclips/0000179764_179764.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2003-da41ea3510c2"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Café Tacvba — Eres",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/fijaci%C3%B3n-oral-vol-1/159094271",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2005-f75507be9d35"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Shakira feat. Alejandro Sanz — La tortura",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2005
+      ]
+    },
+    {
+      "url": "https://los40.com/2025/06/12/el-no-de-mana-a-grabar-la-tortura-que-abrio-las-puertas-del-duo-shakira-alejandro-sanz/?outputType=amp",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2005-f75507be9d35"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Shakira feat. Alejandro Sanz — La tortura",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/calle-13/159545628",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2005-50d6b72be723"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Calle 13 — Atrévete-te-te",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2005
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2021/04/26/bigbang/1619454950_089965.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2005-50d6b72be723"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Calle 13 — Atrévete-te-te",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/skyfall-single/566322358",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2012-cfadd926d9af"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Adele — Skyfall",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2012
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/adele-skyfall/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2012-cfadd926d9af"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Adele — Skyfall",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/pure-heroine/1440818584",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2013-a6ff366b38dd"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Lorde — Royals",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2013
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/lorde-royals/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2013-a6ff366b38dd"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Lorde — Royals",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/1000-forms-of-fear/882945378",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2014-58e5b73d9890"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Sia — Chandelier",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2014
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/sia-chandelier/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2014-58e5b73d9890"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Sia — Chandelier",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/take-me-to-church-ep/752404355",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2013-0457dee91c55"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Hozier — Take Me to Church",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2013
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/hozier-take-me-to-church/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2013-0457dee91c55"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Hozier — Take Me to Church",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/this-is-america-single/1379065454",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2018-048829cb6f42"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Childish Gambino — This Is America",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2018
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/childish-gambino-this-is-america/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2018-048829cb6f42"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Childish Gambino — This Is America",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/to-pimp-a-butterfly/1440828886",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2015-dddcd06febdd"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Kendrick Lamar — Alright",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2015
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/kendrick-lamar-alright/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2015-dddcd06febdd"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Kendrick Lamar — Alright",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/night-visions/1440873107",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2012-2a81ecc1607c"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Imagine Dragons — Demons",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2012
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/imagine-dragons-demons/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2012-2a81ecc1607c"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Imagine Dragons — Demons",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/song/1615128020",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2019-00dfef5530e2"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: The Weeknd — Blinding Lights",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2019
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/weeknd-blinding-lights/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2019-00dfef5530e2"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: The Weeknd — Blinding Lights",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/hasta-la-ra%C3%ADz/1798846067",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2015-377d525a4e3e"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Natalia Lafourcade — Hasta la raíz",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2015
+      ]
+    },
+    {
+      "url": "https://los40.com/2025/01/02/de-twenty-one-pilots-a-maluma-los-discos-que-cumplen-10-anos-este-2025/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2015-377d525a4e3e"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Natalia Lafourcade — Hasta la raíz",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/entren-los-que-quieran/401203649",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2010-c2d1291ca127"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Calle 13 — Latinoamérica",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2010
+      ]
+    },
+    {
+      "url": "https://los40.com/2025/01/30/ellos-tambien-debieron-tirar-mas-fotos-de-recordar-lo-perdido-en-el-volcan-de-la-palma-a-denunciar-el-colonialismo-en-america-latina/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2010-c2d1291ca127"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Calle 13 — Latinoamérica",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/el-perd%C3%B3n-single/1063570013",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2015-882fbab864d3"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Nicky Jam & Enrique Iglesias — El perdón",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2015
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2015/09/11/musica/1441953238_897384.html?primarySection=%2Fmusica",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2015-882fbab864d3"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Nicky Jam & Enrique Iglesias — El perdón",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://los40.com/los40/2017/02/15/musica/1487161918_983626.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata",
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2017-e60f8ab8a88d"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Luis Fonsi feat. Daddy Yankee — Despacito",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2017
+      ]
+    },
+    {
+      "url": "https://music.apple.com/us/song/1457720420",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2018-fc60221641ee"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Álvaro Soler — La cintura",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2018
+      ]
+    },
+    {
+      "url": "https://los40.com/especial/los40-music-awards/2018/ganadores/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2018-fc60221641ee"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Álvaro Soler — La cintura",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/amanecer/993274533",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2015-d3c8624afc0a"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Bomba Estéreo — Soy yo",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2015
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2022/03/08/musica/1646731434_751454.html/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2015-d3c8624afc0a"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Bomba Estéreo — Soy yo",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/d%C3%A9jenme-llorar/1862967956",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2012-e276735a99fd"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Carla Morrison — Déjenme llorar",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2012
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2017/05/12/musica/1494603838_182291.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2012-e276735a99fd"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Carla Morrison — Déjenme llorar",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://los40.cl/2023/mon-laferte-anuncio-que-ya-empezo-a-grabar-su-nuevo-disco-145719.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2015-a121e4927d88"
+      ],
+      "authority": "los40.cl",
+      "authority_type": "inspect_authority_for_claim",
+      "descriptive_label": "los40.cl: Mon Laferte — Tu falta de querer",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2015
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2020/02/15/musica/1581762457_891169.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2015-a121e4927d88"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Mon Laferte — Tu falta de querer",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/sour/1560734944",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2021-d73254620179"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Olivia Rodrigo — drivers license",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2021
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/olivia-rodrigo-drivers-license/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2021-d73254620179"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Olivia Rodrigo — drivers license",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/montero/1582660720",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2021-5de443a3c9ad"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Lil Nas X — MONTERO (Call Me By Your Name)",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2021
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/lil-nas-x-montero-call-me-by-your-name/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2021-5de443a3c9ad"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Lil Nas X — MONTERO (Call Me By Your Name)",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/unholy-single/1643168265",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2022-13d1e0238c36"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Sam Smith feat. Kim Petras — Unholy",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2022
+      ]
+    },
+    {
+      "url": "https://music.apple.com/us/album/good-graces/1752214909",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2024-887094d904c9"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Sabrina Carpenter — Taste",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2024
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/sabrina-carpenter-taste/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2024-887094d904c9"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Sabrina Carpenter — Taste",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/future-nostalgia-the-moonlight-edition/1552269067",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2020-d47d366ad197"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Dua Lipa — Physical",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2020
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/dua-lipa-physical/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2020-d47d366ad197"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Dua Lipa — Physical",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/die-with-a-smile-single/1780408425",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2024-1b079dcfc6bb"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Lady Gaga & Bruno Mars — Die With a Smile",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2024
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/lady-gaga-bruno-mars-die-with-a-smile/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2024-1b079dcfc6bb"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Lady Gaga & Bruno Mars — Die With a Smile",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/olivia-rodrigo-drop-dead/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata",
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2026-78ed609c656e"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Olivia Rodrigo — drop dead",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2026
+      ],
+      "release_dates_recorded_in_manifest": [
+        "2026-04-17"
+      ]
+    },
+    {
+      "url": "https://www.bmg.com/news/bruno-mars-tops-global-charts-with-new-single-i-just-might",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2026-533f3a1902f9"
+      ],
+      "authority": "bmg.com",
+      "authority_type": "inspect_authority_for_claim",
+      "descriptive_label": "bmg.com: Bruno Mars — I Just Might",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2026
+      ]
+    },
+    {
+      "url": "https://www.officialcharts.com/songs/bruno-mars-i-just-might/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2026-533f3a1902f9"
+      ],
+      "authority": "Official Charts Company",
+      "authority_type": "primary_chart_registry",
+      "descriptive_label": "Official Charts Company: Bruno Mars — I Just Might",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/un-verano-sin-ti/1622045624?ls=1",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2022-33440e51096b"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Bad Bunny — El apagón",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2022
+      ]
+    },
+    {
+      "url": "https://music.apple.com/us/song/1610097207",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2020-059f8b62ba2b"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: C. Tangana feat. Niño de Elche, La Húngara — Tú me dejaste de querer",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2020
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2020/11/26/musica/1606409822_407756.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2020-059f8b62ba2b"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: C. Tangana feat. Niño de Elche, La Húngara — Tú me dejaste de querer",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/song/1731060236",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2023-4b5d4900ae9d"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Bizarrap & Shakira — Shakira: Bzrp Music Sessions, Vol. 53",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2023
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2023/01/21/del40al1/1674288910_051322.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2023-4b5d4900ae9d"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Bizarrap & Shakira — Shakira: Bzrp Music Sessions, Vol. 53",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/vice-versa/1596868386",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2021-8fa642fa4e3e"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Rauw Alejandro — Todo de ti",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2021
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2021/08/14/del40al1/1628921514_135130.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2021-8fa642fa4e3e"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Rauw Alejandro — Todo de ti",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://music.apple.com/us/album/tacones-rojos-single/1590072812",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2021-720093d2a7f8"
+      ],
+      "authority": "Apple Music, label-supplied metadata",
+      "authority_type": "distributor_metadata",
+      "descriptive_label": "Apple Music, label-supplied metadata: Sebastián Yatra — Tacones rojos",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2021
+      ]
+    },
+    {
+      "url": "https://los40.com/los40/2022/01/08/del40al1/1641625622_137469.html",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2021-720093d2a7f8"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Sebastián Yatra — Tacones rojos",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://www.sonymusic.es/novedad/shakira-algo-tu/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2026-2c83a5445b5f"
+      ],
+      "authority": "Sony Music España",
+      "authority_type": "label_catalogue_or_press_release",
+      "descriptive_label": "Sony Music España: Shakira & Beéle — Algo tú",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2026
+      ]
+    },
+    {
+      "url": "https://los40.com/lista40/?sv=2c717fcd0e0840d52f83b69edce7d5ac",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2026-2c83a5445b5f"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Shakira & Beéle — Algo tú",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://los40.com/2026/09/10/karol-g-judeline-y-rusowsky-rondan-la-lista-de-los40-con-bby-wow/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2026-cbf016041e04"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: KAROL G, Judeline & rusowsky — BbY WOW",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2026
+      ],
+      "release_dates_recorded_in_manifest": [
+        "2026-08-07"
+      ]
+    },
+    {
+      "url": "https://los40.com/2026/10/10/karol-g-judeline-y-rusowsky-prolongan-el-reinado-de-bby-wow-en-los40/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2026-cbf016041e04"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: KAROL G, Judeline & rusowsky — BbY WOW",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    },
+    {
+      "url": "https://los40.com/2026/03/20/quevedo-nos-llena-de-vibes-veraniegas-con-scandic-un-regueton-que-nos-invita-a-visitar-la-palma/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "release_metadata"
+      ],
+      "song_ids": [
+        "s2026-9ca15afba134"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Quevedo — SCANDIC",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date.",
+      "release_years_supported": [
+        2026
+      ],
+      "release_dates_recorded_in_manifest": [
+        "2026-03-20"
+      ]
+    },
+    {
+      "url": "https://los40.com/2026/09/06/esta-ha-sido-la-cancion-del-verano-de-2026-segun-los40-una-guerra-a-tres-bandas-con-una-ganadora/",
+      "source_type": "corpus_provenance",
+      "reviewed_date": "2026-10-11",
+      "supports": [
+        "commercial_evidence"
+      ],
+      "song_ids": [
+        "s2026-9ca15afba134"
+      ],
+      "authority": "LOS40",
+      "authority_type": "primary_for_own_chart_secondary_or_interview_for_other_claims",
+      "descriptive_label": "LOS40: Quevedo — SCANDIC",
+      "publication_date": null,
+      "publication_date_note": "Dynamic catalogue or date not independently transcribed; review date is not publication date."
+    }
+  ],
+  "public_notes": [
+    "Release year and year of chart success differ for several songs; metadata records distinguish them.",
+    "Chart territories and metrics differ. No cross-chart aggregate popularity score is justified.",
+    "Source dates, artist aliases, editions and source authority are recorded in corpus-manifest.json.",
+    "2026 is partial: 6 selected recordings released before the cutoff.",
+    "Selection labels are hypotheses, not independent human annotations."
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "status": "ok",
+  "method": "BERTopic hierarchical_topics / c-TF-IDF agglomeration",
+  "edges": [
+    {
+      "parent_id": "8",
+      "parent_name": "no_mama_mama mama_like_bum",
+      "child_left_id": "6",
+      "child_right_id": "7",
+      "topic_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "distance": 1.0104357013666883
+    },
+    {
+      "parent_id": "7",
+      "parent_name": "mama_mama mama_like_bum_wanna",
+      "child_left_id": "0",
+      "child_right_id": "4",
+      "topic_ids": [
+        0,
+        4
+      ],
+      "distance": 0.9938897137201602
+    },
+    {
+      "parent_id": "6",
+      "parent_name": "no_mal_matador_mal mu_mu",
+      "child_left_id": "5",
+      "child_right_id": "3",
+      "topic_ids": [
+        1,
+        2,
+        3
+      ],
+      "distance": 0.9837618727594132
+    },
+    {
+      "parent_id": "5",
+      "parent_name": "no_mal_matador_mal mu_mu",
+      "child_left_id": "2",
+      "child_right_id": "1",
+      "topic_ids": [
+        1,
+        2
+      ],
+      "distance": 0.941066128033771
+    }
+  ],
+  "limitation": "A similarity hierarchy, not discovered causes or validated taxonomic subtopics."
+}

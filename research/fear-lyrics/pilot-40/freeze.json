@@ -1,0 +1,686 @@
+{
+  "phase": "exploratory_pilot_40",
+  "frozen_at": "2026-10-12T03:14:38.224803+00:00",
+  "songs": 40,
+  "cutoff": "2026-10-11",
+  "purpose": "Immutable pilot before the user-requested expansion. Results are not independent confirmation of the expanded study.",
+  "private_corpus_sha256": "0f491edec0e5c6e12d2728321e255917cfab29cd5147963ea5253d9e22f9d946",
+  "files": [
+    {
+      "path": "interpretive-cards.json",
+      "sha256": "f6823e22cf20596acbe36cfb2d71edac80b63db0818b1cce0a25d67875b88cd6"
+    },
+    {
+      "path": "references.json",
+      "sha256": "37e9e8ba9fda886e88a88a5f29d098f74a9b25df559fcdf7d6026ee8642a3998"
+    },
+    {
+      "path": "corpus-manifest.json",
+      "sha256": "5466b3b680f1dd3a979414ef25ad7603b6104aaf58130e86f82f4f6914e33ef1"
+    },
+    {
+      "path": "source-audit.json",
+      "sha256": "b9db17495b8bbd58d22bdbb03d81ddb6d1d3e2b88e290cb9a49ac8b66d8679fe"
+    },
+    {
+      "path": "miedo-embeddings-bertopic-rag.ipynb",
+      "sha256": "8d1d77b1a5ea561aa700dd59d9bf4522b6cd31c075c6179ef108fd4caf671221"
+    },
+    {
+      "path": "provider-coverage.csv",
+      "sha256": "5a25697799040382f5d1a7a30707c8a944110756f8b3421880de0c2d57cf1a77"
+    },
+    {
+      "path": "protocol.md",
+      "sha256": "23b511a4272e155fca139053402ee57c61d7918153853057676e17dfe1dc40ef"
+    },
+    {
+      "path": "provider-agreement.csv",
+      "sha256": "1143bb5583db230764a12e385d00c5723020c3a8d45fe6d9ed86456e6209c22d"
+    },
+    {
+      "path": "results/section_inventory.csv",
+      "sha256": "9b3aa00bd87b58bcbdc4d0e4e2094f857dc001b097af5efde1e65ca46d730482"
+    },
+    {
+      "path": "results/analysis_protocol.json",
+      "sha256": "e5b6663dd9519e0a32a773bbd5cad42132429e7585697798041b7afda9d60901"
+    },
+    {
+      "path": "results/topic_labels_protocol.json",
+      "sha256": "727ae7b1fd3430486bab2cf22e1f7caff0ca39d6aae37cf6db05639d4fb3c48d"
+    },
+    {
+      "path": "results/provider-api-status.json",
+      "sha256": "88dfe43b818251f6c989c32396defe3c0e7205a3f904c4a1208c8df0c45a1110"
+    },
+    {
+      "path": "results/rag_family_sensitivity.csv",
+      "sha256": "9e881b68bc51fc0e87af5744678d95d247456cffdb3e245d516aaee654754c9b"
+    },
+    {
+      "path": "results/topic_language_association.csv",
+      "sha256": "868e6a3f43e1023062dee6f72b116ca98dc993f4e94e7d32d275eca53e0179ad"
+    },
+    {
+      "path": "results/corpus_diagnostics.json",
+      "sha256": "0d0aa917e198c80ac6eb69e46ec9cb3f57f3180273facba02798d3ecf9e41e78"
+    },
+    {
+      "path": "results/embedding_model_cluster_agreement.csv",
+      "sha256": "240a85cb4d7806e99ddab5df36b64c689fcf65ca99bc21917da8b4126d7bacb0"
+    },
+    {
+      "path": "results/run_status.json",
+      "sha256": "99cf5b1ef9983ed616f174bf745e96e1c3683c5728e7f2d3a3c211ef98b68e76"
+    },
+    {
+      "path": "results/topic_labels.json",
+      "sha256": "b134e650e2c2b0963817d939aface9e3cbd8d0f3e06e2dbba1a8ee044afe0848"
+    },
+    {
+      "path": "figures/corpus-providers.svg",
+      "sha256": "6911fbc920932a00c196bb71043eea25a3157c9ed604114b191de74fba30b189"
+    },
+    {
+      "path": "figures/semantic-trajectories.png",
+      "sha256": "b8b0d98c98f41d0e231dac54f43b9ae97fa773e774243e1c52d149499c560a87"
+    },
+    {
+      "path": "figures/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2-hierarchy.png",
+      "sha256": "3fe8a2f838dc20269b3bf4f7a4c48bc43012d850283a7141487e7f31414dad2c"
+    },
+    {
+      "path": "figures/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2-map.png",
+      "sha256": "dc40175b2664200dc1962fed9fde26fd276f201062a814462876f0b9858faefd"
+    },
+    {
+      "path": "figures/intfloat--multilingual-e5-small-map.png",
+      "sha256": "fc659b4f15a11a8f35c09d1954e16e24aea1c4636dd2b22a0eff977d95603d42"
+    },
+    {
+      "path": "figures/openai--text-embedding-3-large-hierarchy.png",
+      "sha256": "05834a976af467a4f3659b6f669901e090ceac17f5893b794b4dcb0cec7ba683"
+    },
+    {
+      "path": "figures/reading-cases.png",
+      "sha256": "0a164903d66d7566f04e2f92363a677f3656f276bf4b1208f6d5c4f725a55daa"
+    },
+    {
+      "path": "figures/rag-recall-safety.png",
+      "sha256": "bfbfeff52b89e5e2cb6509261eac5cffba67a2bccdb51e3676a6272365c690ae"
+    },
+    {
+      "path": "figures/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2-decades.svg",
+      "sha256": "4d88f2ba176c09ef07a6edff9eb254d0308b8c5c96a6fd335745c52ce8f55b36"
+    },
+    {
+      "path": "figures/langgraph-workflow.png",
+      "sha256": "d7b0f3d65b4ea2bf272cfb7f1d55c0380f11e72229e3815fb903ae82f11dfc51"
+    },
+    {
+      "path": "figures/semantic-probes.svg",
+      "sha256": "b6ea1dd7d7bc61c17a626ee240ed9a9cacc5143ae3d706f0ceb0b4c5640b7b2a"
+    },
+    {
+      "path": "figures/openai--text-embedding-3-large-map.png",
+      "sha256": "beaefa11081b282ab534d57d94b40255cad01b843b66cf56a54538db914af409"
+    },
+    {
+      "path": "figures/intfloat--multilingual-e5-small-hierarchy.svg",
+      "sha256": "ca05ea15c1a4675b9e7a874cbdb24986051efd5028fe899531a45b95cafa9654"
+    },
+    {
+      "path": "figures/intfloat--multilingual-e5-small-hierarchy.png",
+      "sha256": "92da36caaa4b85979f6f277419c67718e77ed04f5719b2fbb45ca8e2edf99ed2"
+    },
+    {
+      "path": "figures/semantic-probes.png",
+      "sha256": "9476d4696ef20c9c04c490d2be9ede4a1c3028d0bb1c0c0f8a6ecb2c9b382480"
+    },
+    {
+      "path": "figures/openai--text-embedding-3-large-map.svg",
+      "sha256": "ab84bb59020d0c794c8239e495a32a9a3c7deeb3739abac5f8f734d15cc5515f"
+    },
+    {
+      "path": "figures/langgraph-workflow.svg",
+      "sha256": "c5f77c587a3979a01d5d18d38bf108c179fd1d09cfc4a89094dae696207e970a"
+    },
+    {
+      "path": "figures/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2-decades.png",
+      "sha256": "95896056608e93ae947f7dbcd3c10e691ce19f76c5b6bb49247575b77b21ede0"
+    },
+    {
+      "path": "figures/reading-cases.svg",
+      "sha256": "574ec30023b6aac2444ea63eb1b195692694dbff6cc441d76b3974c97f5fe535"
+    },
+    {
+      "path": "figures/rag-recall-safety.svg",
+      "sha256": "54911ab52ed9ef7aba566443aa5d2ab030cf18b738f6bf89a6b85566a496c9f9"
+    },
+    {
+      "path": "figures/openai--text-embedding-3-large-hierarchy.svg",
+      "sha256": "c28f56b05454f2bb48d476acfe49d5def5fad4bce615c01b37435ffcd3b24f28"
+    },
+    {
+      "path": "figures/intfloat--multilingual-e5-small-map.svg",
+      "sha256": "71e130e442a5616d94039ed3cc1e36ce18d195e698aedf1a96107fbf80f5fadf"
+    },
+    {
+      "path": "figures/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2-map.svg",
+      "sha256": "5bd494291a1cea8524d4788a54b4c348765ce75c6b2c167573cef14c678bde1e"
+    },
+    {
+      "path": "figures/semantic-trajectories.svg",
+      "sha256": "e41d133d43898c67aae77313801a1dd71e140dfcbc3cde644af9a0f6d5bcc96a"
+    },
+    {
+      "path": "figures/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2-hierarchy.svg",
+      "sha256": "a56815e613de77a57c42f5e27783eaa66272066b1005c5d5ad0e63548f4b575b"
+    },
+    {
+      "path": "figures/corpus-providers.png",
+      "sha256": "1ac4bc94a61440fb10544fa5eff43f7862231205511fe208430eb691438ce9a9"
+    },
+    {
+      "path": "figures/intfloat--multilingual-e5-small-decades.png",
+      "sha256": "c2f3f0b8f90411a82f5ece38001acc2f97e459f7576c080d87f31dd61909353f"
+    },
+    {
+      "path": "figures/openai--text-embedding-3-large-decades.svg",
+      "sha256": "420484344e02490faf5a02f595fb27d9d157f4cd8d898f6bb42669f4d1432dc7"
+    },
+    {
+      "path": "figures/language-confound.png",
+      "sha256": "1329c5e31b91ddc781492160c18c1cf675cafdf2553de50c20e43be8656ea80a"
+    },
+    {
+      "path": "figures/language-confound.svg",
+      "sha256": "54fad49884c6da796fbcbe3d303fe0d5c972b8645d4a66290b68f61628427056"
+    },
+    {
+      "path": "figures/openai--text-embedding-3-large-decades.png",
+      "sha256": "974cdbf678e08eec32c6be9db8b46ea8a82321e79f4c490f8a5df665a2af6935"
+    },
+    {
+      "path": "figures/intfloat--multilingual-e5-small-decades.svg",
+      "sha256": "5e27757a67164e7ba1333747972f3a72767e2b20d944d2eeaf65f7b4bc2c8965"
+    },
+    {
+      "path": "results/rag-ablation/summary.json",
+      "sha256": "f4f34709cc42b60b27123cfe7b70c3141d08a7994fbf6b2e5de4d7aa6cfe38a2"
+    },
+    {
+      "path": "results/rag-ablation/summary.csv",
+      "sha256": "3f0c985b65f282fe1241450c6793d55e96ff2bec3c3ceef350c428f02ce7b72d"
+    },
+    {
+      "path": "results/rag-ablation/timing.json",
+      "sha256": "f9a2de7a579b964364c394d28726a3540e3c9a3d9d5265a64828685bb83fe8fe"
+    },
+    {
+      "path": "results/rag-ablation/questions.json",
+      "sha256": "50a7a68659f99c64cfe89d478ff261086638d2521ba0514d2e56601b62c39843"
+    },
+    {
+      "path": "results/rag-ablation/encoder-manifest.json",
+      "sha256": "e0822dba760e3d7b797a4edb2c79470788e52ded7d1c5d4b43db9d98fa44dcd2"
+    },
+    {
+      "path": "results/rag-ablation/protocol.json",
+      "sha256": "61350d03ba86ebda542ce15d357681f0fc964bd4b5efb2d8400f144f96c7c0a6"
+    },
+    {
+      "path": "results/rag-ablation/runs.json",
+      "sha256": "a5d03655c14d8dd3b4b53f2effa9ea0d45abf8f7d8e2cadfa53846c646fb6c92"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/seed_stability.csv",
+      "sha256": "e5fce2d8ca68a65268531b3a604b85100e5c2ca995280485d2685c107dab2c08"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/artist_concentration.csv",
+      "sha256": "d17ca60c168a72c96264c8d53856687997af42d2f4d57ee572e5fd22369e6c93"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/semantic_probes.json",
+      "sha256": "8b13b6708d77a49e777f5070ec193986abfa3a69a09abea22c4e355a06586fd7"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/decade_composition.csv",
+      "sha256": "c19b7f464fc316c3e161cf28eec57c35a05cff6f72531e93b7420ca88b717caa"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/topic_fit_status.json",
+      "sha256": "57781e9baf9bffc8b2d301e824c5f01f0b0614ab9a9f7dc5627eb95aa1224197"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/narrative_song_order_tests.csv",
+      "sha256": "2d6439cc27351ad53d796e1b1fc9569923f1555bd512eb707c88922d3e79307d"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/narrative_order_tests.csv",
+      "sha256": "dc82a0db639d3ff64e55de4c5db7992735b99593343413b368f47163cfb3f90d"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/leave_one_artist_out_prevalence.csv",
+      "sha256": "d46a2c2ad14da36070aef65e8a7646db18c3bef65830f854b26286116a10f718"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/song_topic_shares_all_blocks_with_repeats.csv",
+      "sha256": "6756a7f4187205a0e2be2098a627fa66583f3ebed399a6066841e4d1cf03799f"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/decade_contrasts.csv",
+      "sha256": "4b9141f5a1d223b012988520c2b68ebf00e9e81b75965700de47ee4d562e3bf4"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/narrative_decade_paths.csv",
+      "sha256": "589ad4f256a575b98ebc951a502ca7b3d9724b06232ae16f094709fcd16132f6"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/section_assignments.csv",
+      "sha256": "6011713a74bb81487f13ea17026f5d9c2ecf7ed7ed48b94f89c6acaaa8dccd08"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/narrative_paths.csv",
+      "sha256": "6420b5a6e318d88d92da3fb13ae63ad7c3dcd2f85d096328772987be1c3eb1f9"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/narrative_method.json",
+      "sha256": "820048070ad4732d0e8a9bbc71ccfb3c3a893a41cf57c4234ec62a0090db3b1d"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/exploratory_map.csv",
+      "sha256": "dc9f45a5c362f7fd9b5e82d37332be14f29f0f82534288f74489882490143fee"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/tokenization_diagnostics.csv",
+      "sha256": "dd0cfe7fc2bb9919cd0728b1880bf1bd4662f0c89f5a47be601a9b0a39c07b65"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/repeated_refrain_sensitivity.csv",
+      "sha256": "aa4b6bee75e9e51cff92df256fa1acafa6aebbd338634096a433e48e78a9bb03"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/seed_assignments.csv",
+      "sha256": "e5e95418980e168310d029ac5d16753e2e3dbeda63c0d8c93dd9935cb5fecc7c"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/topic_hierarchy.json",
+      "sha256": "be89cb963794e1e91d23a09b1777d17dfaf6cffc0839d42cbf8a2d6e5507bac9"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/narrative_section_scores.csv",
+      "sha256": "f6f64d56a4807409ed83892ee378476c11f4566ab347ee1dc333033b9679050a"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/projections.json",
+      "sha256": "7b936cbaad874b985f28a4f8dc6d44e6ebe33f99f49ddf368371241da8d86aa0"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/song_topic_shares_unique_first_occurrence.csv",
+      "sha256": "e8abfd8746955781ca20e4f2dc14fdb658374a8f01e76692501b82f417785bef"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/model_manifest.json",
+      "sha256": "40cad70b654da4fad5437b2a0448c91ed6efbe05fc1e399aab1f407262000885"
+    },
+    {
+      "path": "results/openai--text-embedding-3-large/topics.json",
+      "sha256": "df7a34be190dd808887981900aa4e4314a6eda52f5947096ecbda17d4d683c99"
+    },
+    {
+      "path": "results/rag-e5-ablation/summary.json",
+      "sha256": "f405da8894e7fcdc8fca102491c6fd663653e6b6909f48b60d8c8d91e479acfb"
+    },
+    {
+      "path": "results/rag-e5-ablation/summary.csv",
+      "sha256": "d0b2c64abf65988f5f3f5e33b585f9b98ee6cdb66cbbcc0f3439604fa4735792"
+    },
+    {
+      "path": "results/rag-e5-ablation/timing.json",
+      "sha256": "db9be19fb1fbfd9e49018ff110990807e250a64dbceb45401bf8f058a1bd87e2"
+    },
+    {
+      "path": "results/rag-e5-ablation/questions.json",
+      "sha256": "50a7a68659f99c64cfe89d478ff261086638d2521ba0514d2e56601b62c39843"
+    },
+    {
+      "path": "results/rag-e5-ablation/encoder-manifest.json",
+      "sha256": "15a0064cd8f0d38220dc5ba8aa10b6913dd6c1ecc04fd1de6adc3a44a5c865e4"
+    },
+    {
+      "path": "results/rag-e5-ablation/protocol.json",
+      "sha256": "b558e5caf28f8d18d14fedf4887fa4ecbe888eb0303d092ff12498f089ea3483"
+    },
+    {
+      "path": "results/rag-e5-ablation/runs.json",
+      "sha256": "20eb3caf527304a681cd0a0950290555a15dba7fa2127c2d7cfb4e32d0c23231"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/seed_stability.csv",
+      "sha256": "bd89fbf421d2da8ac4fcff753bcbf8eaa805e84af7255086957cf12c9c8424e7"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/artist_concentration.csv",
+      "sha256": "91d676086474cd49a507dbab1c559438676ec62a1d41304e2e6cdc7d8494dfdf"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/semantic_probes.json",
+      "sha256": "b681aba7c462a6031633c376d105b4188e857bd4350f582bf7357846889a9b3f"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/decade_composition.csv",
+      "sha256": "3c80045a831a7036a2d41f6fd52a5a9f91fb5c85472df5f665380ba26f74c439"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/topic_fit_status.json",
+      "sha256": "57781e9baf9bffc8b2d301e824c5f01f0b0614ab9a9f7dc5627eb95aa1224197"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/narrative_song_order_tests.csv",
+      "sha256": "6e715762f0dc5ca860e4c7bcdfaad308ff27ba6efbda55610a6f6af6d15356c3"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/narrative_order_tests.csv",
+      "sha256": "e7ef3cdf629a1b611e6adb818c8411d85ff6278e1e68962fb38d53e4bbe58520"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/leave_one_artist_out_prevalence.csv",
+      "sha256": "8f976aeda0523915abb72dd45998582dc9a2ab9749c39db335f9ab30133a851c"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/song_topic_shares_all_blocks_with_repeats.csv",
+      "sha256": "9711d7fe3d65c8ca07d98e2c6043b42e8dc90614dc9d880a866cc0785b240e1c"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/decade_contrasts.csv",
+      "sha256": "f8986fab447d3a3c24dddb80d9c0042e009d4c6f6494123cd3725258370e135a"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/narrative_decade_paths.csv",
+      "sha256": "7100fc8a511039ffd9602eef8b43299d210ddda86d35759f78a66f20af781080"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/section_assignments.csv",
+      "sha256": "26e51668d942dc02bb4d8b29c375e8c3ab4bd117a44d66f83049089f16e46cee"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/narrative_paths.csv",
+      "sha256": "adedafe4b268bad3b338a99b85c749f6bcb9275096592acf5acd44e7af44b474"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/narrative_method.json",
+      "sha256": "820048070ad4732d0e8a9bbc71ccfb3c3a893a41cf57c4234ec62a0090db3b1d"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/exploratory_map.csv",
+      "sha256": "345a90ede44543b11b2c67c9ef90184002217d250a7e0ac4238d0f586181c543"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/tokenization_diagnostics.csv",
+      "sha256": "ab46c7d396a4ff6e94f3e40d100a669c26fe4a127c664f59cee9d0d7d7ad31c0"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/repeated_refrain_sensitivity.csv",
+      "sha256": "af8ad8e46f184a11a8f7e1ea3ad2a7dad5d3f302406a552a43aa475baa14d4f6"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/seed_assignments.csv",
+      "sha256": "2a828065e6ddef9e19f326d795c1be8d3be3237c95108d03452838875f401143"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/topic_hierarchy.json",
+      "sha256": "19185457355d2e0fca8259ceb619dab09f193b7cfef1a9a1a3ce734884c0febb"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/narrative_section_scores.csv",
+      "sha256": "f4989248bca4f565aec8884799514a42e46535156c907cf47d4a2689acef453f"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/projections.json",
+      "sha256": "5a1de862ddcafe77d663bc45727707961b01ea96bf98d038a82b71db40200e20"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/song_topic_shares_unique_first_occurrence.csv",
+      "sha256": "2ed0ee8a068aa623e412611558f55e1b7642171d788111cec22cc014f55c0937"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/model_manifest.json",
+      "sha256": "7f145163171e05f80ccac383c4aef321dbc9c7a15059312fcd5c863117d7fd85"
+    },
+    {
+      "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/topics.json",
+      "sha256": "d1aa1813d69596a02713cc4ecd1ceef0d08d774196beb4152fae12c4733ef341"
+    },
+    {
+      "path": "results/bayes/summary.json",
+      "sha256": "0dfedbcf20f2cb2ec62ae6625844a1275db3e19526d76cb8039d5ac6e810576b"
+    },
+    {
+      "path": "results/bayes/posterior_predictive_counts.csv",
+      "sha256": "bfc829d619f1ffa27c9708b936ff016ee498377f858f21df22cb7faf63092fb5"
+    },
+    {
+      "path": "results/bayes/hyperpriors.csv",
+      "sha256": "d61938990452b99ca853fb82fa3f4ca9fc6d686f030728c46d8fd791020ec949"
+    },
+    {
+      "path": "results/bayes/posterior_rates.csv",
+      "sha256": "9f72978446ed6ae66fe80ad3db6ffef9aa91711e5a15ba69f9fb25fd38bec6b7"
+    },
+    {
+      "path": "results/bayes/song_presence.csv",
+      "sha256": "a0edc741984e99beb7d56c4dfecbf50cba5193b7c1849c1d9e5e53937ace5731"
+    },
+    {
+      "path": "results/bayes/cell_counts.csv",
+      "sha256": "20f5bb07678b918b02565c0615ba49699d80ca49da7ff478e30527f336ca81dd"
+    },
+    {
+      "path": "results/bayes/leave_one_cell_out.csv",
+      "sha256": "d5118e42bebfffbb5147bda087a32dce5f8669c415632eef5365ddbe9cbae453"
+    },
+    {
+      "path": "results/bayes/baseline_two_models_summary.json",
+      "sha256": "de3b79df17c71442dd489920c7e453d0b2a5727214282de01a0bd0adc601979a"
+    },
+    {
+      "path": "results/bayes/grid_resolution.csv",
+      "sha256": "cd1df564fe6764791c4c68f5d7495e81e46f27cfde5ffd782f981413570d4225"
+    },
+    {
+      "path": "results/bayes/beta_binomial_presence.svg",
+      "sha256": "6e3cfeb4674766621560e06f15981825212eb4aeedfe2e3ca8630f62c41d405a"
+    },
+    {
+      "path": "results/bayes/protocol.json",
+      "sha256": "484d910e795bc4b374cd91ce05883c841d7e29085e296d23fd68b6e1a38dc13f"
+    },
+    {
+      "path": "results/bayes/optimization_diagnostics.json",
+      "sha256": "f146eab54f40210f36702f59ec190a583b0d7076c2b14b4362d73ca1b5416d6e"
+    },
+    {
+      "path": "results/bayes/beta_binomial_presence.png",
+      "sha256": "dc2de60073402fc56e2942c8127b549335746bd1414f427d9aee836a8866e413"
+    },
+    {
+      "path": "results/bayes/posterior_predictive_diagnostics.csv",
+      "sha256": "31ce87b9fa97da19823e842c6b41d1771645e82a8f7855b42afe72c884cd4649"
+    },
+    {
+      "path": "results/bayes/kappa_profiles.csv",
+      "sha256": "adc3e773226fc7a3ca76b55146cde716c1745d0cf94a358bdfca4f161151e32d"
+    },
+    {
+      "path": "results/rag/summary.json",
+      "sha256": "212a1aebddb97ab80417cad9a3754fab2ce2aea24553b933019536ab1873f892"
+    },
+    {
+      "path": "results/rag/summary.csv",
+      "sha256": "4480607a2996ef2ba5c223ea5b561d445071ac0facb731355f2ed574ef2ab89e"
+    },
+    {
+      "path": "results/rag/timing.json",
+      "sha256": "a5c2c16bfdba5ff2b86804f7f3d45546b381dca7098e24f5d91be09e99e3ea83"
+    },
+    {
+      "path": "results/rag/questions.json",
+      "sha256": "50a7a68659f99c64cfe89d478ff261086638d2521ba0514d2e56601b62c39843"
+    },
+    {
+      "path": "results/rag/encoder-manifest.json",
+      "sha256": "ba9b039c8c7e1f04cb01118f6620c2e3795de377f93a4a59260dea2170ec9ebc"
+    },
+    {
+      "path": "results/rag/protocol.json",
+      "sha256": "357cb8bd24da50f40820d50d264602236f47ee0e717a21b74cdaccb680f3aea5"
+    },
+    {
+      "path": "results/rag/runs.json",
+      "sha256": "8ce24f5ac86ca82daccd1370204ad66162675296cee9bb1aa7d88bf74a82ccbe"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/seed_stability.csv",
+      "sha256": "dc096c699499bffdfcad1f23522f8ff920a17e706710cd693c6b5be544a39b63"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/artist_concentration.csv",
+      "sha256": "5a61c2a3177497028c2d540c4a8ef506688fbffc0d89ef2b35a8dde10d2ef0b7"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/semantic_probes.json",
+      "sha256": "0dd02264bb974df53fdaba0f7fc57e05de3178784eb0a924af7f165ac5513c42"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/decade_composition.csv",
+      "sha256": "18c494002d41f52825d962c5063822c3a9f6b81511707c62b5ae7aab41a180c5"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/topic_fit_status.json",
+      "sha256": "57781e9baf9bffc8b2d301e824c5f01f0b0614ab9a9f7dc5627eb95aa1224197"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/narrative_song_order_tests.csv",
+      "sha256": "010d9c97a10065973b48a29318191389e61f42aa4712c8a074c2990f973ef211"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/narrative_order_tests.csv",
+      "sha256": "1dc703d5e7d72b1908a7184b9f9f11591478db78bf010081198c44585e4ec312"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/leave_one_artist_out_prevalence.csv",
+      "sha256": "bdc6a4fd94fd7b4cc414020b430e223c9c008d65fb57281003fde15dd144a355"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/song_topic_shares_all_blocks_with_repeats.csv",
+      "sha256": "e6950bf24861a6580fb16541595a54f4d3443b4f4fa5fcff79bb7319582fc0f5"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/decade_contrasts.csv",
+      "sha256": "55b13c15b69517d3d6dfc103d865fdc678f0641a3e427fc50d6f3aefe23187f1"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/narrative_decade_paths.csv",
+      "sha256": "5ed2eb2bbce8cdfd7f3b2220710a832263939336b436c1953e83c461b0844be3"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/section_assignments.csv",
+      "sha256": "7f42cd06c11d5e8861200b7c3e53a9d6703e84ae16aa0bae9bb5911bf54e015c"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/narrative_paths.csv",
+      "sha256": "95903f950ba72b2a7be529e3611084fa6ce204e2f50b2160746e0acaef0ee5ba"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/narrative_method.json",
+      "sha256": "820048070ad4732d0e8a9bbc71ccfb3c3a893a41cf57c4234ec62a0090db3b1d"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/exploratory_map.csv",
+      "sha256": "d7c5da175cd8bfcd2e62e065c562d53d2d66c7e9bb7d04048e573ef4249c5d51"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/tokenization_diagnostics.csv",
+      "sha256": "8553d6ac58ea52f269a9241adeab82a2c6e832a44f8f005699157a645e37f713"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/repeated_refrain_sensitivity.csv",
+      "sha256": "0cad013c8c05c0d2a783982f58dc3a12f2300991c6cd8e4d12a4b3e87dbaaa2d"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/seed_assignments.csv",
+      "sha256": "5c157cde7c852595ebcf881e456377aac136bed842ced9f374f830d632204ff3"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/topic_hierarchy.json",
+      "sha256": "1f58027819541d0b34a70347367224fed30f23d087b8ea12a58deed9b395a91f"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/narrative_section_scores.csv",
+      "sha256": "ea0a15cddb4ed3e9eeb5190e7fedff2b2837fa4c47f707d37d6f2aa42dbccb2f"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/projections.json",
+      "sha256": "95ce1deeba24875739470e15c07a2a3006d87bb57471679f22e865fc155eec80"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/song_topic_shares_unique_first_occurrence.csv",
+      "sha256": "1498860c5156a1df828072490f513469a26839d84f10a550c6eb7cdbf9112f2e"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/model_manifest.json",
+      "sha256": "2ea345195970c782e22cfe08dbc7ed50437a3d26a76cf549755b9fa90821f18d"
+    },
+    {
+      "path": "results/intfloat--multilingual-e5-small/topics.json",
+      "sha256": "2c374b0726cb04bc1370b2b2cc81df95e24082658a842082aad20112e44f5298"
+    },
+    {
+      "path": "results/rag-e5/summary.json",
+      "sha256": "3e46aa5d4003c733a2542fba17f695cbcce4a062be8d8fc2e31dfa9b2f7fb086"
+    },
+    {
+      "path": "results/rag-e5/summary.csv",
+      "sha256": "e5f5a6d77d490f65668df501fd8b3bc5fb8bc474ad2100a30020784dffb6577b"
+    },
+    {
+      "path": "results/rag-e5/timing.json",
+      "sha256": "6b0f6b387407b10ac38692e08e88bcb03fc0b2be469e8a48d51d3a5d5d0730c7"
+    },
+    {
+      "path": "results/rag-e5/questions.json",
+      "sha256": "50a7a68659f99c64cfe89d478ff261086638d2521ba0514d2e56601b62c39843"
+    },
+    {
+      "path": "results/rag-e5/encoder-manifest.json",
+      "sha256": "f42126d4d9534e0a2dc2048e622add6203a2e9da528e3689bd3ee841131453d3"
+    },
+    {
+      "path": "results/rag-e5/protocol.json",
+      "sha256": "577f1e55ed45a26ac69f202e5fba477ceb2d3bda777dc18f29745ac58cfe7a8b"
+    },
+    {
+      "path": "results/rag-e5/runs.json",
+      "sha256": "ef5c92909aa6a00f928b17d992b578fbc4bb9a6c761456b6bc995a7b87d03d91"
+    },
+    {
+      "path": "results/llm-review/summary.json",
+      "sha256": "08bea857ad33bf374072ed4aecac72804f61f369d290b7fad37dc7011b1c4e3f"
+    },
+    {
+      "path": "results/llm-review/reviews.json",
+      "sha256": "e8d4704a8c7df862b4c590d599ed8a363d68824461db150837e68529728b8e3f"
+    },
+    {
+      "path": "results/llm-review/protocol.json",
+      "sha256": "61c95b0f8ae4cbf0d53b16b33fff26bbdca8fb7881a2d01c042511766b01be43"
+    },
+    {
+      "path": "results/llm-review/anthropic-synthetic.json",
+      "sha256": "ff6fde392a961761842fbbf6e3d0284b5d842e9e36d96aed061d3f7e30668086"
+    }
+  ]
+}

@@ -1,0 +1,6796 @@
+{
+  "schema_version": 1,
+  "cutoff": "2026-10-11",
+  "songs": [
+    {
+      "song_id": "s1982-60e7787d2b2d",
+      "year": 1982,
+      "decade": 1980,
+      "language": "en",
+      "consensus": {
+        "voice": "dialogue_or_multiple",
+        "stance": "unresolved",
+        "fear_relevance": "unresolved",
+        "fear_polarity": "unresolved",
+        "subtopics": [
+          "surveillance_pursuit"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "stance",
+        "fear_relevance",
+        "fear_polarity",
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": false,
+        "fear_relevance": false,
+        "fear_polarity": false,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": null,
+      "fear_conditioned_subtopics": [
+        "unresolved"
+      ],
+      "paired_joint_vote_subtopics": [
+        "surveillance_pursuit"
+      ],
+      "valid_votes_by_field": {
+        "voice": 2,
+        "stance": 2,
+        "fear_relevance": 2,
+        "fear_polarity": 2,
+        "subtopics": 2
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": false,
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "joint_support_votes": {
+        "surveillance_pursuit": 2,
+        "collective_violence": 0,
+        "loss_abandonment": 0,
+        "fragility_identity": 0,
+        "uncertainty_change": 0,
+        "relational_coercion": 1,
+        "supernatural": 1
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2004-641528a4ed5c",
+      "year": 2004,
+      "decade": 2000,
+      "language": "es",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "unresolved",
+        "fear_relevance": "unresolved",
+        "fear_polarity": "unresolved",
+        "subtopics": [
+          "loss_abandonment"
+        ],
+        "arc": "repetition"
+      },
+      "unresolved_fields": [
+        "stance",
+        "fear_relevance",
+        "fear_polarity"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": false,
+        "fear_relevance": false,
+        "fear_polarity": false,
+        "subtopics": false,
+        "arc": true
+      },
+      "fear_reference_consensus": null,
+      "fear_conditioned_subtopics": [
+        "unresolved"
+      ],
+      "paired_joint_vote_subtopics": [
+        "unresolved"
+      ],
+      "valid_votes_by_field": {
+        "voice": 2,
+        "stance": 2,
+        "fear_relevance": 2,
+        "fear_polarity": 2,
+        "subtopics": 2
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": false,
+      "title": "La Camisa Negra",
+      "artist": "Juanes",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 1,
+        "fragility_identity": 1,
+        "uncertainty_change": 0,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2024-752f61769347",
+      "year": 2024,
+      "decade": 2020,
+      "language": "es",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "ambivalence",
+        "fear_relevance": "explicit",
+        "fear_polarity": "hypothetical",
+        "subtopics": [
+          "fragility_identity",
+          "uncertainty_change"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": false,
+        "fear_relevance": false,
+        "fear_polarity": false,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "paired_joint_vote_subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "valid_votes_by_field": {
+        "voice": 3,
+        "stance": 3,
+        "fear_relevance": 3,
+        "fear_polarity": 3,
+        "subtopics": 3
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": true,
+      "title": "Tengo Un Pensamiento",
+      "artist": "Amaia",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 1,
+        "fragility_identity": 2,
+        "uncertainty_change": 2,
+        "relational_coercion": 1,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2021-a17cc29d59f5",
+      "year": 2021,
+      "decade": 2020,
+      "language": "es",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "resistance",
+        "fear_relevance": "explicit",
+        "fear_polarity": "denied",
+        "subtopics": [
+          "fragility_identity",
+          "relational_coercion"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": false,
+        "stance": false,
+        "fear_relevance": false,
+        "fear_polarity": true,
+        "subtopics": true,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ],
+      "paired_joint_vote_subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ],
+      "valid_votes_by_field": {
+        "voice": 3,
+        "stance": 3,
+        "fear_relevance": 3,
+        "fear_polarity": 3,
+        "subtopics": 3
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": true,
+      "title": "Ay Mamá",
+      "artist": "Rigoberta Bandini",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 0,
+        "fragility_identity": 2,
+        "uncertainty_change": 0,
+        "relational_coercion": 3,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2002-74fa275abd80",
+      "year": 2002,
+      "decade": 2000,
+      "language": "es",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "care",
+        "fear_relevance": "implied",
+        "fear_polarity": "hypothetical",
+        "subtopics": [
+          "fragility_identity",
+          "loss_abandonment"
+        ],
+        "arc": "repetition"
+      },
+      "unresolved_fields": [],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": true,
+        "fear_relevance": true,
+        "fear_polarity": false,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ],
+      "paired_joint_vote_subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ],
+      "valid_votes_by_field": {
+        "voice": 3,
+        "stance": 3,
+        "fear_relevance": 3,
+        "fear_polarity": 3,
+        "subtopics": 3
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": true,
+      "title": "A Dios Le Pido",
+      "artist": "Juanes",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 3,
+        "fragility_identity": 2,
+        "uncertainty_change": 1,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": "Cuidado de vínculos"
+    },
+    {
+      "song_id": "s2017-2c3252eb3c12",
+      "year": 2017,
+      "decade": 2010,
+      "language": "es",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "resistance",
+        "fear_relevance": "unresolved",
+        "fear_polarity": "mixed",
+        "subtopics": [
+          "unresolved"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "fear_relevance",
+        "subtopics",
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": true,
+        "fear_relevance": false,
+        "fear_polarity": true,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": null,
+      "fear_conditioned_subtopics": [
+        "unresolved"
+      ],
+      "paired_joint_vote_subtopics": [
+        "unresolved"
+      ],
+      "valid_votes_by_field": {
+        "voice": 2,
+        "stance": 2,
+        "fear_relevance": 2,
+        "fear_polarity": 2,
+        "subtopics": 2
+      },
+      "valid_strict_arc_votes": 0,
+      "third_review_attempted": false,
+      "title": "La Puerta Violeta",
+      "artist": "Rozalén",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 1,
+        "fragility_identity": 1,
+        "uncertainty_change": 1,
+        "relational_coercion": 1,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s1992-92d3c88cd13e",
+      "year": 1992,
+      "decade": 1990,
+      "language": "en",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "ambivalence",
+        "fear_relevance": "unresolved",
+        "fear_polarity": "unresolved",
+        "subtopics": [
+          "fragility_identity"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "fear_relevance",
+        "fear_polarity",
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": true,
+        "fear_relevance": false,
+        "fear_polarity": false,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": null,
+      "fear_conditioned_subtopics": [
+        "unresolved"
+      ],
+      "paired_joint_vote_subtopics": [
+        "unresolved"
+      ],
+      "valid_votes_by_field": {
+        "voice": 2,
+        "stance": 2,
+        "fear_relevance": 2,
+        "fear_polarity": 2,
+        "subtopics": 2
+      },
+      "valid_strict_arc_votes": 1,
+      "third_review_attempted": false,
+      "title": "Creep",
+      "artist": "Radiohead",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 1,
+        "fragility_identity": 1,
+        "uncertainty_change": 0,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2013-877c19a80720",
+      "year": 2013,
+      "decade": 2010,
+      "language": "es",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "resistance",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "subtopics": [
+          "uncertainty_change"
+        ],
+        "arc": "repetition"
+      },
+      "unresolved_fields": [],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": true,
+        "fear_relevance": true,
+        "fear_polarity": true,
+        "subtopics": false,
+        "arc": true
+      },
+      "fear_reference_consensus": false,
+      "fear_conditioned_subtopics": [
+        "no_supported_fear_reference"
+      ],
+      "paired_joint_vote_subtopics": [
+        "no_supported_fear_reference"
+      ],
+      "valid_votes_by_field": {
+        "voice": 2,
+        "stance": 2,
+        "fear_relevance": 2,
+        "fear_polarity": 2,
+        "subtopics": 2
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": false,
+      "title": "Vivir Mi Vida",
+      "artist": "Marc Anthony",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 0,
+        "fragility_identity": 0,
+        "uncertainty_change": 0,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2000-8ece8cb48467",
+      "year": 2000,
+      "decade": 2000,
+      "language": "en",
+      "consensus": {
+        "voice": "unresolved",
+        "stance": "unresolved",
+        "fear_relevance": "implied",
+        "fear_polarity": "mixed",
+        "subtopics": [
+          "loss_abandonment",
+          "relational_coercion"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "voice",
+        "stance",
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": false,
+        "stance": false,
+        "fear_relevance": true,
+        "fear_polarity": true,
+        "subtopics": true,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "loss_abandonment",
+        "relational_coercion"
+      ],
+      "paired_joint_vote_subtopics": [
+        "loss_abandonment",
+        "relational_coercion"
+      ],
+      "valid_votes_by_field": {
+        "voice": 2,
+        "stance": 2,
+        "fear_relevance": 2,
+        "fear_polarity": 2,
+        "subtopics": 2
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": false,
+      "title": "Stan",
+      "artist": "Eminem feat. Dido",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 2,
+        "fragility_identity": 0,
+        "uncertainty_change": 0,
+        "relational_coercion": 2,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2022-d221fdb58fc4",
+      "year": 2022,
+      "decade": 2020,
+      "language": "es",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "resistance",
+        "fear_relevance": "unresolved",
+        "fear_polarity": "unresolved",
+        "subtopics": [
+          "unresolved"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "fear_relevance",
+        "fear_polarity",
+        "subtopics",
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": true,
+        "fear_relevance": false,
+        "fear_polarity": false,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": null,
+      "fear_conditioned_subtopics": [
+        "unresolved"
+      ],
+      "paired_joint_vote_subtopics": [
+        "unresolved"
+      ],
+      "valid_votes_by_field": {
+        "voice": 2,
+        "stance": 2,
+        "fear_relevance": 2,
+        "fear_polarity": 2,
+        "subtopics": 2
+      },
+      "valid_strict_arc_votes": 1,
+      "third_review_attempted": false,
+      "title": "DESPECHÁ",
+      "artist": "Rosalía",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 0,
+        "fragility_identity": 0,
+        "uncertainty_change": 0,
+        "relational_coercion": 1,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2013-608a7aee9a18",
+      "year": 2013,
+      "decade": 2010,
+      "language": "en",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "unresolved",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "subtopics": [
+          "other"
+        ],
+        "arc": "repetition"
+      },
+      "unresolved_fields": [
+        "stance"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": false,
+        "fear_relevance": true,
+        "fear_polarity": true,
+        "subtopics": false,
+        "arc": true
+      },
+      "fear_reference_consensus": false,
+      "fear_conditioned_subtopics": [
+        "no_supported_fear_reference"
+      ],
+      "paired_joint_vote_subtopics": [
+        "no_supported_fear_reference"
+      ],
+      "valid_votes_by_field": {
+        "voice": 2,
+        "stance": 2,
+        "fear_relevance": 2,
+        "fear_polarity": 2,
+        "subtopics": 2
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": false,
+      "title": "Happy",
+      "artist": "Pharrell Williams",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 0,
+        "fragility_identity": 0,
+        "uncertainty_change": 0,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2004-58ef65dc2ae6",
+      "year": 2004,
+      "decade": 2000,
+      "language": "es",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "ambivalence",
+        "fear_relevance": "explicit",
+        "fear_polarity": "mixed",
+        "subtopics": [
+          "loss_abandonment",
+          "uncertainty_change"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": true,
+        "fear_relevance": true,
+        "fear_polarity": true,
+        "subtopics": true,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ],
+      "paired_joint_vote_subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ],
+      "valid_votes_by_field": {
+        "voice": 2,
+        "stance": 2,
+        "fear_relevance": 2,
+        "fear_polarity": 2,
+        "subtopics": 2
+      },
+      "valid_strict_arc_votes": 0,
+      "third_review_attempted": false,
+      "title": "Miedo",
+      "artist": "M-Clan",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 2,
+        "fragility_identity": 0,
+        "uncertainty_change": 2,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s1984-8b16c1dac4a9",
+      "year": 1984,
+      "decade": 1980,
+      "language": "en",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "ambivalence",
+        "fear_relevance": "implied",
+        "fear_polarity": "hypothetical",
+        "subtopics": [
+          "relational_coercion",
+          "uncertainty_change"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": false,
+        "fear_relevance": true,
+        "fear_polarity": false,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "relational_coercion",
+        "uncertainty_change"
+      ],
+      "paired_joint_vote_subtopics": [
+        "relational_coercion",
+        "uncertainty_change"
+      ],
+      "valid_votes_by_field": {
+        "voice": 3,
+        "stance": 3,
+        "fear_relevance": 3,
+        "fear_polarity": 3,
+        "subtopics": 3
+      },
+      "valid_strict_arc_votes": 1,
+      "third_review_attempted": true,
+      "title": "Wake Me Up Before You Go-Go",
+      "artist": "Wham!",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 1,
+        "fragility_identity": 0,
+        "uncertainty_change": 3,
+        "relational_coercion": 2,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s1987-b3350477e063",
+      "year": 1987,
+      "decade": 1980,
+      "language": "es",
+      "consensus": {
+        "voice": "unclear",
+        "stance": "ambivalence",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "subtopics": [
+          "fragility_identity",
+          "loss_abandonment"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": false,
+        "stance": false,
+        "fear_relevance": false,
+        "fear_polarity": false,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": false,
+      "fear_conditioned_subtopics": [
+        "no_supported_fear_reference"
+      ],
+      "paired_joint_vote_subtopics": [
+        "no_supported_fear_reference"
+      ],
+      "valid_votes_by_field": {
+        "voice": 3,
+        "stance": 3,
+        "fear_relevance": 3,
+        "fear_polarity": 3,
+        "subtopics": 3
+      },
+      "valid_strict_arc_votes": 1,
+      "third_review_attempted": true,
+      "title": "En algún lugar",
+      "artist": "Duncan Dhu",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 1,
+        "fragility_identity": 0,
+        "uncertainty_change": 1,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2008-4db2a4ef136d",
+      "year": 2008,
+      "decade": 2000,
+      "language": "en",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "ambivalence",
+        "fear_relevance": "explicit",
+        "fear_polarity": "mixed",
+        "subtopics": [
+          "fragility_identity",
+          "uncertainty_change"
+        ],
+        "arc": "repetition"
+      },
+      "unresolved_fields": [],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": false,
+        "fear_relevance": false,
+        "fear_polarity": true,
+        "subtopics": true,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "paired_joint_vote_subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "valid_votes_by_field": {
+        "voice": 3,
+        "stance": 3,
+        "fear_relevance": 3,
+        "fear_polarity": 3,
+        "subtopics": 3
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": true,
+      "title": "Disturbia",
+      "artist": "Rihanna",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 0,
+        "fragility_identity": 3,
+        "uncertainty_change": 3,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s1994-56ff6ca6c8bb",
+      "year": 1994,
+      "decade": 1990,
+      "language": "en",
+      "consensus": {
+        "voice": "unresolved",
+        "stance": "unresolved",
+        "fear_relevance": "implied",
+        "fear_polarity": "unresolved",
+        "subtopics": [
+          "collective_violence",
+          "uncertainty_change"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "voice",
+        "stance",
+        "fear_polarity",
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": false,
+        "stance": false,
+        "fear_relevance": true,
+        "fear_polarity": false,
+        "subtopics": true,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "collective_violence",
+        "uncertainty_change"
+      ],
+      "paired_joint_vote_subtopics": [
+        "collective_violence",
+        "uncertainty_change"
+      ],
+      "valid_votes_by_field": {
+        "voice": 2,
+        "stance": 2,
+        "fear_relevance": 2,
+        "fear_polarity": 2,
+        "subtopics": 2
+      },
+      "valid_strict_arc_votes": 1,
+      "third_review_attempted": false,
+      "title": "Zombie",
+      "artist": "The Cranberries",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 2,
+        "loss_abandonment": 0,
+        "fragility_identity": 0,
+        "uncertainty_change": 2,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s1999-e3d46788c16b",
+      "year": 1999,
+      "decade": 1990,
+      "language": "es",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "ambivalence",
+        "fear_relevance": "implied",
+        "fear_polarity": "unresolved",
+        "subtopics": [
+          "loss_abandonment",
+          "uncertainty_change"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "fear_polarity",
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": true,
+        "fear_relevance": true,
+        "fear_polarity": false,
+        "subtopics": true,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ],
+      "paired_joint_vote_subtopics": [
+        "loss_abandonment",
+        "uncertainty_change"
+      ],
+      "valid_votes_by_field": {
+        "voice": 3,
+        "stance": 3,
+        "fear_relevance": 3,
+        "fear_polarity": 3,
+        "subtopics": 3
+      },
+      "valid_strict_arc_votes": 1,
+      "third_review_attempted": true,
+      "title": "Llamando a la Tierra",
+      "artist": "M-Clan",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 2,
+        "fragility_identity": 0,
+        "uncertainty_change": 2,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2014-27b61f0565ce",
+      "year": 2014,
+      "decade": 2010,
+      "language": "en",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "ambivalence",
+        "fear_relevance": "implied",
+        "fear_polarity": "hypothetical",
+        "subtopics": [
+          "fragility_identity",
+          "uncertainty_change"
+        ],
+        "arc": "repetition"
+      },
+      "unresolved_fields": [],
+      "initial_field_agreement": {
+        "voice": false,
+        "stance": true,
+        "fear_relevance": true,
+        "fear_polarity": false,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "paired_joint_vote_subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "valid_votes_by_field": {
+        "voice": 3,
+        "stance": 3,
+        "fear_relevance": 3,
+        "fear_polarity": 3,
+        "subtopics": 3
+      },
+      "valid_strict_arc_votes": 3,
+      "third_review_attempted": true,
+      "title": "Out Of The Woods",
+      "artist": "Taylor Swift",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 1,
+        "fragility_identity": 2,
+        "uncertainty_change": 3,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": "Seguridad del vínculo"
+    },
+    {
+      "song_id": "s2015-c11afde63d3a",
+      "year": 2015,
+      "decade": 2010,
+      "language": "en",
+      "consensus": {
+        "voice": "first_collective",
+        "stance": "ambivalence",
+        "fear_relevance": "explicit",
+        "fear_polarity": "mixed",
+        "subtopics": [
+          "fragility_identity",
+          "uncertainty_change"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": false,
+        "stance": true,
+        "fear_relevance": false,
+        "fear_polarity": true,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "paired_joint_vote_subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "valid_votes_by_field": {
+        "voice": 3,
+        "stance": 3,
+        "fear_relevance": 3,
+        "fear_polarity": 3,
+        "subtopics": 3
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": true,
+      "title": "Stressed Out",
+      "artist": "twenty one pilots",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 1,
+        "fragility_identity": 2,
+        "uncertainty_change": 3,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2026-2e43c234ac58",
+      "year": 2026,
+      "decade": 2020,
+      "language": "en",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "unresolved",
+        "fear_relevance": "implied",
+        "fear_polarity": "unresolved",
+        "subtopics": [
+          "uncertainty_change"
+        ],
+        "arc": "turn"
+      },
+      "unresolved_fields": [
+        "stance",
+        "fear_polarity"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": false,
+        "fear_relevance": true,
+        "fear_polarity": false,
+        "subtopics": false,
+        "arc": true
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "uncertainty_change"
+      ],
+      "paired_joint_vote_subtopics": [
+        "uncertainty_change"
+      ],
+      "valid_votes_by_field": {
+        "voice": 2,
+        "stance": 2,
+        "fear_relevance": 2,
+        "fear_polarity": 2,
+        "subtopics": 2
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": false,
+      "title": "Aperture",
+      "artist": "Harry Styles",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 1,
+        "fragility_identity": 0,
+        "uncertainty_change": 2,
+        "relational_coercion": 1,
+        "supernatural": 0
+      },
+      "editorial_value_reading": "Seguridad y unión"
+    },
+    {
+      "song_id": "s1991-d25354f1d8f0",
+      "year": 1991,
+      "decade": 1990,
+      "language": "en",
+      "consensus": {
+        "voice": "dialogue_or_multiple",
+        "stance": "ambivalence",
+        "fear_relevance": "explicit",
+        "fear_polarity": "mixed",
+        "subtopics": [
+          "supernatural",
+          "uncertainty_change"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": false,
+        "stance": false,
+        "fear_relevance": false,
+        "fear_polarity": false,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "supernatural",
+        "uncertainty_change"
+      ],
+      "paired_joint_vote_subtopics": [
+        "supernatural",
+        "uncertainty_change"
+      ],
+      "valid_votes_by_field": {
+        "voice": 3,
+        "stance": 3,
+        "fear_relevance": 3,
+        "fear_polarity": 3,
+        "subtopics": 3
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": true,
+      "title": "Enter Sandman",
+      "artist": "Metallica",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 0,
+        "fragility_identity": 0,
+        "uncertainty_change": 3,
+        "relational_coercion": 0,
+        "supernatural": 2
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2000-a62b1066ea67",
+      "year": 2000,
+      "decade": 2000,
+      "language": "en",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "ambivalence",
+        "fear_relevance": "explicit",
+        "fear_polarity": "affirmed",
+        "subtopics": [
+          "fragility_identity",
+          "uncertainty_change"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": true,
+        "fear_relevance": true,
+        "fear_polarity": true,
+        "subtopics": true,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "paired_joint_vote_subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "valid_votes_by_field": {
+        "voice": 3,
+        "stance": 3,
+        "fear_relevance": 3,
+        "fear_polarity": 3,
+        "subtopics": 3
+      },
+      "valid_strict_arc_votes": 1,
+      "third_review_attempted": true,
+      "title": "Crawling",
+      "artist": "Linkin Park",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 0,
+        "fragility_identity": 3,
+        "uncertainty_change": 3,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2022-460a59f8aa02",
+      "year": 2022,
+      "decade": 2020,
+      "language": "en",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "ambivalence",
+        "fear_relevance": "implied",
+        "fear_polarity": "mixed",
+        "subtopics": [
+          "fragility_identity",
+          "loss_abandonment"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": true,
+        "fear_relevance": true,
+        "fear_polarity": true,
+        "subtopics": true,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ],
+      "paired_joint_vote_subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ],
+      "valid_votes_by_field": {
+        "voice": 2,
+        "stance": 2,
+        "fear_relevance": 2,
+        "fear_polarity": 2,
+        "subtopics": 2
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": false,
+      "title": "Anti-Hero",
+      "artist": "Taylor Swift",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 2,
+        "fragility_identity": 2,
+        "uncertainty_change": 0,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2014-e8f5796fbb18",
+      "year": 2014,
+      "decade": 2010,
+      "language": "es",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "unresolved",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "subtopics": [
+          "unresolved"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "stance",
+        "subtopics",
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": false,
+        "fear_relevance": true,
+        "fear_polarity": true,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": false,
+      "fear_conditioned_subtopics": [
+        "no_supported_fear_reference"
+      ],
+      "paired_joint_vote_subtopics": [
+        "no_supported_fear_reference"
+      ],
+      "valid_votes_by_field": {
+        "voice": 2,
+        "stance": 2,
+        "fear_relevance": 2,
+        "fear_polarity": 2,
+        "subtopics": 2
+      },
+      "valid_strict_arc_votes": 1,
+      "third_review_attempted": false,
+      "title": "Bailando",
+      "artist": "Enrique Iglesias feat. Descemer Bueno, Gente de Zona",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 0,
+        "fragility_identity": 0,
+        "uncertainty_change": 0,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2021-27c16cbb8cff",
+      "year": 2021,
+      "decade": 2020,
+      "language": "en",
+      "consensus": {
+        "voice": "dialogue_or_multiple",
+        "stance": "resistance",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "subtopics": [
+          "fragility_identity",
+          "relational_coercion"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": true,
+        "fear_relevance": false,
+        "fear_polarity": false,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": false,
+      "fear_conditioned_subtopics": [
+        "no_supported_fear_reference"
+      ],
+      "paired_joint_vote_subtopics": [
+        "no_supported_fear_reference"
+      ],
+      "valid_votes_by_field": {
+        "voice": 3,
+        "stance": 3,
+        "fear_relevance": 3,
+        "fear_polarity": 3,
+        "subtopics": 3
+      },
+      "valid_strict_arc_votes": 0,
+      "third_review_attempted": true,
+      "title": "Your Power",
+      "artist": "Billie Eilish",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 0,
+        "fragility_identity": 1,
+        "uncertainty_change": 0,
+        "relational_coercion": 1,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s1983-753cd2a7d41b",
+      "year": 1983,
+      "decade": 1980,
+      "language": "en",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "avoidance",
+        "fear_relevance": "explicit",
+        "fear_polarity": "affirmed",
+        "subtopics": [
+          "surveillance_pursuit",
+          "uncertainty_change"
+        ],
+        "arc": "repetition"
+      },
+      "unresolved_fields": [],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": true,
+        "fear_relevance": false,
+        "fear_polarity": true,
+        "subtopics": true,
+        "arc": true
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "surveillance_pursuit",
+        "uncertainty_change"
+      ],
+      "paired_joint_vote_subtopics": [
+        "surveillance_pursuit",
+        "uncertainty_change"
+      ],
+      "valid_votes_by_field": {
+        "voice": 3,
+        "stance": 3,
+        "fear_relevance": 3,
+        "fear_polarity": 3,
+        "subtopics": 3
+      },
+      "valid_strict_arc_votes": 3,
+      "third_review_attempted": true,
+      "title": "Somebody's Watching Me",
+      "artist": "Rockwell",
+      "joint_support_votes": {
+        "surveillance_pursuit": 3,
+        "collective_violence": 0,
+        "loss_abandonment": 0,
+        "fragility_identity": 1,
+        "uncertainty_change": 2,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": "Seguridad e intimidad"
+    },
+    {
+      "song_id": "s1990-5b29a6fedb71",
+      "year": 1990,
+      "decade": 1990,
+      "language": "es",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "unresolved",
+        "fear_relevance": "explicit",
+        "fear_polarity": "unresolved",
+        "subtopics": [
+          "loss_abandonment",
+          "relational_coercion"
+        ],
+        "arc": "repetition"
+      },
+      "unresolved_fields": [
+        "stance",
+        "fear_polarity"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": false,
+        "fear_relevance": false,
+        "fear_polarity": false,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "loss_abandonment",
+        "relational_coercion"
+      ],
+      "paired_joint_vote_subtopics": [
+        "loss_abandonment",
+        "relational_coercion"
+      ],
+      "valid_votes_by_field": {
+        "voice": 3,
+        "stance": 3,
+        "fear_relevance": 3,
+        "fear_polarity": 3,
+        "subtopics": 3
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": true,
+      "title": "Rayando el Sol",
+      "artist": "Maná",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 3,
+        "fragility_identity": 0,
+        "uncertainty_change": 1,
+        "relational_coercion": 2,
+        "supernatural": 0
+      },
+      "editorial_value_reading": "Vínculo afectivo"
+    },
+    {
+      "song_id": "s1986-9726c0e33862",
+      "year": 1986,
+      "decade": 1980,
+      "language": "es",
+      "consensus": {
+        "voice": "third_person_story",
+        "stance": "other",
+        "fear_relevance": "explicit",
+        "fear_polarity": "mixed",
+        "subtopics": [
+          "collective_violence",
+          "relational_coercion"
+        ],
+        "arc": "mixed"
+      },
+      "unresolved_fields": [],
+      "initial_field_agreement": {
+        "voice": false,
+        "stance": false,
+        "fear_relevance": false,
+        "fear_polarity": true,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "collective_violence",
+        "relational_coercion"
+      ],
+      "paired_joint_vote_subtopics": [
+        "collective_violence",
+        "relational_coercion"
+      ],
+      "valid_votes_by_field": {
+        "voice": 3,
+        "stance": 3,
+        "fear_relevance": 3,
+        "fear_polarity": 3,
+        "subtopics": 3
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": true,
+      "title": "Cruz de Navajas",
+      "artist": "Mecano",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 3,
+        "loss_abandonment": 1,
+        "fragility_identity": 0,
+        "uncertainty_change": 0,
+        "relational_coercion": 2,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2020-6f072260cb90",
+      "year": 2020,
+      "decade": 2020,
+      "language": "es",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "ambivalence",
+        "fear_relevance": "implied",
+        "fear_polarity": "unresolved",
+        "subtopics": [
+          "uncertainty_change"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "fear_polarity",
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": true,
+        "fear_relevance": true,
+        "fear_polarity": false,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "uncertainty_change"
+      ],
+      "paired_joint_vote_subtopics": [
+        "uncertainty_change"
+      ],
+      "valid_votes_by_field": {
+        "voice": 2,
+        "stance": 2,
+        "fear_relevance": 2,
+        "fear_polarity": 2,
+        "subtopics": 2
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": false,
+      "title": "Ansiedad",
+      "artist": "Carla Morrison",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 1,
+        "fragility_identity": 1,
+        "uncertainty_change": 2,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s1993-a759a1183939",
+      "year": 1993,
+      "decade": 1990,
+      "language": "es",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "resistance",
+        "fear_relevance": "unresolved",
+        "fear_polarity": "unresolved",
+        "subtopics": [
+          "collective_violence",
+          "surveillance_pursuit"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "fear_relevance",
+        "fear_polarity",
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": true,
+        "fear_relevance": false,
+        "fear_polarity": false,
+        "subtopics": true,
+        "arc": false
+      },
+      "fear_reference_consensus": null,
+      "fear_conditioned_subtopics": [
+        "unresolved"
+      ],
+      "paired_joint_vote_subtopics": [
+        "collective_violence",
+        "surveillance_pursuit"
+      ],
+      "valid_votes_by_field": {
+        "voice": 2,
+        "stance": 2,
+        "fear_relevance": 2,
+        "fear_polarity": 2,
+        "subtopics": 2
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": false,
+      "title": "Matador",
+      "artist": "Los Fabulosos Cadillacs",
+      "joint_support_votes": {
+        "surveillance_pursuit": 2,
+        "collective_violence": 2,
+        "loss_abandonment": 0,
+        "fragility_identity": 0,
+        "uncertainty_change": 0,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2023-dd058a9c7e57",
+      "year": 2023,
+      "decade": 2020,
+      "language": "en",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "resistance",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "subtopics": [
+          "fragility_identity",
+          "loss_abandonment"
+        ],
+        "arc": "repetition"
+      },
+      "unresolved_fields": [],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": false,
+        "fear_relevance": true,
+        "fear_polarity": true,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": false,
+      "fear_conditioned_subtopics": [
+        "no_supported_fear_reference"
+      ],
+      "paired_joint_vote_subtopics": [
+        "no_supported_fear_reference"
+      ],
+      "valid_votes_by_field": {
+        "voice": 3,
+        "stance": 3,
+        "fear_relevance": 3,
+        "fear_polarity": 3,
+        "subtopics": 3
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": true,
+      "title": "Flowers",
+      "artist": "Miley Cyrus",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 0,
+        "fragility_identity": 0,
+        "uncertainty_change": 0,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2019-1f8fdfe5b713",
+      "year": 2019,
+      "decade": 2010,
+      "language": "en",
+      "consensus": {
+        "voice": "dialogue_or_multiple",
+        "stance": "ambivalence",
+        "fear_relevance": "explicit",
+        "fear_polarity": "mixed",
+        "subtopics": [
+          "fragility_identity",
+          "relational_coercion"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": true,
+        "fear_relevance": false,
+        "fear_polarity": true,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ],
+      "paired_joint_vote_subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ],
+      "valid_votes_by_field": {
+        "voice": 3,
+        "stance": 3,
+        "fear_relevance": 3,
+        "fear_polarity": 3,
+        "subtopics": 3
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": true,
+      "title": "bury a friend",
+      "artist": "Billie Eilish",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 1,
+        "fragility_identity": 2,
+        "uncertainty_change": 0,
+        "relational_coercion": 3,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s1998-81cadc29bda5",
+      "year": 1998,
+      "decade": 1990,
+      "language": "es",
+      "consensus": {
+        "voice": "unresolved",
+        "stance": "unresolved",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "subtopics": [
+          "uncertainty_change"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "voice",
+        "stance",
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": false,
+        "stance": false,
+        "fear_relevance": true,
+        "fear_polarity": true,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": false,
+      "fear_conditioned_subtopics": [
+        "no_supported_fear_reference"
+      ],
+      "paired_joint_vote_subtopics": [
+        "no_supported_fear_reference"
+      ],
+      "valid_votes_by_field": {
+        "voice": 2,
+        "stance": 2,
+        "fear_relevance": 2,
+        "fear_polarity": 2,
+        "subtopics": 2
+      },
+      "valid_strict_arc_votes": 1,
+      "third_review_attempted": false,
+      "title": "La Vida Es Un Carnaval",
+      "artist": "Celia Cruz",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 0,
+        "fragility_identity": 0,
+        "uncertainty_change": 0,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2003-863da31c5eaa",
+      "year": 2003,
+      "decade": 2000,
+      "language": "en",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "unresolved",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "subtopics": [
+          "unresolved"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "stance",
+        "subtopics",
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": false,
+        "fear_relevance": true,
+        "fear_polarity": true,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": false,
+      "fear_conditioned_subtopics": [
+        "no_supported_fear_reference"
+      ],
+      "paired_joint_vote_subtopics": [
+        "no_supported_fear_reference"
+      ],
+      "valid_votes_by_field": {
+        "voice": 2,
+        "stance": 2,
+        "fear_relevance": 2,
+        "fear_polarity": 2,
+        "subtopics": 2
+      },
+      "valid_strict_arc_votes": 1,
+      "third_review_attempted": false,
+      "title": "Crazy In Love",
+      "artist": "Beyoncé feat. JAY-Z",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 0,
+        "fragility_identity": 0,
+        "uncertainty_change": 0,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2018-fff1d8ae4511",
+      "year": 2018,
+      "decade": 2010,
+      "language": "es",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "unresolved",
+        "fear_relevance": "implied",
+        "fear_polarity": "unresolved",
+        "subtopics": [
+          "uncertainty_change"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "stance",
+        "fear_polarity",
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": false,
+        "fear_relevance": true,
+        "fear_polarity": false,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "uncertainty_change"
+      ],
+      "paired_joint_vote_subtopics": [
+        "uncertainty_change"
+      ],
+      "valid_votes_by_field": {
+        "voice": 2,
+        "stance": 2,
+        "fear_relevance": 2,
+        "fear_polarity": 2,
+        "subtopics": 2
+      },
+      "valid_strict_arc_votes": 1,
+      "third_review_attempted": false,
+      "title": "Malamente",
+      "artist": "Rosalía",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 0,
+        "fragility_identity": 0,
+        "uncertainty_change": 2,
+        "relational_coercion": 0,
+        "supernatural": 1
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s1982-fc0d5bdf6fc1",
+      "year": 1982,
+      "decade": 1980,
+      "language": "en",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "ambivalence",
+        "fear_relevance": "implied",
+        "fear_polarity": "unresolved",
+        "subtopics": [
+          "unresolved"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "fear_polarity",
+        "subtopics",
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": true,
+        "fear_relevance": true,
+        "fear_polarity": false,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "unresolved"
+      ],
+      "paired_joint_vote_subtopics": [
+        "loss_abandonment"
+      ],
+      "valid_votes_by_field": {
+        "voice": 3,
+        "stance": 3,
+        "fear_relevance": 3,
+        "fear_polarity": 3,
+        "subtopics": 3
+      },
+      "valid_strict_arc_votes": 0,
+      "third_review_attempted": true,
+      "title": "Mad World",
+      "artist": "Tears for Fears",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 2,
+        "fragility_identity": 1,
+        "uncertainty_change": 1,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s2001-1b296546902b",
+      "year": 2001,
+      "decade": 2000,
+      "language": "es",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "care",
+        "fear_relevance": "explicit",
+        "fear_polarity": "denied",
+        "subtopics": [
+          "uncertainty_change"
+        ],
+        "arc": "repetition"
+      },
+      "unresolved_fields": [],
+      "initial_field_agreement": {
+        "voice": false,
+        "stance": true,
+        "fear_relevance": false,
+        "fear_polarity": true,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": true,
+      "fear_conditioned_subtopics": [
+        "uncertainty_change"
+      ],
+      "paired_joint_vote_subtopics": [
+        "uncertainty_change"
+      ],
+      "valid_votes_by_field": {
+        "voice": 3,
+        "stance": 3,
+        "fear_relevance": 3,
+        "fear_polarity": 3,
+        "subtopics": 3
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": true,
+      "title": "Color Esperanza",
+      "artist": "Diego Torres",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 1,
+        "fragility_identity": 0,
+        "uncertainty_change": 3,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s1986-e6cc85a542a7",
+      "year": 1986,
+      "decade": 1980,
+      "language": "es",
+      "consensus": {
+        "voice": "third_person_story",
+        "stance": "unresolved",
+        "fear_relevance": "unresolved",
+        "fear_polarity": "unresolved",
+        "subtopics": [
+          "loss_abandonment"
+        ],
+        "arc": "unresolved"
+      },
+      "unresolved_fields": [
+        "stance",
+        "fear_relevance",
+        "fear_polarity",
+        "arc"
+      ],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": false,
+        "fear_relevance": false,
+        "fear_polarity": false,
+        "subtopics": false,
+        "arc": false
+      },
+      "fear_reference_consensus": null,
+      "fear_conditioned_subtopics": [
+        "unresolved"
+      ],
+      "paired_joint_vote_subtopics": [
+        "unresolved"
+      ],
+      "valid_votes_by_field": {
+        "voice": 2,
+        "stance": 2,
+        "fear_relevance": 2,
+        "fear_polarity": 2,
+        "subtopics": 2
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": false,
+      "title": "Hijo de la Luna",
+      "artist": "Mecano",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 1,
+        "fragility_identity": 0,
+        "uncertainty_change": 0,
+        "relational_coercion": 0,
+        "supernatural": 1
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s1982-273644e36995",
+      "year": 1982,
+      "decade": 1980,
+      "language": "es",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "ambivalence",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "subtopics": [
+          "other"
+        ],
+        "arc": "repetition"
+      },
+      "unresolved_fields": [],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": false,
+        "fear_relevance": false,
+        "fear_polarity": false,
+        "subtopics": false,
+        "arc": true
+      },
+      "fear_reference_consensus": false,
+      "fear_conditioned_subtopics": [
+        "no_supported_fear_reference"
+      ],
+      "paired_joint_vote_subtopics": [
+        "no_supported_fear_reference"
+      ],
+      "valid_votes_by_field": {
+        "voice": 3,
+        "stance": 3,
+        "fear_relevance": 3,
+        "fear_polarity": 3,
+        "subtopics": 3
+      },
+      "valid_strict_arc_votes": 3,
+      "third_review_attempted": true,
+      "title": "Bailando",
+      "artist": "Alaska y los Pegamoides",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 1,
+        "fragility_identity": 0,
+        "uncertainty_change": 1,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    },
+    {
+      "song_id": "s1996-126a4f4bfee7",
+      "year": 1996,
+      "decade": 1990,
+      "language": "en",
+      "consensus": {
+        "voice": "first_singular",
+        "stance": "resistance",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "subtopics": [
+          "relational_coercion"
+        ],
+        "arc": "repetition"
+      },
+      "unresolved_fields": [],
+      "initial_field_agreement": {
+        "voice": true,
+        "stance": true,
+        "fear_relevance": true,
+        "fear_polarity": true,
+        "subtopics": false,
+        "arc": true
+      },
+      "fear_reference_consensus": false,
+      "fear_conditioned_subtopics": [
+        "no_supported_fear_reference"
+      ],
+      "paired_joint_vote_subtopics": [
+        "no_supported_fear_reference"
+      ],
+      "valid_votes_by_field": {
+        "voice": 2,
+        "stance": 2,
+        "fear_relevance": 2,
+        "fear_polarity": 2,
+        "subtopics": 2
+      },
+      "valid_strict_arc_votes": 2,
+      "third_review_attempted": false,
+      "title": "Wannabe",
+      "artist": "Spice Girls",
+      "joint_support_votes": {
+        "surveillance_pursuit": 0,
+        "collective_violence": 0,
+        "loss_abandonment": 0,
+        "fragility_identity": 0,
+        "uncertainty_change": 0,
+        "relational_coercion": 0,
+        "supernatural": 0
+      },
+      "editorial_value_reading": null
+    }
+  ],
+  "corpus": [
+    {
+      "song_id": "s1982-60e7787d2b2d",
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "year": 1982,
+      "language": "en",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1982-fc0d5bdf6fc1",
+      "title": "Mad World",
+      "artist": "Tears for Fears",
+      "year": 1982,
+      "language": "en",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1983-753cd2a7d41b",
+      "title": "Somebody's Watching Me",
+      "artist": "Rockwell",
+      "year": 1983,
+      "language": "en",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1984-8b16c1dac4a9",
+      "title": "Wake Me Up Before You Go-Go",
+      "artist": "Wham!",
+      "year": 1984,
+      "language": "en",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1987-b3350477e063",
+      "title": "En algún lugar",
+      "artist": "Duncan Dhu",
+      "year": 1987,
+      "language": "es",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1986-e6cc85a542a7",
+      "title": "Hijo de la Luna",
+      "artist": "Mecano",
+      "year": 1986,
+      "language": "es",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1986-9726c0e33862",
+      "title": "Cruz de Navajas",
+      "artist": "Mecano",
+      "year": 1986,
+      "language": "es",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1982-273644e36995",
+      "title": "Bailando",
+      "artist": "Alaska y los Pegamoides",
+      "year": 1982,
+      "language": "es",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1991-d25354f1d8f0",
+      "title": "Enter Sandman",
+      "artist": "Metallica",
+      "year": 1991,
+      "language": "en",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1994-56ff6ca6c8bb",
+      "title": "Zombie",
+      "artist": "The Cranberries",
+      "year": 1994,
+      "language": "en",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1992-92d3c88cd13e",
+      "title": "Creep",
+      "artist": "Radiohead",
+      "year": 1992,
+      "language": "en",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1996-126a4f4bfee7",
+      "title": "Wannabe",
+      "artist": "Spice Girls",
+      "year": 1996,
+      "language": "en",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1999-e3d46788c16b",
+      "title": "Llamando a la Tierra",
+      "artist": "M-Clan",
+      "year": 1999,
+      "language": "es",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1990-5b29a6fedb71",
+      "title": "Rayando el Sol",
+      "artist": "Maná",
+      "year": 1990,
+      "language": "es",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1993-a759a1183939",
+      "title": "Matador",
+      "artist": "Los Fabulosos Cadillacs",
+      "year": 1993,
+      "language": "es",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1998-81cadc29bda5",
+      "title": "La Vida Es Un Carnaval",
+      "artist": "Celia Cruz",
+      "year": 1998,
+      "language": "es",
+      "decade": 1990
+    },
+    {
+      "song_id": "s2000-a62b1066ea67",
+      "title": "Crawling",
+      "artist": "Linkin Park",
+      "year": 2000,
+      "language": "en",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2008-4db2a4ef136d",
+      "title": "Disturbia",
+      "artist": "Rihanna",
+      "year": 2008,
+      "language": "en",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2000-8ece8cb48467",
+      "title": "Stan",
+      "artist": "Eminem feat. Dido",
+      "year": 2000,
+      "language": "en",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2003-863da31c5eaa",
+      "title": "Crazy In Love",
+      "artist": "Beyoncé feat. JAY-Z",
+      "year": 2003,
+      "language": "en",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2004-58ef65dc2ae6",
+      "title": "Miedo",
+      "artist": "M-Clan",
+      "year": 2004,
+      "language": "es",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2001-1b296546902b",
+      "title": "Color Esperanza",
+      "artist": "Diego Torres",
+      "year": 2001,
+      "language": "es",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2002-74fa275abd80",
+      "title": "A Dios Le Pido",
+      "artist": "Juanes",
+      "year": 2002,
+      "language": "es",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2004-641528a4ed5c",
+      "title": "La Camisa Negra",
+      "artist": "Juanes",
+      "year": 2004,
+      "language": "es",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2015-c11afde63d3a",
+      "title": "Stressed Out",
+      "artist": "twenty one pilots",
+      "year": 2015,
+      "language": "en",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2019-1f8fdfe5b713",
+      "title": "bury a friend",
+      "artist": "Billie Eilish",
+      "year": 2019,
+      "language": "en",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2014-27b61f0565ce",
+      "title": "Out Of The Woods",
+      "artist": "Taylor Swift",
+      "year": 2014,
+      "language": "en",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2013-608a7aee9a18",
+      "title": "Happy",
+      "artist": "Pharrell Williams",
+      "year": 2013,
+      "language": "en",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2017-2c3252eb3c12",
+      "title": "La Puerta Violeta",
+      "artist": "Rozalén",
+      "year": 2017,
+      "language": "es",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2018-fff1d8ae4511",
+      "title": "Malamente",
+      "artist": "Rosalía",
+      "year": 2018,
+      "language": "es",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2013-877c19a80720",
+      "title": "Vivir Mi Vida",
+      "artist": "Marc Anthony",
+      "year": 2013,
+      "language": "es",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2014-e8f5796fbb18",
+      "title": "Bailando",
+      "artist": "Enrique Iglesias feat. Descemer Bueno, Gente de Zona",
+      "year": 2014,
+      "language": "es",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2021-27c16cbb8cff",
+      "title": "Your Power",
+      "artist": "Billie Eilish",
+      "year": 2021,
+      "language": "en",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2022-460a59f8aa02",
+      "title": "Anti-Hero",
+      "artist": "Taylor Swift",
+      "year": 2022,
+      "language": "en",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2023-dd058a9c7e57",
+      "title": "Flowers",
+      "artist": "Miley Cyrus",
+      "year": 2023,
+      "language": "en",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2026-2e43c234ac58",
+      "title": "Aperture",
+      "artist": "Harry Styles",
+      "year": 2026,
+      "language": "en",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2020-6f072260cb90",
+      "title": "Ansiedad",
+      "artist": "Carla Morrison",
+      "year": 2020,
+      "language": "es",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2024-752f61769347",
+      "title": "Tengo Un Pensamiento",
+      "artist": "Amaia",
+      "year": 2024,
+      "language": "es",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2022-d221fdb58fc4",
+      "title": "DESPECHÁ",
+      "artist": "Rosalía",
+      "year": 2022,
+      "language": "es",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2021-a17cc29d59f5",
+      "title": "Ay Mamá",
+      "artist": "Rigoberta Bandini",
+      "year": 2021,
+      "language": "es",
+      "decade": 2020
+    },
+    {
+      "song_id": "s1983-bdacdb50f98b",
+      "title": "Every Breath You Take",
+      "artist": "The Police",
+      "year": 1983,
+      "language": "en",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1983-41bd50ac54c9",
+      "title": "Sweet Dreams (Are Made of This)",
+      "artist": "Eurythmics",
+      "year": 1983,
+      "language": "en",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1985-1f04a95f8e81",
+      "title": "Running Up That Hill (A Deal with God)",
+      "artist": "Kate Bush",
+      "year": 1985,
+      "language": "en",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1984-b9c079cac51d",
+      "title": "When Doves Cry",
+      "artist": "Prince",
+      "year": 1984,
+      "language": "en",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1986-9593910160b3",
+      "title": "Livin' on a Prayer",
+      "artist": "Bon Jovi",
+      "year": 1986,
+      "language": "en",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1988-ea597ef91a3e",
+      "title": "Fast Car",
+      "artist": "Tracy Chapman",
+      "year": 1988,
+      "language": "en",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1988-cb31a6e91407",
+      "title": "Don't Worry, Be Happy",
+      "artist": "Bobby McFerrin",
+      "year": 1988,
+      "language": "en",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1983-3c3a612ae99c",
+      "title": "Sunday Bloody Sunday",
+      "artist": "U2",
+      "year": 1983,
+      "language": "en",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1985-53a3bd6d32fc",
+      "title": "Devuélveme a mi chica",
+      "artist": "Hombres G",
+      "year": 1985,
+      "language": "es",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1984-1fd12840e045",
+      "title": "Escuela de calor",
+      "artist": "Radio Futura",
+      "year": 1984,
+      "language": "es",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1987-a97385504c5f",
+      "title": "Lucha de gigantes",
+      "artist": "Nacha Pop",
+      "year": 1987,
+      "language": "es",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1988-e8466d1c7f62",
+      "title": "Viento",
+      "artist": "Caifanes",
+      "year": 1988,
+      "language": "es",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1988-fb5abe57ce5b",
+      "title": "En la ciudad de la furia",
+      "artist": "Soda Stereo",
+      "year": 1988,
+      "language": "es",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1986-4a2c045c8d9a",
+      "title": "El baile de los que sobran",
+      "artist": "Los Prisioneros",
+      "year": 1986,
+      "language": "es",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1989-96b2425c5303",
+      "title": "No me importa nada",
+      "artist": "Luz Casal",
+      "year": 1989,
+      "language": "es",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1989-0fb262c10117",
+      "title": "Dr. Psiquiatra",
+      "artist": "Gloria Trevi",
+      "year": 1989,
+      "language": "es",
+      "decade": 1980
+    },
+    {
+      "song_id": "s1991-64e5f7b9c689",
+      "title": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "year": 1991,
+      "language": "en",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1991-53d03a7367e9",
+      "title": "Losing My Religion",
+      "artist": "R.E.M.",
+      "year": 1991,
+      "language": "en",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1994-48d4a4094f38",
+      "title": "Black Hole Sun",
+      "artist": "Soundgarden",
+      "year": 1994,
+      "language": "en",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1995-bba49f1a0479",
+      "title": "Gangsta's Paradise",
+      "artist": "Coolio feat. L.V.",
+      "year": 1995,
+      "language": "en",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1995-dabe1459c0af",
+      "title": "Don't Speak",
+      "artist": "No Doubt",
+      "year": 1995,
+      "language": "en",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1995-4594ad47b7a4",
+      "title": "You Oughta Know",
+      "artist": "Alanis Morissette",
+      "year": 1995,
+      "language": "en",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1994-6ec1f44e2f91",
+      "title": "Hurt",
+      "artist": "Nine Inch Nails",
+      "year": 1994,
+      "language": "en",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1998-6df873c88bfb",
+      "title": "Believe",
+      "artist": "Cher",
+      "year": 1998,
+      "language": "en",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1990-6c76920a30e3",
+      "title": "Entre dos tierras",
+      "artist": "Héroes del Silencio",
+      "year": 1990,
+      "language": "es",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1995-c008fc43a9e0",
+      "title": "El duelo",
+      "artist": "La Ley",
+      "year": 1995,
+      "language": "es",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1998-162a4cdeebf7",
+      "title": "Cuéntame al oído",
+      "artist": "La Oreja de Van Gogh",
+      "year": 1998,
+      "language": "es",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1998-83eba83d60c3",
+      "title": "Ojos así",
+      "artist": "Shakira",
+      "year": 1998,
+      "language": "es",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1997-14dd5203e308",
+      "title": "Corazón partío",
+      "artist": "Alejandro Sanz",
+      "year": 1997,
+      "language": "es",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1994-0ffc120badca",
+      "title": "Amor prohibido",
+      "artist": "Selena",
+      "year": 1994,
+      "language": "es",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1993-fdc60290dea2",
+      "title": "Sin documentos",
+      "artist": "Los Rodríguez",
+      "year": 1993,
+      "language": "es",
+      "decade": 1990
+    },
+    {
+      "song_id": "s1990-d5be4878b495",
+      "title": "De música ligera",
+      "artist": "Soda Stereo",
+      "year": 1990,
+      "language": "es",
+      "decade": 1990
+    },
+    {
+      "song_id": "s2003-889e43d5e30e",
+      "title": "Bring Me to Life",
+      "artist": "Evanescence",
+      "year": 2003,
+      "language": "en",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2004-c8563d45233f",
+      "title": "Boulevard of Broken Dreams",
+      "artist": "Green Day",
+      "year": 2004,
+      "language": "en",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2003-dcdb60208d54",
+      "title": "Time Is Running Out",
+      "artist": "Muse",
+      "year": 2003,
+      "language": "en",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2003-da7b9dcde9ea",
+      "title": "Numb",
+      "artist": "Linkin Park",
+      "year": 2003,
+      "language": "en",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2002-db211b5e0194",
+      "title": "Lose Yourself",
+      "artist": "Eminem",
+      "year": 2002,
+      "language": "en",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2003-216b2931f02d",
+      "title": "Toxic",
+      "artist": "Britney Spears",
+      "year": 2003,
+      "language": "en",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2006-eea05f46c025",
+      "title": "Back to Black",
+      "artist": "Amy Winehouse",
+      "year": 2006,
+      "language": "en",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2007-8249e638892e",
+      "title": "No One",
+      "artist": "Alicia Keys",
+      "year": 2007,
+      "language": "en",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2006-6771ec4b3699",
+      "title": "Limón y sal",
+      "artist": "Julieta Venegas",
+      "year": 2006,
+      "language": "es",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2004-d35438c77a29",
+      "title": "Malo",
+      "artist": "Bebe",
+      "year": 2004,
+      "language": "es",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2004-4388d9f56d33",
+      "title": "Fuente de energía",
+      "artist": "Estopa",
+      "year": 2004,
+      "language": "es",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2002-685ee025cb97",
+      "title": "Sin ti no soy nada",
+      "artist": "Amaral",
+      "year": 2002,
+      "language": "es",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2002-f5ee215919ee",
+      "title": "En el 2000",
+      "artist": "Natalia Lafourcade",
+      "year": 2002,
+      "language": "es",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2003-da41ea3510c2",
+      "title": "Eres",
+      "artist": "Café Tacvba",
+      "year": 2003,
+      "language": "es",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2005-f75507be9d35",
+      "title": "La tortura",
+      "artist": "Shakira feat. Alejandro Sanz",
+      "year": 2005,
+      "language": "es",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2005-50d6b72be723",
+      "title": "Atrévete-te-te",
+      "artist": "Calle 13",
+      "year": 2005,
+      "language": "es",
+      "decade": 2000
+    },
+    {
+      "song_id": "s2012-cfadd926d9af",
+      "title": "Skyfall",
+      "artist": "Adele",
+      "year": 2012,
+      "language": "en",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2013-a6ff366b38dd",
+      "title": "Royals",
+      "artist": "Lorde",
+      "year": 2013,
+      "language": "en",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2014-58e5b73d9890",
+      "title": "Chandelier",
+      "artist": "Sia",
+      "year": 2014,
+      "language": "en",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2013-0457dee91c55",
+      "title": "Take Me to Church",
+      "artist": "Hozier",
+      "year": 2013,
+      "language": "en",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2018-048829cb6f42",
+      "title": "This Is America",
+      "artist": "Childish Gambino",
+      "year": 2018,
+      "language": "en",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2015-dddcd06febdd",
+      "title": "Alright",
+      "artist": "Kendrick Lamar",
+      "year": 2015,
+      "language": "en",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2012-2a81ecc1607c",
+      "title": "Demons",
+      "artist": "Imagine Dragons",
+      "year": 2012,
+      "language": "en",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2019-00dfef5530e2",
+      "title": "Blinding Lights",
+      "artist": "The Weeknd",
+      "year": 2019,
+      "language": "en",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2015-377d525a4e3e",
+      "title": "Hasta la raíz",
+      "artist": "Natalia Lafourcade",
+      "year": 2015,
+      "language": "es",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2010-c2d1291ca127",
+      "title": "Latinoamérica",
+      "artist": "Calle 13",
+      "year": 2010,
+      "language": "es",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2015-882fbab864d3",
+      "title": "El perdón",
+      "artist": "Nicky Jam & Enrique Iglesias",
+      "year": 2015,
+      "language": "es",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2017-e60f8ab8a88d",
+      "title": "Despacito",
+      "artist": "Luis Fonsi feat. Daddy Yankee",
+      "year": 2017,
+      "language": "es",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2018-fc60221641ee",
+      "title": "La cintura",
+      "artist": "Álvaro Soler",
+      "year": 2018,
+      "language": "es",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2015-d3c8624afc0a",
+      "title": "Soy yo",
+      "artist": "Bomba Estéreo",
+      "year": 2015,
+      "language": "es",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2012-e276735a99fd",
+      "title": "Déjenme llorar",
+      "artist": "Carla Morrison",
+      "year": 2012,
+      "language": "es",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2015-a121e4927d88",
+      "title": "Tu falta de querer",
+      "artist": "Mon Laferte",
+      "year": 2015,
+      "language": "es",
+      "decade": 2010
+    },
+    {
+      "song_id": "s2021-d73254620179",
+      "title": "drivers license",
+      "artist": "Olivia Rodrigo",
+      "year": 2021,
+      "language": "en",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2021-5de443a3c9ad",
+      "title": "MONTERO (Call Me By Your Name)",
+      "artist": "Lil Nas X",
+      "year": 2021,
+      "language": "en",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2022-13d1e0238c36",
+      "title": "Unholy",
+      "artist": "Sam Smith feat. Kim Petras",
+      "year": 2022,
+      "language": "en",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2024-887094d904c9",
+      "title": "Taste",
+      "artist": "Sabrina Carpenter",
+      "year": 2024,
+      "language": "en",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2020-d47d366ad197",
+      "title": "Physical",
+      "artist": "Dua Lipa",
+      "year": 2020,
+      "language": "en",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2024-1b079dcfc6bb",
+      "title": "Die With a Smile",
+      "artist": "Lady Gaga & Bruno Mars",
+      "year": 2024,
+      "language": "en",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2026-78ed609c656e",
+      "title": "drop dead",
+      "artist": "Olivia Rodrigo",
+      "year": 2026,
+      "language": "en",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2026-533f3a1902f9",
+      "title": "I Just Might",
+      "artist": "Bruno Mars",
+      "year": 2026,
+      "language": "en",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2022-33440e51096b",
+      "title": "El apagón",
+      "artist": "Bad Bunny",
+      "year": 2022,
+      "language": "es",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2020-059f8b62ba2b",
+      "title": "Tú me dejaste de querer",
+      "artist": "C. Tangana feat. Niño de Elche, La Húngara",
+      "year": 2020,
+      "language": "es",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2023-4b5d4900ae9d",
+      "title": "Shakira: Bzrp Music Sessions, Vol. 53",
+      "artist": "Bizarrap & Shakira",
+      "year": 2023,
+      "language": "es",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2021-8fa642fa4e3e",
+      "title": "Todo de ti",
+      "artist": "Rauw Alejandro",
+      "year": 2021,
+      "language": "es",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2021-720093d2a7f8",
+      "title": "Tacones rojos",
+      "artist": "Sebastián Yatra",
+      "year": 2021,
+      "language": "es",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2026-2c83a5445b5f",
+      "title": "Algo tú",
+      "artist": "Shakira & Beéle",
+      "year": 2026,
+      "language": "es",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2026-cbf016041e04",
+      "title": "BbY WOW",
+      "artist": "KAROL G, Judeline & rusowsky",
+      "year": 2026,
+      "language": "es",
+      "decade": 2020
+    },
+    {
+      "song_id": "s2026-9ca15afba134",
+      "title": "SCANDIC",
+      "artist": "Quevedo",
+      "year": 2026,
+      "language": "es",
+      "decade": 2020
+    }
+  ],
+  "ontology": {
+    "surveillance_pursuit": "Vigilancia y persecución",
+    "collective_violence": "Violencia colectiva",
+    "loss_abandonment": "Abandono y pérdida",
+    "fragility_identity": "Fragilidad e identidad",
+    "uncertainty_change": "Incertidumbre y cambio",
+    "relational_coercion": "Coerción relacional",
+    "supernatural": "Sobrenatural"
+  },
+  "presence": [
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 2,
+      "songs": 8,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 8,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 2,
+      "songs": 8,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 2,
+      "songs": 8,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 2,
+      "songs": 8,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 3,
+      "songs": 8,
+      "share": 0.375
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 3,
+      "songs": 8,
+      "share": 0.375
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 3,
+      "songs": 8,
+      "share": 0.375
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 4,
+      "songs": 8,
+      "share": 0.5
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 3,
+      "songs": 8,
+      "share": 0.375
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 3,
+      "songs": 8,
+      "share": 0.375
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 3,
+      "songs": 8,
+      "share": 0.375
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 3,
+      "songs": 8,
+      "share": 0.375
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 3,
+      "songs": 4,
+      "share": 0.75
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_paired_joint_votes",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 8,
+      "share": 0.25
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 2,
+      "songs": 8,
+      "share": 0.25
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 2,
+      "songs": 8,
+      "share": 0.25
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 3,
+      "songs": 8,
+      "share": 0.375
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 3,
+      "songs": 8,
+      "share": 0.375
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 3,
+      "songs": 8,
+      "share": 0.375
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 4,
+      "songs": 8,
+      "share": 0.5
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 3,
+      "songs": 8,
+      "share": 0.375
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 3,
+      "songs": 8,
+      "share": 0.375
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 3,
+      "songs": 8,
+      "share": 0.375
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 3,
+      "songs": 8,
+      "share": 0.375
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 3,
+      "songs": 4,
+      "share": 0.75
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "fear_consensus_cross",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 2,
+      "songs": 8,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 2,
+      "songs": 8,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 8,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 2,
+      "songs": 8,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 1980,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 2,
+      "songs": 8,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 2,
+      "songs": 8,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 4,
+      "songs": 8,
+      "share": 0.5
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 2,
+      "songs": 8,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 1990,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 4,
+      "songs": 8,
+      "share": 0.5
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 3,
+      "songs": 8,
+      "share": 0.375
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 4,
+      "songs": 8,
+      "share": 0.5
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2000,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 3,
+      "songs": 8,
+      "share": 0.375
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 4,
+      "songs": 8,
+      "share": 0.5
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 8,
+      "share": 0.125
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2010,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 2,
+      "songs": 8,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 5,
+      "songs": 8,
+      "share": 0.625
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 3,
+      "songs": 8,
+      "share": 0.375
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 2,
+      "songs": 8,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "balanced",
+      "decade": 2020,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 8,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 1980,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 1990,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2000,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 3,
+      "songs": 4,
+      "share": 0.75
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2010,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 3,
+      "songs": 4,
+      "share": 0.75
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "en",
+      "decade": 2020,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 1980,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 1990,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 3,
+      "songs": 4,
+      "share": 0.75
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2000,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2010,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "surveillance_pursuit",
+      "label": "Vigilancia y persecución",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "collective_violence",
+      "label": "Violencia colectiva",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "loss_abandonment",
+      "label": "Abandono y pérdida",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "fragility_identity",
+      "label": "Fragilidad e identidad",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "uncertainty_change",
+      "label": "Incertidumbre y cambio",
+      "count": 2,
+      "songs": 4,
+      "share": 0.5
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "relational_coercion",
+      "label": "Coerción relacional",
+      "count": 1,
+      "songs": 4,
+      "share": 0.25
+    },
+    {
+      "view": "all_concerns",
+      "language": "es",
+      "decade": 2020,
+      "subtopic": "supernatural",
+      "label": "Sobrenatural",
+      "count": 0,
+      "songs": 4,
+      "share": 0.0
+    }
+  ],
+  "value_cases": [
+    {
+      "song_id": "s1983-753cd2a7d41b",
+      "title": "Somebody's Watching Me",
+      "artist": "Rockwell",
+      "year": 1983,
+      "arc": "repetition",
+      "supporting_votes": 3,
+      "editorial_value": "Seguridad e intimidad",
+      "example_reader": "openai/gpt-5.4-mini",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "exposure",
+          "reading": "Pregunta por observación ajena y desea aislamiento cotidiano.",
+          "source_document_ids": [
+            "s1983-753cd2a7d41b::s000",
+            "s1983-753cd2a7d41b::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b007"
+          ],
+          "state": "fear",
+          "reading": "Declara vigilancia continua, inseguridad y sospecha múltiple.",
+          "source_document_ids": [
+            "s1983-753cd2a7d41b::s002",
+            "s1983-753cd2a7d41b::s006"
+          ]
+        },
+        {
+          "ids": [
+            "b012",
+            "b013"
+          ],
+          "state": "avoidance",
+          "reading": "Reitera molestia, pide privacidad y rechazo persistente.",
+          "source_document_ids": [
+            "s1983-753cd2a7d41b::s011",
+            "s1983-753cd2a7d41b::s012"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "repetition",
+          "reading": "La sospecha se amplía sin resolverse."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "La queja vuelve a insistir en resguardo."
+        }
+      ]
+    },
+    {
+      "song_id": "s1990-5b29a6fedb71",
+      "title": "Rayando el Sol",
+      "artist": "Maná",
+      "year": 1990,
+      "arc": "repetition",
+      "supporting_votes": 2,
+      "editorial_value": "Vínculo afectivo",
+      "example_reader": "openai/gpt-5.4-mini",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "loss",
+          "reading": "Dolor por ausencia y distancia afectiva.",
+          "source_document_ids": [
+            "s1990-5b29a6fedb71::s000",
+            "s1990-5b29a6fedb71::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b004"
+          ],
+          "state": "agency",
+          "reading": "Búsqueda concreta sin hallazgo ni alivio.",
+          "source_document_ids": [
+            "s1990-5b29a6fedb71::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b008"
+          ],
+          "state": "reflection",
+          "reading": "Reiteración final sostiene la misma insistencia.",
+          "source_document_ids": [
+            "s1990-5b29a6fedb71::s007"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "Pasa del lamento a la búsqueda activa."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "La insistencia vuelve sin resolver la falta."
+        }
+      ]
+    },
+    {
+      "song_id": "s2002-74fa275abd80",
+      "title": "A Dios Le Pido",
+      "artist": "Juanes",
+      "year": 2002,
+      "arc": "repetition",
+      "supporting_votes": 2,
+      "editorial_value": "Cuidado de vínculos",
+      "example_reader": "openai/gpt-5.4-mini",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "care",
+          "reading": "Ruego por cercanía, familia y comunidad herida.",
+          "source_document_ids": [
+            "s2002-74fa275abd80::s000",
+            "s2002-74fa275abd80::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "reflection",
+          "reading": "Desea más tiempo y amor sin ruptura.",
+          "source_document_ids": [
+            "s2002-74fa275abd80::s002",
+            "s2002-74fa275abd80::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b005",
+            "b011"
+          ],
+          "state": "reflection",
+          "reading": "La súplica se repite como hábito insistente.",
+          "source_document_ids": [
+            "s2002-74fa275abd80::s004",
+            "s2002-74fa275abd80::s010"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "Pasa de pedir resguardo a pedir permanencia."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "repetition",
+          "reading": "La fórmula vuelve sin cambiar la postura."
+        }
+      ]
+    },
+    {
+      "song_id": "s2014-27b61f0565ce",
+      "title": "Out Of The Woods",
+      "artist": "Taylor Swift",
+      "year": 2014,
+      "arc": "repetition",
+      "supporting_votes": 2,
+      "editorial_value": "Seguridad del vínculo",
+      "example_reader": "openai/gpt-5.4-nano",
+      "steps": [
+        {
+          "ids": [
+            "b003",
+            "b005"
+          ],
+          "state": "avoidance",
+          "reading": "Buscan seguridad, pero no confían aún",
+          "source_document_ids": [
+            "s2014-27b61f0565ce::s002",
+            "s2014-27b61f0565ce::s004"
+          ]
+        },
+        {
+          "ids": [
+            "b013",
+            "b014"
+          ],
+          "state": "reflection",
+          "reading": "Recuerdan heridas y liberación incompleta",
+          "source_document_ids": [
+            "s2014-27b61f0565ce::s012",
+            "s2014-27b61f0565ce::s013"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "La duda se ancla en recuerdos dolorosos"
+        }
+      ]
+    },
+    {
+      "song_id": "s2026-2e43c234ac58",
+      "title": "Aperture",
+      "artist": "Harry Styles",
+      "year": 2026,
+      "arc": "turn",
+      "supporting_votes": 2,
+      "editorial_value": "Seguridad y unión",
+      "example_reader": "openai/gpt-5.4-mini",
+      "steps": [
+        {
+          "ids": [
+            "b001",
+            "b002"
+          ],
+          "state": "reflection",
+          "reading": "Ajuste personal con impulso de limpieza.",
+          "source_document_ids": [
+            "s2026-2e43c234ac58::s000",
+            "s2026-2e43c234ac58::s001"
+          ]
+        },
+        {
+          "ids": [
+            "b003",
+            "b004"
+          ],
+          "state": "unclear",
+          "reading": "Autorrevisión y vínculo que aclara.",
+          "source_document_ids": [
+            "s2026-2e43c234ac58::s002",
+            "s2026-2e43c234ac58::s003"
+          ]
+        },
+        {
+          "ids": [
+            "b005",
+            "b007"
+          ],
+          "state": "exposure",
+          "reading": "Permanencia afectiva ante espacios desconocidos.",
+          "source_document_ids": [
+            "s2026-2e43c234ac58::s004",
+            "s2026-2e43c234ac58::s006"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "from": 0,
+          "to": 1,
+          "relation": "turn",
+          "reading": "La revisión abre una certeza relacional."
+        },
+        {
+          "from": 1,
+          "to": 2,
+          "relation": "confrontation",
+          "reading": "La certeza convive con desorientación y límite."
+        }
+      ]
+    }
+  ],
+  "fear_focus": {
+    "selected_songs": 40,
+    "fear_reference_songs": 23,
+    "fear_reference_counts": {
+      "unresolved": 7,
+      "explicit": 12,
+      "implied": 11,
+      "absent": 10
+    },
+    "arcs_all_selected": {
+      "unresolved": 26,
+      "repetition": 12,
+      "turn": 1,
+      "mixed": 1
+    },
+    "arcs_fear_reference": {
+      "unresolved": 15,
+      "repetition": 6,
+      "turn": 1,
+      "mixed": 1
+    },
+    "polarity_fear_reference": {
+      "hypothetical": 4,
+      "denied": 2,
+      "mixed": 8,
+      "unresolved": 7,
+      "affirmed": 2
+    },
+    "fear_reference_by_period": [
+      {
+        "decade": 1980,
+        "selected_songs": 8,
+        "fear_reference_songs": 4,
+        "arcs_fear_reference": {
+          "unresolved": 2,
+          "repetition": 1,
+          "mixed": 1
+        }
+      },
+      {
+        "decade": 1990,
+        "selected_songs": 8,
+        "fear_reference_songs": 4,
+        "arcs_fear_reference": {
+          "unresolved": 3,
+          "repetition": 1
+        }
+      },
+      {
+        "decade": 2000,
+        "selected_songs": 8,
+        "fear_reference_songs": 6,
+        "arcs_fear_reference": {
+          "repetition": 3,
+          "unresolved": 3
+        }
+      },
+      {
+        "decade": 2010,
+        "selected_songs": 8,
+        "fear_reference_songs": 4,
+        "arcs_fear_reference": {
+          "repetition": 1,
+          "unresolved": 3
+        }
+      },
+      {
+        "decade": 2020,
+        "selected_songs": 8,
+        "fear_reference_songs": 5,
+        "arcs_fear_reference": {
+          "unresolved": 4,
+          "turn": 1
+        }
+      }
+    ],
+    "definition": "Existing field consensus explicit/implied; includes denied/hypothetical polarity. No new model calls.",
+    "arc_definition": "Strict chronological category consensus; unresolved remains in denominator."
+  },
+  "periods": [
+    1980,
+    1990,
+    2000,
+    2010,
+    2020
+  ],
+  "period_labels": [
+    "1980–89",
+    "1990–99",
+    "2000–09",
+    "2010–19",
+    "2020–26*"
+  ],
+  "colors": [
+    "#d47840",
+    "#b49318",
+    "#3c9670",
+    "#4282b5",
+    "#96588c"
+  ],
+  "scope": "40 songs with votes, nested in 120-song corpus. Not 120 annotated songs.",
+  "value_scope": "Five editorial interpretations, not model scores or historical novelty labels."
+}

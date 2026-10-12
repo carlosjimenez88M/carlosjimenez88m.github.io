@@ -1,0 +1,25 @@
+{
+  "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "requested_revision": null,
+  "resolved_commit": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "max_seq_length": 128,
+  "dimensions": 384,
+  "weight_receipt": {
+    "resolved_snapshot_commit": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+    "cached_weight_files": [
+      {
+        "filename": "model.safetensors",
+        "bytes": 470641600,
+        "sha256": "eaa086f0ffee582aeb45b36e34cdd1fe2d6de2bef61f8a559a1bbc9bd955917b"
+      }
+    ],
+    "requested_revision": null,
+    "revision_pinned": false,
+    "receipt_method": "Local Hugging Face snapshot identity and SHA256 of cached model weight files; no network."
+  },
+  "normalization": "L2, cosine similarity",
+  "device": "cpu",
+  "passage_prefix": "",
+  "prototype_prefix": "",
+  "revision_pinned": false
+}

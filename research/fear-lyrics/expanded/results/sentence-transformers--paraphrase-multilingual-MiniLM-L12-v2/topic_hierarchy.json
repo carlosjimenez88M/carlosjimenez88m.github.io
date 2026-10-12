@@ -1,0 +1,814 @@
+{
+  "status": "ok",
+  "method": "BERTopic hierarchical_topics / c-TF-IDF agglomeration",
+  "edges": [
+    {
+      "parent_id": "100",
+      "parent_name": "mama_ooh ooh_mama mama_ooh_bum",
+      "child_left_id": "98",
+      "child_right_id": "99",
+      "topic_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "distance": 1.119146686271262
+    },
+    {
+      "parent_id": "99",
+      "parent_name": "mama_ooh ooh_mama mama_ooh_bum",
+      "child_left_id": "97",
+      "child_right_id": "93",
+      "topic_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        12,
+        14,
+        15,
+        19,
+        23,
+        24,
+        26,
+        27,
+        28,
+        32,
+        34,
+        35,
+        36,
+        37,
+        41,
+        42,
+        43,
+        44,
+        46,
+        47,
+        49,
+        50
+      ],
+      "distance": 1.0532127972419998
+    },
+    {
+      "parent_id": "98",
+      "parent_name": "mal_mu mal_mal mu_mu_malo",
+      "child_left_id": "54",
+      "child_right_id": "96",
+      "topic_ids": [
+        6,
+        9,
+        11,
+        13,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        25,
+        29,
+        30,
+        31,
+        33,
+        38,
+        39,
+        40,
+        45,
+        48
+      ],
+      "distance": 1.0505929467072341
+    },
+    {
+      "parent_id": "97",
+      "parent_name": "mama_mama mama_ooh ooh_bum_ooh",
+      "child_left_id": "94",
+      "child_right_id": "53",
+      "topic_ids": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        12,
+        14,
+        15,
+        19,
+        23,
+        24,
+        26,
+        27,
+        32,
+        35,
+        36,
+        37,
+        41,
+        42,
+        43,
+        44,
+        47,
+        49,
+        50
+      ],
+      "distance": 1.0445037656295235
+    },
+    {
+      "parent_id": "96",
+      "parent_name": "mal_mu mal_mal mu_mu_malo",
+      "child_left_id": "95",
+      "child_right_id": "92",
+      "topic_ids": [
+        6,
+        9,
+        11,
+        13,
+        16,
+        17,
+        18,
+        20,
+        21,
+        22,
+        25,
+        29,
+        30,
+        31,
+        38,
+        39,
+        40,
+        48
+      ],
+      "distance": 1.036427045588733
+    },
+    {
+      "parent_id": "95",
+      "parent_name": "mal_mu mal_mu_mal mu_malo",
+      "child_left_id": "55",
+      "child_right_id": "90",
+      "topic_ids": [
+        6,
+        11,
+        16,
+        17,
+        22,
+        25,
+        31,
+        38,
+        39,
+        40
+      ],
+      "distance": 1.035157646079749
+    },
+    {
+      "parent_id": "94",
+      "parent_name": "mama_mama mama_ooh ooh_bum_ooh",
+      "child_left_id": "82",
+      "child_right_id": "91",
+      "topic_ids": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        12,
+        14,
+        15,
+        19,
+        23,
+        24,
+        26,
+        27,
+        32,
+        35,
+        36,
+        37,
+        41,
+        43,
+        47,
+        49,
+        50
+      ],
+      "distance": 1.0284808248431545
+    },
+    {
+      "parent_id": "93",
+      "parent_name": "no soy_sin_sin no_no gusta_soy nada",
+      "child_left_id": "52",
+      "child_right_id": "51",
+      "topic_ids": [
+        1,
+        28,
+        34,
+        46
+      ],
+      "distance": 1.023875035236664
+    },
+    {
+      "parent_id": "92",
+      "parent_name": "puerto rico_puerto_rico_gusta chocha_está cabrón",
+      "child_left_id": "63",
+      "child_right_id": "88",
+      "topic_ids": [
+        9,
+        13,
+        18,
+        20,
+        21,
+        29,
+        30,
+        48
+      ],
+      "distance": 1.017094879895718
+    },
+    {
+      "parent_id": "91",
+      "parent_name": "sunday_sun_comprar_like_yet",
+      "child_left_id": "87",
+      "child_right_id": "89",
+      "topic_ids": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        10,
+        12,
+        19,
+        23,
+        26,
+        27,
+        32,
+        36,
+        37,
+        41,
+        43,
+        47,
+        49,
+        50
+      ],
+      "distance": 1.0118577020161104
+    },
+    {
+      "parent_id": "90",
+      "parent_name": "mal mu_mu_mu mal_mal_malo",
+      "child_left_id": "77",
+      "child_right_id": "86",
+      "topic_ids": [
+        6,
+        11,
+        16,
+        17,
+        22,
+        31,
+        38,
+        39
+      ],
+      "distance": 1.0083234826621612
+    },
+    {
+      "parent_id": "89",
+      "parent_name": "sunday_sun_comprar_yet_come",
+      "child_left_id": "83",
+      "child_right_id": "84",
+      "topic_ids": [
+        0,
+        2,
+        3,
+        4,
+        5,
+        7,
+        12,
+        19,
+        23,
+        27,
+        32,
+        36,
+        41,
+        47,
+        50
+      ],
+      "distance": 1.0080839132045332
+    },
+    {
+      "parent_id": "88",
+      "parent_name": "puerto_puerto rico_rico_está cabrón_chocha",
+      "child_left_id": "61",
+      "child_right_id": "85",
+      "topic_ids": [
+        9,
+        13,
+        18,
+        21,
+        30,
+        48
+      ],
+      "distance": 1.0072019426331131
+    },
+    {
+      "parent_id": "87",
+      "parent_name": "alone_walk_walk alone_alone walk_felt",
+      "child_left_id": "56",
+      "child_right_id": "74",
+      "topic_ids": [
+        8,
+        10,
+        26,
+        37,
+        43,
+        49
+      ],
+      "distance": 1.0038643105073566
+    },
+    {
+      "parent_id": "86",
+      "parent_name": "mu mal_mal mu_mu_mal_no no",
+      "child_left_id": "70",
+      "child_right_id": "71",
+      "topic_ids": [
+        6,
+        11,
+        16,
+        17,
+        22
+      ],
+      "distance": 1.0021905208808293
+    },
+    {
+      "parent_id": "85",
+      "parent_name": "puerto_puerto rico_rico_gusta chocha_está cabrón",
+      "child_left_id": "80",
+      "child_right_id": "21",
+      "topic_ids": [
+        13,
+        18,
+        21,
+        30
+      ],
+      "distance": 0.9987863055310103
+    },
+    {
+      "parent_id": "84",
+      "parent_name": "sunday_comprar_yet_sun_black hole",
+      "child_left_id": "81",
+      "child_right_id": "41",
+      "topic_ids": [
+        0,
+        5,
+        12,
+        19,
+        23,
+        41,
+        50
+      ],
+      "distance": 0.9986752803090033
+    },
+    {
+      "parent_id": "83",
+      "parent_name": "physical_loi_come come_loi loi_dios pido",
+      "child_left_id": "79",
+      "child_right_id": "73",
+      "topic_ids": [
+        2,
+        3,
+        4,
+        7,
+        27,
+        32,
+        36,
+        47
+      ],
+      "distance": 0.9986357643429367
+    },
+    {
+      "parent_id": "82",
+      "parent_name": "mama mama_ooh ooh_bum_mama_ooh",
+      "child_left_id": "57",
+      "child_right_id": "67",
+      "topic_ids": [
+        14,
+        15,
+        24,
+        35
+      ],
+      "distance": 0.9970846014155801
+    },
+    {
+      "parent_id": "81",
+      "parent_name": "comprar_yet_sun_hole sun_black hole",
+      "child_left_id": "69",
+      "child_right_id": "78",
+      "topic_ids": [
+        0,
+        5,
+        12,
+        19,
+        23,
+        50
+      ],
+      "distance": 0.9930693614332565
+    },
+    {
+      "parent_id": "80",
+      "parent_name": "mad world_mario_world mad_mad_maría",
+      "child_left_id": "13",
+      "child_right_id": "76",
+      "topic_ids": [
+        13,
+        18,
+        30
+      ],
+      "distance": 0.9889890052568626
+    },
+    {
+      "parent_id": "79",
+      "parent_name": "toxic_ee_you're toxic_don't know_hot body",
+      "child_left_id": "36",
+      "child_right_id": "65",
+      "topic_ids": [
+        27,
+        32,
+        36
+      ],
+      "distance": 0.9850530509483427
+    },
+    {
+      "parent_id": "78",
+      "parent_name": "comprar_black hole_hole sun_hole_always feel",
+      "child_left_id": "62",
+      "child_right_id": "75",
+      "topic_ids": [
+        0,
+        5,
+        12,
+        50
+      ],
+      "distance": 0.9833585959862885
+    },
+    {
+      "parent_id": "77",
+      "parent_name": "malo_malo malo_tonto_tonto tonto_queda",
+      "child_left_id": "31",
+      "child_right_id": "68",
+      "topic_ids": [
+        31,
+        38,
+        39
+      ],
+      "distance": 0.9825234774016822
+    },
+    {
+      "parent_id": "76",
+      "parent_name": "mad world_world mad_mad_niebla_tú vayas",
+      "child_left_id": "18",
+      "child_right_id": "30",
+      "topic_ids": [
+        18,
+        30
+      ],
+      "distance": 0.9820417091855952
+    },
+    {
+      "parent_id": "75",
+      "parent_name": "comprar_black hole_hole sun_hole_won't come",
+      "child_left_id": "12",
+      "child_right_id": "50",
+      "topic_ids": [
+        12,
+        50
+      ],
+      "distance": 0.9805046003821307
+    },
+    {
+      "parent_id": "74",
+      "parent_name": "you'll taste_didn't wanna_beso_taste_heard",
+      "child_left_id": "60",
+      "child_right_id": "59",
+      "topic_ids": [
+        8,
+        26,
+        43,
+        49
+      ],
+      "distance": 0.9782570597315992
+    },
+    {
+      "parent_id": "73",
+      "parent_name": "loi_physical_come come_loi loi_dios pido",
+      "child_left_id": "47",
+      "child_right_id": "72",
+      "topic_ids": [
+        2,
+        3,
+        4,
+        7,
+        47
+      ],
+      "distance": 0.9772879657859735
+    },
+    {
+      "parent_id": "72",
+      "parent_name": "physical_loi_come come_loi loi_dios pido",
+      "child_left_id": "58",
+      "child_right_id": "64",
+      "topic_ids": [
+        2,
+        3,
+        4,
+        7
+      ],
+      "distance": 0.9759457557770377
+    },
+    {
+      "parent_id": "71",
+      "parent_name": "mal mu_mu_mu mal_no no_bam",
+      "child_left_id": "6",
+      "child_right_id": "22",
+      "topic_ids": [
+        6,
+        22
+      ],
+      "distance": 0.9718448807918809
+    },
+    {
+      "parent_id": "70",
+      "parent_name": "no one_one no_love after_running_after love",
+      "child_left_id": "16",
+      "child_right_id": "66",
+      "topic_ids": [
+        11,
+        16,
+        17
+      ],
+      "distance": 0.97130197520954
+    },
+    {
+      "parent_id": "69",
+      "parent_name": "yet_clear yet_clear_woods_yet clear",
+      "child_left_id": "23",
+      "child_right_id": "19",
+      "topic_ids": [
+        19,
+        23
+      ],
+      "distance": 0.9709307810998322
+    },
+    {
+      "parent_id": "68",
+      "parent_name": "queda_echar_nadie va_nada queda_one shot",
+      "child_left_id": "38",
+      "child_right_id": "39",
+      "topic_ids": [
+        38,
+        39
+      ],
+      "distance": 0.9703644294651276
+    },
+    {
+      "parent_id": "67",
+      "parent_name": "ooh ooh_ooh_happy_worry_don't worry",
+      "child_left_id": "14",
+      "child_right_id": "35",
+      "topic_ids": [
+        14,
+        35
+      ],
+      "distance": 0.9690432436170628
+    },
+    {
+      "parent_id": "66",
+      "parent_name": "running_running hill_hill_miedo_verte nunca",
+      "child_left_id": "11",
+      "child_right_id": "17",
+      "topic_ids": [
+        11,
+        17
+      ],
+      "distance": 0.9677070345124984
+    },
+    {
+      "parent_id": "65",
+      "parent_name": "toxic_ee_you're toxic_getting hot_hot body",
+      "child_left_id": "27",
+      "child_right_id": "32",
+      "topic_ids": [
+        27,
+        32
+      ],
+      "distance": 0.9673248196098497
+    },
+    {
+      "parent_id": "64",
+      "parent_name": "loi_loi loi_dios pido_dios_rule",
+      "child_left_id": "7",
+      "child_right_id": "4",
+      "topic_ids": [
+        4,
+        7
+      ],
+      "distance": 0.9672839672032252
+    },
+    {
+      "parent_id": "63",
+      "parent_name": "cry_llorar_doves cry_no llorar_doves",
+      "child_left_id": "20",
+      "child_right_id": "29",
+      "topic_ids": [
+        20,
+        29
+      ],
+      "distance": 0.9641795270814638
+    },
+    {
+      "parent_id": "62",
+      "parent_name": "always feel_like somebody's_somebody's_who's_watching",
+      "child_left_id": "0",
+      "child_right_id": "5",
+      "topic_ids": [
+        0,
+        5
+      ],
+      "distance": 0.9631790786998478
+    },
+    {
+      "parent_id": "61",
+      "parent_name": "cintura_controlar_mm_cintura necesita_necesita",
+      "child_left_id": "48",
+      "child_right_id": "9",
+      "topic_ids": [
+        9,
+        48
+      ],
+      "distance": 0.9630228126179476
+    },
+    {
+      "parent_id": "60",
+      "parent_name": "you'll taste_taste_heard_dream_he's kissin",
+      "child_left_id": "43",
+      "child_right_id": "26",
+      "topic_ids": [
+        26,
+        43
+      ],
+      "distance": 0.9583973421474157
+    },
+    {
+      "parent_id": "59",
+      "parent_name": "didn't wanna_beso_dejaste_detuvo_tiempo beso",
+      "child_left_id": "49",
+      "child_right_id": "8",
+      "topic_ids": [
+        8,
+        49
+      ],
+      "distance": 0.9561863531920706
+    },
+    {
+      "parent_id": "58",
+      "parent_name": "physical_come come_thriller_disturbia_physical physical",
+      "child_left_id": "2",
+      "child_right_id": "3",
+      "topic_ids": [
+        2,
+        3
+      ],
+      "distance": 0.9546191036318399
+    },
+    {
+      "parent_id": "57",
+      "parent_name": "mama mama_bum_mama_doo_bum bum",
+      "child_left_id": "15",
+      "child_right_id": "24",
+      "topic_ids": [
+        15,
+        24
+      ],
+      "distance": 0.9477316100460832
+    },
+    {
+      "parent_id": "56",
+      "parent_name": "alone_walk_walk alone_alone walk_felt",
+      "child_left_id": "37",
+      "child_right_id": "10",
+      "topic_ids": [
+        10,
+        37
+      ],
+      "distance": 0.9408165024650464
+    },
+    {
+      "parent_id": "55",
+      "parent_name": "muevo_poquito_pasito_poquito poquito_pasito pasito",
+      "child_left_id": "40",
+      "child_right_id": "25",
+      "topic_ids": [
+        25,
+        40
+      ],
+      "distance": 0.9318968702966521
+    },
+    {
+      "parent_id": "54",
+      "parent_name": "ra_rayando_ra ra_la'o_toma",
+      "child_left_id": "45",
+      "child_right_id": "33",
+      "topic_ids": [
+        33,
+        45
+      ],
+      "distance": 0.9180577313209115
+    },
+    {
+      "parent_id": "53",
+      "parent_name": "shit_tengo culpa_culpa_verte caer_culpa verte",
+      "child_left_id": "44",
+      "child_right_id": "42",
+      "topic_ids": [
+        42,
+        44
+      ],
+      "distance": 0.9095211121081317
+    },
+    {
+      "parent_id": "52",
+      "parent_name": "no gusta_sin mí_puede feliz_sin tú_tú sin",
+      "child_left_id": "34",
+      "child_right_id": "1",
+      "topic_ids": [
+        1,
+        34
+      ],
+      "distance": 0.9072711998164676
+    },
+    {
+      "parent_id": "51",
+      "parent_name": "no soy_soy no_acabó_inocencia acabó_inocencia",
+      "child_left_id": "46",
+      "child_right_id": "28",
+      "topic_ids": [
+        28,
+        46
+      ],
+      "distance": 0.9010381452821872
+    }
+  ],
+  "limitation": "A similarity hierarchy, not discovered causes or validated taxonomic subtopics."
+}

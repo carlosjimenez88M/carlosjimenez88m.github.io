@@ -1,0 +1,29 @@
+{
+  "status": "executed",
+  "songs": 120,
+  "readings": 240,
+  "years": [
+    1980,
+    2026
+  ],
+  "empty_years": [
+    1980,
+    1981,
+    2009,
+    2011,
+    2016,
+    2025
+  ],
+  "inputs": {
+    "annotations.json": "1c953ed1edaea1f9c1bf3d4ce3ca1ff3a3e38da0742a77362ba400a1ae01c4bf",
+    "votes.json": "d3e60a4ef2edc2d9ac2862c61c80f61a6c0388710587ba8621206b83b688971a",
+    "summary.json": "5e1dceb98eaf267aecd2d01e273c2f577e1310b63d2ce277b809bc5942ce37b8"
+  },
+  "denominator": "Annual selected songs, not all releases. Period styles condition on 53 paired fear references.",
+  "project_api_calls": 0,
+  "figures": [
+    "annual-subtopics-map",
+    "annual-arcs-stances",
+    "annual-argumental-cases"
+  ]
+}

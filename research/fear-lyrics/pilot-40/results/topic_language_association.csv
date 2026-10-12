@@ -1,0 +1,4 @@
+model,diagnostic,nmi_topic_language,documents,interpretation
+intfloat--multilingual-e5-small,posthoc_language_association,0.8630715021934532,386,"Confound diagnostic, not thematic validity."
+openai--text-embedding-3-large,posthoc_language_association,0.5083228548593289,386,"Confound diagnostic, not thematic validity."
+sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2,posthoc_language_association,0.11271933767654939,386,"Confound diagnostic, not thematic validity."

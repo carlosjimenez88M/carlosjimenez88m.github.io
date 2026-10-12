@@ -1,0 +1,5 @@
+model_slug,model,songs,directed_k5_edges,same_language_fraction_k5,mean_absolute_year_gap_k5,median_absolute_year_gap_k5
+sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2,MiniLM,40,200,0.665,15.185,14.0
+intfloat--multilingual-e5-small,E5 small,40,200,1.0,15.12,14.0
+openai--text-embedding-3-large,OpenAI large,40,200,0.985,15.77,14.0
+openai--text-embedding-3-small,OpenAI small,40,200,0.985,16.61,15.0

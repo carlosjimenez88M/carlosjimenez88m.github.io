@@ -1,0 +1,3 @@
+model,topic_id,selection_score,selection_rule,terms
+sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,18,0.014166666666666666,maximum_mean_within_language_between_decade_population_variance_of_observed_song_presence; exclude_noise; tie_smallest_topic_id,"['niebla', 'sabrás', 'río']"
+intfloat/multilingual-e5-small,7,0.01111111111111111,maximum_mean_within_language_between_decade_population_variance_of_observed_song_presence; exclude_noise; tie_smallest_topic_id,"['sunday', 'hole sun', 'bloody sunday']"

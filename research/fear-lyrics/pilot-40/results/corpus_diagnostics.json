@@ -1,0 +1,134 @@
+{
+  "songs_with_lyrics": 40,
+  "songs_with_eligible_blocks": 40,
+  "artists": 34,
+  "blocks": 461,
+  "unique_blocks": 386,
+  "exact_repeated_blocks": 75,
+  "decade_language_cells": [
+    {
+      "decade": 1980,
+      "language": "en",
+      "songs": 4,
+      "artists": 4,
+      "hypothesis_labels": {
+        "fear": 2,
+        "ambiguous": 1,
+        "control": 1
+      }
+    },
+    {
+      "decade": 1980,
+      "language": "es",
+      "songs": 4,
+      "artists": 3,
+      "hypothesis_labels": {
+        "ambiguous": 3,
+        "control": 1
+      }
+    },
+    {
+      "decade": 1990,
+      "language": "en",
+      "songs": 4,
+      "artists": 4,
+      "hypothesis_labels": {
+        "fear": 2,
+        "ambiguous": 1,
+        "control": 1
+      }
+    },
+    {
+      "decade": 1990,
+      "language": "es",
+      "songs": 4,
+      "artists": 4,
+      "hypothesis_labels": {
+        "ambiguous": 2,
+        "fear": 1,
+        "control": 1
+      }
+    },
+    {
+      "decade": 2000,
+      "language": "en",
+      "songs": 4,
+      "artists": 4,
+      "hypothesis_labels": {
+        "fear": 2,
+        "ambiguous": 1,
+        "control": 1
+      }
+    },
+    {
+      "decade": 2000,
+      "language": "es",
+      "songs": 4,
+      "artists": 3,
+      "hypothesis_labels": {
+        "fear": 2,
+        "ambiguous": 1,
+        "control": 1
+      }
+    },
+    {
+      "decade": 2010,
+      "language": "en",
+      "songs": 4,
+      "artists": 4,
+      "hypothesis_labels": {
+        "fear": 3,
+        "control": 1
+      }
+    },
+    {
+      "decade": 2010,
+      "language": "es",
+      "songs": 4,
+      "artists": 4,
+      "hypothesis_labels": {
+        "fear": 2,
+        "control": 2
+      }
+    },
+    {
+      "decade": 2020,
+      "language": "en",
+      "songs": 4,
+      "artists": 4,
+      "hypothesis_labels": {
+        "fear": 2,
+        "control": 1,
+        "ambiguous": 1
+      }
+    },
+    {
+      "decade": 2020,
+      "language": "es",
+      "songs": 4,
+      "artists": 4,
+      "hypothesis_labels": {
+        "fear": 2,
+        "control": 1,
+        "ambiguous": 1
+      }
+    }
+  ],
+  "notices": [],
+  "songs_without_eligible_blocks": [],
+  "providers": {
+    "lrclib": 38,
+    "genius": 2
+  },
+  "cutoff": "2026-10-11",
+  "year_window": [
+    1980,
+    2026
+  ],
+  "partial_final_decade": true,
+  "partial_final_year": true,
+  "missing_language_cells": [],
+  "corpus_identity": "d10938991b3994c9b7cd413eb5a235668523bf629311d6523a51e1a1a5167d58",
+  "design": "Purposive bilingual case series. Selection labels are unvalidated hypotheses.",
+  "limitation": "Release years describe recording cohorts, not when songs were listened to or charted. A missing release_date in the partial year is explicitly unverified."
+}

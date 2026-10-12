@@ -1,0 +1,5 @@
+model_id,requested,valid,assistant_expected_matches,expected_constraints,verified_missing_safe_abstentions,voice_report_supported,authoritative_supported,supported_expected_id_cited,invalid_citation_reviews,accounted_usd,limitation
+openai/gpt-5.4-mini,12,12,12,12,4,4,4,8,0,0.00882225,"12 fictional English cases grouped in4slot-types; assistant expectations,not human/externalgold; no real factual or medical accuracy claim."
+openai/gpt-5.4-nano,12,12,12,12,4,4,4,8,0,0.0022496499999999997,"12 fictional English cases grouped in4slot-types; assistant expectations,not human/externalgold; no real factual or medical accuracy claim."
+anthropic/claude-sonnet-4-6,12,0,0,0,0,0,0,0,0,0.031317,"12 fictional English cases grouped in4slot-types; assistant expectations,not human/externalgold; no real factual or medical accuracy claim."
+anthropic/claude-haiku-4-5-20251001,12,0,0,0,0,0,0,0,0,0.011302,"12 fictional English cases grouped in4slot-types; assistant expectations,not human/externalgold; no real factual or medical accuracy claim."

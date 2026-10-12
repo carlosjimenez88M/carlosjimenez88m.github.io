@@ -1,0 +1,5 @@
+model,topic_id,selection_score,selection_rule,terms
+sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,0,0.07250000000000001,maximum_mean_within_language_between_decade_population_variance_of_observed_song_presence; exclude_noise; tie_smallest_topic_id,"[""didn't"", 'miedo', 'shit']"
+intfloat/multilingual-e5-small,1,0.030000000000000006,maximum_mean_within_language_between_decade_population_variance_of_observed_song_presence; exclude_noise; tie_smallest_topic_id,"['no', 'mama', 'mama mama']"
+openai/text-embedding-3-large,6,0.04500000000000001,maximum_mean_within_language_between_decade_population_variance_of_observed_song_presence; exclude_noise; tie_smallest_topic_id,"['bum', 'bum bum', 'dum bum']"
+openai/text-embedding-3-small,0,0.020000000000000007,maximum_mean_within_language_between_decade_population_variance_of_observed_song_presence; exclude_noise; tie_smallest_topic_id,"['like', 'bum', ""it's""]"

@@ -1,0 +1,971 @@
+[
+  {
+    "song_id": "s1982-60e7787d2b2d",
+    "year": 1982,
+    "decade": 1980,
+    "language": "en",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "dialogue_or_multiple",
+      "stance": "unresolved",
+      "fear_relevance": "unresolved",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "surveillance_pursuit"
+      ]
+    },
+    "unresolved_fields": [
+      "stance",
+      "fear_relevance",
+      "fear_polarity",
+      "arc"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": false
+  },
+  {
+    "song_id": "s2004-641528a4ed5c",
+    "year": 2004,
+    "decade": 2000,
+    "language": "es",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "unresolved",
+      "fear_relevance": "unresolved",
+      "fear_polarity": "unresolved",
+      "arc": "repetition",
+      "subtopics": [
+        "loss_abandonment"
+      ]
+    },
+    "unresolved_fields": [
+      "stance",
+      "fear_relevance",
+      "fear_polarity"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": false
+  },
+  {
+    "song_id": "s2024-752f61769347",
+    "year": 2024,
+    "decade": 2020,
+    "language": "es",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "hypothetical",
+      "arc": "unresolved",
+      "subtopics": [
+        "fragility_identity"
+      ]
+    },
+    "unresolved_fields": [
+      "arc"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": true
+  },
+  {
+    "song_id": "s2021-a17cc29d59f5",
+    "year": 2021,
+    "decade": 2020,
+    "language": "es",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "explicit",
+      "fear_polarity": "denied",
+      "arc": "unresolved",
+      "subtopics": [
+        "relational_coercion"
+      ]
+    },
+    "unresolved_fields": [
+      "arc"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": true
+  },
+  {
+    "song_id": "s2002-74fa275abd80",
+    "year": 2002,
+    "decade": 2000,
+    "language": "es",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "implied",
+      "fear_polarity": "hypothetical",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ]
+    },
+    "unresolved_fields": [],
+    "initial_core_agreement": false,
+    "third_review_attempted": true
+  },
+  {
+    "song_id": "s2017-2c3252eb3c12",
+    "year": 2017,
+    "decade": 2010,
+    "language": "es",
+    "valid_votes": 0,
+    "consensus": {
+      "voice": "unresolved",
+      "stance": "unresolved",
+      "fear_relevance": "unresolved",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "unresolved"
+      ]
+    },
+    "unresolved_fields": [
+      "voice",
+      "stance",
+      "fear_relevance",
+      "fear_polarity",
+      "arc",
+      "subtopics"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": false
+  },
+  {
+    "song_id": "s1992-92d3c88cd13e",
+    "year": 1992,
+    "decade": 1990,
+    "language": "en",
+    "valid_votes": 1,
+    "consensus": {
+      "voice": "unresolved",
+      "stance": "unresolved",
+      "fear_relevance": "unresolved",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "unresolved"
+      ]
+    },
+    "unresolved_fields": [
+      "voice",
+      "stance",
+      "fear_relevance",
+      "fear_polarity",
+      "arc",
+      "subtopics"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": false
+  },
+  {
+    "song_id": "s2013-877c19a80720",
+    "year": 2013,
+    "decade": 2010,
+    "language": "es",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "uncertainty_change"
+      ]
+    },
+    "unresolved_fields": [],
+    "initial_core_agreement": false,
+    "third_review_attempted": false
+  },
+  {
+    "song_id": "s2000-8ece8cb48467",
+    "year": 2000,
+    "decade": 2000,
+    "language": "en",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "unresolved",
+      "stance": "unresolved",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "arc": "unresolved",
+      "subtopics": [
+        "loss_abandonment",
+        "relational_coercion"
+      ]
+    },
+    "unresolved_fields": [
+      "voice",
+      "stance",
+      "arc"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": false
+  },
+  {
+    "song_id": "s2022-d221fdb58fc4",
+    "year": 2022,
+    "decade": 2020,
+    "language": "es",
+    "valid_votes": 1,
+    "consensus": {
+      "voice": "unresolved",
+      "stance": "unresolved",
+      "fear_relevance": "unresolved",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "unresolved"
+      ]
+    },
+    "unresolved_fields": [
+      "voice",
+      "stance",
+      "fear_relevance",
+      "fear_polarity",
+      "arc",
+      "subtopics"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": false
+  },
+  {
+    "song_id": "s2013-608a7aee9a18",
+    "year": 2013,
+    "decade": 2010,
+    "language": "en",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "unresolved",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "other"
+      ]
+    },
+    "unresolved_fields": [
+      "stance"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": false
+  },
+  {
+    "song_id": "s2004-58ef65dc2ae6",
+    "year": 2004,
+    "decade": 2000,
+    "language": "es",
+    "valid_votes": 0,
+    "consensus": {
+      "voice": "unresolved",
+      "stance": "unresolved",
+      "fear_relevance": "unresolved",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "unresolved"
+      ]
+    },
+    "unresolved_fields": [
+      "voice",
+      "stance",
+      "fear_relevance",
+      "fear_polarity",
+      "arc",
+      "subtopics"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": false
+  },
+  {
+    "song_id": "s1984-8b16c1dac4a9",
+    "year": 1984,
+    "decade": 1980,
+    "language": "en",
+    "valid_votes": 1,
+    "consensus": {
+      "voice": "unresolved",
+      "stance": "unresolved",
+      "fear_relevance": "unresolved",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "unresolved"
+      ]
+    },
+    "unresolved_fields": [
+      "voice",
+      "stance",
+      "fear_relevance",
+      "fear_polarity",
+      "arc",
+      "subtopics"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": true
+  },
+  {
+    "song_id": "s1987-b3350477e063",
+    "year": 1987,
+    "decade": 1980,
+    "language": "es",
+    "valid_votes": 1,
+    "consensus": {
+      "voice": "unresolved",
+      "stance": "unresolved",
+      "fear_relevance": "unresolved",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "unresolved"
+      ]
+    },
+    "unresolved_fields": [
+      "voice",
+      "stance",
+      "fear_relevance",
+      "fear_polarity",
+      "arc",
+      "subtopics"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": true
+  },
+  {
+    "song_id": "s2008-4db2a4ef136d",
+    "year": 2008,
+    "decade": 2000,
+    "language": "en",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ]
+    },
+    "unresolved_fields": [],
+    "initial_core_agreement": false,
+    "third_review_attempted": true
+  },
+  {
+    "song_id": "s1994-56ff6ca6c8bb",
+    "year": 1994,
+    "decade": 1990,
+    "language": "en",
+    "valid_votes": 1,
+    "consensus": {
+      "voice": "unresolved",
+      "stance": "unresolved",
+      "fear_relevance": "unresolved",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "unresolved"
+      ]
+    },
+    "unresolved_fields": [
+      "voice",
+      "stance",
+      "fear_relevance",
+      "fear_polarity",
+      "arc",
+      "subtopics"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": false
+  },
+  {
+    "song_id": "s1999-e3d46788c16b",
+    "year": 1999,
+    "decade": 1990,
+    "language": "es",
+    "valid_votes": 1,
+    "consensus": {
+      "voice": "unresolved",
+      "stance": "unresolved",
+      "fear_relevance": "unresolved",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "unresolved"
+      ]
+    },
+    "unresolved_fields": [
+      "voice",
+      "stance",
+      "fear_relevance",
+      "fear_polarity",
+      "arc",
+      "subtopics"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": true
+  },
+  {
+    "song_id": "s2014-27b61f0565ce",
+    "year": 2014,
+    "decade": 2010,
+    "language": "en",
+    "valid_votes": 3,
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "hypothetical",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ]
+    },
+    "unresolved_fields": [],
+    "initial_core_agreement": false,
+    "third_review_attempted": true
+  },
+  {
+    "song_id": "s2015-c11afde63d3a",
+    "year": 2015,
+    "decade": 2010,
+    "language": "en",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "first_collective",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ]
+    },
+    "unresolved_fields": [
+      "fear_polarity",
+      "arc"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": true
+  },
+  {
+    "song_id": "s2026-2e43c234ac58",
+    "year": 2026,
+    "decade": 2020,
+    "language": "en",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "unresolved",
+      "fear_relevance": "implied",
+      "fear_polarity": "unresolved",
+      "arc": "turn",
+      "subtopics": [
+        "uncertainty_change"
+      ]
+    },
+    "unresolved_fields": [
+      "stance",
+      "fear_polarity"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": false
+  },
+  {
+    "song_id": "s1991-d25354f1d8f0",
+    "year": 1991,
+    "decade": 1990,
+    "language": "en",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "dialogue_or_multiple",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "supernatural",
+        "uncertainty_change"
+      ]
+    },
+    "unresolved_fields": [
+      "fear_polarity",
+      "arc"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": true
+  },
+  {
+    "song_id": "s2000-a62b1066ea67",
+    "year": 2000,
+    "decade": 2000,
+    "language": "en",
+    "valid_votes": 1,
+    "consensus": {
+      "voice": "unresolved",
+      "stance": "unresolved",
+      "fear_relevance": "unresolved",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "unresolved"
+      ]
+    },
+    "unresolved_fields": [
+      "voice",
+      "stance",
+      "fear_relevance",
+      "fear_polarity",
+      "arc",
+      "subtopics"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": true
+  },
+  {
+    "song_id": "s2022-460a59f8aa02",
+    "year": 2022,
+    "decade": 2020,
+    "language": "en",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "mixed",
+      "arc": "unresolved",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ]
+    },
+    "unresolved_fields": [
+      "arc"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": false
+  },
+  {
+    "song_id": "s2014-e8f5796fbb18",
+    "year": 2014,
+    "decade": 2010,
+    "language": "es",
+    "valid_votes": 1,
+    "consensus": {
+      "voice": "unresolved",
+      "stance": "unresolved",
+      "fear_relevance": "unresolved",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "unresolved"
+      ]
+    },
+    "unresolved_fields": [
+      "voice",
+      "stance",
+      "fear_relevance",
+      "fear_polarity",
+      "arc",
+      "subtopics"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": false
+  },
+  {
+    "song_id": "s2021-27c16cbb8cff",
+    "year": 2021,
+    "decade": 2020,
+    "language": "en",
+    "valid_votes": 0,
+    "consensus": {
+      "voice": "unresolved",
+      "stance": "unresolved",
+      "fear_relevance": "unresolved",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "unresolved"
+      ]
+    },
+    "unresolved_fields": [
+      "voice",
+      "stance",
+      "fear_relevance",
+      "fear_polarity",
+      "arc",
+      "subtopics"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": true
+  },
+  {
+    "song_id": "s1983-753cd2a7d41b",
+    "year": 1983,
+    "decade": 1980,
+    "language": "en",
+    "valid_votes": 3,
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "avoidance",
+      "fear_relevance": "explicit",
+      "fear_polarity": "affirmed",
+      "arc": "repetition",
+      "subtopics": [
+        "surveillance_pursuit",
+        "uncertainty_change"
+      ]
+    },
+    "unresolved_fields": [],
+    "initial_core_agreement": false,
+    "third_review_attempted": true
+  },
+  {
+    "song_id": "s1990-5b29a6fedb71",
+    "year": 1990,
+    "decade": 1990,
+    "language": "es",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "unresolved",
+      "fear_relevance": "explicit",
+      "fear_polarity": "unresolved",
+      "arc": "repetition",
+      "subtopics": [
+        "loss_abandonment",
+        "relational_coercion"
+      ]
+    },
+    "unresolved_fields": [
+      "stance",
+      "fear_polarity"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": true
+  },
+  {
+    "song_id": "s1986-9726c0e33862",
+    "year": 1986,
+    "decade": 1980,
+    "language": "es",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "third_person_story",
+      "stance": "other",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "arc": "mixed",
+      "subtopics": [
+        "collective_violence",
+        "relational_coercion"
+      ]
+    },
+    "unresolved_fields": [],
+    "initial_core_agreement": false,
+    "third_review_attempted": true
+  },
+  {
+    "song_id": "s2020-6f072260cb90",
+    "year": 2020,
+    "decade": 2020,
+    "language": "es",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "uncertainty_change"
+      ]
+    },
+    "unresolved_fields": [
+      "fear_polarity",
+      "arc"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": false
+  },
+  {
+    "song_id": "s1993-a759a1183939",
+    "year": 1993,
+    "decade": 1990,
+    "language": "es",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "unresolved",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "collective_violence",
+        "surveillance_pursuit"
+      ]
+    },
+    "unresolved_fields": [
+      "fear_relevance",
+      "fear_polarity",
+      "arc"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": false
+  },
+  {
+    "song_id": "s2023-dd058a9c7e57",
+    "year": 2023,
+    "decade": 2020,
+    "language": "en",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ]
+    },
+    "unresolved_fields": [],
+    "initial_core_agreement": false,
+    "third_review_attempted": true
+  },
+  {
+    "song_id": "s2019-1f8fdfe5b713",
+    "year": 2019,
+    "decade": 2010,
+    "language": "en",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "unresolved",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "fragility_identity",
+        "relational_coercion"
+      ]
+    },
+    "unresolved_fields": [
+      "voice",
+      "fear_polarity",
+      "arc"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": true
+  },
+  {
+    "song_id": "s1998-81cadc29bda5",
+    "year": 1998,
+    "decade": 1990,
+    "language": "es",
+    "valid_votes": 1,
+    "consensus": {
+      "voice": "unresolved",
+      "stance": "unresolved",
+      "fear_relevance": "unresolved",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "unresolved"
+      ]
+    },
+    "unresolved_fields": [
+      "voice",
+      "stance",
+      "fear_relevance",
+      "fear_polarity",
+      "arc",
+      "subtopics"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": false
+  },
+  {
+    "song_id": "s2003-863da31c5eaa",
+    "year": 2003,
+    "decade": 2000,
+    "language": "en",
+    "valid_votes": 1,
+    "consensus": {
+      "voice": "unresolved",
+      "stance": "unresolved",
+      "fear_relevance": "unresolved",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "unresolved"
+      ]
+    },
+    "unresolved_fields": [
+      "voice",
+      "stance",
+      "fear_relevance",
+      "fear_polarity",
+      "arc",
+      "subtopics"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": false
+  },
+  {
+    "song_id": "s2018-fff1d8ae4511",
+    "year": 2018,
+    "decade": 2010,
+    "language": "es",
+    "valid_votes": 1,
+    "consensus": {
+      "voice": "unresolved",
+      "stance": "unresolved",
+      "fear_relevance": "unresolved",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "unresolved"
+      ]
+    },
+    "unresolved_fields": [
+      "voice",
+      "stance",
+      "fear_relevance",
+      "fear_polarity",
+      "arc",
+      "subtopics"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": false
+  },
+  {
+    "song_id": "s1982-fc0d5bdf6fc1",
+    "year": 1982,
+    "decade": 1980,
+    "language": "en",
+    "valid_votes": 0,
+    "consensus": {
+      "voice": "unresolved",
+      "stance": "unresolved",
+      "fear_relevance": "unresolved",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "unresolved"
+      ]
+    },
+    "unresolved_fields": [
+      "voice",
+      "stance",
+      "fear_relevance",
+      "fear_polarity",
+      "arc",
+      "subtopics"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": true
+  },
+  {
+    "song_id": "s2001-1b296546902b",
+    "year": 2001,
+    "decade": 2000,
+    "language": "es",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "unresolved",
+      "stance": "care",
+      "fear_relevance": "explicit",
+      "fear_polarity": "denied",
+      "arc": "repetition",
+      "subtopics": [
+        "uncertainty_change"
+      ]
+    },
+    "unresolved_fields": [
+      "voice"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": true
+  },
+  {
+    "song_id": "s1986-e6cc85a542a7",
+    "year": 1986,
+    "decade": 1980,
+    "language": "es",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "third_person_story",
+      "stance": "unresolved",
+      "fear_relevance": "unresolved",
+      "fear_polarity": "unresolved",
+      "arc": "unresolved",
+      "subtopics": [
+        "loss_abandonment"
+      ]
+    },
+    "unresolved_fields": [
+      "stance",
+      "fear_relevance",
+      "fear_polarity",
+      "arc"
+    ],
+    "initial_core_agreement": false,
+    "third_review_attempted": false
+  },
+  {
+    "song_id": "s1982-273644e36995",
+    "year": 1982,
+    "decade": 1980,
+    "language": "es",
+    "valid_votes": 3,
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "other"
+      ]
+    },
+    "unresolved_fields": [],
+    "initial_core_agreement": false,
+    "third_review_attempted": true
+  },
+  {
+    "song_id": "s1996-126a4f4bfee7",
+    "year": 1996,
+    "decade": 1990,
+    "language": "en",
+    "valid_votes": 2,
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "arc": "repetition",
+      "subtopics": [
+        "relational_coercion"
+      ]
+    },
+    "unresolved_fields": [],
+    "initial_core_agreement": false,
+    "third_review_attempted": false
+  }
+]

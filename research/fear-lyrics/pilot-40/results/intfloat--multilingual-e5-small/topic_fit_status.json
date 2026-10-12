@@ -1,0 +1,14 @@
+{
+  "requested_seeds": [
+    17,
+    42,
+    73
+  ],
+  "successful_seeds": [
+    17,
+    42,
+    73
+  ],
+  "failures": [],
+  "status": "ok"
+}

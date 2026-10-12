@@ -1,0 +1,251 @@
+{
+  "status": "verified_original_authorized_subset_before_and_after_execution",
+  "authorized_unique_blocks": 386,
+  "authorized_set_sha256": "42759c0f80d40c3cd1dae47eaf790cbb7f5fa704f6c96b9fb8c0089cdae92b73",
+  "actual_unique_context_blocks": 59,
+  "all_context_text_hashes_authorized": true,
+  "transmitted_block_hashes": [
+    {
+      "document_id": "s1982-60e7787d2b2d::s004",
+      "text_sha256": "6731ec10e6cf9b4438ca210edfb410d1fb3e2d5c243fac2236715b75c1be8bfa"
+    },
+    {
+      "document_id": "s1982-60e7787d2b2d::s016",
+      "text_sha256": "e93beae8c6dd7793c0a54c792ebca952f552a68482134887e226766f9e070215"
+    },
+    {
+      "document_id": "s1982-fc0d5bdf6fc1::s004",
+      "text_sha256": "ee51f9603b1c8dc5910ad4dc89a5f06762193c3879214064b2fea28723d8a2a1"
+    },
+    {
+      "document_id": "s1983-753cd2a7d41b::s004",
+      "text_sha256": "1b89c3574e58b751763197ae6a8c96b20c7ee3bb790b2bb52b29518c2c396c01"
+    },
+    {
+      "document_id": "s1986-9726c0e33862::s000",
+      "text_sha256": "b7c0352b9ade75d7f4ec1d047e52a612148589bf9d6008614ea709407eda8c6a"
+    },
+    {
+      "document_id": "s1986-9726c0e33862::s005",
+      "text_sha256": "c34fab3b7c57cb952263baa8521911cc4a338bdbc2c3bbc61b545928e8110ef8"
+    },
+    {
+      "document_id": "s1986-9726c0e33862::s007",
+      "text_sha256": "4809c471973f2fe5bdb701e3fa4c332630bba5ec966909192233741fcb619509"
+    },
+    {
+      "document_id": "s1986-e6cc85a542a7::s002",
+      "text_sha256": "a8661ce6dd967bf9abdb1a41acc65ddd88f86584ae6e885114696e7fa228de6f"
+    },
+    {
+      "document_id": "s1986-e6cc85a542a7::s005",
+      "text_sha256": "d896d069ac4d54b7030c490ddfbc8ba5a4c7dfec4396c5f1bd0b63f61adbce9e"
+    },
+    {
+      "document_id": "s1986-e6cc85a542a7::s006",
+      "text_sha256": "62dea4caae1d273b46239656d1cf9228051321a4a0995bed31c69b442c7e877e"
+    },
+    {
+      "document_id": "s1986-e6cc85a542a7::s007",
+      "text_sha256": "557dbfc581a102b1f117598cb395274ab0057f0cf825615e2fd238155dbd6aaa"
+    },
+    {
+      "document_id": "s1986-e6cc85a542a7::s009",
+      "text_sha256": "a1cb2dab5adaaeeab9e6923cd5b9735c04ba0dc1af28aec8196d5961d5b9b336"
+    },
+    {
+      "document_id": "s1986-e6cc85a542a7::s010",
+      "text_sha256": "d3c0f64a686aa1eb32490adc5494b03b8c21d9704be1b9104eaed5bbbb268449"
+    },
+    {
+      "document_id": "s1987-b3350477e063::s006",
+      "text_sha256": "e43333f0035fd57b147eb8e496701fb46d9dc7b076c19adea6e0b12830f079cf"
+    },
+    {
+      "document_id": "s1987-b3350477e063::s008",
+      "text_sha256": "464831532d546011e2aa4ffafa1931d15a958e51160c48928a89042ee9bc4642"
+    },
+    {
+      "document_id": "s1991-d25354f1d8f0::s000",
+      "text_sha256": "00f4b0d2212395a70f386db7c38feae80619a6bb3fa152777e54668b45098e95"
+    },
+    {
+      "document_id": "s1991-d25354f1d8f0::s002",
+      "text_sha256": "9340e04d4997b022ab1864eea0270989f0dc639449e9151d7c238e097d078517"
+    },
+    {
+      "document_id": "s1991-d25354f1d8f0::s004",
+      "text_sha256": "34f7d87bce1ed31f20649b915e0d541c799f12d62db78a8c420362aa527d2515"
+    },
+    {
+      "document_id": "s1993-a759a1183939::s007",
+      "text_sha256": "d4b97be6dd820a3b4a20333adb70546092ef635d9093c4e50eba602acd53997b"
+    },
+    {
+      "document_id": "s1994-56ff6ca6c8bb::s000",
+      "text_sha256": "4b7c5aec402d4e8666bb4328134cc4db3b23995dd9674dbb44ecc9062d7079b4"
+    },
+    {
+      "document_id": "s1994-56ff6ca6c8bb::s001",
+      "text_sha256": "a10cd099947b28cf52554f6cc7e54b8f587ca3fa29af1bfa694fd3439648257a"
+    },
+    {
+      "document_id": "s1994-56ff6ca6c8bb::s004",
+      "text_sha256": "cc0448b1d44dcda58d401af935d64d47ceae64dc7f6b60afcb36fed9f5b41043"
+    },
+    {
+      "document_id": "s1994-56ff6ca6c8bb::s005",
+      "text_sha256": "2a6347aa59cc38c5ed2288adb617a73a834955e47b942e8d0e0f2a0711515de8"
+    },
+    {
+      "document_id": "s1998-81cadc29bda5::s011",
+      "text_sha256": "5220ef6626a7120b804107f3b0ec2986308761d8cd4fe1d91c522a40cc518544"
+    },
+    {
+      "document_id": "s1999-e3d46788c16b::s003",
+      "text_sha256": "406b7d0a3a79fc934c666cc34639b8778fa5582e566575efa00da98f16504965"
+    },
+    {
+      "document_id": "s2000-a62b1066ea67::s005",
+      "text_sha256": "7891ea7c0fe18acc42a334f2ab6276f809849369fd08542db4a9fdf68dd53f10"
+    },
+    {
+      "document_id": "s2000-a62b1066ea67::s006",
+      "text_sha256": "70f4d4e3c392c4ff28e3c5b3b7717879841cc222ac6334882feb67c6a3dcdfee"
+    },
+    {
+      "document_id": "s2001-1b296546902b::s002",
+      "text_sha256": "0cdef359d7aa6c84bb6ac7d0e2806ca72aac7c1f1510b38d43129bc6b25388d6"
+    },
+    {
+      "document_id": "s2001-1b296546902b::s006",
+      "text_sha256": "fd53e6f7348cd3cc17ad5da87b86e0a7d4f346686faf9a774ebf3bae50f78e7f"
+    },
+    {
+      "document_id": "s2001-1b296546902b::s011",
+      "text_sha256": "89954218b05ee7132effabbd34aca833b39776c1f1f86aa797a5b2ef1229fbda"
+    },
+    {
+      "document_id": "s2002-74fa275abd80::s001",
+      "text_sha256": "17a26222368439132dc3e156caabb86465032fe9cf13553d9d608f3efee77847"
+    },
+    {
+      "document_id": "s2002-74fa275abd80::s003",
+      "text_sha256": "2dd544a84c53c574f4e629ef637a15ebda1e8e5fce5f4bf2000909fa9136887b"
+    },
+    {
+      "document_id": "s2002-74fa275abd80::s005",
+      "text_sha256": "b089f7063478c93511bf281014684dbc6e1ad6bf029a413c676278a62efecad4"
+    },
+    {
+      "document_id": "s2004-58ef65dc2ae6::s002",
+      "text_sha256": "df0afc49c3101e5617a3074f37a3a0666157edc51410886bf7ae71249b849303"
+    },
+    {
+      "document_id": "s2004-58ef65dc2ae6::s003",
+      "text_sha256": "0ade6a2ace1a8e1da975875f7960056d98c7eb4c75dda7a4995883348297cc57"
+    },
+    {
+      "document_id": "s2004-58ef65dc2ae6::s004",
+      "text_sha256": "f8b04fd7ce35ad909a0fe31cfc50ea3b56e24092bac9e209601206412f1bfe04"
+    },
+    {
+      "document_id": "s2004-58ef65dc2ae6::s007",
+      "text_sha256": "460dd43b918c9df4691640e46e3d791cacafbed4b220de85107a79b0b1174510"
+    },
+    {
+      "document_id": "s2004-641528a4ed5c::s006",
+      "text_sha256": "d521c6b38a8775886d72d5b2162d4123e86975e3fae437d18c83a0dd0a697178"
+    },
+    {
+      "document_id": "s2013-877c19a80720::s005",
+      "text_sha256": "bde9e2f44c1ddef5ca5537980b18da8c2059794c3837194164177d6e543b91f4"
+    },
+    {
+      "document_id": "s2014-e8f5796fbb18::s009",
+      "text_sha256": "e00dd2204b34977997b18287a736ef063d59e8b053083a99812cec4a5e81bafd"
+    },
+    {
+      "document_id": "s2015-c11afde63d3a::s003",
+      "text_sha256": "50c296496c95f9f2e83e63ef1e19feee91b433f13cfa59119cf3415629c3ecc2"
+    },
+    {
+      "document_id": "s2015-c11afde63d3a::s004",
+      "text_sha256": "c560b2b44d9ea8066b6ba6f1adfccb889f3a11a67675e14915c162f28852e764"
+    },
+    {
+      "document_id": "s2015-c11afde63d3a::s005",
+      "text_sha256": "1428cedd1cf62e0eb87808bd0af158e210d056cda4a6a16979053380385cded7"
+    },
+    {
+      "document_id": "s2017-2c3252eb3c12::s000",
+      "text_sha256": "1f1da0a4e5216f7a04e8057452b292bb9b2795331ee5d649bb206ebf531fe70b"
+    },
+    {
+      "document_id": "s2017-2c3252eb3c12::s001",
+      "text_sha256": "3df858035625145f81161eb2d8cc34fb9e40e9d72c9626484ad93208a8a47647"
+    },
+    {
+      "document_id": "s2017-2c3252eb3c12::s003",
+      "text_sha256": "128788ac5607de1c2f7686b3acba9c78a3bcbd2cd5a0e2763d17cb0ec4ef90b0"
+    },
+    {
+      "document_id": "s2017-2c3252eb3c12::s007",
+      "text_sha256": "d5d7d41e0636ed7a4a6319508a3735c6e05e55dd21c4d68e255c33d3d8e2f221"
+    },
+    {
+      "document_id": "s2018-fff1d8ae4511::s000",
+      "text_sha256": "48c681965d233bb88ea67a61a5bebd2b3dade1a1072dc068692460f9bc64813b"
+    },
+    {
+      "document_id": "s2020-6f072260cb90::s000",
+      "text_sha256": "f26b7c1716ee508f1b97e53b6997954a9fc5481783138b0f376cff3a1cf9aeb9"
+    },
+    {
+      "document_id": "s2020-6f072260cb90::s003",
+      "text_sha256": "1ddbc4d38328ec9b791bbff640a23a29ff6714cb49b23138e5fbc71bbe2ecbf2"
+    },
+    {
+      "document_id": "s2020-6f072260cb90::s010",
+      "text_sha256": "20fc9e8226e96223040452ecd5980beec596a23a5847e7a0ce3a187bdfb95e61"
+    },
+    {
+      "document_id": "s2021-27c16cbb8cff::s000",
+      "text_sha256": "eb8119383a6cdf2686a13fd45d0f7bc2da0eea849a234fad1a9c1dabd5bc7fa1"
+    },
+    {
+      "document_id": "s2021-27c16cbb8cff::s001",
+      "text_sha256": "29f88a0f1a2ba1bac0ce1fe2c836b9933c985081971f43d645e44803cc203e17"
+    },
+    {
+      "document_id": "s2021-27c16cbb8cff::s004",
+      "text_sha256": "304c533d8853e6fffa10a24896890bda1d4af42400af05cff255ed4be155ac79"
+    },
+    {
+      "document_id": "s2021-27c16cbb8cff::s006",
+      "text_sha256": "0d044210771d123a523a82d8ee24c59ed7b8a68acd183382267f5c8b5ccc6b5e"
+    },
+    {
+      "document_id": "s2021-a17cc29d59f5::s001",
+      "text_sha256": "e34a0bdf0c2b061d1b7b57ffb4fad3d89a18cbd01c6006dd11e95ca22e3128b5"
+    },
+    {
+      "document_id": "s2021-a17cc29d59f5::s004",
+      "text_sha256": "8e45759c9442b4b1ce5dedc81736f1f6128785e6c80d7a91953d4b0568912683"
+    },
+    {
+      "document_id": "s2026-2e43c234ac58::s004",
+      "text_sha256": "b65a665687ebd09e6746ee7de9337e1568a56f4cdd3fb3e22d6a0af3376d67be"
+    },
+    {
+      "document_id": "s2026-2e43c234ac58::s006",
+      "text_sha256": "e9957905efafe33ad8486443c07ec76ca2657a7bc89f7cd52f429a018cbafbfc"
+    }
+  ],
+  "context_queries": 24,
+  "models": [
+    "openai/gpt-5.4-mini",
+    "openai/gpt-5.4-nano"
+  ],
+  "scope": "Exact text hash subset of original40-song approval. No expanded120 lyrics, Anthropic lyrics, Gemini inference, or external tools."
+}

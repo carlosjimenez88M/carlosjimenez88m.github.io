@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-11",
+  "scope": "Automated editorial review, not human annotations or correctness probabilities",
+  "reviewers": [
+    {
+      "role": "Pipeline, sampling and Bayesian inference",
+      "initial_vote": "REVISE",
+      "final_vote": "ACCEPT",
+      "evidence": [
+        "results/bayes/summary.json",
+        "expanded/results/bayes/summary.json",
+        "pilot-comparison/results/arc-panel/fieldwise-posthoc/concern_presence_by_period.csv"
+      ],
+      "changes": [
+        "Language does not imply artist nationality",
+        "Global topic fit per seed",
+        "Hierarchical prior is distinct from EB plug-in",
+        "Separate40/120cohorts",
+        "Temporal findings describe the selected cases"
+      ]
+    },
+    {
+      "role": "Literature, model comparison and narrative panel",
+      "final_vote": "ACCEPT",
+      "evidence": [
+        "pilot-comparison/results/arc-panel/fieldwise-posthoc/summary.json",
+        "pilot-comparison/results/arc-panel/fieldwise-posthoc/anchored_cases.json"
+      ],
+      "observations": [
+        "Consensus field validity differs from arc chronology validity",
+        "Cross-field consensus and joint-vote views differ; cited uncertainty and fragility series coincide"
+      ]
+    },
+    {
+      "role": "Projection backend, visualization and notebook",
+      "vote": "ACCEPT with two wording revisions",
+      "revisions_addressed": true,
+      "evidence": [
+        "results/*/projections.json",
+        "miedo-embeddings-bertopic-rag.ipynb"
+      ],
+      "changes": [
+        "Compare agreements under specified validators, not general interpretive accuracy",
+        "Five examples allow comparison, not identification of historical change"
+      ]
+    }
+  ],
+  "root_resolution": "Required wording revisions applied; numerical findings checked against data. Unresolved interpretations remain visible."
+}

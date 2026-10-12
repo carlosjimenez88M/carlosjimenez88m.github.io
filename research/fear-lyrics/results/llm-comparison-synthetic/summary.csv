@@ -1,0 +1,5 @@
+model_id,requested,valid,core_assistant_constraints,core_constraint_matches,coexistence_false_contradictions,accounted_usd_including_reused_receipts,newly_accounted_usd,reused_requests,limitation
+openai/gpt-5.4-mini,20,20,9,9,0,0.00956175,0.00956175,0,"Nine assistant-defined logical constraints, informed by pilot; not accuracy gold for all pairs. Twenty correlated synthetic triplets, no independent human validation."
+openai/gpt-5.4-nano,20,20,9,9,0,0.0024516,0.0024516,0,"Nine assistant-defined logical constraints, informed by pilot; not accuracy gold for all pairs. Twenty correlated synthetic triplets, no independent human validation."
+anthropic/claude-sonnet-4-6,20,20,9,7,2,0.037316999999999996,0,20,"Nine assistant-defined logical constraints, informed by pilot; not accuracy gold for all pairs. Twenty correlated synthetic triplets, no independent human validation."
+anthropic/claude-haiku-4-5-20251001,20,20,9,9,0,0.012869,0.012869,0,"Nine assistant-defined logical constraints, informed by pilot; not accuracy gold for all pairs. Twenty correlated synthetic triplets, no independent human validation."

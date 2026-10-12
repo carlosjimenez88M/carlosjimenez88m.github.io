@@ -1,0 +1,2522 @@
+{
+  "parameters": {
+    "seed": 17,
+    "documents": 1137,
+    "umap_neighbors": 15,
+    "umap_components": 5,
+    "umap_min_dist": 0.0,
+    "umap_metric": "cosine",
+    "hdbscan_metric": "euclidean_in_umap_space",
+    "min_cluster_size": 8,
+    "min_samples": 3,
+    "cluster_selection_method": "eom",
+    "ctfidf_reduce_frequent_words": true,
+    "lexical_preprocessing_language": "multilingual",
+    "lexical_accents_preserved": true,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "topic_reduction": "none",
+    "fit_weight": "one_per_unique_song_block"
+  },
+  "topics": [
+    {
+      "topic_id": -1,
+      "unique_blocks": 350,
+      "songs": 99,
+      "is_noise": true,
+      "terms": [
+        {
+          "term": "matador",
+          "ctfidf_weight": 0.16705752132672963
+        },
+        {
+          "term": "soy soy",
+          "ctfidf_weight": 0.16468599075537738
+        },
+        {
+          "term": "black man",
+          "ctfidf_weight": 0.16141816143243606
+        },
+        {
+          "term": "really",
+          "ctfidf_weight": 0.15252890740669242
+        },
+        {
+          "term": "man",
+          "ctfidf_weight": 0.15132431582350156
+        },
+        {
+          "term": "black",
+          "ctfidf_weight": 0.15096638968331844
+        },
+        {
+          "term": "soy",
+          "ctfidf_weight": 0.14735624502340763
+        },
+        {
+          "term": "matador matador",
+          "ctfidf_weight": 0.14693828552865945
+        },
+        {
+          "term": "go",
+          "ctfidf_weight": 0.14292867457874
+        },
+        {
+          "term": "man get",
+          "ctfidf_weight": 0.14096102982213268
+        }
+      ]
+    },
+    {
+      "topic_id": 0,
+      "unique_blocks": 34,
+      "songs": 11,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "always feel",
+          "ctfidf_weight": 0.4618494795610748
+        },
+        {
+          "term": "like somebody's",
+          "ctfidf_weight": 0.4559429927360081
+        },
+        {
+          "term": "somebody's",
+          "ctfidf_weight": 0.44345642554181774
+        },
+        {
+          "term": "who's",
+          "ctfidf_weight": 0.4430620517145425
+        },
+        {
+          "term": "watching",
+          "ctfidf_weight": 0.43900009576640614
+        },
+        {
+          "term": "who's watching",
+          "ctfidf_weight": 0.42847625162283176
+        },
+        {
+          "term": "always",
+          "ctfidf_weight": 0.4213979940760802
+        },
+        {
+          "term": "quién",
+          "ctfidf_weight": 0.4125193326337552
+        },
+        {
+          "term": "feel like",
+          "ctfidf_weight": 0.40660045393731997
+        },
+        {
+          "term": "quién va",
+          "ctfidf_weight": 0.4023382262007472
+        }
+      ]
+    },
+    {
+      "topic_id": 1,
+      "unique_blocks": 32,
+      "songs": 16,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "no quiero",
+          "ctfidf_weight": 0.37320275718229895
+        },
+        {
+          "term": "ending wanna",
+          "ctfidf_weight": 0.36641124306109296
+        },
+        {
+          "term": "world ending",
+          "ctfidf_weight": 0.36641124306109296
+        },
+        {
+          "term": "vida contigo",
+          "ctfidf_weight": 0.36641124306109296
+        },
+        {
+          "term": "wanna next",
+          "ctfidf_weight": 0.3531896250697371
+        },
+        {
+          "term": "mundo eso",
+          "ctfidf_weight": 0.34222103145899313
+        },
+        {
+          "term": "need anymore",
+          "ctfidf_weight": 0.34222103145899313
+        },
+        {
+          "term": "sin",
+          "ctfidf_weight": 0.34029488312565165
+        },
+        {
+          "term": "quiero",
+          "ctfidf_weight": 0.33518121141620216
+        },
+        {
+          "term": "ending",
+          "ctfidf_weight": 0.3323679441274017
+        }
+      ]
+    },
+    {
+      "topic_id": 2,
+      "unique_blocks": 31,
+      "songs": 13,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "physical",
+          "ctfidf_weight": 0.4737676769080678
+        },
+        {
+          "term": "come come",
+          "ctfidf_weight": 0.4734197609941633
+        },
+        {
+          "term": "physical physical",
+          "ctfidf_weight": 0.39583752409022593
+        },
+        {
+          "term": "let's get",
+          "ctfidf_weight": 0.3830027978919729
+        },
+        {
+          "term": "get physical",
+          "ctfidf_weight": 0.3830027978919729
+        },
+        {
+          "term": "slam",
+          "ctfidf_weight": 0.37050474963193575
+        },
+        {
+          "term": "come",
+          "ctfidf_weight": 0.3682243442068801
+        },
+        {
+          "term": "boom boom",
+          "ctfidf_weight": 0.35826631197189673
+        },
+        {
+          "term": "boom",
+          "ctfidf_weight": 0.35652897423029084
+        },
+        {
+          "term": "wanna lover",
+          "ctfidf_weight": 0.3524693723915611
+        }
+      ]
+    },
+    {
+      "topic_id": 3,
+      "unique_blocks": 30,
+      "songs": 15,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "thriller",
+          "ctfidf_weight": 0.45847698656098435
+        },
+        {
+          "term": "disturbia",
+          "ctfidf_weight": 0.4073652322604955
+        },
+        {
+          "term": "thriller thriller",
+          "ctfidf_weight": 0.39141374333178164
+        },
+        {
+          "term": "thriller night",
+          "ctfidf_weight": 0.3643585404017833
+        },
+        {
+          "term": "gira",
+          "ctfidf_weight": 0.3186131119170177
+        },
+        {
+          "term": "exist",
+          "ctfidf_weight": 0.3186131119170177
+        },
+        {
+          "term": "sleep feel",
+          "ctfidf_weight": 0.3186131119170177
+        },
+        {
+          "term": "feel touch",
+          "ctfidf_weight": 0.3186131119170177
+        },
+        {
+          "term": "lights no",
+          "ctfidf_weight": 0.3186131119170177
+        },
+        {
+          "term": "mind disturbia",
+          "ctfidf_weight": 0.3186131119170177
+        }
+      ]
+    },
+    {
+      "topic_id": 4,
+      "unique_blocks": 28,
+      "songs": 12,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "dios pido",
+          "ctfidf_weight": 0.4634305408795079
+        },
+        {
+          "term": "dios",
+          "ctfidf_weight": 0.45690447831979814
+        },
+        {
+          "term": "pido",
+          "ctfidf_weight": 0.41426063856051576
+        },
+        {
+          "term": "church",
+          "ctfidf_weight": 0.3771220094420862
+        },
+        {
+          "term": "worship",
+          "ctfidf_weight": 0.3771220094420862
+        },
+        {
+          "term": "death",
+          "ctfidf_weight": 0.3727894880837752
+        },
+        {
+          "term": "shrine",
+          "ctfidf_weight": 0.36054346967946577
+        },
+        {
+          "term": "death good",
+          "ctfidf_weight": 0.36054346967946577
+        },
+        {
+          "term": "sins",
+          "ctfidf_weight": 0.36054346967946577
+        },
+        {
+          "term": "dog shrine",
+          "ctfidf_weight": 0.36054346967946577
+        }
+      ]
+    },
+    {
+      "topic_id": 5,
+      "unique_blocks": 27,
+      "songs": 14,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "don't tell",
+          "ctfidf_weight": 0.45917528685972286
+        },
+        {
+          "term": "cause hurts",
+          "ctfidf_weight": 0.4460803080387432
+        },
+        {
+          "term": "hurts",
+          "ctfidf_weight": 0.4356119255213726
+        },
+        {
+          "term": "tell cause",
+          "ctfidf_weight": 0.4356119255213726
+        },
+        {
+          "term": "don't speak",
+          "ctfidf_weight": 0.4205685476906391
+        },
+        {
+          "term": "duele",
+          "ctfidf_weight": 0.40961059135292505
+        },
+        {
+          "term": "hush",
+          "ctfidf_weight": 0.40387084573916165
+        },
+        {
+          "term": "speak",
+          "ctfidf_weight": 0.37927891860106167
+        },
+        {
+          "term": "speak know",
+          "ctfidf_weight": 0.36259920925915134
+        },
+        {
+          "term": "hurt",
+          "ctfidf_weight": 0.36124258636598117
+        }
+      ]
+    },
+    {
+      "topic_id": 6,
+      "unique_blocks": 26,
+      "songs": 18,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "uh uh",
+          "ctfidf_weight": 0.9301280675733806
+        },
+        {
+          "term": "uh",
+          "ctfidf_weight": 0.803655726330206
+        },
+        {
+          "term": "hmm",
+          "ctfidf_weight": 0.7470097231838474
+        },
+        {
+          "term": "lucky",
+          "ctfidf_weight": 0.7384277908130797
+        },
+        {
+          "term": "hmm hmm",
+          "ctfidf_weight": 0.7141706682127815
+        },
+        {
+          "term": "ohh",
+          "ctfidf_weight": 0.6720679768073788
+        },
+        {
+          "term": "lucky lucky",
+          "ctfidf_weight": 0.6519456414811302
+        },
+        {
+          "term": "mmm mmm",
+          "ctfidf_weight": 0.6495064624654263
+        },
+        {
+          "term": "mmm",
+          "ctfidf_weight": 0.6434214561528186
+        },
+        {
+          "term": "no no",
+          "ctfidf_weight": 0.6295739486004746
+        }
+      ]
+    },
+    {
+      "topic_id": 7,
+      "unique_blocks": 24,
+      "songs": 9,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "loi",
+          "ctfidf_weight": 0.4396540240483474
+        },
+        {
+          "term": "loi loi",
+          "ctfidf_weight": 0.42723326609430257
+        },
+        {
+          "term": "ll rule",
+          "ctfidf_weight": 0.3970166981334625
+        },
+        {
+          "term": "rule",
+          "ctfidf_weight": 0.3970166981334625
+        },
+        {
+          "term": "used play",
+          "ctfidf_weight": 0.36733523374025445
+        },
+        {
+          "term": "play pretend",
+          "ctfidf_weight": 0.36733523374025445
+        },
+        {
+          "term": "rule ll",
+          "ctfidf_weight": 0.36733523374025445
+        },
+        {
+          "term": "pretend",
+          "ctfidf_weight": 0.3509269452847272
+        },
+        {
+          "term": "party",
+          "ctfidf_weight": 0.34382654631019643
+        },
+        {
+          "term": "we're stressed",
+          "ctfidf_weight": 0.34213007749737784
+        }
+      ]
+    },
+    {
+      "topic_id": 8,
+      "unique_blocks": 24,
+      "songs": 16,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "didn't wanna",
+          "ctfidf_weight": 0.44613409283386196
+        },
+        {
+          "term": "beso",
+          "ctfidf_weight": 0.4410087343623877
+        },
+        {
+          "term": "tú dejaste",
+          "ctfidf_weight": 0.40393491838472545
+        },
+        {
+          "term": "detuvo",
+          "ctfidf_weight": 0.40393491838472545
+        },
+        {
+          "term": "tiempo beso",
+          "ctfidf_weight": 0.40393491838472545
+        },
+        {
+          "term": "detuvo tiempo",
+          "ctfidf_weight": 0.40393491838472545
+        },
+        {
+          "term": "beso mí",
+          "ctfidf_weight": 0.40393491838472545
+        },
+        {
+          "term": "dejaste querer",
+          "ctfidf_weight": 0.40393491838472545
+        },
+        {
+          "term": "dejaste",
+          "ctfidf_weight": 0.40137688687334105
+        },
+        {
+          "term": "costado",
+          "ctfidf_weight": 0.3772674202272679
+        }
+      ]
+    },
+    {
+      "topic_id": 9,
+      "unique_blocks": 24,
+      "songs": 18,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "mm",
+          "ctfidf_weight": 0.5077144398543227
+        },
+        {
+          "term": "mm mm",
+          "ctfidf_weight": 0.42409695825720045
+        },
+        {
+          "term": "verás volver",
+          "ctfidf_weight": 0.3716064446572773
+        },
+        {
+          "term": "fitted",
+          "ctfidf_weight": 0.3716064446572773
+        },
+        {
+          "term": "gon get",
+          "ctfidf_weight": 0.3716064446572773
+        },
+        {
+          "term": "gucci",
+          "ctfidf_weight": 0.3716064446572773
+        },
+        {
+          "term": "wanna hit",
+          "ctfidf_weight": 0.3716064446572773
+        },
+        {
+          "term": "mm uh",
+          "ctfidf_weight": 0.3716064446572773
+        },
+        {
+          "term": "ma go",
+          "ctfidf_weight": 0.3716064446572773
+        },
+        {
+          "term": "ayy",
+          "ctfidf_weight": 0.35443426074964574
+        }
+      ]
+    },
+    {
+      "topic_id": 10,
+      "unique_blocks": 22,
+      "songs": 9,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "felt",
+          "ctfidf_weight": 0.40011312093276585
+        },
+        {
+          "term": "undertow",
+          "ctfidf_weight": 0.3871397618069392
+        },
+        {
+          "term": "caught undertow",
+          "ctfidf_weight": 0.3871397618069392
+        },
+        {
+          "term": "maybe",
+          "ctfidf_weight": 0.3706381465455077
+        },
+        {
+          "term": "never satisfied",
+          "ctfidf_weight": 0.35627653276412313
+        },
+        {
+          "term": "satisfied",
+          "ctfidf_weight": 0.35627653276412313
+        },
+        {
+          "term": "she's never",
+          "ctfidf_weight": 0.35627653276412313
+        },
+        {
+          "term": "ve become",
+          "ctfidf_weight": 0.35308831911900035
+        },
+        {
+          "term": "caught",
+          "ctfidf_weight": 0.34638945139756416
+        },
+        {
+          "term": "numb can't",
+          "ctfidf_weight": 0.33740960981891177
+        }
+      ]
+    },
+    {
+      "topic_id": 11,
+      "unique_blocks": 19,
+      "songs": 8,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "running",
+          "ctfidf_weight": 0.7281827716847563
+        },
+        {
+          "term": "running hill",
+          "ctfidf_weight": 0.6717626994912388
+        },
+        {
+          "term": "hill",
+          "ctfidf_weight": 0.6545678026623616
+        },
+        {
+          "term": "road running",
+          "ctfidf_weight": 0.5854712243152884
+        },
+        {
+          "term": "god get",
+          "ctfidf_weight": 0.5854712243152884
+        },
+        {
+          "term": "deal god",
+          "ctfidf_weight": 0.5854712243152884
+        },
+        {
+          "term": "swap places",
+          "ctfidf_weight": 0.5854712243152884
+        },
+        {
+          "term": "swap",
+          "ctfidf_weight": 0.5854712243152884
+        },
+        {
+          "term": "get swap",
+          "ctfidf_weight": 0.5854712243152884
+        },
+        {
+          "term": "places running",
+          "ctfidf_weight": 0.5854712243152884
+        }
+      ]
+    },
+    {
+      "topic_id": 12,
+      "unique_blocks": 18,
+      "songs": 6,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "comprar",
+          "ctfidf_weight": 0.6370429926289202
+        },
+        {
+          "term": "hole sun",
+          "ctfidf_weight": 0.6112048407951652
+        },
+        {
+          "term": "black hole",
+          "ctfidf_weight": 0.6112048407951652
+        },
+        {
+          "term": "hole",
+          "ctfidf_weight": 0.5956770448011006
+        },
+        {
+          "term": "won't come",
+          "ctfidf_weight": 0.5877829693850548
+        },
+        {
+          "term": "puedes comprar",
+          "ctfidf_weight": 0.5793241620973444
+        },
+        {
+          "term": "no puedes",
+          "ctfidf_weight": 0.5704382130364414
+        },
+        {
+          "term": "sun won't",
+          "ctfidf_weight": 0.5497025033021568
+        },
+        {
+          "term": "puedes",
+          "ctfidf_weight": 0.5466782288779704
+        },
+        {
+          "term": "sun",
+          "ctfidf_weight": 0.5454602967201728
+        }
+      ]
+    },
+    {
+      "topic_id": 13,
+      "unique_blocks": 18,
+      "songs": 11,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "mario",
+          "ctfidf_weight": 0.5799630547591075
+        },
+        {
+          "term": "maría",
+          "ctfidf_weight": 0.5129894857477012
+        },
+        {
+          "term": "préstame",
+          "ctfidf_weight": 0.46855008529050124
+        },
+        {
+          "term": "fluya fluya",
+          "ctfidf_weight": 0.4442619265318245
+        },
+        {
+          "term": "balas",
+          "ctfidf_weight": 0.4442619265318245
+        },
+        {
+          "term": "enrique",
+          "ctfidf_weight": 0.41055760469065095
+        },
+        {
+          "term": "péiname alma",
+          "ctfidf_weight": 0.41055760469065095
+        },
+        {
+          "term": "péiname",
+          "ctfidf_weight": 0.41055760469065095
+        },
+        {
+          "term": "one love",
+          "ctfidf_weight": 0.41055760469065095
+        },
+        {
+          "term": "préstame peine",
+          "ctfidf_weight": 0.41055760469065095
+        }
+      ]
+    },
+    {
+      "topic_id": 14,
+      "unique_blocks": 17,
+      "songs": 3,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "ooh ooh",
+          "ctfidf_weight": 0.653065567293001
+        },
+        {
+          "term": "ooh",
+          "ctfidf_weight": 0.6068218925536747
+        },
+        {
+          "term": "happy",
+          "ctfidf_weight": 0.5704683424823241
+        },
+        {
+          "term": "worry",
+          "ctfidf_weight": 0.5603199679651716
+        },
+        {
+          "term": "don't worry",
+          "ctfidf_weight": 0.5512448323028513
+        },
+        {
+          "term": "woo ooh",
+          "ctfidf_weight": 0.505422053989118
+        },
+        {
+          "term": "hoo",
+          "ctfidf_weight": 0.5052404424445062
+        },
+        {
+          "term": "worry happy",
+          "ctfidf_weight": 0.4979695078322514
+        },
+        {
+          "term": "ooh don't",
+          "ctfidf_weight": 0.4900402094649785
+        },
+        {
+          "term": "ooh hoo",
+          "ctfidf_weight": 0.4521988911213969
+        }
+      ]
+    },
+    {
+      "topic_id": 15,
+      "unique_blocks": 17,
+      "songs": 10,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "mama mama",
+          "ctfidf_weight": 0.787921472151451
+        },
+        {
+          "term": "bum",
+          "ctfidf_weight": 0.7688001631475194
+        },
+        {
+          "term": "mama",
+          "ctfidf_weight": 0.7624297660652976
+        },
+        {
+          "term": "bum bum",
+          "ctfidf_weight": 0.6851308119130698
+        },
+        {
+          "term": "bum dum",
+          "ctfidf_weight": 0.6489857176398782
+        },
+        {
+          "term": "dum bum",
+          "ctfidf_weight": 0.6489857176398782
+        },
+        {
+          "term": "dum",
+          "ctfidf_weight": 0.6345080831807011
+        },
+        {
+          "term": "denial",
+          "ctfidf_weight": 0.5074410113278951
+        },
+        {
+          "term": "denial denial",
+          "ctfidf_weight": 0.4909876281951893
+        },
+        {
+          "term": "nananananá",
+          "ctfidf_weight": 0.4909876281951893
+        }
+      ]
+    },
+    {
+      "topic_id": 16,
+      "unique_blocks": 15,
+      "songs": 6,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "one no",
+          "ctfidf_weight": 0.6670181706259178
+        },
+        {
+          "term": "love after",
+          "ctfidf_weight": 0.6644149380579797
+        },
+        {
+          "term": "no one",
+          "ctfidf_weight": 0.6600901186763601
+        },
+        {
+          "term": "after love",
+          "ctfidf_weight": 0.6440010944607583
+        },
+        {
+          "term": "after",
+          "ctfidf_weight": 0.614770482614241
+        },
+        {
+          "term": "get way",
+          "ctfidf_weight": 0.6086885831004538
+        },
+        {
+          "term": "no haces",
+          "ctfidf_weight": 0.560163226086506
+        },
+        {
+          "term": "one get",
+          "ctfidf_weight": 0.560163226086506
+        },
+        {
+          "term": "haces feliz",
+          "ctfidf_weight": 0.560163226086506
+        },
+        {
+          "term": "feliz sin",
+          "ctfidf_weight": 0.560163226086506
+        }
+      ]
+    },
+    {
+      "topic_id": 17,
+      "unique_blocks": 15,
+      "songs": 10,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "miedo",
+          "ctfidf_weight": 0.613964696282351
+        },
+        {
+          "term": "no verte",
+          "ctfidf_weight": 0.5827648249543029
+        },
+        {
+          "term": "verte nunca",
+          "ctfidf_weight": 0.5827648249543029
+        },
+        {
+          "term": "verte",
+          "ctfidf_weight": 0.5105019513663709
+        },
+        {
+          "term": "olvidar",
+          "ctfidf_weight": 0.4758254870601331
+        },
+        {
+          "term": "infiernos",
+          "ctfidf_weight": 0.47081362544732813
+        },
+        {
+          "term": "miedo tengas",
+          "ctfidf_weight": 0.47081362544732813
+        },
+        {
+          "term": "tengas miedo",
+          "ctfidf_weight": 0.47081362544732813
+        },
+        {
+          "term": "tengas",
+          "ctfidf_weight": 0.47081362544732813
+        },
+        {
+          "term": "tenerte olvidar",
+          "ctfidf_weight": 0.47081362544732813
+        }
+      ]
+    },
+    {
+      "topic_id": 18,
+      "unique_blocks": 15,
+      "songs": 10,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "niebla",
+          "ctfidf_weight": 0.560742892953791
+        },
+        {
+          "term": "sabrás",
+          "ctfidf_weight": 0.5121666966265273
+        },
+        {
+          "term": "río",
+          "ctfidf_weight": 0.46505198064571585
+        },
+        {
+          "term": "mortales",
+          "ctfidf_weight": 0.44877578463984363
+        },
+        {
+          "term": "poniente tribus",
+          "ctfidf_weight": 0.44877578463984363
+        },
+        {
+          "term": "niebla hombre",
+          "ctfidf_weight": 0.44877578463984363
+        },
+        {
+          "term": "ocultas",
+          "ctfidf_weight": 0.44877578463984363
+        },
+        {
+          "term": "malva",
+          "ctfidf_weight": 0.44877578463984363
+        },
+        {
+          "term": "despuntan",
+          "ctfidf_weight": 0.44877578463984363
+        },
+        {
+          "term": "malva amanecer",
+          "ctfidf_weight": 0.44877578463984363
+        }
+      ]
+    },
+    {
+      "topic_id": 19,
+      "unique_blocks": 15,
+      "songs": 11,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "it's demons",
+          "ctfidf_weight": 0.42518912277651016
+        },
+        {
+          "term": "demons hide",
+          "ctfidf_weight": 0.42518912277651016
+        },
+        {
+          "term": "demons",
+          "ctfidf_weight": 0.4071826219851844
+        },
+        {
+          "term": "cuz always",
+          "ctfidf_weight": 0.38835571737138663
+        },
+        {
+          "term": "you’re looking",
+          "ctfidf_weight": 0.38835571737138663
+        },
+        {
+          "term": "bathroom line",
+          "ctfidf_weight": 0.38835571737138663
+        },
+        {
+          "term": "walls versailles",
+          "ctfidf_weight": 0.38835571737138663
+        },
+        {
+          "term": "standing like",
+          "ctfidf_weight": 0.38835571737138663
+        },
+        {
+          "term": "versailles",
+          "ctfidf_weight": 0.38835571737138663
+        },
+        {
+          "term": "versailles alive",
+          "ctfidf_weight": 0.38835571737138663
+        }
+      ]
+    },
+    {
+      "topic_id": 20,
+      "unique_blocks": 15,
+      "songs": 8,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "cry",
+          "ctfidf_weight": 0.7096351892214746
+        },
+        {
+          "term": "llorar",
+          "ctfidf_weight": 0.6988761355241643
+        },
+        {
+          "term": "doves cry",
+          "ctfidf_weight": 0.6786286364577546
+        },
+        {
+          "term": "doves",
+          "ctfidf_weight": 0.6638953128663296
+        },
+        {
+          "term": "no llorar",
+          "ctfidf_weight": 0.6638953128663296
+        },
+        {
+          "term": "cry doves",
+          "ctfidf_weight": 0.6592751828289677
+        },
+        {
+          "term": "carnaval",
+          "ctfidf_weight": 0.6298263949703073
+        },
+        {
+          "term": "don't cry",
+          "ctfidf_weight": 0.6140382099933989
+        },
+        {
+          "term": "déjenme",
+          "ctfidf_weight": 0.587044673086858
+        },
+        {
+          "term": "déjenme llorar",
+          "ctfidf_weight": 0.587044673086858
+        }
+      ]
+    },
+    {
+      "topic_id": 21,
+      "unique_blocks": 14,
+      "songs": 3,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "puerto",
+          "ctfidf_weight": 0.8004151282498458
+        },
+        {
+          "term": "puerto rico",
+          "ctfidf_weight": 0.8004151282498458
+        },
+        {
+          "term": "rico",
+          "ctfidf_weight": 0.7807756297990281
+        },
+        {
+          "term": "chocha",
+          "ctfidf_weight": 0.743363267810469
+        },
+        {
+          "term": "gusta chocha",
+          "ctfidf_weight": 0.743363267810469
+        },
+        {
+          "term": "está cabrón",
+          "ctfidf_weight": 0.743363267810469
+        },
+        {
+          "term": "cabrón",
+          "ctfidf_weight": 0.7307793221161191
+        },
+        {
+          "term": "chocha puerto",
+          "ctfidf_weight": 0.7143032191858449
+        },
+        {
+          "term": "rico gusta",
+          "ctfidf_weight": 0.7143032191858449
+        },
+        {
+          "term": "gusta",
+          "ctfidf_weight": 0.6442944683842403
+        }
+      ]
+    },
+    {
+      "topic_id": 22,
+      "unique_blocks": 14,
+      "songs": 4,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "mu mal",
+          "ctfidf_weight": 0.6491919841908286
+        },
+        {
+          "term": "mal mu",
+          "ctfidf_weight": 0.6491919841908286
+        },
+        {
+          "term": "mu",
+          "ctfidf_weight": 0.6491919841908286
+        },
+        {
+          "term": "bam",
+          "ctfidf_weight": 0.6262965094559264
+        },
+        {
+          "term": "mal",
+          "ctfidf_weight": 0.625390975909593
+        },
+        {
+          "term": "bam bam",
+          "ctfidf_weight": 0.5973992545499759
+        },
+        {
+          "term": "malamente",
+          "ctfidf_weight": 0.5792305508101283
+        },
+        {
+          "term": "head",
+          "ctfidf_weight": 0.5471217840509845
+        },
+        {
+          "term": "psiquiatra",
+          "ctfidf_weight": 0.5373753705913442
+        },
+        {
+          "term": "doctor psiquiatra",
+          "ctfidf_weight": 0.516367937112614
+        }
+      ]
+    },
+    {
+      "topic_id": 23,
+      "unique_blocks": 14,
+      "songs": 6,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "yet",
+          "ctfidf_weight": 1.2192310028965714
+        },
+        {
+          "term": "clear",
+          "ctfidf_weight": 1.082460170389444
+        },
+        {
+          "term": "clear yet",
+          "ctfidf_weight": 1.082460170389444
+        },
+        {
+          "term": "woods",
+          "ctfidf_weight": 1.062076491372372
+        },
+        {
+          "term": "yet clear",
+          "ctfidf_weight": 0.9906327986377702
+        },
+        {
+          "term": "yet woods",
+          "ctfidf_weight": 0.9623814621901002
+        },
+        {
+          "term": "woods yet",
+          "ctfidf_weight": 0.9623814621901002
+        },
+        {
+          "term": "yet good",
+          "ctfidf_weight": 0.6923207767835194
+        },
+        {
+          "term": "it's won't",
+          "ctfidf_weight": 0.6066321802451176
+        },
+        {
+          "term": "gonna alright",
+          "ctfidf_weight": 0.6066321802451176
+        }
+      ]
+    },
+    {
+      "topic_id": 24,
+      "unique_blocks": 14,
+      "songs": 3,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "looking crazy",
+          "ctfidf_weight": 0.5444771943564447
+        },
+        {
+          "term": "got looking",
+          "ctfidf_weight": 0.5444771943564447
+        },
+        {
+          "term": "right now",
+          "ctfidf_weight": 0.5370516671146277
+        },
+        {
+          "term": "crazy",
+          "ctfidf_weight": 0.5162937599021199
+        },
+        {
+          "term": "doo",
+          "ctfidf_weight": 0.4868060969239164
+        },
+        {
+          "term": "looking",
+          "ctfidf_weight": 0.484187219472979
+        },
+        {
+          "term": "doo doo",
+          "ctfidf_weight": 0.4834664685388293
+        },
+        {
+          "term": "crazy right",
+          "ctfidf_weight": 0.47553064690808233
+        },
+        {
+          "term": "right",
+          "ctfidf_weight": 0.46441606606672936
+        },
+        {
+          "term": "woah woah",
+          "ctfidf_weight": 0.43873893507374995
+        }
+      ]
+    },
+    {
+      "topic_id": 25,
+      "unique_blocks": 13,
+      "songs": 11,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "muevo",
+          "ctfidf_weight": 0.6315135536311371
+        },
+        {
+          "term": "daddy",
+          "ctfidf_weight": 0.4136514822457258
+        },
+        {
+          "term": "loba",
+          "ctfidf_weight": 0.4136514822457258
+        },
+        {
+          "term": "muevo pie",
+          "ctfidf_weight": 0.3822694486860939
+        },
+        {
+          "term": "muevo pierna",
+          "ctfidf_weight": 0.3822694486860939
+        },
+        {
+          "term": "tibia peroné",
+          "ctfidf_weight": 0.3822694486860939
+        },
+        {
+          "term": "peroné muevo",
+          "ctfidf_weight": 0.3822694486860939
+        },
+        {
+          "term": "miu",
+          "ctfidf_weight": 0.3822694486860939
+        },
+        {
+          "term": "bailo día",
+          "ctfidf_weight": 0.3822694486860939
+        },
+        {
+          "term": "sin compañía",
+          "ctfidf_weight": 0.3822694486860939
+        }
+      ]
+    },
+    {
+      "topic_id": 26,
+      "unique_blocks": 13,
+      "songs": 9,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "dream",
+          "ctfidf_weight": 0.5470619974256754
+        },
+        {
+          "term": "thought heard",
+          "ctfidf_weight": 0.5125045526741424
+        },
+        {
+          "term": "dream dream",
+          "ctfidf_weight": 0.49658830326328035
+        },
+        {
+          "term": "heard",
+          "ctfidf_weight": 0.47271177794313274
+        },
+        {
+          "term": "thought",
+          "ctfidf_weight": 0.45770490528194996
+        },
+        {
+          "term": "heard sing",
+          "ctfidf_weight": 0.4535697091513302
+        },
+        {
+          "term": "try dream",
+          "ctfidf_weight": 0.4535697091513302
+        },
+        {
+          "term": "laughing",
+          "ctfidf_weight": 0.4118453874316244
+        },
+        {
+          "term": "haven't",
+          "ctfidf_weight": 0.39743135087458376
+        },
+        {
+          "term": "much haven't",
+          "ctfidf_weight": 0.39743135087458376
+        }
+      ]
+    },
+    {
+      "topic_id": 27,
+      "unique_blocks": 12,
+      "songs": 6,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "ee",
+          "ctfidf_weight": 0.5584723255024733
+        },
+        {
+          "term": "daddy's getting",
+          "ctfidf_weight": 0.48673359864394145
+        },
+        {
+          "term": "unholy",
+          "ctfidf_weight": 0.48673359864394145
+        },
+        {
+          "term": "body shop",
+          "ctfidf_weight": 0.48673359864394145
+        },
+        {
+          "term": "shop",
+          "ctfidf_weight": 0.48673359864394145
+        },
+        {
+          "term": "know daddy's",
+          "ctfidf_weight": 0.48673359864394145
+        },
+        {
+          "term": "daddy's",
+          "ctfidf_weight": 0.48673359864394145
+        },
+        {
+          "term": "hot body",
+          "ctfidf_weight": 0.48673359864394145
+        },
+        {
+          "term": "mummy",
+          "ctfidf_weight": 0.48673359864394145
+        },
+        {
+          "term": "getting hot",
+          "ctfidf_weight": 0.48673359864394145
+        }
+      ]
+    },
+    {
+      "topic_id": 28,
+      "unique_blocks": 12,
+      "songs": 7,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "no soy",
+          "ctfidf_weight": 0.6184045311626527
+        },
+        {
+          "term": "soy no",
+          "ctfidf_weight": 0.586781454542475
+        },
+        {
+          "term": "acabó",
+          "ctfidf_weight": 0.5648330016406397
+        },
+        {
+          "term": "inocencia acabó",
+          "ctfidf_weight": 0.5114062701853976
+        },
+        {
+          "term": "inocencia",
+          "ctfidf_weight": 0.5114062701853976
+        },
+        {
+          "term": "ahora siente",
+          "ctfidf_weight": 0.477643589250515
+        },
+        {
+          "term": "criatura",
+          "ctfidf_weight": 0.477643589250515
+        },
+        {
+          "term": "cuerpo extraño",
+          "ctfidf_weight": 0.477643589250515
+        },
+        {
+          "term": "extraño ahora",
+          "ctfidf_weight": 0.477643589250515
+        },
+        {
+          "term": "criatura inocencia",
+          "ctfidf_weight": 0.477643589250515
+        }
+      ]
+    },
+    {
+      "topic_id": 29,
+      "unique_blocks": 12,
+      "songs": 10,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "sol",
+          "ctfidf_weight": 0.6459279194725313
+        },
+        {
+          "term": "llegar sol",
+          "ctfidf_weight": 0.49146843928555045
+        },
+        {
+          "term": "sol corazón",
+          "ctfidf_weight": 0.49146843928555045
+        },
+        {
+          "term": "sol eh",
+          "ctfidf_weight": 0.49146843928555045
+        },
+        {
+          "term": "sentir puedo",
+          "ctfidf_weight": 0.49146843928555045
+        },
+        {
+          "term": "fácil llegar",
+          "ctfidf_weight": 0.49146843928555045
+        },
+        {
+          "term": "brilla",
+          "ctfidf_weight": 0.49146843928555045
+        },
+        {
+          "term": "corazón rayando",
+          "ctfidf_weight": 0.49146843928555045
+        },
+        {
+          "term": "llegar",
+          "ctfidf_weight": 0.4579646166285042
+        },
+        {
+          "term": "niña ojos",
+          "ctfidf_weight": 0.4342251751819547
+        }
+      ]
+    },
+    {
+      "topic_id": 30,
+      "unique_blocks": 12,
+      "songs": 5,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "mad world",
+          "ctfidf_weight": 0.7882139647552249
+        },
+        {
+          "term": "world mad",
+          "ctfidf_weight": 0.7535635433293337
+        },
+        {
+          "term": "mad",
+          "ctfidf_weight": 0.7130128396230567
+        },
+        {
+          "term": "tú vayas",
+          "ctfidf_weight": 0.6665427588853838
+        },
+        {
+          "term": "manera rayo",
+          "ctfidf_weight": 0.6088013013957024
+        },
+        {
+          "term": "rayo luna",
+          "ctfidf_weight": 0.6088013013957024
+        },
+        {
+          "term": "campo",
+          "ctfidf_weight": 0.6088013013957024
+        },
+        {
+          "term": "encuentre campo",
+          "ctfidf_weight": 0.6088013013957024
+        },
+        {
+          "term": "campo lleno",
+          "ctfidf_weight": 0.6088013013957024
+        },
+        {
+          "term": "montaña encuentre",
+          "ctfidf_weight": 0.6088013013957024
+        }
+      ]
+    },
+    {
+      "topic_id": 31,
+      "unique_blocks": 11,
+      "songs": 4,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "malo",
+          "ctfidf_weight": 0.9305170012684958
+        },
+        {
+          "term": "malo malo",
+          "ctfidf_weight": 0.8614624223766487
+        },
+        {
+          "term": "tonto",
+          "ctfidf_weight": 0.7031123610936251
+        },
+        {
+          "term": "tonto tonto",
+          "ctfidf_weight": 0.6645586017099101
+        },
+        {
+          "term": "malo no",
+          "ctfidf_weight": 0.6115792222702576
+        },
+        {
+          "term": "pienses mejor",
+          "ctfidf_weight": 0.5791925310336937
+        },
+        {
+          "term": "no pienses",
+          "ctfidf_weight": 0.5791925310336937
+        },
+        {
+          "term": "pienses",
+          "ctfidf_weight": 0.5791925310336937
+        },
+        {
+          "term": "mala",
+          "ctfidf_weight": 0.5740888388409656
+        },
+        {
+          "term": "persona",
+          "ctfidf_weight": 0.540954649010721
+        }
+      ]
+    },
+    {
+      "topic_id": 32,
+      "unique_blocks": 11,
+      "songs": 6,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "toxic",
+          "ctfidf_weight": 0.714001616584772
+        },
+        {
+          "term": "you're toxic",
+          "ctfidf_weight": 0.6908506652568559
+        },
+        {
+          "term": "think ready",
+          "ctfidf_weight": 0.5136405606709563
+        },
+        {
+          "term": "taste poison",
+          "ctfidf_weight": 0.5136405606709563
+        },
+        {
+          "term": "poison paradise",
+          "ctfidf_weight": 0.5136405606709563
+        },
+        {
+          "term": "paradise addicted",
+          "ctfidf_weight": 0.5136405606709563
+        },
+        {
+          "term": "now think",
+          "ctfidf_weight": 0.5136405606709563
+        },
+        {
+          "term": "taste lips",
+          "ctfidf_weight": 0.5136405606709563
+        },
+        {
+          "term": "toxic taste",
+          "ctfidf_weight": 0.5136405606709563
+        },
+        {
+          "term": "lips ride",
+          "ctfidf_weight": 0.5136405606709563
+        }
+      ]
+    },
+    {
+      "topic_id": 33,
+      "unique_blocks": 11,
+      "songs": 7,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "ra",
+          "ctfidf_weight": 0.9908208136365672
+        },
+        {
+          "term": "rayando",
+          "ctfidf_weight": 0.8777573194851553
+        },
+        {
+          "term": "ra ra",
+          "ctfidf_weight": 0.8737648561604581
+        },
+        {
+          "term": "rayando rayando",
+          "ctfidf_weight": 0.7911167102668627
+        },
+        {
+          "term": "ay ay",
+          "ctfidf_weight": 0.7317696674632839
+        },
+        {
+          "term": "hala",
+          "ctfidf_weight": 0.7176139912071129
+        },
+        {
+          "term": "pucho",
+          "ctfidf_weight": 0.7075962969170843
+        },
+        {
+          "term": "da",
+          "ctfidf_weight": 0.6828359218717029
+        },
+        {
+          "term": "sha",
+          "ctfidf_weight": 0.6748791639456796
+        },
+        {
+          "term": "sha ah",
+          "ctfidf_weight": 0.6748791639456796
+        }
+      ]
+    },
+    {
+      "topic_id": 34,
+      "unique_blocks": 11,
+      "songs": 9,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "run run",
+          "ctfidf_weight": 0.4837155735475831
+        },
+        {
+          "term": "no gusta",
+          "ctfidf_weight": 0.4693628365169095
+        },
+        {
+          "term": "run",
+          "ctfidf_weight": 0.3931804950374169
+        },
+        {
+          "term": "loco tomando",
+          "ctfidf_weight": 0.38712900116812976
+        },
+        {
+          "term": "calles gritando",
+          "ctfidf_weight": 0.38712900116812976
+        },
+        {
+          "term": "gritando loco",
+          "ctfidf_weight": 0.38712900116812976
+        },
+        {
+          "term": "buscando calles",
+          "ctfidf_weight": 0.38712900116812976
+        },
+        {
+          "term": "she's running",
+          "ctfidf_weight": 0.38712900116812976
+        },
+        {
+          "term": "let’s go",
+          "ctfidf_weight": 0.38712900116812976
+        },
+        {
+          "term": "let’s",
+          "ctfidf_weight": 0.38712900116812976
+        }
+      ]
+    },
+    {
+      "topic_id": 35,
+      "unique_blocks": 10,
+      "songs": 1,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "every",
+          "ctfidf_weight": 0.8980118909184749
+        },
+        {
+          "term": "ll watching",
+          "ctfidf_weight": 0.8067862403347402
+        },
+        {
+          "term": "watching every",
+          "ctfidf_weight": 0.772109956541422
+        },
+        {
+          "term": "make every",
+          "ctfidf_weight": 0.7073509166103956
+        },
+        {
+          "term": "move make",
+          "ctfidf_weight": 0.7073509166103956
+        },
+        {
+          "term": "every move",
+          "ctfidf_weight": 0.7073509166103956
+        },
+        {
+          "term": "break every",
+          "ctfidf_weight": 0.6808925850491184
+        },
+        {
+          "term": "watching",
+          "ctfidf_weight": 0.5957135424160956
+        },
+        {
+          "term": "move",
+          "ctfidf_weight": 0.5920036453179194
+        },
+        {
+          "term": "every game",
+          "ctfidf_weight": 0.5757878475093737
+        }
+      ]
+    },
+    {
+      "topic_id": 36,
+      "unique_blocks": 10,
+      "songs": 8,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "tú tú",
+          "ctfidf_weight": 0.5803807451659764
+        },
+        {
+          "term": "porquería",
+          "ctfidf_weight": 0.5136405606709563
+        },
+        {
+          "term": "porquería apareces",
+          "ctfidf_weight": 0.5136405606709563
+        },
+        {
+          "term": "hecho porquería",
+          "ctfidf_weight": 0.5136405606709563
+        },
+        {
+          "term": "estás hecho",
+          "ctfidf_weight": 0.5136405606709563
+        },
+        {
+          "term": "atrancan",
+          "ctfidf_weight": 0.5136405606709563
+        },
+        {
+          "term": "apareces fantasmas",
+          "ctfidf_weight": 0.5136405606709563
+        },
+        {
+          "term": "policía",
+          "ctfidf_weight": 0.5136405606709563
+        },
+        {
+          "term": "apareces",
+          "ctfidf_weight": 0.5136405606709563
+        },
+        {
+          "term": "levanta estás",
+          "ctfidf_weight": 0.5136405606709563
+        }
+      ]
+    },
+    {
+      "topic_id": 37,
+      "unique_blocks": 10,
+      "songs": 4,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "walk",
+          "ctfidf_weight": 0.9407011160859019
+        },
+        {
+          "term": "walk alone",
+          "ctfidf_weight": 0.8787601979267994
+        },
+        {
+          "term": "alone walk",
+          "ctfidf_weight": 0.8196478137641898
+        },
+        {
+          "term": "alone",
+          "ctfidf_weight": 0.7967141813876581
+        },
+        {
+          "term": "shallow heart's",
+          "ctfidf_weight": 0.5728249780286465
+        },
+        {
+          "term": "shallow",
+          "ctfidf_weight": 0.5728249780286465
+        },
+        {
+          "term": "beside shallow",
+          "ctfidf_weight": 0.5728249780286465
+        },
+        {
+          "term": "heart's",
+          "ctfidf_weight": 0.5728249780286465
+        },
+        {
+          "term": "shadow's one",
+          "ctfidf_weight": 0.5728249780286465
+        },
+        {
+          "term": "beating",
+          "ctfidf_weight": 0.5728249780286465
+        }
+      ]
+    },
+    {
+      "topic_id": 38,
+      "unique_blocks": 10,
+      "songs": 6,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "one shot",
+          "ctfidf_weight": 0.6099096198878593
+        },
+        {
+          "term": "go away",
+          "ctfidf_weight": 0.5840803183727298
+        },
+        {
+          "term": "opportunity",
+          "ctfidf_weight": 0.5840803183727298
+        },
+        {
+          "term": "moment better",
+          "ctfidf_weight": 0.5570741942233545
+        },
+        {
+          "term": "lifetime",
+          "ctfidf_weight": 0.5570741942233545
+        },
+        {
+          "term": "chance blow",
+          "ctfidf_weight": 0.5570741942233545
+        },
+        {
+          "term": "get one",
+          "ctfidf_weight": 0.5570741942233545
+        },
+        {
+          "term": "music",
+          "ctfidf_weight": 0.5570741942233545
+        },
+        {
+          "term": "music moment",
+          "ctfidf_weight": 0.5570741942233545
+        },
+        {
+          "term": "not miss",
+          "ctfidf_weight": 0.5570741942233545
+        }
+      ]
+    },
+    {
+      "topic_id": 39,
+      "unique_blocks": 10,
+      "songs": 5,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "queda",
+          "ctfidf_weight": 0.8490270375767086
+        },
+        {
+          "term": "nada queda",
+          "ctfidf_weight": 0.7373242253209871
+        },
+        {
+          "term": "echar nadie",
+          "ctfidf_weight": 0.7144260165038235
+        },
+        {
+          "term": "queda nada",
+          "ctfidf_weight": 0.7144260165038235
+        },
+        {
+          "term": "va echar",
+          "ctfidf_weight": 0.7144260165038235
+        },
+        {
+          "term": "nadie va",
+          "ctfidf_weight": 0.684170509148614
+        },
+        {
+          "term": "baile",
+          "ctfidf_weight": 0.684170509148614
+        },
+        {
+          "term": "sobran",
+          "ctfidf_weight": 0.684170509148614
+        },
+        {
+          "term": "echar",
+          "ctfidf_weight": 0.6594828357100395
+        },
+        {
+          "term": "nadie",
+          "ctfidf_weight": 0.65848569139873
+        }
+      ]
+    },
+    {
+      "topic_id": 40,
+      "unique_blocks": 10,
+      "songs": 9,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "pasito",
+          "ctfidf_weight": 0.5227723454714748
+        },
+        {
+          "term": "poquito",
+          "ctfidf_weight": 0.49743697980105467
+        },
+        {
+          "term": "come darling",
+          "ctfidf_weight": 0.48163807743266235
+        },
+        {
+          "term": "veo",
+          "ctfidf_weight": 0.4488043989269934
+        },
+        {
+          "term": "pasito pasito",
+          "ctfidf_weight": 0.42553979427758243
+        },
+        {
+          "term": "pegando",
+          "ctfidf_weight": 0.42553979427758243
+        },
+        {
+          "term": "suave",
+          "ctfidf_weight": 0.42553979427758243
+        },
+        {
+          "term": "suave suavecito",
+          "ctfidf_weight": 0.42553979427758243
+        },
+        {
+          "term": "pasito suave",
+          "ctfidf_weight": 0.42553979427758243
+        },
+        {
+          "term": "poquito poquito",
+          "ctfidf_weight": 0.42553979427758243
+        }
+      ]
+    },
+    {
+      "topic_id": 41,
+      "unique_blocks": 10,
+      "songs": 2,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "sunday",
+          "ctfidf_weight": 1.1331340064957134
+        },
+        {
+          "term": "sunday bloody",
+          "ctfidf_weight": 0.9805994958407706
+        },
+        {
+          "term": "bloody sunday",
+          "ctfidf_weight": 0.9805994958407706
+        },
+        {
+          "term": "bloody",
+          "ctfidf_weight": 0.9805994958407706
+        },
+        {
+          "term": "sunday sunday",
+          "ctfidf_weight": 0.8226015091514823
+        },
+        {
+          "term": "tonight",
+          "ctfidf_weight": 0.8077089721323338
+        },
+        {
+          "term": "tonight tonight",
+          "ctfidf_weight": 0.7803883126831582
+        },
+        {
+          "term": "wipe",
+          "ctfidf_weight": 0.6739050364866014
+        },
+        {
+          "term": "holding tonight",
+          "ctfidf_weight": 0.6696373432505057
+        },
+        {
+          "term": "wipe tears",
+          "ctfidf_weight": 0.6294143017150877
+        }
+      ]
+    },
+    {
+      "topic_id": 42,
+      "unique_blocks": 9,
+      "songs": 6,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "tengo culpa",
+          "ctfidf_weight": 0.6746372008944466
+        },
+        {
+          "term": "culpa",
+          "ctfidf_weight": 0.6591691988093294
+        },
+        {
+          "term": "culpa verte",
+          "ctfidf_weight": 0.616208337256471
+        },
+        {
+          "term": "verte caer",
+          "ctfidf_weight": 0.616208337256471
+        },
+        {
+          "term": "déjame no",
+          "ctfidf_weight": 0.5628272644953156
+        },
+        {
+          "term": "caer no",
+          "ctfidf_weight": 0.5628272644953156
+        },
+        {
+          "term": "no tengo",
+          "ctfidf_weight": 0.5258274525570688
+        },
+        {
+          "term": "caer",
+          "ctfidf_weight": 0.5215833892124885
+        },
+        {
+          "term": "verte",
+          "ctfidf_weight": 0.49828507770376546
+        },
+        {
+          "term": "mastique",
+          "ctfidf_weight": 0.49316609007236206
+        }
+      ]
+    },
+    {
+      "topic_id": 43,
+      "unique_blocks": 9,
+      "songs": 4,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "you'll taste",
+          "ctfidf_weight": 0.6575814152355208
+        },
+        {
+          "term": "taste",
+          "ctfidf_weight": 0.6248949698369689
+        },
+        {
+          "term": "he's kissin",
+          "ctfidf_weight": 0.5731116011003549
+        },
+        {
+          "term": "taste he's",
+          "ctfidf_weight": 0.5731116011003549
+        },
+        {
+          "term": "kissin",
+          "ctfidf_weight": 0.5731116011003549
+        },
+        {
+          "term": "you'll",
+          "ctfidf_weight": 0.520563134421954
+        },
+        {
+          "term": "bet",
+          "ctfidf_weight": 0.5126065995016547
+        },
+        {
+          "term": "true you'll",
+          "ctfidf_weight": 0.4889052059938245
+        },
+        {
+          "term": "want forever",
+          "ctfidf_weight": 0.4889052059938245
+        },
+        {
+          "term": "bet know",
+          "ctfidf_weight": 0.4889052059938245
+        }
+      ]
+    },
+    {
+      "topic_id": 44,
+      "unique_blocks": 9,
+      "songs": 5,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "shit",
+          "ctfidf_weight": 0.5444107722321936
+        },
+        {
+          "term": "stan",
+          "ctfidf_weight": 0.425447704099667
+        },
+        {
+          "term": "she'll",
+          "ctfidf_weight": 0.41055760469065095
+        },
+        {
+          "term": "what's shit",
+          "ctfidf_weight": 0.41055760469065095
+        },
+        {
+          "term": "know like",
+          "ctfidf_weight": 0.3825695426330887
+        },
+        {
+          "term": "fan",
+          "ctfidf_weight": 0.3627383440495993
+        },
+        {
+          "term": "died",
+          "ctfidf_weight": 0.32425788969773955
+        },
+        {
+          "term": "shit'll make",
+          "ctfidf_weight": 0.3241863796900626
+        },
+        {
+          "term": "shit'll",
+          "ctfidf_weight": 0.3241863796900626
+        },
+        {
+          "term": "she'll suffer",
+          "ctfidf_weight": 0.3241863796900626
+        }
+      ]
+    },
+    {
+      "topic_id": 45,
+      "unique_blocks": 9,
+      "songs": 3,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "la'o",
+          "ctfidf_weight": 0.6593336618202488
+        },
+        {
+          "term": "la'o la'o",
+          "ctfidf_weight": 0.5575568280018325
+        },
+        {
+          "term": "coroná",
+          "ctfidf_weight": 0.5092566350239871
+        },
+        {
+          "term": "ere",
+          "ctfidf_weight": 0.4828583771030578
+        },
+        {
+          "term": "toma",
+          "ctfidf_weight": 0.4679751910653236
+        },
+        {
+          "term": "baby disco",
+          "ctfidf_weight": 0.44622590158881315
+        },
+        {
+          "term": "la'o hoy",
+          "ctfidf_weight": 0.44622590158881315
+        },
+        {
+          "term": "oah alocá",
+          "ctfidf_weight": 0.44622590158881315
+        },
+        {
+          "term": "hoy salgo",
+          "ctfidf_weight": 0.44622590158881315
+        },
+        {
+          "term": "yeh",
+          "ctfidf_weight": 0.44622590158881315
+        }
+      ]
+    },
+    {
+      "topic_id": 46,
+      "unique_blocks": 9,
+      "songs": 6,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "soy nada",
+          "ctfidf_weight": 0.5725935349234342
+        },
+        {
+          "term": "nada sin",
+          "ctfidf_weight": 0.5524313878163433
+        },
+        {
+          "term": "sin no",
+          "ctfidf_weight": 0.5228246420448087
+        },
+        {
+          "term": "pasan luces",
+          "ctfidf_weight": 0.4889052059938245
+        },
+        {
+          "term": "luces alba",
+          "ctfidf_weight": 0.4889052059938245
+        },
+        {
+          "term": "días pasan",
+          "ctfidf_weight": 0.4889052059938245
+        },
+        {
+          "term": "alba alma",
+          "ctfidf_weight": 0.4889052059938245
+        },
+        {
+          "term": "cuerpo voz",
+          "ctfidf_weight": 0.4889052059938245
+        },
+        {
+          "term": "no sirven",
+          "ctfidf_weight": 0.4889052059938245
+        },
+        {
+          "term": "luces",
+          "ctfidf_weight": 0.4889052059938245
+        }
+      ]
+    },
+    {
+      "topic_id": 47,
+      "unique_blocks": 8,
+      "songs": 4,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "prayer",
+          "ctfidf_weight": 0.7107918371597313
+        },
+        {
+          "term": "livin prayer",
+          "ctfidf_weight": 0.7107918371597313
+        },
+        {
+          "term": "whoa",
+          "ctfidf_weight": 0.6743163443040775
+        },
+        {
+          "term": "livin",
+          "ctfidf_weight": 0.6251819482303538
+        },
+        {
+          "term": "make swear",
+          "ctfidf_weight": 0.5823064918147359
+        },
+        {
+          "term": "whoa livin",
+          "ctfidf_weight": 0.5823064918147359
+        },
+        {
+          "term": "prayer take",
+          "ctfidf_weight": 0.5823064918147359
+        },
+        {
+          "term": "hand we'll",
+          "ctfidf_weight": 0.5612944892234908
+        },
+        {
+          "term": "we'll make",
+          "ctfidf_weight": 0.5612944892234908
+        },
+        {
+          "term": "whoa we're",
+          "ctfidf_weight": 0.5438630282992721
+        }
+      ]
+    },
+    {
+      "topic_id": 48,
+      "unique_blocks": 8,
+      "songs": 3,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "cintura",
+          "ctfidf_weight": 0.9266674231440646
+        },
+        {
+          "term": "controlar",
+          "ctfidf_weight": 0.8192099397843238
+        },
+        {
+          "term": "tengo venas",
+          "ctfidf_weight": 0.7758279895617002
+        },
+        {
+          "term": "cintura necesita",
+          "ctfidf_weight": 0.7758279895617002
+        },
+        {
+          "term": "ayuda no",
+          "ctfidf_weight": 0.7758279895617002
+        },
+        {
+          "term": "ayuda",
+          "ctfidf_weight": 0.7758279895617002
+        },
+        {
+          "term": "necesita ayuda",
+          "ctfidf_weight": 0.7758279895617002
+        },
+        {
+          "term": "necesita",
+          "ctfidf_weight": 0.7758279895617002
+        },
+        {
+          "term": "controlar cintura",
+          "ctfidf_weight": 0.7246083733797807
+        },
+        {
+          "term": "venas",
+          "ctfidf_weight": 0.7241948644025828
+        }
+      ]
+    },
+    {
+      "topic_id": 49,
+      "unique_blocks": 8,
+      "songs": 7,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "perdón",
+          "ctfidf_weight": 0.3950075707911053
+        },
+        {
+          "term": "feeling pride",
+          "ctfidf_weight": 0.39492045804746145
+        },
+        {
+          "term": "insistiendo pedir",
+          "ctfidf_weight": 0.39492045804746145
+        },
+        {
+          "term": "row",
+          "ctfidf_weight": 0.39492045804746145
+        },
+        {
+          "term": "girlfriend need",
+          "ctfidf_weight": 0.39492045804746145
+        },
+        {
+          "term": "relación sigo",
+          "ctfidf_weight": 0.39492045804746145
+        },
+        {
+          "term": "give try",
+          "ctfidf_weight": 0.39492045804746145
+        },
+        {
+          "term": "real won't",
+          "ctfidf_weight": 0.39492045804746145
+        },
+        {
+          "term": "not go",
+          "ctfidf_weight": 0.39492045804746145
+        },
+        {
+          "term": "row funny",
+          "ctfidf_weight": 0.39492045804746145
+        }
+      ]
+    },
+    {
+      "topic_id": 50,
+      "unique_blocks": 8,
+      "songs": 4,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "belong together",
+          "ctfidf_weight": 0.7672847397498491
+        },
+        {
+          "term": "belong",
+          "ctfidf_weight": 0.7040936849422261
+        },
+        {
+          "term": "together finally",
+          "ctfidf_weight": 0.686902914850535
+        },
+        {
+          "term": "finally appears",
+          "ctfidf_weight": 0.686902914850535
+        },
+        {
+          "term": "appears",
+          "ctfidf_weight": 0.686902914850535
+        },
+        {
+          "term": "finally",
+          "ctfidf_weight": 0.6536132110653807
+        },
+        {
+          "term": "it's love",
+          "ctfidf_weight": 0.6321422209547163
+        },
+        {
+          "term": "appears it's",
+          "ctfidf_weight": 0.6321422209547163
+        },
+        {
+          "term": "love belong",
+          "ctfidf_weight": 0.6321422209547163
+        },
+        {
+          "term": "together",
+          "ctfidf_weight": 0.6209257876269477
+        }
+      ]
+    }
+  ],
+  "interpretation": "c-TF-IDF descriptors require human naming and inspection. A topic is not evidence of an emotion."
+}

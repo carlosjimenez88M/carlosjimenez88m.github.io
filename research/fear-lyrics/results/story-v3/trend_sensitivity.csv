@@ -1,0 +1,33 @@
+subset,column,slope_per_decade,p_two_sided,songs,weight
+miedo acordado por ambos lectores,threat_locus:internal_self,0.09227903826616998,0.01324668832791802,50,50.0
+miedo acordado por ambos lectores,threat_locus:external_collective,-0.13458524637932257,0.008247938015496127,50,50.0
+miedo acordado por ambos lectores,interiorizacion_fear,0.2500089699313399,0.01324668832791802,50,50.0
+miedo acordado por ambos lectores,agentic,0.0856362075618803,0.09172706823294176,50,50.0
+miedo acordado por ambos lectores,agencia_all,0.09739196653837696,0.1902024493876531,50,50.0
+excluye canciones elegidas como «miedo»,threat_locus:internal_self,0.03456698140915336,0.3651587103224194,32,29.0
+excluye canciones elegidas como «miedo»,threat_locus:external_collective,-0.1088626353703134,0.1422144463884029,32,29.0
+excluye canciones elegidas como «miedo»,interiorizacion_fear,0.19936337513623256,0.0709822544363909,32,29.0
+excluye canciones elegidas como «miedo»,agentic,0.10266743819546345,0.14021494626343414,32,29.0
+excluye canciones elegidas como «miedo»,agencia_all,0.035623240842320346,0.7200699825043739,32,29.0
+solo inglés,threat_locus:internal_self,0.10928887726945774,0.04848787803049238,36,34.0
+solo inglés,threat_locus:external_collective,-0.11764674009484888,0.07323169207698076,36,34.0
+solo inglés,interiorizacion_fear,0.15003274017046372,0.2516870782304424,36,34.0
+solo inglés,agentic,0.09180103139007377,0.14346413396650837,36,34.0
+solo inglés,agencia_all,0.14943542971003834,0.1432141964508873,36,34.0
+solo español,threat_locus:internal_self,0.04314935685610508,0.3791552111972007,20,19.0
+solo español,threat_locus:external_collective,-0.1450146106999481,0.06948262934266433,20,19.0
+solo español,interiorizacion_fear,0.35250161382807965,0.01324668832791802,20,19.0
+solo español,agentic,0.08124641559931178,0.332416895776056,20,19.0
+solo español,agencia_all,0.0011921837184744038,0.9915021244688828,20,19.0
+encoder minilm,interiorizacion_fear,0.20352273936546902,0.02424393901524619,56,53.0
+encoder minilm,agencia_all,0.12314012149598234,0.0709822544363909,56,53.0
+encoder minilm,colectividad_fear,-0.04193693035362205,0.6315921019745063,56,53.0
+encoder e5_small,interiorizacion_fear,0.22148590961666043,0.013996500874781305,56,53.0
+encoder e5_small,agencia_all,0.005084510832707615,0.939265183704074,56,53.0
+encoder e5_small,colectividad_fear,-0.14436455570850135,0.05873531617095726,56,53.0
+encoder e5_large_plain,interiorizacion_fear,0.2730787735094039,0.00424893776555861,56,53.0
+encoder e5_large_plain,agencia_all,0.04891031331636045,0.4453886528367908,56,53.0
+encoder e5_large_plain,colectividad_fear,-0.1389454766485362,0.06623344163959011,56,53.0
+encoder e5_large_fear,interiorizacion_fear,0.23410439985906184,0.013996500874781305,56,53.0
+encoder e5_large_fear,agencia_all,0.08788001379355781,0.21444638840289929,56,53.0
+encoder e5_large_fear,colectividad_fear,-0.07141515587598177,0.38990252436890777,56,53.0

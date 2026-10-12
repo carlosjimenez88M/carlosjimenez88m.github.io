@@ -1,0 +1,264 @@
+{
+  "executed": true,
+  "source": "https://juliasilge.com/blog/bayesian-blues/",
+  "scope": "Existing public topic-presence counts; no lyrics, API calls, embedding inference or topic refits.",
+  "variance": {
+    "beta": "a*b/((a+b)^2*(a+b+1))",
+    "hierarchical": "E[Var(theta|hyper,data)]+Var(E[theta|hyper,data]); existing 64×81 Gauss-Legendre grid",
+    "temporal": "population variance (ddof=0) of five observed c/n values within one topic and language",
+    "not_embedding_variance": true,
+    "interval_width_used_as_variance": false
+  },
+  "pooling": "EB and hierarchical figures use pooled_languages (ten EN/ES cells); fixed priors are independent per cell.",
+  "comparability": "Shared songs within cohort, but topic ontologies/IDs are not aligned between encoders or cohort fits.",
+  "topic_scope": "All non-noise topics; every zero cell retained. Noise also present in exported moments table for audit.",
+  "cohorts": [
+    {
+      "cohort": "matched40",
+      "models": [
+        "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "intfloat/multilingual-e5-small",
+        "openai/text-embedding-3-large",
+        "openai/text-embedding-3-small"
+      ],
+      "counts_rows": 400,
+      "posterior_rows": 2400,
+      "nonnoise_topic_language_series": 74,
+      "songs_per_cell": [
+        4
+      ],
+      "moments_mean_max_absolute_disagreement_with_executed_posterior": 1.1102230246251565e-16,
+      "illustrative_topic_selection": {
+        "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2": 0,
+        "intfloat/multilingual-e5-small": 1,
+        "openai/text-embedding-3-large": 6,
+        "openai/text-embedding-3-small": 0
+      },
+      "input_hashes": {
+        "results/bayes/cell_counts.csv": "c360a69b54b26524d3dbe87f7ed59c6213372d9488c35ee4afd9870d517257ca",
+        "results/bayes/posterior_rates.csv": "49dd521a1ad913fd55ea800b659f8f4d3b88197243b6cb485449f032ea5d4dba",
+        "results/bayes/figure_selection.csv": "f89ba6f04dd1e4cbfb9f7a14ab0873e2656f957237ce7b3d892e3a034e0dda77",
+        "results/bayes/protocol.json": "8fefa409b6bd720ba823b5c32109277a0f619ed1b9e3cf649d4055142022a780"
+      },
+      "model_summaries": [
+        {
+          "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "topics": 19,
+          "descriptive_temporal_variance_median": 0.015000000000000003,
+          "median_mean_posterior_variance_by_method": {
+            "Jeffreys": 0.025,
+            "uniform": 0.025793650793650792,
+            "EB_plugin": 0.0009151795668904811,
+            "hierarchical_grid": 0.012229501455578023
+          },
+          "maximum_mean_posterior_variance_by_method": {
+            "Jeffreys": 0.03899999999999999,
+            "uniform": 0.03412698412698413,
+            "EB_plugin": 0.01944550961176154,
+            "hierarchical_grid": 0.025085289779508572
+          }
+        },
+        {
+          "model": "intfloat/multilingual-e5-small",
+          "topics": 2,
+          "descriptive_temporal_variance_median": 0.0,
+          "median_mean_posterior_variance_by_method": {
+            "Jeffreys": 0.015,
+            "uniform": 0.01984126984126984,
+            "EB_plugin": 0.00462291323630265,
+            "hierarchical_grid": 0.00898960906034256
+          },
+          "maximum_mean_posterior_variance_by_method": {
+            "Jeffreys": 0.031000000000000007,
+            "uniform": 0.02936507936507936,
+            "EB_plugin": 0.032373460219201775,
+            "hierarchical_grid": 0.03496209814120383
+          }
+        },
+        {
+          "model": "openai/text-embedding-3-large",
+          "topics": 11,
+          "descriptive_temporal_variance_median": 0.005000000000000002,
+          "median_mean_posterior_variance_by_method": {
+            "Jeffreys": 0.017,
+            "uniform": 0.02103174603174603,
+            "EB_plugin": 0.0002374971848553396,
+            "hierarchical_grid": 0.006145563405433674
+          },
+          "maximum_mean_posterior_variance_by_method": {
+            "Jeffreys": 0.03766666666666667,
+            "uniform": 0.03333333333333333,
+            "EB_plugin": 0.0364357814264236,
+            "hierarchical_grid": 0.0371153041373362
+          }
+        },
+        {
+          "model": "openai/text-embedding-3-small",
+          "topics": 5,
+          "descriptive_temporal_variance_median": 0.0075,
+          "median_mean_posterior_variance_by_method": {
+            "Jeffreys": 0.019,
+            "uniform": 0.02222222222222222,
+            "EB_plugin": 0.0002374971848553396,
+            "hierarchical_grid": 0.00895589491722287
+          },
+          "maximum_mean_posterior_variance_by_method": {
+            "Jeffreys": 0.035,
+            "uniform": 0.031746031746031744,
+            "EB_plugin": 0.035286117840855426,
+            "hierarchical_grid": 0.03686203282086933
+          }
+        }
+      ]
+    },
+    {
+      "cohort": "expanded120",
+      "models": [
+        "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "intfloat/multilingual-e5-small"
+      ],
+      "counts_rows": 810,
+      "posterior_rows": 4860,
+      "nonnoise_topic_language_series": 158,
+      "songs_per_cell": [
+        12
+      ],
+      "moments_mean_max_absolute_disagreement_with_executed_posterior": 2.220446049250313e-16,
+      "illustrative_topic_selection": {
+        "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2": 18,
+        "intfloat/multilingual-e5-small": 7
+      },
+      "input_hashes": {
+        "expanded/results/bayes/cell_counts.csv": "d6d3287df87f56a53f14da55eaf1b99c1f5cb0e9574477d9699767bc38f05439",
+        "expanded/results/bayes/posterior_rates.csv": "16afde2c99e38f160e2119a10cbd51ad2e50ceb1299227a8e4e799c2625f7255",
+        "expanded/results/bayes/figure_selection.csv": "6579dc5483b6f9d03c887f90762a33e43716e19b03c393db129d880ea93b9086",
+        "expanded/results/bayes/protocol.json": "84debb983d7e43ad097b1d1c7292e1cbb9a8908974fbd43c1a92b714f54e088c"
+      },
+      "model_summaries": [
+        {
+          "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "topics": 51,
+          "descriptive_temporal_variance_median": 0.0027777777777777775,
+          "median_mean_posterior_variance_by_method": {
+            "Jeffreys": 0.0054311073541842775,
+            "uniform": 0.006666666666666668,
+            "EB_plugin": 0.0004832046925392132,
+            "hierarchical_grid": 0.0026721202406143306
+          },
+          "maximum_mean_posterior_variance_by_method": {
+            "Jeffreys": 0.011939983093829248,
+            "uniform": 0.011904761904761904,
+            "EB_plugin": 0.005957313251110955,
+            "hierarchical_grid": 0.0077061560616853595
+          }
+        },
+        {
+          "model": "intfloat/multilingual-e5-small",
+          "topics": 28,
+          "descriptive_temporal_variance_median": 0.0013888888888888887,
+          "median_mean_posterior_variance_by_method": {
+            "Jeffreys": 0.004501267962806424,
+            "uniform": 0.005918367346938775,
+            "EB_plugin": 0.00029212430623827047,
+            "hierarchical_grid": 0.0021078454927575116
+          },
+          "maximum_mean_posterior_variance_by_method": {
+            "Jeffreys": 0.0150676246830093,
+            "uniform": 0.014421768707482994,
+            "EB_plugin": 0.01213963382416502,
+            "hierarchical_grid": 0.012805597155331545
+          }
+        }
+      ]
+    }
+  ],
+  "script_sha256": "ba83f8c672de47aceb6f1bb41a765df691c8541ed574c516aa48c71268c7396c",
+  "bayes_source_script_sha256": "11c24e22915c59839a10509d107e98e2c1e20f496c0504c761820a72f86f68c8",
+  "outputs": [
+    {
+      "path": "research/fear-lyrics/figures/bayes-readable-shrinkage-matched40.svg",
+      "sha256": "d09b41d62eec09abf509b311a738d80935f9ab01454489dd50f0c78deccc640a",
+      "bytes": 498536,
+      "public_path": "static/research/fear-lyrics/bayes-readable-shrinkage-matched40.svg"
+    },
+    {
+      "path": "research/fear-lyrics/figures/bayes-readable-shrinkage-matched40.png",
+      "sha256": "73a5981d1aff0c259acb585739a3bec9dd742335eb0c969ffd11a5134cf27bd1",
+      "bytes": 349087,
+      "public_path": "static/research/fear-lyrics/bayes-readable-shrinkage-matched40.png"
+    },
+    {
+      "path": "research/fear-lyrics/figures/bayes-readable-priors-matched40.svg",
+      "sha256": "2d35def741814e26c98273dba11863acc6df9e61c722a2ca5f611161ae4eda51",
+      "bytes": 118048,
+      "public_path": "static/research/fear-lyrics/bayes-readable-priors-matched40.svg"
+    },
+    {
+      "path": "research/fear-lyrics/figures/bayes-readable-priors-matched40.png",
+      "sha256": "e50309d626519bf3945cc7dbcabc0f1170fb3d2faa540d3bb3364c40591a9578",
+      "bytes": 352007,
+      "public_path": "static/research/fear-lyrics/bayes-readable-priors-matched40.png"
+    },
+    {
+      "path": "research/fear-lyrics/figures/bayes-readable-variance-matched40.svg",
+      "sha256": "90068c028de17c75802ee9e73895e3073ff0bbfbc3979a353a6bb5c9ccecee86",
+      "bytes": 95438,
+      "public_path": "static/research/fear-lyrics/bayes-readable-variance-matched40.svg"
+    },
+    {
+      "path": "research/fear-lyrics/figures/bayes-readable-variance-matched40.png",
+      "sha256": "2296e1b14b74fbeb6607a87bf1bd6ab728e7044e117e12257853a5d1796a4075",
+      "bytes": 264381,
+      "public_path": "static/research/fear-lyrics/bayes-readable-variance-matched40.png"
+    },
+    {
+      "path": "research/fear-lyrics/figures/bayes-readable-shrinkage-expanded120.svg",
+      "sha256": "c82bf265887620f306a43d36b96149cebc9133f51be28bbc4caec58217366d4b",
+      "bytes": 1005011,
+      "public_path": "static/research/fear-lyrics/bayes-readable-shrinkage-expanded120.svg"
+    },
+    {
+      "path": "research/fear-lyrics/figures/bayes-readable-shrinkage-expanded120.png",
+      "sha256": "3c044825d4624983c16a2f002ea7620f74851e334ef46cee1df9d600770d4c98",
+      "bytes": 213960,
+      "public_path": "static/research/fear-lyrics/bayes-readable-shrinkage-expanded120.png"
+    },
+    {
+      "path": "research/fear-lyrics/figures/bayes-readable-priors-expanded120.svg",
+      "sha256": "bfd1188f37a35fd81575ad844401f08f34cbb726cfb51418869107998324116e",
+      "bytes": 63173,
+      "public_path": "static/research/fear-lyrics/bayes-readable-priors-expanded120.svg"
+    },
+    {
+      "path": "research/fear-lyrics/figures/bayes-readable-priors-expanded120.png",
+      "sha256": "c35ce482ca9ce39df5260d20f4fe8cc5d2fa04619e4c2c1fe8b26cf240bf30d5",
+      "bytes": 217104,
+      "public_path": "static/research/fear-lyrics/bayes-readable-priors-expanded120.png"
+    },
+    {
+      "path": "research/fear-lyrics/figures/bayes-readable-variance-expanded120.svg",
+      "sha256": "51eba0915ec351dc10f7921ceb6cca8bdd2f5bdb89eeae5ba2d424940d5e588d",
+      "bytes": 134324,
+      "public_path": "static/research/fear-lyrics/bayes-readable-variance-expanded120.svg"
+    },
+    {
+      "path": "research/fear-lyrics/figures/bayes-readable-variance-expanded120.png",
+      "sha256": "e815ff6bd1c30637020cfc0e2f004a311d4ec366766ae286dc0607769d7da8d1",
+      "bytes": 204315,
+      "public_path": "static/research/fear-lyrics/bayes-readable-variance-expanded120.png"
+    },
+    {
+      "path": "research/fear-lyrics/figures/bayes-readable-posterior-moments.csv",
+      "sha256": "065d3f1c04bc9504ab69c5279dfdf55c554ba396940865557c305f1854d3cd8b",
+      "rows": 7260,
+      "public_path": "static/research/fear-lyrics/bayes-readable-posterior-moments.csv"
+    },
+    {
+      "path": "research/fear-lyrics/figures/bayes-readable-temporal-variance.csv",
+      "sha256": "de7cd532e9c75299797a034967dcb64bc79dfde1614b40510fa07bab7a32291e",
+      "rows": 928,
+      "public_path": "static/research/fear-lyrics/bayes-readable-temporal-variance.csv"
+    }
+  ],
+  "runtime_seconds": 3.352
+}

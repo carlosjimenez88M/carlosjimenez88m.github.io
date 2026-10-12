@@ -1,0 +1,13 @@
+model_slug,model,metric,eligible_queries,queries_with_retained_neighbors,planned_directed_edges,retained_labeled_directed_edges,omitted_directed_edges,observed_matching_edges,uniform_conditional_expected_matching_edges,observed_fraction,uniform_conditional_expected_fraction,observed_minus_conditional_baseline
+sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2,MiniLM,fear_binary_agreement,33,33,165,134,31,80,73.53781512605042,0.5970149253731343,0.5487896651197792,0.048225260253355086
+sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2,MiniLM,fear_neighbors_of_fear_queries,23,23,115,92,23,62,62.7983193277311,0.6739130434782609,0.682590427475338,-0.008677383997077176
+sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2,MiniLM,fear_conditioned_subtopic_intersection,22,21,110,57,53,43,39.93939393939394,0.7543859649122807,0.7006911217437533,0.053694843168527406
+intfloat--multilingual-e5-small,E5 small,fear_binary_agreement,33,33,165,147,18,83,80.78151260504202,0.564625850340136,0.5495340993540274,0.015091750986108675
+intfloat--multilingual-e5-small,E5 small,fear_neighbors_of_fear_queries,23,23,115,101,14,64,68.89915966386555,0.6336633663366337,0.6821698976620351,-0.048506531325401454
+intfloat--multilingual-e5-small,E5 small,fear_conditioned_subtopic_intersection,22,22,110,55,55,42,38.03030303030303,0.7636363636363637,0.6914600550964187,0.07217630853994489
+openai--text-embedding-3-large,OpenAI large,fear_binary_agreement,33,33,165,133,32,85,72.52521008403362,0.6390977443609023,0.5453023314588994,0.09379541290200288
+openai--text-embedding-3-large,OpenAI large,fear_neighbors_of_fear_queries,23,23,115,90,25,69,61.44957983193278,0.7666666666666667,0.6827731092436976,0.08389355742296911
+openai--text-embedding-3-large,OpenAI large,fear_conditioned_subtopic_intersection,22,21,110,59,51,49,41.343434343434346,0.8305084745762712,0.7007361753124466,0.12977229926382464
+openai--text-embedding-3-small,OpenAI small,fear_binary_agreement,33,33,165,138,27,80,75.57142857142857,0.5797101449275363,0.5476190476190476,0.03209109730848863
+openai--text-embedding-3-small,OpenAI small,fear_neighbors_of_fear_queries,23,23,115,94,21,64,64.21008403361346,0.6808510638297872,0.6830860003575899,-0.002234936527802716
+openai--text-embedding-3-small,OpenAI small,fear_conditioned_subtopic_intersection,22,22,110,56,54,47,39.05050505050505,0.8392857142857143,0.6973304473304474,0.14195526695526692

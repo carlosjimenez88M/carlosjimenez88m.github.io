@@ -1,0 +1,43 @@
+{
+  "mode": "execute",
+  "lyric_review_queries": 24,
+  "lyric_review_families": 12,
+  "selected_retrieval": "MiniLM hybrid rewrite enabled, neighbors disabled",
+  "synthetic_anthropic_probes": 20,
+  "models": {
+    "openai": "gpt-5.4-mini",
+    "gemini": "gemini-3.8-flash",
+    "anthropic": "claude-sonnet-4-6"
+  },
+  "rates_per_million": {
+    "openai": [
+      0.75,
+      4.5
+    ],
+    "gemini": [
+      0.75,
+      3.75
+    ],
+    "anthropic": [
+      3.0,
+      15.0
+    ]
+  },
+  "max_output_tokens": 400,
+  "phase_ceiling_usd": 0.8,
+  "user_total_ceiling_usd": 1.0,
+  "sources": {
+    "openai": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+    "gemini": "https://ai.google.dev/gemini-api/docs/pricing",
+    "anthropic": "https://platform.claude.com/docs/en/models/sonnet-4-6/overview"
+  },
+  "prompt_version": "requested-support-v1-20261011",
+  "prompt_sha256": "217a62a32f4e4669d17b334d0ebd426582316c6bc6f1ce79dfc6e232b79fccad",
+  "active_providers": [
+    "openai",
+    "anthropic"
+  ],
+  "gemini_inference_status": "canceled_by_latest_user_scope",
+  "evaluation_scope": "Posthoc support review of frozen test contexts; assistant labels only. Empty gated contexts remain empty for both providers.",
+  "privacy": "Only OpenAI receives private context blocks in this run. Gemini inference canceled. Anthropic receives original synthetic sentences only. Public whitelist excludes all model-written claims, uncertainty text and lyric content."
+}

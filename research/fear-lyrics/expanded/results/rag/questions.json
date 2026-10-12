@@ -1,0 +1,290 @@
+[
+  {
+    "query_id": "privacy_en",
+    "family": "privacy",
+    "split": "dev",
+    "language": "en",
+    "query": "Which passages express a recurring feeling of surveillance and an inability to enjoy privacy?",
+    "answerable": true,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "privacy_es",
+    "family": "privacy",
+    "split": "dev",
+    "language": "es",
+    "query": "¿Qué pasajes expresan una sensación recurrente de vigilancia y la dificultad de disfrutar de privacidad?",
+    "answerable": true,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "sleep_monsters_en",
+    "family": "sleep_monsters",
+    "split": "dev",
+    "language": "en",
+    "query": "Which passage mixes a bedtime prayer with monsters imagined beneath a bed or inside a closet?",
+    "answerable": true,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "sleep_monsters_es",
+    "family": "sleep_monsters",
+    "split": "dev",
+    "language": "es",
+    "query": "¿Qué pasaje mezcla una oración antes de dormir con monstruos imaginados bajo la cama o dentro del armario?",
+    "answerable": true,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "prayer_community_en",
+    "family": "prayer_community",
+    "split": "dev",
+    "language": "en",
+    "query": "Which passage offers a prayer for future generations and for a community to stop spilling blood?",
+    "answerable": true,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "prayer_community_es",
+    "family": "prayer_community",
+    "split": "dev",
+    "language": "es",
+    "query": "¿Qué pasaje ofrece una oración por las generaciones futuras y por un pueblo que deje de derramar sangre?",
+    "answerable": true,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "shower_intruder_en",
+    "family": "shower_intruder",
+    "split": "test",
+    "language": "en",
+    "query": "Where does the speaker fear an unexpected intruder while washing their hair in the shower?",
+    "answerable": true,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "shower_intruder_es",
+    "family": "shower_intruder",
+    "split": "test",
+    "language": "es",
+    "query": "¿Dónde teme el hablante encontrar a un intruso mientras se lava el cabello en la ducha?",
+    "answerable": true,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "violence_history_en",
+    "family": "violence_history",
+    "split": "test",
+    "language": "en",
+    "query": "Which passages connect a grieving mother with recurring military violence and an explicit historical year?",
+    "answerable": true,
+    "requires_all_evidence": true
+  },
+  {
+    "query_id": "violence_history_es",
+    "family": "violence_history",
+    "split": "test",
+    "language": "es",
+    "query": "¿Qué pasajes conectan a una madre doliente con violencia militar recurrente y un año histórico explícito?",
+    "answerable": true,
+    "requires_all_evidence": true
+  },
+  {
+    "query_id": "mutual_fear_en",
+    "family": "mutual_fear",
+    "split": "test",
+    "language": "en",
+    "query": "Which passages combine fear of being feared by a loved person with fear of both another encounter and permanent separation?",
+    "answerable": true,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "mutual_fear_es",
+    "family": "mutual_fear",
+    "split": "test",
+    "language": "es",
+    "query": "¿Qué pasajes combinan el temor de que la persona querida nos tema con miedo tanto a un reencuentro como a una separación definitiva?",
+    "answerable": true,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "childhood_money_en",
+    "family": "childhood_money",
+    "split": "test",
+    "language": "en",
+    "query": "Which passages contrast childhood games and dreams of space with adult demands to make money?",
+    "answerable": true,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "childhood_money_es",
+    "family": "childhood_money",
+    "split": "test",
+    "language": "es",
+    "query": "¿Qué pasajes contrastan los juegos de infancia y los sueños del espacio con la exigencia adulta de ganar dinero?",
+    "answerable": true,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "escape_safety_en",
+    "family": "escape_safety",
+    "split": "test",
+    "language": "en",
+    "query": "Which passages portray escape through an imagined doorway, followed by running, laughing, and reaching safety?",
+    "answerable": true,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "escape_safety_es",
+    "family": "escape_safety",
+    "split": "test",
+    "language": "es",
+    "query": "¿Qué pasajes narran liberación mediante una puerta imaginada, seguida de correr, reír y ponerse a salvo?",
+    "answerable": true,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "power_blame_en",
+    "family": "power_blame",
+    "split": "test",
+    "language": "en",
+    "query": "Which passage connects abuse of power with assigned blame, confinement, and an excuse about the other person's age?",
+    "answerable": true,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "power_blame_es",
+    "family": "power_blame",
+    "split": "test",
+    "language": "es",
+    "query": "¿Qué pasaje conecta el abuso de poder con la culpa impuesta, el encierro y una excusa sobre la edad de la otra persona?",
+    "answerable": true,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "ability_reversal_en",
+    "family": "ability_reversal",
+    "split": "test",
+    "language": "en",
+    "query": "Which passages contrast the speaker's inability to speak or breathe with a later assertion that these actions are possible?",
+    "answerable": true,
+    "requires_all_evidence": true
+  },
+  {
+    "query_id": "ability_reversal_es",
+    "family": "ability_reversal",
+    "split": "test",
+    "language": "es",
+    "query": "¿Qué pasajes contrastan la imposibilidad de hablar o respirar con una afirmación posterior de que esas acciones sí son posibles?",
+    "answerable": true,
+    "requires_all_evidence": true
+  },
+  {
+    "query_id": "lunar_bargain_en",
+    "family": "lunar_bargain",
+    "split": "test",
+    "language": "en",
+    "query": "Which passages connect a bargain to surrender a first child with a later accusation of betrayal and the child's abandonment?",
+    "answerable": true,
+    "requires_all_evidence": true
+  },
+  {
+    "query_id": "lunar_bargain_es",
+    "family": "lunar_bargain",
+    "split": "test",
+    "language": "es",
+    "query": "¿Qué pasajes conectan un pacto de entregar al primer hijo con una acusación posterior de traición y el abandono del niño?",
+    "answerable": true,
+    "requires_all_evidence": true
+  },
+  {
+    "query_id": "quantum_calculation_en",
+    "family": "quantum_calculation",
+    "split": "dev",
+    "language": "en",
+    "query": "Which passage calculates the wavelength of a quantum photon using an equation?",
+    "answerable": false,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "quantum_calculation_es",
+    "family": "quantum_calculation",
+    "split": "dev",
+    "language": "es",
+    "query": "¿Qué pasaje calcula mediante una ecuación la longitud de onda de un fotón cuántico?",
+    "answerable": false,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "vaccine_batch_en",
+    "family": "vaccine_batch",
+    "split": "test",
+    "language": "en",
+    "query": "Which passage reports a numeric vaccine batch identifier and a controlled clinical trial?",
+    "answerable": false,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "vaccine_batch_es",
+    "family": "vaccine_batch",
+    "split": "test",
+    "language": "es",
+    "query": "¿Qué pasaje informa de un identificador numérico de un lote de vacunas y un ensayo clínico controlado?",
+    "answerable": false,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "moscow_metro_en",
+    "family": "moscow_metro",
+    "split": "test",
+    "language": "en",
+    "query": "Which passage names a Moscow metro station and supplies its opening date?",
+    "answerable": false,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "moscow_metro_es",
+    "family": "moscow_metro",
+    "split": "test",
+    "language": "es",
+    "query": "¿Qué pasaje nombra una estación del metro de Moscú e indica su fecha de inauguración?",
+    "answerable": false,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "intruder_identity_missing_en",
+    "family": "intruder_identity_missing",
+    "split": "test",
+    "language": "en",
+    "query": "Which passage mentions fear while washing hair in the shower and gives the intruder's verified legal identity and arrest date?",
+    "answerable": false,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "intruder_identity_missing_es",
+    "family": "intruder_identity_missing",
+    "split": "test",
+    "language": "es",
+    "query": "¿Qué pasaje menciona el miedo al lavarse el cabello en la ducha y proporciona la identidad legal verificada del intruso y la fecha de su detención?",
+    "answerable": false,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "bedtime_clinical_missing_en",
+    "family": "bedtime_clinical_missing",
+    "split": "test",
+    "language": "en",
+    "query": "Which passage combines a bedtime prayer and monsters beneath the bed with a named clinical diagnosis and a prescribed medication dose?",
+    "answerable": false,
+    "requires_all_evidence": false
+  },
+  {
+    "query_id": "bedtime_clinical_missing_es",
+    "family": "bedtime_clinical_missing",
+    "split": "test",
+    "language": "es",
+    "query": "¿Qué pasaje combina una oración antes de dormir y monstruos bajo la cama con un diagnóstico clínico nombrado y una dosis prescrita de medicación?",
+    "answerable": false,
+    "requires_all_evidence": false
+  }
+]

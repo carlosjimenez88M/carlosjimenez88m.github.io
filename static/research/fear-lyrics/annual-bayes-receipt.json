@@ -1,0 +1,161 @@
+{
+  "status": "executed",
+  "generated_utc": "2026-10-12T13:41:03.063508+00:00",
+  "script_sha256": "f1b42957b7690c4678b91786425ee5c19bb8cc0fe953575f00d3bbbd87d9e699",
+  "input_hashes": {
+    "annotations.json": "1c953ed1edaea1f9c1bf3d4ce3ca1ff3a3e38da0742a77362ba400a1ae01c4bf",
+    "annual_presence.csv": "16f761cbd66717818aeca1d1539972692f89340f50af14a6c63bbdd13b104109",
+    "periods.csv": "b82ca1e6114728dec8ff69a2326e3b7739fb74bd05a5a62d56550c05dca8aab4",
+    "endpoint_sensitivity.csv": "5d336797d36a6c51b59b4c81be2c9cab712e011b5a9af872d217af0dcd29d88c"
+  },
+  "source_files": [
+    "annotations.json",
+    "annual_presence.csv",
+    "periods.csv",
+    "endpoint_sensitivity.csv"
+  ],
+  "public_outputs": [
+    {
+      "path": "research/fear-lyrics/results/annual-120/bayes/annual-bayes-counts.csv",
+      "public_path": "static/research/fear-lyrics/annual-bayes-counts.csv",
+      "sha256": "fe58157fc5ce4b8f3a20251cca087fee2954ef6731fd59eeeb7db32ca9a32ca2",
+      "bytes": 12697,
+      "rows": 140
+    },
+    {
+      "path": "research/fear-lyrics/results/annual-120/bayes/annual-bayes-posterior-rates.csv",
+      "public_path": "static/research/fear-lyrics/annual-bayes-posterior-rates.csv",
+      "sha256": "e4f856f45109d3a416c81b14b52fca7d21757cd210e268aeb13796309cf17cea",
+      "bytes": 55348,
+      "rows": 280
+    },
+    {
+      "path": "research/fear-lyrics/results/annual-120/bayes/annual-bayes-endpoint-posteriors.csv",
+      "public_path": "static/research/fear-lyrics/annual-bayes-endpoint-posteriors.csv",
+      "sha256": "f958660df0f843a46fa72624868048b0c967105e4933d1c00afafe8e6955fc5f",
+      "bytes": 15090,
+      "rows": 56
+    },
+    {
+      "path": "research/fear-lyrics/results/annual-120/bayes/annual-bayes-endpoint-observed-sensitivity.csv",
+      "public_path": "static/research/fear-lyrics/annual-bayes-endpoint-observed-sensitivity.csv",
+      "sha256": "7e9618d6b2f26d3da5253d457291d4121e987a5776d30c44f5297d0efa1dcc6e",
+      "bytes": 1418,
+      "rows": 7
+    },
+    {
+      "path": "research/fear-lyrics/results/annual-120/bayes/annual-bayes-variance.csv",
+      "public_path": "static/research/fear-lyrics/annual-bayes-variance.csv",
+      "sha256": "8b06b92c7ff8493de6c84c93fc68f5105075eee425259e13d2f3b4366eb69654",
+      "bytes": 3607,
+      "rows": 28
+    },
+    {
+      "path": "research/fear-lyrics/figures/annual-bayes-priors.svg",
+      "public_path": "static/research/fear-lyrics/annual-bayes-priors.svg",
+      "sha256": "2aebd54d5d3f1836e18128f9f1170de56292ca5621582043080a371b43210e46",
+      "bytes": 174720
+    },
+    {
+      "path": "research/fear-lyrics/figures/annual-bayes-priors.png",
+      "public_path": "static/research/fear-lyrics/annual-bayes-priors.png",
+      "sha256": "157c4c8f75b5ea1d442e75eb4d3d88546ae56fd37da6be02c62ceb6eb65570fa",
+      "bytes": 405644
+    },
+    {
+      "path": "research/fear-lyrics/figures/annual-bayes-variance.svg",
+      "public_path": "static/research/fear-lyrics/annual-bayes-variance.svg",
+      "sha256": "626e873522c518f8cbcc1f844125b14c03a452f32495b4ea37ae7a02ee971272",
+      "bytes": 37345
+    },
+    {
+      "path": "research/fear-lyrics/figures/annual-bayes-variance.png",
+      "public_path": "static/research/fear-lyrics/annual-bayes-variance.png",
+      "sha256": "e1ec981497b76a9caecf3fb50a3e3fd17999be4746719649fdddd6fd9d4f6ac5",
+      "bytes": 194769
+    },
+    {
+      "path": "research/fear-lyrics/figures/annual-bayes-endpoints.svg",
+      "public_path": "static/research/fear-lyrics/annual-bayes-endpoints.svg",
+      "sha256": "fc0a2919ea5651e679059485de9b53c17997436d175307faf0f46f3b12184023",
+      "bytes": 63911
+    },
+    {
+      "path": "research/fear-lyrics/figures/annual-bayes-endpoints.png",
+      "public_path": "static/research/fear-lyrics/annual-bayes-endpoints.png",
+      "sha256": "4ff88287dc59e0aaab5b1fb294357e4a375f5d42beb8e8a073a0fdce51ff3548",
+      "bytes": 317504
+    }
+  ],
+  "songs": 120,
+  "readings": 240,
+  "fear_reference_counts": {
+    "consensus_present": 53,
+    "consensus_absent": 37,
+    "unresolved": 30
+  },
+  "motifs": {
+    "surveillance_pursuit": "Vigilancia y persecución",
+    "collective_violence": "Violencia colectiva",
+    "loss_abandonment": "Abandono y pérdida",
+    "fragility_identity": "Fragilidad e identidad",
+    "uncertainty_change": "Incertidumbre y cambio",
+    "relational_coercion": "Coerción relacional",
+    "supernatural": "Sobrenatural"
+  },
+  "periods": [
+    "1980–89",
+    "1990–99",
+    "2000–09",
+    "2010–19",
+    "2020–26*"
+  ],
+  "languages": [
+    "es",
+    "en"
+  ],
+  "songs_each_period_language": 12,
+  "priors": {
+    "Jeffreys": {
+      "alpha": 0.5,
+      "beta": 0.5
+    },
+    "uniform": {
+      "alpha": 1.0,
+      "beta": 1.0
+    }
+  },
+  "estimand": "Operational corpus rate: both readings support fear and the named motif, divided by ALL selected songs in the period-language cell.",
+  "unresolved_handling": "Unresolved cases remain in denominators; absence of a consensus label is coded zero for this operational target, not established absence of real fear.",
+  "one_reader_sensitivity": "At least one positive fear reading supports the motif; denominator unchanged. Decision sensitivity, not validation or an independent provider.",
+  "model": "Independent binomial likelihood and fixed Beta prior in each cell; no temporal pooling, no hyperparameter fitting.",
+  "finite_corpus_counts": "Observed c/n is known for these selected songs. Posterior variance expresses uncertainty conditional on the working binomial model, not uncertainty that a label is true.",
+  "rate_posterior": "Beta(prior_alpha+c, prior_beta+n-c), exact means/variances and equal-tail .025/.975 quantiles.",
+  "variance_definition": "Observed: population variance across five c/n values, ddof=0. Posterior uncertainty: mean of five exact a*b/((a+b)^2*(a+b+1)) values.",
+  "endpoint_method": "CDF of theta_last-theta_first = integral f_first(x)*F_last(x+d) dx; endpoint-weighted deterministic quadrature, no Monte Carlo.",
+  "endpoint_variance": "Exact sum of two independent Beta variances.",
+  "max_endpoint_quadrature_error": 1.9542560318460706e-12,
+  "max_endpoint_quantile_cdf_residual": 2.002122426181252e-11,
+  "checks": {
+    "annotation_unique_ids": 120,
+    "two_readers_each": true,
+    "annual_counts_reconciled": true,
+    "period_counts_reconciled": true,
+    "endpoint_counts_reconciled": true,
+    "boundary_and_symmetry_checks": true,
+    "beta_moments_checked_against_scipy": true,
+    "count_rows": 140,
+    "posterior_rows": 280,
+    "endpoint_rows": 56,
+    "variance_rows": 28
+  },
+  "scientific_scope": "Selected song corpus, not historical population prevalence. Motifs can cooccur; no human gold labels or external validation are claimed.",
+  "lyrics_read": false,
+  "project_api_calls": 0,
+  "downloads": 0,
+  "dependencies": {
+    "numpy": "2.2.6",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2"
+  }
+}

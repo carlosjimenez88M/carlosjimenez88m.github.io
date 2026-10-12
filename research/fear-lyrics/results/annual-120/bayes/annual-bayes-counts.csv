@@ -1,0 +1,141 @@
+subtopic,label,language,decade,period,scenario,songs,successes,observed_rate,fear_songs,reference_unresolved
+surveillance_pursuit,Vigilancia y persecución,es,1980,1980–89,consensus,12,1,0.08333333333333333,7,1
+surveillance_pursuit,Vigilancia y persecución,es,1980,1980–89,one_reader,12,1,0.08333333333333333,7,1
+surveillance_pursuit,Vigilancia y persecución,es,1990,1990–99,consensus,12,1,0.08333333333333333,4,5
+surveillance_pursuit,Vigilancia y persecución,es,1990,1990–99,one_reader,12,1,0.08333333333333333,4,5
+surveillance_pursuit,Vigilancia y persecución,es,2000,2000–09,consensus,12,1,0.08333333333333333,5,1
+surveillance_pursuit,Vigilancia y persecución,es,2000,2000–09,one_reader,12,1,0.08333333333333333,5,1
+surveillance_pursuit,Vigilancia y persecución,es,2010,2010–19,consensus,12,0,0.0,4,1
+surveillance_pursuit,Vigilancia y persecución,es,2010,2010–19,one_reader,12,0,0.0,4,1
+surveillance_pursuit,Vigilancia y persecución,es,2020,2020–26*,consensus,12,0,0.0,4,3
+surveillance_pursuit,Vigilancia y persecución,es,2020,2020–26*,one_reader,12,1,0.08333333333333333,4,3
+surveillance_pursuit,Vigilancia y persecución,en,1980,1980–89,consensus,12,2,0.16666666666666666,6,5
+surveillance_pursuit,Vigilancia y persecución,en,1980,1980–89,one_reader,12,3,0.25,6,5
+surveillance_pursuit,Vigilancia y persecución,en,1990,1990–99,consensus,12,0,0.0,5,4
+surveillance_pursuit,Vigilancia y persecución,en,1990,1990–99,one_reader,12,0,0.0,5,4
+surveillance_pursuit,Vigilancia y persecución,en,2000,2000–09,consensus,12,0,0.0,8,3
+surveillance_pursuit,Vigilancia y persecución,en,2000,2000–09,one_reader,12,0,0.0,8,3
+surveillance_pursuit,Vigilancia y persecución,en,2010,2010–19,consensus,12,0,0.0,8,2
+surveillance_pursuit,Vigilancia y persecución,en,2010,2010–19,one_reader,12,0,0.0,8,2
+surveillance_pursuit,Vigilancia y persecución,en,2020,2020–26*,consensus,12,0,0.0,2,5
+surveillance_pursuit,Vigilancia y persecución,en,2020,2020–26*,one_reader,12,0,0.0,2,5
+collective_violence,Violencia colectiva,es,1980,1980–89,consensus,12,0,0.0,7,1
+collective_violence,Violencia colectiva,es,1980,1980–89,one_reader,12,0,0.0,7,1
+collective_violence,Violencia colectiva,es,1990,1990–99,consensus,12,2,0.16666666666666666,4,5
+collective_violence,Violencia colectiva,es,1990,1990–99,one_reader,12,2,0.16666666666666666,4,5
+collective_violence,Violencia colectiva,es,2000,2000–09,consensus,12,1,0.08333333333333333,5,1
+collective_violence,Violencia colectiva,es,2000,2000–09,one_reader,12,1,0.08333333333333333,5,1
+collective_violence,Violencia colectiva,es,2010,2010–19,consensus,12,1,0.08333333333333333,4,1
+collective_violence,Violencia colectiva,es,2010,2010–19,one_reader,12,1,0.08333333333333333,4,1
+collective_violence,Violencia colectiva,es,2020,2020–26*,consensus,12,0,0.0,4,3
+collective_violence,Violencia colectiva,es,2020,2020–26*,one_reader,12,0,0.0,4,3
+collective_violence,Violencia colectiva,en,1980,1980–89,consensus,12,1,0.08333333333333333,6,5
+collective_violence,Violencia colectiva,en,1980,1980–89,one_reader,12,1,0.08333333333333333,6,5
+collective_violence,Violencia colectiva,en,1990,1990–99,consensus,12,2,0.16666666666666666,5,4
+collective_violence,Violencia colectiva,en,1990,1990–99,one_reader,12,2,0.16666666666666666,5,4
+collective_violence,Violencia colectiva,en,2000,2000–09,consensus,12,0,0.0,8,3
+collective_violence,Violencia colectiva,en,2000,2000–09,one_reader,12,0,0.0,8,3
+collective_violence,Violencia colectiva,en,2010,2010–19,consensus,12,2,0.16666666666666666,8,2
+collective_violence,Violencia colectiva,en,2010,2010–19,one_reader,12,2,0.16666666666666666,8,2
+collective_violence,Violencia colectiva,en,2020,2020–26*,consensus,12,0,0.0,2,5
+collective_violence,Violencia colectiva,en,2020,2020–26*,one_reader,12,0,0.0,2,5
+loss_abandonment,Abandono y pérdida,es,1980,1980–89,consensus,12,0,0.0,7,1
+loss_abandonment,Abandono y pérdida,es,1980,1980–89,one_reader,12,0,0.0,7,1
+loss_abandonment,Abandono y pérdida,es,1990,1990–99,consensus,12,0,0.0,4,5
+loss_abandonment,Abandono y pérdida,es,1990,1990–99,one_reader,12,0,0.0,4,5
+loss_abandonment,Abandono y pérdida,es,2000,2000–09,consensus,12,1,0.08333333333333333,5,1
+loss_abandonment,Abandono y pérdida,es,2000,2000–09,one_reader,12,1,0.08333333333333333,5,1
+loss_abandonment,Abandono y pérdida,es,2010,2010–19,consensus,12,0,0.0,4,1
+loss_abandonment,Abandono y pérdida,es,2010,2010–19,one_reader,12,0,0.0,4,1
+loss_abandonment,Abandono y pérdida,es,2020,2020–26*,consensus,12,1,0.08333333333333333,4,3
+loss_abandonment,Abandono y pérdida,es,2020,2020–26*,one_reader,12,1,0.08333333333333333,4,3
+loss_abandonment,Abandono y pérdida,en,1980,1980–89,consensus,12,0,0.0,6,5
+loss_abandonment,Abandono y pérdida,en,1980,1980–89,one_reader,12,0,0.0,6,5
+loss_abandonment,Abandono y pérdida,en,1990,1990–99,consensus,12,1,0.08333333333333333,5,4
+loss_abandonment,Abandono y pérdida,en,1990,1990–99,one_reader,12,1,0.08333333333333333,5,4
+loss_abandonment,Abandono y pérdida,en,2000,2000–09,consensus,12,1,0.08333333333333333,8,3
+loss_abandonment,Abandono y pérdida,en,2000,2000–09,one_reader,12,1,0.08333333333333333,8,3
+loss_abandonment,Abandono y pérdida,en,2010,2010–19,consensus,12,1,0.08333333333333333,8,2
+loss_abandonment,Abandono y pérdida,en,2010,2010–19,one_reader,12,1,0.08333333333333333,8,2
+loss_abandonment,Abandono y pérdida,en,2020,2020–26*,consensus,12,1,0.08333333333333333,2,5
+loss_abandonment,Abandono y pérdida,en,2020,2020–26*,one_reader,12,2,0.16666666666666666,2,5
+fragility_identity,Fragilidad e identidad,es,1980,1980–89,consensus,12,2,0.16666666666666666,7,1
+fragility_identity,Fragilidad e identidad,es,1980,1980–89,one_reader,12,2,0.16666666666666666,7,1
+fragility_identity,Fragilidad e identidad,es,1990,1990–99,consensus,12,0,0.0,4,5
+fragility_identity,Fragilidad e identidad,es,1990,1990–99,one_reader,12,0,0.0,4,5
+fragility_identity,Fragilidad e identidad,es,2000,2000–09,consensus,12,0,0.0,5,1
+fragility_identity,Fragilidad e identidad,es,2000,2000–09,one_reader,12,2,0.16666666666666666,5,1
+fragility_identity,Fragilidad e identidad,es,2010,2010–19,consensus,12,1,0.08333333333333333,4,1
+fragility_identity,Fragilidad e identidad,es,2010,2010–19,one_reader,12,2,0.16666666666666666,4,1
+fragility_identity,Fragilidad e identidad,es,2020,2020–26*,consensus,12,1,0.08333333333333333,4,3
+fragility_identity,Fragilidad e identidad,es,2020,2020–26*,one_reader,12,2,0.16666666666666666,4,3
+fragility_identity,Fragilidad e identidad,en,1980,1980–89,consensus,12,1,0.08333333333333333,6,5
+fragility_identity,Fragilidad e identidad,en,1980,1980–89,one_reader,12,1,0.08333333333333333,6,5
+fragility_identity,Fragilidad e identidad,en,1990,1990–99,consensus,12,0,0.0,5,4
+fragility_identity,Fragilidad e identidad,en,1990,1990–99,one_reader,12,0,0.0,5,4
+fragility_identity,Fragilidad e identidad,en,2000,2000–09,consensus,12,5,0.4166666666666667,8,3
+fragility_identity,Fragilidad e identidad,en,2000,2000–09,one_reader,12,6,0.5,8,3
+fragility_identity,Fragilidad e identidad,en,2010,2010–19,consensus,12,4,0.3333333333333333,8,2
+fragility_identity,Fragilidad e identidad,en,2010,2010–19,one_reader,12,6,0.5,8,2
+fragility_identity,Fragilidad e identidad,en,2020,2020–26*,consensus,12,1,0.08333333333333333,2,5
+fragility_identity,Fragilidad e identidad,en,2020,2020–26*,one_reader,12,1,0.08333333333333333,2,5
+uncertainty_change,Incertidumbre y cambio,es,1980,1980–89,consensus,12,0,0.0,7,1
+uncertainty_change,Incertidumbre y cambio,es,1980,1980–89,one_reader,12,0,0.0,7,1
+uncertainty_change,Incertidumbre y cambio,es,1990,1990–99,consensus,12,0,0.0,4,5
+uncertainty_change,Incertidumbre y cambio,es,1990,1990–99,one_reader,12,0,0.0,4,5
+uncertainty_change,Incertidumbre y cambio,es,2000,2000–09,consensus,12,1,0.08333333333333333,5,1
+uncertainty_change,Incertidumbre y cambio,es,2000,2000–09,one_reader,12,2,0.16666666666666666,5,1
+uncertainty_change,Incertidumbre y cambio,es,2010,2010–19,consensus,12,0,0.0,4,1
+uncertainty_change,Incertidumbre y cambio,es,2010,2010–19,one_reader,12,0,0.0,4,1
+uncertainty_change,Incertidumbre y cambio,es,2020,2020–26*,consensus,12,1,0.08333333333333333,4,3
+uncertainty_change,Incertidumbre y cambio,es,2020,2020–26*,one_reader,12,1,0.08333333333333333,4,3
+uncertainty_change,Incertidumbre y cambio,en,1980,1980–89,consensus,12,0,0.0,6,5
+uncertainty_change,Incertidumbre y cambio,en,1980,1980–89,one_reader,12,0,0.0,6,5
+uncertainty_change,Incertidumbre y cambio,en,1990,1990–99,consensus,12,0,0.0,5,4
+uncertainty_change,Incertidumbre y cambio,en,1990,1990–99,one_reader,12,0,0.0,5,4
+uncertainty_change,Incertidumbre y cambio,en,2000,2000–09,consensus,12,0,0.0,8,3
+uncertainty_change,Incertidumbre y cambio,en,2000,2000–09,one_reader,12,0,0.0,8,3
+uncertainty_change,Incertidumbre y cambio,en,2010,2010–19,consensus,12,3,0.25,8,2
+uncertainty_change,Incertidumbre y cambio,en,2010,2010–19,one_reader,12,4,0.3333333333333333,8,2
+uncertainty_change,Incertidumbre y cambio,en,2020,2020–26*,consensus,12,0,0.0,2,5
+uncertainty_change,Incertidumbre y cambio,en,2020,2020–26*,one_reader,12,1,0.08333333333333333,2,5
+relational_coercion,Coerción relacional,es,1980,1980–89,consensus,12,3,0.25,7,1
+relational_coercion,Coerción relacional,es,1980,1980–89,one_reader,12,3,0.25,7,1
+relational_coercion,Coerción relacional,es,1990,1990–99,consensus,12,1,0.08333333333333333,4,5
+relational_coercion,Coerción relacional,es,1990,1990–99,one_reader,12,1,0.08333333333333333,4,5
+relational_coercion,Coerción relacional,es,2000,2000–09,consensus,12,1,0.08333333333333333,5,1
+relational_coercion,Coerción relacional,es,2000,2000–09,one_reader,12,1,0.08333333333333333,5,1
+relational_coercion,Coerción relacional,es,2010,2010–19,consensus,12,1,0.08333333333333333,4,1
+relational_coercion,Coerción relacional,es,2010,2010–19,one_reader,12,1,0.08333333333333333,4,1
+relational_coercion,Coerción relacional,es,2020,2020–26*,consensus,12,0,0.0,4,3
+relational_coercion,Coerción relacional,es,2020,2020–26*,one_reader,12,0,0.0,4,3
+relational_coercion,Coerción relacional,en,1980,1980–89,consensus,12,1,0.08333333333333333,6,5
+relational_coercion,Coerción relacional,en,1980,1980–89,one_reader,12,2,0.16666666666666666,6,5
+relational_coercion,Coerción relacional,en,1990,1990–99,consensus,12,0,0.0,5,4
+relational_coercion,Coerción relacional,en,1990,1990–99,one_reader,12,0,0.0,5,4
+relational_coercion,Coerción relacional,en,2000,2000–09,consensus,12,3,0.25,8,3
+relational_coercion,Coerción relacional,en,2000,2000–09,one_reader,12,3,0.25,8,3
+relational_coercion,Coerción relacional,en,2010,2010–19,consensus,12,1,0.08333333333333333,8,2
+relational_coercion,Coerción relacional,en,2010,2010–19,one_reader,12,1,0.08333333333333333,8,2
+relational_coercion,Coerción relacional,en,2020,2020–26*,consensus,12,1,0.08333333333333333,2,5
+relational_coercion,Coerción relacional,en,2020,2020–26*,one_reader,12,1,0.08333333333333333,2,5
+supernatural,Sobrenatural,es,1980,1980–89,consensus,12,3,0.25,7,1
+supernatural,Sobrenatural,es,1980,1980–89,one_reader,12,3,0.25,7,1
+supernatural,Sobrenatural,es,1990,1990–99,consensus,12,0,0.0,4,5
+supernatural,Sobrenatural,es,1990,1990–99,one_reader,12,0,0.0,4,5
+supernatural,Sobrenatural,es,2000,2000–09,consensus,12,0,0.0,5,1
+supernatural,Sobrenatural,es,2000,2000–09,one_reader,12,0,0.0,5,1
+supernatural,Sobrenatural,es,2010,2010–19,consensus,12,1,0.08333333333333333,4,1
+supernatural,Sobrenatural,es,2010,2010–19,one_reader,12,1,0.08333333333333333,4,1
+supernatural,Sobrenatural,es,2020,2020–26*,consensus,12,0,0.0,4,3
+supernatural,Sobrenatural,es,2020,2020–26*,one_reader,12,0,0.0,4,3
+supernatural,Sobrenatural,en,1980,1980–89,consensus,12,1,0.08333333333333333,6,5
+supernatural,Sobrenatural,en,1980,1980–89,one_reader,12,1,0.08333333333333333,6,5
+supernatural,Sobrenatural,en,1990,1990–99,consensus,12,1,0.08333333333333333,5,4
+supernatural,Sobrenatural,en,1990,1990–99,one_reader,12,1,0.08333333333333333,5,4
+supernatural,Sobrenatural,en,2000,2000–09,consensus,12,0,0.0,8,3
+supernatural,Sobrenatural,en,2000,2000–09,one_reader,12,0,0.0,8,3
+supernatural,Sobrenatural,en,2010,2010–19,consensus,12,0,0.0,8,2
+supernatural,Sobrenatural,en,2010,2010–19,one_reader,12,0,0.0,8,2
+supernatural,Sobrenatural,en,2020,2020–26*,consensus,12,0,0.0,2,5
+supernatural,Sobrenatural,en,2020,2020–26*,one_reader,12,0,0.0,2,5

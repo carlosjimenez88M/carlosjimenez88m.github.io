@@ -1,0 +1,20 @@
+{
+  "status": "complete",
+  "cell_topic_rows": 340,
+  "posterior_rows": 2040,
+  "fitted_hyperpriors": 102,
+  "pooled_eb_boundary_fits": 22,
+  "pooled_eb_fits": 34,
+  "eb_converged_fits": 100,
+  "eb_nonconverged_fits": 2,
+  "pooled_eb_profiles_touching_bound": 32,
+  "maximum_selected_grid_resolution_difference": 9.132417044810381e-13,
+  "maximum_leave_cell_out_plugin_mean_shift": 0.25292545067804284,
+  "mean_interval_width_by_method": {
+    "EB_plugin": 0.17931916316610155,
+    "hierarchical_grid": 0.3918236421822459,
+    "Jeffreys": 0.5501274278375858,
+    "uniform": 0.5807553505834997
+  },
+  "interpretation": "Conditional sensitivity of selected-song topic presence. No historical population change or validated fear prevalence is established."
+}

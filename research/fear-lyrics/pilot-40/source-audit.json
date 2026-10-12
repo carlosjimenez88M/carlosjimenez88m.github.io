@@ -1,0 +1,3640 @@
+{
+  "audit_version": 2,
+  "reviewed_date": "2026-10-11",
+  "status": "passed_with_explicit_edition_and_sampling_caveats",
+  "timing": "Source corrections completed from immutable cache before topic/embedding interpretation; this is a post-acquisition protocol correction.",
+  "no_network_calls": true,
+  "no_lyrics_exported": true,
+  "integrity": {
+    "candidates": 40,
+    "selected_songs": 40,
+    "artist_strings": 34,
+    "language_decade_counts": [
+      {
+        "decade": 1980,
+        "language": "en",
+        "songs": 4
+      },
+      {
+        "decade": 1980,
+        "language": "es",
+        "songs": 4
+      },
+      {
+        "decade": 1990,
+        "language": "en",
+        "songs": 4
+      },
+      {
+        "decade": 1990,
+        "language": "es",
+        "songs": 4
+      },
+      {
+        "decade": 2000,
+        "language": "en",
+        "songs": 4
+      },
+      {
+        "decade": 2000,
+        "language": "es",
+        "songs": 4
+      },
+      {
+        "decade": 2010,
+        "language": "en",
+        "songs": 4
+      },
+      {
+        "decade": 2010,
+        "language": "es",
+        "songs": 4
+      },
+      {
+        "decade": 2020,
+        "language": "en",
+        "songs": 4
+      },
+      {
+        "decade": 2020,
+        "language": "es",
+        "songs": 4
+      }
+    ],
+    "all_ten_language_decade_cells_have_four_songs": true,
+    "provider_response_files": 120,
+    "provider_response_files_unchanged": true,
+    "selected_provider_counts": {
+      "lrclib": 38,
+      "genius": 2
+    },
+    "provider_status_counts": {
+      "lrclib": {
+        "200": 39,
+        "503": 1
+      },
+      "genius": {
+        "200": 34,
+        "error": 2,
+        "not_found": 3,
+        "identity_mismatch": 1
+      },
+      "ovh": {
+        "404": 40
+      }
+    },
+    "before_corpus_sha256": "726847d514f0753aee1a796391ecd6d598c923d2d87439300b2c68699afc46f5",
+    "after_corpus_sha256": "0f491edec0e5c6e12d2728321e255917cfab29cd5147963ea5253d9e22f9d946",
+    "all_declared_lyric_hashes_match": true,
+    "selected_timestamp_lines": 0,
+    "language_screen_mismatches": []
+  },
+  "collection_rules": {
+    "lrclib_selection": "Exact normalized artist/title; preferred album if supplied, then longest lyrics. Longest is only a heuristic, not editorial validation.",
+    "corpus_provider_selection": "Manifest preferred_provider only for reviewed override, otherwise first successful provider in declared order.",
+    "bad_versions_excluded": [
+      "live",
+      "unplugged",
+      "acoustic",
+      "demo",
+      "remix",
+      "karaoke",
+      "instrumental",
+      "translation",
+      "cover",
+      "sped up",
+      "slowed"
+    ],
+    "radio_edits": "Not categorically excluded; review against chosen recording/edition.",
+    "cleaning": "Only strict numeric LRC timestamp prefixes removed. Original narration, order, words and section headings retained.",
+    "raw_cache": "Files labeled raw are cached provider records after the initial collector processing, not byte-for-byte original HTTP payloads. The 120 cached records were not edited during this correction.",
+    "coverage_interpretation": "Observed collector responses on this corpus/query strategy, not general API quality. OVH 404 across all 40 requests may reflect service availability and does not prove each song lacks lyrics."
+  },
+  "corrected_records": [
+    {
+      "song_id": "s1994-56ff6ca6c8bb",
+      "title": "Zombie",
+      "old_sha256": "2a208c7a496e7904d44cb98cfc00a7312498e98c2ad0496d91a920471352302a",
+      "new_sha256": "3e02f4ace8450808933458e89763164f8082395c5f0e02bcbf5489c1ee49c621",
+      "reason": "Verified provider override for original studio edition"
+    },
+    {
+      "song_id": "s2026-2e43c234ac58",
+      "title": "Aperture",
+      "old_sha256": "cb3cf1fe069cefeff280a97414ebaa4a0997f3a904d4ee78784e41f36fdb0470",
+      "new_sha256": "763def7c89373def27351240386aef4aa0ba6ebcd65f51304ded0bb5599eb7c9",
+      "reason": "Remove strictly numeric LRC timestamps at line starts; original words/order retained"
+    }
+  ],
+  "songs": [
+    {
+      "song_id": "s1982-60e7787d2b2d",
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "year": 1982,
+      "language": "en",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "b975be0a34a235fee35d2b520b3c70d57f0f126c9138290eb7dce3d127478e62",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.35412474849094566,
+        "alternate_stopword_share": 0.014084507042253521,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Thriller",
+          "observed_artist": "Michael Jackson",
+          "observed_album": "Thriller",
+          "declared_duration_seconds": 161.0,
+          "source_url": "https://lrclib.net/api/get/36845274",
+          "original_cached_lyric_sha256": "b975be0a34a235fee35d2b520b3c70d57f0f126c9138290eb7dce3d127478e62",
+          "cleaned_lyric_sha256": "b975be0a34a235fee35d2b520b3c70d57f0f126c9138290eb7dce3d127478e62",
+          "original_cached_characters": 2652,
+          "cleaned_characters": 2652,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Thriller",
+          "observed_artist": "Michael Jackson",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Michael-jackson-thriller-lyrics",
+          "original_cached_lyric_sha256": "0bcb598498f075e768d6a0224b398d51bf63f8605bb08d47721f9a5ab961da6e",
+          "cleaned_lyric_sha256": "0bcb598498f075e768d6a0224b398d51bf63f8605bb08d47721f9a5ab961da6e",
+          "original_cached_characters": 2886,
+          "cleaned_characters": 2886,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Michael%20Jackson/Thriller",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9557522123893806,
+          "body_vocabulary_jaccard": 0.961352657004831,
+          "body_word_counts": [
+            497,
+            520
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s1982-fc0d5bdf6fc1",
+      "title": "Mad World",
+      "artist": "Tears for Fears",
+      "year": 1982,
+      "language": "en",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "8f2c6735d8c935985691aa21bb30c59294c289490b635f05ab22a03d8dcd71d7",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.38869257950530034,
+        "alternate_stopword_share": 0.04240282685512368,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Mad World",
+          "observed_artist": "Tears For Fears",
+          "observed_album": "The Hurting (DTS-HD MA Mix)",
+          "declared_duration_seconds": 216.0,
+          "source_url": "https://lrclib.net/api/get/37012412",
+          "original_cached_lyric_sha256": "8f2c6735d8c935985691aa21bb30c59294c289490b635f05ab22a03d8dcd71d7",
+          "cleaned_lyric_sha256": "8f2c6735d8c935985691aa21bb30c59294c289490b635f05ab22a03d8dcd71d7",
+          "original_cached_characters": 1336,
+          "cleaned_characters": 1336,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Mad World",
+          "observed_artist": "Tears for Fears",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Tears-for-fears-mad-world-lyrics",
+          "original_cached_lyric_sha256": "ce3e2a731439db07158535c221813a21912427328266a4b0498d128cdf769fe6",
+          "cleaned_lyric_sha256": "ce3e2a731439db07158535c221813a21912427328266a4b0498d128cdf769fe6",
+          "original_cached_characters": 1407,
+          "cleaned_characters": 1407,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Tears%20for%20Fears/Mad%20World",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9982363315696648,
+          "body_vocabulary_jaccard": 1.0,
+          "body_word_counts": [
+            283,
+            284
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s1983-753cd2a7d41b",
+      "title": "Somebody's Watching Me",
+      "artist": "Rockwell",
+      "year": 1983,
+      "language": "en",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "dfd00678d22be37b4423ff1edccc50f0580746e116fc902f97f59319d1f07a28",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.3292433537832311,
+        "alternate_stopword_share": 0.09815950920245399,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Somebody's Watching Me",
+          "observed_artist": "Rockwell",
+          "observed_album": "Motown - The Ultimate Collection (Disc 3)",
+          "declared_duration_seconds": 228.0,
+          "source_url": "https://lrclib.net/api/get/37016164",
+          "original_cached_lyric_sha256": "dfd00678d22be37b4423ff1edccc50f0580746e116fc902f97f59319d1f07a28",
+          "cleaned_lyric_sha256": "dfd00678d22be37b4423ff1edccc50f0580746e116fc902f97f59319d1f07a28",
+          "original_cached_characters": 2341,
+          "cleaned_characters": 2341,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Somebody’s Watching Me",
+          "observed_artist": "Rockwell",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Rockwell-somebodys-watching-me-lyrics",
+          "original_cached_lyric_sha256": "c53a0786f0da4822f7e97affa2062239965838ce526118dfc9c74afbc2505dee",
+          "cleaned_lyric_sha256": "c53a0786f0da4822f7e97affa2062239965838ce526118dfc9c74afbc2505dee",
+          "original_cached_characters": 2705,
+          "cleaned_characters": 2705,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Rockwell/Somebody%27s%20Watching%20Me",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9519038076152304,
+          "body_vocabulary_jaccard": 0.9344262295081968,
+          "body_word_counts": [
+            489,
+            509
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s1984-8b16c1dac4a9",
+      "title": "Wake Me Up Before You Go-Go",
+      "artist": "Wham!",
+      "year": 1984,
+      "language": "en",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "2b2ee5d98bc497a7ab780bdae265ffaed5c9a32e2ed6a1c5e41e3312fc2feca3",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.3146853146853147,
+        "alternate_stopword_share": 0.07925407925407925,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Wake Me Up Before You Go‐Go",
+          "observed_artist": "Wham!",
+          "observed_album": "100 Hits of the ’80s",
+          "declared_duration_seconds": 231.0,
+          "source_url": "https://lrclib.net/api/get/37015795",
+          "original_cached_lyric_sha256": "2b2ee5d98bc497a7ab780bdae265ffaed5c9a32e2ed6a1c5e41e3312fc2feca3",
+          "cleaned_lyric_sha256": "2b2ee5d98bc497a7ab780bdae265ffaed5c9a32e2ed6a1c5e41e3312fc2feca3",
+          "original_cached_characters": 1992,
+          "cleaned_characters": 1992,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Wake Me Up Before You Go-Go",
+          "observed_artist": "Wham!",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Wham-wake-me-up-before-you-go-go-lyrics",
+          "original_cached_lyric_sha256": "e48a1e3caa1a0f2f765c5e7435889299febc44108bf29c4f8211fe84041f0c50",
+          "cleaned_lyric_sha256": "e48a1e3caa1a0f2f765c5e7435889299febc44108bf29c4f8211fe84041f0c50",
+          "original_cached_characters": 2273,
+          "cleaned_characters": 2273,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Wham%21/Wake%20Me%20Up%20Before%20You%20Go-Go",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9090909090909091,
+          "body_vocabulary_jaccard": 0.8913043478260869,
+          "body_word_counts": [
+            429,
+            473
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s1987-b3350477e063",
+      "title": "En algún lugar",
+      "artist": "Duncan Dhu",
+      "year": 1987,
+      "language": "es",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "3f74e561a7fb7dde98e010c15516f20c3e9549e7762cf499fe612b1c031a3b57",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.3812154696132597,
+        "alternate_stopword_share": 0.06629834254143646,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "En Algún Lugar",
+          "observed_artist": "Duncan Dhu",
+          "observed_album": "La Vida Inmoral de la Pareja Ideal (Soundtrack)",
+          "declared_duration_seconds": 236.0,
+          "source_url": "https://lrclib.net/api/get/37255374",
+          "original_cached_lyric_sha256": "3f74e561a7fb7dde98e010c15516f20c3e9549e7762cf499fe612b1c031a3b57",
+          "cleaned_lyric_sha256": "3f74e561a7fb7dde98e010c15516f20c3e9549e7762cf499fe612b1c031a3b57",
+          "original_cached_characters": 949,
+          "cleaned_characters": 949,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "En Algún Lugar",
+          "observed_artist": "Duncan Dhu",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Duncan-dhu-en-algun-lugar-lyrics",
+          "original_cached_lyric_sha256": "85f33cf56347cbc6810c99f05c2dea5d0b0718db228f06ab202f3182cad8d947",
+          "cleaned_lyric_sha256": "85f33cf56347cbc6810c99f05c2dea5d0b0718db228f06ab202f3182cad8d947",
+          "original_cached_characters": 933,
+          "cleaned_characters": 933,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Duncan%20Dhu/En%20alg%C3%BAn%20lugar",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.8795518207282913,
+          "body_vocabulary_jaccard": 0.9263157894736842,
+          "body_word_counts": [
+            181,
+            176
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s1986-e6cc85a542a7",
+      "title": "Hijo de la Luna",
+      "artist": "Mecano",
+      "year": 1986,
+      "language": "es",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "868d5a1a3b0c1f5302cdccadfffefc6aed90311a31aba5151c296204a9e5559d",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.391156462585034,
+        "alternate_stopword_share": 0.047619047619047616,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Hijo de la luna",
+          "observed_artist": "Mecano",
+          "observed_album": "Vrac",
+          "declared_duration_seconds": 260.0,
+          "source_url": "https://lrclib.net/api/get/37136446",
+          "original_cached_lyric_sha256": "868d5a1a3b0c1f5302cdccadfffefc6aed90311a31aba5151c296204a9e5559d",
+          "cleaned_lyric_sha256": "868d5a1a3b0c1f5302cdccadfffefc6aed90311a31aba5151c296204a9e5559d",
+          "original_cached_characters": 1445,
+          "cleaned_characters": 1445,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Hijo de la Luna",
+          "observed_artist": "Mecano",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Mecano-hijo-de-la-luna-lyrics",
+          "original_cached_lyric_sha256": "10cdc2e74fdf7f41fe16c33e674c844c1ce58146cdf4fe4c1788000f87a11861",
+          "cleaned_lyric_sha256": "10cdc2e74fdf7f41fe16c33e674c844c1ce58146cdf4fe4c1788000f87a11861",
+          "original_cached_characters": 1528,
+          "cleaned_characters": 1528,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Mecano/Hijo%20de%20la%20Luna",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9586206896551724,
+          "body_vocabulary_jaccard": 0.9666666666666667,
+          "body_word_counts": [
+            294,
+            286
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s1986-9726c0e33862",
+      "title": "Cruz de Navajas",
+      "artist": "Mecano",
+      "year": 1986,
+      "language": "es",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "746b3391f61b60cb0beb6f075b7805b68f7121aa278da0aed6e2fe8458477e54",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.34980988593155893,
+        "alternate_stopword_share": 0.030418250950570342,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Cruz de navajas",
+          "observed_artist": "Mecano",
+          "observed_album": "Cruz de navajas",
+          "declared_duration_seconds": 302.0,
+          "source_url": "https://lrclib.net/api/get/36865548",
+          "original_cached_lyric_sha256": "746b3391f61b60cb0beb6f075b7805b68f7121aa278da0aed6e2fe8458477e54",
+          "cleaned_lyric_sha256": "746b3391f61b60cb0beb6f075b7805b68f7121aa278da0aed6e2fe8458477e54",
+          "original_cached_characters": 1355,
+          "cleaned_characters": 1355,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Cruz de navajas",
+          "observed_artist": "Mecano",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Mecano-cruz-de-navajas-lyrics",
+          "original_cached_lyric_sha256": "906a51109486187a811024ee88a02c1e8fc1af40b889deac7ea6b22bca4da03b",
+          "cleaned_lyric_sha256": "906a51109486187a811024ee88a02c1e8fc1af40b889deac7ea6b22bca4da03b",
+          "original_cached_characters": 1354,
+          "cleaned_characters": 1354,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Mecano/Cruz%20de%20Navajas",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9477756286266924,
+          "body_vocabulary_jaccard": 0.948905109489051,
+          "body_word_counts": [
+            263,
+            254
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s1982-273644e36995",
+      "title": "Bailando",
+      "artist": "Alaska y los Pegamoides",
+      "year": 1982,
+      "language": "es",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "e6e418db7f66c0e97e70842b72c41275904dcf62e7fb07e361618d53632ecfd0",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.32608695652173914,
+        "alternate_stopword_share": 0.03260869565217391,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Bailando",
+          "observed_artist": "Alaska Y Los Pegamoides",
+          "observed_album": "Las 101 Mejores Canciones Del Pop Español",
+          "declared_duration_seconds": 308.221678,
+          "source_url": "https://lrclib.net/api/get/18203209",
+          "original_cached_lyric_sha256": "e6e418db7f66c0e97e70842b72c41275904dcf62e7fb07e361618d53632ecfd0",
+          "cleaned_lyric_sha256": "e6e418db7f66c0e97e70842b72c41275904dcf62e7fb07e361618d53632ecfd0",
+          "original_cached_characters": 1000,
+          "cleaned_characters": 1000,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Bailando",
+          "observed_artist": "Alaska Y Los Pegamoides",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Alaska-y-los-pegamoides-bailando-lyrics",
+          "original_cached_lyric_sha256": "6355d0fbb4d0917c8601a43722bb3ee2a1174028022fb14dc0127293ea997f78",
+          "cleaned_lyric_sha256": "6355d0fbb4d0917c8601a43722bb3ee2a1174028022fb14dc0127293ea997f78",
+          "original_cached_characters": 992,
+          "cleaned_characters": 992,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Alaska%20y%20los%20Pegamoides/Bailando",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9545454545454546,
+          "body_vocabulary_jaccard": 0.9807692307692307,
+          "body_word_counts": [
+            184,
+            168
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s1991-d25354f1d8f0",
+      "title": "Enter Sandman",
+      "artist": "Metallica",
+      "year": 1991,
+      "language": "en",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "b7cfa1c32af3695d01fe4bbe2802bdb83fcfdfac321071c156c8475cbf426b0b",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.3065134099616858,
+        "alternate_stopword_share": 0.019157088122605363,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Enter Sandman",
+          "observed_artist": "Metallica",
+          "observed_album": "1991-09-11: Liebenau, Graz, AUT",
+          "declared_duration_seconds": 350.0,
+          "source_url": "https://lrclib.net/api/get/36875426",
+          "original_cached_lyric_sha256": "b7cfa1c32af3695d01fe4bbe2802bdb83fcfdfac321071c156c8475cbf426b0b",
+          "cleaned_lyric_sha256": "b7cfa1c32af3695d01fe4bbe2802bdb83fcfdfac321071c156c8475cbf426b0b",
+          "original_cached_characters": 1243,
+          "cleaned_characters": 1243,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Enter Sandman",
+          "observed_artist": "Metallica",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Metallica-enter-sandman-lyrics",
+          "original_cached_lyric_sha256": "f3296d45561c101d6d9725e791d55998010d7fe95a8e2c45f6404fa809b64571",
+          "cleaned_lyric_sha256": "f3296d45561c101d6d9725e791d55998010d7fe95a8e2c45f6404fa809b64571",
+          "original_cached_characters": 1601,
+          "cleaned_characters": 1601,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Metallica/Enter%20Sandman",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.969811320754717,
+          "body_vocabulary_jaccard": 0.9411764705882353,
+          "body_word_counts": [
+            261,
+            269
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s1994-56ff6ca6c8bb",
+      "title": "Zombie",
+      "artist": "The Cranberries",
+      "year": 1994,
+      "language": "en",
+      "selected_provider": "genius",
+      "selected_lyrics_sha256": "3e02f4ace8450808933458e89763164f8082395c5f0e02bcbf5489c1ee49c621",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.39690721649484534,
+        "alternate_stopword_share": 0.005154639175257732,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Zombie",
+          "observed_artist": "The Cranberries",
+          "observed_album": "The Very Best of MTV Unplugged Vol.2",
+          "declared_duration_seconds": 82.0,
+          "source_url": "https://lrclib.net/api/get/36842651",
+          "original_cached_lyric_sha256": "2a208c7a496e7904d44cb98cfc00a7312498e98c2ad0496d91a920471352302a",
+          "cleaned_lyric_sha256": "2a208c7a496e7904d44cb98cfc00a7312498e98c2ad0496d91a920471352302a",
+          "original_cached_characters": 946,
+          "cleaned_characters": 946,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Zombie",
+          "observed_artist": "The Cranberries",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/The-cranberries-zombie-lyrics",
+          "original_cached_lyric_sha256": "3e02f4ace8450808933458e89763164f8082395c5f0e02bcbf5489c1ee49c621",
+          "cleaned_lyric_sha256": "3e02f4ace8450808933458e89763164f8082395c5f0e02bcbf5489c1ee49c621",
+          "original_cached_characters": 1069,
+          "cleaned_characters": 1069,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/The%20Cranberries/Zombie",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.8740359897172236,
+          "body_vocabulary_jaccard": 0.7910447761194029,
+          "body_word_counts": [
+            195,
+            194
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Provider duration may describe preview/fragment, not full recording. Duration alone was not used as lyric correctness proof."
+      ]
+    },
+    {
+      "song_id": "s1992-92d3c88cd13e",
+      "title": "Creep",
+      "artist": "Radiohead",
+      "year": 1992,
+      "language": "en",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "4e294c1ecc2a9e0ad63698a79407d4595dfc796f6674d6224ea715a9f97c2924",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.3870967741935484,
+        "alternate_stopword_share": 0.005376344086021506,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Creep",
+          "observed_artist": "Radiohead",
+          "observed_album": "Babies Go Radiohead",
+          "declared_duration_seconds": 236.0,
+          "source_url": "https://lrclib.net/api/get/36983175",
+          "original_cached_lyric_sha256": "4e294c1ecc2a9e0ad63698a79407d4595dfc796f6674d6224ea715a9f97c2924",
+          "cleaned_lyric_sha256": "4e294c1ecc2a9e0ad63698a79407d4595dfc796f6674d6224ea715a9f97c2924",
+          "original_cached_characters": 805,
+          "cleaned_characters": 805,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Creep",
+          "observed_artist": "Radiohead",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Radiohead-creep-lyrics",
+          "original_cached_lyric_sha256": "a7cc156b24368eb4a659ec1e9c590010f60ca387b5edbbfb48d1197fcf123585",
+          "cleaned_lyric_sha256": "a7cc156b24368eb4a659ec1e9c590010f60ca387b5edbbfb48d1197fcf123585",
+          "original_cached_characters": 881,
+          "cleaned_characters": 881,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Radiohead/Creep",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9679144385026738,
+          "body_vocabulary_jaccard": 0.9411764705882353,
+          "body_word_counts": [
+            186,
+            188
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s1996-126a4f4bfee7",
+      "title": "Wannabe",
+      "artist": "Spice Girls",
+      "year": 1996,
+      "language": "en",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "873b63a51b4a7e408a97a1a410d49fe65771bf1fea9c38f31add895c0b4ff273",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.42962962962962964,
+        "alternate_stopword_share": 0.018518518518518517,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Wannabe",
+          "observed_artist": "Spice Girls",
+          "observed_album": "100% Hits, Volume 21",
+          "declared_duration_seconds": 175.0,
+          "source_url": "https://lrclib.net/api/get/36973460",
+          "original_cached_lyric_sha256": "873b63a51b4a7e408a97a1a410d49fe65771bf1fea9c38f31add895c0b4ff273",
+          "cleaned_lyric_sha256": "873b63a51b4a7e408a97a1a410d49fe65771bf1fea9c38f31add895c0b4ff273",
+          "original_cached_characters": 2558,
+          "cleaned_characters": 2558,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Wannabe",
+          "observed_artist": "Spice Girls",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Spice-girls-wannabe-lyrics",
+          "original_cached_lyric_sha256": "9b84341925f701e17dd05c9faaa47809ec6d1c7801fee05136a36d3969ea2ab6",
+          "cleaned_lyric_sha256": "9b84341925f701e17dd05c9faaa47809ec6d1c7801fee05136a36d3969ea2ab6",
+          "original_cached_characters": 2887,
+          "cleaned_characters": 2887,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Spice%20Girls/Wannabe",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9751609935602575,
+          "body_vocabulary_jaccard": 0.9826086956521739,
+          "body_word_counts": [
+            540,
+            547
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s1999-e3d46788c16b",
+      "title": "Llamando a la Tierra",
+      "artist": "M-Clan",
+      "year": 1999,
+      "language": "es",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "e6008a9df9e677122584d376dd30c2927df39477721debefb98c4539f9259b5e",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 1,
+      "language_screen": {
+        "expected_stopword_share": 0.3888888888888889,
+        "alternate_stopword_share": 0.07407407407407407,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Llamando A La Tierra",
+          "observed_artist": "M-Clan",
+          "observed_album": "Las Mejores 101 Canciones Del Rock En Espanol",
+          "declared_duration_seconds": 240.0,
+          "source_url": "https://lrclib.net/api/get/33910879",
+          "original_cached_lyric_sha256": "e6008a9df9e677122584d376dd30c2927df39477721debefb98c4539f9259b5e",
+          "cleaned_lyric_sha256": "e6008a9df9e677122584d376dd30c2927df39477721debefb98c4539f9259b5e",
+          "original_cached_characters": 563,
+          "cleaned_characters": 563,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": "error",
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": null,
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/M-Clan/Llamando%20a%20la%20Tierra",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [],
+      "caveats": [
+        "Single successful provider; no cross-provider textual comparator.",
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s1990-5b29a6fedb71",
+      "title": "Rayando el Sol",
+      "artist": "Maná",
+      "year": 1990,
+      "language": "es",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "4e8266346cbcb2ddb626eb76e4121563ffa064a4a2467b5e5ea6070e17d10333",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.33505154639175255,
+        "alternate_stopword_share": 0.09278350515463918,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Rayando el sol",
+          "observed_artist": "Mana",
+          "observed_album": "Clásicos en Español",
+          "declared_duration_seconds": 250.0,
+          "source_url": "https://lrclib.net/api/get/36941136",
+          "original_cached_lyric_sha256": "4e8266346cbcb2ddb626eb76e4121563ffa064a4a2467b5e5ea6070e17d10333",
+          "cleaned_lyric_sha256": "4e8266346cbcb2ddb626eb76e4121563ffa064a4a2467b5e5ea6070e17d10333",
+          "original_cached_characters": 950,
+          "cleaned_characters": 950,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Rayando el Sol",
+          "observed_artist": "Maná",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Mana-rayando-el-sol-lyrics",
+          "original_cached_lyric_sha256": "69b23cf613c4e6e8eeddebcdd3a7d90a3667ce1189444cb6eb87d327523497b4",
+          "cleaned_lyric_sha256": "69b23cf613c4e6e8eeddebcdd3a7d90a3667ce1189444cb6eb87d327523497b4",
+          "original_cached_characters": 1024,
+          "cleaned_characters": 1024,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Man%C3%A1/Rayando%20el%20Sol",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9685863874345549,
+          "body_vocabulary_jaccard": 0.9552238805970149,
+          "body_word_counts": [
+            194,
+            188
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s1993-a759a1183939",
+      "title": "Matador",
+      "artist": "Los Fabulosos Cadillacs",
+      "year": 1993,
+      "language": "es",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "b587959b197d35a15fe01e235297a84efa187ebf4721a24c42238198c0bebfad",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.31343283582089554,
+        "alternate_stopword_share": 0.05223880597014925,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Matador",
+          "observed_artist": "Los Fabulosos Cadillacs",
+          "observed_album": "Vasos Vacíos (Remastered)",
+          "declared_duration_seconds": 276.0,
+          "source_url": "https://lrclib.net/api/get/4387409",
+          "original_cached_lyric_sha256": "b587959b197d35a15fe01e235297a84efa187ebf4721a24c42238198c0bebfad",
+          "cleaned_lyric_sha256": "b587959b197d35a15fe01e235297a84efa187ebf4721a24c42238198c0bebfad",
+          "original_cached_characters": 1589,
+          "cleaned_characters": 1589,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Matador",
+          "observed_artist": "Los Fabulosos Cadillacs",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Los-fabulosos-cadillacs-matador-lyrics",
+          "original_cached_lyric_sha256": "c9c6b34b5dc96d548659e5a60072e055519fbeef498c0708210c72db5e0260de",
+          "cleaned_lyric_sha256": "c9c6b34b5dc96d548659e5a60072e055519fbeef498c0708210c72db5e0260de",
+          "original_cached_characters": 1888,
+          "cleaned_characters": 1888,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Los%20Fabulosos%20Cadillacs/Matador",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9395017793594306,
+          "body_vocabulary_jaccard": 0.9612403100775194,
+          "body_word_counts": [
+            268,
+            294
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s1998-81cadc29bda5",
+      "title": "La Vida Es Un Carnaval",
+      "artist": "Celia Cruz",
+      "year": 1998,
+      "language": "es",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "68f2179099a4885812d1679e5bd5b7bd2b4203fd4cefdbb5777233caa92ecf22",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.4876847290640394,
+        "alternate_stopword_share": 0.06157635467980296,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "La vida es un carnaval",
+          "observed_artist": "Celia Cruz",
+          "observed_album": "Pure Salsa Moods",
+          "declared_duration_seconds": 277.0,
+          "source_url": "https://lrclib.net/api/get/36979903",
+          "original_cached_lyric_sha256": "68f2179099a4885812d1679e5bd5b7bd2b4203fd4cefdbb5777233caa92ecf22",
+          "cleaned_lyric_sha256": "68f2179099a4885812d1679e5bd5b7bd2b4203fd4cefdbb5777233caa92ecf22",
+          "original_cached_characters": 2045,
+          "cleaned_characters": 2045,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "La Vida Es Un Carnaval",
+          "observed_artist": "Celia Cruz",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Celia-cruz-la-vida-es-un-carnaval-lyrics",
+          "original_cached_lyric_sha256": "d9cd0e1cedec75292081e7724e71755d1b3a9fb501cc085376f43c07bebba79e",
+          "cleaned_lyric_sha256": "d9cd0e1cedec75292081e7724e71755d1b3a9fb501cc085376f43c07bebba79e",
+          "original_cached_characters": 2135,
+          "cleaned_characters": 2135,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Celia%20Cruz/La%20Vida%20Es%20Un%20Carnaval",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9741060419235512,
+          "body_vocabulary_jaccard": 0.9390243902439024,
+          "body_word_counts": [
+            406,
+            405
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2000-a62b1066ea67",
+      "title": "Crawling",
+      "artist": "Linkin Park",
+      "year": 2000,
+      "language": "en",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "f14f31e9cb62b83de29ef51bf2f2cfe6259e6fa3dea66e75748e933291dd82e8",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.3991228070175439,
+        "alternate_stopword_share": 0.013157894736842105,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Crawling",
+          "observed_artist": "Linkin Park",
+          "observed_album": "Hybrid Theory (Int'l Only DMD w/ Altered iLiner)",
+          "declared_duration_seconds": 217.0,
+          "source_url": "https://lrclib.net/api/get/37459282",
+          "original_cached_lyric_sha256": "f14f31e9cb62b83de29ef51bf2f2cfe6259e6fa3dea66e75748e933291dd82e8",
+          "cleaned_lyric_sha256": "f14f31e9cb62b83de29ef51bf2f2cfe6259e6fa3dea66e75748e933291dd82e8",
+          "original_cached_characters": 1228,
+          "cleaned_characters": 1228,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Crawling",
+          "observed_artist": "Linkin Park",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Linkin-park-crawling-lyrics",
+          "original_cached_lyric_sha256": "dafa18b5a6d4a19f8c57b307778ea8bdb64920e9d4c865a2423d3aee43d5505d",
+          "cleaned_lyric_sha256": "dafa18b5a6d4a19f8c57b307778ea8bdb64920e9d4c865a2423d3aee43d5505d",
+          "original_cached_characters": 1567,
+          "cleaned_characters": 1567,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Linkin%20Park/Crawling",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9848812095032398,
+          "body_vocabulary_jaccard": 1.0,
+          "body_word_counts": [
+            228,
+            235
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2008-4db2a4ef136d",
+      "title": "Disturbia",
+      "artist": "Rihanna",
+      "year": 2008,
+      "language": "en",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "68ea191ce2ed94b3edf5b7b3484420af710c12579f2d48255935a0a6ea055a5e",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.3511705685618729,
+        "alternate_stopword_share": 0.016722408026755852,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Disturbia",
+          "observed_artist": "Rihanna",
+          "observed_album": "Good Girl Gone Bad: Reloaded",
+          "declared_duration_seconds": 30.0,
+          "source_url": "https://lrclib.net/api/get/36995838",
+          "original_cached_lyric_sha256": "68ea191ce2ed94b3edf5b7b3484420af710c12579f2d48255935a0a6ea055a5e",
+          "cleaned_lyric_sha256": "68ea191ce2ed94b3edf5b7b3484420af710c12579f2d48255935a0a6ea055a5e",
+          "original_cached_characters": 2752,
+          "cleaned_characters": 2752,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Disturbia",
+          "observed_artist": "Rihanna",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Rihanna-disturbia-lyrics",
+          "original_cached_lyric_sha256": "43c372d20829d41d03fcd8c63c3be865ddc3dc3a3a18d0e818e423a626505e16",
+          "cleaned_lyric_sha256": "43c372d20829d41d03fcd8c63c3be865ddc3dc3a3a18d0e818e423a626505e16",
+          "original_cached_characters": 3080,
+          "cleaned_characters": 3080,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Rihanna/Disturbia",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9004893964110929,
+          "body_vocabulary_jaccard": 0.8321678321678322,
+          "body_word_counts": [
+            598,
+            628
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Provider duration may describe preview/fragment, not full recording. Duration alone was not used as lyric correctness proof.",
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2000-8ece8cb48467",
+      "title": "Stan",
+      "artist": "Eminem feat. Dido",
+      "year": 2000,
+      "language": "en",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "2515d4f2b84fd10f471cabb4a2ebd63499d3e835d12d3b9fc816973301044dca",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 1,
+      "language_screen": {
+        "expected_stopword_share": 0.4142461964038728,
+        "alternate_stopword_share": 0.011756569847856155,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Stan",
+          "observed_artist": "Eminem Feat. Dido",
+          "observed_album": "Greatest Hits",
+          "declared_duration_seconds": 404.792583,
+          "source_url": "https://lrclib.net/api/get/18759941",
+          "original_cached_lyric_sha256": "2515d4f2b84fd10f471cabb4a2ebd63499d3e835d12d3b9fc816973301044dca",
+          "cleaned_lyric_sha256": "2515d4f2b84fd10f471cabb4a2ebd63499d3e835d12d3b9fc816973301044dca",
+          "original_cached_characters": 6554,
+          "cleaned_characters": 6554,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": "error",
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": null,
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Eminem%20feat.%20Dido/Stan",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [],
+      "caveats": [
+        "Single successful provider; no cross-provider textual comparator.",
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2003-863da31c5eaa",
+      "title": "Crazy In Love",
+      "artist": "Beyoncé feat. JAY-Z",
+      "year": 2003,
+      "language": "en",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "d81ff6dde3893b43295a1f44386eaa52f994aca6d96d5b0da95f9f0bec18aebd",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 1,
+      "language_screen": {
+        "expected_stopword_share": 0.32261904761904764,
+        "alternate_stopword_share": 0.09166666666666666,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Crazy In Love",
+          "observed_artist": "Beyoncé Feat. Jay-Z",
+          "observed_album": "Hits Comerciais Radio",
+          "declared_duration_seconds": 250.0,
+          "source_url": "https://lrclib.net/api/get/37499718",
+          "original_cached_lyric_sha256": "d81ff6dde3893b43295a1f44386eaa52f994aca6d96d5b0da95f9f0bec18aebd",
+          "cleaned_lyric_sha256": "d81ff6dde3893b43295a1f44386eaa52f994aca6d96d5b0da95f9f0bec18aebd",
+          "original_cached_characters": 3801,
+          "cleaned_characters": 3801,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": "not_found",
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": null,
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Beyonc%C3%A9%20feat.%20JAY-Z/Crazy%20In%20Love",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [],
+      "caveats": [
+        "Single successful provider; no cross-provider textual comparator.",
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2004-58ef65dc2ae6",
+      "title": "Miedo",
+      "artist": "M-Clan",
+      "year": 2004,
+      "language": "es",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "e99e5b519ddf75566030e72327c7355302f18d289ef8f597dc77ae7ed87fd26b",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 1,
+      "language_screen": {
+        "expected_stopword_share": 0.38396624472573837,
+        "alternate_stopword_share": 0.10548523206751055,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Miedo",
+          "observed_artist": "M-Clan",
+          "observed_album": "null",
+          "declared_duration_seconds": 301.0,
+          "source_url": "https://lrclib.net/api/get/36318752",
+          "original_cached_lyric_sha256": "e99e5b519ddf75566030e72327c7355302f18d289ef8f597dc77ae7ed87fd26b",
+          "cleaned_lyric_sha256": "e99e5b519ddf75566030e72327c7355302f18d289ef8f597dc77ae7ed87fd26b",
+          "original_cached_characters": 1162,
+          "cleaned_characters": 1162,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": "not_found",
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": null,
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/M-Clan/Miedo",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [],
+      "caveats": [
+        "Single successful provider; no cross-provider textual comparator.",
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2001-1b296546902b",
+      "title": "Color Esperanza",
+      "artist": "Diego Torres",
+      "year": 2001,
+      "language": "es",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "fdb8ca54fd415a35f8d353ea6f2693a9c41dd4a21abf70ff3e607142e2d31533",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.3958333333333333,
+        "alternate_stopword_share": 0.006944444444444444,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Color Esperanza",
+          "observed_artist": "Diego Torres",
+          "observed_album": "Un Mundo Diferente",
+          "declared_duration_seconds": 264.0,
+          "source_url": "https://lrclib.net/api/get/34392677",
+          "original_cached_lyric_sha256": "fdb8ca54fd415a35f8d353ea6f2693a9c41dd4a21abf70ff3e607142e2d31533",
+          "cleaned_lyric_sha256": "fdb8ca54fd415a35f8d353ea6f2693a9c41dd4a21abf70ff3e607142e2d31533",
+          "original_cached_characters": 1590,
+          "cleaned_characters": 1590,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Color Esperanza",
+          "observed_artist": "Diego Torres",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Diego-torres-color-esperanza-lyrics",
+          "original_cached_lyric_sha256": "1cff2e7753dbf232af6bfde1a82b3e7d78b55b352029bed6061d29aa53b7cea7",
+          "cleaned_lyric_sha256": "1cff2e7753dbf232af6bfde1a82b3e7d78b55b352029bed6061d29aa53b7cea7",
+          "original_cached_characters": 743,
+          "cleaned_characters": 743,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Diego%20Torres/Color%20Esperanza",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.6285714285714286,
+          "body_vocabulary_jaccard": 0.978494623655914,
+          "body_word_counts": [
+            288,
+            132
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2002-74fa275abd80",
+      "title": "A Dios Le Pido",
+      "artist": "Juanes",
+      "year": 2002,
+      "language": "es",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "5f7d33d3095309c407afd8d7a33b0baaf1ea7890396cffce50edf5777f63acba",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.4900662251655629,
+        "alternate_stopword_share": 0.10816777041942605,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "A Dios Le Pido",
+          "observed_artist": "Juanes",
+          "observed_album": "Sky Radio Top 1000 2025",
+          "declared_duration_seconds": 205.0,
+          "source_url": "https://lrclib.net/api/get/37249691",
+          "original_cached_lyric_sha256": "5f7d33d3095309c407afd8d7a33b0baaf1ea7890396cffce50edf5777f63acba",
+          "cleaned_lyric_sha256": "5f7d33d3095309c407afd8d7a33b0baaf1ea7890396cffce50edf5777f63acba",
+          "original_cached_characters": 1966,
+          "cleaned_characters": 1966,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "A Dios Le Pido",
+          "observed_artist": "Juanes",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Juanes-a-dios-le-pido-lyrics",
+          "original_cached_lyric_sha256": "3e27e032d95d73908defa0fdd282705f5747a013eaf5545a8b1fd5ed47e216d7",
+          "cleaned_lyric_sha256": "3e27e032d95d73908defa0fdd282705f5747a013eaf5545a8b1fd5ed47e216d7",
+          "original_cached_characters": 2039,
+          "cleaned_characters": 2039,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Juanes/A%20Dios%20Le%20Pido",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 1.0,
+          "body_vocabulary_jaccard": 1.0,
+          "body_word_counts": [
+            453,
+            453
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2004-641528a4ed5c",
+      "title": "La Camisa Negra",
+      "artist": "Juanes",
+      "year": 2004,
+      "language": "es",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "c1f5ad7444162da36b219f1a0eae5f4fa17aa36d3704e19208383e0df24afa47",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.40285714285714286,
+        "alternate_stopword_share": 0.045714285714285714,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "La Camisa Negra",
+          "observed_artist": "Juanes",
+          "observed_album": "Amando A Mi Gente (Grandes Éxitos)",
+          "declared_duration_seconds": 217.0,
+          "source_url": "https://lrclib.net/api/get/36844030",
+          "original_cached_lyric_sha256": "c1f5ad7444162da36b219f1a0eae5f4fa17aa36d3704e19208383e0df24afa47",
+          "cleaned_lyric_sha256": "c1f5ad7444162da36b219f1a0eae5f4fa17aa36d3704e19208383e0df24afa47",
+          "original_cached_characters": 1703,
+          "cleaned_characters": 1703,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "La Camisa Negra",
+          "observed_artist": "Juanes",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Juanes-la-camisa-negra-lyrics",
+          "original_cached_lyric_sha256": "56c196524e135cd249b188ec132bca5664203f1858cd67cee8bb3e34e9c80ade",
+          "cleaned_lyric_sha256": "56c196524e135cd249b188ec132bca5664203f1858cd67cee8bb3e34e9c80ade",
+          "original_cached_characters": 1812,
+          "cleaned_characters": 1812,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Juanes/La%20Camisa%20Negra",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9814550641940085,
+          "body_vocabulary_jaccard": 0.923728813559322,
+          "body_word_counts": [
+            350,
+            351
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2015-c11afde63d3a",
+      "title": "Stressed Out",
+      "artist": "twenty one pilots",
+      "year": 2015,
+      "language": "en",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "ad68ab35b9fda3f071e47e824eccdf8ac7e59b662d6c142e6807858e95ad4aef",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.3351449275362319,
+        "alternate_stopword_share": 0.0036231884057971015,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Stressed Out",
+          "observed_artist": "Twenty One Pilots",
+          "observed_album": "TOP2000-DTS-tem2017",
+          "declared_duration_seconds": 202.0,
+          "source_url": "https://lrclib.net/api/get/37020600",
+          "original_cached_lyric_sha256": "ad68ab35b9fda3f071e47e824eccdf8ac7e59b662d6c142e6807858e95ad4aef",
+          "cleaned_lyric_sha256": "ad68ab35b9fda3f071e47e824eccdf8ac7e59b662d6c142e6807858e95ad4aef",
+          "original_cached_characters": 2612,
+          "cleaned_characters": 2612,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Stressed Out",
+          "observed_artist": "Twenty One Pilots",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Twenty-one-pilots-stressed-out-lyrics",
+          "original_cached_lyric_sha256": "4c1d631fb0d2daf6ed14b93fb7bc19c70ddfb7a56c6c45a73109c833eb7f8ad1",
+          "cleaned_lyric_sha256": "4c1d631fb0d2daf6ed14b93fb7bc19c70ddfb7a56c6c45a73109c833eb7f8ad1",
+          "original_cached_characters": 2709,
+          "cleaned_characters": 2709,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/twenty%20one%20pilots/Stressed%20Out",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9909584086799277,
+          "body_vocabulary_jaccard": 0.9722222222222222,
+          "body_word_counts": [
+            552,
+            554
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2019-1f8fdfe5b713",
+      "title": "bury a friend",
+      "artist": "Billie Eilish",
+      "year": 2019,
+      "language": "en",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "8a5a04db2fe68205021ed1b44e0fbb3efc11f484bddf5c64e3152446ad813d64",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.4613526570048309,
+        "alternate_stopword_share": 0.06521739130434782,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Bury A Friend",
+          "observed_artist": "Billie Eilish",
+          "observed_album": "Ultimix 263",
+          "declared_duration_seconds": 261.0,
+          "source_url": "https://lrclib.net/api/get/37494138",
+          "original_cached_lyric_sha256": "8a5a04db2fe68205021ed1b44e0fbb3efc11f484bddf5c64e3152446ad813d64",
+          "cleaned_lyric_sha256": "8a5a04db2fe68205021ed1b44e0fbb3efc11f484bddf5c64e3152446ad813d64",
+          "original_cached_characters": 1917,
+          "cleaned_characters": 1917,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "bury a friend",
+          "observed_artist": "Billie Eilish",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Billie-eilish-bury-a-friend-lyrics",
+          "original_cached_lyric_sha256": "6fd71f2f2fcd37dc20d0dccf6642460e00e0315e4607d5bb2fae45b72ef077bd",
+          "cleaned_lyric_sha256": "6fd71f2f2fcd37dc20d0dccf6642460e00e0315e4607d5bb2fae45b72ef077bd",
+          "original_cached_characters": 2210,
+          "cleaned_characters": 2210,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Billie%20Eilish/bury%20a%20friend",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9842805320435308,
+          "body_vocabulary_jaccard": 0.9568345323741008,
+          "body_word_counts": [
+            414,
+            413
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2014-27b61f0565ce",
+      "title": "Out Of The Woods",
+      "artist": "Taylor Swift",
+      "year": 2014,
+      "language": "en",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "dd07702f9a71ce7ed5637987d3c4a58bfc9dfe3d4b5c18cb95dc6bf886335e86",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.539291217257319,
+        "alternate_stopword_share": 0.004622496147919877,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Out Of The Woods",
+          "observed_artist": "Taylor Swift",
+          "observed_album": "1989 (Big Machine Radio Release Special)",
+          "declared_duration_seconds": 256.0,
+          "source_url": "https://lrclib.net/api/get/36846377",
+          "original_cached_lyric_sha256": "dd07702f9a71ce7ed5637987d3c4a58bfc9dfe3d4b5c18cb95dc6bf886335e86",
+          "cleaned_lyric_sha256": "dd07702f9a71ce7ed5637987d3c4a58bfc9dfe3d4b5c18cb95dc6bf886335e86",
+          "original_cached_characters": 2959,
+          "cleaned_characters": 2959,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Out Of The Woods",
+          "observed_artist": "Taylor Swift",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Taylor-swift-out-of-the-woods-lyrics",
+          "original_cached_lyric_sha256": "7726d86874e7cecfd652e1b53f5a7a513ee20df9aee27392ced25220f9a2c143",
+          "cleaned_lyric_sha256": "7726d86874e7cecfd652e1b53f5a7a513ee20df9aee27392ced25220f9a2c143",
+          "original_cached_characters": 3102,
+          "cleaned_characters": 3102,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Taylor%20Swift/Out%20Of%20The%20Woods",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9112964366944655,
+          "body_vocabulary_jaccard": 0.9811320754716981,
+          "body_word_counts": [
+            649,
+            670
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2013-608a7aee9a18",
+      "title": "Happy",
+      "artist": "Pharrell Williams",
+      "year": 2013,
+      "language": "en",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "6af765fc2eee6ec0fba01876676f578f6b7b6dcde4c5b0d922ba79dd50c27fb3",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.39331619537275064,
+        "alternate_stopword_share": 0.030848329048843187,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Happy",
+          "observed_artist": "Pharrell Williams",
+          "observed_album": "100x Zomer 2016",
+          "declared_duration_seconds": 233.0,
+          "source_url": "https://lrclib.net/api/get/37016974",
+          "original_cached_lyric_sha256": "6af765fc2eee6ec0fba01876676f578f6b7b6dcde4c5b0d922ba79dd50c27fb3",
+          "cleaned_lyric_sha256": "6af765fc2eee6ec0fba01876676f578f6b7b6dcde4c5b0d922ba79dd50c27fb3",
+          "original_cached_characters": 1795,
+          "cleaned_characters": 1795,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Happy",
+          "observed_artist": "Pharrell Williams",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Pharrell-williams-happy-lyrics",
+          "original_cached_lyric_sha256": "ce51640f7a63624a874dd8011092ec416aa29acccf0a91a1d9f97994f5f1a266",
+          "cleaned_lyric_sha256": "ce51640f7a63624a874dd8011092ec416aa29acccf0a91a1d9f97994f5f1a266",
+          "original_cached_characters": 2929,
+          "cleaned_characters": 2929,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Pharrell%20Williams/Happy",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.7631851085832472,
+          "body_vocabulary_jaccard": 0.8969072164948454,
+          "body_word_counts": [
+            389,
+            578
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2017-2c3252eb3c12",
+      "title": "La Puerta Violeta",
+      "artist": "Rozalén",
+      "year": 2017,
+      "language": "es",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "3decffa8b45cc18cceaf80598c940d76d2c6dbdfdee214ff941fc60322dccfb1",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.47,
+        "alternate_stopword_share": 0.07666666666666666,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "La Puerta Violeta",
+          "observed_artist": "Rozalén",
+          "observed_album": "REDISCOVER Rozalén",
+          "declared_duration_seconds": 202.0,
+          "source_url": "https://lrclib.net/api/get/34812253",
+          "original_cached_lyric_sha256": "3decffa8b45cc18cceaf80598c940d76d2c6dbdfdee214ff941fc60322dccfb1",
+          "cleaned_lyric_sha256": "3decffa8b45cc18cceaf80598c940d76d2c6dbdfdee214ff941fc60322dccfb1",
+          "original_cached_characters": 1474,
+          "cleaned_characters": 1474,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "La puerta violeta",
+          "observed_artist": "Rozalén",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Rozalen-la-puerta-violeta-lyrics",
+          "original_cached_lyric_sha256": "386ee7f1a805d2d0aa4e703ee0a1c04f868194e7b610be951e9188028b1eca23",
+          "cleaned_lyric_sha256": "386ee7f1a805d2d0aa4e703ee0a1c04f868194e7b610be951e9188028b1eca23",
+          "original_cached_characters": 1522,
+          "cleaned_characters": 1522,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Rozal%C3%A9n/La%20Puerta%20Violeta",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9709401709401709,
+          "body_vocabulary_jaccard": 0.9752066115702479,
+          "body_word_counts": [
+            300,
+            285
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2018-fff1d8ae4511",
+      "title": "Malamente",
+      "artist": "Rosalía",
+      "year": 2018,
+      "language": "es",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "6faab096b8f37b52372f6906143b9eaff78f332d43bc6e2677f566e4bdafbcff",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 1,
+      "language_screen": {
+        "expected_stopword_share": 0.24573378839590443,
+        "alternate_stopword_share": 0.04436860068259386,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "MALAMENTE",
+          "observed_artist": "Rosalía",
+          "observed_album": "Essentials",
+          "declared_duration_seconds": 150.0,
+          "source_url": "https://lrclib.net/api/get/33676694",
+          "original_cached_lyric_sha256": "6faab096b8f37b52372f6906143b9eaff78f332d43bc6e2677f566e4bdafbcff",
+          "cleaned_lyric_sha256": "6faab096b8f37b52372f6906143b9eaff78f332d43bc6e2677f566e4bdafbcff",
+          "original_cached_characters": 1560,
+          "cleaned_characters": 1560,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": "identity_mismatch",
+          "observed_title": "MALAMENTE (Cap.1: Augurio)",
+          "observed_artist": "ROSALÍA",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Rosalia-malamente-cap1-augurio-lyrics",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Rosal%C3%ADa/Malamente",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [],
+      "caveats": [
+        "Single successful provider; no cross-provider textual comparator.",
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2013-877c19a80720",
+      "title": "Vivir Mi Vida",
+      "artist": "Marc Anthony",
+      "year": 2013,
+      "language": "es",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "31987a75f079bc0effaec047dd21a8a86d0025322f41981cde072068010ad3ea",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.39361702127659576,
+        "alternate_stopword_share": 0.11702127659574468,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Vivir Mi Vida",
+          "observed_artist": "Marc Anthony",
+          "observed_album": "Latino Caliente Session",
+          "declared_duration_seconds": 251.0,
+          "source_url": "https://lrclib.net/api/get/36933880",
+          "original_cached_lyric_sha256": "31987a75f079bc0effaec047dd21a8a86d0025322f41981cde072068010ad3ea",
+          "cleaned_lyric_sha256": "31987a75f079bc0effaec047dd21a8a86d0025322f41981cde072068010ad3ea",
+          "original_cached_characters": 1290,
+          "cleaned_characters": 1290,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Vivir Mi Vida",
+          "observed_artist": "Marc Anthony",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Marc-anthony-vivir-mi-vida-lyrics",
+          "original_cached_lyric_sha256": "b80581ab0037ca90a46bc38742bb78dd5f955d47bcdbe46e21d513d8adce7408",
+          "cleaned_lyric_sha256": "b80581ab0037ca90a46bc38742bb78dd5f955d47bcdbe46e21d513d8adce7408",
+          "original_cached_characters": 1454,
+          "cleaned_characters": 1454,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Marc%20Anthony/Vivir%20Mi%20Vida",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9912126537785588,
+          "body_vocabulary_jaccard": 0.9682539682539683,
+          "body_word_counts": [
+            282,
+            287
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2014-e8f5796fbb18",
+      "title": "Bailando",
+      "artist": "Enrique Iglesias feat. Descemer Bueno, Gente de Zona",
+      "year": 2014,
+      "language": "es",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "733baecb41e73efff6739cf61804606ea271306a0578112f4ee67dcdca941a44",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 1,
+      "language_screen": {
+        "expected_stopword_share": 0.304635761589404,
+        "alternate_stopword_share": 0.0706401766004415,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Bailando",
+          "observed_artist": "Enrique Iglesias feat. Descemer Bueno & Gente De Zona",
+          "observed_album": "US Billboard Top 100 Single Charts (25.10.14)",
+          "declared_duration_seconds": 243.0,
+          "source_url": "https://lrclib.net/api/get/37209876",
+          "original_cached_lyric_sha256": "733baecb41e73efff6739cf61804606ea271306a0578112f4ee67dcdca941a44",
+          "cleaned_lyric_sha256": "733baecb41e73efff6739cf61804606ea271306a0578112f4ee67dcdca941a44",
+          "original_cached_characters": 2302,
+          "cleaned_characters": 2302,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": "not_found",
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": null,
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Enrique%20Iglesias%20feat.%20Descemer%20Bueno%2C%20Gente%20de%20Zona/Bailando",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [],
+      "caveats": [
+        "Single successful provider; no cross-provider textual comparator.",
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2021-27c16cbb8cff",
+      "title": "Your Power",
+      "artist": "Billie Eilish",
+      "year": 2021,
+      "language": "en",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "5908cf65cb42cef2c42b5d4f601b19e37a2c333db42255e0acb7d8efad8468b6",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.4881889763779528,
+        "alternate_stopword_share": 0.007874015748031496,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Your Power",
+          "observed_artist": "Billie Eilish",
+          "observed_album": "Happier Than Ever [24-44.1]",
+          "declared_duration_seconds": 246.0,
+          "source_url": "https://lrclib.net/api/get/37178617",
+          "original_cached_lyric_sha256": "5908cf65cb42cef2c42b5d4f601b19e37a2c333db42255e0acb7d8efad8468b6",
+          "cleaned_lyric_sha256": "5908cf65cb42cef2c42b5d4f601b19e37a2c333db42255e0acb7d8efad8468b6",
+          "original_cached_characters": 1185,
+          "cleaned_characters": 1185,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Your Power",
+          "observed_artist": "Billie Eilish",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Billie-eilish-your-power-lyrics",
+          "original_cached_lyric_sha256": "8878ed582dbcfb5dfc25f53a1f465e6e8d47c6fd38fc089e10d3a18e5febcb97",
+          "cleaned_lyric_sha256": "8878ed582dbcfb5dfc25f53a1f465e6e8d47c6fd38fc089e10d3a18e5febcb97",
+          "original_cached_characters": 1257,
+          "cleaned_characters": 1257,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Billie%20Eilish/Your%20Power",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9473684210526315,
+          "body_vocabulary_jaccard": 0.956989247311828,
+          "body_word_counts": [
+            254,
+            259
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2022-460a59f8aa02",
+      "title": "Anti-Hero",
+      "artist": "Taylor Swift",
+      "year": 2022,
+      "language": "en",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "a3f90b2a918d02be4fbb7137f683156b0647200b5a4370d65b37196f416071fb",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.3825136612021858,
+        "alternate_stopword_share": 0.03825136612021858,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Anti-Hero",
+          "observed_artist": "Taylor Swift",
+          "observed_album": "Midnights",
+          "declared_duration_seconds": 220.0,
+          "source_url": "https://lrclib.net/api/get/34440477",
+          "original_cached_lyric_sha256": "a3f90b2a918d02be4fbb7137f683156b0647200b5a4370d65b37196f416071fb",
+          "cleaned_lyric_sha256": "a3f90b2a918d02be4fbb7137f683156b0647200b5a4370d65b37196f416071fb",
+          "original_cached_characters": 1818,
+          "cleaned_characters": 1818,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Anti-Hero",
+          "observed_artist": "Taylor Swift",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Taylor-swift-anti-hero-lyrics",
+          "original_cached_lyric_sha256": "ba9508d157c9c9063d899cb3020f2b2097a2252a910108087c1da389d9267445",
+          "cleaned_lyric_sha256": "ba9508d157c9c9063d899cb3020f2b2097a2252a910108087c1da389d9267445",
+          "original_cached_characters": 1894,
+          "cleaned_characters": 1894,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Taylor%20Swift/Anti-Hero",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9945504087193461,
+          "body_vocabulary_jaccard": 0.9861111111111112,
+          "body_word_counts": [
+            366,
+            368
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2023-dd058a9c7e57",
+      "title": "Flowers",
+      "artist": "Miley Cyrus",
+      "year": 2023,
+      "language": "en",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "e7e368f026a6ee7055833a0bba5b5e6b675da6e02dec6515fe2d9e10cdb027d6",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.4260869565217391,
+        "alternate_stopword_share": 0.06956521739130435,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Flowers",
+          "observed_artist": "Miley Cyrus",
+          "observed_album": "Billboard Hot 100 Charts (2024)",
+          "declared_duration_seconds": 200.0,
+          "source_url": "https://lrclib.net/api/get/37143964",
+          "original_cached_lyric_sha256": "e7e368f026a6ee7055833a0bba5b5e6b675da6e02dec6515fe2d9e10cdb027d6",
+          "cleaned_lyric_sha256": "e7e368f026a6ee7055833a0bba5b5e6b675da6e02dec6515fe2d9e10cdb027d6",
+          "original_cached_characters": 1636,
+          "cleaned_characters": 1636,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Flowers",
+          "observed_artist": "Miley Cyrus",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Miley-cyrus-flowers-lyrics",
+          "original_cached_lyric_sha256": "b195e9b6929460f1d9398c836cd66a39b9dad3aa262cd5be202b4c69f29ea4f6",
+          "cleaned_lyric_sha256": "b195e9b6929460f1d9398c836cd66a39b9dad3aa262cd5be202b4c69f29ea4f6",
+          "original_cached_characters": 1757,
+          "cleaned_characters": 1757,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Miley%20Cyrus/Flowers",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9840348330914369,
+          "body_vocabulary_jaccard": 0.9285714285714286,
+          "body_word_counts": [
+            345,
+            344
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2026-2e43c234ac58",
+      "title": "Aperture",
+      "artist": "Harry Styles",
+      "year": 2026,
+      "language": "en",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "763def7c89373def27351240386aef4aa0ba6ebcd65f51304ded0bb5599eb7c9",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.3611111111111111,
+        "alternate_stopword_share": 0.03125,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Aperture",
+          "observed_artist": "Harry Styles",
+          "observed_album": "Top 100: Global",
+          "declared_duration_seconds": 312.0,
+          "source_url": "https://lrclib.net/api/get/36876272",
+          "original_cached_lyric_sha256": "cb3cf1fe069cefeff280a97414ebaa4a0997f3a904d4ee78784e41f36fdb0470",
+          "cleaned_lyric_sha256": "763def7c89373def27351240386aef4aa0ba6ebcd65f51304ded0bb5599eb7c9",
+          "original_cached_characters": 1973,
+          "cleaned_characters": 1385,
+          "lrc_timestamp_prefix_lines": 54
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Aperture",
+          "observed_artist": "Harry Styles",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Harry-styles-aperture-lyrics",
+          "original_cached_lyric_sha256": "d4feadef8d7a6c1ef994bc3568f849d0ca6fde6a69a189992566ac4e6bafdc21",
+          "cleaned_lyric_sha256": "d4feadef8d7a6c1ef994bc3568f849d0ca6fde6a69a189992566ac4e6bafdc21",
+          "original_cached_characters": 1470,
+          "cleaned_characters": 1470,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Harry%20Styles/Aperture",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9896193771626297,
+          "body_vocabulary_jaccard": 0.9759036144578314,
+          "body_word_counts": [
+            288,
+            290
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2020-6f072260cb90",
+      "title": "Ansiedad",
+      "artist": "Carla Morrison",
+      "year": 2020,
+      "language": "es",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "6c93d1c475802e48a8f3d5bb135be9f6f8953d0ca787adfa7a00a98c65a8ed08",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.44256756756756754,
+        "alternate_stopword_share": 0.10135135135135136,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Ansiedad",
+          "observed_artist": "Carla Morrison",
+          "observed_album": "El Renacimiento",
+          "declared_duration_seconds": 224.0,
+          "source_url": "https://lrclib.net/api/get/28353486",
+          "original_cached_lyric_sha256": "6c93d1c475802e48a8f3d5bb135be9f6f8953d0ca787adfa7a00a98c65a8ed08",
+          "cleaned_lyric_sha256": "6c93d1c475802e48a8f3d5bb135be9f6f8953d0ca787adfa7a00a98c65a8ed08",
+          "original_cached_characters": 1605,
+          "cleaned_characters": 1605,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Ansiedad",
+          "observed_artist": "Carla Morrison",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Carla-morrison-ansiedad-lyrics",
+          "original_cached_lyric_sha256": "4225296789157cb6da5643dc85e96d36e89f84e327a2f345aaeeae70de6dbbe9",
+          "cleaned_lyric_sha256": "4225296789157cb6da5643dc85e96d36e89f84e327a2f345aaeeae70de6dbbe9",
+          "original_cached_characters": 1751,
+          "cleaned_characters": 1751,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Carla%20Morrison/Ansiedad",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9864864864864865,
+          "body_vocabulary_jaccard": 0.9629629629629629,
+          "body_word_counts": [
+            296,
+            296
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2024-752f61769347",
+      "title": "Tengo Un Pensamiento",
+      "artist": "Amaia",
+      "year": 2024,
+      "language": "es",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "bc676cbf3e7ab2f89b293867bb59f9a8245c244b71641807df8cb4dd4a016d46",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.42857142857142855,
+        "alternate_stopword_share": 0.09821428571428571,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "Tengo Un Pensamiento",
+          "observed_artist": "Amaia",
+          "observed_album": "2:46",
+          "declared_duration_seconds": 165.64,
+          "source_url": "https://lrclib.net/api/get/16321943",
+          "original_cached_lyric_sha256": "bc676cbf3e7ab2f89b293867bb59f9a8245c244b71641807df8cb4dd4a016d46",
+          "cleaned_lyric_sha256": "bc676cbf3e7ab2f89b293867bb59f9a8245c244b71641807df8cb4dd4a016d46",
+          "original_cached_characters": 1130,
+          "cleaned_characters": 1130,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Tengo Un Pensamiento",
+          "observed_artist": "Amaia",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Amaia-tengo-un-pensamiento-lyrics",
+          "original_cached_lyric_sha256": "51deadfeecd4ea406aa1f31447be678940177ece3d467327fafaaf82b6e888b5",
+          "cleaned_lyric_sha256": "51deadfeecd4ea406aa1f31447be678940177ece3d467327fafaaf82b6e888b5",
+          "original_cached_characters": 1162,
+          "cleaned_characters": 1162,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Amaia/Tengo%20Un%20Pensamiento",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9727272727272728,
+          "body_vocabulary_jaccard": 0.978494623655914,
+          "body_word_counts": [
+            224,
+            216
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2022-d221fdb58fc4",
+      "title": "DESPECHÁ",
+      "artist": "Rosalía",
+      "year": 2022,
+      "language": "es",
+      "selected_provider": "lrclib",
+      "selected_lyrics_sha256": "d10fe2b07f6beb63c063fc973f9525ca4eb1a436ecf6f34c84f4e1eaf02616de",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 2,
+      "language_screen": {
+        "expected_stopword_share": 0.3756476683937824,
+        "alternate_stopword_share": 0.07253886010362694,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 200,
+          "observed_title": "DESPECHÁ",
+          "observed_artist": "ROSALÍA",
+          "observed_album": "PLAYLIST SUMMER HITS 2023",
+          "declared_duration_seconds": 157.048163,
+          "source_url": "https://lrclib.net/api/get/17609275",
+          "original_cached_lyric_sha256": "d10fe2b07f6beb63c063fc973f9525ca4eb1a436ecf6f34c84f4e1eaf02616de",
+          "cleaned_lyric_sha256": "d10fe2b07f6beb63c063fc973f9525ca4eb1a436ecf6f34c84f4e1eaf02616de",
+          "original_cached_characters": 1772,
+          "cleaned_characters": 1772,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "DESPECHÁ",
+          "observed_artist": "ROSALÍA",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Rosalia-despecha-lyrics",
+          "original_cached_lyric_sha256": "bf5c47188556c4119e512a79c90a29e2ae145851b0fda30f8ca1e7f91d093eeb",
+          "cleaned_lyric_sha256": "bf5c47188556c4119e512a79c90a29e2ae145851b0fda30f8ca1e7f91d093eeb",
+          "original_cached_characters": 1770,
+          "cleaned_characters": 1770,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Rosal%C3%ADa/DESPECH%C3%81",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [
+        {
+          "provider_a": "lrclib",
+          "provider_b": "genius",
+          "body_token_sequence_similarity": 0.9361702127659575,
+          "body_vocabulary_jaccard": 0.8780487804878049,
+          "body_word_counts": [
+            386,
+            366
+          ],
+          "interpretation": "Descriptive textual agreement; not independent sourcing or editorial truth."
+        }
+      ],
+      "caveats": [
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    },
+    {
+      "song_id": "s2021-a17cc29d59f5",
+      "title": "Ay Mamá",
+      "artist": "Rigoberta Bandini",
+      "year": 2021,
+      "language": "es",
+      "selected_provider": "genius",
+      "selected_lyrics_sha256": "eefd07890b8cea297eb5899ca85462a193eb71c01376aec7c03e1c9406615f80",
+      "selected_hash_matches_text": true,
+      "selected_lrc_timestamp_prefix_lines": 0,
+      "available_provider_count": 1,
+      "language_screen": {
+        "expected_stopword_share": 0.2077922077922078,
+        "alternate_stopword_share": 0.017316017316017316,
+        "compatible": true,
+        "limitation": "Heuristic language sanity check, not a validated language model or manual gold label."
+      },
+      "provider_identity_and_versions": [
+        {
+          "provider": "lrclib",
+          "status": 503,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://lrclib.net/api/search?track_name=Ay+Mam%C3%A1&artist_name=Rigoberta+Bandini",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "genius",
+          "status": 200,
+          "observed_title": "Ay Mamá",
+          "observed_artist": "Rigoberta Bandini",
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://genius.com/Rigoberta-bandini-ay-mama-lyrics",
+          "original_cached_lyric_sha256": "eefd07890b8cea297eb5899ca85462a193eb71c01376aec7c03e1c9406615f80",
+          "cleaned_lyric_sha256": "eefd07890b8cea297eb5899ca85462a193eb71c01376aec7c03e1c9406615f80",
+          "original_cached_characters": 1385,
+          "cleaned_characters": 1385,
+          "lrc_timestamp_prefix_lines": 0
+        },
+        {
+          "provider": "ovh",
+          "status": 404,
+          "observed_title": null,
+          "observed_artist": null,
+          "observed_album": null,
+          "declared_duration_seconds": null,
+          "source_url": "https://api.lyrics.ovh/v1/Rigoberta%20Bandini/Ay%20Mam%C3%A1",
+          "original_cached_lyric_sha256": null,
+          "cleaned_lyric_sha256": null,
+          "original_cached_characters": 0,
+          "cleaned_characters": 0,
+          "lrc_timestamp_prefix_lines": 0
+        }
+      ],
+      "cleaned_body_agreement": [],
+      "caveats": [
+        "Single successful provider; no cross-provider textual comparator.",
+        "Manifest lacks target album; longest LRCLIB candidate is a heuristic. Compilation metadata does not verify the original edition."
+      ]
+    }
+  ],
+  "privacy": {
+    "scope": "Current fear/miedo study source, metadata, generated outputs and matching article/static/build files; unrelated historical site artifacts are outside this audit.",
+    "threshold_words": 13,
+    "explanation": "Conservative reconstruction screen, not a copyright-law threshold. No lyric excerpts are authorized or intentionally exported by this study; shorter fragments and paraphrases still require editorial review.",
+    "private_cache_ignored": true,
+    "private_cache_tracked_file_count": 0,
+    "checked_file_count": 111,
+    "checked_files": [
+      {
+        "path": "content/post/2026-10-11-miedo-embeddings-bertopic-rag.md",
+        "sha256": "45660342c53669fef5272a544db0fe32bd74e40604126e4da8547f48974752b2"
+      },
+      {
+        "path": "research/fear-lyrics/RAG.md",
+        "sha256": "b189a17df9ce43ad29802117b74bd8fe02b6fdc7feeee4f270c715a23bb88dbd"
+      },
+      {
+        "path": "research/fear-lyrics/README.md",
+        "sha256": "02f18886060c2a358c2b14b48e0d27562fe23bc47ac8dba13b7180fb235b97d9"
+      },
+      {
+        "path": "research/fear-lyrics/analyze.py",
+        "sha256": "dd6e3632adc636a1f600846c08e3c9514358176d82739794dbdf303ac752751d"
+      },
+      {
+        "path": "research/fear-lyrics/audit_sources.py",
+        "sha256": "d585fef1cb5a5094d2dd0433c8415ba02fe38b3cbf27b70ac39e143a4281afaa"
+      },
+      {
+        "path": "research/fear-lyrics/build_notebook.py",
+        "sha256": "aa1bb07590b75f8856f2b9db1a6235c6899c9d74db94b2740c8561100e129d16"
+      },
+      {
+        "path": "research/fear-lyrics/collect.py",
+        "sha256": "6ba44091f66e2a8af1b27611238e29d7d0f0b3ecb97e3d3352e89b1d43c08757"
+      },
+      {
+        "path": "research/fear-lyrics/corpus-manifest.json",
+        "sha256": "5466b3b680f1dd3a979414ef25ad7603b6104aaf58130e86f82f4f6914e33ef1"
+      },
+      {
+        "path": "research/fear-lyrics/embed_api.py",
+        "sha256": "ebbd7bbb8564fb4bf77e4a4229a0952e5a1051b193dff20837266eaf2552852a"
+      },
+      {
+        "path": "research/fear-lyrics/figures/corpus-providers.svg",
+        "sha256": "1f48ffdde649371e5bb1efc7d0a0539432d260091dfca8c8cf7b82c9a3620b43"
+      },
+      {
+        "path": "research/fear-lyrics/figures/intfloat--multilingual-e5-small-decades.svg",
+        "sha256": "0e71e7b074f3346294d2453a631e0e56d3015c739c31fdaeb9a2f4d1e32b752d"
+      },
+      {
+        "path": "research/fear-lyrics/figures/intfloat--multilingual-e5-small-hierarchy.svg",
+        "sha256": "6e488cf9a52706b3ce49d3393b9106b5617b344a7a9fc1582d63a296ad772bfa"
+      },
+      {
+        "path": "research/fear-lyrics/figures/intfloat--multilingual-e5-small-map.svg",
+        "sha256": "662fb82a4a8cded821fd79b3c4fcc6b58e862e9c98eec78776c6ee3608b6aaa6"
+      },
+      {
+        "path": "research/fear-lyrics/figures/langgraph-workflow.svg",
+        "sha256": "4da874c7ad00b18be1d55a3336d7f39330266103164d2f3f58bb84a6b5e0a880"
+      },
+      {
+        "path": "research/fear-lyrics/figures/language-confound.svg",
+        "sha256": "cc8abe58bbf97a7906b97d4339657d2d2213b9ee2e5eaed1f5b8172609b1b41a"
+      },
+      {
+        "path": "research/fear-lyrics/figures/rag-recall-safety.svg",
+        "sha256": "f71ab65bbffd165a61edd4dff82abb4df8a2aaef711a789d12f00bf4facc98d6"
+      },
+      {
+        "path": "research/fear-lyrics/figures/semantic-probes.svg",
+        "sha256": "d5b9a412e56a9917d29e2ffaff23e0636fd450bdeb9da415f7fab084ca47e924"
+      },
+      {
+        "path": "research/fear-lyrics/figures/semantic-trajectories.svg",
+        "sha256": "21d3f9bc5bf5d9b82fbc992579554a347b3aa8aa5dbc4dfe4c77c3e00d7cb7a9"
+      },
+      {
+        "path": "research/fear-lyrics/figures/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2-decades.svg",
+        "sha256": "fa0ab63606b1b2ef08d9e87b27cd8a19b40335de97ab10d4b78f9825bb7b0965"
+      },
+      {
+        "path": "research/fear-lyrics/figures/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2-hierarchy.svg",
+        "sha256": "9989653492c9dee87e2c23760be7a630972dbdb2b3ae8440603280b7819826fc"
+      },
+      {
+        "path": "research/fear-lyrics/figures/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2-map.svg",
+        "sha256": "d195e50e1c145e52a5e2cc65120da57d53eb369a93f3076c82818b9ddf88fcc8"
+      },
+      {
+        "path": "research/fear-lyrics/interpretive-cards.json",
+        "sha256": "e47312ed70eb0df9cc21676a5e3a1f71322b27d7abb90f53bd3f494202e69663"
+      },
+      {
+        "path": "research/fear-lyrics/miedo-embeddings-bertopic-rag.ipynb",
+        "sha256": "e8e3265e759d3c3870b80b0572c304276f278ff952f853af1f117ac0ce6f7341"
+      },
+      {
+        "path": "research/fear-lyrics/protocol.md",
+        "sha256": "23b511a4272e155fca139053402ee57c61d7918153853057676e17dfe1dc40ef"
+      },
+      {
+        "path": "research/fear-lyrics/provider-agreement.csv",
+        "sha256": "1143bb5583db230764a12e385d00c5723020c3a8d45fe6d9ed86456e6209c22d"
+      },
+      {
+        "path": "research/fear-lyrics/provider-coverage.csv",
+        "sha256": "5a25697799040382f5d1a7a30707c8a944110756f8b3421880de0c2d57cf1a77"
+      },
+      {
+        "path": "research/fear-lyrics/rag.py",
+        "sha256": "88487e7f66f929d318203cc5184290f8d8b8cce310bdb94de590d7515c01e754"
+      },
+      {
+        "path": "research/fear-lyrics/references.json",
+        "sha256": "37e9e8ba9fda886e88a88a5f29d098f74a9b25df559fcdf7d6026ee8642a3998"
+      },
+      {
+        "path": "research/fear-lyrics/requirements.lock.txt",
+        "sha256": "57750176e6b599ccae11ce339e81f0db58eaa0c3aeef92147e1e46c418098bf4"
+      },
+      {
+        "path": "research/fear-lyrics/results/analysis_protocol.json",
+        "sha256": "5fc7584666ade535630bd106683f5d63b068a5f297e943ee54df4e412117d8ee"
+      },
+      {
+        "path": "research/fear-lyrics/results/corpus_diagnostics.json",
+        "sha256": "0d0aa917e198c80ac6eb69e46ec9cb3f57f3180273facba02798d3ecf9e41e78"
+      },
+      {
+        "path": "research/fear-lyrics/results/embedding_model_cluster_agreement.csv",
+        "sha256": "ec22335c8d8fb9b9bd6096b5fc20864410c8e36b5ca18306f0daeb6fdb733a7b"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/artist_concentration.csv",
+        "sha256": "5a61c2a3177497028c2d540c4a8ef506688fbffc0d89ef2b35a8dde10d2ef0b7"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/decade_composition.csv",
+        "sha256": "18c494002d41f52825d962c5063822c3a9f6b81511707c62b5ae7aab41a180c5"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/decade_contrasts.csv",
+        "sha256": "55b13c15b69517d3d6dfc103d865fdc678f0641a3e427fc50d6f3aefe23187f1"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/exploratory_map.csv",
+        "sha256": "d7c5da175cd8bfcd2e62e065c562d53d2d66c7e9bb7d04048e573ef4249c5d51"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/leave_one_artist_out_prevalence.csv",
+        "sha256": "bdc6a4fd94fd7b4cc414020b430e223c9c008d65fb57281003fde15dd144a355"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/model_manifest.json",
+        "sha256": "25b5318ca501622af168e09a516b5993908f07780ed7f714000f2871a0414683"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/narrative_decade_paths.csv",
+        "sha256": "5ed2eb2bbce8cdfd7f3b2220710a832263939336b436c1953e83c461b0844be3"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/narrative_method.json",
+        "sha256": "820048070ad4732d0e8a9bbc71ccfb3c3a893a41cf57c4234ec62a0090db3b1d"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/narrative_order_tests.csv",
+        "sha256": "1dc703d5e7d72b1908a7184b9f9f11591478db78bf010081198c44585e4ec312"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/narrative_paths.csv",
+        "sha256": "95903f950ba72b2a7be529e3611084fa6ce204e2f50b2160746e0acaef0ee5ba"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/narrative_section_scores.csv",
+        "sha256": "ea0a15cddb4ed3e9eeb5190e7fedff2b2837fa4c47f707d37d6f2aa42dbccb2f"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/narrative_song_order_tests.csv",
+        "sha256": "010d9c97a10065973b48a29318191389e61f42aa4712c8a074c2990f973ef211"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/repeated_refrain_sensitivity.csv",
+        "sha256": "0cad013c8c05c0d2a783982f58dc3a12f2300991c6cd8e4d12a4b3e87dbaaa2d"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/section_assignments.csv",
+        "sha256": "7f42cd06c11d5e8861200b7c3e53a9d6703e84ae16aa0bae9bb5911bf54e015c"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/seed_assignments.csv",
+        "sha256": "5c157cde7c852595ebcf881e456377aac136bed842ced9f374f830d632204ff3"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/seed_stability.csv",
+        "sha256": "dc096c699499bffdfcad1f23522f8ff920a17e706710cd693c6b5be544a39b63"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/semantic_probes.json",
+        "sha256": "0dd02264bb974df53fdaba0f7fc57e05de3178784eb0a924af7f165ac5513c42"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/song_topic_shares_all_blocks_with_repeats.csv",
+        "sha256": "e6950bf24861a6580fb16541595a54f4d3443b4f4fa5fcff79bb7319582fc0f5"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/song_topic_shares_unique_first_occurrence.csv",
+        "sha256": "1498860c5156a1df828072490f513469a26839d84f10a550c6eb7cdbf9112f2e"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/tokenization_diagnostics.csv",
+        "sha256": "8553d6ac58ea52f269a9241adeab82a2c6e832a44f8f005699157a645e37f713"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/topic_fit_status.json",
+        "sha256": "57781e9baf9bffc8b2d301e824c5f01f0b0614ab9a9f7dc5627eb95aa1224197"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/topic_hierarchy.json",
+        "sha256": "1f58027819541d0b34a70347367224fed30f23d087b8ea12a58deed9b395a91f"
+      },
+      {
+        "path": "research/fear-lyrics/results/intfloat--multilingual-e5-small/topics.json",
+        "sha256": "2c374b0726cb04bc1370b2b2cc81df95e24082658a842082aad20112e44f5298"
+      },
+      {
+        "path": "research/fear-lyrics/results/rag/encoder-manifest.json",
+        "sha256": "ba9b039c8c7e1f04cb01118f6620c2e3795de377f93a4a59260dea2170ec9ebc"
+      },
+      {
+        "path": "research/fear-lyrics/results/rag/protocol.json",
+        "sha256": "357cb8bd24da50f40820d50d264602236f47ee0e717a21b74cdaccb680f3aea5"
+      },
+      {
+        "path": "research/fear-lyrics/results/rag/questions.json",
+        "sha256": "50a7a68659f99c64cfe89d478ff261086638d2521ba0514d2e56601b62c39843"
+      },
+      {
+        "path": "research/fear-lyrics/results/rag/runs.json",
+        "sha256": "8ce24f5ac86ca82daccd1370204ad66162675296cee9bb1aa7d88bf74a82ccbe"
+      },
+      {
+        "path": "research/fear-lyrics/results/rag/summary.csv",
+        "sha256": "4480607a2996ef2ba5c223ea5b561d445071ac0facb731355f2ed574ef2ab89e"
+      },
+      {
+        "path": "research/fear-lyrics/results/rag/summary.json",
+        "sha256": "212a1aebddb97ab80417cad9a3754fab2ce2aea24553b933019536ab1873f892"
+      },
+      {
+        "path": "research/fear-lyrics/results/rag/timing.json",
+        "sha256": "a5c2c16bfdba5ff2b86804f7f3d45546b381dca7098e24f5d91be09e99e3ea83"
+      },
+      {
+        "path": "research/fear-lyrics/results/rag-e5/encoder-manifest.json",
+        "sha256": "f42126d4d9534e0a2dc2048e622add6203a2e9da528e3689bd3ee841131453d3"
+      },
+      {
+        "path": "research/fear-lyrics/results/rag-e5/protocol.json",
+        "sha256": "577f1e55ed45a26ac69f202e5fba477ceb2d3bda777dc18f29745ac58cfe7a8b"
+      },
+      {
+        "path": "research/fear-lyrics/results/rag-e5/questions.json",
+        "sha256": "50a7a68659f99c64cfe89d478ff261086638d2521ba0514d2e56601b62c39843"
+      },
+      {
+        "path": "research/fear-lyrics/results/rag-e5/runs.json",
+        "sha256": "ef5c92909aa6a00f928b17d992b578fbc4bb9a6c761456b6bc995a7b87d03d91"
+      },
+      {
+        "path": "research/fear-lyrics/results/rag-e5/summary.csv",
+        "sha256": "e5f5a6d77d490f65668df501fd8b3bc5fb8bc474ad2100a30020784dffb6577b"
+      },
+      {
+        "path": "research/fear-lyrics/results/rag-e5/summary.json",
+        "sha256": "3e46aa5d4003c733a2542fba17f695cbcce4a062be8d8fc2e31dfa9b2f7fb086"
+      },
+      {
+        "path": "research/fear-lyrics/results/rag-e5/timing.json",
+        "sha256": "6b0f6b387407b10ac38692e08e88bcb03fc0b2be469e8a48d51d3a5d5d0730c7"
+      },
+      {
+        "path": "research/fear-lyrics/results/run_status.json",
+        "sha256": "f65d874424a11dbdc3f9f99dc59217c5c67bfa3542bd1367beadf5fcd0136bfe"
+      },
+      {
+        "path": "research/fear-lyrics/results/section_inventory.csv",
+        "sha256": "9b3aa00bd87b58bcbdc4d0e4e2094f857dc001b097af5efde1e65ca46d730482"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/artist_concentration.csv",
+        "sha256": "91d676086474cd49a507dbab1c559438676ec62a1d41304e2e6cdc7d8494dfdf"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/decade_composition.csv",
+        "sha256": "3c80045a831a7036a2d41f6fd52a5a9f91fb5c85472df5f665380ba26f74c439"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/decade_contrasts.csv",
+        "sha256": "f8986fab447d3a3c24dddb80d9c0042e009d4c6f6494123cd3725258370e135a"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/exploratory_map.csv",
+        "sha256": "345a90ede44543b11b2c67c9ef90184002217d250a7e0ac4238d0f586181c543"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/leave_one_artist_out_prevalence.csv",
+        "sha256": "8f976aeda0523915abb72dd45998582dc9a2ab9749c39db335f9ab30133a851c"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/model_manifest.json",
+        "sha256": "7f145163171e05f80ccac383c4aef321dbc9c7a15059312fcd5c863117d7fd85"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/narrative_decade_paths.csv",
+        "sha256": "7100fc8a511039ffd9602eef8b43299d210ddda86d35759f78a66f20af781080"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/narrative_method.json",
+        "sha256": "820048070ad4732d0e8a9bbc71ccfb3c3a893a41cf57c4234ec62a0090db3b1d"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/narrative_order_tests.csv",
+        "sha256": "e7ef3cdf629a1b611e6adb818c8411d85ff6278e1e68962fb38d53e4bbe58520"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/narrative_paths.csv",
+        "sha256": "adedafe4b268bad3b338a99b85c749f6bcb9275096592acf5acd44e7af44b474"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/narrative_section_scores.csv",
+        "sha256": "f4989248bca4f565aec8884799514a42e46535156c907cf47d4a2689acef453f"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/narrative_song_order_tests.csv",
+        "sha256": "6e715762f0dc5ca860e4c7bcdfaad308ff27ba6efbda55610a6f6af6d15356c3"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/repeated_refrain_sensitivity.csv",
+        "sha256": "af8ad8e46f184a11a8f7e1ea3ad2a7dad5d3f302406a552a43aa475baa14d4f6"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/section_assignments.csv",
+        "sha256": "26e51668d942dc02bb4d8b29c375e8c3ab4bd117a44d66f83049089f16e46cee"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/seed_assignments.csv",
+        "sha256": "2a828065e6ddef9e19f326d795c1be8d3be3237c95108d03452838875f401143"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/seed_stability.csv",
+        "sha256": "bd89fbf421d2da8ac4fcff753bcbf8eaa805e84af7255086957cf12c9c8424e7"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/semantic_probes.json",
+        "sha256": "b681aba7c462a6031633c376d105b4188e857bd4350f582bf7357846889a9b3f"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/song_topic_shares_all_blocks_with_repeats.csv",
+        "sha256": "9711d7fe3d65c8ca07d98e2c6043b42e8dc90614dc9d880a866cc0785b240e1c"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/song_topic_shares_unique_first_occurrence.csv",
+        "sha256": "2ed0ee8a068aa623e412611558f55e1b7642171d788111cec22cc014f55c0937"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/tokenization_diagnostics.csv",
+        "sha256": "ab46c7d396a4ff6e94f3e40d100a669c26fe4a127c664f59cee9d0d7d7ad31c0"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/topic_fit_status.json",
+        "sha256": "57781e9baf9bffc8b2d301e824c5f01f0b0614ab9a9f7dc5627eb95aa1224197"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/topic_hierarchy.json",
+        "sha256": "19185457355d2e0fca8259ceb619dab09f193b7cfef1a9a1a3ce734884c0febb"
+      },
+      {
+        "path": "research/fear-lyrics/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/topics.json",
+        "sha256": "d1aa1813d69596a02713cc4ecd1ceef0d08d774196beb4152fae12c4733ef341"
+      },
+      {
+        "path": "research/fear-lyrics/results/topic_language_association.csv",
+        "sha256": "c3f9c381fba4594255caf6ea037cbe2a729f44461c15c64c8ad994ab0ca2d6c8"
+      },
+      {
+        "path": "research/fear-lyrics/visualize.py",
+        "sha256": "c0edbbe8962c01aecc4274a04683e05aad9372d731245e01e050474a7547da2c"
+      },
+      {
+        "path": "static/research/fear-lyrics/atlas-data.json",
+        "sha256": "a3e8e11d8121f97bb009f643c5fdbae1f1de0642289f4c7a7f83513d09ebbb77"
+      },
+      {
+        "path": "static/research/fear-lyrics/atlas.html",
+        "sha256": "6c634fae2e5f9b8b160163a39d28c01fb1d2244667b4edf1d43058ccc4e17d6e"
+      },
+      {
+        "path": "static/research/fear-lyrics/corpus-providers.svg",
+        "sha256": "1f48ffdde649371e5bb1efc7d0a0539432d260091dfca8c8cf7b82c9a3620b43"
+      },
+      {
+        "path": "static/research/fear-lyrics/intfloat--multilingual-e5-small-decades.svg",
+        "sha256": "0e71e7b074f3346294d2453a631e0e56d3015c739c31fdaeb9a2f4d1e32b752d"
+      },
+      {
+        "path": "static/research/fear-lyrics/intfloat--multilingual-e5-small-hierarchy.svg",
+        "sha256": "6e488cf9a52706b3ce49d3393b9106b5617b344a7a9fc1582d63a296ad772bfa"
+      },
+      {
+        "path": "static/research/fear-lyrics/intfloat--multilingual-e5-small-map.svg",
+        "sha256": "662fb82a4a8cded821fd79b3c4fcc6b58e862e9c98eec78776c6ee3608b6aaa6"
+      },
+      {
+        "path": "static/research/fear-lyrics/langgraph-workflow.svg",
+        "sha256": "4da874c7ad00b18be1d55a3336d7f39330266103164d2f3f58bb84a6b5e0a880"
+      },
+      {
+        "path": "static/research/fear-lyrics/language-confound.svg",
+        "sha256": "cc8abe58bbf97a7906b97d4339657d2d2213b9ee2e5eaed1f5b8172609b1b41a"
+      },
+      {
+        "path": "static/research/fear-lyrics/plotly.min.js",
+        "sha256": "3b6e15d45dbb7fca5bd2094291e961ddc5472cd887009e6009a56dab668d721f"
+      },
+      {
+        "path": "static/research/fear-lyrics/rag-recall-safety.svg",
+        "sha256": "f71ab65bbffd165a61edd4dff82abb4df8a2aaef711a789d12f00bf4facc98d6"
+      },
+      {
+        "path": "static/research/fear-lyrics/semantic-probes.svg",
+        "sha256": "d5b9a412e56a9917d29e2ffaff23e0636fd450bdeb9da415f7fab084ca47e924"
+      },
+      {
+        "path": "static/research/fear-lyrics/semantic-trajectories.svg",
+        "sha256": "21d3f9bc5bf5d9b82fbc992579554a347b3aa8aa5dbc4dfe4c77c3e00d7cb7a9"
+      },
+      {
+        "path": "static/research/fear-lyrics/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2-decades.svg",
+        "sha256": "fa0ab63606b1b2ef08d9e87b27cd8a19b40335de97ab10d4b78f9825bb7b0965"
+      },
+      {
+        "path": "static/research/fear-lyrics/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2-hierarchy.svg",
+        "sha256": "9989653492c9dee87e2c23760be7a630972dbdb2b3ae8440603280b7819826fc"
+      },
+      {
+        "path": "static/research/fear-lyrics/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2-map.svg",
+        "sha256": "d195e50e1c145e52a5e2cc65120da57d53eb369a93f3076c82818b9ddf88fcc8"
+      }
+    ],
+    "matching_lyric_windows": [],
+    "forbidden_payload_keys": [],
+    "credential_pattern_files": [],
+    "passed": true
+  },
+  "residual_caveats": [
+    "Most candidates lack album identity; compilation records and full-versus-radio variants are not exhaustively verified.",
+    "Stan, Crazy In Love, Llamando a la Tierra, Miedo and Enrique Iglesias Bailando have one successful provider. Identity/language are compatible; full edition correctness remains provisional.",
+    "Bailando chosen for Enrique Iglesias is predominantly Spanish in the language screen; Sean Paul is not an accepted artist alias.",
+    "Low sequence agreement can arise from refrain expansion, section boundaries and orthography. It does not by itself imply wrong lyrics.",
+    "The 13 word screen is conservative QA, not permission to quote 12 words. No lyric excerpts are intentionally published; shorter matches require human editorial inspection."
+  ]
+}

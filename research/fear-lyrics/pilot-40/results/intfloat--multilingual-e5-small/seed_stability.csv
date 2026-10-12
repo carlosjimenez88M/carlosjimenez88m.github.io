@@ -1,0 +1,4 @@
+left_seed,right_seed,documents,ari_including_noise,label_aligned_fraction_including_noise,both_nonnoise_documents,both_nonnoise_fraction,ari_on_both_nonnoise,label_aligned_fraction_both_nonnoise,left_noise_fraction,right_noise_fraction,left_nonnoise_clusters,right_nonnoise_clusters,limitation
+17,42,386,1.0,1.0,386,1.0,1.0,1.0,0.0,0.0,2,2,High agreement on a single/noise cluster is not meaningful topic validation.
+17,73,386,1.0,1.0,386,1.0,1.0,1.0,0.0,0.0,2,2,High agreement on a single/noise cluster is not meaningful topic validation.
+42,73,386,1.0,1.0,386,1.0,1.0,1.0,0.0,0.0,2,2,High agreement on a single/noise cluster is not meaningful topic validation.

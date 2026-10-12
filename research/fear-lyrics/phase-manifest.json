@@ -1,0 +1,880 @@
+{
+  "schema_version": 1,
+  "status": "completed_with_uniform_annual_revision_and_separate_optional_hosted_extension",
+  "study_cutoff": "2026-10-11",
+  "origin": "Aggregated from existing executed receipts; not a new experiment.",
+  "historical_pilot": {
+    "songs": 40,
+    "unique_blocks": 386,
+    "freeze_receipt": {
+      "path": "pilot-40/freeze.json",
+      "sha256": "7b5b07dfbee94d6229bbc92ec8cc4164b471fb834f291ef7956fe45c44ecf252"
+    },
+    "policy": "Frozen records are preserved unchanged."
+  },
+  "matched_comparison": {
+    "songs": 40,
+    "unique_blocks": 386,
+    "all_blocks": 461,
+    "decade_language_cells": [
+      {
+        "decade": 1980,
+        "language": "en",
+        "songs": 4
+      },
+      {
+        "decade": 1980,
+        "language": "es",
+        "songs": 4
+      },
+      {
+        "decade": 1990,
+        "language": "en",
+        "songs": 4
+      },
+      {
+        "decade": 1990,
+        "language": "es",
+        "songs": 4
+      },
+      {
+        "decade": 2000,
+        "language": "en",
+        "songs": 4
+      },
+      {
+        "decade": 2000,
+        "language": "es",
+        "songs": 4
+      },
+      {
+        "decade": 2010,
+        "language": "en",
+        "songs": 4
+      },
+      {
+        "decade": 2010,
+        "language": "es",
+        "songs": 4
+      },
+      {
+        "decade": 2020,
+        "language": "en",
+        "songs": 4
+      },
+      {
+        "decade": 2020,
+        "language": "es",
+        "songs": 4
+      }
+    ],
+    "topic_seeds": [
+      17,
+      42,
+      73
+    ],
+    "encoders": [
+      {
+        "model": "intfloat/multilingual-e5-small",
+        "dimensions": 384,
+        "songs": 40,
+        "unique_documents": 386,
+        "corpus_sha256": "d2e4e3af3ebecf88dfc42814935ec6cc5a79d42f66e04c89a3e47e197a5f3c90",
+        "document_order_sha256": "32f774e3f1c991064f4ebf79761dd0cae2e62b5c64235cd4e59fc9ff28a45b1e",
+        "pca": {
+          "pca_fit_components": 20,
+          "projection_components": 3,
+          "solver": "full",
+          "fit_scope": "all_unique_blocks_global_per_model",
+          "explained_variance_total": 0.1914830180176246
+        },
+        "receipts": [
+          {
+            "path": "results/intfloat--multilingual-e5-small/model_manifest.json",
+            "sha256": "2ea345195970c782e22cfe08dbc7ed50437a3d26a76cf549755b9fa90821f18d"
+          },
+          {
+            "path": "results/intfloat--multilingual-e5-small/projections.json",
+            "sha256": "27277d252ff2f55a66e4b028b04e479f817823f8c4fd4aa681d8b9cf7926a0c9"
+          },
+          {
+            "path": "results/intfloat--multilingual-e5-small/seed_stability.csv",
+            "sha256": "dc096c699499bffdfcad1f23522f8ff920a17e706710cd693c6b5be544a39b63"
+          }
+        ]
+      },
+      {
+        "model": "openai/text-embedding-3-large",
+        "dimensions": 1024,
+        "songs": 40,
+        "unique_documents": 386,
+        "corpus_sha256": "d2e4e3af3ebecf88dfc42814935ec6cc5a79d42f66e04c89a3e47e197a5f3c90",
+        "document_order_sha256": "32f774e3f1c991064f4ebf79761dd0cae2e62b5c64235cd4e59fc9ff28a45b1e",
+        "pca": {
+          "pca_fit_components": 20,
+          "projection_components": 3,
+          "solver": "full",
+          "fit_scope": "all_unique_blocks_global_per_model",
+          "explained_variance_total": 0.17193548662365396
+        },
+        "receipts": [
+          {
+            "path": "results/openai--text-embedding-3-large/model_manifest.json",
+            "sha256": "40cad70b654da4fad5437b2a0448c91ed6efbe05fc1e399aab1f407262000885"
+          },
+          {
+            "path": "results/openai--text-embedding-3-large/projections.json",
+            "sha256": "0ce82e55cbcff01db255071cd3f5a4cf69ba91457d48c5966cfdb96846077e97"
+          },
+          {
+            "path": "results/openai--text-embedding-3-large/seed_stability.csv",
+            "sha256": "e5fce2d8ca68a65268531b3a604b85100e5c2ca995280485d2685c107dab2c08"
+          }
+        ]
+      },
+      {
+        "model": "openai/text-embedding-3-small",
+        "dimensions": 1024,
+        "songs": 40,
+        "unique_documents": 386,
+        "corpus_sha256": "d2e4e3af3ebecf88dfc42814935ec6cc5a79d42f66e04c89a3e47e197a5f3c90",
+        "document_order_sha256": "32f774e3f1c991064f4ebf79761dd0cae2e62b5c64235cd4e59fc9ff28a45b1e",
+        "pca": {
+          "pca_fit_components": 20,
+          "projection_components": 3,
+          "solver": "full",
+          "fit_scope": "all_unique_blocks_global_per_model",
+          "explained_variance_total": 0.15855767192713927
+        },
+        "receipts": [
+          {
+            "path": "results/openai--text-embedding-3-small/model_manifest.json",
+            "sha256": "f6da92df7f8a28c25baf39cb16f8943d2fefa89ff97737a42d0a52d6b116b308"
+          },
+          {
+            "path": "results/openai--text-embedding-3-small/projections.json",
+            "sha256": "e368c9c2bd6ccd4141e843ff746c19c3f68802477298714317fa1efc065b2c91"
+          },
+          {
+            "path": "results/openai--text-embedding-3-small/seed_stability.csv",
+            "sha256": "ac190b105f61d7919bcf91d85f923a159bfdde3e9c3ca3dc9bc536f70cfc61fb"
+          }
+        ]
+      },
+      {
+        "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "dimensions": 384,
+        "songs": 40,
+        "unique_documents": 386,
+        "corpus_sha256": "d2e4e3af3ebecf88dfc42814935ec6cc5a79d42f66e04c89a3e47e197a5f3c90",
+        "document_order_sha256": "32f774e3f1c991064f4ebf79761dd0cae2e62b5c64235cd4e59fc9ff28a45b1e",
+        "pca": {
+          "pca_fit_components": 20,
+          "projection_components": 3,
+          "solver": "full",
+          "fit_scope": "all_unique_blocks_global_per_model",
+          "explained_variance_total": 0.15164514237091986
+        },
+        "receipts": [
+          {
+            "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/model_manifest.json",
+            "sha256": "7f145163171e05f80ccac383c4aef321dbc9c7a15059312fcd5c863117d7fd85"
+          },
+          {
+            "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/projections.json",
+            "sha256": "d759c706b8d2a6d34f29c2920f9c9cf6315e7b19d1fdd3e3d2a25e94148335d2"
+          },
+          {
+            "path": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/seed_stability.csv",
+            "sha256": "bd89fbf421d2da8ac4fcff753bcbf8eaa805e84af7255086957cf12c9c8424e7"
+          }
+        ]
+      }
+    ],
+    "rag": [
+      {
+        "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "traces": 192,
+        "receipts": [
+          {
+            "path": "results/rag/protocol.json",
+            "sha256": "357cb8bd24da50f40820d50d264602236f47ee0e717a21b74cdaccb680f3aea5"
+          },
+          {
+            "path": "results/rag/runs.json",
+            "sha256": "8ce24f5ac86ca82daccd1370204ad66162675296cee9bb1aa7d88bf74a82ccbe"
+          }
+        ]
+      },
+      {
+        "model": "intfloat/multilingual-e5-small",
+        "traces": 192,
+        "receipts": [
+          {
+            "path": "results/rag-e5/protocol.json",
+            "sha256": "577f1e55ed45a26ac69f202e5fba477ceb2d3bda777dc18f29745ac58cfe7a8b"
+          },
+          {
+            "path": "results/rag-e5/runs.json",
+            "sha256": "ef5c92909aa6a00f928b17d992b578fbc4bb9a6c761456b6bc995a7b87d03d91"
+          }
+        ]
+      },
+      {
+        "model": "openai/text-embedding-3-large",
+        "traces": 192,
+        "receipts": [
+          {
+            "path": "results/rag-openai-large/protocol.json",
+            "sha256": "a17a4d325ad46730174efdc46419bbd9b599eecdc646a880f8710d85238b28d4"
+          },
+          {
+            "path": "results/rag-openai-large/runs.json",
+            "sha256": "df3d788ad69f3fdde0ed0119f239a579a49605429b9162cd03e590b1ce35165f"
+          }
+        ]
+      },
+      {
+        "model": "openai/text-embedding-3-small",
+        "traces": 192,
+        "receipts": [
+          {
+            "path": "results/rag-openai-small/protocol.json",
+            "sha256": "23e297d83d90f15f55bdf8b6afe3caf8ba178a1cfda84ae89a6da1c648ec7855"
+          },
+          {
+            "path": "results/rag-openai-small/runs.json",
+            "sha256": "6b315b0240940e1b55b152c4b493175e0162e2f3898cba2ba339c067c3402937"
+          }
+        ]
+      }
+    ],
+    "bayes": {
+      "status": "complete",
+      "cell_topic_rows": 400,
+      "posterior_rows": 2400,
+      "pooled_eb_boundary_fits": 26,
+      "pooled_eb_fits": 40
+    },
+    "receipts": [
+      {
+        "path": "results/corpus_diagnostics.json",
+        "sha256": "0d0aa917e198c80ac6eb69e46ec9cb3f57f3180273facba02798d3ecf9e41e78"
+      },
+      {
+        "path": "results/bayes/summary.json",
+        "sha256": "03d6b88a2286f7aaef6de8ba413acd1cdeae8e3e6238e745ca2664689213e9c0"
+      }
+    ],
+    "last_cli_invocation_only": {
+      "models": [
+        "openai/text-embedding-3-small"
+      ],
+      "note": "This invocation is not a receipt for all accumulated encoders.",
+      "receipts": [
+        {
+          "path": "results/analysis_protocol.json",
+          "sha256": "5d4df033a9207b129c3db8af8d6d5a349c798af3a248226a2f752950222b6314"
+        },
+        {
+          "path": "results/run_status.json",
+          "sha256": "e6f7b4edbf24633b1ea32e2e3eac33dd14280c34fe0d18bcbf314875055d5887"
+        }
+      ]
+    }
+  },
+  "nested_local_expansion": {
+    "songs": 120,
+    "unique_blocks": 1137,
+    "all_blocks": 1333,
+    "decade_language_cells": [
+      {
+        "decade": 1980,
+        "language": "en",
+        "songs": 12
+      },
+      {
+        "decade": 1980,
+        "language": "es",
+        "songs": 12
+      },
+      {
+        "decade": 1990,
+        "language": "en",
+        "songs": 12
+      },
+      {
+        "decade": 1990,
+        "language": "es",
+        "songs": 12
+      },
+      {
+        "decade": 2000,
+        "language": "en",
+        "songs": 12
+      },
+      {
+        "decade": 2000,
+        "language": "es",
+        "songs": 12
+      },
+      {
+        "decade": 2010,
+        "language": "en",
+        "songs": 12
+      },
+      {
+        "decade": 2010,
+        "language": "es",
+        "songs": 12
+      },
+      {
+        "decade": 2020,
+        "language": "en",
+        "songs": 12
+      },
+      {
+        "decade": 2020,
+        "language": "es",
+        "songs": 12
+      }
+    ],
+    "topic_seeds": [
+      17,
+      42,
+      73
+    ],
+    "encoders": [
+      {
+        "model": "intfloat/multilingual-e5-small",
+        "dimensions": 384,
+        "songs": 120,
+        "unique_documents": 1137,
+        "corpus_sha256": "e9e34265c451117941d2b2e34b4a3cbd84300900b5052392242253fcccb6c950",
+        "document_order_sha256": "983ac32346bbdc58cd88e4b50be4387a90accbf7d2872e82bbe7518540b0b212",
+        "pca": {
+          "pca_fit_components": 20,
+          "projection_components": 3,
+          "solver": "full",
+          "fit_scope": "all_unique_blocks_global_per_model",
+          "explained_variance_total": 0.1683259491714417
+        },
+        "receipts": [
+          {
+            "path": "expanded/results/intfloat--multilingual-e5-small/model_manifest.json",
+            "sha256": "1279e105eedd13e7bc111685e42e5077e56292794482695ecb35d98a6b32d10c"
+          },
+          {
+            "path": "expanded/results/intfloat--multilingual-e5-small/projections.json",
+            "sha256": "509a7338e5e846c1b48d62626bd6eeb670139d9768c6996235ea0b57ebe4e1b0"
+          },
+          {
+            "path": "expanded/results/intfloat--multilingual-e5-small/seed_stability.csv",
+            "sha256": "babe30b21519adb60c5914a0e8264f582174a4d4b24ff7e1ec045bf0cb1111b1"
+          }
+        ]
+      },
+      {
+        "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "dimensions": 384,
+        "songs": 120,
+        "unique_documents": 1137,
+        "corpus_sha256": "e9e34265c451117941d2b2e34b4a3cbd84300900b5052392242253fcccb6c950",
+        "document_order_sha256": "983ac32346bbdc58cd88e4b50be4387a90accbf7d2872e82bbe7518540b0b212",
+        "pca": {
+          "pca_fit_components": 20,
+          "projection_components": 3,
+          "solver": "full",
+          "fit_scope": "all_unique_blocks_global_per_model",
+          "explained_variance_total": 0.13776335910020165
+        },
+        "receipts": [
+          {
+            "path": "expanded/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/model_manifest.json",
+            "sha256": "0e8fd41d1749fc17204b0672368a766bb6c50916f035fbd20d8fd940dea7ec2b"
+          },
+          {
+            "path": "expanded/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/projections.json",
+            "sha256": "a82c75096bfd6d4597fba014813cdd156e1d8ba9e6c6e488ac254979239e66ba"
+          },
+          {
+            "path": "expanded/results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/seed_stability.csv",
+            "sha256": "a07ef0f5440bc69316aa7ba4a4b3675284d3c0a63bcf353cc43dd24281a1603c"
+          }
+        ]
+      }
+    ],
+    "rag": [
+      {
+        "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "traces": 192,
+        "receipts": [
+          {
+            "path": "expanded/results/rag/protocol.json",
+            "sha256": "626ce359c427425d9d0ce89cba833bb2000e73796fb6fb02288801549c9f154d"
+          },
+          {
+            "path": "expanded/results/rag/runs.json",
+            "sha256": "991d6b3b29b43a243b2427955d56820536414160a4f1f09c36b5994de0b12c84"
+          }
+        ]
+      },
+      {
+        "model": "intfloat/multilingual-e5-small",
+        "traces": 192,
+        "receipts": [
+          {
+            "path": "expanded/results/rag-e5/protocol.json",
+            "sha256": "4c46d0234de680f19be564c45f09a679e2d1e7439351ae60a558610f0e237ad3"
+          },
+          {
+            "path": "expanded/results/rag-e5/runs.json",
+            "sha256": "7a565a5f86dbbdb2ccd54ec73ab947fa69e997083ae3c8963cfaf59d86a9c25e"
+          }
+        ]
+      }
+    ],
+    "bayes": {
+      "status": "complete",
+      "cell_topic_rows": 810,
+      "posterior_rows": 4860,
+      "pooled_eb_boundary_fits": 39,
+      "pooled_eb_fits": 81
+    },
+    "receipts": [
+      {
+        "path": "expanded/results/corpus_diagnostics.json",
+        "sha256": "b30634f1a8eaeb01643d1b291c89b414c2af88e8356885db7ddf30222a15b931"
+      },
+      {
+        "path": "expanded/results/bayes/summary.json",
+        "sha256": "db3d97eb9f8bccca41dc51133305796917f6c139ce0a834041499e917391745d"
+      }
+    ],
+    "last_cli_invocation_only": {
+      "models": [
+        "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+        "intfloat/multilingual-e5-small"
+      ],
+      "note": "This invocation is not a receipt for all accumulated encoders.",
+      "receipts": [
+        {
+          "path": "expanded/results/analysis_protocol.json",
+          "sha256": "dbb95f6acb094b9c1e8925aafc8c35c1d970ccf5af756f838df3e9676ce98598"
+        },
+        {
+          "path": "expanded/results/run_status.json",
+          "sha256": "f65d874424a11dbdc3f9f99dc59217c5c67bfa3542bd1367beadf5fcd0136bfe"
+        }
+      ]
+    }
+  },
+  "corpus_provenance": {
+    "songs": 120,
+    "private_response_files": 281,
+    "public_coverage_rows": 240,
+    "source_audit": {
+      "path": "source-audit.json",
+      "sha256": "93d26b8f9ddf990fab1d0bf56e6b54b10bda5a4c32ac7683a65064dfc12780d2"
+    }
+  },
+  "narrative_panel": {
+    "songs": 40,
+    "votes": 100,
+    "models": [
+      "openai/gpt-5.4-mini",
+      "openai/gpt-5.4-nano"
+    ],
+    "third_reviews": 20,
+    "primary_status_counts": {
+      "executed": 64,
+      "executed_invalid_panel_schema": 36
+    },
+    "fieldwise_posthoc": [
+      {
+        "field": "voice",
+        "songs": 40,
+        "initial_votes": 80,
+        "valid_initial_enum_votes": 80,
+        "initial_agree_songs": 30,
+        "majority_resolved_songs": 37,
+        "unresolved_songs": 3,
+        "validity": "Field type/enum only;not semantic correctness"
+      },
+      {
+        "field": "stance",
+        "songs": 40,
+        "initial_votes": 80,
+        "valid_initial_enum_votes": 80,
+        "initial_agree_songs": 19,
+        "majority_resolved_songs": 28,
+        "unresolved_songs": 12,
+        "validity": "Field type/enum only;not semantic correctness"
+      },
+      {
+        "field": "fear_relevance",
+        "songs": 40,
+        "initial_votes": 80,
+        "valid_initial_enum_votes": 80,
+        "initial_agree_songs": 20,
+        "majority_resolved_songs": 33,
+        "unresolved_songs": 7,
+        "validity": "Field type/enum only;not semantic correctness"
+      },
+      {
+        "field": "fear_polarity",
+        "songs": 40,
+        "initial_votes": 80,
+        "valid_initial_enum_votes": 80,
+        "initial_agree_songs": 19,
+        "majority_resolved_songs": 27,
+        "unresolved_songs": 13,
+        "validity": "Field type/enum only;not semantic correctness"
+      },
+      {
+        "field": "subtopics",
+        "songs": 40,
+        "initial_votes": 80,
+        "valid_initial_enum_votes": 80,
+        "initial_agree_songs": 10,
+        "majority_resolved_songs": 35,
+        "unresolved_songs": 5,
+        "validity": "Field type/enum only;not semantic correctness"
+      },
+      {
+        "field": "arc",
+        "songs": 40,
+        "initial_votes": 80,
+        "valid_initial_enum_votes": 48,
+        "initial_agree_songs": 7,
+        "majority_resolved_songs": 14,
+        "unresolved_songs": 26,
+        "validity": "Whole strict chronology/anchor schema"
+      }
+    ],
+    "receipts": [
+      {
+        "path": "pilot-comparison/results/arc-panel/summary.json",
+        "sha256": "e01e16cab0cc46a9050e11cd33b3164e57df35c33ef0b528a7b80cc52fe86ccf"
+      },
+      {
+        "path": "pilot-comparison/results/arc-panel/fieldwise-posthoc/summary.json",
+        "sha256": "4a29a66f00f0f2913774bc94f611a1b2f15af7177fd58f5f11fee4ca1329778b"
+      }
+    ]
+  },
+  "matched_context_readers": {
+    "contexts": 24,
+    "decisions": 48,
+    "models": [
+      "openai/gpt-5.4-mini",
+      "openai/gpt-5.4-nano"
+    ],
+    "receipt": {
+      "path": "pilot-comparison/results/llm-comparison-context/summary.json",
+      "sha256": "4950814cfcd6d1ac6dc35d4696a2cf2925504928395dadddb18058e70a8e7224"
+    }
+  },
+  "synthetic_reader_comparison": {
+    "models": [
+      "openai/gpt-5.4-mini",
+      "openai/gpt-5.4-nano",
+      "anthropic/claude-sonnet-4-6",
+      "anthropic/claude-haiku-4-5-20251001"
+    ],
+    "triplets_per_model": [
+      20,
+      20,
+      20,
+      20
+    ],
+    "valid_responses": 80,
+    "receipt": {
+      "path": "results/llm-comparison-synthetic/summary.json",
+      "sha256": "1b6616a1c7f363358f987aee5643a3be813bec0087dd7e9a4407429210370c15"
+    }
+  },
+  "notebook": {
+    "executed_code_cells": 22,
+    "errors": 0,
+    "code_outputs_sha256": "0322c52a8c90e41451ca329bfcea5c59452c63fd20f40ccad6fd8e8dc9cd8200",
+    "receipt": {
+      "path": "anexo-auditoria-metodologica.ipynb",
+      "sha256": "dad2f3ab428c05a3d9b5a1ba68761b01b1c35c1dd05845d389a5d13387298a87"
+    }
+  },
+  "article": {
+    "path": "content/post/2026-10-11-miedo-embeddings-bertopic-rag.md",
+    "sha256": "a1234d221fa00d91bf3ce5c764922ab687a0d2f43108bf741716db1ed0d51701",
+    "state": "prepared_editorial_draft"
+  },
+  "costs": {
+    "study_cutoff": "2026-10-11",
+    "llm_observed_usd": 0.3831829,
+    "pilot_embedding_large_usd": 0.00304447,
+    "additional_embedding_observed_usd": 0.00083213,
+    "total_observed_usd": 0.3870595,
+    "human_authorized_ceiling_usd": 1,
+    "raw_corpus_hosted_scope": "original386 blocks only; expanded120 pending authorization",
+    "includes_billed_invalid_format_responses": true,
+    "new_context_reader_requests": 24,
+    "context_reader_decisions": 48,
+    "note": "Cached decisions retain their original charge; reuse is not a new request. Excludes local hardware and inbound data acquisition costs."
+  },
+  "visual_and_interpretive_revision": {
+    "remote_calls": 0,
+    "methods": "Derived from cached matched embeddings, existing votes, exact posterior moments and saved LangGraph traces.",
+    "fear_focus": {
+      "selected_songs": 40,
+      "fear_reference_songs": 23,
+      "fear_reference_counts": {
+        "unresolved": 7,
+        "explicit": 12,
+        "implied": 11,
+        "absent": 10
+      },
+      "arcs_all_selected": {
+        "unresolved": 26,
+        "repetition": 12,
+        "turn": 1,
+        "mixed": 1
+      },
+      "arcs_fear_reference": {
+        "unresolved": 15,
+        "repetition": 6,
+        "turn": 1,
+        "mixed": 1
+      },
+      "polarity_fear_reference": {
+        "hypothetical": 4,
+        "denied": 2,
+        "mixed": 8,
+        "unresolved": 7,
+        "affirmed": 2
+      },
+      "fear_reference_by_period": [
+        {
+          "decade": 1980,
+          "selected_songs": 8,
+          "fear_reference_songs": 4,
+          "arcs_fear_reference": {
+            "unresolved": 2,
+            "repetition": 1,
+            "mixed": 1
+          }
+        },
+        {
+          "decade": 1990,
+          "selected_songs": 8,
+          "fear_reference_songs": 4,
+          "arcs_fear_reference": {
+            "unresolved": 3,
+            "repetition": 1
+          }
+        },
+        {
+          "decade": 2000,
+          "selected_songs": 8,
+          "fear_reference_songs": 6,
+          "arcs_fear_reference": {
+            "repetition": 3,
+            "unresolved": 3
+          }
+        },
+        {
+          "decade": 2010,
+          "selected_songs": 8,
+          "fear_reference_songs": 4,
+          "arcs_fear_reference": {
+            "repetition": 1,
+            "unresolved": 3
+          }
+        },
+        {
+          "decade": 2020,
+          "selected_songs": 8,
+          "fear_reference_songs": 5,
+          "arcs_fear_reference": {
+            "unresolved": 4,
+            "turn": 1
+          }
+        }
+      ],
+      "definition": "Existing field consensus explicit/implied; includes denied/hypothetical polarity. No new model calls.",
+      "arc_definition": "Strict chronological category consensus; unresolved remains in denominator."
+    },
+    "receipts": [
+      {
+        "path": "results/historical-map/receipt.json",
+        "sha256": "dc090e34fc3bbefe834c03fd277502cfe69b8667a57757f3b0c3eb9201c145ed"
+      },
+      {
+        "path": "results/encoder-comparison-new/receipt.json",
+        "sha256": "8ed82a7a05c4cdda000c22cdc82fb389f33daa0285fe1c041812fc3cf8313ba0"
+      },
+      {
+        "path": "figures/bayes-readable-receipt.json",
+        "sha256": "5d5fe685cc6bee988ce9c15ff71893ff6594a7c02409ca589c3a936882bfa287"
+      },
+      {
+        "path": "results/langgraph-process-new/receipt.json",
+        "sha256": "c805ab3a708eb9317623b59f772c270eeb43cdf32fbb5c7642c101bed0e14129"
+      }
+    ]
+  },
+  "uniform_annual_revision": {
+    "primary_scope": "120 songs, two title/artist/date-masked readings each; three processes of the same configured assistant.",
+    "summary": {
+      "songs": 120,
+      "readings": 240,
+      "readers": 3,
+      "readings_each": 2,
+      "fear_reference_counts": {
+        "False": 37,
+        "True": 53,
+        "None": 30
+      },
+      "fear_reference_subtypes": {
+        "absent": 37,
+        "explicit": 22,
+        "implied": 29,
+        "unresolved": 15,
+        "uncertain": 15,
+        "explicit_or_implied": 2
+      },
+      "arcs_in_fear": {
+        "mixed": 3,
+        "unresolved": 20,
+        "confrontation": 8,
+        "repetition": 14,
+        "contrast": 4,
+        "turn": 4
+      },
+      "observed_years": [
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987,
+        1988,
+        1989,
+        1990,
+        1991,
+        1992,
+        1993,
+        1994,
+        1995,
+        1996,
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2010,
+        2012,
+        2013,
+        2014,
+        2015,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2026
+      ],
+      "empty_years": [
+        1980,
+        1981,
+        2009,
+        2011,
+        2016,
+        2025
+      ],
+      "periods": [
+        {
+          "decade": 1980,
+          "songs": 24,
+          "fear_songs": 13,
+          "reference_unresolved": 6,
+          "fear_one_reader": 16
+        },
+        {
+          "decade": 1990,
+          "songs": 24,
+          "fear_songs": 9,
+          "reference_unresolved": 9,
+          "fear_one_reader": 9
+        },
+        {
+          "decade": 2000,
+          "songs": 24,
+          "fear_songs": 13,
+          "reference_unresolved": 4,
+          "fear_one_reader": 14
+        },
+        {
+          "decade": 2010,
+          "songs": 24,
+          "fear_songs": 12,
+          "reference_unresolved": 3,
+          "fear_one_reader": 13
+        },
+        {
+          "decade": 2020,
+          "songs": 24,
+          "fear_songs": 6,
+          "reference_unresolved": 8,
+          "fear_one_reader": 9
+        }
+      ],
+      "schema_invalid_readings": 0,
+      "arc_structure_invalid_readings": 0,
+      "prior_panel_presence_agreement": 26,
+      "prior_panel_songs": 40,
+      "project_api_calls": 0,
+      "exact_model_revision": "Not available; three processes of the same configured Codex assistant.",
+      "interpretation": "Paired posthoc readings, not external gold or independent providers. Annual counts describe selected publications; missing years are absent observations."
+    },
+    "project_api_calls": 0,
+    "receipts": [
+      {
+        "path": "annual-reading-protocol.md",
+        "sha256": "5fb69f22376a210975c36e619442676cc81b61eb766d92cb60108640f30ab3af"
+      },
+      {
+        "path": "results/annual-120/receipt.json",
+        "sha256": "f24fedce329f9ea0fab30df604e4f48813e429eaea8636c01560e583d1529f9b"
+      },
+      {
+        "path": "results/annual-120/visualization-receipt.json",
+        "sha256": "3a3998c25dc7243229518093a38e4d6b06f70d800d1d91179f7e5203b58d2f89"
+      },
+      {
+        "path": "results/annual-120/embeddings/receipt.json",
+        "sha256": "3f5ad8a7440b92dda9763f1a77abc22d89d9607bb13f72d6dc26be4aaf422f69"
+      },
+      {
+        "path": "results/annual-120/bayes/annual-bayes-receipt.json",
+        "sha256": "834fc110db994e81dac1b70d1663cf119c1c9d535fe043dd480ea90f6bede4cd"
+      }
+    ],
+    "previous_panel_policy": "Preserved as sensitivity, never pooled into new paired votes."
+  },
+  "optional_hosted_expansion": {
+    "songs": 120,
+    "status": "not_executed_pending_user_authorization",
+    "note": "Not counted as a completed experiment or required for the original study phases."
+  },
+  "privacy": "No lyric text, secrets, embedding arrays or model weights in this metadata index."
+}

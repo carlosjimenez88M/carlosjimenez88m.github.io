@@ -1,0 +1,20 @@
+{
+  "model_id": "openai/text-embedding-3-large",
+  "provider": "openai",
+  "input_type": "verified_cached_remote_embeddings",
+  "dimensions": 1024,
+  "documents": 386,
+  "queries": 96,
+  "normalization": "L2",
+  "api_calls_in_RAG": 0,
+  "acquisition_usage": {
+    "newly_accounted_usd": 0.00031525,
+    "expanded_phase_actual_usd": 0.00031525,
+    "expanded_phase_input_tokens": 2425,
+    "batch_requests": 3,
+    "input_token_unit_price": 0.13,
+    "pilot_receipts_reused": 470
+  },
+  "revision": null,
+  "limitation": "Offline RAG uses already-acquired hosted vectors. API embedding acquisition costs/latencies are separate; hosted weight revision may be unpinned."
+}

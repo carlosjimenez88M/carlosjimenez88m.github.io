@@ -1,0 +1,1442 @@
+[
+  {
+    "case_id": "N001",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N002",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N003",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N004",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N005",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N006",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N007",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N008",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N009",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N010",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N011",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N012",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N013",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N014",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N015",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N016",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N017",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N018",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N019",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N020",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N021",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N022",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N023",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N024",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N025",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N026",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N027",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N028",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N029",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N030",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N031",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N032",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N033",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N034",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N035",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N036",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N037",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N038",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N039",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N040",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N041",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N042",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N043",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N044",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N045",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N046",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N047",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N048",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N049",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N050",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N051",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N052",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N053",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N054",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N055",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N056",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N057",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N058",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N059",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N060",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N061",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N062",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N063",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N064",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N065",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N066",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N067",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N068",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N069",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N070",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N071",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N072",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N073",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N074",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N075",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N076",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N077",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N078",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N079",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N080",
+    "reader": "a",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N041",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N042",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N043",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N044",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N045",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N046",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N047",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N048",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N049",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N050",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N051",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N052",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N053",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N054",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N055",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N056",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N057",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N058",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N059",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N060",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N061",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N062",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N063",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N064",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N065",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N066",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N067",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N068",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N069",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N070",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N071",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N072",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N073",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N074",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N075",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N076",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N077",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N078",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N079",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N080",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N081",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N082",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N083",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N084",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N085",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N086",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N087",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N088",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N089",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N090",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N091",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N092",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N093",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N094",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N095",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N096",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N097",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N098",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N099",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N100",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N101",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N102",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N103",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N104",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N105",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N106",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N107",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N108",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N109",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N110",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N111",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N112",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N113",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N114",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N115",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N116",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N117",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N118",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N119",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N120",
+    "reader": "b",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N001",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N002",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N003",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N004",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N005",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N006",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N007",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N008",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N009",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N010",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N011",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N012",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N013",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N014",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N015",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N016",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N017",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N018",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N019",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N020",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N021",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N022",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N023",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N024",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N025",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N026",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N027",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N028",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N029",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N030",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N031",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N032",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N033",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N034",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N035",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N036",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N037",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N038",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N039",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N040",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N081",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N082",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N083",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N084",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N085",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N086",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N087",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N088",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N089",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N090",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N091",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N092",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N093",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N094",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N095",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N096",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N097",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N098",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N099",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N100",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N101",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N102",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N103",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N104",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N105",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N106",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N107",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N108",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N109",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N110",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N111",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N112",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N113",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N114",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N115",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N116",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N117",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N118",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N119",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  },
+  {
+    "case_id": "N120",
+    "reader": "c",
+    "problems": [],
+    "arc_chronology_valid": true
+  }
+]

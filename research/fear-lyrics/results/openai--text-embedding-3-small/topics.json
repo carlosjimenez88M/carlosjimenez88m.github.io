@@ -1,0 +1,314 @@
+{
+  "parameters": {
+    "seed": 17,
+    "documents": 386,
+    "umap_neighbors": 15,
+    "umap_components": 5,
+    "umap_min_dist": 0.0,
+    "umap_metric": "cosine",
+    "hdbscan_metric": "euclidean_in_umap_space",
+    "min_cluster_size": 8,
+    "min_samples": 3,
+    "cluster_selection_method": "eom",
+    "ctfidf_reduce_frequent_words": true,
+    "lexical_preprocessing_language": "multilingual",
+    "lexical_accents_preserved": true,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "topic_reduction": "none",
+    "fit_weight": "one_per_unique_song_block"
+  },
+  "topics": [
+    {
+      "topic_id": -1,
+      "unique_blocks": 7,
+      "songs": 2,
+      "is_noise": true,
+      "terms": [
+        {
+          "term": "negra",
+          "ctfidf_weight": 1.1731454748976846
+        },
+        {
+          "term": "tengo",
+          "ctfidf_weight": 1.1380076857660557
+        },
+        {
+          "term": "camisa",
+          "ctfidf_weight": 1.1150826090326094
+        },
+        {
+          "term": "camisa negra",
+          "ctfidf_weight": 1.1150826090326094
+        },
+        {
+          "term": "tengo camisa",
+          "ctfidf_weight": 1.049209608860647
+        },
+        {
+          "term": "cama",
+          "ctfidf_weight": 0.8423849407479204
+        },
+        {
+          "term": "hoy",
+          "ctfidf_weight": 0.8321482902515539
+        },
+        {
+          "term": "tú no",
+          "ctfidf_weight": 0.7631111994694847
+        },
+        {
+          "term": "cama cama",
+          "ctfidf_weight": 0.7631111994694847
+        },
+        {
+          "term": "tengo alma",
+          "ctfidf_weight": 0.7631111994694847
+        }
+      ]
+    },
+    {
+      "topic_id": 0,
+      "unique_blocks": 213,
+      "songs": 27,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "like",
+          "ctfidf_weight": 0.31340495016444475
+        },
+        {
+          "term": "bum",
+          "ctfidf_weight": 0.3098946912350963
+        },
+        {
+          "term": "it's",
+          "ctfidf_weight": 0.3009393556568178
+        },
+        {
+          "term": "wanna",
+          "ctfidf_weight": 0.3009393556568178
+        },
+        {
+          "term": "now",
+          "ctfidf_weight": 0.2981574883507141
+        },
+        {
+          "term": "got",
+          "ctfidf_weight": 0.2967250309283536
+        },
+        {
+          "term": "don't",
+          "ctfidf_weight": 0.28910538461321666
+        },
+        {
+          "term": "love",
+          "ctfidf_weight": 0.27541210621435214
+        },
+        {
+          "term": "feel",
+          "ctfidf_weight": 0.27303966880978037
+        },
+        {
+          "term": "know",
+          "ctfidf_weight": 0.2668264609362227
+        }
+      ]
+    },
+    {
+      "topic_id": 1,
+      "unique_blocks": 129,
+      "songs": 18,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "no",
+          "ctfidf_weight": 0.44366105352259816
+        },
+        {
+          "term": "puedo",
+          "ctfidf_weight": 0.38634654404097435
+        },
+        {
+          "term": "vida",
+          "ctfidf_weight": 0.37962696111638267
+        },
+        {
+          "term": "voy",
+          "ctfidf_weight": 0.3707988115840242
+        },
+        {
+          "term": "uh",
+          "ctfidf_weight": 0.347232427754926
+        },
+        {
+          "term": "quiero",
+          "ctfidf_weight": 0.3443730789552978
+        },
+        {
+          "term": "no puedo",
+          "ctfidf_weight": 0.34277977734024834
+        },
+        {
+          "term": "rayando",
+          "ctfidf_weight": 0.3373869845944748
+        },
+        {
+          "term": "bailando",
+          "ctfidf_weight": 0.3373869845944748
+        },
+        {
+          "term": "dios",
+          "ctfidf_weight": 0.3278812128528825
+        }
+      ]
+    },
+    {
+      "topic_id": 2,
+      "unique_blocks": 16,
+      "songs": 2,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "matador",
+          "ctfidf_weight": 1.0542743665573369
+        },
+        {
+          "term": "mal",
+          "ctfidf_weight": 1.0114086987496425
+        },
+        {
+          "term": "mu",
+          "ctfidf_weight": 0.9819736867057948
+        },
+        {
+          "term": "mu mal",
+          "ctfidf_weight": 0.9819736867057948
+        },
+        {
+          "term": "mal mu",
+          "ctfidf_weight": 0.9819736867057948
+        },
+        {
+          "term": "malamente",
+          "ctfidf_weight": 0.848322263927357
+        },
+        {
+          "term": "matador matador",
+          "ctfidf_weight": 0.8349760094123349
+        },
+        {
+          "term": "toma",
+          "ctfidf_weight": 0.6977130496242836
+        },
+        {
+          "term": "tra",
+          "ctfidf_weight": 0.6496951404034641
+        },
+        {
+          "term": "ma matador",
+          "ctfidf_weight": 0.6496951404034641
+        }
+      ]
+    },
+    {
+      "topic_id": 3,
+      "unique_blocks": 13,
+      "songs": 2,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "ah ah",
+          "ctfidf_weight": 1.0405327430882292
+        },
+        {
+          "term": "luna",
+          "ctfidf_weight": 1.0278766183405001
+        },
+        {
+          "term": "ah",
+          "ctfidf_weight": 1.0035469261561187
+        },
+        {
+          "term": "niño",
+          "ctfidf_weight": 0.9180442324873509
+        },
+        {
+          "term": "hijo",
+          "ctfidf_weight": 0.8355398100335438
+        },
+        {
+          "term": "mujer",
+          "ctfidf_weight": 0.6089729315981885
+        },
+        {
+          "term": "querer",
+          "ctfidf_weight": 0.5908158656260386
+        },
+        {
+          "term": "piel",
+          "ctfidf_weight": 0.5908158656260386
+        },
+        {
+          "term": "hacerle cuna",
+          "ctfidf_weight": 0.5718049779220948
+        },
+        {
+          "term": "hacer niño",
+          "ctfidf_weight": 0.5718049779220948
+        }
+      ]
+    },
+    {
+      "topic_id": 4,
+      "unique_blocks": 8,
+      "songs": 2,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "mama mama",
+          "ctfidf_weight": 1.6397329133885228
+        },
+        {
+          "term": "mama",
+          "ctfidf_weight": 1.6332706006610613
+        },
+        {
+          "term": "loi",
+          "ctfidf_weight": 1.14250659924716
+        },
+        {
+          "term": "loi loi",
+          "ctfidf_weight": 1.1032623350022488
+        },
+        {
+          "term": "mamá",
+          "ctfidf_weight": 1.082083854924449
+        },
+        {
+          "term": "mamá mamá",
+          "ctfidf_weight": 0.9546882240816024
+        },
+        {
+          "term": "escúchame",
+          "ctfidf_weight": 0.6389933277817099
+        },
+        {
+          "term": "escúchame mamá",
+          "ctfidf_weight": 0.6389933277817099
+        },
+        {
+          "term": "ro",
+          "ctfidf_weight": 0.5537052781902203
+        },
+        {
+          "term": "tantas mama",
+          "ctfidf_weight": 0.5537052781902203
+        }
+      ]
+    }
+  ],
+  "interpretation": "c-TF-IDF descriptors require human naming and inspection. A topic is not evidence of an emotion."
+}

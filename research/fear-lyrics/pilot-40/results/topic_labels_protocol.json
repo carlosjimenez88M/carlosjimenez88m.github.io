@@ -1,0 +1,30 @@
+{
+  "status": "executed",
+  "prompt_version": "topic-interpretation-v1-20261011",
+  "prompt_sha256": "765769428f2ded8475ab0585af78574145d83923291627ab65755a0559a6306f",
+  "source_models": [
+    "openai/text-embedding-3-large",
+    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+  ],
+  "labeler_model": "gpt-5.4-mini",
+  "requested": 30,
+  "exported_labels": 30,
+  "format_repair_requests": 1,
+  "published_label_word_bounds": [
+    2,
+    6
+  ],
+  "original_prompt_word_bounds": [
+    3,
+    6
+  ],
+  "editorial_format_revision": "After one failed format repair, two-word labels were permitted. Semantic, citation and five-word lyric-overlap checks are unchanged. No extra requests for this revision.",
+  "status_counts": {
+    "llm_hypothesis_unvalidated": 30
+  },
+  "stage_ceiling_usd": 0.04,
+  "accounted_or_reserved_usd": 0.02992725,
+  "selection": "At most 3 nearest-centroid blocks from distinct songs per frozen seed-17 non-noise cluster. Maximum 100 words per block.",
+  "privacy": "Private representative text and raw model output; public original labels screened for five-word lyric overlap.",
+  "limitation": "Postfit LLM proposals based on sampled representatives. Not human validation, calibrated confidence, complete cluster coverage, emotion gold or discovered new subtopics."
+}

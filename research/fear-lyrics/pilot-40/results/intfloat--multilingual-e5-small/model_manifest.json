@@ -1,0 +1,47 @@
+{
+  "encoder": {
+    "model_id": "intfloat/multilingual-e5-small",
+    "requested_revision": null,
+    "resolved_commit": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "max_seq_length": 512,
+    "normalization": "L2, cosine similarity",
+    "device": "cpu",
+    "passage_prefix": "passage: ",
+    "prototype_prefix": "query: ",
+    "revision_pinned": false,
+    "dimensions": 384,
+    "weight_receipt": {
+      "resolved_snapshot_commit": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+      "cached_weight_files": [
+        {
+          "filename": "model.safetensors",
+          "bytes": 470641600,
+          "sha256": "1a55775f53449dac10a2bcbc312469fac40b96d53198c407081a831f81c98477"
+        }
+      ],
+      "requested_revision": null,
+      "revision_pinned": false,
+      "receipt_method": "Local Hugging Face snapshot identity and SHA256 of cached model weight files; no network."
+    }
+  },
+  "runtime_seconds": 2.4,
+  "unique_documents": 386,
+  "truncated_documents": 0,
+  "tokenization_unknown_documents": 0,
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.6",
+    "sentence-transformers": "6.1.0",
+    "torch": "2.14.1",
+    "transformers": "5.19.0",
+    "bertopic": "0.17.4",
+    "umap-learn": "0.5.12",
+    "hdbscan": "0.8.44"
+  },
+  "privacy": "Lyrics, provider headings, embeddings, and fitted models are private.",
+  "results_status": "executed",
+  "topic_status": "estimated",
+  "descriptor_repair": "Frozen assignments; multilingual accent/contraction preservation. Embeddings, assignments and numeric outcomes unchanged."
+}

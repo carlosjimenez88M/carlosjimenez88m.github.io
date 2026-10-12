@@ -1,0 +1,19 @@
+model,method,metric,families,difference_contextual_minus_onepass,ci_low,ci_high,resamples,seed,scope
+rag,bm25,recall_at_5,8,0.17708333333333331,0.04166666666666666,0.32291666666666663,5000,20261011,Paired conditional question-family bootstrap; no population/generalization claim.
+rag,bm25,context_support_recall,8,0.09374999999999999,-0.10416666666666669,0.32291666666666663,5000,20261011,Paired conditional question-family bootstrap; no population/generalization claim.
+rag,bm25,negative_safe_abstention,4,-0.25,-0.5,0.0,5000,20261011,Paired conditional question-family bootstrap; no population/generalization claim.
+rag,dense,recall_at_5,8,0.06250000000000001,-0.02083333333333333,0.16666666666666666,5000,20261011,Paired conditional question-family bootstrap; no population/generalization claim.
+rag,dense,context_support_recall,8,0.11458333333333334,-0.14583333333333331,0.39583333333333337,5000,20261011,Paired conditional question-family bootstrap; no population/generalization claim.
+rag,dense,negative_safe_abstention,4,-0.5,-1.0,0.0,5000,20261011,Paired conditional question-family bootstrap; no population/generalization claim.
+rag,hybrid,recall_at_5,8,0.16666666666666666,0.0,0.3125,5000,20261011,Paired conditional question-family bootstrap; no population/generalization claim.
+rag,hybrid,context_support_recall,8,0.07291666666666666,-0.125,0.3125,5000,20261011,Paired conditional question-family bootstrap; no population/generalization claim.
+rag,hybrid,negative_safe_abstention,4,-0.375,-0.75,0.0,5000,20261011,Paired conditional question-family bootstrap; no population/generalization claim.
+rag-e5,bm25,recall_at_5,8,0.17708333333333331,0.05208333333333333,0.3125,5000,20261011,Paired conditional question-family bootstrap; no population/generalization claim.
+rag-e5,bm25,context_support_recall,8,0.09374999999999999,-0.10416666666666669,0.3333333333333333,5000,20261011,Paired conditional question-family bootstrap; no population/generalization claim.
+rag-e5,bm25,negative_safe_abstention,4,-0.25,-0.5,0.0,5000,20261011,Paired conditional question-family bootstrap; no population/generalization claim.
+rag-e5,dense,recall_at_5,8,0.14583333333333331,0.04166666666666666,0.2708333333333333,5000,20261011,Paired conditional question-family bootstrap; no population/generalization claim.
+rag-e5,dense,context_support_recall,8,0.08333333333333334,-0.08333333333333331,0.25,5000,20261011,Paired conditional question-family bootstrap; no population/generalization claim.
+rag-e5,dense,negative_safe_abstention,4,-0.25,-0.5,0.0,5000,20261011,Paired conditional question-family bootstrap; no population/generalization claim.
+rag-e5,hybrid,recall_at_5,8,0.19791666666666663,0.08333333333333331,0.32291666666666663,5000,20261011,Paired conditional question-family bootstrap; no population/generalization claim.
+rag-e5,hybrid,context_support_recall,8,0.11458333333333331,-0.10416666666666669,0.375,5000,20261011,Paired conditional question-family bootstrap; no population/generalization claim.
+rag-e5,hybrid,negative_safe_abstention,4,-0.25,-0.5,0.0,5000,20261011,Paired conditional question-family bootstrap; no population/generalization claim.

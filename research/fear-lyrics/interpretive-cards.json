@@ -1,0 +1,2468 @@
+{
+  "schema_version": 1,
+  "review_cutoff": "2026-10-11",
+  "status": "interpretive_memos_after_exploratory_model_fit",
+  "publication_scope": "Paráfrasis originales en español y referencias a documentos privados. No incluye letras, traducciones lineales ni citas líricas.",
+  "annotation_protocol": {
+    "readers": 1,
+    "independent_gold": false,
+    "blind_to_model_output": false,
+    "unit": "canción con apoyo de bloques textuales y contralectura",
+    "segmentation": {
+      "function": "analyze.segment",
+      "max_block_lines": 8,
+      "min_block_words": 4,
+      "exact_repeats": "Se conserva orden y se identifica canonical_id; el ajuste de topics solo utiliza primeras ocurrencias únicas."
+    },
+    "method": "Lectura interpretativa guiada por indicios textuales cotejados en el corpus privado. Se vinculan pasajes por IDs y se revisan lecturas alternativas; no hay anotación doble, adjudicación ni medición de acuerdo humano.",
+    "intended_use": "Ilustrar por qué amenaza, emoción, voz y respuesta necesitan dimensiones separadas. Las fichas no modifican selección, embeddings, clusters ni métricas y no se usan como gold de recuperación.",
+    "prohibitions": [
+      "Inferir prevalencia histórica a partir de estas diez lecturas.",
+      "Atribuir automáticamente la voz a la biografía del intérprete.",
+      "Convertir una lectura en diagnóstico clínico o prueba de intención autoral.",
+      "Usar los subtemas propuestos como nombres descubiertos por BERTopic."
+    ],
+    "reader_role": "asistente de investigación; pendiente revisión humana independiente"
+  },
+  "model_assignment_scope": "Solo asignaciones de la ejecución primaria seed 17; otros seeds y estabilidad se consultan en los resultados de cada modelo.",
+  "cards": [
+    {
+      "card_id": "reading-01",
+      "song_id": "s1982-60e7787d2b2d",
+      "title": "Thriller",
+      "artist": "Michael Jackson",
+      "year": 1982,
+      "language": "en",
+      "source_provider": "lrclib",
+      "lyrics_sha256": "b975be0a34a235fee35d2b520b3c70d57f0f126c9138290eb7dce3d127478e62",
+      "document_count": 19,
+      "unique_block_count": 19,
+      "annotation_status": "propuesta interpretativa de un solo analista; no gold",
+      "proposed_subtopic": {
+        "label": "Horror escenificado y amenaza sobrenatural",
+        "status": "tentative_reader_proposal",
+        "fear_status": "El peligro se representa como experiencia de una persona interpelada; la escena también invita al entretenimiento y a la cercanía."
+      },
+      "situation": {
+        "paraphrase": "Una escena nocturna convierte criaturas y presencias imposibles en amenazas corporales inmediatas. El objeto del temor es una agresión sobrenatural, dentro de un relato deliberadamente espectacular.",
+        "document_ids": [
+          "s1982-60e7787d2b2d::s000",
+          "s1982-60e7787d2b2d::s001",
+          "s1982-60e7787d2b2d::s002",
+          "s1982-60e7787d2b2d::s006",
+          "s1982-60e7787d2b2d::s014",
+          "s1982-60e7787d2b2d::s015"
+        ]
+      },
+      "voice": {
+        "paraphrase": "Una voz describe lo que le ocurre a un tú y después se ofrece como compañía protectora. La parte hablada amplía el escenario de horror; no debe confundirse esa representación con testimonio autobiográfico.",
+        "experiencer": "Persona interpelada en segunda persona; la relación entre narrador protector y amenaza queda teatralmente ambigua.",
+        "uncertainty": "La voz lírica no se identifica con la persona del artista; las emociones y agentes que el texto no fija se mantienen inciertos.",
+        "document_ids": [
+          "s1982-60e7787d2b2d::s001",
+          "s1982-60e7787d2b2d::s002",
+          "s1982-60e7787d2b2d::s009",
+          "s1982-60e7787d2b2d::s014",
+          "s1982-60e7787d2b2d::s015"
+        ]
+      },
+      "stance": {
+        "paraphrase": "Intensificación del peligro que alterna con promesa de cercanía y protección.",
+        "document_ids": [
+          "s1982-60e7787d2b2d::s006",
+          "s1982-60e7787d2b2d::s009",
+          "s1982-60e7787d2b2d::s010",
+          "s1982-60e7787d2b2d::s011"
+        ]
+      },
+      "narrative_movement": {
+        "paraphrase": "El texto pasa de una irrupción amenazante a una invitación a compartir la experiencia y vuelve a la imaginería de horror. Esa alternancia impide reducirlo a un descenso continuo hacia el pánico.",
+        "document_ids": [
+          "s1982-60e7787d2b2d::s000",
+          "s1982-60e7787d2b2d::s009",
+          "s1982-60e7787d2b2d::s014",
+          "s1982-60e7787d2b2d::s015"
+        ],
+        "status": "lectura cualitativa; no curva emocional validada ni clase automática de arco"
+      },
+      "support": [
+        {
+          "interpretation": "La amenaza se imagina mediante un repertorio de horror físico y sobrenatural.",
+          "document_ids": [
+            "s1982-60e7787d2b2d::s000",
+            "s1982-60e7787d2b2d::s001",
+            "s1982-60e7787d2b2d::s002",
+            "s1982-60e7787d2b2d::s006",
+            "s1982-60e7787d2b2d::s014"
+          ]
+        },
+        {
+          "interpretation": "La oferta de intimidad introduce una función relacional además del miedo.",
+          "document_ids": [
+            "s1982-60e7787d2b2d::s009",
+            "s1982-60e7787d2b2d::s010",
+            "s1982-60e7787d2b2d::s011"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "alternative_or_limitation": "La compañía ofrecida y las referencias a la representación permiten una lectura lúdica o de seducción. La letra sola no establece qué emoción produce en el oyente.",
+          "document_ids": [
+            "s1982-60e7787d2b2d::s009",
+            "s1982-60e7787d2b2d::s010",
+            "s1982-60e7787d2b2d::s011"
+          ]
+        }
+      ],
+      "interpretive_limit": "No se incorporan el cortometraje, la interpretación vocal ni las asociaciones culturales del baile. El miedo del personaje y el disfrute del público son variables diferentes.",
+      "primary_bertopic_assignments": [
+        {
+          "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "seed": 17,
+          "assignment_file": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/section_assignments.csv",
+          "topic_ids_present": [
+            -1,
+            1,
+            4,
+            18
+          ],
+          "unique_block_counts": {
+            "-1": 1,
+            "1": 15,
+            "4": 2,
+            "18": 1
+          },
+          "unique_block_shares": {
+            "-1": 0.05263157894736842,
+            "1": 0.7894736842105263,
+            "4": 0.10526315789473684,
+            "18": 0.05263157894736842
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s1982-60e7787d2b2d::s000",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s001",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s002",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s006",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s009",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s010",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s011",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s014",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s015",
+              "topic_id": 18
+            }
+          ],
+          "caveat": "Los números identifican grupos de esta ejecución y este modelo, no clases literarias. -1 es ruido. No se alinean IDs entre modelos ni se renombra un grupo por esta ficha."
+        },
+        {
+          "model_id": "intfloat/multilingual-e5-small",
+          "seed": 17,
+          "assignment_file": "results/intfloat--multilingual-e5-small/section_assignments.csv",
+          "topic_ids_present": [
+            0
+          ],
+          "unique_block_counts": {
+            "0": 19
+          },
+          "unique_block_shares": {
+            "0": 1.0
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s1982-60e7787d2b2d::s000",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s001",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s002",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s006",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s009",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s010",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s011",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s014",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s015",
+              "topic_id": 0
+            }
+          ],
+          "caveat": "Los números identifican grupos de esta ejecución y este modelo, no clases literarias. -1 es ruido. No se alinean IDs entre modelos ni se renombra un grupo por esta ficha."
+        },
+        {
+          "model_id": "openai/text-embedding-3-large",
+          "seed": 17,
+          "assignment_file": "results/openai--text-embedding-3-large/section_assignments.csv",
+          "topic_ids_present": [
+            2
+          ],
+          "unique_block_counts": {
+            "2": 19
+          },
+          "unique_block_shares": {
+            "2": 1.0
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s1982-60e7787d2b2d::s000",
+              "topic_id": 2
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s001",
+              "topic_id": 2
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s002",
+              "topic_id": 2
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s006",
+              "topic_id": 2
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s009",
+              "topic_id": 2
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s010",
+              "topic_id": 2
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s011",
+              "topic_id": 2
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s014",
+              "topic_id": 2
+            },
+            {
+              "document_id": "s1982-60e7787d2b2d::s015",
+              "topic_id": 2
+            }
+          ],
+          "caveat": "Topic IDs are local to this posthoc provider extension; the existing reading is not a validated label."
+        }
+      ]
+    },
+    {
+      "card_id": "reading-02",
+      "song_id": "s1983-753cd2a7d41b",
+      "title": "Somebody's Watching Me",
+      "artist": "Rockwell",
+      "year": 1983,
+      "language": "en",
+      "source_provider": "lrclib",
+      "lyrics_sha256": "dfd00678d22be37b4423ff1edccc50f0580746e116fc902f97f59319d1f07a28",
+      "document_count": 13,
+      "unique_block_count": 12,
+      "annotation_status": "propuesta interpretativa de un solo analista; no gold",
+      "proposed_subtopic": {
+        "label": "Vigilancia cotidiana y pérdida de privacidad",
+        "status": "tentative_reader_proposal",
+        "fear_status": "La voz expresa inquietud, pero no demuestra la existencia de un perseguidor."
+      },
+      "situation": {
+        "paraphrase": "El hogar y las rutinas dejan de sentirse privados. La sospecha se desplaza entre observadores posibles y situaciones ordinarias, sin fijar un agente único del peligro.",
+        "document_ids": [
+          "s1983-753cd2a7d41b::s001",
+          "s1983-753cd2a7d41b::s002",
+          "s1983-753cd2a7d41b::s003",
+          "s1983-753cd2a7d41b::s004",
+          "s1983-753cd2a7d41b::s006"
+        ]
+      },
+      "voice": {
+        "paraphrase": "Un narrador en primera persona cuenta su sensación de ser observado y formula dudas sobre lo que sucede. El estribillo repite la experiencia; no aporta confirmación independiente.",
+        "experiencer": "Narrador en primera persona; el observador supuesto permanece incierto.",
+        "uncertainty": "La voz lírica no se identifica con la persona del artista; las emociones y agentes que el texto no fija se mantienen inciertos.",
+        "document_ids": [
+          "s1983-753cd2a7d41b::s001",
+          "s1983-753cd2a7d41b::s002",
+          "s1983-753cd2a7d41b::s004",
+          "s1983-753cd2a7d41b::s005"
+        ]
+      },
+      "stance": {
+        "paraphrase": "Hipervigilancia y vacilación entre sospecha y duda sobre la propia percepción.",
+        "document_ids": [
+          "s1983-753cd2a7d41b::s001",
+          "s1983-753cd2a7d41b::s002",
+          "s1983-753cd2a7d41b::s004",
+          "s1983-753cd2a7d41b::s005"
+        ]
+      },
+      "narrative_movement": {
+        "paraphrase": "Las escenas domésticas alimentan una pregunta persistente. La repetición devuelve la voz a la misma inquietud en lugar de resolverla.",
+        "document_ids": [
+          "s1983-753cd2a7d41b::s001",
+          "s1983-753cd2a7d41b::s003",
+          "s1983-753cd2a7d41b::s004",
+          "s1983-753cd2a7d41b::s011",
+          "s1983-753cd2a7d41b::s012"
+        ],
+        "status": "lectura cualitativa; no curva emocional validada ni clase automática de arco"
+      },
+      "support": [
+        {
+          "interpretation": "La sensación de vigilancia atraviesa escenarios privados diferentes.",
+          "document_ids": [
+            "s1983-753cd2a7d41b::s002",
+            "s1983-753cd2a7d41b::s003",
+            "s1983-753cd2a7d41b::s004",
+            "s1983-753cd2a7d41b::s006"
+          ]
+        },
+        {
+          "interpretation": "La voz duda de la explicación de esa vigilancia.",
+          "document_ids": [
+            "s1983-753cd2a7d41b::s001",
+            "s1983-753cd2a7d41b::s002",
+            "s1983-753cd2a7d41b::s004"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "alternative_or_limitation": "Los observadores sugeridos y las preguntas abiertas no prueban una amenaza exterior efectiva. La lectura puede ser satírica; tampoco autorizan un diagnóstico de paranoia.",
+          "document_ids": [
+            "s1983-753cd2a7d41b::s004",
+            "s1983-753cd2a7d41b::s006"
+          ]
+        }
+      ],
+      "interpretive_limit": "La instrumentación, los cambios de voz y el humor de la interpretación no se evalúan con el texto. Una sospecha narrada no equivale a vigilancia comprobada.",
+      "primary_bertopic_assignments": [
+        {
+          "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "seed": 17,
+          "assignment_file": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/section_assignments.csv",
+          "topic_ids_present": [
+            2,
+            12
+          ],
+          "unique_block_counts": {
+            "2": 11,
+            "12": 1
+          },
+          "unique_block_shares": {
+            "2": 0.9166666666666666,
+            "12": 0.08333333333333333
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s1983-753cd2a7d41b::s001",
+              "topic_id": 2
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s002",
+              "topic_id": 2
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s003",
+              "topic_id": 2
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s004",
+              "topic_id": 12
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s005",
+              "topic_id": 2
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s006",
+              "topic_id": 2
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s011",
+              "topic_id": 2
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s012",
+              "topic_id": 2
+            }
+          ],
+          "caveat": "Los números identifican grupos de esta ejecución y este modelo, no clases literarias. -1 es ruido. No se alinean IDs entre modelos ni se renombra un grupo por esta ficha."
+        },
+        {
+          "model_id": "intfloat/multilingual-e5-small",
+          "seed": 17,
+          "assignment_file": "results/intfloat--multilingual-e5-small/section_assignments.csv",
+          "topic_ids_present": [
+            0
+          ],
+          "unique_block_counts": {
+            "0": 12
+          },
+          "unique_block_shares": {
+            "0": 1.0
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s1983-753cd2a7d41b::s001",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s002",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s003",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s004",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s005",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s006",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s011",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s012",
+              "topic_id": 0
+            }
+          ],
+          "caveat": "Los números identifican grupos de esta ejecución y este modelo, no clases literarias. -1 es ruido. No se alinean IDs entre modelos ni se renombra un grupo por esta ficha."
+        },
+        {
+          "model_id": "openai/text-embedding-3-large",
+          "seed": 17,
+          "assignment_file": "results/openai--text-embedding-3-large/section_assignments.csv",
+          "topic_ids_present": [
+            7
+          ],
+          "unique_block_counts": {
+            "7": 12
+          },
+          "unique_block_shares": {
+            "7": 1.0
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s1983-753cd2a7d41b::s001",
+              "topic_id": 7
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s002",
+              "topic_id": 7
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s003",
+              "topic_id": 7
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s004",
+              "topic_id": 7
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s005",
+              "topic_id": 7
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s006",
+              "topic_id": 7
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s011",
+              "topic_id": 7
+            },
+            {
+              "document_id": "s1983-753cd2a7d41b::s012",
+              "topic_id": 7
+            }
+          ],
+          "caveat": "Topic IDs are local to this posthoc provider extension; the existing reading is not a validated label."
+        }
+      ]
+    },
+    {
+      "card_id": "reading-03",
+      "song_id": "s1994-56ff6ca6c8bb",
+      "title": "Zombie",
+      "artist": "The Cranberries",
+      "year": 1994,
+      "language": "en",
+      "source_provider": "genius",
+      "lyrics_sha256": "3e02f4ace8450808933458e89763164f8082395c5f0e02bcbf5489c1ee49c621",
+      "document_count": 7,
+      "unique_block_count": 7,
+      "annotation_status": "propuesta interpretativa de un solo analista; no gold",
+      "proposed_subtopic": {
+        "label": "Violencia colectiva, duelo y persistencia del conflicto",
+        "status": "tentative_reader_proposal",
+        "fear_status": "El texto acredita daño y protesta; la atribución de miedo al narrador es más débil que la identificación de violencia."
+      },
+      "situation": {
+        "paraphrase": "La violencia armada alcanza a menores y familias, y reaparece como una herida colectiva. La repetición del conflicto ocupa la memoria y cuestiona su continuidad.",
+        "document_ids": [
+          "s1994-56ff6ca6c8bb::s000",
+          "s1994-56ff6ca6c8bb::s001",
+          "s1994-56ff6ca6c8bb::s004",
+          "s1994-56ff6ca6c8bb::s005",
+          "s1994-56ff6ca6c8bb::s006"
+        ]
+      },
+      "voice": {
+        "paraphrase": "Una voz observa el sufrimiento de otros y se distancia de la identidad de quienes sostienen la violencia. Alterna testimonio de daño y pregunta dirigida a un interlocutor colectivo.",
+        "experiencer": "Menores y familias son afectados; la voz que denuncia no se declara necesariamente atemorizada.",
+        "uncertainty": "La voz lírica no se identifica con la persona del artista; las emociones y agentes que el texto no fija se mantienen inciertos.",
+        "document_ids": [
+          "s1994-56ff6ca6c8bb::s000",
+          "s1994-56ff6ca6c8bb::s001",
+          "s1994-56ff6ca6c8bb::s004",
+          "s1994-56ff6ca6c8bb::s005",
+          "s1994-56ff6ca6c8bb::s006"
+        ]
+      },
+      "stance": {
+        "paraphrase": "Denuncia, incredulidad y duelo ante la persistencia del daño.",
+        "document_ids": [
+          "s1994-56ff6ca6c8bb::s001",
+          "s1994-56ff6ca6c8bb::s002",
+          "s1994-56ff6ca6c8bb::s004",
+          "s1994-56ff6ca6c8bb::s005",
+          "s1994-56ff6ca6c8bb::s006"
+        ]
+      },
+      "narrative_movement": {
+        "paraphrase": "Dos escenas de daño familiar se enlazan con una insistencia interrogativa. La forma circular refuerza la continuidad del conflicto, sin ofrecer una reparación final.",
+        "document_ids": [
+          "s1994-56ff6ca6c8bb::s000",
+          "s1994-56ff6ca6c8bb::s002",
+          "s1994-56ff6ca6c8bb::s004",
+          "s1994-56ff6ca6c8bb::s005",
+          "s1994-56ff6ca6c8bb::s006"
+        ],
+        "status": "lectura cualitativa; no curva emocional validada ni clase automática de arco"
+      },
+      "support": [
+        {
+          "interpretation": "Los daños a menores y familias anclan una amenaza social concreta.",
+          "document_ids": [
+            "s1994-56ff6ca6c8bb::s000",
+            "s1994-56ff6ca6c8bb::s001",
+            "s1994-56ff6ca6c8bb::s004",
+            "s1994-56ff6ca6c8bb::s005"
+          ]
+        },
+        {
+          "interpretation": "La insistencia mental e interrogativa desplaza la lectura del monstruo literal hacia el conflicto persistente.",
+          "document_ids": [
+            "s1994-56ff6ca6c8bb::s002",
+            "s1994-56ff6ca6c8bb::s005",
+            "s1994-56ff6ca6c8bb::s006"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "alternative_or_limitation": "El repertorio de violencia puede servir a una protesta política y al duelo; no basta para convertir todas las voces o todos los bloques en expresiones de miedo.",
+          "document_ids": [
+            "s1994-56ff6ca6c8bb::s001",
+            "s1994-56ff6ca6c8bb::s004",
+            "s1994-56ff6ca6c8bb::s005"
+          ]
+        }
+      ],
+      "interpretive_limit": "La metáfora del título no debe equipararse a la criatura de Thriller. Identificar un conflicto histórico específico requiere contexto documental adicional, no solamente estos bloques.",
+      "primary_bertopic_assignments": [
+        {
+          "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "seed": 17,
+          "assignment_file": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/section_assignments.csv",
+          "topic_ids_present": [
+            -1,
+            3,
+            11
+          ],
+          "unique_block_counts": {
+            "-1": 3,
+            "3": 1,
+            "11": 3
+          },
+          "unique_block_shares": {
+            "-1": 0.42857142857142855,
+            "3": 0.14285714285714285,
+            "11": 0.42857142857142855
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s1994-56ff6ca6c8bb::s000",
+              "topic_id": -1
+            },
+            {
+              "document_id": "s1994-56ff6ca6c8bb::s001",
+              "topic_id": -1
+            },
+            {
+              "document_id": "s1994-56ff6ca6c8bb::s002",
+              "topic_id": 11
+            },
+            {
+              "document_id": "s1994-56ff6ca6c8bb::s004",
+              "topic_id": -1
+            },
+            {
+              "document_id": "s1994-56ff6ca6c8bb::s005",
+              "topic_id": 11
+            },
+            {
+              "document_id": "s1994-56ff6ca6c8bb::s006",
+              "topic_id": 11
+            }
+          ],
+          "caveat": "Los números identifican grupos de esta ejecución y este modelo, no clases literarias. -1 es ruido. No se alinean IDs entre modelos ni se renombra un grupo por esta ficha."
+        },
+        {
+          "model_id": "intfloat/multilingual-e5-small",
+          "seed": 17,
+          "assignment_file": "results/intfloat--multilingual-e5-small/section_assignments.csv",
+          "topic_ids_present": [
+            0,
+            1
+          ],
+          "unique_block_counts": {
+            "0": 6,
+            "1": 1
+          },
+          "unique_block_shares": {
+            "0": 0.8571428571428571,
+            "1": 0.14285714285714285
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s1994-56ff6ca6c8bb::s000",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s1994-56ff6ca6c8bb::s001",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s1994-56ff6ca6c8bb::s002",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s1994-56ff6ca6c8bb::s004",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s1994-56ff6ca6c8bb::s005",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s1994-56ff6ca6c8bb::s006",
+              "topic_id": 0
+            }
+          ],
+          "caveat": "Los números identifican grupos de esta ejecución y este modelo, no clases literarias. -1 es ruido. No se alinean IDs entre modelos ni se renombra un grupo por esta ficha."
+        },
+        {
+          "model_id": "openai/text-embedding-3-large",
+          "seed": 17,
+          "assignment_file": "results/openai--text-embedding-3-large/section_assignments.csv",
+          "topic_ids_present": [
+            1,
+            6
+          ],
+          "unique_block_counts": {
+            "1": 6,
+            "6": 1
+          },
+          "unique_block_shares": {
+            "1": 0.8571428571428571,
+            "6": 0.14285714285714285
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s1994-56ff6ca6c8bb::s000",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s1994-56ff6ca6c8bb::s001",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s1994-56ff6ca6c8bb::s002",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s1994-56ff6ca6c8bb::s004",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s1994-56ff6ca6c8bb::s005",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s1994-56ff6ca6c8bb::s006",
+              "topic_id": 1
+            }
+          ],
+          "caveat": "Topic IDs are local to this posthoc provider extension; the existing reading is not a validated label."
+        }
+      ]
+    },
+    {
+      "card_id": "reading-04",
+      "song_id": "s2004-58ef65dc2ae6",
+      "title": "Miedo",
+      "artist": "M-Clan",
+      "year": 2004,
+      "language": "es",
+      "source_provider": "lrclib",
+      "lyrics_sha256": "e99e5b519ddf75566030e72327c7355302f18d289ef8f597dc77ae7ed87fd26b",
+      "document_count": 11,
+      "unique_block_count": 11,
+      "annotation_status": "propuesta interpretativa de un solo analista; no gold",
+      "proposed_subtopic": {
+        "label": "Ruptura, culpa y temor a la ausencia o al reencuentro",
+        "status": "tentative_reader_proposal",
+        "fear_status": "El miedo es explícito, pero sus objetos se contradicen: perder el vínculo y volver a encontrarlo pueden producir inquietud."
+      },
+      "situation": {
+        "paraphrase": "Una relación aparece dañada y terminada. La voz teme tanto la separación definitiva como la posibilidad de reencontrarse con la otra persona y reactivar el dolor.",
+        "document_ids": [
+          "s2004-58ef65dc2ae6::s000",
+          "s2004-58ef65dc2ae6::s001",
+          "s2004-58ef65dc2ae6::s002",
+          "s2004-58ef65dc2ae6::s003",
+          "s2004-58ef65dc2ae6::s004",
+          "s2004-58ef65dc2ae6::s008",
+          "s2004-58ef65dc2ae6::s009"
+        ]
+      },
+      "voice": {
+        "paraphrase": "Un yo admite su participación en el daño y se dirige a la persona ausente. La cercanía imaginada convive con la soledad; esa ausencia no prueba por sí sola una muerte.",
+        "experiencer": "Narrador en primera persona; la persona interpelada también puede sentir temor hacia él.",
+        "uncertainty": "La voz lírica no se identifica con la persona del artista; las emociones y agentes que el texto no fija se mantienen inciertos.",
+        "document_ids": [
+          "s2004-58ef65dc2ae6::s000",
+          "s2004-58ef65dc2ae6::s001",
+          "s2004-58ef65dc2ae6::s003",
+          "s2004-58ef65dc2ae6::s008",
+          "s2004-58ef65dc2ae6::s009"
+        ]
+      },
+      "stance": {
+        "paraphrase": "Remordimiento y ambivalencia afectiva, sin una salida estable del vínculo perdido.",
+        "document_ids": [
+          "s2004-58ef65dc2ae6::s000",
+          "s2004-58ef65dc2ae6::s001",
+          "s2004-58ef65dc2ae6::s002",
+          "s2004-58ef65dc2ae6::s003",
+          "s2004-58ef65dc2ae6::s008",
+          "s2004-58ef65dc2ae6::s009"
+        ]
+      },
+      "narrative_movement": {
+        "paraphrase": "El cierre de la relación se presenta al comienzo, pero las reiteraciones reabren sus consecuencias. La incertidumbre afecta al encuentro, al recuerdo y a la desaparición del otro.",
+        "document_ids": [
+          "s2004-58ef65dc2ae6::s000",
+          "s2004-58ef65dc2ae6::s002",
+          "s2004-58ef65dc2ae6::s003",
+          "s2004-58ef65dc2ae6::s004",
+          "s2004-58ef65dc2ae6::s007",
+          "s2004-58ef65dc2ae6::s008",
+          "s2004-58ef65dc2ae6::s009"
+        ],
+        "status": "lectura cualitativa; no curva emocional validada ni clase automática de arco"
+      },
+      "support": [
+        {
+          "interpretation": "La admisión de daño distingue este miedo de una amenaza sin responsabilidad del narrador.",
+          "document_ids": [
+            "s2004-58ef65dc2ae6::s000",
+            "s2004-58ef65dc2ae6::s001"
+          ]
+        },
+        {
+          "interpretation": "El vínculo ausente sigue actuando como presencia imaginada y como fuente de temor.",
+          "document_ids": [
+            "s2004-58ef65dc2ae6::s002",
+            "s2004-58ef65dc2ae6::s003",
+            "s2004-58ef65dc2ae6::s008",
+            "s2004-58ef65dc2ae6::s009"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "alternative_or_limitation": "El mismo texto admite una lectura centrada en desamor y culpa. Las referencias a pérdida extrema no bastan para fijar una biografía, una muerte literal o una condición clínica.",
+          "document_ids": [
+            "s2004-58ef65dc2ae6::s000",
+            "s2004-58ef65dc2ae6::s001",
+            "s2004-58ef65dc2ae6::s003",
+            "s2004-58ef65dc2ae6::s009"
+          ]
+        }
+      ],
+      "interpretive_limit": "Las explicaciones posteriores de los compositores pueden añadir contexto, pero esta ficha conserva la ambigüedad del texto. No se traslada automáticamente al narrador la vida de Carlos Tarque.",
+      "primary_bertopic_assignments": [
+        {
+          "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "seed": 17,
+          "assignment_file": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/section_assignments.csv",
+          "topic_ids_present": [
+            -1,
+            0,
+            3,
+            4,
+            8
+          ],
+          "unique_block_counts": {
+            "-1": 2,
+            "0": 4,
+            "3": 1,
+            "4": 3,
+            "8": 1
+          },
+          "unique_block_shares": {
+            "-1": 0.18181818181818182,
+            "0": 0.36363636363636365,
+            "3": 0.09090909090909091,
+            "4": 0.2727272727272727,
+            "8": 0.09090909090909091
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2004-58ef65dc2ae6::s000",
+              "topic_id": 4
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s001",
+              "topic_id": 8
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s002",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s003",
+              "topic_id": -1
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s004",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s007",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s008",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s009",
+              "topic_id": -1
+            }
+          ],
+          "caveat": "Los números identifican grupos de esta ejecución y este modelo, no clases literarias. -1 es ruido. No se alinean IDs entre modelos ni se renombra un grupo por esta ficha."
+        },
+        {
+          "model_id": "intfloat/multilingual-e5-small",
+          "seed": 17,
+          "assignment_file": "results/intfloat--multilingual-e5-small/section_assignments.csv",
+          "topic_ids_present": [
+            1
+          ],
+          "unique_block_counts": {
+            "1": 11
+          },
+          "unique_block_shares": {
+            "1": 1.0
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2004-58ef65dc2ae6::s000",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s001",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s002",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s003",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s004",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s007",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s008",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s009",
+              "topic_id": 1
+            }
+          ],
+          "caveat": "Los números identifican grupos de esta ejecución y este modelo, no clases literarias. -1 es ruido. No se alinean IDs entre modelos ni se renombra un grupo por esta ficha."
+        },
+        {
+          "model_id": "openai/text-embedding-3-large",
+          "seed": 17,
+          "assignment_file": "results/openai--text-embedding-3-large/section_assignments.csv",
+          "topic_ids_present": [
+            0,
+            6
+          ],
+          "unique_block_counts": {
+            "0": 10,
+            "6": 1
+          },
+          "unique_block_shares": {
+            "0": 0.9090909090909091,
+            "6": 0.09090909090909091
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2004-58ef65dc2ae6::s000",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s001",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s002",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s003",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s004",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s007",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s008",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2004-58ef65dc2ae6::s009",
+              "topic_id": 0
+            }
+          ],
+          "caveat": "Topic IDs are local to this posthoc provider extension; the existing reading is not a validated label."
+        }
+      ]
+    },
+    {
+      "card_id": "reading-05",
+      "song_id": "s2000-a62b1066ea67",
+      "title": "Crawling",
+      "artist": "Linkin Park",
+      "year": 2000,
+      "language": "en",
+      "source_provider": "lrclib",
+      "lyrics_sha256": "f14f31e9cb62b83de29ef51bf2f2cfe6259e6fa3dea66e75748e933291dd82e8",
+      "document_count": 7,
+      "unique_block_count": 7,
+      "annotation_status": "propuesta interpretativa de un solo analista; no gold",
+      "proposed_subtopic": {
+        "label": "Pérdida de control y extrañeza del propio cuerpo",
+        "status": "tentative_reader_proposal",
+        "fear_status": "Se nombra temor junto a confusión, vulnerabilidad y dolor; el objeto amenazante se ubica dentro de la experiencia del yo."
+      },
+      "situation": {
+        "paraphrase": "La voz vive el cuerpo y el interior de sí misma como lugares de dolor e inestabilidad. Lo amenazante es perder el control y no poder confiar plenamente en la propia percepción.",
+        "document_ids": [
+          "s2000-a62b1066ea67::s000",
+          "s2000-a62b1066ea67::s001",
+          "s2000-a62b1066ea67::s003",
+          "s2000-a62b1066ea67::s004",
+          "s2000-a62b1066ea67::s005",
+          "s2000-a62b1066ea67::s006"
+        ]
+      },
+      "voice": {
+        "paraphrase": "Un yo describe sensaciones difíciles de gobernar y una confianza debilitada. Hay un interlocutor ocasional, pero el texto no identifica inequívocamente una causa exterior.",
+        "experiencer": "Narrador en primera persona; causas y situación material quedan indeterminadas.",
+        "uncertainty": "La voz lírica no se identifica con la persona del artista; las emociones y agentes que el texto no fija se mantienen inciertos.",
+        "document_ids": [
+          "s2000-a62b1066ea67::s001",
+          "s2000-a62b1066ea67::s002",
+          "s2000-a62b1066ea67::s004",
+          "s2000-a62b1066ea67::s006"
+        ]
+      },
+      "stance": {
+        "paraphrase": "Vulnerabilidad, autointerrogación y dificultad para recuperar el control.",
+        "document_ids": [
+          "s2000-a62b1066ea67::s000",
+          "s2000-a62b1066ea67::s001",
+          "s2000-a62b1066ea67::s002",
+          "s2000-a62b1066ea67::s004",
+          "s2000-a62b1066ea67::s006"
+        ]
+      },
+      "narrative_movement": {
+        "paraphrase": "El cuerpo dolorido y la crisis de control reaparecen sin una resolución textual clara. Las recurrencias sostienen la tensión más que una sucesión de acontecimientos externos.",
+        "document_ids": [
+          "s2000-a62b1066ea67::s000",
+          "s2000-a62b1066ea67::s001",
+          "s2000-a62b1066ea67::s003",
+          "s2000-a62b1066ea67::s005",
+          "s2000-a62b1066ea67::s006"
+        ],
+        "status": "lectura cualitativa; no curva emocional validada ni clase automática de arco"
+      },
+      "support": [
+        {
+          "interpretation": "Las imágenes corporales conviven con inseguridad y dificultad de control.",
+          "document_ids": [
+            "s2000-a62b1066ea67::s000",
+            "s2000-a62b1066ea67::s001",
+            "s2000-a62b1066ea67::s003",
+            "s2000-a62b1066ea67::s004"
+          ]
+        },
+        {
+          "interpretation": "La relación entre temor y percepción incierta se reitera.",
+          "document_ids": [
+            "s2000-a62b1066ea67::s000",
+            "s2000-a62b1066ea67::s003",
+            "s2000-a62b1066ea67::s005",
+            "s2000-a62b1066ea67::s006"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "alternative_or_limitation": "La metáfora corporal también puede expresar angustia, identidad o dolor. No permite diagnosticar un trastorno ni elegir una causa biográfica concreta.",
+          "document_ids": [
+            "s2000-a62b1066ea67::s001",
+            "s2000-a62b1066ea67::s002",
+            "s2000-a62b1066ea67::s004"
+          ]
+        }
+      ],
+      "interpretive_limit": "No se leen como evidencia diagnóstica ni la biografía del cantante ni la intensidad del sonido. La voz lírica y el intérprete se mantienen diferenciados.",
+      "primary_bertopic_assignments": [
+        {
+          "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "seed": 17,
+          "assignment_file": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/section_assignments.csv",
+          "topic_ids_present": [
+            12
+          ],
+          "unique_block_counts": {
+            "12": 7
+          },
+          "unique_block_shares": {
+            "12": 1.0
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2000-a62b1066ea67::s000",
+              "topic_id": 12
+            },
+            {
+              "document_id": "s2000-a62b1066ea67::s001",
+              "topic_id": 12
+            },
+            {
+              "document_id": "s2000-a62b1066ea67::s002",
+              "topic_id": 12
+            },
+            {
+              "document_id": "s2000-a62b1066ea67::s003",
+              "topic_id": 12
+            },
+            {
+              "document_id": "s2000-a62b1066ea67::s004",
+              "topic_id": 12
+            },
+            {
+              "document_id": "s2000-a62b1066ea67::s005",
+              "topic_id": 12
+            },
+            {
+              "document_id": "s2000-a62b1066ea67::s006",
+              "topic_id": 12
+            }
+          ],
+          "caveat": "Los números identifican grupos de esta ejecución y este modelo, no clases literarias. -1 es ruido. No se alinean IDs entre modelos ni se renombra un grupo por esta ficha."
+        },
+        {
+          "model_id": "intfloat/multilingual-e5-small",
+          "seed": 17,
+          "assignment_file": "results/intfloat--multilingual-e5-small/section_assignments.csv",
+          "topic_ids_present": [
+            0
+          ],
+          "unique_block_counts": {
+            "0": 7
+          },
+          "unique_block_shares": {
+            "0": 1.0
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2000-a62b1066ea67::s000",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2000-a62b1066ea67::s001",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2000-a62b1066ea67::s002",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2000-a62b1066ea67::s003",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2000-a62b1066ea67::s004",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2000-a62b1066ea67::s005",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2000-a62b1066ea67::s006",
+              "topic_id": 0
+            }
+          ],
+          "caveat": "Los números identifican grupos de esta ejecución y este modelo, no clases literarias. -1 es ruido. No se alinean IDs entre modelos ni se renombra un grupo por esta ficha."
+        },
+        {
+          "model_id": "openai/text-embedding-3-large",
+          "seed": 17,
+          "assignment_file": "results/openai--text-embedding-3-large/section_assignments.csv",
+          "topic_ids_present": [
+            1
+          ],
+          "unique_block_counts": {
+            "1": 7
+          },
+          "unique_block_shares": {
+            "1": 1.0
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2000-a62b1066ea67::s000",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2000-a62b1066ea67::s001",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2000-a62b1066ea67::s002",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2000-a62b1066ea67::s003",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2000-a62b1066ea67::s004",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2000-a62b1066ea67::s005",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2000-a62b1066ea67::s006",
+              "topic_id": 1
+            }
+          ],
+          "caveat": "Topic IDs are local to this posthoc provider extension; the existing reading is not a validated label."
+        }
+      ]
+    },
+    {
+      "card_id": "reading-06",
+      "song_id": "s2014-27b61f0565ce",
+      "title": "Out Of The Woods",
+      "artist": "Taylor Swift",
+      "year": 2014,
+      "language": "en",
+      "source_provider": "lrclib",
+      "lyrics_sha256": "dd07702f9a71ce7ed5637987d3c4a58bfc9dfe3d4b5c18cb95dc6bf886335e86",
+      "document_count": 24,
+      "unique_block_count": 13,
+      "annotation_status": "propuesta interpretativa de un solo analista; no gold",
+      "proposed_subtopic": {
+        "label": "Inseguridad relacional y búsqueda reiterada de seguridad",
+        "status": "tentative_reader_proposal",
+        "fear_status": "La inquietud se infiere de preguntas persistentes y recuerdos de crisis; también hay cercanía y momentos de claridad."
+      },
+      "situation": {
+        "paraphrase": "Una relación se recuerda como valiosa y frágil. La voz busca saber si la pareja ha superado el peligro, pero cada repetición deja abierta la seguridad del vínculo.",
+        "document_ids": [
+          "s2014-27b61f0565ce::s000",
+          "s2014-27b61f0565ce::s001",
+          "s2014-27b61f0565ce::s002",
+          "s2014-27b61f0565ce::s003",
+          "s2014-27b61f0565ce::s007",
+          "s2014-27b61f0565ce::s012",
+          "s2014-27b61f0565ce::s013"
+        ]
+      },
+      "voice": {
+        "paraphrase": "Un yo recuerda escenas con un tú y formula preguntas desde un nosotros. El episodio de peligro físico aparece dentro de esa memoria; no agota la inseguridad relacional.",
+        "experiencer": "La voz y su pareja aparecen como un nosotros; no se verifica una experiencia biográfica particular.",
+        "uncertainty": "La voz lírica no se identifica con la persona del artista; las emociones y agentes que el texto no fija se mantienen inciertos.",
+        "document_ids": [
+          "s2014-27b61f0565ce::s000",
+          "s2014-27b61f0565ce::s001",
+          "s2014-27b61f0565ce::s002",
+          "s2014-27b61f0565ce::s007",
+          "s2014-27b61f0565ce::s012",
+          "s2014-27b61f0565ce::s013"
+        ]
+      },
+      "stance": {
+        "paraphrase": "Petición reiterada de seguridad, con momentos de cercanía y reevaluación.",
+        "document_ids": [
+          "s2014-27b61f0565ce::s001",
+          "s2014-27b61f0565ce::s002",
+          "s2014-27b61f0565ce::s003",
+          "s2014-27b61f0565ce::s007",
+          "s2014-27b61f0565ce::s012",
+          "s2014-27b61f0565ce::s013"
+        ]
+      },
+      "narrative_movement": {
+        "paraphrase": "Los recuerdos afectivos alternan con preguntas sobre seguridad y con una crisis evocada. La vuelta de la pregunta impide declarar una conclusión plenamente resuelta.",
+        "document_ids": [
+          "s2014-27b61f0565ce::s001",
+          "s2014-27b61f0565ce::s002",
+          "s2014-27b61f0565ce::s007",
+          "s2014-27b61f0565ce::s012",
+          "s2014-27b61f0565ce::s013",
+          "s2014-27b61f0565ce::s022",
+          "s2014-27b61f0565ce::s023"
+        ],
+        "status": "lectura cualitativa; no curva emocional validada ni clase automática de arco"
+      },
+      "support": [
+        {
+          "interpretation": "Las preguntas de seguridad reaparecen incluso después de escenas de intimidad.",
+          "document_ids": [
+            "s2014-27b61f0565ce::s001",
+            "s2014-27b61f0565ce::s002",
+            "s2014-27b61f0565ce::s003",
+            "s2014-27b61f0565ce::s007"
+          ]
+        },
+        {
+          "interpretation": "El recuerdo de una crisis concreta añade peligro físico a la fragilidad del vínculo.",
+          "document_ids": [
+            "s2014-27b61f0565ce::s012",
+            "s2014-27b61f0565ce::s013"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "alternative_or_limitation": "Los recuerdos de cercanía y los momentos de claridad contradicen una lectura de pánico uniforme. Una imagen de bosque no basta para identificar peligro literal en todos los bloques.",
+          "document_ids": [
+            "s2014-27b61f0565ce::s001",
+            "s2014-27b61f0565ce::s007",
+            "s2014-27b61f0565ce::s013"
+          ]
+        }
+      ],
+      "interpretive_limit": "No se usa el videoclip para decidir la dirección del arco ni se identifica al interlocutor con una celebridad. La pregunta repetida puede funcionar musicalmente además de narrativamente.",
+      "primary_bertopic_assignments": [
+        {
+          "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "seed": 17,
+          "assignment_file": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/section_assignments.csv",
+          "topic_ids_present": [
+            8,
+            10,
+            14
+          ],
+          "unique_block_counts": {
+            "8": 1,
+            "10": 8,
+            "14": 4
+          },
+          "unique_block_shares": {
+            "8": 0.07692307692307693,
+            "10": 0.6153846153846154,
+            "14": 0.3076923076923077
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2014-27b61f0565ce::s000",
+              "topic_id": 14
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s001",
+              "topic_id": 14
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s002",
+              "topic_id": 10
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s003",
+              "topic_id": 10
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s007",
+              "topic_id": 14
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s012",
+              "topic_id": 8
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s013",
+              "topic_id": 14
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s022",
+              "topic_id": 10
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s023",
+              "topic_id": 10
+            }
+          ],
+          "caveat": "Los números identifican grupos de esta ejecución y este modelo, no clases literarias. -1 es ruido. No se alinean IDs entre modelos ni se renombra un grupo por esta ficha."
+        },
+        {
+          "model_id": "intfloat/multilingual-e5-small",
+          "seed": 17,
+          "assignment_file": "results/intfloat--multilingual-e5-small/section_assignments.csv",
+          "topic_ids_present": [
+            0
+          ],
+          "unique_block_counts": {
+            "0": 13
+          },
+          "unique_block_shares": {
+            "0": 1.0
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2014-27b61f0565ce::s000",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s001",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s002",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s003",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s007",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s012",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s013",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s022",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s023",
+              "topic_id": 0
+            }
+          ],
+          "caveat": "Los números identifican grupos de esta ejecución y este modelo, no clases literarias. -1 es ruido. No se alinean IDs entre modelos ni se renombra un grupo por esta ficha."
+        },
+        {
+          "model_id": "openai/text-embedding-3-large",
+          "seed": 17,
+          "assignment_file": "results/openai--text-embedding-3-large/section_assignments.csv",
+          "topic_ids_present": [
+            5
+          ],
+          "unique_block_counts": {
+            "5": 13
+          },
+          "unique_block_shares": {
+            "5": 1.0
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2014-27b61f0565ce::s000",
+              "topic_id": 5
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s001",
+              "topic_id": 5
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s002",
+              "topic_id": 5
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s003",
+              "topic_id": 5
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s007",
+              "topic_id": 5
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s012",
+              "topic_id": 5
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s013",
+              "topic_id": 5
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s022",
+              "topic_id": 5
+            },
+            {
+              "document_id": "s2014-27b61f0565ce::s023",
+              "topic_id": 5
+            }
+          ],
+          "caveat": "Topic IDs are local to this posthoc provider extension; the existing reading is not a validated label."
+        }
+      ]
+    },
+    {
+      "card_id": "reading-07",
+      "song_id": "s2018-fff1d8ae4511",
+      "title": "Malamente",
+      "artist": "Rosalía",
+      "year": 2018,
+      "language": "es",
+      "source_provider": "lrclib",
+      "lyrics_sha256": "6faab096b8f37b52372f6906143b9eaff78f332d43bc6e2677f566e4bdafbcff",
+      "document_count": 7,
+      "unique_block_count": 7,
+      "annotation_status": "propuesta interpretativa de un solo analista; no gold",
+      "proposed_subtopic": {
+        "label": "Presagio adverso, incertidumbre y afirmación de agencia",
+        "status": "tentative_reader_proposal",
+        "fear_status": "La amenaza se anuncia por señales e imágenes; el texto también contrapone una decisión de avanzar."
+      },
+      "situation": {
+        "paraphrase": "Una sucesión de señales de mal augurio convierte accidentes, sueños e imágenes nocturnas en anticipación de un desenlace adverso. No se identifica todavía un agresor inequívoco.",
+        "document_ids": [
+          "s2018-fff1d8ae4511::s000",
+          "s2018-fff1d8ae4511::s001",
+          "s2018-fff1d8ae4511::s002",
+          "s2018-fff1d8ae4511::s003"
+        ]
+      },
+      "voice": {
+        "paraphrase": "La voz relaciona percepciones y recuerdos con señales que interpreta como negativas. Después se presenta como alguien capaz de decidir su movimiento y resistir la inmovilidad.",
+        "experiencer": "Voz lírica principalmente en primera persona; el peligro es anticipado y metafórico.",
+        "uncertainty": "La voz lírica no se identifica con la persona del artista; las emociones y agentes que el texto no fija se mantienen inciertos.",
+        "document_ids": [
+          "s2018-fff1d8ae4511::s000",
+          "s2018-fff1d8ae4511::s002",
+          "s2018-fff1d8ae4511::s004"
+        ]
+      },
+      "stance": {
+        "paraphrase": "Presentimiento e inquietud que coexisten con resistencia y voluntad de actuar.",
+        "document_ids": [
+          "s2018-fff1d8ae4511::s000",
+          "s2018-fff1d8ae4511::s002",
+          "s2018-fff1d8ae4511::s004"
+        ]
+      },
+      "narrative_movement": {
+        "paraphrase": "La reiteración del mal augurio rodea un pasaje de afirmación personal. Esa coexistencia no equivale a demostrar que el peligro desaparece.",
+        "document_ids": [
+          "s2018-fff1d8ae4511::s000",
+          "s2018-fff1d8ae4511::s002",
+          "s2018-fff1d8ae4511::s004",
+          "s2018-fff1d8ae4511::s005",
+          "s2018-fff1d8ae4511::s006"
+        ],
+        "status": "lectura cualitativa; no curva emocional validada ni clase automática de arco"
+      },
+      "support": [
+        {
+          "interpretation": "Los presagios sitúan la amenaza antes de un acontecimiento plenamente explicado.",
+          "document_ids": [
+            "s2018-fff1d8ae4511::s000",
+            "s2018-fff1d8ae4511::s002"
+          ]
+        },
+        {
+          "interpretation": "La decisión de moverse introduce agencia dentro del marco ominoso.",
+          "document_ids": [
+            "s2018-fff1d8ae4511::s004"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "alternative_or_limitation": "La iniciativa del yo evita reducir la canción a indefensión. El estribillo y sus intervenciones vocales pueden sostener una atmósfera sin narrar un episodio nuevo.",
+          "document_ids": [
+            "s2018-fff1d8ae4511::s001",
+            "s2018-fff1d8ae4511::s003",
+            "s2018-fff1d8ae4511::s004",
+            "s2018-fff1d8ae4511::s005",
+            "s2018-fff1d8ae4511::s006"
+          ]
+        }
+      ],
+      "interpretive_limit": "Se trata de la letra de esta canción, no del arco completo de El Mal Querer, de su fuente literaria ni del videoclip. Esos contextos requieren una segunda unidad de análisis.",
+      "primary_bertopic_assignments": [
+        {
+          "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "seed": 17,
+          "assignment_file": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/section_assignments.csv",
+          "topic_ids_present": [
+            -1,
+            6,
+            11
+          ],
+          "unique_block_counts": {
+            "-1": 2,
+            "6": 1,
+            "11": 4
+          },
+          "unique_block_shares": {
+            "-1": 0.2857142857142857,
+            "6": 0.14285714285714285,
+            "11": 0.5714285714285714
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2018-fff1d8ae4511::s000",
+              "topic_id": -1
+            },
+            {
+              "document_id": "s2018-fff1d8ae4511::s001",
+              "topic_id": 11
+            },
+            {
+              "document_id": "s2018-fff1d8ae4511::s002",
+              "topic_id": 6
+            },
+            {
+              "document_id": "s2018-fff1d8ae4511::s003",
+              "topic_id": 11
+            },
+            {
+              "document_id": "s2018-fff1d8ae4511::s004",
+              "topic_id": -1
+            },
+            {
+              "document_id": "s2018-fff1d8ae4511::s005",
+              "topic_id": 11
+            },
+            {
+              "document_id": "s2018-fff1d8ae4511::s006",
+              "topic_id": 11
+            }
+          ],
+          "caveat": "Los números identifican grupos de esta ejecución y este modelo, no clases literarias. -1 es ruido. No se alinean IDs entre modelos ni se renombra un grupo por esta ficha."
+        },
+        {
+          "model_id": "intfloat/multilingual-e5-small",
+          "seed": 17,
+          "assignment_file": "results/intfloat--multilingual-e5-small/section_assignments.csv",
+          "topic_ids_present": [
+            1
+          ],
+          "unique_block_counts": {
+            "1": 7
+          },
+          "unique_block_shares": {
+            "1": 1.0
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2018-fff1d8ae4511::s000",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2018-fff1d8ae4511::s001",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2018-fff1d8ae4511::s002",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2018-fff1d8ae4511::s003",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2018-fff1d8ae4511::s004",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2018-fff1d8ae4511::s005",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2018-fff1d8ae4511::s006",
+              "topic_id": 1
+            }
+          ],
+          "caveat": "Los números identifican grupos de esta ejecución y este modelo, no clases literarias. -1 es ruido. No se alinean IDs entre modelos ni se renombra un grupo por esta ficha."
+        },
+        {
+          "model_id": "openai/text-embedding-3-large",
+          "seed": 17,
+          "assignment_file": "results/openai--text-embedding-3-large/section_assignments.csv",
+          "topic_ids_present": [
+            0
+          ],
+          "unique_block_counts": {
+            "0": 7
+          },
+          "unique_block_shares": {
+            "0": 1.0
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2018-fff1d8ae4511::s000",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2018-fff1d8ae4511::s001",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2018-fff1d8ae4511::s002",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2018-fff1d8ae4511::s003",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2018-fff1d8ae4511::s004",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2018-fff1d8ae4511::s005",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2018-fff1d8ae4511::s006",
+              "topic_id": 0
+            }
+          ],
+          "caveat": "Topic IDs are local to this posthoc provider extension; the existing reading is not a validated label."
+        }
+      ]
+    },
+    {
+      "card_id": "reading-08",
+      "song_id": "s2017-2c3252eb3c12",
+      "title": "La Puerta Violeta",
+      "artist": "Rozalén",
+      "year": 2017,
+      "language": "es",
+      "source_provider": "lrclib",
+      "lyrics_sha256": "3decffa8b45cc18cceaf80598c940d76d2c6dbdfdee214ff941fc60322dccfb1",
+      "document_count": 9,
+      "unique_block_count": 9,
+      "annotation_status": "propuesta interpretativa de un solo analista; no gold",
+      "proposed_subtopic": {
+        "label": "Opresión, silencio impuesto y reconstrucción de agencia",
+        "status": "tentative_reader_proposal",
+        "fear_status": "La voz se encuentra limitada y amenazada, pero también imagina una salida; no todos los bloques mantienen el mismo estado."
+      },
+      "situation": {
+        "paraphrase": "Una voz atrapada representa el daño como restricciones físicas, culpa y dificultad de hablar. La apertura de otro espacio desplaza el relato hacia una posibilidad de escape.",
+        "document_ids": [
+          "s2017-2c3252eb3c12::s000",
+          "s2017-2c3252eb3c12::s001",
+          "s2017-2c3252eb3c12::s002",
+          "s2017-2c3252eb3c12::s003",
+          "s2017-2c3252eb3c12::s005",
+          "s2017-2c3252eb3c12::s007",
+          "s2017-2c3252eb3c12::s008"
+        ]
+      },
+      "voice": {
+        "paraphrase": "El yo describe su propio encierro y posteriormente actúa para salir de él. Las figuras amenazantes son metafóricas; el texto no documenta por sí solo un episodio autobiográfico.",
+        "experiencer": "Narrador en primera persona que pasa de la limitación a la iniciativa.",
+        "uncertainty": "La voz lírica no se identifica con la persona del artista; las emociones y agentes que el texto no fija se mantienen inciertos.",
+        "document_ids": [
+          "s2017-2c3252eb3c12::s000",
+          "s2017-2c3252eb3c12::s001",
+          "s2017-2c3252eb3c12::s002",
+          "s2017-2c3252eb3c12::s003",
+          "s2017-2c3252eb3c12::s005",
+          "s2017-2c3252eb3c12::s007",
+          "s2017-2c3252eb3c12::s008"
+        ]
+      },
+      "stance": {
+        "paraphrase": "De opresión y vulnerabilidad a una afirmación de salida y supervivencia.",
+        "document_ids": [
+          "s2017-2c3252eb3c12::s000",
+          "s2017-2c3252eb3c12::s001",
+          "s2017-2c3252eb3c12::s002",
+          "s2017-2c3252eb3c12::s003",
+          "s2017-2c3252eb3c12::s007",
+          "s2017-2c3252eb3c12::s008"
+        ]
+      },
+      "narrative_movement": {
+        "paraphrase": "Las imágenes de daño se alternan con una salida repetida que cambia el espacio y la capacidad de actuar. Esa reorganización del relato es más informativa que un promedio de negatividad.",
+        "document_ids": [
+          "s2017-2c3252eb3c12::s000",
+          "s2017-2c3252eb3c12::s001",
+          "s2017-2c3252eb3c12::s002",
+          "s2017-2c3252eb3c12::s003",
+          "s2017-2c3252eb3c12::s005",
+          "s2017-2c3252eb3c12::s007",
+          "s2017-2c3252eb3c12::s008"
+        ],
+        "status": "lectura cualitativa; no curva emocional validada ni clase automática de arco"
+      },
+      "support": [
+        {
+          "interpretation": "El control del cuerpo y de la expresión configura un daño que no se reduce a tristeza.",
+          "document_ids": [
+            "s2017-2c3252eb3c12::s000",
+            "s2017-2c3252eb3c12::s001",
+            "s2017-2c3252eb3c12::s002",
+            "s2017-2c3252eb3c12::s005"
+          ]
+        },
+        {
+          "interpretation": "La salida aparece como acción de la voz y como transformación del espacio.",
+          "document_ids": [
+            "s2017-2c3252eb3c12::s003",
+            "s2017-2c3252eb3c12::s007",
+            "s2017-2c3252eb3c12::s008"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "alternative_or_limitation": "La ampliación del espacio y la iniciativa del yo contradicen una lectura de impotencia permanente. El final metafórico no prueba una recuperación material completa.",
+          "document_ids": [
+            "s2017-2c3252eb3c12::s003",
+            "s2017-2c3252eb3c12::s007",
+            "s2017-2c3252eb3c12::s008"
+          ]
+        }
+      ],
+      "interpretive_limit": "La contextualización pública de la canción como denuncia de violencia de género aporta una lectura relevante, pero esta ficha no identifica hechos biográficos ni resultados terapéuticos.",
+      "primary_bertopic_assignments": [
+        {
+          "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "seed": 17,
+          "assignment_file": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/section_assignments.csv",
+          "topic_ids_present": [
+            -1,
+            12,
+            13,
+            16
+          ],
+          "unique_block_counts": {
+            "-1": 4,
+            "12": 2,
+            "13": 1,
+            "16": 2
+          },
+          "unique_block_shares": {
+            "-1": 0.4444444444444444,
+            "12": 0.2222222222222222,
+            "13": 0.1111111111111111,
+            "16": 0.2222222222222222
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2017-2c3252eb3c12::s000",
+              "topic_id": -1
+            },
+            {
+              "document_id": "s2017-2c3252eb3c12::s001",
+              "topic_id": 12
+            },
+            {
+              "document_id": "s2017-2c3252eb3c12::s002",
+              "topic_id": 16
+            },
+            {
+              "document_id": "s2017-2c3252eb3c12::s003",
+              "topic_id": -1
+            },
+            {
+              "document_id": "s2017-2c3252eb3c12::s005",
+              "topic_id": 12
+            },
+            {
+              "document_id": "s2017-2c3252eb3c12::s007",
+              "topic_id": -1
+            },
+            {
+              "document_id": "s2017-2c3252eb3c12::s008",
+              "topic_id": -1
+            }
+          ],
+          "caveat": "Los números identifican grupos de esta ejecución y este modelo, no clases literarias. -1 es ruido. No se alinean IDs entre modelos ni se renombra un grupo por esta ficha."
+        },
+        {
+          "model_id": "intfloat/multilingual-e5-small",
+          "seed": 17,
+          "assignment_file": "results/intfloat--multilingual-e5-small/section_assignments.csv",
+          "topic_ids_present": [
+            1
+          ],
+          "unique_block_counts": {
+            "1": 9
+          },
+          "unique_block_shares": {
+            "1": 1.0
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2017-2c3252eb3c12::s000",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2017-2c3252eb3c12::s001",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2017-2c3252eb3c12::s002",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2017-2c3252eb3c12::s003",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2017-2c3252eb3c12::s005",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2017-2c3252eb3c12::s007",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2017-2c3252eb3c12::s008",
+              "topic_id": 1
+            }
+          ],
+          "caveat": "Los números identifican grupos de esta ejecución y este modelo, no clases literarias. -1 es ruido. No se alinean IDs entre modelos ni se renombra un grupo por esta ficha."
+        },
+        {
+          "model_id": "openai/text-embedding-3-large",
+          "seed": 17,
+          "assignment_file": "results/openai--text-embedding-3-large/section_assignments.csv",
+          "topic_ids_present": [
+            0
+          ],
+          "unique_block_counts": {
+            "0": 9
+          },
+          "unique_block_shares": {
+            "0": 1.0
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2017-2c3252eb3c12::s000",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2017-2c3252eb3c12::s001",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2017-2c3252eb3c12::s002",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2017-2c3252eb3c12::s003",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2017-2c3252eb3c12::s005",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2017-2c3252eb3c12::s007",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2017-2c3252eb3c12::s008",
+              "topic_id": 0
+            }
+          ],
+          "caveat": "Topic IDs are local to this posthoc provider extension; the existing reading is not a validated label."
+        }
+      ]
+    },
+    {
+      "card_id": "reading-09",
+      "song_id": "s2001-1b296546902b",
+      "title": "Color Esperanza",
+      "artist": "Diego Torres",
+      "year": 2001,
+      "language": "es",
+      "source_provider": "lrclib",
+      "lyrics_sha256": "fdb8ca54fd415a35f8d353ea6f2693a9c41dd4a21abf70ff3e607142e2d31533",
+      "document_count": 21,
+      "unique_block_count": 10,
+      "annotation_status": "propuesta interpretativa de un solo analista; no gold",
+      "proposed_subtopic": {
+        "label": "Respuesta al temor mediante exhortación y posibilidad de cambio",
+        "status": "tentative_reader_proposal",
+        "fear_status": "El miedo aparece como obstáculo a afrontar, no como descripción constante de un estado aterrorizado."
+      },
+      "situation": {
+        "paraphrase": "Una voz habla a alguien desalentado y propone actuar ante la incertidumbre. El temor aparece entre los obstáculos que pueden impedir iniciar un cambio.",
+        "document_ids": [
+          "s2001-1b296546902b::s000",
+          "s2001-1b296546902b::s001",
+          "s2001-1b296546902b::s002",
+          "s2001-1b296546902b::s003",
+          "s2001-1b296546902b::s004",
+          "s2001-1b296546902b::s005"
+        ]
+      },
+      "voice": {
+        "paraphrase": "Un yo se dirige a un tú y adopta una posición de acompañamiento y estímulo. Que la voz invite a afrontar el miedo no demuestra que ella misma lo esté padeciendo.",
+        "experiencer": "Interlocutor desalentado; la voz ofrece apoyo y exhortación.",
+        "uncertainty": "La voz lírica no se identifica con la persona del artista; las emociones y agentes que el texto no fija se mantienen inciertos.",
+        "document_ids": [
+          "s2001-1b296546902b::s000",
+          "s2001-1b296546902b::s001",
+          "s2001-1b296546902b::s002",
+          "s2001-1b296546902b::s003",
+          "s2001-1b296546902b::s005"
+        ]
+      },
+      "stance": {
+        "paraphrase": "Afrontamiento y esperanza, con reconocimiento de dificultad y esfuerzo.",
+        "document_ids": [
+          "s2001-1b296546902b::s001",
+          "s2001-1b296546902b::s002",
+          "s2001-1b296546902b::s003",
+          "s2001-1b296546902b::s004",
+          "s2001-1b296546902b::s005",
+          "s2001-1b296546902b::s017"
+        ]
+      },
+      "narrative_movement": {
+        "paraphrase": "El desaliento inicial recibe una respuesta afirmativa que reaparece muchas veces. Las repeticiones refuerzan una orientación de acción sin relatar cada paso de una transformación efectiva.",
+        "document_ids": [
+          "s2001-1b296546902b::s000",
+          "s2001-1b296546902b::s001",
+          "s2001-1b296546902b::s002",
+          "s2001-1b296546902b::s003",
+          "s2001-1b296546902b::s005",
+          "s2001-1b296546902b::s017"
+        ],
+        "status": "lectura cualitativa; no curva emocional validada ni clase automática de arco"
+      },
+      "support": [
+        {
+          "interpretation": "Las referencias a temor se inscriben en una invitación a cambiar y actuar.",
+          "document_ids": [
+            "s2001-1b296546902b::s001",
+            "s2001-1b296546902b::s002",
+            "s2001-1b296546902b::s004",
+            "s2001-1b296546902b::s005"
+          ]
+        },
+        {
+          "interpretation": "El apoyo y la posibilidad de futuro dominan la respuesta de la voz.",
+          "document_ids": [
+            "s2001-1b296546902b::s003",
+            "s2001-1b296546902b::s013",
+            "s2001-1b296546902b::s017"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "alternative_or_limitation": "Las dificultades reconocidas impiden leer esperanza como ausencia total de conflicto. A la vez, contar la palabra de miedo convertiría indebidamente la exhortación en miedo experimentado.",
+          "document_ids": [
+            "s2001-1b296546902b::s000",
+            "s2001-1b296546902b::s002",
+            "s2001-1b296546902b::s003",
+            "s2001-1b296546902b::s005"
+          ]
+        }
+      ],
+      "interpretive_limit": "La etiqueta de selección fear solo conservó el caso para contraste; no es una etiqueta de emoción validada. La canción tampoco demuestra que la exhortación produzca bienestar en oyentes.",
+      "primary_bertopic_assignments": [
+        {
+          "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "seed": 17,
+          "assignment_file": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/section_assignments.csv",
+          "topic_ids_present": [
+            -1,
+            0,
+            1,
+            4,
+            5,
+            8,
+            9
+          ],
+          "unique_block_counts": {
+            "-1": 2,
+            "0": 1,
+            "1": 1,
+            "4": 1,
+            "5": 3,
+            "8": 1,
+            "9": 1
+          },
+          "unique_block_shares": {
+            "-1": 0.2,
+            "0": 0.1,
+            "1": 0.1,
+            "4": 0.1,
+            "5": 0.3,
+            "8": 0.1,
+            "9": 0.1
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2001-1b296546902b::s000",
+              "topic_id": -1
+            },
+            {
+              "document_id": "s2001-1b296546902b::s001",
+              "topic_id": 5
+            },
+            {
+              "document_id": "s2001-1b296546902b::s002",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2001-1b296546902b::s003",
+              "topic_id": -1
+            },
+            {
+              "document_id": "s2001-1b296546902b::s004",
+              "topic_id": 4
+            },
+            {
+              "document_id": "s2001-1b296546902b::s005",
+              "topic_id": 8
+            },
+            {
+              "document_id": "s2001-1b296546902b::s013",
+              "topic_id": 5
+            },
+            {
+              "document_id": "s2001-1b296546902b::s017",
+              "topic_id": 5
+            }
+          ],
+          "caveat": "Los números identifican grupos de esta ejecución y este modelo, no clases literarias. -1 es ruido. No se alinean IDs entre modelos ni se renombra un grupo por esta ficha."
+        },
+        {
+          "model_id": "intfloat/multilingual-e5-small",
+          "seed": 17,
+          "assignment_file": "results/intfloat--multilingual-e5-small/section_assignments.csv",
+          "topic_ids_present": [
+            1
+          ],
+          "unique_block_counts": {
+            "1": 10
+          },
+          "unique_block_shares": {
+            "1": 1.0
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2001-1b296546902b::s000",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2001-1b296546902b::s001",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2001-1b296546902b::s002",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2001-1b296546902b::s003",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2001-1b296546902b::s004",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2001-1b296546902b::s005",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2001-1b296546902b::s013",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2001-1b296546902b::s017",
+              "topic_id": 1
+            }
+          ],
+          "caveat": "Los números identifican grupos de esta ejecución y este modelo, no clases literarias. -1 es ruido. No se alinean IDs entre modelos ni se renombra un grupo por esta ficha."
+        },
+        {
+          "model_id": "openai/text-embedding-3-large",
+          "seed": 17,
+          "assignment_file": "results/openai--text-embedding-3-large/section_assignments.csv",
+          "topic_ids_present": [
+            0
+          ],
+          "unique_block_counts": {
+            "0": 10
+          },
+          "unique_block_shares": {
+            "0": 1.0
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2001-1b296546902b::s000",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2001-1b296546902b::s001",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2001-1b296546902b::s002",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2001-1b296546902b::s003",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2001-1b296546902b::s004",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2001-1b296546902b::s005",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2001-1b296546902b::s013",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2001-1b296546902b::s017",
+              "topic_id": 0
+            }
+          ],
+          "caveat": "Topic IDs are local to this posthoc provider extension; the existing reading is not a validated label."
+        }
+      ]
+    },
+    {
+      "card_id": "reading-10",
+      "song_id": "s2021-27c16cbb8cff",
+      "title": "Your Power",
+      "artist": "Billie Eilish",
+      "year": 2021,
+      "language": "en",
+      "source_provider": "lrclib",
+      "lyrics_sha256": "5908cf65cb42cef2c42b5d4f601b19e37a2c333db42255e0acb7d8efad8468b6",
+      "document_count": 7,
+      "unique_block_count": 6,
+      "annotation_status": "propuesta interpretativa de un solo analista; no gold",
+      "proposed_subtopic": {
+        "label": "Asimetría de poder, vulnerabilidad y responsabilidad por el daño",
+        "status": "tentative_reader_proposal",
+        "fear_status": "El eje textual es la coerción y su evaluación moral; el miedo no se atribuye automáticamente a toda voz que habla de abuso."
+      },
+      "situation": {
+        "paraphrase": "El texto examina una relación desigual en la que una figura con poder daña a alguien vulnerable. Los indicios de edad, dependencia y control importan más que una amenaza genérica sin contexto.",
+        "document_ids": [
+          "s2021-27c16cbb8cff::s000",
+          "s2021-27c16cbb8cff::s001",
+          "s2021-27c16cbb8cff::s004",
+          "s2021-27c16cbb8cff::s006"
+        ]
+      },
+      "voice": {
+        "paraphrase": "La voz interpela a quien posee poder, describe daño a una tercera persona y también introduce una implicación del yo. Esa variación exige distinguir a quien denuncia, a quien padece y a quien debe responder.",
+        "experiencer": "Persona vulnerable descrita y yo parcialmente implicado; el destinatario principal es la figura con poder.",
+        "uncertainty": "La voz lírica no se identifica con la persona del artista; las emociones y agentes que el texto no fija se mantienen inciertos.",
+        "document_ids": [
+          "s2021-27c16cbb8cff::s001",
+          "s2021-27c16cbb8cff::s002",
+          "s2021-27c16cbb8cff::s004",
+          "s2021-27c16cbb8cff::s005"
+        ]
+      },
+      "stance": {
+        "paraphrase": "Interpelación ética y atribución de responsabilidad, con cuidado hacia la persona dañada.",
+        "document_ids": [
+          "s2021-27c16cbb8cff::s000",
+          "s2021-27c16cbb8cff::s001",
+          "s2021-27c16cbb8cff::s002",
+          "s2021-27c16cbb8cff::s004",
+          "s2021-27c16cbb8cff::s005",
+          "s2021-27c16cbb8cff::s006"
+        ]
+      },
+      "narrative_movement": {
+        "paraphrase": "El principio de responsabilidad reaparece alrededor de ejemplos de daño y preguntas al destinatario. Predomina la confrontación moral sobre una narración de recuperación cerrada.",
+        "document_ids": [
+          "s2021-27c16cbb8cff::s000",
+          "s2021-27c16cbb8cff::s001",
+          "s2021-27c16cbb8cff::s002",
+          "s2021-27c16cbb8cff::s004",
+          "s2021-27c16cbb8cff::s005",
+          "s2021-27c16cbb8cff::s006"
+        ],
+        "status": "lectura cualitativa; no curva emocional validada ni clase automática de arco"
+      },
+      "support": [
+        {
+          "interpretation": "La diferencia de poder estructura el daño representado.",
+          "document_ids": [
+            "s2021-27c16cbb8cff::s000",
+            "s2021-27c16cbb8cff::s001",
+            "s2021-27c16cbb8cff::s004",
+            "s2021-27c16cbb8cff::s006"
+          ]
+        },
+        {
+          "interpretation": "Los cambios de referencia personal hacen necesario separar al experienciador del destinatario de la crítica.",
+          "document_ids": [
+            "s2021-27c16cbb8cff::s001",
+            "s2021-27c16cbb8cff::s002",
+            "s2021-27c16cbb8cff::s004",
+            "s2021-27c16cbb8cff::s005"
+          ]
+        }
+      ],
+      "counterevidence": [
+        {
+          "alternative_or_limitation": "Denunciar abuso no equivale a expresar miedo en primera persona. Las preguntas al responsable pueden transmitir indignación, juicio o decepción sin nombrar una emoción única.",
+          "document_ids": [
+            "s2021-27c16cbb8cff::s000",
+            "s2021-27c16cbb8cff::s002",
+            "s2021-27c16cbb8cff::s005",
+            "s2021-27c16cbb8cff::s006"
+          ]
+        }
+      ],
+      "interpretive_limit": "No se identifica al destinatario con una persona real ni se establecen hechos judiciales o biográficos. La relación entre vulnerabilidad, amenaza y miedo queda como pregunta interpretativa.",
+      "primary_bertopic_assignments": [
+        {
+          "model_id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+          "seed": 17,
+          "assignment_file": "results/sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2/section_assignments.csv",
+          "topic_ids_present": [
+            -1,
+            0,
+            4
+          ],
+          "unique_block_counts": {
+            "-1": 3,
+            "0": 1,
+            "4": 2
+          },
+          "unique_block_shares": {
+            "-1": 0.5,
+            "0": 0.16666666666666666,
+            "4": 0.3333333333333333
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2021-27c16cbb8cff::s000",
+              "topic_id": 4
+            },
+            {
+              "document_id": "s2021-27c16cbb8cff::s001",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2021-27c16cbb8cff::s002",
+              "topic_id": -1
+            },
+            {
+              "document_id": "s2021-27c16cbb8cff::s004",
+              "topic_id": -1
+            },
+            {
+              "document_id": "s2021-27c16cbb8cff::s005",
+              "topic_id": -1
+            },
+            {
+              "document_id": "s2021-27c16cbb8cff::s006",
+              "topic_id": 4
+            }
+          ],
+          "caveat": "Los números identifican grupos de esta ejecución y este modelo, no clases literarias. -1 es ruido. No se alinean IDs entre modelos ni se renombra un grupo por esta ficha."
+        },
+        {
+          "model_id": "intfloat/multilingual-e5-small",
+          "seed": 17,
+          "assignment_file": "results/intfloat--multilingual-e5-small/section_assignments.csv",
+          "topic_ids_present": [
+            0
+          ],
+          "unique_block_counts": {
+            "0": 6
+          },
+          "unique_block_shares": {
+            "0": 1.0
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2021-27c16cbb8cff::s000",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2021-27c16cbb8cff::s001",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2021-27c16cbb8cff::s002",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2021-27c16cbb8cff::s004",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2021-27c16cbb8cff::s005",
+              "topic_id": 0
+            },
+            {
+              "document_id": "s2021-27c16cbb8cff::s006",
+              "topic_id": 0
+            }
+          ],
+          "caveat": "Los números identifican grupos de esta ejecución y este modelo, no clases literarias. -1 es ruido. No se alinean IDs entre modelos ni se renombra un grupo por esta ficha."
+        },
+        {
+          "model_id": "openai/text-embedding-3-large",
+          "seed": 17,
+          "assignment_file": "results/openai--text-embedding-3-large/section_assignments.csv",
+          "topic_ids_present": [
+            1
+          ],
+          "unique_block_counts": {
+            "1": 6
+          },
+          "unique_block_shares": {
+            "1": 1.0
+          },
+          "evidence_document_assignments": [
+            {
+              "document_id": "s2021-27c16cbb8cff::s000",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2021-27c16cbb8cff::s001",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2021-27c16cbb8cff::s002",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2021-27c16cbb8cff::s004",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2021-27c16cbb8cff::s005",
+              "topic_id": 1
+            },
+            {
+              "document_id": "s2021-27c16cbb8cff::s006",
+              "topic_id": 1
+            }
+          ],
+          "caveat": "Topic IDs are local to this posthoc provider extension; the existing reading is not a validated label."
+        }
+      ]
+    }
+  ]
+}

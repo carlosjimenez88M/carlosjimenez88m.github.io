@@ -1,0 +1,2331 @@
+[
+  {
+    "song_id": "s2004-641528a4ed5c",
+    "title": "La Camisa Negra",
+    "artist": "Juanes",
+    "year": 2004,
+    "decade": 2000,
+    "language": "es",
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "unresolved",
+      "fear_relevance": "unresolved",
+      "fear_polarity": "unresolved",
+      "subtopics": [
+        "loss_abandonment"
+      ],
+      "arc": "repetition"
+    },
+    "supporting_vote_count": 2,
+    "models": [
+      "openai/gpt-5.4-mini",
+      "openai/gpt-5.4-nano"
+    ],
+    "stages": [
+      "independent_reader",
+      "independent_reader"
+    ],
+    "readings": [
+      {
+        "voice": "first_singular",
+        "stance": "resistance",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "arc": "repetition",
+        "subtopics": [
+          "loss_abandonment",
+          "relational_coercion"
+        ],
+        "label": "Duelo amoroso con desafío repetido",
+        "summary": "Pérdida afectiva y reproche insistente.",
+        "steps": [
+          {
+            "ids": [
+              "b002",
+              "b003"
+            ],
+            "state": "loss",
+            "reading": "Dolor amoroso y ruptura asumida.",
+            "source_document_ids": [
+              "s2004-641528a4ed5c::s001",
+              "s2004-641528a4ed5c::s002"
+            ]
+          },
+          {
+            "ids": [
+              "b004",
+              "b005"
+            ],
+            "state": "loss",
+            "reading": "Culpa, engaño y desgaste afectivo.",
+            "source_document_ids": [
+              "s2004-641528a4ed5c::s003",
+              "s2004-641528a4ed5c::s004"
+            ]
+          },
+          {
+            "ids": [
+              "b010",
+              "b011"
+            ],
+            "state": "agency",
+            "reading": "Desinterés declarado y espera tensa.",
+            "source_document_ids": [
+              "s2004-641528a4ed5c::s009",
+              "s2004-641528a4ed5c::s010"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "repetition",
+            "reading": "El daño se reitera como queja."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "contrast",
+            "reading": "Del lamento pasa al desdén."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      },
+      {
+        "voice": "first_singular",
+        "stance": "resignation",
+        "fear_relevance": "implied",
+        "fear_polarity": "mixed",
+        "arc": "repetition",
+        "subtopics": [
+          "fragility_identity",
+          "loss_abandonment"
+        ],
+        "label": "Luto repetido tras abandono amoroso",
+        "summary": "Pena persistente y alma oscurecida por pérdida.",
+        "steps": [
+          {
+            "ids": [
+              "b002",
+              "b003"
+            ],
+            "state": "loss",
+            "reading": "Luto interior por no ser querido",
+            "source_document_ids": [
+              "s2004-641528a4ed5c::s001",
+              "s2004-641528a4ed5c::s002"
+            ]
+          },
+          {
+            "ids": [
+              "b005",
+              "b006"
+            ],
+            "state": "exposure",
+            "reading": "Veneno amoroso deja dolor y calma rota",
+            "source_document_ids": [
+              "s2004-641528a4ed5c::s004",
+              "s2004-641528a4ed5c::s005"
+            ]
+          },
+          {
+            "ids": [
+              "b010",
+              "b011"
+            ],
+            "state": "negation",
+            "reading": "Amor se apaga; queda espera y vacío",
+            "source_document_ids": [
+              "s2004-641528a4ed5c::s009",
+              "s2004-641528a4ed5c::s010"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "turn",
+            "reading": "La pena se vuelve daño físico-emocional"
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "repetition",
+            "reading": "Se repite el luto, pero cambia el interés"
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      }
+    ],
+    "selection": "All cases with>=2strict-valid anchored votes for same arc category;illustrative support list,not representative temporal sample."
+  },
+  {
+    "song_id": "s2002-74fa275abd80",
+    "title": "A Dios Le Pido",
+    "artist": "Juanes",
+    "year": 2002,
+    "decade": 2000,
+    "language": "es",
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "implied",
+      "fear_polarity": "hypothetical",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ],
+      "arc": "repetition"
+    },
+    "supporting_vote_count": 2,
+    "models": [
+      "openai/gpt-5.4-mini",
+      "openai/gpt-5.4-mini"
+    ],
+    "stages": [
+      "independent_reader",
+      "bounded_third_review"
+    ],
+    "readings": [
+      {
+        "voice": "first_singular",
+        "stance": "care",
+        "fear_relevance": "implied",
+        "fear_polarity": "hypothetical",
+        "arc": "repetition",
+        "subtopics": [
+          "fragility_identity",
+          "loss_abandonment"
+        ],
+        "label": "Ruego afectivo ante pérdidas posibles",
+        "summary": "Pide protección para vínculos, vida y memoria.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "care",
+            "reading": "Ruego por cercanía, familia y comunidad herida.",
+            "source_document_ids": [
+              "s2002-74fa275abd80::s000",
+              "s2002-74fa275abd80::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b003",
+              "b004"
+            ],
+            "state": "reflection",
+            "reading": "Desea más tiempo y amor sin ruptura.",
+            "source_document_ids": [
+              "s2002-74fa275abd80::s002",
+              "s2002-74fa275abd80::s003"
+            ]
+          },
+          {
+            "ids": [
+              "b005",
+              "b011"
+            ],
+            "state": "reflection",
+            "reading": "La súplica se repite como hábito insistente.",
+            "source_document_ids": [
+              "s2002-74fa275abd80::s004",
+              "s2002-74fa275abd80::s010"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "turn",
+            "reading": "Pasa de pedir resguardo a pedir permanencia."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "repetition",
+            "reading": "La fórmula vuelve sin cambiar la postura."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      },
+      {
+        "voice": "first_singular",
+        "stance": "care",
+        "fear_relevance": "implied",
+        "fear_polarity": "hypothetical",
+        "arc": "repetition",
+        "subtopics": [
+          "fragility_identity",
+          "loss_abandonment"
+        ],
+        "label": "Peticiones afectivas y vitales repetidas",
+        "summary": "Voz íntima pide protección, permanencia y amor.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "care",
+            "reading": "Pide resguardo para vínculos, familia y pueblo.",
+            "source_document_ids": [
+              "s2002-74fa275abd80::s000",
+              "s2002-74fa275abd80::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b003",
+              "b004"
+            ],
+            "state": "reflection",
+            "reading": "Desea más vida y amor compartido.",
+            "source_document_ids": [
+              "s2002-74fa275abd80::s002",
+              "s2002-74fa275abd80::s003"
+            ]
+          },
+          {
+            "ids": [
+              "b005",
+              "b011"
+            ],
+            "state": "celebration",
+            "reading": "Reitera la súplica diaria sin cambio claro.",
+            "source_document_ids": [
+              "s2002-74fa275abd80::s004",
+              "s2002-74fa275abd80::s010"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "repetition",
+            "reading": "Amplía la petición hacia duración y entrega."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "repetition",
+            "reading": "Vuelve al estribillo, sosteniendo la misma postura."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      }
+    ],
+    "selection": "All cases with>=2strict-valid anchored votes for same arc category;illustrative support list,not representative temporal sample."
+  },
+  {
+    "song_id": "s2013-877c19a80720",
+    "title": "Vivir Mi Vida",
+    "artist": "Marc Anthony",
+    "year": 2013,
+    "decade": 2010,
+    "language": "es",
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "uncertainty_change"
+      ],
+      "arc": "repetition"
+    },
+    "supporting_vote_count": 2,
+    "models": [
+      "openai/gpt-5.4-mini",
+      "openai/gpt-5.4-nano"
+    ],
+    "stages": [
+      "independent_reader",
+      "independent_reader"
+    ],
+    "readings": [
+      {
+        "voice": "first_singular",
+        "stance": "resistance",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "arc": "repetition",
+        "subtopics": [
+          "other",
+          "uncertainty_change"
+        ],
+        "label": "Afirmación vital repetida",
+        "summary": "Predomina una voz que insiste en vivir y seguir.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "celebration",
+            "reading": "Repite una afirmación gozosa y corporal.",
+            "source_document_ids": [
+              "s2013-877c19a80720::s000",
+              "s2013-877c19a80720::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b003",
+              "b004"
+            ],
+            "state": "reflection",
+            "reading": "Introduce heridas, lluvia y sentido del dolor.",
+            "source_document_ids": [
+              "s2013-877c19a80720::s002",
+              "s2013-877c19a80720::s003"
+            ]
+          },
+          {
+            "ids": [
+              "b006",
+              "b011"
+            ],
+            "state": "agency",
+            "reading": "Propone atención, avance y orientación hacia adelante.",
+            "source_document_ids": [
+              "s2013-877c19a80720::s005",
+              "s2013-877c19a80720::s010"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "turn",
+            "reading": "La celebración incorpora una reflexión sobre el dolor."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "turn",
+            "reading": "La reflexión deriva en impulso de avance."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      },
+      {
+        "voice": "first_singular",
+        "stance": "resistance",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "arc": "repetition",
+        "subtopics": [
+          "loss_abandonment",
+          "uncertainty_change"
+        ],
+        "label": "Alegría como respuesta a pena y sequía",
+        "summary": "Risa y baile sustituyen llanto; el destino se busca.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "celebration",
+            "reading": "Risa y baile afirman vivir el presente",
+            "source_document_ids": [
+              "s2013-877c19a80720::s000",
+              "s2013-877c19a80720::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b003",
+              "b004"
+            ],
+            "state": "negation",
+            "reading": "La lluvia cura; el llanto se descarta",
+            "source_document_ids": [
+              "s2013-877c19a80720::s002",
+              "s2013-877c19a80720::s003"
+            ]
+          },
+          {
+            "ids": [
+              "b006",
+              "b009"
+            ],
+            "state": "agency",
+            "reading": "Silencio y sueño orientan el camino",
+            "source_document_ids": [
+              "s2013-877c19a80720::s005",
+              "s2013-877c19a80720::s008"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "repetition",
+            "reading": "La celebración responde a la pena"
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "turn",
+            "reading": "Del consuelo se pasa a buscar destino"
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      }
+    ],
+    "selection": "All cases with>=2strict-valid anchored votes for same arc category;illustrative support list,not representative temporal sample."
+  },
+  {
+    "song_id": "s2013-608a7aee9a18",
+    "title": "Happy",
+    "artist": "Pharrell Williams",
+    "year": 2013,
+    "decade": 2010,
+    "language": "en",
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "unresolved",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "other"
+      ],
+      "arc": "repetition"
+    },
+    "supporting_vote_count": 2,
+    "models": [
+      "openai/gpt-5.4-mini",
+      "openai/gpt-5.4-nano"
+    ],
+    "stages": [
+      "independent_reader",
+      "independent_reader"
+    ],
+    "readings": [
+      {
+        "voice": "first_singular",
+        "stance": "resistance",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "arc": "repetition",
+        "subtopics": [
+          "other"
+        ],
+        "label": "Afirmación alegre frente a intento de bajarla",
+        "summary": "Voz en primera persona sostiene alegría y rechazo al descenso.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "celebration",
+            "reading": "Presentación jubilosa con imagen de ligereza y distancia.",
+            "source_document_ids": [
+              "s2013-608a7aee9a18::s000",
+              "s2013-608a7aee9a18::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b004",
+              "b006"
+            ],
+            "state": "confrontation",
+            "reading": "Responde a malas noticias negando su efecto.",
+            "source_document_ids": [
+              "s2013-608a7aee9a18::s003",
+              "s2013-608a7aee9a18::s005"
+            ]
+          },
+          {
+            "ids": [
+              "b009",
+              "b010"
+            ],
+            "state": "reflection",
+            "reading": "Reitera la misma afirmación sin cambio visible.",
+            "source_document_ids": [
+              "s2013-608a7aee9a18::s008",
+              "s2013-608a7aee9a18::s009"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "confrontation",
+            "reading": "La alegría inicial enfrenta el intento de desánimo."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "repetition",
+            "reading": "La respuesta se mantiene y se repite."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      },
+      {
+        "voice": "first_singular",
+        "stance": "care",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "arc": "repetition",
+        "subtopics": [
+          "other",
+          "uncertainty_change"
+        ],
+        "label": "Alegría que invita y desactiva la amenaza",
+        "summary": "Se afirma bienestar; se invita a acompañar.",
+        "steps": [
+          {
+            "ids": [
+              "b002",
+              "b003"
+            ],
+            "state": "celebration",
+            "reading": "Propuesta lúdica: felicidad como verdad compartida",
+            "source_document_ids": [
+              "s2013-608a7aee9a18::s001",
+              "s2013-608a7aee9a18::s002"
+            ]
+          },
+          {
+            "ids": [
+              "b004",
+              "b006"
+            ],
+            "state": "negation",
+            "reading": "Se anticipan malas noticias; se niega daño",
+            "source_document_ids": [
+              "s2013-608a7aee9a18::s003",
+              "s2013-608a7aee9a18::s005"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "turn",
+            "reading": "La invitación responde a la advertencia"
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      }
+    ],
+    "selection": "All cases with>=2strict-valid anchored votes for same arc category;illustrative support list,not representative temporal sample."
+  },
+  {
+    "song_id": "s2008-4db2a4ef136d",
+    "title": "Disturbia",
+    "artist": "Rihanna",
+    "year": 2008,
+    "decade": 2000,
+    "language": "en",
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "arc": "repetition"
+    },
+    "supporting_vote_count": 2,
+    "models": [
+      "openai/gpt-5.4-mini",
+      "openai/gpt-5.4-mini"
+    ],
+    "stages": [
+      "independent_reader",
+      "bounded_third_review"
+    ],
+    "readings": [
+      {
+        "voice": "first_singular",
+        "stance": "ambivalence",
+        "fear_relevance": "explicit",
+        "fear_polarity": "mixed",
+        "arc": "repetition",
+        "subtopics": [
+          "fragility_identity",
+          "uncertainty_change"
+        ],
+        "label": "Mente alterada, salida buscada",
+        "summary": "Voz íntima oscila entre desorden mental y escape.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "reflection",
+            "reading": "Se formula malestar interno y bloqueo mental.",
+            "source_document_ids": [
+              "s2008-4db2a4ef136d::s000",
+              "s2008-4db2a4ef136d::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b003",
+              "b005"
+            ],
+            "state": "threat",
+            "reading": "Se presenta una amenaza mental que altera la percepción.",
+            "source_document_ids": [
+              "s2008-4db2a4ef136d::s002",
+              "s2008-4db2a4ef136d::s004"
+            ]
+          },
+          {
+            "ids": [
+              "b007",
+              "b012"
+            ],
+            "state": "loss",
+            "reading": "Aparecen aislamiento y deseo de liberación.",
+            "source_document_ids": [
+              "s2008-4db2a4ef136d::s006",
+              "s2008-4db2a4ef136d::s011"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "turn",
+            "reading": "El malestar pasa a amenaza mental nombrada."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "unresolved",
+            "reading": "La amenaza persiste y se pide salida."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      },
+      {
+        "voice": "first_singular",
+        "stance": "ambivalence",
+        "fear_relevance": "explicit",
+        "fear_polarity": "mixed",
+        "arc": "repetition",
+        "subtopics": [
+          "fragility_identity",
+          "uncertainty_change"
+        ],
+        "label": "Voz inquieta, advertencia repetida",
+        "summary": "Una voz oscila entre alarma interna y aviso externo.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "reflection",
+            "reading": "Se formula malestar interno y bloqueo mental.",
+            "source_document_ids": [
+              "s2008-4db2a4ef136d::s000",
+              "s2008-4db2a4ef136d::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b003",
+              "b005"
+            ],
+            "state": "threat",
+            "reading": "Se presenta una amenaza mental y advertencia al otro.",
+            "source_document_ids": [
+              "s2008-4db2a4ef136d::s002",
+              "s2008-4db2a4ef136d::s004"
+            ]
+          },
+          {
+            "ids": [
+              "b007",
+              "b012"
+            ],
+            "state": "loss",
+            "reading": "Aparecen desconexión, aislamiento y pedido de liberación.",
+            "source_document_ids": [
+              "s2008-4db2a4ef136d::s006",
+              "s2008-4db2a4ef136d::s011"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "repetition",
+            "reading": "La alarma se reformula como amenaza mental."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "turn",
+            "reading": "La advertencia deriva en deseo de salida."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      }
+    ],
+    "selection": "All cases with>=2strict-valid anchored votes for same arc category;illustrative support list,not representative temporal sample."
+  },
+  {
+    "song_id": "s2014-27b61f0565ce",
+    "title": "Out Of The Woods",
+    "artist": "Taylor Swift",
+    "year": 2014,
+    "decade": 2010,
+    "language": "en",
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "implied",
+      "fear_polarity": "hypothetical",
+      "subtopics": [
+        "fragility_identity",
+        "uncertainty_change"
+      ],
+      "arc": "repetition"
+    },
+    "supporting_vote_count": 2,
+    "models": [
+      "openai/gpt-5.4-nano",
+      "openai/gpt-5.4-mini"
+    ],
+    "stages": [
+      "independent_reader",
+      "bounded_third_review"
+    ],
+    "readings": [
+      {
+        "voice": "first_collective",
+        "stance": "ambivalence",
+        "fear_relevance": "implied",
+        "fear_polarity": "mixed",
+        "arc": "repetition",
+        "subtopics": [
+          "loss_abandonment",
+          "uncertainty_change"
+        ],
+        "label": "Salir del peligro, pero dudar",
+        "summary": "Se repite la duda de estar a salvo.",
+        "steps": [
+          {
+            "ids": [
+              "b003",
+              "b005"
+            ],
+            "state": "avoidance",
+            "reading": "Buscan seguridad, pero no confían aún",
+            "source_document_ids": [
+              "s2014-27b61f0565ce::s002",
+              "s2014-27b61f0565ce::s004"
+            ]
+          },
+          {
+            "ids": [
+              "b013",
+              "b014"
+            ],
+            "state": "reflection",
+            "reading": "Recuerdan heridas y liberación incompleta",
+            "source_document_ids": [
+              "s2014-27b61f0565ce::s012",
+              "s2014-27b61f0565ce::s013"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "turn",
+            "reading": "La duda se ancla en recuerdos dolorosos"
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      },
+      {
+        "voice": "first_singular",
+        "stance": "ambivalence",
+        "fear_relevance": "explicit",
+        "fear_polarity": "hypothetical",
+        "arc": "repetition",
+        "subtopics": [
+          "fragility_identity",
+          "uncertainty_change"
+        ],
+        "label": "Duda persistente sobre seguridad compartida",
+        "summary": "Recuerdo íntimo con dudas repetidas sobre seguridad.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "reflection",
+            "reading": "Recuerdo íntimo y contraste visual compartido.",
+            "source_document_ids": [
+              "s2014-27b61f0565ce::s000",
+              "s2014-27b61f0565ce::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b003",
+              "b006"
+            ],
+            "state": "unclear",
+            "reading": "Pregunta reiterada sobre estar a salvo.",
+            "source_document_ids": [
+              "s2014-27b61f0565ce::s002",
+              "s2014-27b61f0565ce::s005"
+            ]
+          },
+          {
+            "ids": [
+              "b013",
+              "b016"
+            ],
+            "state": "reflection",
+            "reading": "Recuerdo de daño, alivio y reconocimiento.",
+            "source_document_ids": [
+              "s2014-27b61f0565ce::s012",
+              "s2014-27b61f0565ce::s015"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "repetition",
+            "reading": "La duda se repite sin resolverse."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "contrast",
+            "reading": "El recuerdo introduce un alivio parcial."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      }
+    ],
+    "selection": "All cases with>=2strict-valid anchored votes for same arc category;illustrative support list,not representative temporal sample."
+  },
+  {
+    "song_id": "s2026-2e43c234ac58",
+    "title": "Aperture",
+    "artist": "Harry Styles",
+    "year": 2026,
+    "decade": 2020,
+    "language": "en",
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "unresolved",
+      "fear_relevance": "implied",
+      "fear_polarity": "unresolved",
+      "subtopics": [
+        "uncertainty_change"
+      ],
+      "arc": "turn"
+    },
+    "supporting_vote_count": 2,
+    "models": [
+      "openai/gpt-5.4-mini",
+      "openai/gpt-5.4-nano"
+    ],
+    "stages": [
+      "independent_reader",
+      "independent_reader"
+    ],
+    "readings": [
+      {
+        "voice": "first_singular",
+        "stance": "ambivalence",
+        "fear_relevance": "implied",
+        "fear_polarity": "hypothetical",
+        "arc": "turn",
+        "subtopics": [
+          "relational_coercion",
+          "uncertainty_change"
+        ],
+        "label": "Duda íntima y vínculo insistente",
+        "summary": "Avanza de ajuste incierto a apego insistente.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "reflection",
+            "reading": "Ajuste personal con impulso de limpieza.",
+            "source_document_ids": [
+              "s2026-2e43c234ac58::s000",
+              "s2026-2e43c234ac58::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b003",
+              "b004"
+            ],
+            "state": "unclear",
+            "reading": "Autorrevisión y vínculo que aclara.",
+            "source_document_ids": [
+              "s2026-2e43c234ac58::s002",
+              "s2026-2e43c234ac58::s003"
+            ]
+          },
+          {
+            "ids": [
+              "b005",
+              "b007"
+            ],
+            "state": "exposure",
+            "reading": "Permanencia afectiva ante espacios desconocidos.",
+            "source_document_ids": [
+              "s2026-2e43c234ac58::s004",
+              "s2026-2e43c234ac58::s006"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "turn",
+            "reading": "La revisión abre una certeza relacional."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "confrontation",
+            "reading": "La certeza convive con desorientación y límite."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      },
+      {
+        "voice": "first_singular",
+        "stance": "care",
+        "fear_relevance": "implied",
+        "fear_polarity": "mixed",
+        "arc": "turn",
+        "subtopics": [
+          "loss_abandonment",
+          "uncertainty_change"
+        ],
+        "label": "Buscar seguridad y pertenencia",
+        "summary": "Se afirma pertenencia mientras se teme perderla.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "avoidance",
+            "reading": "Promete limpieza; evita trampas y excesos",
+            "source_document_ids": [
+              "s2026-2e43c234ac58::s000",
+              "s2026-2e43c234ac58::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b004",
+              "b006"
+            ],
+            "state": "care",
+            "reading": "La luz revela amor; se busca unión",
+            "source_document_ids": [
+              "s2026-2e43c234ac58::s003",
+              "s2026-2e43c234ac58::s005"
+            ]
+          },
+          {
+            "ids": [
+              "b007",
+              "b008"
+            ],
+            "state": "exposure",
+            "reading": "Se exige saber qué es seguro",
+            "source_document_ids": [
+              "s2026-2e43c234ac58::s006",
+              "s2026-2e43c234ac58::s007"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "turn",
+            "reading": "De control defensivo a reconocimiento afectivo"
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "unresolved",
+            "reading": "La pertenencia persiste, pero la seguridad inquieta"
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      }
+    ],
+    "selection": "All cases with>=2strict-valid anchored votes for same arc category;illustrative support list,not representative temporal sample."
+  },
+  {
+    "song_id": "s1983-753cd2a7d41b",
+    "title": "Somebody's Watching Me",
+    "artist": "Rockwell",
+    "year": 1983,
+    "decade": 1980,
+    "language": "en",
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "avoidance",
+      "fear_relevance": "explicit",
+      "fear_polarity": "affirmed",
+      "subtopics": [
+        "surveillance_pursuit",
+        "uncertainty_change"
+      ],
+      "arc": "repetition"
+    },
+    "supporting_vote_count": 3,
+    "models": [
+      "openai/gpt-5.4-mini",
+      "openai/gpt-5.4-nano",
+      "openai/gpt-5.4-mini"
+    ],
+    "stages": [
+      "independent_reader",
+      "independent_reader",
+      "bounded_third_review"
+    ],
+    "readings": [
+      {
+        "voice": "first_singular",
+        "stance": "avoidance",
+        "fear_relevance": "explicit",
+        "fear_polarity": "affirmed",
+        "arc": "repetition",
+        "subtopics": [
+          "surveillance_pursuit",
+          "uncertainty_change"
+        ],
+        "label": "Vigilancia percibida y duda persistente",
+        "summary": "Voz única pide privacidad y duda constante.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "exposure",
+            "reading": "Pregunta por observación ajena y desea aislamiento cotidiano.",
+            "source_document_ids": [
+              "s1983-753cd2a7d41b::s000",
+              "s1983-753cd2a7d41b::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b003",
+              "b007"
+            ],
+            "state": "fear",
+            "reading": "Declara vigilancia continua, inseguridad y sospecha múltiple.",
+            "source_document_ids": [
+              "s1983-753cd2a7d41b::s002",
+              "s1983-753cd2a7d41b::s006"
+            ]
+          },
+          {
+            "ids": [
+              "b012",
+              "b013"
+            ],
+            "state": "avoidance",
+            "reading": "Reitera molestia, pide privacidad y rechazo persistente.",
+            "source_document_ids": [
+              "s1983-753cd2a7d41b::s011",
+              "s1983-753cd2a7d41b::s012"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "repetition",
+            "reading": "La sospecha se amplía sin resolverse."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "repetition",
+            "reading": "La queja vuelve a insistir en resguardo."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      },
+      {
+        "voice": "first_singular",
+        "stance": "avoidance",
+        "fear_relevance": "implied",
+        "fear_polarity": "affirmed",
+        "arc": "repetition",
+        "subtopics": [
+          "surveillance_pursuit",
+          "uncertainty_change"
+        ],
+        "label": "Vigilancia invasiva y privacidad imposible",
+        "summary": "Se repite la duda: vigilan, y no hay calma.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b003"
+            ],
+            "state": "fear",
+            "reading": "Vigilan; la privacidad se evapora.",
+            "source_document_ids": [
+              "s1983-753cd2a7d41b::s000",
+              "s1983-753cd2a7d41b::s002"
+            ]
+          },
+          {
+            "ids": [
+              "b004",
+              "b007"
+            ],
+            "state": "avoidance",
+            "reading": "Evita gente y señales; teme exposición.",
+            "source_document_ids": [
+              "s1983-753cd2a7d41b::s003",
+              "s1983-753cd2a7d41b::s006"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "repetition",
+            "reading": "La vigilancia vuelve; crece la evitación."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      },
+      {
+        "voice": "first_singular",
+        "stance": "avoidance",
+        "fear_relevance": "explicit",
+        "fear_polarity": "affirmed",
+        "arc": "repetition",
+        "subtopics": [
+          "fragility_identity",
+          "surveillance_pursuit"
+        ],
+        "label": "Vigilancia percibida y privacidad amenazada",
+        "summary": "Voz singular insiste en sentirse observada y sin resguardo.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "threat",
+            "reading": "Pregunta por observación ajena y deseo de aislamiento.",
+            "source_document_ids": [
+              "s1983-753cd2a7d41b::s000",
+              "s1983-753cd2a7d41b::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b003",
+              "b007"
+            ],
+            "state": "fear",
+            "reading": "Declara vigilancia sentida, inseguridad y posible paranoia.",
+            "source_document_ids": [
+              "s1983-753cd2a7d41b::s002",
+              "s1983-753cd2a7d41b::s006"
+            ]
+          },
+          {
+            "ids": [
+              "b012",
+              "b013"
+            ],
+            "state": "avoidance",
+            "reading": "Reitera pérdida de privacidad y pide que la dejen.",
+            "source_document_ids": [
+              "s1983-753cd2a7d41b::s011",
+              "s1983-753cd2a7d41b::s012"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "repetition",
+            "reading": "La sospecha se amplía hacia más posibles observadores."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "repetition",
+            "reading": "La misma queja vuelve como insistencia, no cambio."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      }
+    ],
+    "selection": "All cases with>=2strict-valid anchored votes for same arc category;illustrative support list,not representative temporal sample."
+  },
+  {
+    "song_id": "s1990-5b29a6fedb71",
+    "title": "Rayando el Sol",
+    "artist": "Maná",
+    "year": 1990,
+    "decade": 1990,
+    "language": "es",
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "unresolved",
+      "fear_relevance": "explicit",
+      "fear_polarity": "unresolved",
+      "subtopics": [
+        "loss_abandonment",
+        "relational_coercion"
+      ],
+      "arc": "repetition"
+    },
+    "supporting_vote_count": 2,
+    "models": [
+      "openai/gpt-5.4-mini",
+      "openai/gpt-5.4-mini"
+    ],
+    "stages": [
+      "independent_reader",
+      "bounded_third_review"
+    ],
+    "readings": [
+      {
+        "voice": "first_singular",
+        "stance": "resistance",
+        "fear_relevance": "explicit",
+        "fear_polarity": "hypothetical",
+        "arc": "repetition",
+        "subtopics": [
+          "loss_abandonment",
+          "relational_coercion"
+        ],
+        "label": "Búsqueda insistente ante ausencia afectiva",
+        "summary": "Voz única insiste en buscar y reclamar cercanía.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "loss",
+            "reading": "Dolor por ausencia y distancia afectiva.",
+            "source_document_ids": [
+              "s1990-5b29a6fedb71::s000",
+              "s1990-5b29a6fedb71::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b004"
+            ],
+            "state": "agency",
+            "reading": "Búsqueda concreta sin hallazgo ni alivio.",
+            "source_document_ids": [
+              "s1990-5b29a6fedb71::s003"
+            ]
+          },
+          {
+            "ids": [
+              "b008"
+            ],
+            "state": "reflection",
+            "reading": "Reiteración final sostiene la misma insistencia.",
+            "source_document_ids": [
+              "s1990-5b29a6fedb71::s007"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "turn",
+            "reading": "Pasa del lamento a la búsqueda activa."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "repetition",
+            "reading": "La insistencia vuelve sin resolver la falta."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      },
+      {
+        "voice": "first_singular",
+        "stance": "ambivalence",
+        "fear_relevance": "explicit",
+        "fear_polarity": "denied",
+        "arc": "repetition",
+        "subtopics": [
+          "loss_abandonment",
+          "relational_coercion"
+        ],
+        "label": "Búsqueda dolida y vínculo insistente",
+        "summary": "Voz única insiste en ausencia, búsqueda y apego.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "loss",
+            "reading": "Dolor por ausencia y desesperación nombrada.",
+            "source_document_ids": [
+              "s1990-5b29a6fedb71::s000",
+              "s1990-5b29a6fedb71::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b003",
+              "b004"
+            ],
+            "state": "agency",
+            "reading": "Búsqueda activa, pero persiste el apego.",
+            "source_document_ids": [
+              "s1990-5b29a6fedb71::s002",
+              "s1990-5b29a6fedb71::s003"
+            ]
+          },
+          {
+            "ids": [
+              "b005",
+              "b008"
+            ],
+            "state": "reflection",
+            "reading": "Reitera la misma queja sin cambio claro.",
+            "source_document_ids": [
+              "s1990-5b29a6fedb71::s004",
+              "s1990-5b29a6fedb71::s007"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "repetition",
+            "reading": "La búsqueda amplía la misma carencia."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "repetition",
+            "reading": "La insistencia vuelve al mismo reclamo."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      }
+    ],
+    "selection": "All cases with>=2strict-valid anchored votes for same arc category;illustrative support list,not representative temporal sample."
+  },
+  {
+    "song_id": "s1986-9726c0e33862",
+    "title": "Cruz de Navajas",
+    "artist": "Mecano",
+    "year": 1986,
+    "decade": 1980,
+    "language": "es",
+    "consensus": {
+      "voice": "third_person_story",
+      "stance": "other",
+      "fear_relevance": "explicit",
+      "fear_polarity": "mixed",
+      "subtopics": [
+        "collective_violence",
+        "relational_coercion"
+      ],
+      "arc": "mixed"
+    },
+    "supporting_vote_count": 2,
+    "models": [
+      "openai/gpt-5.4-mini",
+      "openai/gpt-5.4-mini"
+    ],
+    "stages": [
+      "independent_reader",
+      "bounded_third_review"
+    ],
+    "readings": [
+      {
+        "voice": "third_person_story",
+        "stance": "other",
+        "fear_relevance": "explicit",
+        "fear_polarity": "mixed",
+        "arc": "mixed",
+        "subtopics": [
+          "collective_violence",
+          "relational_coercion"
+        ],
+        "label": "Conflicto íntimo y violencia externa",
+        "summary": "Relación tensa deriva hacia agresión mortal.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "reflection",
+            "reading": "Rutina compartida con desgaste y tensión.",
+            "source_document_ids": [
+              "s1986-9726c0e33862::s000",
+              "s1986-9726c0e33862::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b004",
+              "b006"
+            ],
+            "state": "threat",
+            "reading": "Redada, engaño y muerte alteran la escena.",
+            "source_document_ids": [
+              "s1986-9726c0e33862::s003",
+              "s1986-9726c0e33862::s005"
+            ]
+          },
+          {
+            "ids": [
+              "b007",
+              "b008"
+            ],
+            "state": "unclear",
+            "reading": "Se reubica la culpa en agresores y rumor.",
+            "source_document_ids": [
+              "s1986-9726c0e33862::s006",
+              "s1986-9726c0e33862::s007"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "turn",
+            "reading": "La espera cotidiana cede ante la irrupción violenta."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "unresolved",
+            "reading": "La versión final no cierra del todo el sentido."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      },
+      {
+        "voice": "third_person_story",
+        "stance": "other",
+        "fear_relevance": "explicit",
+        "fear_polarity": "mixed",
+        "arc": "mixed",
+        "subtopics": [
+          "collective_violence",
+          "relational_coercion"
+        ],
+        "label": "Relación tensa deriva en violencia",
+        "summary": "Rutina compartida, celos y agresión culminan en muerte.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "reflection",
+            "reading": "Rutina doméstica y laboral compartida, con tensión relacional.",
+            "source_document_ids": [
+              "s1986-9726c0e33862::s000",
+              "s1986-9726c0e33862::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b004"
+            ],
+            "state": "confrontation",
+            "reading": "Regreso anticipado, hallazgo de compañía y choque.",
+            "source_document_ids": [
+              "s1986-9726c0e33862::s003"
+            ]
+          },
+          {
+            "ids": [
+              "b006",
+              "b007"
+            ],
+            "state": "loss",
+            "reading": "Muerte de Mario y versión violenta del hecho.",
+            "source_document_ids": [
+              "s1986-9726c0e33862::s005",
+              "s1986-9726c0e33862::s006"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "turn",
+            "reading": "La rutina se quiebra ante la escena inesperada."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "confrontation",
+            "reading": "El choque deriva en agresión y pérdida."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      }
+    ],
+    "selection": "All cases with>=2strict-valid anchored votes for same arc category;illustrative support list,not representative temporal sample."
+  },
+  {
+    "song_id": "s2023-dd058a9c7e57",
+    "title": "Flowers",
+    "artist": "Miley Cyrus",
+    "year": 2023,
+    "decade": 2020,
+    "language": "en",
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "fragility_identity",
+        "loss_abandonment"
+      ],
+      "arc": "repetition"
+    },
+    "supporting_vote_count": 2,
+    "models": [
+      "openai/gpt-5.4-mini",
+      "openai/gpt-5.4-mini"
+    ],
+    "stages": [
+      "independent_reader",
+      "bounded_third_review"
+    ],
+    "readings": [
+      {
+        "voice": "first_singular",
+        "stance": "resistance",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "arc": "repetition",
+        "subtopics": [
+          "fragility_identity",
+          "loss_abandonment"
+        ],
+        "label": "Autonomía tras ruptura",
+        "summary": "Repite duelo y autoafirmación personal.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "loss",
+            "reading": "Pérdida afectiva y quiebre compartido.",
+            "source_document_ids": [
+              "s2023-dd058a9c7e57::s000",
+              "s2023-dd058a9c7e57::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b003",
+              "b005"
+            ],
+            "state": "agency",
+            "reading": "Autoapoyo frente a la herida.",
+            "source_document_ids": [
+              "s2023-dd058a9c7e57::s002",
+              "s2023-dd058a9c7e57::s004"
+            ]
+          },
+          {
+            "ids": [
+              "b007",
+              "b010"
+            ],
+            "state": "agency",
+            "reading": "Reafirma independencia y cuidado propio.",
+            "source_document_ids": [
+              "s2023-dd058a9c7e57::s006",
+              "s2023-dd058a9c7e57::s009"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "turn",
+            "reading": "Del derrumbe pasa al sostén propio."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "repetition",
+            "reading": "La afirmación se intensifica sin cambiar."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      },
+      {
+        "voice": "first_singular",
+        "stance": "resistance",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "arc": "repetition",
+        "subtopics": [
+          "fragility_identity",
+          "loss_abandonment"
+        ],
+        "label": "Duelo íntimo y afirmación propia",
+        "summary": "De la pérdida relacional a la autosuficiencia repetida.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "loss",
+            "reading": "Relación idealizada que se quiebra; aparece retirada dolorosa.",
+            "source_document_ids": [
+              "s2023-dd058a9c7e57::s000",
+              "s2023-dd058a9c7e57::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b003",
+              "b005"
+            ],
+            "state": "agency",
+            "reading": "La voz se reafirma con autocuidado y perdón propio.",
+            "source_document_ids": [
+              "s2023-dd058a9c7e57::s002",
+              "s2023-dd058a9c7e57::s004"
+            ]
+          },
+          {
+            "ids": [
+              "b007",
+              "b010"
+            ],
+            "state": "celebration",
+            "reading": "Repite una autosuficiencia celebratoria frente al otro.",
+            "source_document_ids": [
+              "s2023-dd058a9c7e57::s006",
+              "s2023-dd058a9c7e57::s009"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "turn",
+            "reading": "Del quiebre afectivo pasa a sostenerse sola."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "repetition",
+            "reading": "La afirmación propia vuelve y se intensifica."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      }
+    ],
+    "selection": "All cases with>=2strict-valid anchored votes for same arc category;illustrative support list,not representative temporal sample."
+  },
+  {
+    "song_id": "s2001-1b296546902b",
+    "title": "Color Esperanza",
+    "artist": "Diego Torres",
+    "year": 2001,
+    "decade": 2000,
+    "language": "es",
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "care",
+      "fear_relevance": "explicit",
+      "fear_polarity": "denied",
+      "subtopics": [
+        "uncertainty_change"
+      ],
+      "arc": "repetition"
+    },
+    "supporting_vote_count": 2,
+    "models": [
+      "openai/gpt-5.4-mini",
+      "openai/gpt-5.4-mini"
+    ],
+    "stages": [
+      "independent_reader",
+      "bounded_third_review"
+    ],
+    "readings": [
+      {
+        "voice": "unclear",
+        "stance": "care",
+        "fear_relevance": "explicit",
+        "fear_polarity": "denied",
+        "arc": "repetition",
+        "subtopics": [
+          "uncertainty_change"
+        ],
+        "label": "Impulso esperanzado ante cambio incierto",
+        "summary": "Repite ánimo para abrirse al cambio.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "reflection",
+            "reading": "Observa cansancio y propone apertura.",
+            "source_document_ids": [
+              "s2001-1b296546902b::s000",
+              "s2001-1b296546902b::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b003",
+              "b006"
+            ],
+            "state": "agency",
+            "reading": "Afirma posibilidad, cambio y salida.",
+            "source_document_ids": [
+              "s2001-1b296546902b::s002",
+              "s2001-1b296546902b::s005"
+            ]
+          },
+          {
+            "ids": [
+              "b012",
+              "b018"
+            ],
+            "state": "celebration",
+            "reading": "Reitera impulso de intentar y brillar.",
+            "source_document_ids": [
+              "s2001-1b296546902b::s011",
+              "s2001-1b296546902b::s017"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "turn",
+            "reading": "Pasa de diagnóstico a afirmación activa."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "repetition",
+            "reading": "Vuelve sobre el mismo ánimo esperanzado."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      },
+      {
+        "voice": "first_singular",
+        "stance": "care",
+        "fear_relevance": "explicit",
+        "fear_polarity": "denied",
+        "arc": "repetition",
+        "subtopics": [
+          "uncertainty_change"
+        ],
+        "label": "Impulso repetido hacia el cambio",
+        "summary": "Voz exhorta a abrirse y seguir adelante.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "reflection",
+            "reading": "Observa cansancio y propone apertura posible.",
+            "source_document_ids": [
+              "s2001-1b296546902b::s000",
+              "s2001-1b296546902b::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b003",
+              "b004"
+            ],
+            "state": "agency",
+            "reading": "Nombra miedos y afirma impulso hacia adelante.",
+            "source_document_ids": [
+              "s2001-1b296546902b::s002",
+              "s2001-1b296546902b::s003"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "turn",
+            "reading": "Pasa de diagnóstico a exhortación activa."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      }
+    ],
+    "selection": "All cases with>=2strict-valid anchored votes for same arc category;illustrative support list,not representative temporal sample."
+  },
+  {
+    "song_id": "s1982-273644e36995",
+    "title": "Bailando",
+    "artist": "Alaska y los Pegamoides",
+    "year": 1982,
+    "decade": 1980,
+    "language": "es",
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "ambivalence",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "other"
+      ],
+      "arc": "repetition"
+    },
+    "supporting_vote_count": 3,
+    "models": [
+      "openai/gpt-5.4-mini",
+      "openai/gpt-5.4-nano",
+      "openai/gpt-5.4-mini"
+    ],
+    "stages": [
+      "independent_reader",
+      "independent_reader",
+      "bounded_third_review"
+    ],
+    "readings": [
+      {
+        "voice": "first_singular",
+        "stance": "resistance",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "arc": "repetition",
+        "subtopics": [
+          "other"
+        ],
+        "label": "Rutina festiva frente a molestias",
+        "summary": "Rutina corporal festiva pese a molestias externas",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "celebration",
+            "reading": "Actividad repetida con roce vecinal molesto",
+            "source_document_ids": [
+              "s1982-273644e36995::s000",
+              "s1982-273644e36995::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b003",
+              "b004"
+            ],
+            "state": "agency",
+            "reading": "Cuerpo dañado, pero mantiene movimiento",
+            "source_document_ids": [
+              "s1982-273644e36995::s002",
+              "s1982-273644e36995::s003"
+            ]
+          },
+          {
+            "ids": [
+              "b009",
+              "b010"
+            ],
+            "state": "celebration",
+            "reading": "Repetición final sostiene el impulso festivo",
+            "source_document_ids": [
+              "s1982-273644e36995::s008",
+              "s1982-273644e36995::s009"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "contrast",
+            "reading": "Molestia y daño contrastan con control corporal"
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "repetition",
+            "reading": "El cierre repite y refuerza la misma postura"
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      },
+      {
+        "voice": "first_singular",
+        "stance": "ambivalence",
+        "fear_relevance": "implied",
+        "fear_polarity": "mixed",
+        "arc": "repetition",
+        "subtopics": [
+          "loss_abandonment",
+          "uncertainty_change"
+        ],
+        "label": "Fiesta repetida ante molestias vecinales",
+        "summary": "Bailar y beber sostienen una vida social pese al malestar.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "avoidance",
+            "reading": "Bailo y bebo para esquivar molestias",
+            "source_document_ids": [
+              "s1982-273644e36995::s000",
+              "s1982-273644e36995::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b003",
+              "b004"
+            ],
+            "state": "reflection",
+            "reading": "Dolor corporal convive con vida social",
+            "source_document_ids": [
+              "s1982-273644e36995::s002",
+              "s1982-273644e36995::s003"
+            ]
+          },
+          {
+            "ids": [
+              "b005",
+              "b006"
+            ],
+            "state": "reflection",
+            "reading": "La repetición mantiene el mismo pulso",
+            "source_document_ids": [
+              "s1982-273644e36995::s004",
+              "s1982-273644e36995::s005"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "turn",
+            "reading": "La evasión se vuelve afirmación social"
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "repetition",
+            "reading": "Se repite el patrón ante el entorno"
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      },
+      {
+        "voice": "first_singular",
+        "stance": "ambivalence",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "arc": "repetition",
+        "subtopics": [
+          "fragility_identity",
+          "other"
+        ],
+        "label": "Rutina festiva con cuerpo dañado",
+        "summary": "Rutina corporal repetida convive con malestar físico.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "celebration",
+            "reading": "Actividad festiva repetida con molestia vecinal.",
+            "source_document_ids": [
+              "s1982-273644e36995::s000",
+              "s1982-273644e36995::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b003",
+              "b004"
+            ],
+            "state": "reflection",
+            "reading": "Cuerpo deteriorado, pero sociabilidad y movimiento persisten.",
+            "source_document_ids": [
+              "s1982-273644e36995::s002",
+              "s1982-273644e36995::s003"
+            ]
+          },
+          {
+            "ids": [
+              "b009",
+              "b010"
+            ],
+            "state": "celebration",
+            "reading": "Repetición final sin cambio argumental claro.",
+            "source_document_ids": [
+              "s1982-273644e36995::s008",
+              "s1982-273644e36995::s009"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "contrast",
+            "reading": "La fiesta convive con daño corporal."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "repetition",
+            "reading": "La insistencia mantiene la misma postura."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      }
+    ],
+    "selection": "All cases with>=2strict-valid anchored votes for same arc category;illustrative support list,not representative temporal sample."
+  },
+  {
+    "song_id": "s1996-126a4f4bfee7",
+    "title": "Wannabe",
+    "artist": "Spice Girls",
+    "year": 1996,
+    "decade": 1990,
+    "language": "en",
+    "consensus": {
+      "voice": "first_singular",
+      "stance": "resistance",
+      "fear_relevance": "absent",
+      "fear_polarity": "absent",
+      "subtopics": [
+        "relational_coercion"
+      ],
+      "arc": "repetition"
+    },
+    "supporting_vote_count": 2,
+    "models": [
+      "openai/gpt-5.4-mini",
+      "openai/gpt-5.4-nano"
+    ],
+    "stages": [
+      "independent_reader",
+      "independent_reader"
+    ],
+    "readings": [
+      {
+        "voice": "first_singular",
+        "stance": "resistance",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "arc": "repetition",
+        "subtopics": [
+          "other",
+          "relational_coercion"
+        ],
+        "label": "Exigencias afectivas y límites",
+        "summary": "Deseo propio con شروط relacionales y límites claros.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "agency",
+            "reading": "La voz afirma deseo propio y fija condiciones.",
+            "source_document_ids": [
+              "s1996-126a4f4bfee7::s000",
+              "s1996-126a4f4bfee7::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b004",
+              "b005"
+            ],
+            "state": "confrontation",
+            "reading": "Exige reciprocidad, amistad y respuesta sincera.",
+            "source_document_ids": [
+              "s1996-126a4f4bfee7::s003",
+              "s1996-126a4f4bfee7::s004"
+            ]
+          },
+          {
+            "ids": [
+              "b007",
+              "b009"
+            ],
+            "state": "reflection",
+            "reading": "Reitera reglas afectivas y mantiene el mismo marco.",
+            "source_document_ids": [
+              "s1996-126a4f4bfee7::s006",
+              "s1996-126a4f4bfee7::s008"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "repetition",
+            "reading": "Las condiciones se repiten sin cambiar de postura."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "repetition",
+            "reading": "La exigencia vuelve a formularse con igual sentido."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      },
+      {
+        "voice": "first_singular",
+        "stance": "resistance",
+        "fear_relevance": "absent",
+        "fear_polarity": "absent",
+        "arc": "repetition",
+        "subtopics": [
+          "relational_coercion",
+          "uncertainty_change"
+        ],
+        "label": "Condiciones y límites para el acercamiento",
+        "summary": "Se negocia deseo con reglas y tiempos.",
+        "steps": [
+          {
+            "ids": [
+              "b001",
+              "b002"
+            ],
+            "state": "avoidance",
+            "reading": "Define deseo y exige rapidez, sin pasado.",
+            "source_document_ids": [
+              "s1996-126a4f4bfee7::s000",
+              "s1996-126a4f4bfee7::s001"
+            ]
+          },
+          {
+            "ids": [
+              "b004",
+              "b005"
+            ],
+            "state": "confrontation",
+            "reading": "Pone condiciones a la pareja y advierte.",
+            "source_document_ids": [
+              "s1996-126a4f4bfee7::s003",
+              "s1996-126a4f4bfee7::s004"
+            ]
+          },
+          {
+            "ids": [
+              "b008",
+              "b010"
+            ],
+            "state": "celebration",
+            "reading": "Convierte la regla en juego corporal.",
+            "source_document_ids": [
+              "s1996-126a4f4bfee7::s007",
+              "s1996-126a4f4bfee7::s009"
+            ]
+          }
+        ],
+        "links": [
+          {
+            "from": 0,
+            "to": 1,
+            "relation": "turn",
+            "reading": "Del deseo al límite: pasado y tiempo."
+          },
+          {
+            "from": 1,
+            "to": 2,
+            "relation": "repetition",
+            "reading": "Las condiciones se repiten como invitación."
+          }
+        ],
+        "withheld_lyric_overlap_fields": 0
+      }
+    ],
+    "selection": "All cases with>=2strict-valid anchored votes for same arc category;illustrative support list,not representative temporal sample."
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "index_preparation_seconds": 2.030128040991258,
+  "query_preparation_seconds": 0.4025216659938451,
+  "run_timing": "Warm graph calls with original and bounded rewrite query vectors precomputed."
+}

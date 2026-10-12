@@ -1,0 +1,8 @@
+subtopic,label,first_count,last_count,songs_each_period,observed_balanced_difference,one_reader_difference,leave_artist_min,leave_artist_max
+surveillance_pursuit,Vigilancia y persecución,3,0,24,-0.125,-0.125,-0.13333333333333333,-0.08333333333333333
+collective_violence,Violencia colectiva,1,0,24,-0.041666666666666664,-0.041666666666666664,-0.045454545454545456,0.0
+loss_abandonment,Abandono y pérdida,0,2,24,0.08333333333333333,0.125,0.041666666666666664,0.09166666666666667
+fragility_identity,Fragilidad e identidad,3,2,24,-0.04166666666666667,0.0,-0.08333333333333334,0.0
+uncertainty_change,Incertidumbre y cambio,0,1,24,0.041666666666666664,0.08333333333333333,0.0,0.045454545454545456
+relational_coercion,Coerción relacional,4,1,24,-0.125,-0.16666666666666666,-0.16666666666666666,-0.08333333333333334
+supernatural,Sobrenatural,4,0,24,-0.16666666666666666,-0.16666666666666666,-0.178030303030303,-0.125

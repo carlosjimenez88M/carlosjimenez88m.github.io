@@ -1,0 +1,13 @@
+encoder,axis,contrast,auc,n_pos,n_neg
+minilm,interiorizacion,internal_self vs externo,0.7705882352941177,10,34
+minilm,agencia,enfrentar/decidir vs huir/someterse,0.5427807486631016,22,17
+minilm,colectividad,amenaza colectiva vs otras,0.7740641711229946,22,34
+e5_small,interiorizacion,internal_self vs externo,0.7941176470588235,10,34
+e5_small,agencia,enfrentar/decidir vs huir/someterse,0.6925133689839572,22,17
+e5_small,colectividad,amenaza colectiva vs otras,0.733957219251337,22,34
+e5_large_plain,interiorizacion,internal_self vs externo,0.8529411764705882,10,34
+e5_large_plain,agencia,enfrentar/decidir vs huir/someterse,0.6925133689839572,22,17
+e5_large_plain,colectividad,amenaza colectiva vs otras,0.7981283422459893,22,34
+e5_large_fear,interiorizacion,internal_self vs externo,0.888235294117647,10,34
+e5_large_fear,agencia,enfrentar/decidir vs huir/someterse,0.7165775401069518,22,17
+e5_large_fear,colectividad,amenaza colectiva vs otras,0.8462566844919787,22,34

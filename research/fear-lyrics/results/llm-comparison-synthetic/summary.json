@@ -1,0 +1,308 @@
+{
+  "models": [
+    {
+      "model_id": "openai/gpt-5.4-mini",
+      "requested": 20,
+      "valid": 20,
+      "status_counts": {
+        "executed": 20
+      },
+      "relationship_ab_counts": {
+        "contradiction": 2,
+        "role_reversal": 2,
+        "equivalent": 8,
+        "related_not_equivalent": 8
+      },
+      "relationship_ac_counts": {
+        "unrelated": 7,
+        "related_not_equivalent": 8,
+        "contradiction": 4,
+        "order_reversal": 1
+      },
+      "core_assistant_constraints": 9,
+      "core_constraint_matches": 9,
+      "coexistence_false_contradictions": 0,
+      "accounted_usd_including_reused_receipts": 0.00956175,
+      "newly_accounted_usd": 0.00956175,
+      "reused_requests": 0,
+      "limitation": "Nine assistant-defined logical constraints, informed by pilot; not accuracy gold for all pairs. Twenty correlated synthetic triplets, no independent human validation."
+    },
+    {
+      "model_id": "openai/gpt-5.4-nano",
+      "requested": 20,
+      "valid": 20,
+      "status_counts": {
+        "executed": 20
+      },
+      "relationship_ab_counts": {
+        "contradiction": 2,
+        "role_reversal": 2,
+        "equivalent": 8,
+        "related_not_equivalent": 8
+      },
+      "relationship_ac_counts": {
+        "unrelated": 7,
+        "related_not_equivalent": 5,
+        "contradiction": 7,
+        "order_reversal": 1
+      },
+      "core_assistant_constraints": 9,
+      "core_constraint_matches": 9,
+      "coexistence_false_contradictions": 0,
+      "accounted_usd_including_reused_receipts": 0.0024516,
+      "newly_accounted_usd": 0.0024516,
+      "reused_requests": 0,
+      "limitation": "Nine assistant-defined logical constraints, informed by pilot; not accuracy gold for all pairs. Twenty correlated synthetic triplets, no independent human validation."
+    },
+    {
+      "model_id": "anthropic/claude-sonnet-4-6",
+      "requested": 20,
+      "valid": 20,
+      "status_counts": {
+        "executed": 20
+      },
+      "relationship_ab_counts": {
+        "contradiction": 2,
+        "role_reversal": 2,
+        "equivalent": 12,
+        "related_not_equivalent": 4
+      },
+      "relationship_ac_counts": {
+        "unrelated": 3,
+        "related_not_equivalent": 5,
+        "contradiction": 10,
+        "role_reversal": 1,
+        "order_reversal": 1
+      },
+      "core_assistant_constraints": 9,
+      "core_constraint_matches": 7,
+      "coexistence_false_contradictions": 2,
+      "accounted_usd_including_reused_receipts": 0.037316999999999996,
+      "newly_accounted_usd": 0,
+      "reused_requests": 20,
+      "limitation": "Nine assistant-defined logical constraints, informed by pilot; not accuracy gold for all pairs. Twenty correlated synthetic triplets, no independent human validation."
+    },
+    {
+      "model_id": "anthropic/claude-haiku-4-5-20251001",
+      "requested": 20,
+      "valid": 20,
+      "status_counts": {
+        "executed": 20
+      },
+      "relationship_ab_counts": {
+        "contradiction": 2,
+        "role_reversal": 2,
+        "equivalent": 11,
+        "related_not_equivalent": 4,
+        "order_reversal": 1
+      },
+      "relationship_ac_counts": {
+        "unrelated": 5,
+        "related_not_equivalent": 4,
+        "contradiction": 8,
+        "role_reversal": 2,
+        "order_reversal": 1
+      },
+      "core_assistant_constraints": 9,
+      "core_constraint_matches": 9,
+      "coexistence_false_contradictions": 0,
+      "accounted_usd_including_reused_receipts": 0.012869,
+      "newly_accounted_usd": 0.012869,
+      "reused_requests": 0,
+      "limitation": "Nine assistant-defined logical constraints, informed by pilot; not accuracy gold for all pairs. Twenty correlated synthetic triplets, no independent human validation."
+    }
+  ],
+  "pairwise": [
+    {
+      "left": "openai/gpt-5.4-mini",
+      "right": "openai/gpt-5.4-nano",
+      "common_triplets": 20,
+      "pair_judgments": 40,
+      "agreement_count": 31,
+      "agreement_fraction": 0.775,
+      "limitation": "Agreement is not correctness; paired language/category controls are not iid samples."
+    },
+    {
+      "left": "openai/gpt-5.4-mini",
+      "right": "anthropic/claude-sonnet-4-6",
+      "common_triplets": 20,
+      "pair_judgments": 40,
+      "agreement_count": 28,
+      "agreement_fraction": 0.7,
+      "limitation": "Agreement is not correctness; paired language/category controls are not iid samples."
+    },
+    {
+      "left": "openai/gpt-5.4-mini",
+      "right": "anthropic/claude-haiku-4-5-20251001",
+      "common_triplets": 20,
+      "pair_judgments": 40,
+      "agreement_count": 29,
+      "agreement_fraction": 0.725,
+      "limitation": "Agreement is not correctness; paired language/category controls are not iid samples."
+    },
+    {
+      "left": "openai/gpt-5.4-nano",
+      "right": "anthropic/claude-sonnet-4-6",
+      "common_triplets": 20,
+      "pair_judgments": 40,
+      "agreement_count": 28,
+      "agreement_fraction": 0.7,
+      "limitation": "Agreement is not correctness; paired language/category controls are not iid samples."
+    },
+    {
+      "left": "openai/gpt-5.4-nano",
+      "right": "anthropic/claude-haiku-4-5-20251001",
+      "common_triplets": 20,
+      "pair_judgments": 40,
+      "agreement_count": 31,
+      "agreement_fraction": 0.775,
+      "limitation": "Agreement is not correctness; paired language/category controls are not iid samples."
+    },
+    {
+      "left": "anthropic/claude-sonnet-4-6",
+      "right": "anthropic/claude-haiku-4-5-20251001",
+      "common_triplets": 20,
+      "pair_judgments": 40,
+      "agreement_count": 34,
+      "agreement_fraction": 0.85,
+      "limitation": "Agreement is not correctness; paired language/category controls are not iid samples."
+    }
+  ],
+  "budget_before": {
+    "phase_ceiling_usd": 0.8,
+    "accounted_or_reserved_usd": 0.08793825,
+    "settled_usd": 0.08793825,
+    "unknown_outcomes": 0,
+    "requests": 75
+  },
+  "budget_after": {
+    "phase_ceiling_usd": 0.8,
+    "accounted_or_reserved_usd": 0.1128206,
+    "settled_usd": 0.1128206,
+    "unknown_outcomes": 0,
+    "requests": 135
+  },
+  "protocol": {
+    "mode": "execute",
+    "task": "matched_original_synthetic_relationship_judgments",
+    "models": {
+      "openai/gpt-5.4-mini": {
+        "provider": "openai",
+        "api_id": "gpt-5.4-mini",
+        "rates": [
+          0.75,
+          4.5
+        ],
+        "source": "https://developers.openai.com/api/docs/models/gpt-5.4-mini"
+      },
+      "openai/gpt-5.4-nano": {
+        "provider": "openai",
+        "api_id": "gpt-5.4-nano",
+        "rates": [
+          0.2,
+          1.25
+        ],
+        "source": "https://developers.openai.com/api/docs/models/gpt-5.4-nano",
+        "lifecycle": "Official docs mark deprecated; metadata GET returned 200 on 2026-10-11."
+      },
+      "anthropic/claude-sonnet-4-6": {
+        "provider": "anthropic",
+        "api_id": "claude-sonnet-4-6",
+        "rates": [
+          3.0,
+          15.0
+        ],
+        "source": "https://platform.claude.com/docs/en/models/sonnet-4-6/overview"
+      },
+      "anthropic/claude-haiku-4-5-20251001": {
+        "provider": "anthropic",
+        "api_id": "claude-haiku-4-5-20251001",
+        "rates": [
+          1.0,
+          5.0
+        ],
+        "source": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+        "lifecycle": "Active legacy; metadata GET returned 200 on 2026-10-11."
+      }
+    },
+    "triplets": 20,
+    "planned_rows": 80,
+    "prompt_sha256": "8415249f2f6e626f87713af327c32a18997170b4dca5a272b38d265ecbbec0bb",
+    "prompt_version": "requested-support-v1-20261011",
+    "input_identity": "22a789df6497ab6d735f5f4d7d4b2f4ba22ba0a0a9500a9289d3894f09b4cee1",
+    "max_output_tokens": 400,
+    "temperature": 0,
+    "provider_controls": "Identical textual system/user content; OpenAI adds strict output schema, Anthropic JSON follows prompt. No web/tools or extended thinking.",
+    "core_constraints": [
+      {
+        "probe_id": "negation_en",
+        "field": "relationship_ab",
+        "allowed_labels": [
+          "contradiction"
+        ]
+      },
+      {
+        "probe_id": "negation_es",
+        "field": "relationship_ab",
+        "allowed_labels": [
+          "contradiction"
+        ]
+      },
+      {
+        "probe_id": "role_en",
+        "field": "relationship_ab",
+        "allowed_labels": [
+          "role_reversal"
+        ]
+      },
+      {
+        "probe_id": "role_es",
+        "field": "relationship_ab",
+        "allowed_labels": [
+          "role_reversal"
+        ]
+      },
+      {
+        "probe_id": "translation_en_es",
+        "field": "relationship_ab",
+        "allowed_labels": [
+          "equivalent"
+        ]
+      },
+      {
+        "probe_id": "translation_es_en",
+        "field": "relationship_ab",
+        "allowed_labels": [
+          "equivalent"
+        ]
+      },
+      {
+        "probe_id": "translation_en_es",
+        "field": "relationship_ac",
+        "allowed_labels": [
+          "related_not_equivalent",
+          "unrelated"
+        ]
+      },
+      {
+        "probe_id": "translation_es_en",
+        "field": "relationship_ac",
+        "allowed_labels": [
+          "related_not_equivalent",
+          "unrelated"
+        ]
+      },
+      {
+        "probe_id": "order_en",
+        "field": "relationship_ac",
+        "allowed_labels": [
+          "order_reversal"
+        ]
+      }
+    ],
+    "constraint_provenance": "Assistant-defined diagnostic subset informed by earlier Sonnet pilot, frozen before new model execution; not independent human gold.",
+    "budget": "Shared existing .80 LLM ledger; all previous pilot costs retained; other phases reserved separately under user total USD1.",
+    "privacy": "Original synthetic sentences only, no lyrics/corpus-derived text to any provider. Raw model text private; labels/IDs/usage public.",
+    "scope": "Compare only the same task/input across models. Do not average this with retrieval, lyric sufficiency or embedding tests."
+  }
+}

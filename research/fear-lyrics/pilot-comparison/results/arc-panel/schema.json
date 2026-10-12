@@ -1,0 +1,174 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "voice": {
+      "type": "string",
+      "enum": [
+        "first_singular",
+        "first_collective",
+        "third_person_story",
+        "dialogue_or_multiple",
+        "impersonal",
+        "unclear"
+      ]
+    },
+    "stance": {
+      "type": "string",
+      "enum": [
+        "avoidance",
+        "resistance",
+        "care",
+        "ambivalence",
+        "resignation",
+        "other"
+      ]
+    },
+    "fear_relevance": {
+      "type": "string",
+      "enum": [
+        "explicit",
+        "implied",
+        "absent",
+        "uncertain"
+      ]
+    },
+    "fear_polarity": {
+      "type": "string",
+      "enum": [
+        "affirmed",
+        "denied",
+        "hypothetical",
+        "mixed",
+        "unclear",
+        "absent"
+      ]
+    },
+    "arc": {
+      "type": "string",
+      "enum": [
+        "no_supported_arc",
+        "repetition",
+        "contrast",
+        "confrontation",
+        "turn",
+        "unresolved",
+        "mixed",
+        "unclear"
+      ]
+    },
+    "subtopics": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "surveillance_pursuit",
+          "collective_violence",
+          "loss_abandonment",
+          "fragility_identity",
+          "uncertainty_change",
+          "relational_coercion",
+          "supernatural",
+          "other",
+          "none",
+          "uncertain"
+        ]
+      }
+    },
+    "label": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "steps": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "ids": {
+            "type": "array",
+            "maxItems": 2,
+            "items": {
+              "type": "string"
+            }
+          },
+          "state": {
+            "type": "string",
+            "enum": [
+              "threat",
+              "fear",
+              "avoidance",
+              "confrontation",
+              "care",
+              "agency",
+              "exposure",
+              "loss",
+              "negation",
+              "celebration",
+              "reflection",
+              "unclear"
+            ]
+          },
+          "reading": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "ids",
+          "state",
+          "reading"
+        ]
+      }
+    },
+    "links": {
+      "type": "array",
+      "maxItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "from": {
+            "type": "integer"
+          },
+          "to": {
+            "type": "integer"
+          },
+          "relation": {
+            "type": "string",
+            "enum": [
+              "repetition",
+              "contrast",
+              "confrontation",
+              "turn",
+              "unresolved"
+            ]
+          },
+          "reading": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "from",
+          "to",
+          "relation",
+          "reading"
+        ]
+      }
+    }
+  },
+  "required": [
+    "voice",
+    "stance",
+    "fear_relevance",
+    "fear_polarity",
+    "arc",
+    "subtopics",
+    "label",
+    "summary",
+    "steps",
+    "links"
+  ]
+}

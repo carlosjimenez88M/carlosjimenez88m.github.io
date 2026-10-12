@@ -1,0 +1,73 @@
+{
+  "status": "executed_from_existing_votes",
+  "network_calls": 0,
+  "songs_annotated": 40,
+  "corpus_songs": 120,
+  "year_axis": [
+    1980,
+    2026
+  ],
+  "years_observed": [
+    1982,
+    1983,
+    1984,
+    1986,
+    1987,
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1996,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2008,
+    2013,
+    2014,
+    2015,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2026
+  ],
+  "line_rule": "Period aggregates only; no interpolation of absent years or connecting individual songs.",
+  "primary_view": "fear_consensus_cross_only_explicit_implied_songs",
+  "point_area": "Equal; no intensity scale. Interactive paired-joint sensitivity can show supporting votes.",
+  "categorical_y": "Named concerns, no intensity or utility scale.",
+  "arc_shape": "Strict chronological consensus; unresolved retained.",
+  "editorial_value_cases": 5,
+  "inputs": [
+    {
+      "path": "pilot-comparison/results/arc-panel/fieldwise-posthoc/song_annotations.json",
+      "sha256": "6ebce0f1a846770b251de09913034bd0fbb40d081702500a5401280ad94effe7"
+    },
+    {
+      "path": "pilot-comparison/results/arc-panel/fieldwise-posthoc/categorical_votes.json",
+      "sha256": "bd61aa27e123c05635e190ba8773fe54c962ea8afd5de65fa9f81fec92d4a03f"
+    },
+    {
+      "path": "pilot-comparison/results/arc-panel/fieldwise-posthoc/anchored_cases.json",
+      "sha256": "f69fa7ed987452cb38db246cf5b224fab5224d5443d53d05af3b3ef76ccc0305"
+    },
+    {
+      "path": "corpus-manifest.json",
+      "sha256": "03b19b52f7290bfe40cb7afa159b4bfda9c2aa1c2ecd366b1f37046b116c5e1d"
+    }
+  ],
+  "figures": [
+    "historical-subtopics-map",
+    "historical-subtopics-presence",
+    "narrative-value-evolution",
+    "fear-reference-arcs"
+  ]
+}

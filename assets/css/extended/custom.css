@@ -71,6 +71,9 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
 .post-content table { font-size: .92rem; }
 .post-content .katex-display { max-width: 100%; overflow-x: auto; overflow-y: hidden; padding-block: .3rem; }
 .post-content .katex-display > .katex { text-align: left; }
+.post-content figure.wide { width: min(1160px, calc(100vw - 2 * var(--gap))); max-width: none; position: relative; left: 50%; transform: translateX(-50%); }
+.post-content figure.wide img { width: 100%; height: auto; }
+.post-content figure.wide figcaption { max-width: var(--main-width); margin-inline: auto; }
 .post-content th { text-align: left; }
 .toc { background: transparent; border: 1px solid var(--border); border-radius: 3px; font-size: .9rem; }
 .post-entry { background: transparent; border: 0; border-bottom: 1px solid var(--border); border-radius: 0; padding: 1.2rem 0; }

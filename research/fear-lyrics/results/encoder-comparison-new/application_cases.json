@@ -1,0 +1,481 @@
+{
+  "selection_rule": "Four previously anchored examples spanning observed 1983, 1990, 2014 and 2026; chosen before inspecting neighbours",
+  "cases": [
+    {
+      "query": {
+        "song_id": "s1983-753cd2a7d41b",
+        "title": "Somebody's Watching Me",
+        "artist": "Rockwell",
+        "year": 1983,
+        "language": "en"
+      },
+      "models": [
+        {
+          "model_slug": "sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2",
+          "model": "MiniLM",
+          "neighbors": [
+            {
+              "song_id": "s2022-460a59f8aa02",
+              "title": "Anti-Hero",
+              "artist": "Taylor Swift",
+              "year": 2022,
+              "language": "en"
+            },
+            {
+              "song_id": "s1992-92d3c88cd13e",
+              "title": "Creep",
+              "artist": "Radiohead",
+              "year": 1992,
+              "language": "en"
+            },
+            {
+              "song_id": "s2008-4db2a4ef136d",
+              "title": "Disturbia",
+              "artist": "Rihanna",
+              "year": 2008,
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "model_slug": "intfloat--multilingual-e5-small",
+          "model": "E5 small",
+          "neighbors": [
+            {
+              "song_id": "s2008-4db2a4ef136d",
+              "title": "Disturbia",
+              "artist": "Rihanna",
+              "year": 2008,
+              "language": "en"
+            },
+            {
+              "song_id": "s2003-863da31c5eaa",
+              "title": "Crazy In Love",
+              "artist": "Beyoncé feat. JAY-Z",
+              "year": 2003,
+              "language": "en"
+            },
+            {
+              "song_id": "s2022-460a59f8aa02",
+              "title": "Anti-Hero",
+              "artist": "Taylor Swift",
+              "year": 2022,
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "model_slug": "openai--text-embedding-3-large",
+          "model": "OpenAI large",
+          "neighbors": [
+            {
+              "song_id": "s2008-4db2a4ef136d",
+              "title": "Disturbia",
+              "artist": "Rihanna",
+              "year": 2008,
+              "language": "en"
+            },
+            {
+              "song_id": "s1992-92d3c88cd13e",
+              "title": "Creep",
+              "artist": "Radiohead",
+              "year": 1992,
+              "language": "en"
+            },
+            {
+              "song_id": "s1982-fc0d5bdf6fc1",
+              "title": "Mad World",
+              "artist": "Tears for Fears",
+              "year": 1982,
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "model_slug": "openai--text-embedding-3-small",
+          "model": "OpenAI small",
+          "neighbors": [
+            {
+              "song_id": "s2008-4db2a4ef136d",
+              "title": "Disturbia",
+              "artist": "Rihanna",
+              "year": 2008,
+              "language": "en"
+            },
+            {
+              "song_id": "s2022-460a59f8aa02",
+              "title": "Anti-Hero",
+              "artist": "Taylor Swift",
+              "year": 2022,
+              "language": "en"
+            },
+            {
+              "song_id": "s2003-863da31c5eaa",
+              "title": "Crazy In Love",
+              "artist": "Beyoncé feat. JAY-Z",
+              "year": 2003,
+              "language": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": {
+        "song_id": "s1990-5b29a6fedb71",
+        "title": "Rayando el Sol",
+        "artist": "Maná",
+        "year": 1990,
+        "language": "es"
+      },
+      "models": [
+        {
+          "model_slug": "sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2",
+          "model": "MiniLM",
+          "neighbors": [
+            {
+              "song_id": "s2014-e8f5796fbb18",
+              "title": "Bailando",
+              "artist": "Enrique Iglesias feat. Descemer Bueno, Gente de Zona",
+              "year": 2014,
+              "language": "es"
+            },
+            {
+              "song_id": "s2004-641528a4ed5c",
+              "title": "La Camisa Negra",
+              "artist": "Juanes",
+              "year": 2004,
+              "language": "es"
+            },
+            {
+              "song_id": "s2004-58ef65dc2ae6",
+              "title": "Miedo",
+              "artist": "M-Clan",
+              "year": 2004,
+              "language": "es"
+            }
+          ]
+        },
+        {
+          "model_slug": "intfloat--multilingual-e5-small",
+          "model": "E5 small",
+          "neighbors": [
+            {
+              "song_id": "s2014-e8f5796fbb18",
+              "title": "Bailando",
+              "artist": "Enrique Iglesias feat. Descemer Bueno, Gente de Zona",
+              "year": 2014,
+              "language": "es"
+            },
+            {
+              "song_id": "s2004-58ef65dc2ae6",
+              "title": "Miedo",
+              "artist": "M-Clan",
+              "year": 2004,
+              "language": "es"
+            },
+            {
+              "song_id": "s2020-6f072260cb90",
+              "title": "Ansiedad",
+              "artist": "Carla Morrison",
+              "year": 2020,
+              "language": "es"
+            }
+          ]
+        },
+        {
+          "model_slug": "openai--text-embedding-3-large",
+          "model": "OpenAI large",
+          "neighbors": [
+            {
+              "song_id": "s2014-e8f5796fbb18",
+              "title": "Bailando",
+              "artist": "Enrique Iglesias feat. Descemer Bueno, Gente de Zona",
+              "year": 2014,
+              "language": "es"
+            },
+            {
+              "song_id": "s2004-58ef65dc2ae6",
+              "title": "Miedo",
+              "artist": "M-Clan",
+              "year": 2004,
+              "language": "es"
+            },
+            {
+              "song_id": "s2004-641528a4ed5c",
+              "title": "La Camisa Negra",
+              "artist": "Juanes",
+              "year": 2004,
+              "language": "es"
+            }
+          ]
+        },
+        {
+          "model_slug": "openai--text-embedding-3-small",
+          "model": "OpenAI small",
+          "neighbors": [
+            {
+              "song_id": "s2014-e8f5796fbb18",
+              "title": "Bailando",
+              "artist": "Enrique Iglesias feat. Descemer Bueno, Gente de Zona",
+              "year": 2014,
+              "language": "es"
+            },
+            {
+              "song_id": "s2004-58ef65dc2ae6",
+              "title": "Miedo",
+              "artist": "M-Clan",
+              "year": 2004,
+              "language": "es"
+            },
+            {
+              "song_id": "s2020-6f072260cb90",
+              "title": "Ansiedad",
+              "artist": "Carla Morrison",
+              "year": 2020,
+              "language": "es"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": {
+        "song_id": "s2014-27b61f0565ce",
+        "title": "Out Of The Woods",
+        "artist": "Taylor Swift",
+        "year": 2014,
+        "language": "en"
+      },
+      "models": [
+        {
+          "model_slug": "sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2",
+          "model": "MiniLM",
+          "neighbors": [
+            {
+              "song_id": "s2004-58ef65dc2ae6",
+              "title": "Miedo",
+              "artist": "M-Clan",
+              "year": 2004,
+              "language": "es"
+            },
+            {
+              "song_id": "s2015-c11afde63d3a",
+              "title": "Stressed Out",
+              "artist": "twenty one pilots",
+              "year": 2015,
+              "language": "en"
+            },
+            {
+              "song_id": "s2013-608a7aee9a18",
+              "title": "Happy",
+              "artist": "Pharrell Williams",
+              "year": 2013,
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "model_slug": "intfloat--multilingual-e5-small",
+          "model": "E5 small",
+          "neighbors": [
+            {
+              "song_id": "s2019-1f8fdfe5b713",
+              "title": "bury a friend",
+              "artist": "Billie Eilish",
+              "year": 2019,
+              "language": "en"
+            },
+            {
+              "song_id": "s2003-863da31c5eaa",
+              "title": "Crazy In Love",
+              "artist": "Beyoncé feat. JAY-Z",
+              "year": 2003,
+              "language": "en"
+            },
+            {
+              "song_id": "s2008-4db2a4ef136d",
+              "title": "Disturbia",
+              "artist": "Rihanna",
+              "year": 2008,
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "model_slug": "openai--text-embedding-3-large",
+          "model": "OpenAI large",
+          "neighbors": [
+            {
+              "song_id": "s2026-2e43c234ac58",
+              "title": "Aperture",
+              "artist": "Harry Styles",
+              "year": 2026,
+              "language": "en"
+            },
+            {
+              "song_id": "s2003-863da31c5eaa",
+              "title": "Crazy In Love",
+              "artist": "Beyoncé feat. JAY-Z",
+              "year": 2003,
+              "language": "en"
+            },
+            {
+              "song_id": "s2008-4db2a4ef136d",
+              "title": "Disturbia",
+              "artist": "Rihanna",
+              "year": 2008,
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "model_slug": "openai--text-embedding-3-small",
+          "model": "OpenAI small",
+          "neighbors": [
+            {
+              "song_id": "s2026-2e43c234ac58",
+              "title": "Aperture",
+              "artist": "Harry Styles",
+              "year": 2026,
+              "language": "en"
+            },
+            {
+              "song_id": "s2003-863da31c5eaa",
+              "title": "Crazy In Love",
+              "artist": "Beyoncé feat. JAY-Z",
+              "year": 2003,
+              "language": "en"
+            },
+            {
+              "song_id": "s2008-4db2a4ef136d",
+              "title": "Disturbia",
+              "artist": "Rihanna",
+              "year": 2008,
+              "language": "en"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "query": {
+        "song_id": "s2026-2e43c234ac58",
+        "title": "Aperture",
+        "artist": "Harry Styles",
+        "year": 2026,
+        "language": "en"
+      },
+      "models": [
+        {
+          "model_slug": "sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2",
+          "model": "MiniLM",
+          "neighbors": [
+            {
+              "song_id": "s2014-e8f5796fbb18",
+              "title": "Bailando",
+              "artist": "Enrique Iglesias feat. Descemer Bueno, Gente de Zona",
+              "year": 2014,
+              "language": "es"
+            },
+            {
+              "song_id": "s2004-58ef65dc2ae6",
+              "title": "Miedo",
+              "artist": "M-Clan",
+              "year": 2004,
+              "language": "es"
+            },
+            {
+              "song_id": "s2013-608a7aee9a18",
+              "title": "Happy",
+              "artist": "Pharrell Williams",
+              "year": 2013,
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "model_slug": "intfloat--multilingual-e5-small",
+          "model": "E5 small",
+          "neighbors": [
+            {
+              "song_id": "s1984-8b16c1dac4a9",
+              "title": "Wake Me Up Before You Go-Go",
+              "artist": "Wham!",
+              "year": 1984,
+              "language": "en"
+            },
+            {
+              "song_id": "s2013-608a7aee9a18",
+              "title": "Happy",
+              "artist": "Pharrell Williams",
+              "year": 2013,
+              "language": "en"
+            },
+            {
+              "song_id": "s2003-863da31c5eaa",
+              "title": "Crazy In Love",
+              "artist": "Beyoncé feat. JAY-Z",
+              "year": 2003,
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "model_slug": "openai--text-embedding-3-large",
+          "model": "OpenAI large",
+          "neighbors": [
+            {
+              "song_id": "s2008-4db2a4ef136d",
+              "title": "Disturbia",
+              "artist": "Rihanna",
+              "year": 2008,
+              "language": "en"
+            },
+            {
+              "song_id": "s2003-863da31c5eaa",
+              "title": "Crazy In Love",
+              "artist": "Beyoncé feat. JAY-Z",
+              "year": 2003,
+              "language": "en"
+            },
+            {
+              "song_id": "s2014-27b61f0565ce",
+              "title": "Out Of The Woods",
+              "artist": "Taylor Swift",
+              "year": 2014,
+              "language": "en"
+            }
+          ]
+        },
+        {
+          "model_slug": "openai--text-embedding-3-small",
+          "model": "OpenAI small",
+          "neighbors": [
+            {
+              "song_id": "s2003-863da31c5eaa",
+              "title": "Crazy In Love",
+              "artist": "Beyoncé feat. JAY-Z",
+              "year": 2003,
+              "language": "en"
+            },
+            {
+              "song_id": "s1984-8b16c1dac4a9",
+              "title": "Wake Me Up Before You Go-Go",
+              "artist": "Wham!",
+              "year": 1984,
+              "language": "en"
+            },
+            {
+              "song_id": "s1996-126a4f4bfee7",
+              "title": "Wannabe",
+              "artist": "Spice Girls",
+              "year": 1996,
+              "language": "en"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

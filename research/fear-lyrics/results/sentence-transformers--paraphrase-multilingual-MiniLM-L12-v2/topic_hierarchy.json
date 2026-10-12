@@ -1,0 +1,257 @@
+{
+  "status": "ok",
+  "method": "BERTopic hierarchical_topics / c-TF-IDF agglomeration",
+  "edges": [
+    {
+      "parent_id": "36",
+      "parent_name": "mama_mama mama_bum_no_mal",
+      "child_left_id": "33",
+      "child_right_id": "35",
+      "topic_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "distance": 1.0502570030757763
+    },
+    {
+      "parent_id": "35",
+      "parent_name": "got_now_thriller_wanna_looking",
+      "child_left_id": "19",
+      "child_right_id": "34",
+      "topic_ids": [
+        0,
+        1,
+        2,
+        4,
+        7,
+        10,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "distance": 1.0191267939289521
+    },
+    {
+      "parent_id": "34",
+      "parent_name": "now_looking_got_watching_it's",
+      "child_left_id": "29",
+      "child_right_id": "31",
+      "topic_ids": [
+        0,
+        1,
+        2,
+        4,
+        10,
+        12,
+        14,
+        15,
+        16,
+        17
+      ],
+      "distance": 1.0071191513300106
+    },
+    {
+      "parent_id": "33",
+      "parent_name": "mama mama_mama_bum_matador_mal",
+      "child_left_id": "32",
+      "child_right_id": "30",
+      "topic_ids": [
+        3,
+        5,
+        6,
+        8,
+        9,
+        11,
+        13
+      ],
+      "distance": 1.0010520670633867
+    },
+    {
+      "parent_id": "32",
+      "parent_name": "mama mama_mama_bum_mal_mu",
+      "child_left_id": "3",
+      "child_right_id": "24",
+      "topic_ids": [
+        3,
+        8,
+        11
+      ],
+      "distance": 0.9934190572774922
+    },
+    {
+      "parent_id": "31",
+      "parent_name": "now_looking_got_watching_yet",
+      "child_left_id": "21",
+      "child_right_id": "28",
+      "topic_ids": [
+        0,
+        2,
+        10,
+        14,
+        15,
+        17
+      ],
+      "distance": 0.9842562340514391
+    },
+    {
+      "parent_id": "30",
+      "parent_name": "matador_love better_matador matador_dios_better",
+      "child_left_id": "22",
+      "child_right_id": "27",
+      "topic_ids": [
+        5,
+        6,
+        9,
+        13
+      ],
+      "distance": 0.9831548990440329
+    },
+    {
+      "parent_id": "29",
+      "parent_name": "thriller_puedo_mí_night_never",
+      "child_left_id": "16",
+      "child_right_id": "26",
+      "topic_ids": [
+        1,
+        4,
+        12,
+        16
+      ],
+      "distance": 0.9822272598012082
+    },
+    {
+      "parent_id": "28",
+      "parent_name": "looking_now_got_yet_looking crazy",
+      "child_left_id": "20",
+      "child_right_id": "25",
+      "topic_ids": [
+        0,
+        10,
+        14,
+        15
+      ],
+      "distance": 0.9793038519007213
+    },
+    {
+      "parent_id": "27",
+      "parent_name": "matador_matador matador_luna_ah ah_ah",
+      "child_left_id": "6",
+      "child_right_id": "9",
+      "topic_ids": [
+        6,
+        9
+      ],
+      "distance": 0.9783749713177888
+    },
+    {
+      "parent_id": "26",
+      "parent_name": "thriller_night_never_disturbia_land",
+      "child_left_id": "12",
+      "child_right_id": "23",
+      "topic_ids": [
+        1,
+        4,
+        12
+      ],
+      "distance": 0.9706504495116868
+    },
+    {
+      "parent_id": "25",
+      "parent_name": "yet_loi_loi loi_clear yet_clear",
+      "child_left_id": "10",
+      "child_right_id": "14",
+      "topic_ids": [
+        10,
+        14
+      ],
+      "distance": 0.9669491144666099
+    },
+    {
+      "parent_id": "24",
+      "parent_name": "mal_mal mu_mu_mu mal_malamente",
+      "child_left_id": "8",
+      "child_right_id": "11",
+      "topic_ids": [
+        8,
+        11
+      ],
+      "distance": 0.9592453574536266
+    },
+    {
+      "parent_id": "23",
+      "parent_name": "thriller_night_disturbia_land_never",
+      "child_left_id": "1",
+      "child_right_id": "4",
+      "topic_ids": [
+        1,
+        4
+      ],
+      "distance": 0.9588501881154343
+    },
+    {
+      "parent_id": "22",
+      "parent_name": "love better_better_pido_dios pido_dios",
+      "child_left_id": "5",
+      "child_right_id": "13",
+      "topic_ids": [
+        5,
+        13
+      ],
+      "distance": 0.9548524948067466
+    },
+    {
+      "parent_id": "21",
+      "parent_name": "watching_always_always feel_somebody's_like somebody's",
+      "child_left_id": "17",
+      "child_right_id": "2",
+      "topic_ids": [
+        2,
+        17
+      ],
+      "distance": 0.9352885430888312
+    },
+    {
+      "parent_id": "20",
+      "parent_name": "got_looking crazy_got looking_looking_crazy",
+      "child_left_id": "0",
+      "child_right_id": "15",
+      "topic_ids": [
+        0,
+        15
+      ],
+      "distance": 0.9267471881594005
+    },
+    {
+      "parent_id": "19",
+      "parent_name": "really_wanna_really really_voy_hey wanna",
+      "child_left_id": "7",
+      "child_right_id": "18",
+      "topic_ids": [
+        7,
+        18
+      ],
+      "distance": 0.909800237022435
+    }
+  ],
+  "limitation": "A similarity hierarchy, not discovered causes or validated taxonomic subtopics."
+}

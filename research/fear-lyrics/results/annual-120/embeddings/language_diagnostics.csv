@@ -1,0 +1,7 @@
+cohort,model_slug,model,songs,directed_k5_edges,unfiltered_same_language_edges,unfiltered_same_language_fraction,uniform_same_language_candidate_fraction,fear_consensus_positive_songs,fear_binary_resolved_songs,fear_unresolved_songs,fear_with_at_least_one_consensus_motif_songs
+matched40,sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2,MiniLM,40,200,133,0.665,0.48717948717948717,26,36,4,23
+matched40,intfloat--multilingual-e5-small,E5 small,40,200,200,1.0,0.48717948717948717,26,36,4,23
+matched40,openai--text-embedding-3-large,OpenAI large,40,200,197,0.985,0.48717948717948717,26,36,4,23
+matched40,openai--text-embedding-3-small,OpenAI small,40,200,197,0.985,0.48717948717948717,26,36,4,23
+expanded120_local,sentence-transformers--paraphrase-multilingual-MiniLM-L12-v2,MiniLM,120,600,370,0.6166666666666667,0.4957983193277311,53,90,30,45
+expanded120_local,intfloat--multilingual-e5-small,E5 small,120,600,600,1.0,0.4957983193277311,53,90,30,45

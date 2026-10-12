@@ -1,0 +1,11 @@
+{
+  "model_id": "intfloat/multilingual-e5-small",
+  "requested_revision": null,
+  "resolved_commit": null,
+  "max_seq_length": 512,
+  "normalization": "L2, cosine similarity",
+  "device": "cpu",
+  "passage_prefix": "passage: ",
+  "prototype_prefix": "query: ",
+  "revision_pinned": false
+}

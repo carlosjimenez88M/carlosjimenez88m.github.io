@@ -1,0 +1,51 @@
+{
+  "status": "Executed offline: retrieval and real LangGraph, rule controller, no generative LLM.",
+  "question_authorship": "Original EN/ES analyst questions created by reading private lyric blocks; one annotator, no independent adjudication.",
+  "annotation_scope": "Selected support IDs are diagnostic qrels, not exhaustive annotations of all semantically relevant corpus passages.",
+  "split": "Both language variants of each family share dev/test. Fixed configuration; no tuning on test. Artists/songs overlap between query families: this is not an unseen-song evaluation.",
+  "private_inputs_hash": "6a6725f188c31dad5ed673b9eabd126e117e74d7d4b9ff0a901c4d5f41983d46",
+  "benchmark_hash": "05deea5af428b46179cb05a9302927fce947d2f0ae3244e028287573d6f1a562",
+  "model": "intfloat/multilingual-e5-small",
+  "experiment": "posthoc_fixed_width_rewrite_neighbor_2x2",
+  "posthoc_decomposition": true,
+  "ablation_scope": "Same original questions, qrels, thresholds, models, per-search width 10, maximum 30 returned candidates, 320-word/5-block context. Toggle only rewrite and neighbors; actual search count can differ. This decomposes an observed result, not independent held-out confirmation.",
+  "index_text": "Unique original blocks only; no titles, artists, years, topic labels, selection hypotheses, or gold answers in retrieval text.",
+  "bm25": {
+    "k1": 1.5,
+    "b": 0.75,
+    "idf": "log(1 + (N-df+0.5)/(df+0.5))",
+    "preprocessing": "Case/accent folding, bilingual function-word list; negation retained."
+  },
+  "hybrid": "Equal-weight reciprocal rank fusion; constant=60; no learned reranker.",
+  "controller": "Rule heuristic: any top-k block overlaps >=2 content terms and covers >=support_coverage of query IDF mass. Not an entailment test. Generic bilingual search expansion, maximum two rewrites.",
+  "support_coverage": 0.2,
+  "k": 5,
+  "contextual_candidate_slots_per_search": 10,
+  "one_pass_candidate_slots": 10,
+  "maximum_total_candidate_slots": 30,
+  "maximum_rewrites": 2,
+  "context_budget": {
+    "maximum_whitespace_words": 320,
+    "whole_blocks": true,
+    "maximum_blocks": 5,
+    "note": "All arms have identical maximum context budget; used budget can differ. Adjacent block numbers within the same song only; unique-block index may omit repeats."
+  },
+  "generation": "Deterministic evidence-package template. No literary answer quality, faithfulness, provider-generation comparison, or autonomous planning was tested.",
+  "citation_validation": "Identifier resolution inside supplied context only; does not test claim entailment.",
+  "latency": "Warm offline graph latency: question vectors for original and both permitted rewrites are pre-encoded identically before all arms. Index/query preparation times are recorded separately. Not provider/API latency.",
+  "negatives": "Three easy out-of-domain families and two adversarial in-domain missing-detail families. The latter combine relevant lyrical motifs with unsupported identifying or clinical details; a lexical support rule may accept these. One analyst's absence annotation, not calibrated safety.",
+  "sources": [
+    "https://docs.langchain.com/oss/python/langgraph/overview",
+    "https://docs.langchain.com/oss/python/langgraph/agentic-rag",
+    "https://www.anthropic.com/engineering/contextual-retrieval",
+    "https://aclanthology.org/2026.findings-acl.338/"
+  ],
+  "packages": {
+    "langgraph": "1.2.14",
+    "numpy": "2.2.6",
+    "sentence-transformers": "6.1.0"
+  },
+  "cost_usd": 0.0,
+  "api_calls": 0,
+  "privacy": "No lyric text, quoted fragments, input headings, embeddings, or gold answers are exported."
+}

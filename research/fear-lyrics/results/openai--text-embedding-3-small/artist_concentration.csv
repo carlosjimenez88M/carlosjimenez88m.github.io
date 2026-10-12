@@ -1,0 +1,7 @@
+topic_id,artist_hhi,largest_artist,largest_artist_share,contributing_artists,total_song_normalized_mass,limitation
+-1,0.6710573157707369,juanes,0.7924528301886793,2,0.6883116883116882,"Artist concentration within this selected corpus, not generalization."
+0,0.05531405816579971,billie eilish,0.0957500868528961,25,20.887709512709513,"Artist concentration within this selected corpus, not generalization."
+1,0.07373733095631296,m-clan,0.12806892295778227,15,14.906746031746032,"Artist concentration within this selected corpus, not generalization."
+2,0.527681660899654,los fabulosos cadillacs,0.6176470588235294,2,1.4945054945054945,"Artist concentration within this selected corpus, not generalization."
+3,0.8472222222222223,mecano,0.9166666666666667,2,1.0909090909090908,"Artist concentration within this selected corpus, not generalization."
+4,0.685901249256395,rigoberta bandini,0.8048780487804877,2,0.9318181818181819,"Artist concentration within this selected corpus, not generalization."

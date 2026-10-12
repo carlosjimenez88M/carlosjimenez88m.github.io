@@ -1,0 +1,25 @@
+{
+  "fits": 102,
+  "converged_fits": 100,
+  "nonconverged_fits": [
+    {
+      "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "topic_id": 6,
+      "prior_context": "language_es",
+      "mu": 0.35023755691122593,
+      "kappa": 199.99999999999991,
+      "converged": false,
+      "flags": "kappa_upper_bound;profile_support_touches_bound;fewer_than_ten_cells"
+    },
+    {
+      "model": "openai/text-embedding-3-large",
+      "topic_id": 6,
+      "prior_context": "language_es",
+      "mu": 0.35023755691122593,
+      "kappa": 199.99999999999991,
+      "converged": false,
+      "flags": "kappa_upper_bound;profile_support_touches_bound;fewer_than_ten_cells"
+    }
+  ],
+  "interpretation": "Finite flagged estimates are retained for sensitivity; an optimizer convergence flag does not establish identifiability or calibrated intervals."
+}

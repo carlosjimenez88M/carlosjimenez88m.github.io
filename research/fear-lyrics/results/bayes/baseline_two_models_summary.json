@@ -1,0 +1,32 @@
+{
+  "status": "complete",
+  "cell_topic_rows": 220,
+  "posterior_rows": 1320,
+  "fitted_hyperpriors": 66,
+  "pooled_eb_boundary_fits": 13,
+  "pooled_eb_fits": 22,
+  "pooled_eb_profiles_touching_bound": 21,
+  "maximum_selected_grid_resolution_difference": 9.132417044810381e-13,
+  "maximum_leave_cell_out_plugin_mean_shift": 0.25292545067804284,
+  "mean_interval_width_by_method": {
+    "EB_plugin": 0.19677033255247367,
+    "hierarchical_grid": 0.42283812056432324,
+    "Jeffreys": 0.5701749232786777,
+    "uniform": 0.5929174132801628
+  },
+  "interpretation": "Conditional sensitivity of selected-song topic presence. No historical population change or validated fear prevalence is established.",
+  "models": [
+    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "intfloat/multilingual-e5-small"
+  ],
+  "sources": {
+    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2": {
+      "section_assignments_sha256": "26e51668d942dc02bb4d8b29c375e8c3ab4bd117a44d66f83049089f16e46cee",
+      "unique_song_shares_sha256": "2ed0ee8a068aa623e412611558f55e1b7642171d788111cec22cc014f55c0937"
+    },
+    "intfloat/multilingual-e5-small": {
+      "section_assignments_sha256": "7f42cd06c11d5e8861200b7c3e53a9d6703e84ae16aa0bae9bb5911bf54e015c",
+      "unique_song_shares_sha256": "1498860c5156a1df828072490f513469a26839d84f10a550c6eb7cdbf9112f2e"
+    }
+  }
+}

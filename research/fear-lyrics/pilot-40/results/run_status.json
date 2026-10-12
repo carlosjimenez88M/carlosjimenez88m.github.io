@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "models_with_topic_fit": [
+    "openai/text-embedding-3-large"
+  ],
+  "models_with_nonnoise_topics": [
+    "openai/text-embedding-3-large"
+  ],
+  "topic_failed_models": [],
+  "failed_models": [],
+  "packages": {
+    "numpy": "2.2.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.6",
+    "sentence-transformers": "6.1.0",
+    "torch": "2.14.1",
+    "transformers": "5.19.0",
+    "bertopic": "0.17.4",
+    "umap-learn": "0.5.12",
+    "hdbscan": "0.8.44"
+  },
+  "warning": "Executed output does not constitute human validation or a representative historical conclusion."
+}

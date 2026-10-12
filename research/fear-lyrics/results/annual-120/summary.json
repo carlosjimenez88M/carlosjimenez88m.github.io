@@ -1,0 +1,122 @@
+{
+  "songs": 120,
+  "readings": 240,
+  "readers": 3,
+  "readings_each": 2,
+  "fear_reference_counts": {
+    "False": 37,
+    "True": 53,
+    "None": 30
+  },
+  "fear_reference_subtypes": {
+    "absent": 37,
+    "explicit": 22,
+    "implied": 29,
+    "unresolved": 15,
+    "uncertain": 15,
+    "explicit_or_implied": 2
+  },
+  "arcs_in_fear": {
+    "mixed": 3,
+    "unresolved": 20,
+    "confrontation": 8,
+    "repetition": 14,
+    "contrast": 4,
+    "turn": 4
+  },
+  "observed_years": [
+    1982,
+    1983,
+    1984,
+    1985,
+    1986,
+    1987,
+    1988,
+    1989,
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2010,
+    2012,
+    2013,
+    2014,
+    2015,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2026
+  ],
+  "empty_years": [
+    1980,
+    1981,
+    2009,
+    2011,
+    2016,
+    2025
+  ],
+  "periods": [
+    {
+      "decade": 1980,
+      "songs": 24,
+      "fear_songs": 13,
+      "reference_unresolved": 6,
+      "fear_one_reader": 16
+    },
+    {
+      "decade": 1990,
+      "songs": 24,
+      "fear_songs": 9,
+      "reference_unresolved": 9,
+      "fear_one_reader": 9
+    },
+    {
+      "decade": 2000,
+      "songs": 24,
+      "fear_songs": 13,
+      "reference_unresolved": 4,
+      "fear_one_reader": 14
+    },
+    {
+      "decade": 2010,
+      "songs": 24,
+      "fear_songs": 12,
+      "reference_unresolved": 3,
+      "fear_one_reader": 13
+    },
+    {
+      "decade": 2020,
+      "songs": 24,
+      "fear_songs": 6,
+      "reference_unresolved": 8,
+      "fear_one_reader": 9
+    }
+  ],
+  "schema_invalid_readings": 0,
+  "arc_structure_invalid_readings": 0,
+  "prior_panel_presence_agreement": 26,
+  "prior_panel_songs": 40,
+  "project_api_calls": 0,
+  "exact_model_revision": "Not available; three processes of the same configured Codex assistant.",
+  "interpretation": "Paired posthoc readings, not external gold or independent providers. Annual counts describe selected publications; missing years are absent observations."
+}

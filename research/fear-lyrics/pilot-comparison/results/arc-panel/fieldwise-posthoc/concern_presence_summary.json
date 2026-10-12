@@ -1,0 +1,144 @@
+{
+  "periods": [
+    {
+      "decade": 1980,
+      "language": "en",
+      "songs": 4,
+      "fear_relevant_consensus": 3,
+      "fear_absent_consensus": 0,
+      "fear_reference_unresolved": 1,
+      "subtopics_unresolved": 1
+    },
+    {
+      "decade": 1980,
+      "language": "es",
+      "songs": 4,
+      "fear_relevant_consensus": 1,
+      "fear_absent_consensus": 2,
+      "fear_reference_unresolved": 1,
+      "subtopics_unresolved": 0
+    },
+    {
+      "decade": 1980,
+      "language": "balanced",
+      "songs": 8,
+      "fear_relevant_consensus": 4,
+      "fear_absent_consensus": 2,
+      "fear_reference_unresolved": 2,
+      "subtopics_unresolved": 1
+    },
+    {
+      "decade": 1990,
+      "language": "en",
+      "songs": 4,
+      "fear_relevant_consensus": 2,
+      "fear_absent_consensus": 1,
+      "fear_reference_unresolved": 1,
+      "subtopics_unresolved": 0
+    },
+    {
+      "decade": 1990,
+      "language": "es",
+      "songs": 4,
+      "fear_relevant_consensus": 2,
+      "fear_absent_consensus": 1,
+      "fear_reference_unresolved": 1,
+      "subtopics_unresolved": 0
+    },
+    {
+      "decade": 1990,
+      "language": "balanced",
+      "songs": 8,
+      "fear_relevant_consensus": 4,
+      "fear_absent_consensus": 2,
+      "fear_reference_unresolved": 2,
+      "subtopics_unresolved": 0
+    },
+    {
+      "decade": 2000,
+      "language": "en",
+      "songs": 4,
+      "fear_relevant_consensus": 3,
+      "fear_absent_consensus": 1,
+      "fear_reference_unresolved": 0,
+      "subtopics_unresolved": 1
+    },
+    {
+      "decade": 2000,
+      "language": "es",
+      "songs": 4,
+      "fear_relevant_consensus": 3,
+      "fear_absent_consensus": 0,
+      "fear_reference_unresolved": 1,
+      "subtopics_unresolved": 0
+    },
+    {
+      "decade": 2000,
+      "language": "balanced",
+      "songs": 8,
+      "fear_relevant_consensus": 6,
+      "fear_absent_consensus": 1,
+      "fear_reference_unresolved": 1,
+      "subtopics_unresolved": 1
+    },
+    {
+      "decade": 2010,
+      "language": "en",
+      "songs": 4,
+      "fear_relevant_consensus": 3,
+      "fear_absent_consensus": 1,
+      "fear_reference_unresolved": 0,
+      "subtopics_unresolved": 0
+    },
+    {
+      "decade": 2010,
+      "language": "es",
+      "songs": 4,
+      "fear_relevant_consensus": 1,
+      "fear_absent_consensus": 2,
+      "fear_reference_unresolved": 1,
+      "subtopics_unresolved": 2
+    },
+    {
+      "decade": 2010,
+      "language": "balanced",
+      "songs": 8,
+      "fear_relevant_consensus": 4,
+      "fear_absent_consensus": 3,
+      "fear_reference_unresolved": 1,
+      "subtopics_unresolved": 2
+    },
+    {
+      "decade": 2020,
+      "language": "en",
+      "songs": 4,
+      "fear_relevant_consensus": 2,
+      "fear_absent_consensus": 2,
+      "fear_reference_unresolved": 0,
+      "subtopics_unresolved": 0
+    },
+    {
+      "decade": 2020,
+      "language": "es",
+      "songs": 4,
+      "fear_relevant_consensus": 3,
+      "fear_absent_consensus": 0,
+      "fear_reference_unresolved": 1,
+      "subtopics_unresolved": 1
+    },
+    {
+      "decade": 2020,
+      "language": "balanced",
+      "songs": 8,
+      "fear_relevant_consensus": 5,
+      "fear_absent_consensus": 2,
+      "fear_reference_unresolved": 1,
+      "subtopics_unresolved": 1
+    }
+  ],
+  "consensus_cross": "Presence of each voted concern gated by separate consensusfear_relevance explicit/implied;doesnotrequire samevoters jointly endorse both fields.",
+  "paired_joint_votes": "Sensitivity:eachlabel requires>=2individualvotes that bothname thelabel and classifyfearreference explicit/implied.",
+  "all_concerns": "Includes motifs in controls with fearabsence,so cannot be read as fearprevalence.",
+  "denominator": "All40selectedsongs:8perperiod,4EN+4ES;unresolved/missing always retained. Multilabel totals can exceed100%.",
+  "scope": "Descriptive automated interpretations;fearreference includes negation/aspiration and isnot subjective experienced fear. Thirdcall is correlatedmini,not independent model."
+}

@@ -1,0 +1,168 @@
+{
+  "status": "Rendered offline from immutable executed traces; no retrieval, model or API calls.",
+  "primary_cohort": {
+    "songs": 40,
+    "unique_blocks": 386,
+    "encoders": 4,
+    "saved_runs": 768,
+    "visualized_test_dense_runs": 192,
+    "test_queries_per_arm_encoder": 24,
+    "positive_families": 8,
+    "negative_families": 4,
+    "languages": [
+      "en",
+      "es"
+    ]
+  },
+  "context_reader": {
+    "saved_reviews": 48,
+    "matched_contexts": 24,
+    "models": [
+      "openai/gpt-5.4-mini",
+      "openai/gpt-5.4-nano"
+    ],
+    "origin": {
+      "retrieval_source": "research/fear-lyrics/pilot-40/results/rag-ablation",
+      "method": "hybrid",
+      "arm": "rewrite_1_neighbors_0",
+      "context_pool_identity": "e62d3efa23c2f86557acde58fe46fe76bdb6e8ea1383af03014155142c7fa27e"
+    },
+    "separate_experiment": true
+  },
+  "trace_integrity": {
+    "audited": 768,
+    "counter_mismatches": 0,
+    "budget_violations": 0,
+    "invalid_citation_membership": 0
+  },
+  "interpretation": [
+    "Bounded dense retrieval improves mean annotated Recall@5 for all four encoders in this test.",
+    "Safe negative abstention decreases to 4/8 for each encoder: lexical gating accepts relevant motifs with unsupported requested details.",
+    "Some fully recovered positive support is rejected by the lexical gate; retrieval rank and accepted context are separate outcomes.",
+    "Mini and nano share aggregate counts but differ on two final abstention decisions; agreement is not correctness.",
+    "Reader contexts originated in a different hybrid ablation arm; no dense trace was continued into these reviews."
+  ],
+  "privacy": "Public source questions, IDs, counters and decisions only; no lyric text, embeddings, credentials or generated private claims.",
+  "sources": [
+    {
+      "path": "research/fear-lyrics/rag.py",
+      "sha256": "a41c9800cd17a0010c41059b063dd8be56a0cecb3f495208302c6e991b7c6860",
+      "bytes": 45333
+    },
+    {
+      "path": "research/fear-lyrics/visualize_langgraph_process.py",
+      "sha256": "a62583b17384783a1dfe5a7f8baf40576cfcaaab147774ee78f44a7f5e5a21e0",
+      "bytes": 26784
+    },
+    {
+      "path": "research/fear-lyrics/results/rag/runs.json",
+      "sha256": "8ce24f5ac86ca82daccd1370204ad66162675296cee9bb1aa7d88bf74a82ccbe",
+      "bytes": 264551
+    },
+    {
+      "path": "research/fear-lyrics/results/rag/questions.json",
+      "sha256": "50a7a68659f99c64cfe89d478ff261086638d2521ba0514d2e56601b62c39843",
+      "bytes": 9877
+    },
+    {
+      "path": "research/fear-lyrics/results/rag/protocol.json",
+      "sha256": "357cb8bd24da50f40820d50d264602236f47ee0e717a21b74cdaccb680f3aea5",
+      "bytes": 3260
+    },
+    {
+      "path": "research/fear-lyrics/results/rag-e5/runs.json",
+      "sha256": "ef5c92909aa6a00f928b17d992b578fbc4bb9a6c761456b6bc995a7b87d03d91",
+      "bytes": 265152
+    },
+    {
+      "path": "research/fear-lyrics/results/rag-e5/questions.json",
+      "sha256": "50a7a68659f99c64cfe89d478ff261086638d2521ba0514d2e56601b62c39843",
+      "bytes": 9877
+    },
+    {
+      "path": "research/fear-lyrics/results/rag-e5/protocol.json",
+      "sha256": "577f1e55ed45a26ac69f202e5fba477ceb2d3bda777dc18f29745ac58cfe7a8b",
+      "bytes": 3231
+    },
+    {
+      "path": "research/fear-lyrics/results/rag-openai-large/runs.json",
+      "sha256": "df3d788ad69f3fdde0ed0119f239a579a49605429b9162cd03e590b1ce35165f",
+      "bytes": 281768
+    },
+    {
+      "path": "research/fear-lyrics/results/rag-openai-large/questions.json",
+      "sha256": "50a7a68659f99c64cfe89d478ff261086638d2521ba0514d2e56601b62c39843",
+      "bytes": 9877
+    },
+    {
+      "path": "research/fear-lyrics/results/rag-openai-large/protocol.json",
+      "sha256": "a17a4d325ad46730174efdc46419bbd9b599eecdc646a880f8710d85238b28d4",
+      "bytes": 3373
+    },
+    {
+      "path": "research/fear-lyrics/results/rag-openai-small/runs.json",
+      "sha256": "6b315b0240940e1b55b152c4b493175e0162e2f3898cba2ba339c067c3402937",
+      "bytes": 281842
+    },
+    {
+      "path": "research/fear-lyrics/results/rag-openai-small/questions.json",
+      "sha256": "50a7a68659f99c64cfe89d478ff261086638d2521ba0514d2e56601b62c39843",
+      "bytes": 9877
+    },
+    {
+      "path": "research/fear-lyrics/results/rag-openai-small/protocol.json",
+      "sha256": "23e297d83d90f15f55bdf8b6afe3caf8ba178a1cfda84ae89a6da1c648ec7855",
+      "bytes": 3373
+    },
+    {
+      "path": "research/fear-lyrics/pilot-comparison/results/llm-comparison-context/runs.json",
+      "sha256": "b9d457903d052fd799cb3844874f0d88b38dcef226fd8ffebe2cae757fa80c45",
+      "bytes": 83527
+    },
+    {
+      "path": "research/fear-lyrics/pilot-comparison/results/llm-comparison-context/protocol.json",
+      "sha256": "e2c095ef5856c4dc5b90f90ce8e9c85c1b3d2d815b490cf50caf95aba8f38069",
+      "bytes": 1664
+    },
+    {
+      "path": "research/fear-lyrics/pilot-comparison/results/llm-comparison-context/summary.json",
+      "sha256": "4950814cfcd6d1ac6dc35d4696a2cf2925504928395dadddb18058e70a8e7224",
+      "bytes": 4958
+    }
+  ],
+  "figures": [
+    {
+      "path": "research/fear-lyrics/figures/langgraph-process-overview.svg",
+      "sha256": "41a8046207c23895e0135eead571038ed6e0ed04cebf52974cec86eab79aad96",
+      "bytes": 48571
+    },
+    {
+      "path": "research/fear-lyrics/figures/langgraph-process-overview.png",
+      "sha256": "61d0ace77aceb8e0b22032db13fabe2f0215671eede4880f69b86f6878e2a010",
+      "bytes": 287202
+    },
+    {
+      "path": "research/fear-lyrics/figures/langgraph-process-traces.svg",
+      "sha256": "d2187a4dbaed5b73bbe624d02f24ce250f5893566f6e3865e81e55adfa12f267",
+      "bytes": 104579
+    },
+    {
+      "path": "research/fear-lyrics/figures/langgraph-process-traces.png",
+      "sha256": "c139f2ebf1b79b02df81d3ca6d685f16634dbc5b2f369bacc167eabe59335c6a",
+      "bytes": 487687
+    },
+    {
+      "path": "research/fear-lyrics/figures/langgraph-process-reader.svg",
+      "sha256": "a0ed3cf2ff41bae748f24f90fe8db67193be90bb3a6eb80b059fb6ed04afa15b",
+      "bytes": 22121
+    },
+    {
+      "path": "research/fear-lyrics/figures/langgraph-process-reader.png",
+      "sha256": "e96d10753ebc6682992c4a709dc7722c22ee37b7a9563cf86ff677fe7ca764dd",
+      "bytes": 272569
+    }
+  ],
+  "api_calls": 0,
+  "model_calls": 0,
+  "new_cost_usd": 0
+}

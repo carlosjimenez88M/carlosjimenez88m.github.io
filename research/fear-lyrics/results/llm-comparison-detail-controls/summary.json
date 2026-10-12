@@ -1,0 +1,352 @@
+{
+  "models": [
+    {
+      "model_id": "openai/gpt-5.4-mini",
+      "requested": 12,
+      "valid": 12,
+      "status_counts": {
+        "executed": 12
+      },
+      "assistant_expected_matches": 12,
+      "expected_constraints": 12,
+      "verified_missing_safe_abstentions": 4,
+      "voice_report_supported": 4,
+      "authoritative_supported": 4,
+      "supported_expected_id_cited": 8,
+      "invalid_citation_reviews": 0,
+      "accounted_usd": 0.00882225,
+      "limitation": "12 fictional English cases grouped in4slot-types; assistant expectations,not human/externalgold; no real factual or medical accuracy claim."
+    },
+    {
+      "model_id": "openai/gpt-5.4-nano",
+      "requested": 12,
+      "valid": 12,
+      "status_counts": {
+        "executed": 12
+      },
+      "assistant_expected_matches": 12,
+      "expected_constraints": 12,
+      "verified_missing_safe_abstentions": 4,
+      "voice_report_supported": 4,
+      "authoritative_supported": 4,
+      "supported_expected_id_cited": 8,
+      "invalid_citation_reviews": 0,
+      "accounted_usd": 0.0022496499999999997,
+      "limitation": "12 fictional English cases grouped in4slot-types; assistant expectations,not human/externalgold; no real factual or medical accuracy claim."
+    },
+    {
+      "model_id": "anthropic/claude-sonnet-4-6",
+      "requested": 12,
+      "valid": 0,
+      "status_counts": {
+        "executed_invalid_schema": 12
+      },
+      "assistant_expected_matches": 0,
+      "expected_constraints": 0,
+      "verified_missing_safe_abstentions": 0,
+      "voice_report_supported": 0,
+      "authoritative_supported": 0,
+      "supported_expected_id_cited": 0,
+      "invalid_citation_reviews": 0,
+      "accounted_usd": 0.031317,
+      "limitation": "12 fictional English cases grouped in4slot-types; assistant expectations,not human/externalgold; no real factual or medical accuracy claim."
+    },
+    {
+      "model_id": "anthropic/claude-haiku-4-5-20251001",
+      "requested": 12,
+      "valid": 0,
+      "status_counts": {
+        "executed_invalid_schema": 12
+      },
+      "assistant_expected_matches": 0,
+      "expected_constraints": 0,
+      "verified_missing_safe_abstentions": 0,
+      "voice_report_supported": 0,
+      "authoritative_supported": 0,
+      "supported_expected_id_cited": 0,
+      "invalid_citation_reviews": 0,
+      "accounted_usd": 0.011302,
+      "limitation": "12 fictional English cases grouped in4slot-types; assistant expectations,not human/externalgold; no real factual or medical accuracy claim."
+    }
+  ],
+  "budget_before": {
+    "phase_ceiling_usd": 0.8,
+    "accounted_or_reserved_usd": 0.1128206,
+    "settled_usd": 0.1128206,
+    "unknown_outcomes": 0,
+    "requests": 135
+  },
+  "budget_after": {
+    "phase_ceiling_usd": 0.8,
+    "accounted_or_reserved_usd": 0.1665115,
+    "settled_usd": 0.1665115,
+    "unknown_outcomes": 0,
+    "requests": 183
+  },
+  "protocol": {
+    "version": "fictional_requested_detail_controls_v1_20261011",
+    "controls": [
+      {
+        "control_id": "legal_name__voice_report",
+        "slot": "legal_name",
+        "scope": "voice_report",
+        "language": "en",
+        "payload": {
+          "original_question": "What legal name does the narrative voice explicitly report in the invented passage?",
+          "evidence_blocks": [
+            {
+              "document_id": "legal_name__voice_report::voice",
+              "text": "The narrator says: in this invented story, I call my legal name Mara Velin.",
+              "source_kind": "original_fictional_narrative_voice"
+            }
+          ],
+          "scenario": "Entirely invented subjects and records; no real-world facts, song lyrics or medical advice."
+        },
+        "expected_support_decision": "supported",
+        "expected_evidence_id": "legal_name__voice_report::voice"
+      },
+      {
+        "control_id": "legal_name__verified_missing_source",
+        "slot": "legal_name",
+        "scope": "verified_missing_source",
+        "language": "en",
+        "payload": {
+          "original_question": "What is the independently verified legal name of fictional performer Aria Nox?",
+          "evidence_blocks": [
+            {
+              "document_id": "legal_name__verified_missing_source::voice",
+              "text": "The narrator says: in this invented story, I call my legal name Mara Velin.",
+              "source_kind": "original_fictional_narrative_voice"
+            }
+          ],
+          "scenario": "Entirely invented subjects and records; no real-world facts, song lyrics or medical advice."
+        },
+        "expected_support_decision": "insufficient",
+        "expected_evidence_id": null
+      },
+      {
+        "control_id": "legal_name__verified_authoritative_source",
+        "slot": "legal_name",
+        "scope": "verified_authoritative_source",
+        "language": "en",
+        "payload": {
+          "original_question": "What is the independently verified legal name of fictional performer Aria Nox?",
+          "evidence_blocks": [
+            {
+              "document_id": "legal_name__verified_authoritative_source::voice",
+              "text": "The narrator says: in this invented story, I call my legal name Mara Velin.",
+              "source_kind": "original_fictional_narrative_voice"
+            },
+            {
+              "document_id": "legal_name__verified_authoritative_source::record",
+              "text": "In this fictional world, an authoritative civil-register entry identifies performer Aria Nox and records the legal name Mara Velin.",
+              "source_kind": "authoritative_only_within_fictional_scenario"
+            }
+          ],
+          "scenario": "Entirely invented subjects and records; no real-world facts, song lyrics or medical advice."
+        },
+        "expected_support_decision": "supported",
+        "expected_evidence_id": "legal_name__verified_authoritative_source::record"
+      },
+      {
+        "control_id": "event_date__voice_report",
+        "slot": "event_date",
+        "scope": "voice_report",
+        "language": "en",
+        "payload": {
+          "original_question": "What ceremony date does the narrative voice explicitly report in the invented passage?",
+          "evidence_blocks": [
+            {
+              "document_id": "event_date__voice_report::voice",
+              "text": "The narrator says: in this invented story, my ceremony happened on 14 June 1999.",
+              "source_kind": "original_fictional_narrative_voice"
+            }
+          ],
+          "scenario": "Entirely invented subjects and records; no real-world facts, song lyrics or medical advice."
+        },
+        "expected_support_decision": "supported",
+        "expected_evidence_id": "event_date__voice_report::voice"
+      },
+      {
+        "control_id": "event_date__verified_missing_source",
+        "slot": "event_date",
+        "scope": "verified_missing_source",
+        "language": "en",
+        "payload": {
+          "original_question": "On what date is fictional performer Aria Nox's ceremony independently recorded as having occurred?",
+          "evidence_blocks": [
+            {
+              "document_id": "event_date__verified_missing_source::voice",
+              "text": "The narrator says: in this invented story, my ceremony happened on 14 June 1999.",
+              "source_kind": "original_fictional_narrative_voice"
+            }
+          ],
+          "scenario": "Entirely invented subjects and records; no real-world facts, song lyrics or medical advice."
+        },
+        "expected_support_decision": "insufficient",
+        "expected_evidence_id": null
+      },
+      {
+        "control_id": "event_date__verified_authoritative_source",
+        "slot": "event_date",
+        "scope": "verified_authoritative_source",
+        "language": "en",
+        "payload": {
+          "original_question": "On what date is fictional performer Aria Nox's ceremony independently recorded as having occurred?",
+          "evidence_blocks": [
+            {
+              "document_id": "event_date__verified_authoritative_source::voice",
+              "text": "The narrator says: in this invented story, my ceremony happened on 14 June 1999.",
+              "source_kind": "original_fictional_narrative_voice"
+            },
+            {
+              "document_id": "event_date__verified_authoritative_source::record",
+              "text": "In this fictional world, an authoritative event-register entry identifies performer Aria Nox and records that performer's ceremony on 14 June 1999.",
+              "source_kind": "authoritative_only_within_fictional_scenario"
+            }
+          ],
+          "scenario": "Entirely invented subjects and records; no real-world facts, song lyrics or medical advice."
+        },
+        "expected_support_decision": "supported",
+        "expected_evidence_id": "event_date__verified_authoritative_source::record"
+      },
+      {
+        "control_id": "fictional_diagnostic_code__voice_report",
+        "slot": "fictional_diagnostic_code",
+        "scope": "voice_report",
+        "language": "en",
+        "payload": {
+          "original_question": "What fictional diagnostic code does the narrative voice explicitly use in the invented passage?",
+          "evidence_blocks": [
+            {
+              "document_id": "fictional_diagnostic_code__voice_report::voice",
+              "text": "The narrator says: in this invented story, I describe my condition using the fictional diagnostic code D-17.",
+              "source_kind": "original_fictional_narrative_voice"
+            }
+          ],
+          "scenario": "Entirely invented subjects and records; no real-world facts, song lyrics or medical advice."
+        },
+        "expected_support_decision": "supported",
+        "expected_evidence_id": "fictional_diagnostic_code__voice_report::voice"
+      },
+      {
+        "control_id": "fictional_diagnostic_code__verified_missing_source",
+        "slot": "fictional_diagnostic_code",
+        "scope": "verified_missing_source",
+        "language": "en",
+        "payload": {
+          "original_question": "What diagnostic code is independently verified for fictional performer Aria Nox in this invented world?",
+          "evidence_blocks": [
+            {
+              "document_id": "fictional_diagnostic_code__verified_missing_source::voice",
+              "text": "The narrator says: in this invented story, I describe my condition using the fictional diagnostic code D-17.",
+              "source_kind": "original_fictional_narrative_voice"
+            }
+          ],
+          "scenario": "Entirely invented subjects and records; no real-world facts, song lyrics or medical advice."
+        },
+        "expected_support_decision": "insufficient",
+        "expected_evidence_id": null
+      },
+      {
+        "control_id": "fictional_diagnostic_code__verified_authoritative_source",
+        "slot": "fictional_diagnostic_code",
+        "scope": "verified_authoritative_source",
+        "language": "en",
+        "payload": {
+          "original_question": "What diagnostic code is independently verified for fictional performer Aria Nox in this invented world?",
+          "evidence_blocks": [
+            {
+              "document_id": "fictional_diagnostic_code__verified_authoritative_source::voice",
+              "text": "The narrator says: in this invented story, I describe my condition using the fictional diagnostic code D-17.",
+              "source_kind": "original_fictional_narrative_voice"
+            },
+            {
+              "document_id": "fictional_diagnostic_code__verified_authoritative_source::record",
+              "text": "In this fictional world, an authoritative imaginary clinical record identifies performer Aria Nox and confirms assignment of invented diagnostic code D-17. D-17 is not a real diagnosis.",
+              "source_kind": "authoritative_only_within_fictional_scenario"
+            }
+          ],
+          "scenario": "Entirely invented subjects and records; no real-world facts, song lyrics or medical advice."
+        },
+        "expected_support_decision": "supported",
+        "expected_evidence_id": "fictional_diagnostic_code__verified_authoritative_source::record"
+      },
+      {
+        "control_id": "fictional_prescribed_dose__voice_report",
+        "slot": "fictional_prescribed_dose",
+        "scope": "voice_report",
+        "language": "en",
+        "payload": {
+          "original_question": "What dose of fictional compound NX3 does the narrative voice explicitly report taking in the invented passage?",
+          "evidence_blocks": [
+            {
+              "document_id": "fictional_prescribed_dose__voice_report::voice",
+              "text": "The narrator says: in this invented story, I take three imaginary units of fictional compound NX3 each morning.",
+              "source_kind": "original_fictional_narrative_voice"
+            }
+          ],
+          "scenario": "Entirely invented subjects and records; no real-world facts, song lyrics or medical advice."
+        },
+        "expected_support_decision": "supported",
+        "expected_evidence_id": "fictional_prescribed_dose__voice_report::voice"
+      },
+      {
+        "control_id": "fictional_prescribed_dose__verified_missing_source",
+        "slot": "fictional_prescribed_dose",
+        "scope": "verified_missing_source",
+        "language": "en",
+        "payload": {
+          "original_question": "What prescribed dose of fictional compound NX3 is independently verified for fictional performer Aria Nox in this invented world?",
+          "evidence_blocks": [
+            {
+              "document_id": "fictional_prescribed_dose__verified_missing_source::voice",
+              "text": "The narrator says: in this invented story, I take three imaginary units of fictional compound NX3 each morning.",
+              "source_kind": "original_fictional_narrative_voice"
+            }
+          ],
+          "scenario": "Entirely invented subjects and records; no real-world facts, song lyrics or medical advice."
+        },
+        "expected_support_decision": "insufficient",
+        "expected_evidence_id": null
+      },
+      {
+        "control_id": "fictional_prescribed_dose__verified_authoritative_source",
+        "slot": "fictional_prescribed_dose",
+        "scope": "verified_authoritative_source",
+        "language": "en",
+        "payload": {
+          "original_question": "What prescribed dose of fictional compound NX3 is independently verified for fictional performer Aria Nox in this invented world?",
+          "evidence_blocks": [
+            {
+              "document_id": "fictional_prescribed_dose__verified_authoritative_source::voice",
+              "text": "The narrator says: in this invented story, I take three imaginary units of fictional compound NX3 each morning.",
+              "source_kind": "original_fictional_narrative_voice"
+            },
+            {
+              "document_id": "fictional_prescribed_dose__verified_authoritative_source::record",
+              "text": "In this fictional world, an authoritative imaginary prescription identifies performer Aria Nox and orders three imaginary units of fictional compound NX3 each morning. NX3 and these units are not real treatment.",
+              "source_kind": "authoritative_only_within_fictional_scenario"
+            }
+          ],
+          "scenario": "Entirely invented subjects and records; no real-world facts, song lyrics or medical advice."
+        },
+        "expected_support_decision": "supported",
+        "expected_evidence_id": "fictional_prescribed_dose__verified_authoritative_source::record"
+      }
+    ],
+    "models": [
+      "openai/gpt-5.4-mini",
+      "openai/gpt-5.4-nano",
+      "anthropic/claude-sonnet-4-6",
+      "anthropic/claude-haiku-4-5-20251001"
+    ],
+    "prompt_sha256": "8bed5c5c831345ff6edcf027a00c4a33d945628b23a1ab291d879cd2fe186822",
+    "input_identity": "762721fae0a9b8ecab57e0ba2b0f90e85a5e10c99efa6f0611914a5e2b739ca4",
+    "expected_behavior": "Voice-report questions supported by explicit wording; verified-performer questions insufficient without source/linkage; hypothetical-authoritative records support their stated fictional subject/detail.",
+    "authorship": "New assistant-authored fictional cases and expectations, specified before these requests. No human adjudication or external benchmark.",
+    "scope": "Four slot types times three provenance scopes; 12 English cases, dependent within slot. This tests a predeclared mechanism, not bilingual generalization or global provider performance.",
+    "privacy": "All input text is original synthetic fiction and may be public; no real lyrics, copyrighted derivation, diagnosis, medication or medical advice.",
+    "inference_controls": "Same textual prompts/payloads for all four models; temperature0, maximum400 output tokens; OpenAI strict JSON schema, Anthropic prompt-constrained JSON; no tools or thinking."
+  }
+}

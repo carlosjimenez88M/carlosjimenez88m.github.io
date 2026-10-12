@@ -1,0 +1,13 @@
+topic_id,artist_hhi,largest_artist,largest_artist_share,contributing_artists,total_song_normalized_mass,limitation
+-1,0.2467660772446697,taylor swift,0.40080160320641284,6,1.7821428571428573,"Artist concentration within this selected corpus, not generalization."
+0,0.06960718420138748,juanes,0.10464470500435222,16,19.112290487290487,"Artist concentration within this selected corpus, not generalization."
+1,0.14046107577278882,billie eilish,0.25815447248026285,12,7.747299439690744,"Artist concentration within this selected corpus, not generalization."
+2,0.4136896703178238,michael jackson,0.5905256327060351,4,1.6934065934065934,"Artist concentration within this selected corpus, not generalization."
+3,0.33652894486599777,wham!,0.3700440528634361,3,2.211038961038961,"Artist concentration within this selected corpus, not generalization."
+4,1.0,eminem feat. dido,1.0,1,0.9565217391304348,"Artist concentration within this selected corpus, not generalization."
+5,0.6088888888888888,taylor swift,0.7333333333333333,2,1.3636363636363638,"Artist concentration within this selected corpus, not generalization."
+6,0.09655121354512858,rosalía,0.15672977726591872,12,1.59510212010212,"Artist concentration within this selected corpus, not generalization."
+7,1.0,rockwell,1.0,1,1.0,"Artist concentration within this selected corpus, not generalization."
+8,0.6270746533706713,metallica,0.7520661157024793,2,0.9307692307692308,"Artist concentration within this selected corpus, not generalization."
+9,1.0,spice girls,1.0,1,0.9,"Artist concentration within this selected corpus, not generalization."
+10,0.8185337934517298,miley cyrus,0.8990825688073395,2,0.7077922077922078,"Artist concentration within this selected corpus, not generalization."

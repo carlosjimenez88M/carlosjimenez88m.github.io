@@ -1,0 +1,148 @@
+{
+  "status": "ok",
+  "method": "BERTopic hierarchical_topics / c-TF-IDF agglomeration",
+  "edges": [
+    {
+      "parent_id": "20",
+      "parent_name": "no_mama_mama mama_like_bum",
+      "child_left_id": "17",
+      "child_right_id": "19",
+      "topic_ids": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "distance": 1.0505113815432743
+    },
+    {
+      "parent_id": "19",
+      "parent_name": "like_wanna_got_now_don't",
+      "child_left_id": "18",
+      "child_right_id": "14",
+      "topic_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "distance": 1.008176258727018
+    },
+    {
+      "parent_id": "18",
+      "parent_name": "like_wanna_got_now_feel",
+      "child_left_id": "5",
+      "child_right_id": "16",
+      "topic_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        9
+      ],
+      "distance": 0.9857123415388352
+    },
+    {
+      "parent_id": "17",
+      "parent_name": "mama mama_mama_no_bum_uh",
+      "child_left_id": "0",
+      "child_right_id": "6",
+      "topic_ids": [
+        0,
+        6
+      ],
+      "distance": 0.9773726989998108
+    },
+    {
+      "parent_id": "16",
+      "parent_name": "like_got_now_wanna_feel",
+      "child_left_id": "15",
+      "child_right_id": "7",
+      "topic_ids": [
+        1,
+        2,
+        3,
+        4,
+        7,
+        9
+      ],
+      "distance": 0.9636299526662657
+    },
+    {
+      "parent_id": "15",
+      "parent_name": "got_wanna_now_thriller_really",
+      "child_left_id": "9",
+      "child_right_id": "13",
+      "topic_ids": [
+        1,
+        2,
+        3,
+        4,
+        9
+      ],
+      "distance": 0.9592575107996648
+    },
+    {
+      "parent_id": "14",
+      "parent_name": "better_love better_love_better love_never",
+      "child_left_id": "10",
+      "child_right_id": "8",
+      "topic_ids": [
+        8,
+        10
+      ],
+      "distance": 0.9435440996972513
+    },
+    {
+      "parent_id": "13",
+      "parent_name": "got_now_thriller_crazy_right",
+      "child_left_id": "12",
+      "child_right_id": "3",
+      "topic_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "distance": 0.9392400716328256
+    },
+    {
+      "parent_id": "12",
+      "parent_name": "thriller_head_know_it's_used",
+      "child_left_id": "4",
+      "child_right_id": "11",
+      "topic_ids": [
+        1,
+        2,
+        4
+      ],
+      "distance": 0.9283643857037233
+    },
+    {
+      "parent_id": "11",
+      "parent_name": "thriller_head_belong_time_used",
+      "child_left_id": "1",
+      "child_right_id": "2",
+      "topic_ids": [
+        1,
+        2
+      ],
+      "distance": 0.9072108408032064
+    }
+  ],
+  "limitation": "A similarity hierarchy, not discovered causes or validated taxonomic subtopics."
+}

@@ -1,0 +1,1418 @@
+{
+  "parameters": {
+    "seed": 17,
+    "documents": 1137,
+    "umap_neighbors": 15,
+    "umap_components": 5,
+    "umap_min_dist": 0.0,
+    "umap_metric": "cosine",
+    "hdbscan_metric": "euclidean_in_umap_space",
+    "min_cluster_size": 8,
+    "min_samples": 3,
+    "cluster_selection_method": "eom",
+    "ctfidf_reduce_frequent_words": true,
+    "lexical_preprocessing_language": "multilingual",
+    "lexical_accents_preserved": true,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "topic_reduction": "none",
+    "fit_weight": "one_per_unique_song_block"
+  },
+  "topics": [
+    {
+      "topic_id": -1,
+      "unique_blocks": 123,
+      "songs": 44,
+      "is_noise": true,
+      "terms": [
+        {
+          "term": "yet",
+          "ctfidf_weight": 0.27869922028767713
+        },
+        {
+          "term": "back",
+          "ctfidf_weight": 0.25198721677867963
+        },
+        {
+          "term": "no one",
+          "ctfidf_weight": 0.245419309175433
+        },
+        {
+          "term": "clear yet",
+          "ctfidf_weight": 0.2435119353180245
+        },
+        {
+          "term": "clear",
+          "ctfidf_weight": 0.2435119353180245
+        },
+        {
+          "term": "go back",
+          "ctfidf_weight": 0.2435119353180245
+        },
+        {
+          "term": "woods",
+          "ctfidf_weight": 0.23841746094639701
+        },
+        {
+          "term": "zombie",
+          "ctfidf_weight": 0.2329723754429135
+        },
+        {
+          "term": "running",
+          "ctfidf_weight": 0.23000164381996688
+        },
+        {
+          "term": "go",
+          "ctfidf_weight": 0.22805784747632174
+        }
+      ]
+    },
+    {
+      "topic_id": 0,
+      "unique_blocks": 561,
+      "songs": 62,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "tú",
+          "ctfidf_weight": 0.21516209795658928
+        },
+        {
+          "term": "soy",
+          "ctfidf_weight": 0.21078714040900176
+        },
+        {
+          "term": "quiero",
+          "ctfidf_weight": 0.20323211025048252
+        },
+        {
+          "term": "no",
+          "ctfidf_weight": 0.19954823012344733
+        },
+        {
+          "term": "sin",
+          "ctfidf_weight": 0.19922962222692261
+        },
+        {
+          "term": "tengo",
+          "ctfidf_weight": 0.18985662345689555
+        },
+        {
+          "term": "nada",
+          "ctfidf_weight": 0.1875313431137207
+        },
+        {
+          "term": "mí",
+          "ctfidf_weight": 0.1871384344028107
+        },
+        {
+          "term": "mal",
+          "ctfidf_weight": 0.18494055999345171
+        },
+        {
+          "term": "amor",
+          "ctfidf_weight": 0.18339114669826054
+        }
+      ]
+    },
+    {
+      "topic_id": 1,
+      "unique_blocks": 63,
+      "songs": 16,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "black man",
+          "ctfidf_weight": 0.3500798746524236
+        },
+        {
+          "term": "crazy",
+          "ctfidf_weight": 0.34134412088198374
+        },
+        {
+          "term": "got",
+          "ctfidf_weight": 0.33573665466024366
+        },
+        {
+          "term": "right now",
+          "ctfidf_weight": 0.3273088040470393
+        },
+        {
+          "term": "really",
+          "ctfidf_weight": 0.3227840086720826
+        },
+        {
+          "term": "man",
+          "ctfidf_weight": 0.3227469052457616
+        },
+        {
+          "term": "got looking",
+          "ctfidf_weight": 0.322380951063719
+        },
+        {
+          "term": "looking crazy",
+          "ctfidf_weight": 0.322380951063719
+        },
+        {
+          "term": "get",
+          "ctfidf_weight": 0.31965064617442757
+        },
+        {
+          "term": "come come",
+          "ctfidf_weight": 0.31823353412122746
+        }
+      ]
+    },
+    {
+      "topic_id": 2,
+      "unique_blocks": 30,
+      "songs": 12,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "shit",
+          "ctfidf_weight": 0.35540370590821835
+        },
+        {
+          "term": "hope",
+          "ctfidf_weight": 0.35540370590821835
+        },
+        {
+          "term": "slim",
+          "ctfidf_weight": 0.33888251674650316
+        },
+        {
+          "term": "taste",
+          "ctfidf_weight": 0.3303337524993952
+        },
+        {
+          "term": "you'll taste",
+          "ctfidf_weight": 0.33033162218685236
+        },
+        {
+          "term": "he's kissin",
+          "ctfidf_weight": 0.32904771369251395
+        },
+        {
+          "term": "stan",
+          "ctfidf_weight": 0.32904771369251395
+        },
+        {
+          "term": "taste he's",
+          "ctfidf_weight": 0.32904771369251395
+        },
+        {
+          "term": "kissin",
+          "ctfidf_weight": 0.32904771369251395
+        },
+        {
+          "term": "you'll",
+          "ctfidf_weight": 0.3103869585162287
+        }
+      ]
+    },
+    {
+      "topic_id": 3,
+      "unique_blocks": 29,
+      "songs": 14,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "confusing",
+          "ctfidf_weight": 0.4269360147553721
+        },
+        {
+          "term": "caught undertow",
+          "ctfidf_weight": 0.4269360147553721
+        },
+        {
+          "term": "undertow",
+          "ctfidf_weight": 0.4269360147553721
+        },
+        {
+          "term": "ve become",
+          "ctfidf_weight": 0.3934370301801181
+        },
+        {
+          "term": "confusing real",
+          "ctfidf_weight": 0.3903654203253158
+        },
+        {
+          "term": "caught",
+          "ctfidf_weight": 0.38683682558048377
+        },
+        {
+          "term": "fear",
+          "ctfidf_weight": 0.3793083796595824
+        },
+        {
+          "term": "become",
+          "ctfidf_weight": 0.3750498224847544
+        },
+        {
+          "term": "head",
+          "ctfidf_weight": 0.37446488605576644
+        },
+        {
+          "term": "numb can't",
+          "ctfidf_weight": 0.3683003664799876
+        }
+      ]
+    },
+    {
+      "topic_id": 4,
+      "unique_blocks": 29,
+      "songs": 19,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "won't unhappy",
+          "ctfidf_weight": 0.6921907189435037
+        },
+        {
+          "term": "unhappy",
+          "ctfidf_weight": 0.6921907189435037
+        },
+        {
+          "term": "it's won't",
+          "ctfidf_weight": 0.6921907189435037
+        },
+        {
+          "term": "it's it's",
+          "ctfidf_weight": 0.6186678354159791
+        },
+        {
+          "term": "off never",
+          "ctfidf_weight": 0.5453020810602998
+        },
+        {
+          "term": "never land",
+          "ctfidf_weight": 0.5453020810602998
+        },
+        {
+          "term": "we're off",
+          "ctfidf_weight": 0.5453020810602998
+        },
+        {
+          "term": "ve tryna",
+          "ctfidf_weight": 0.5414970200498205
+        },
+        {
+          "term": "squeeze life",
+          "ctfidf_weight": 0.5414970200498205
+        },
+        {
+          "term": "suck",
+          "ctfidf_weight": 0.5414970200498205
+        }
+      ]
+    },
+    {
+      "topic_id": 5,
+      "unique_blocks": 26,
+      "songs": 11,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "didn't wanna",
+          "ctfidf_weight": 0.5841426932969253
+        },
+        {
+          "term": "exist",
+          "ctfidf_weight": 0.5274662640218246
+        },
+        {
+          "term": "night like",
+          "ctfidf_weight": 0.5274662640218246
+        },
+        {
+          "term": "doesn't exist",
+          "ctfidf_weight": 0.5274662640218246
+        },
+        {
+          "term": "cry remembered",
+          "ctfidf_weight": 0.4793201586466586
+        },
+        {
+          "term": "wanna leave",
+          "ctfidf_weight": 0.4793201586466586
+        },
+        {
+          "term": "started cry",
+          "ctfidf_weight": 0.4793201586466586
+        },
+        {
+          "term": "gonna",
+          "ctfidf_weight": 0.4742905699888984
+        },
+        {
+          "term": "remembered",
+          "ctfidf_weight": 0.4567991842821699
+        },
+        {
+          "term": "doesn't",
+          "ctfidf_weight": 0.4543082903436503
+        }
+      ]
+    },
+    {
+      "topic_id": 6,
+      "unique_blocks": 24,
+      "songs": 7,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "wake",
+          "ctfidf_weight": 0.46303476733310334
+        },
+        {
+          "term": "save",
+          "ctfidf_weight": 0.4342023368372048
+        },
+        {
+          "term": "church",
+          "ctfidf_weight": 0.39241351745589115
+        },
+        {
+          "term": "worship",
+          "ctfidf_weight": 0.39241351745589115
+        },
+        {
+          "term": "hide",
+          "ctfidf_weight": 0.3825118953723387
+        },
+        {
+          "term": "lies",
+          "ctfidf_weight": 0.3825118953723387
+        },
+        {
+          "term": "lies ll",
+          "ctfidf_weight": 0.3738948357671002
+        },
+        {
+          "term": "amen",
+          "ctfidf_weight": 0.3738948357671002
+        },
+        {
+          "term": "church ll",
+          "ctfidf_weight": 0.3738948357671002
+        },
+        {
+          "term": "knife offer",
+          "ctfidf_weight": 0.3738948357671002
+        }
+      ]
+    },
+    {
+      "topic_id": 7,
+      "unique_blocks": 21,
+      "songs": 8,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "sunday",
+          "ctfidf_weight": 0.8979698493787758
+        },
+        {
+          "term": "hole sun",
+          "ctfidf_weight": 0.756545288650546
+        },
+        {
+          "term": "bloody sunday",
+          "ctfidf_weight": 0.756545288650546
+        },
+        {
+          "term": "bloody",
+          "ctfidf_weight": 0.756545288650546
+        },
+        {
+          "term": "sunday bloody",
+          "ctfidf_weight": 0.756545288650546
+        },
+        {
+          "term": "black hole",
+          "ctfidf_weight": 0.756545288650546
+        },
+        {
+          "term": "hole",
+          "ctfidf_weight": 0.7397308639879459
+        },
+        {
+          "term": "won't come",
+          "ctfidf_weight": 0.7263159385383808
+        },
+        {
+          "term": "cry",
+          "ctfidf_weight": 0.6872289998240675
+        },
+        {
+          "term": "sun",
+          "ctfidf_weight": 0.6852059434204454
+        }
+      ]
+    },
+    {
+      "topic_id": 8,
+      "unique_blocks": 21,
+      "songs": 16,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "uh uh",
+          "ctfidf_weight": 1.2776860195050623
+        },
+        {
+          "term": "uh",
+          "ctfidf_weight": 1.1351967644745993
+        },
+        {
+          "term": "hmm",
+          "ctfidf_weight": 0.9408811477084159
+        },
+        {
+          "term": "hmm hmm",
+          "ctfidf_weight": 0.8964793172252064
+        },
+        {
+          "term": "no no",
+          "ctfidf_weight": 0.8709537447366666
+        },
+        {
+          "term": "ohh",
+          "ctfidf_weight": 0.7751249836673034
+        },
+        {
+          "term": "go away",
+          "ctfidf_weight": 0.756512449212474
+        },
+        {
+          "term": "ohh ohh",
+          "ctfidf_weight": 0.7147729647343795
+        },
+        {
+          "term": "away go",
+          "ctfidf_weight": 0.7147729647343795
+        },
+        {
+          "term": "go go",
+          "ctfidf_weight": 0.6633353487164841
+        }
+      ]
+    },
+    {
+      "topic_id": 9,
+      "unique_blocks": 16,
+      "songs": 3,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "ooh ooh",
+          "ctfidf_weight": 0.8848945349245962
+        },
+        {
+          "term": "ooh",
+          "ctfidf_weight": 0.8506972948191133
+        },
+        {
+          "term": "worry",
+          "ctfidf_weight": 0.6838192495627996
+        },
+        {
+          "term": "don't worry",
+          "ctfidf_weight": 0.6709025790114301
+        },
+        {
+          "term": "hoo",
+          "ctfidf_weight": 0.6073384068467524
+        },
+        {
+          "term": "woo ooh",
+          "ctfidf_weight": 0.6053875180187851
+        },
+        {
+          "term": "happy",
+          "ctfidf_weight": 0.6046932583657523
+        },
+        {
+          "term": "worry happy",
+          "ctfidf_weight": 0.5953376683708829
+        },
+        {
+          "term": "ooh don't",
+          "ctfidf_weight": 0.5847116411284737
+        },
+        {
+          "term": "ooh hoo",
+          "ctfidf_weight": 0.5348512733906035
+        }
+      ]
+    },
+    {
+      "topic_id": 10,
+      "unique_blocks": 15,
+      "songs": 8,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "don't agree",
+          "ctfidf_weight": 0.5106348429314577
+        },
+        {
+          "term": "royals",
+          "ctfidf_weight": 0.5106348429314577
+        },
+        {
+          "term": "agree",
+          "ctfidf_weight": 0.5106348429314577
+        },
+        {
+          "term": "everybody's",
+          "ctfidf_weight": 0.4726165066067145
+        },
+        {
+          "term": "gold",
+          "ctfidf_weight": 0.46614370353611134
+        },
+        {
+          "term": "world seven",
+          "ctfidf_weight": 0.4480301928726509
+        },
+        {
+          "term": "looking something",
+          "ctfidf_weight": 0.4480301928726509
+        },
+        {
+          "term": "agree don't",
+          "ctfidf_weight": 0.4480301928726509
+        },
+        {
+          "term": "seas everybody's",
+          "ctfidf_weight": 0.4480301928726509
+        },
+        {
+          "term": "seven",
+          "ctfidf_weight": 0.4480301928726509
+        }
+      ]
+    },
+    {
+      "topic_id": 11,
+      "unique_blocks": 15,
+      "songs": 2,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "thriller",
+          "ctfidf_weight": 0.8439218687969277
+        },
+        {
+          "term": "thriller night",
+          "ctfidf_weight": 0.6600760163695304
+        },
+        {
+          "term": "disturbia",
+          "ctfidf_weight": 0.6293577876666084
+        },
+        {
+          "term": "thriller thriller",
+          "ctfidf_weight": 0.599895840820814
+        },
+        {
+          "term": "aha",
+          "ctfidf_weight": 0.5485098093390097
+        },
+        {
+          "term": "babe",
+          "ctfidf_weight": 0.5483479622781545
+        },
+        {
+          "term": "night",
+          "ctfidf_weight": 0.5457836224302667
+        },
+        {
+          "term": "thrill",
+          "ctfidf_weight": 0.5329733531068956
+        },
+        {
+          "term": "babe thriller",
+          "ctfidf_weight": 0.4812616277022918
+        },
+        {
+          "term": "tonight thriller",
+          "ctfidf_weight": 0.4812616277022918
+        }
+      ]
+    },
+    {
+      "topic_id": 12,
+      "unique_blocks": 14,
+      "songs": 7,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "cause hurts",
+          "ctfidf_weight": 0.6144591142476186
+        },
+        {
+          "term": "don't tell",
+          "ctfidf_weight": 0.6144591142476186
+        },
+        {
+          "term": "hurts",
+          "ctfidf_weight": 0.6016349351050807
+        },
+        {
+          "term": "tell cause",
+          "ctfidf_weight": 0.6016349351050807
+        },
+        {
+          "term": "don't speak",
+          "ctfidf_weight": 0.5793176085951608
+        },
+        {
+          "term": "hush",
+          "ctfidf_weight": 0.5662841974261988
+        },
+        {
+          "term": "speak",
+          "ctfidf_weight": 0.5607528698285538
+        },
+        {
+          "term": "speak know",
+          "ctfidf_weight": 0.49483259312116423
+        },
+        {
+          "term": "need reasons",
+          "ctfidf_weight": 0.47560428351591905
+        },
+        {
+          "term": "you're thinkin",
+          "ctfidf_weight": 0.47560428351591905
+        }
+      ]
+    },
+    {
+      "topic_id": 13,
+      "unique_blocks": 13,
+      "songs": 7,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "toxic",
+          "ctfidf_weight": 0.6223668634243574
+        },
+        {
+          "term": "you're toxic",
+          "ctfidf_weight": 0.5957638282662794
+        },
+        {
+          "term": "special",
+          "ctfidf_weight": 0.5658479546631608
+        },
+        {
+          "term": "addicted",
+          "ctfidf_weight": 0.5109465719172409
+        },
+        {
+          "term": "run run",
+          "ctfidf_weight": 0.5109465719172409
+        },
+        {
+          "term": "you're",
+          "ctfidf_weight": 0.5097296793068868
+        },
+        {
+          "term": "taste",
+          "ctfidf_weight": 0.47767682241045584
+        },
+        {
+          "term": "poison paradise",
+          "ctfidf_weight": 0.4643083522422297
+        },
+        {
+          "term": "taste poison",
+          "ctfidf_weight": 0.4643083522422297
+        },
+        {
+          "term": "addicted don't",
+          "ctfidf_weight": 0.4643083522422297
+        }
+      ]
+    },
+    {
+      "topic_id": 14,
+      "unique_blocks": 12,
+      "songs": 4,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "felt",
+          "ctfidf_weight": 0.5723306761299567
+        },
+        {
+          "term": "someone",
+          "ctfidf_weight": 0.5223066298296569
+        },
+        {
+          "term": "drove",
+          "ctfidf_weight": 0.5023102331481564
+        },
+        {
+          "term": "someone someone",
+          "ctfidf_weight": 0.5023102331481564
+        },
+        {
+          "term": "drive alone",
+          "ctfidf_weight": 0.5023102331481564
+        },
+        {
+          "term": "said forever",
+          "ctfidf_weight": 0.5023102331481564
+        },
+        {
+          "term": "past street",
+          "ctfidf_weight": 0.5023102331481564
+        },
+        {
+          "term": "now drive",
+          "ctfidf_weight": 0.5023102331481564
+        },
+        {
+          "term": "alone past",
+          "ctfidf_weight": 0.5023102331481564
+        },
+        {
+          "term": "forever now",
+          "ctfidf_weight": 0.5023102331481564
+        }
+      ]
+    },
+    {
+      "topic_id": 15,
+      "unique_blocks": 12,
+      "songs": 3,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "fast",
+          "ctfidf_weight": 0.6009175514033014
+        },
+        {
+          "term": "fast car",
+          "ctfidf_weight": 0.5899690467046601
+        },
+        {
+          "term": "got fast",
+          "ctfidf_weight": 0.5621273733265478
+        },
+        {
+          "term": "shot",
+          "ctfidf_weight": 0.5324230121135229
+        },
+        {
+          "term": "opportunity",
+          "ctfidf_weight": 0.5303536297658435
+        },
+        {
+          "term": "car",
+          "ctfidf_weight": 0.5210689944692767
+        },
+        {
+          "term": "one shot",
+          "ctfidf_weight": 0.4932096565221963
+        },
+        {
+          "term": "better",
+          "ctfidf_weight": 0.4539086387670843
+        },
+        {
+          "term": "opportunity comes",
+          "ctfidf_weight": 0.44819042834652556
+        },
+        {
+          "term": "not miss",
+          "ctfidf_weight": 0.44819042834652556
+        }
+      ]
+    },
+    {
+      "topic_id": 16,
+      "unique_blocks": 11,
+      "songs": 4,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "walk",
+          "ctfidf_weight": 0.8576644874961799
+        },
+        {
+          "term": "walk alone",
+          "ctfidf_weight": 0.7755785641856079
+        },
+        {
+          "term": "alone walk",
+          "ctfidf_weight": 0.7092638458210443
+        },
+        {
+          "term": "alone",
+          "ctfidf_weight": 0.6888977284182907
+        },
+        {
+          "term": "walks beside",
+          "ctfidf_weight": 0.5095086246972559
+        },
+        {
+          "term": "shadow's",
+          "ctfidf_weight": 0.5095086246972559
+        },
+        {
+          "term": "walks",
+          "ctfidf_weight": 0.5095086246972559
+        },
+        {
+          "term": "heart's thing",
+          "ctfidf_weight": 0.5095086246972559
+        },
+        {
+          "term": "beside shallow",
+          "ctfidf_weight": 0.5095086246972559
+        },
+        {
+          "term": "shadow's one",
+          "ctfidf_weight": 0.5095086246972559
+        }
+      ]
+    },
+    {
+      "topic_id": 17,
+      "unique_blocks": 10,
+      "songs": 2,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "problem it's",
+          "ctfidf_weight": 0.6335534479174225
+        },
+        {
+          "term": "hi",
+          "ctfidf_weight": 0.6335534479174225
+        },
+        {
+          "term": "it's hi",
+          "ctfidf_weight": 0.6036549502538258
+        },
+        {
+          "term": "agrees",
+          "ctfidf_weight": 0.6036549502538258
+        },
+        {
+          "term": "everybody agrees",
+          "ctfidf_weight": 0.6036549502538258
+        },
+        {
+          "term": "everybody",
+          "ctfidf_weight": 0.6034768316900264
+        },
+        {
+          "term": "problem",
+          "ctfidf_weight": 0.6034768316900264
+        },
+        {
+          "term": "hi problem",
+          "ctfidf_weight": 0.5695338978044324
+        },
+        {
+          "term": "anti hero",
+          "ctfidf_weight": 0.4813008288970034
+        },
+        {
+          "term": "it's teatime",
+          "ctfidf_weight": 0.4813008288970034
+        }
+      ]
+    },
+    {
+      "topic_id": 18,
+      "unique_blocks": 10,
+      "songs": 5,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "one two",
+          "ctfidf_weight": 0.6883577751575797
+        },
+        {
+          "term": "two three",
+          "ctfidf_weight": 0.6883577751575797
+        },
+        {
+          "term": "three",
+          "ctfidf_weight": 0.6883577751575797
+        },
+        {
+          "term": "holding",
+          "ctfidf_weight": 0.6512022976153733
+        },
+        {
+          "term": "two",
+          "ctfidf_weight": 0.6415723387655297
+        },
+        {
+          "term": "holding tonight",
+          "ctfidf_weight": 0.6320456931740592
+        },
+        {
+          "term": "three one",
+          "ctfidf_weight": 0.5779057614103346
+        },
+        {
+          "term": "movin",
+          "ctfidf_weight": 0.5779057614103346
+        },
+        {
+          "term": "three drink",
+          "ctfidf_weight": 0.5779057614103346
+        },
+        {
+          "term": "head movin",
+          "ctfidf_weight": 0.5779057614103346
+        }
+      ]
+    },
+    {
+      "topic_id": 19,
+      "unique_blocks": 10,
+      "songs": 2,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "like somebody's",
+          "ctfidf_weight": 0.9503908700449376
+        },
+        {
+          "term": "watching",
+          "ctfidf_weight": 0.9421319109750808
+        },
+        {
+          "term": "always feel",
+          "ctfidf_weight": 0.9386748501624487
+        },
+        {
+          "term": "somebody's",
+          "ctfidf_weight": 0.9275680761068338
+        },
+        {
+          "term": "who's",
+          "ctfidf_weight": 0.9201270500172851
+        },
+        {
+          "term": "who's watching",
+          "ctfidf_weight": 0.8862847228525378
+        },
+        {
+          "term": "feel like",
+          "ctfidf_weight": 0.8401019320457992
+        },
+        {
+          "term": "always",
+          "ctfidf_weight": 0.8132452348783284
+        },
+        {
+          "term": "somebody's watching",
+          "ctfidf_weight": 0.803657102143712
+        },
+        {
+          "term": "somebody's watchin",
+          "ctfidf_weight": 0.7512757453720507
+        }
+      ]
+    },
+    {
+      "topic_id": 20,
+      "unique_blocks": 10,
+      "songs": 1,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "every",
+          "ctfidf_weight": 1.10082729857958
+        },
+        {
+          "term": "ll watching",
+          "ctfidf_weight": 0.9211524014639874
+        },
+        {
+          "term": "watching every",
+          "ctfidf_weight": 0.8775217493641689
+        },
+        {
+          "term": "make every",
+          "ctfidf_weight": 0.7975167020440008
+        },
+        {
+          "term": "move make",
+          "ctfidf_weight": 0.7975167020440008
+        },
+        {
+          "term": "every move",
+          "ctfidf_weight": 0.7975167020440008
+        },
+        {
+          "term": "break every",
+          "ctfidf_weight": 0.7653195848671187
+        },
+        {
+          "term": "watching",
+          "ctfidf_weight": 0.7071916679494415
+        },
+        {
+          "term": "move",
+          "ctfidf_weight": 0.6813634767563229
+        },
+        {
+          "term": "every claim",
+          "ctfidf_weight": 0.639801378886544
+        }
+      ]
+    },
+    {
+      "topic_id": 21,
+      "unique_blocks": 9,
+      "songs": 8,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "bet",
+          "ctfidf_weight": 0.9844256049069917
+        },
+        {
+          "term": "forever bet",
+          "ctfidf_weight": 0.876917381423962
+        },
+        {
+          "term": "want forever",
+          "ctfidf_weight": 0.876917381423962
+        },
+        {
+          "term": "bet know",
+          "ctfidf_weight": 0.876917381423962
+        },
+        {
+          "term": "know you'll",
+          "ctfidf_weight": 0.876917381423962
+        },
+        {
+          "term": "forever",
+          "ctfidf_weight": 0.817426230278617
+        },
+        {
+          "term": "you'll taste",
+          "ctfidf_weight": 0.7366105270523341
+        },
+        {
+          "term": "taste well",
+          "ctfidf_weight": 0.7314705356718768
+        },
+        {
+          "term": "disappointed don't",
+          "ctfidf_weight": 0.7314705356718768
+        },
+        {
+          "term": "disappointed",
+          "ctfidf_weight": 0.7314705356718768
+        }
+      ]
+    },
+    {
+      "topic_id": 22,
+      "unique_blocks": 9,
+      "songs": 7,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "think twice",
+          "ctfidf_weight": 0.590704082815845
+        },
+        {
+          "term": "wise",
+          "ctfidf_weight": 0.590704082815845
+        },
+        {
+          "term": "twice",
+          "ctfidf_weight": 0.571542510667978
+        },
+        {
+          "term": "lights",
+          "ctfidf_weight": 0.5626791365736696
+        },
+        {
+          "term": "falter wise",
+          "ctfidf_weight": 0.5493333908556295
+        },
+        {
+          "term": "falter",
+          "ctfidf_weight": 0.5493333908556295
+        },
+        {
+          "term": "better think",
+          "ctfidf_weight": 0.5493333908556295
+        },
+        {
+          "term": "must falter",
+          "ctfidf_weight": 0.5493333908556295
+        },
+        {
+          "term": "put brake",
+          "ctfidf_weight": 0.4991912962303359
+        },
+        {
+          "term": "thought altered",
+          "ctfidf_weight": 0.4991912962303359
+        }
+      ]
+    },
+    {
+      "topic_id": 23,
+      "unique_blocks": 9,
+      "songs": 4,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "love better",
+          "ctfidf_weight": 1.2271974145147704
+        },
+        {
+          "term": "better love",
+          "ctfidf_weight": 1.037796451210473
+        },
+        {
+          "term": "better",
+          "ctfidf_weight": 1.0295804568451277
+        },
+        {
+          "term": "better baby",
+          "ctfidf_weight": 0.9195050323024551
+        },
+        {
+          "term": "baby love",
+          "ctfidf_weight": 0.8407418348898484
+        },
+        {
+          "term": "love",
+          "ctfidf_weight": 0.8260053792198422
+        },
+        {
+          "term": "wanna wanna",
+          "ctfidf_weight": 0.7376655386055715
+        },
+        {
+          "term": "hold hand",
+          "ctfidf_weight": 0.6703328480131303
+        },
+        {
+          "term": "name sand",
+          "ctfidf_weight": 0.6703328480131303
+        },
+        {
+          "term": "dancing hold",
+          "ctfidf_weight": 0.6703328480131303
+        }
+      ]
+    },
+    {
+      "topic_id": 24,
+      "unique_blocks": 9,
+      "songs": 3,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "stand tall",
+          "ctfidf_weight": 0.904895493805358
+        },
+        {
+          "term": "let sky",
+          "ctfidf_weight": 0.904895493805358
+        },
+        {
+          "term": "sky fall",
+          "ctfidf_weight": 0.904895493805358
+        },
+        {
+          "term": "tall",
+          "ctfidf_weight": 0.904895493805358
+        },
+        {
+          "term": "stand",
+          "ctfidf_weight": 0.8854515683191718
+        },
+        {
+          "term": "crumbles",
+          "ctfidf_weight": 0.8842290823943459
+        },
+        {
+          "term": "sky",
+          "ctfidf_weight": 0.8649018758755842
+        },
+        {
+          "term": "fall",
+          "ctfidf_weight": 0.8542359256970616
+        },
+        {
+          "term": "crumbles stand",
+          "ctfidf_weight": 0.7834417722487375
+        },
+        {
+          "term": "fall crumbles",
+          "ctfidf_weight": 0.7834417722487375
+        }
+      ]
+    },
+    {
+      "topic_id": 25,
+      "unique_blocks": 9,
+      "songs": 5,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "belong together",
+          "ctfidf_weight": 0.8260675829237896
+        },
+        {
+          "term": "belong",
+          "ctfidf_weight": 0.7658473280986258
+        },
+        {
+          "term": "appears",
+          "ctfidf_weight": 0.7319097098803847
+        },
+        {
+          "term": "together finally",
+          "ctfidf_weight": 0.7319097098803847
+        },
+        {
+          "term": "finally appears",
+          "ctfidf_weight": 0.7319097098803847
+        },
+        {
+          "term": "finally",
+          "ctfidf_weight": 0.7002835444767016
+        },
+        {
+          "term": "appears it's",
+          "ctfidf_weight": 0.6692156006125298
+        },
+        {
+          "term": "it's love",
+          "ctfidf_weight": 0.6692156006125298
+        },
+        {
+          "term": "love belong",
+          "ctfidf_weight": 0.6692156006125298
+        },
+        {
+          "term": "together",
+          "ctfidf_weight": 0.6681698420200783
+        }
+      ]
+    },
+    {
+      "topic_id": 26,
+      "unique_blocks": 9,
+      "songs": 6,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "mama mama",
+          "ctfidf_weight": 1.2718248086071815
+        },
+        {
+          "term": "mama",
+          "ctfidf_weight": 1.2443455790905342
+        },
+        {
+          "term": "bum",
+          "ctfidf_weight": 1.0032728430698497
+        },
+        {
+          "term": "bum bum",
+          "ctfidf_weight": 0.9025326864743654
+        },
+        {
+          "term": "dum bum",
+          "ctfidf_weight": 0.8137119461547678
+        },
+        {
+          "term": "bum dum",
+          "ctfidf_weight": 0.8137119461547678
+        },
+        {
+          "term": "dum",
+          "ctfidf_weight": 0.7978964309352711
+        },
+        {
+          "term": "nana",
+          "ctfidf_weight": 0.7300544224606251
+        },
+        {
+          "term": "nananananá",
+          "ctfidf_weight": 0.7300544224606251
+        },
+        {
+          "term": "nananananá nana",
+          "ctfidf_weight": 0.7300544224606251
+        }
+      ]
+    },
+    {
+      "topic_id": 27,
+      "unique_blocks": 8,
+      "songs": 2,
+      "is_noise": false,
+      "terms": [
+        {
+          "term": "livin",
+          "ctfidf_weight": 0.8230318047310394
+        },
+        {
+          "term": "livin prayer",
+          "ctfidf_weight": 0.778986532719895
+        },
+        {
+          "term": "prayer",
+          "ctfidf_weight": 0.778986532719895
+        },
+        {
+          "term": "whoa",
+          "ctfidf_weight": 0.7390115129976444
+        },
+        {
+          "term": "make swear",
+          "ctfidf_weight": 0.6281999387747972
+        },
+        {
+          "term": "prayer take",
+          "ctfidf_weight": 0.6281999387747972
+        },
+        {
+          "term": "whoa livin",
+          "ctfidf_weight": 0.6281999387747972
+        },
+        {
+          "term": "half way",
+          "ctfidf_weight": 0.6281999387747972
+        },
+        {
+          "term": "we're half",
+          "ctfidf_weight": 0.6281999387747972
+        },
+        {
+          "term": "hand we'll",
+          "ctfidf_weight": 0.6078220561762243
+        }
+      ]
+    }
+  ],
+  "interpretation": "c-TF-IDF descriptors require human naming and inspection. A topic is not evidence of an emotion."
+}

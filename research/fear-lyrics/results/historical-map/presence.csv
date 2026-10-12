@@ -1,0 +1,316 @@
+view,language,decade,subtopic,label,count,songs,share
+fear_paired_joint_votes,balanced,1980,surveillance_pursuit,Vigilancia y persecución,2,8,0.25
+fear_paired_joint_votes,balanced,1980,collective_violence,Violencia colectiva,1,8,0.125
+fear_paired_joint_votes,balanced,1980,loss_abandonment,Abandono y pérdida,1,8,0.125
+fear_paired_joint_votes,balanced,1980,fragility_identity,Fragilidad e identidad,0,8,0.0
+fear_paired_joint_votes,balanced,1980,uncertainty_change,Incertidumbre y cambio,2,8,0.25
+fear_paired_joint_votes,balanced,1980,relational_coercion,Coerción relacional,2,8,0.25
+fear_paired_joint_votes,balanced,1980,supernatural,Sobrenatural,0,8,0.0
+fear_paired_joint_votes,balanced,1990,surveillance_pursuit,Vigilancia y persecución,1,8,0.125
+fear_paired_joint_votes,balanced,1990,collective_violence,Violencia colectiva,2,8,0.25
+fear_paired_joint_votes,balanced,1990,loss_abandonment,Abandono y pérdida,2,8,0.25
+fear_paired_joint_votes,balanced,1990,fragility_identity,Fragilidad e identidad,0,8,0.0
+fear_paired_joint_votes,balanced,1990,uncertainty_change,Incertidumbre y cambio,3,8,0.375
+fear_paired_joint_votes,balanced,1990,relational_coercion,Coerción relacional,1,8,0.125
+fear_paired_joint_votes,balanced,1990,supernatural,Sobrenatural,1,8,0.125
+fear_paired_joint_votes,balanced,2000,surveillance_pursuit,Vigilancia y persecución,0,8,0.0
+fear_paired_joint_votes,balanced,2000,collective_violence,Violencia colectiva,0,8,0.0
+fear_paired_joint_votes,balanced,2000,loss_abandonment,Abandono y pérdida,3,8,0.375
+fear_paired_joint_votes,balanced,2000,fragility_identity,Fragilidad e identidad,3,8,0.375
+fear_paired_joint_votes,balanced,2000,uncertainty_change,Incertidumbre y cambio,4,8,0.5
+fear_paired_joint_votes,balanced,2000,relational_coercion,Coerción relacional,1,8,0.125
+fear_paired_joint_votes,balanced,2000,supernatural,Sobrenatural,0,8,0.0
+fear_paired_joint_votes,balanced,2010,surveillance_pursuit,Vigilancia y persecución,0,8,0.0
+fear_paired_joint_votes,balanced,2010,collective_violence,Violencia colectiva,0,8,0.0
+fear_paired_joint_votes,balanced,2010,loss_abandonment,Abandono y pérdida,0,8,0.0
+fear_paired_joint_votes,balanced,2010,fragility_identity,Fragilidad e identidad,3,8,0.375
+fear_paired_joint_votes,balanced,2010,uncertainty_change,Incertidumbre y cambio,3,8,0.375
+fear_paired_joint_votes,balanced,2010,relational_coercion,Coerción relacional,1,8,0.125
+fear_paired_joint_votes,balanced,2010,supernatural,Sobrenatural,0,8,0.0
+fear_paired_joint_votes,balanced,2020,surveillance_pursuit,Vigilancia y persecución,0,8,0.0
+fear_paired_joint_votes,balanced,2020,collective_violence,Violencia colectiva,0,8,0.0
+fear_paired_joint_votes,balanced,2020,loss_abandonment,Abandono y pérdida,1,8,0.125
+fear_paired_joint_votes,balanced,2020,fragility_identity,Fragilidad e identidad,3,8,0.375
+fear_paired_joint_votes,balanced,2020,uncertainty_change,Incertidumbre y cambio,3,8,0.375
+fear_paired_joint_votes,balanced,2020,relational_coercion,Coerción relacional,1,8,0.125
+fear_paired_joint_votes,balanced,2020,supernatural,Sobrenatural,0,8,0.0
+fear_paired_joint_votes,en,1980,surveillance_pursuit,Vigilancia y persecución,2,4,0.5
+fear_paired_joint_votes,en,1980,collective_violence,Violencia colectiva,0,4,0.0
+fear_paired_joint_votes,en,1980,loss_abandonment,Abandono y pérdida,1,4,0.25
+fear_paired_joint_votes,en,1980,fragility_identity,Fragilidad e identidad,0,4,0.0
+fear_paired_joint_votes,en,1980,uncertainty_change,Incertidumbre y cambio,2,4,0.5
+fear_paired_joint_votes,en,1980,relational_coercion,Coerción relacional,1,4,0.25
+fear_paired_joint_votes,en,1980,supernatural,Sobrenatural,0,4,0.0
+fear_paired_joint_votes,en,1990,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+fear_paired_joint_votes,en,1990,collective_violence,Violencia colectiva,1,4,0.25
+fear_paired_joint_votes,en,1990,loss_abandonment,Abandono y pérdida,0,4,0.0
+fear_paired_joint_votes,en,1990,fragility_identity,Fragilidad e identidad,0,4,0.0
+fear_paired_joint_votes,en,1990,uncertainty_change,Incertidumbre y cambio,2,4,0.5
+fear_paired_joint_votes,en,1990,relational_coercion,Coerción relacional,0,4,0.0
+fear_paired_joint_votes,en,1990,supernatural,Sobrenatural,1,4,0.25
+fear_paired_joint_votes,en,2000,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+fear_paired_joint_votes,en,2000,collective_violence,Violencia colectiva,0,4,0.0
+fear_paired_joint_votes,en,2000,loss_abandonment,Abandono y pérdida,1,4,0.25
+fear_paired_joint_votes,en,2000,fragility_identity,Fragilidad e identidad,2,4,0.5
+fear_paired_joint_votes,en,2000,uncertainty_change,Incertidumbre y cambio,2,4,0.5
+fear_paired_joint_votes,en,2000,relational_coercion,Coerción relacional,1,4,0.25
+fear_paired_joint_votes,en,2000,supernatural,Sobrenatural,0,4,0.0
+fear_paired_joint_votes,en,2010,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+fear_paired_joint_votes,en,2010,collective_violence,Violencia colectiva,0,4,0.0
+fear_paired_joint_votes,en,2010,loss_abandonment,Abandono y pérdida,0,4,0.0
+fear_paired_joint_votes,en,2010,fragility_identity,Fragilidad e identidad,3,4,0.75
+fear_paired_joint_votes,en,2010,uncertainty_change,Incertidumbre y cambio,2,4,0.5
+fear_paired_joint_votes,en,2010,relational_coercion,Coerción relacional,1,4,0.25
+fear_paired_joint_votes,en,2010,supernatural,Sobrenatural,0,4,0.0
+fear_paired_joint_votes,en,2020,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+fear_paired_joint_votes,en,2020,collective_violence,Violencia colectiva,0,4,0.0
+fear_paired_joint_votes,en,2020,loss_abandonment,Abandono y pérdida,1,4,0.25
+fear_paired_joint_votes,en,2020,fragility_identity,Fragilidad e identidad,1,4,0.25
+fear_paired_joint_votes,en,2020,uncertainty_change,Incertidumbre y cambio,1,4,0.25
+fear_paired_joint_votes,en,2020,relational_coercion,Coerción relacional,0,4,0.0
+fear_paired_joint_votes,en,2020,supernatural,Sobrenatural,0,4,0.0
+fear_paired_joint_votes,es,1980,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+fear_paired_joint_votes,es,1980,collective_violence,Violencia colectiva,1,4,0.25
+fear_paired_joint_votes,es,1980,loss_abandonment,Abandono y pérdida,0,4,0.0
+fear_paired_joint_votes,es,1980,fragility_identity,Fragilidad e identidad,0,4,0.0
+fear_paired_joint_votes,es,1980,uncertainty_change,Incertidumbre y cambio,0,4,0.0
+fear_paired_joint_votes,es,1980,relational_coercion,Coerción relacional,1,4,0.25
+fear_paired_joint_votes,es,1980,supernatural,Sobrenatural,0,4,0.0
+fear_paired_joint_votes,es,1990,surveillance_pursuit,Vigilancia y persecución,1,4,0.25
+fear_paired_joint_votes,es,1990,collective_violence,Violencia colectiva,1,4,0.25
+fear_paired_joint_votes,es,1990,loss_abandonment,Abandono y pérdida,2,4,0.5
+fear_paired_joint_votes,es,1990,fragility_identity,Fragilidad e identidad,0,4,0.0
+fear_paired_joint_votes,es,1990,uncertainty_change,Incertidumbre y cambio,1,4,0.25
+fear_paired_joint_votes,es,1990,relational_coercion,Coerción relacional,1,4,0.25
+fear_paired_joint_votes,es,1990,supernatural,Sobrenatural,0,4,0.0
+fear_paired_joint_votes,es,2000,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+fear_paired_joint_votes,es,2000,collective_violence,Violencia colectiva,0,4,0.0
+fear_paired_joint_votes,es,2000,loss_abandonment,Abandono y pérdida,2,4,0.5
+fear_paired_joint_votes,es,2000,fragility_identity,Fragilidad e identidad,1,4,0.25
+fear_paired_joint_votes,es,2000,uncertainty_change,Incertidumbre y cambio,2,4,0.5
+fear_paired_joint_votes,es,2000,relational_coercion,Coerción relacional,0,4,0.0
+fear_paired_joint_votes,es,2000,supernatural,Sobrenatural,0,4,0.0
+fear_paired_joint_votes,es,2010,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+fear_paired_joint_votes,es,2010,collective_violence,Violencia colectiva,0,4,0.0
+fear_paired_joint_votes,es,2010,loss_abandonment,Abandono y pérdida,0,4,0.0
+fear_paired_joint_votes,es,2010,fragility_identity,Fragilidad e identidad,0,4,0.0
+fear_paired_joint_votes,es,2010,uncertainty_change,Incertidumbre y cambio,1,4,0.25
+fear_paired_joint_votes,es,2010,relational_coercion,Coerción relacional,0,4,0.0
+fear_paired_joint_votes,es,2010,supernatural,Sobrenatural,0,4,0.0
+fear_paired_joint_votes,es,2020,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+fear_paired_joint_votes,es,2020,collective_violence,Violencia colectiva,0,4,0.0
+fear_paired_joint_votes,es,2020,loss_abandonment,Abandono y pérdida,0,4,0.0
+fear_paired_joint_votes,es,2020,fragility_identity,Fragilidad e identidad,2,4,0.5
+fear_paired_joint_votes,es,2020,uncertainty_change,Incertidumbre y cambio,2,4,0.5
+fear_paired_joint_votes,es,2020,relational_coercion,Coerción relacional,1,4,0.25
+fear_paired_joint_votes,es,2020,supernatural,Sobrenatural,0,4,0.0
+fear_consensus_cross,balanced,1980,surveillance_pursuit,Vigilancia y persecución,1,8,0.125
+fear_consensus_cross,balanced,1980,collective_violence,Violencia colectiva,1,8,0.125
+fear_consensus_cross,balanced,1980,loss_abandonment,Abandono y pérdida,0,8,0.0
+fear_consensus_cross,balanced,1980,fragility_identity,Fragilidad e identidad,0,8,0.0
+fear_consensus_cross,balanced,1980,uncertainty_change,Incertidumbre y cambio,2,8,0.25
+fear_consensus_cross,balanced,1980,relational_coercion,Coerción relacional,2,8,0.25
+fear_consensus_cross,balanced,1980,supernatural,Sobrenatural,0,8,0.0
+fear_consensus_cross,balanced,1990,surveillance_pursuit,Vigilancia y persecución,0,8,0.0
+fear_consensus_cross,balanced,1990,collective_violence,Violencia colectiva,1,8,0.125
+fear_consensus_cross,balanced,1990,loss_abandonment,Abandono y pérdida,2,8,0.25
+fear_consensus_cross,balanced,1990,fragility_identity,Fragilidad e identidad,0,8,0.0
+fear_consensus_cross,balanced,1990,uncertainty_change,Incertidumbre y cambio,3,8,0.375
+fear_consensus_cross,balanced,1990,relational_coercion,Coerción relacional,1,8,0.125
+fear_consensus_cross,balanced,1990,supernatural,Sobrenatural,1,8,0.125
+fear_consensus_cross,balanced,2000,surveillance_pursuit,Vigilancia y persecución,0,8,0.0
+fear_consensus_cross,balanced,2000,collective_violence,Violencia colectiva,0,8,0.0
+fear_consensus_cross,balanced,2000,loss_abandonment,Abandono y pérdida,3,8,0.375
+fear_consensus_cross,balanced,2000,fragility_identity,Fragilidad e identidad,3,8,0.375
+fear_consensus_cross,balanced,2000,uncertainty_change,Incertidumbre y cambio,4,8,0.5
+fear_consensus_cross,balanced,2000,relational_coercion,Coerción relacional,1,8,0.125
+fear_consensus_cross,balanced,2000,supernatural,Sobrenatural,0,8,0.0
+fear_consensus_cross,balanced,2010,surveillance_pursuit,Vigilancia y persecución,0,8,0.0
+fear_consensus_cross,balanced,2010,collective_violence,Violencia colectiva,0,8,0.0
+fear_consensus_cross,balanced,2010,loss_abandonment,Abandono y pérdida,0,8,0.0
+fear_consensus_cross,balanced,2010,fragility_identity,Fragilidad e identidad,3,8,0.375
+fear_consensus_cross,balanced,2010,uncertainty_change,Incertidumbre y cambio,3,8,0.375
+fear_consensus_cross,balanced,2010,relational_coercion,Coerción relacional,1,8,0.125
+fear_consensus_cross,balanced,2010,supernatural,Sobrenatural,0,8,0.0
+fear_consensus_cross,balanced,2020,surveillance_pursuit,Vigilancia y persecución,0,8,0.0
+fear_consensus_cross,balanced,2020,collective_violence,Violencia colectiva,0,8,0.0
+fear_consensus_cross,balanced,2020,loss_abandonment,Abandono y pérdida,1,8,0.125
+fear_consensus_cross,balanced,2020,fragility_identity,Fragilidad e identidad,3,8,0.375
+fear_consensus_cross,balanced,2020,uncertainty_change,Incertidumbre y cambio,3,8,0.375
+fear_consensus_cross,balanced,2020,relational_coercion,Coerción relacional,1,8,0.125
+fear_consensus_cross,balanced,2020,supernatural,Sobrenatural,0,8,0.0
+fear_consensus_cross,en,1980,surveillance_pursuit,Vigilancia y persecución,1,4,0.25
+fear_consensus_cross,en,1980,collective_violence,Violencia colectiva,0,4,0.0
+fear_consensus_cross,en,1980,loss_abandonment,Abandono y pérdida,0,4,0.0
+fear_consensus_cross,en,1980,fragility_identity,Fragilidad e identidad,0,4,0.0
+fear_consensus_cross,en,1980,uncertainty_change,Incertidumbre y cambio,2,4,0.5
+fear_consensus_cross,en,1980,relational_coercion,Coerción relacional,1,4,0.25
+fear_consensus_cross,en,1980,supernatural,Sobrenatural,0,4,0.0
+fear_consensus_cross,en,1990,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+fear_consensus_cross,en,1990,collective_violence,Violencia colectiva,1,4,0.25
+fear_consensus_cross,en,1990,loss_abandonment,Abandono y pérdida,0,4,0.0
+fear_consensus_cross,en,1990,fragility_identity,Fragilidad e identidad,0,4,0.0
+fear_consensus_cross,en,1990,uncertainty_change,Incertidumbre y cambio,2,4,0.5
+fear_consensus_cross,en,1990,relational_coercion,Coerción relacional,0,4,0.0
+fear_consensus_cross,en,1990,supernatural,Sobrenatural,1,4,0.25
+fear_consensus_cross,en,2000,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+fear_consensus_cross,en,2000,collective_violence,Violencia colectiva,0,4,0.0
+fear_consensus_cross,en,2000,loss_abandonment,Abandono y pérdida,1,4,0.25
+fear_consensus_cross,en,2000,fragility_identity,Fragilidad e identidad,2,4,0.5
+fear_consensus_cross,en,2000,uncertainty_change,Incertidumbre y cambio,2,4,0.5
+fear_consensus_cross,en,2000,relational_coercion,Coerción relacional,1,4,0.25
+fear_consensus_cross,en,2000,supernatural,Sobrenatural,0,4,0.0
+fear_consensus_cross,en,2010,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+fear_consensus_cross,en,2010,collective_violence,Violencia colectiva,0,4,0.0
+fear_consensus_cross,en,2010,loss_abandonment,Abandono y pérdida,0,4,0.0
+fear_consensus_cross,en,2010,fragility_identity,Fragilidad e identidad,3,4,0.75
+fear_consensus_cross,en,2010,uncertainty_change,Incertidumbre y cambio,2,4,0.5
+fear_consensus_cross,en,2010,relational_coercion,Coerción relacional,1,4,0.25
+fear_consensus_cross,en,2010,supernatural,Sobrenatural,0,4,0.0
+fear_consensus_cross,en,2020,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+fear_consensus_cross,en,2020,collective_violence,Violencia colectiva,0,4,0.0
+fear_consensus_cross,en,2020,loss_abandonment,Abandono y pérdida,1,4,0.25
+fear_consensus_cross,en,2020,fragility_identity,Fragilidad e identidad,1,4,0.25
+fear_consensus_cross,en,2020,uncertainty_change,Incertidumbre y cambio,1,4,0.25
+fear_consensus_cross,en,2020,relational_coercion,Coerción relacional,0,4,0.0
+fear_consensus_cross,en,2020,supernatural,Sobrenatural,0,4,0.0
+fear_consensus_cross,es,1980,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+fear_consensus_cross,es,1980,collective_violence,Violencia colectiva,1,4,0.25
+fear_consensus_cross,es,1980,loss_abandonment,Abandono y pérdida,0,4,0.0
+fear_consensus_cross,es,1980,fragility_identity,Fragilidad e identidad,0,4,0.0
+fear_consensus_cross,es,1980,uncertainty_change,Incertidumbre y cambio,0,4,0.0
+fear_consensus_cross,es,1980,relational_coercion,Coerción relacional,1,4,0.25
+fear_consensus_cross,es,1980,supernatural,Sobrenatural,0,4,0.0
+fear_consensus_cross,es,1990,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+fear_consensus_cross,es,1990,collective_violence,Violencia colectiva,0,4,0.0
+fear_consensus_cross,es,1990,loss_abandonment,Abandono y pérdida,2,4,0.5
+fear_consensus_cross,es,1990,fragility_identity,Fragilidad e identidad,0,4,0.0
+fear_consensus_cross,es,1990,uncertainty_change,Incertidumbre y cambio,1,4,0.25
+fear_consensus_cross,es,1990,relational_coercion,Coerción relacional,1,4,0.25
+fear_consensus_cross,es,1990,supernatural,Sobrenatural,0,4,0.0
+fear_consensus_cross,es,2000,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+fear_consensus_cross,es,2000,collective_violence,Violencia colectiva,0,4,0.0
+fear_consensus_cross,es,2000,loss_abandonment,Abandono y pérdida,2,4,0.5
+fear_consensus_cross,es,2000,fragility_identity,Fragilidad e identidad,1,4,0.25
+fear_consensus_cross,es,2000,uncertainty_change,Incertidumbre y cambio,2,4,0.5
+fear_consensus_cross,es,2000,relational_coercion,Coerción relacional,0,4,0.0
+fear_consensus_cross,es,2000,supernatural,Sobrenatural,0,4,0.0
+fear_consensus_cross,es,2010,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+fear_consensus_cross,es,2010,collective_violence,Violencia colectiva,0,4,0.0
+fear_consensus_cross,es,2010,loss_abandonment,Abandono y pérdida,0,4,0.0
+fear_consensus_cross,es,2010,fragility_identity,Fragilidad e identidad,0,4,0.0
+fear_consensus_cross,es,2010,uncertainty_change,Incertidumbre y cambio,1,4,0.25
+fear_consensus_cross,es,2010,relational_coercion,Coerción relacional,0,4,0.0
+fear_consensus_cross,es,2010,supernatural,Sobrenatural,0,4,0.0
+fear_consensus_cross,es,2020,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+fear_consensus_cross,es,2020,collective_violence,Violencia colectiva,0,4,0.0
+fear_consensus_cross,es,2020,loss_abandonment,Abandono y pérdida,0,4,0.0
+fear_consensus_cross,es,2020,fragility_identity,Fragilidad e identidad,2,4,0.5
+fear_consensus_cross,es,2020,uncertainty_change,Incertidumbre y cambio,2,4,0.5
+fear_consensus_cross,es,2020,relational_coercion,Coerción relacional,1,4,0.25
+fear_consensus_cross,es,2020,supernatural,Sobrenatural,0,4,0.0
+all_concerns,balanced,1980,surveillance_pursuit,Vigilancia y persecución,2,8,0.25
+all_concerns,balanced,1980,collective_violence,Violencia colectiva,1,8,0.125
+all_concerns,balanced,1980,loss_abandonment,Abandono y pérdida,2,8,0.25
+all_concerns,balanced,1980,fragility_identity,Fragilidad e identidad,1,8,0.125
+all_concerns,balanced,1980,uncertainty_change,Incertidumbre y cambio,2,8,0.25
+all_concerns,balanced,1980,relational_coercion,Coerción relacional,2,8,0.25
+all_concerns,balanced,1980,supernatural,Sobrenatural,0,8,0.0
+all_concerns,balanced,1990,surveillance_pursuit,Vigilancia y persecución,1,8,0.125
+all_concerns,balanced,1990,collective_violence,Violencia colectiva,2,8,0.25
+all_concerns,balanced,1990,loss_abandonment,Abandono y pérdida,2,8,0.25
+all_concerns,balanced,1990,fragility_identity,Fragilidad e identidad,1,8,0.125
+all_concerns,balanced,1990,uncertainty_change,Incertidumbre y cambio,4,8,0.5
+all_concerns,balanced,1990,relational_coercion,Coerción relacional,2,8,0.25
+all_concerns,balanced,1990,supernatural,Sobrenatural,1,8,0.125
+all_concerns,balanced,2000,surveillance_pursuit,Vigilancia y persecución,0,8,0.0
+all_concerns,balanced,2000,collective_violence,Violencia colectiva,0,8,0.0
+all_concerns,balanced,2000,loss_abandonment,Abandono y pérdida,4,8,0.5
+all_concerns,balanced,2000,fragility_identity,Fragilidad e identidad,3,8,0.375
+all_concerns,balanced,2000,uncertainty_change,Incertidumbre y cambio,4,8,0.5
+all_concerns,balanced,2000,relational_coercion,Coerción relacional,1,8,0.125
+all_concerns,balanced,2000,supernatural,Sobrenatural,0,8,0.0
+all_concerns,balanced,2010,surveillance_pursuit,Vigilancia y persecución,0,8,0.0
+all_concerns,balanced,2010,collective_violence,Violencia colectiva,0,8,0.0
+all_concerns,balanced,2010,loss_abandonment,Abandono y pérdida,0,8,0.0
+all_concerns,balanced,2010,fragility_identity,Fragilidad e identidad,3,8,0.375
+all_concerns,balanced,2010,uncertainty_change,Incertidumbre y cambio,4,8,0.5
+all_concerns,balanced,2010,relational_coercion,Coerción relacional,1,8,0.125
+all_concerns,balanced,2010,supernatural,Sobrenatural,0,8,0.0
+all_concerns,balanced,2020,surveillance_pursuit,Vigilancia y persecución,0,8,0.0
+all_concerns,balanced,2020,collective_violence,Violencia colectiva,0,8,0.0
+all_concerns,balanced,2020,loss_abandonment,Abandono y pérdida,2,8,0.25
+all_concerns,balanced,2020,fragility_identity,Fragilidad e identidad,5,8,0.625
+all_concerns,balanced,2020,uncertainty_change,Incertidumbre y cambio,3,8,0.375
+all_concerns,balanced,2020,relational_coercion,Coerción relacional,2,8,0.25
+all_concerns,balanced,2020,supernatural,Sobrenatural,0,8,0.0
+all_concerns,en,1980,surveillance_pursuit,Vigilancia y persecución,2,4,0.5
+all_concerns,en,1980,collective_violence,Violencia colectiva,0,4,0.0
+all_concerns,en,1980,loss_abandonment,Abandono y pérdida,0,4,0.0
+all_concerns,en,1980,fragility_identity,Fragilidad e identidad,0,4,0.0
+all_concerns,en,1980,uncertainty_change,Incertidumbre y cambio,2,4,0.5
+all_concerns,en,1980,relational_coercion,Coerción relacional,1,4,0.25
+all_concerns,en,1980,supernatural,Sobrenatural,0,4,0.0
+all_concerns,en,1990,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+all_concerns,en,1990,collective_violence,Violencia colectiva,1,4,0.25
+all_concerns,en,1990,loss_abandonment,Abandono y pérdida,0,4,0.0
+all_concerns,en,1990,fragility_identity,Fragilidad e identidad,1,4,0.25
+all_concerns,en,1990,uncertainty_change,Incertidumbre y cambio,2,4,0.5
+all_concerns,en,1990,relational_coercion,Coerción relacional,1,4,0.25
+all_concerns,en,1990,supernatural,Sobrenatural,1,4,0.25
+all_concerns,en,2000,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+all_concerns,en,2000,collective_violence,Violencia colectiva,0,4,0.0
+all_concerns,en,2000,loss_abandonment,Abandono y pérdida,1,4,0.25
+all_concerns,en,2000,fragility_identity,Fragilidad e identidad,2,4,0.5
+all_concerns,en,2000,uncertainty_change,Incertidumbre y cambio,2,4,0.5
+all_concerns,en,2000,relational_coercion,Coerción relacional,1,4,0.25
+all_concerns,en,2000,supernatural,Sobrenatural,0,4,0.0
+all_concerns,en,2010,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+all_concerns,en,2010,collective_violence,Violencia colectiva,0,4,0.0
+all_concerns,en,2010,loss_abandonment,Abandono y pérdida,0,4,0.0
+all_concerns,en,2010,fragility_identity,Fragilidad e identidad,3,4,0.75
+all_concerns,en,2010,uncertainty_change,Incertidumbre y cambio,2,4,0.5
+all_concerns,en,2010,relational_coercion,Coerción relacional,1,4,0.25
+all_concerns,en,2010,supernatural,Sobrenatural,0,4,0.0
+all_concerns,en,2020,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+all_concerns,en,2020,collective_violence,Violencia colectiva,0,4,0.0
+all_concerns,en,2020,loss_abandonment,Abandono y pérdida,2,4,0.5
+all_concerns,en,2020,fragility_identity,Fragilidad e identidad,3,4,0.75
+all_concerns,en,2020,uncertainty_change,Incertidumbre y cambio,1,4,0.25
+all_concerns,en,2020,relational_coercion,Coerción relacional,1,4,0.25
+all_concerns,en,2020,supernatural,Sobrenatural,0,4,0.0
+all_concerns,es,1980,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+all_concerns,es,1980,collective_violence,Violencia colectiva,1,4,0.25
+all_concerns,es,1980,loss_abandonment,Abandono y pérdida,2,4,0.5
+all_concerns,es,1980,fragility_identity,Fragilidad e identidad,1,4,0.25
+all_concerns,es,1980,uncertainty_change,Incertidumbre y cambio,0,4,0.0
+all_concerns,es,1980,relational_coercion,Coerción relacional,1,4,0.25
+all_concerns,es,1980,supernatural,Sobrenatural,0,4,0.0
+all_concerns,es,1990,surveillance_pursuit,Vigilancia y persecución,1,4,0.25
+all_concerns,es,1990,collective_violence,Violencia colectiva,1,4,0.25
+all_concerns,es,1990,loss_abandonment,Abandono y pérdida,2,4,0.5
+all_concerns,es,1990,fragility_identity,Fragilidad e identidad,0,4,0.0
+all_concerns,es,1990,uncertainty_change,Incertidumbre y cambio,2,4,0.5
+all_concerns,es,1990,relational_coercion,Coerción relacional,1,4,0.25
+all_concerns,es,1990,supernatural,Sobrenatural,0,4,0.0
+all_concerns,es,2000,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+all_concerns,es,2000,collective_violence,Violencia colectiva,0,4,0.0
+all_concerns,es,2000,loss_abandonment,Abandono y pérdida,3,4,0.75
+all_concerns,es,2000,fragility_identity,Fragilidad e identidad,1,4,0.25
+all_concerns,es,2000,uncertainty_change,Incertidumbre y cambio,2,4,0.5
+all_concerns,es,2000,relational_coercion,Coerción relacional,0,4,0.0
+all_concerns,es,2000,supernatural,Sobrenatural,0,4,0.0
+all_concerns,es,2010,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+all_concerns,es,2010,collective_violence,Violencia colectiva,0,4,0.0
+all_concerns,es,2010,loss_abandonment,Abandono y pérdida,0,4,0.0
+all_concerns,es,2010,fragility_identity,Fragilidad e identidad,0,4,0.0
+all_concerns,es,2010,uncertainty_change,Incertidumbre y cambio,2,4,0.5
+all_concerns,es,2010,relational_coercion,Coerción relacional,0,4,0.0
+all_concerns,es,2010,supernatural,Sobrenatural,0,4,0.0
+all_concerns,es,2020,surveillance_pursuit,Vigilancia y persecución,0,4,0.0
+all_concerns,es,2020,collective_violence,Violencia colectiva,0,4,0.0
+all_concerns,es,2020,loss_abandonment,Abandono y pérdida,0,4,0.0
+all_concerns,es,2020,fragility_identity,Fragilidad e identidad,2,4,0.5
+all_concerns,es,2020,uncertainty_change,Incertidumbre y cambio,2,4,0.5
+all_concerns,es,2020,relational_coercion,Coerción relacional,1,4,0.25
+all_concerns,es,2020,supernatural,Sobrenatural,0,4,0.0
