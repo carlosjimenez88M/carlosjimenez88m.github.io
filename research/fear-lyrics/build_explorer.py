@@ -140,7 +140,7 @@ footer{color:var(--muted);font-size:12.5px;margin-top:18px;max-width:900px}
 <body>
 <main>
 <h1>Explorador: ¿dónde vive el miedo?</h1>
-<p class="lede">Las 56 canciones con miedo explícito o implícito entre 120 éxitos en inglés y español, de 1980 a 2026. Cada punto es una canción: la posición la decide la geometría de los embeddings; el color, dos lecturas ciegas. Elige una canción para ver sus lecturas y cómo se mueve la voz bloque a bloque. Acompaña al artículo <a href="/post/2026-10-11-miedo-embeddings-bertopic-rag/">«La evolución de la canción que trata sobre el miedo»</a>.</p>
+<p class="lede">Las 56 canciones con miedo explícito o implícito entre 120 éxitos en inglés y español, de 1980 a 2026. Cada punto es una canción: la posición la decide la geometría de los embeddings; el color, dos lecturas anonimizadas. Elige una canción para ver sus lecturas y cómo se mueve la voz bloque a bloque. Acompaña al artículo <a href="/post/2026-10-11-miedo-embeddings-bertopic-rag/">«La evolución de la canción que trata sobre el miedo»</a>.</p>
 <div class="controls" role="toolbar" aria-label="Filtros">
   <div class="group" data-key="period"><span>Período</span></div>
   <div class="group" data-key="lang"><span>Idioma</span></div>
@@ -268,8 +268,8 @@ UI_EN = [
     ('content="Las 56 canciones con miedo de 1980 a 2026: dónde está la amenaza, quién teme, cómo responde la voz y cómo se mueve la letra."',
      'content="The 56 fear songs from 1980 to 2026: where the threat is, who is afraid, how the voice responds, and how the lyric moves."'),
     ('<h1>Explorador: ¿dónde vive el miedo?</h1>', '<h1>Explorer: where does fear live?</h1>'),
-    ('Las 56 canciones con miedo explícito o implícito entre 120 éxitos en inglés y español, de 1980 a 2026. Cada punto es una canción: la posición la decide la geometría de los embeddings; el color, dos lecturas ciegas. Elige una canción para ver sus lecturas y cómo se mueve la voz bloque a bloque. Acompaña al artículo <a href="/post/2026-10-11-miedo-embeddings-bertopic-rag/">«La evolución de la canción que trata sobre el miedo»</a>.',
-     'The 56 songs with explicit or implied fear among 120 hits in English and Spanish, from 1980 to 2026. Each dot is a song: its position comes from the embedding geometry; its color, from two blind readings. Pick a song to see its readings and how the voice moves block by block. Companion to the essay <a href="/post/2026-10-11-fear-songs-embeddings/">"The Evolution of Songs About Fear"</a>. Readers\' notes are translated from Spanish.'),
+    ('Las 56 canciones con miedo explícito o implícito entre 120 éxitos en inglés y español, de 1980 a 2026. Cada punto es una canción: la posición la decide la geometría de los embeddings; el color, dos lecturas anonimizadas. Elige una canción para ver sus lecturas y cómo se mueve la voz bloque a bloque. Acompaña al artículo <a href="/post/2026-10-11-miedo-embeddings-bertopic-rag/">«La evolución de la canción que trata sobre el miedo»</a>.',
+     'The 56 songs with explicit or implied fear among 120 hits in English and Spanish, from 1980 to 2026. Each dot is a song: its position comes from the embedding geometry; its color, from two anonymized readings. Pick a song to see its readings and how the voice moves block by block. Companion to the essay <a href="/post/2026-10-11-fear-songs-embeddings/">"The Evolution of Songs About Fear"</a>. Readers\' notes are translated from Spanish.'),
     ('aria-label="Filtros"', 'aria-label="Filters"'),
     ('<span>Período</span>', '<span>Period</span>'), ('<span>Idioma</span>', '<span>Language</span>'), ('<span>Amenaza</span>', '<span>Threat</span>'),
     ('La brújula del miedo</h2>', 'The compass of fear</h2>'),

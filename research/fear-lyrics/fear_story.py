@@ -12,6 +12,7 @@ Uso: python fear_story.py
 from __future__ import annotations
 
 import json
+import re
 import warnings
 from collections import Counter
 from pathlib import Path
@@ -327,6 +328,89 @@ def auc(scores_pos, scores_neg) -> float:
     return float(greater + ties / 2)
 
 
+def bh_qvalues(p: np.ndarray) -> np.ndarray:
+    """Benjamini-Hochberg: q-valores monótonos para todas las pendientes probadas."""
+    p = np.asarray(p, dtype=float)
+    order = np.argsort(p)
+    ranked = p[order] * len(p) / np.arange(1, len(p) + 1)
+    q = np.minimum.accumulate(ranked[::-1])[::-1].clip(max=1)
+    out = np.empty_like(q)
+    out[order] = q
+    return out
+
+
+AXIS_CONTRASTS = {
+    'interiorizacion': ('interiorizacion_fear', ['internal_self'], ['external_person', 'external_collective', 'supernatural_fiction']),
+    'agencia': ('agencia_all', ['defiance_confrontation', 'transformation_agency'],
+                ['flight_avoidance', 'paralysis', 'plea_prayer', 'resignation']),
+    'colectividad': ('colectividad_fear', ['external_collective'], None),
+}
+
+
+def auc_bootstrap(song_scores: dict, table: pd.DataFrame, n: int = 4000) -> pd.DataFrame:
+    """Intervalos del AUC remuestreando canciones; diferencias pareadas entre encoders con las mismas réplicas."""
+    rng = np.random.default_rng(SEED)
+    fear = table[table.fear_weight > 0]
+    rows = []
+    for axis, (col, pos_cats, neg_cats) in AXIS_CONTRASTS.items():
+        field = 'threat_locus' if axis != 'agencia' else 'response'
+        pos = fear[[f'{field}:{c}' for c in pos_cats]].sum(axis=1) >= .5
+        neg = (fear[[f'{field}:{c}' for c in neg_cats]].sum(axis=1) >= .5) if neg_cats else (fear[f'{field}:{pos_cats[0]}'] == 0)
+        keep = (pos | neg).values
+        ids = fear.index[keep]
+        lab = pos.values[keep]
+        sc = {k: v.loc[ids, col].values for k, v in song_scores.items()}
+        boots = {k: [] for k in sc}
+        for _ in range(n):
+            idx = rng.integers(0, len(ids), len(ids))
+            l = lab[idx]
+            if l.all() or not l.any():
+                continue
+            for k in sc:
+                x = sc[k][idx]
+                boots[k].append(auc(x[l], x[~l]))
+        for k in sc:
+            b = np.array(boots[k])
+            rows.append(dict(axis=axis, encoder=k, auc=auc(sc[k][lab], sc[k][~lab]), lo90=float(np.percentile(b, 5)),
+                             hi90=float(np.percentile(b, 95)), n_pos=int(lab.sum()), n_neg=int((~lab).sum())))
+        for a, b_ in [('e5_large_fear', 'e5_large_plain'), ('e5_large_fear', 'e5_small'), ('e5_large_fear', 'minilm')]:
+            d = np.array(boots[a]) - np.array(boots[b_])
+            rows.append(dict(axis=axis, encoder=f'{a} - {b_}', auc=auc(sc[a][lab], sc[a][~lab]) - auc(sc[b_][lab], sc[b_][~lab]),
+                             lo90=float(np.percentile(d, 5)), hi90=float(np.percentile(d, 95)),
+                             p_diff_positive=float((d > 0).mean()), n_pos=int(lab.sum()), n_neg=int((~lab).sum())))
+    return pd.DataFrame(rows)
+
+
+# títulos alternativos conocidos de la misma grabación
+TITLE_ALIASES = {'dr psiquiatra': ['doctor psiquiatra'], 'devuelveme a mi chica': ['sufre mamon']}
+
+
+def norm_title(t) -> str:
+    import unicodedata
+    t = unicodedata.normalize('NFKD', str(t or '')).encode('ascii', 'ignore').decode().lower()
+    t = t.split('(')[0].split(' feat')[0]
+    return ' '.join(re.findall(r'[a-z0-9]+', t))
+
+
+def recognition_table(manifest: pd.DataFrame) -> pd.DataFrame | None:
+    """Prueba de reconocimiento: el mismo modelo intenta identificar cada letra anonimizada."""
+    files = sorted(REVIEW.glob('recognition-L*.json'))
+    if not files:
+        return None
+    mapping = json.loads((REVIEW / 'mapping.json').read_text())
+    rows = []
+    for path in files:
+        for r in json.loads(path.read_text()):
+            sid = mapping['cases'][r['case_id']]['song_id']
+            truth = norm_title(manifest.loc[sid, 'title'])
+            guess = norm_title(r.get('title_guess'))
+            accepted = {truth, *TITLE_ALIASES.get(truth, [])}
+            correct = bool(guess) and any(guess == t or (len(guess) > 3 and (guess in t or t in guess)) for t in accepted)
+            rows.append(dict(song_id=sid, claimed=bool(r.get('recognized')), title_correct=correct,
+                             confidence=r.get('confidence'), title_guess=r.get('title_guess'), artist_guess=r.get('artist_guess')))
+    return pd.DataFrame(rows).drop_duplicates('song_id').set_index('song_id')
+
+
 # ---------------------------------------------------------------- subtemas
 
 def cluster_fear_blocks(x: np.ndarray, k_range=range(5, 11), seeds=(17, 42, 73)):
@@ -443,6 +527,8 @@ def main() -> int:
                  n_pos=len(collective), n_neg=len(individual)),
         ]
     pd.DataFrame(axis_rows).to_csv(OUT / 'axis_validation.csv', index=False)
+    auc_ci = auc_bootstrap(song_scores, table)
+    auc_ci.to_csv(OUT / 'axis_validation_ci.csv', index=False)
     pd.DataFrame(loo_rows).to_csv(OUT / 'axis_anchor_loo.csv', index=False)
 
     main_key = 'e5_large_fear'
@@ -493,7 +579,39 @@ def main() -> int:
         period_rows += [dict(measure=label, column=col, **r) for r in b.to_dict('records')]
         period_rows += [dict(measure=label, column=col, **r) for r in bl.to_dict('records')]
     trends = pd.DataFrame(trend_rows)
+    trends['q_bh'] = bh_qvalues(trends.p_two_sided.values)
     trends.to_csv(OUT / 'trends.csv', index=False)
+
+    # ¿Son ciegos los lectores? El mismo modelo intenta identificar cada letra anonimizada.
+    recog = recognition_table(manifest)
+    if recog is not None:
+        # Los títulos propuestos quedan privados: un título equivocado puede coincidir con un verso de la letra.
+        recog.drop(columns=['title_guess', 'artist_guess']).join(manifest[['title', 'artist', 'year', 'language', 'period',
+                                                                      'selection_label']]) \
+            .assign(fear_weight=table.fear_weight).to_csv(OUT / 'recognition_by_song.csv')
+        rec_rows = []
+        for name, sub in [('todas', recog), ('con miedo', recog[recog.index.isin(fear_songs.index)])]:
+            j = sub.join(manifest[['language', 'period']])
+            rec_rows.append(dict(group=name, songs=len(j), title_correct=float(j.title_correct.mean()),
+                                 claimed=float(j.claimed.mean()),
+                                 en=float(j[j.language == 'en'].title_correct.mean()),
+                                 es=float(j[j.language == 'es'].title_correct.mean()),
+                                 **{f'p{p}': float(j[j.period == p].title_correct.mean()) for p in PERIODS}))
+        pd.DataFrame(rec_rows).to_csv(OUT / 'recognition_summary.csv', index=False)
+        unrec = fear_songs[~fear_songs.index.isin(recog[recog.title_correct].index)]
+        rec_sens = []
+        for col in ['threat_locus:internal_self', 'threat_locus:external_collective', 'interiorizacion_fear',
+                    'first_person', 'agentic']:
+            d = unrec.dropna(subset=[col])
+            if len(d) > 8 and d.language.nunique() == 2:
+                rec_sens.append(dict(subset='canciones no reconocidas', column=col, **trend_test(d, col, n=4000)))
+        pd.DataFrame(rec_sens).to_csv(OUT / 'recognition_sensitivity.csv', index=False)
+        both = songs_r.assign(f=songs_r.fear_reference.isin(FEAR_REFS))
+        agree = both.groupby('song_id').f.agg(lambda x: x.nunique() == 1)
+        json.dump({'agreement_recognized': float(agree[agree.index.isin(recog[recog.title_correct].index)].mean()),
+                   'agreement_unrecognized': float(agree[~agree.index.isin(recog[recog.title_correct].index)].mean()),
+                   'unrecognized_fear_songs': int(len(unrec)), 'unrecognized_fear_weight': float(unrec.fear_weight.sum())},
+                  open(OUT / 'recognition_agreement.json', 'w'), indent=1)
     pd.DataFrame(period_rows).to_csv(OUT / 'period_means.csv', index=False)
 
     # sensibilidad: solo canciones con miedo acordado; solo etiquetas de selección no-«fear»; sin el encoder principal

@@ -7,7 +7,7 @@ Esta lectura sustituye, para la pregunta histórica, a la revisión anual que qu
 ## Diseño
 
 - Seis lectores (L1–L6), procesos independientes del asistente con el mismo protocolo. Cada lector recibe 40 casos y cada canción recibe exactamente **dos lecturas** de lectores distintos. Asignación aleatoria con semilla 20261012. No son anotadores humanos ni proveedores independientes.
-- Los casos son ciegos: sin artista, título, año, idioma declarado, etiqueta de selección ni resultados de embeddings. Se entregan los bloques en orden (`b01`, `b02`, …); un bloque repetido aparece como `repeat_of`, sin texto.
+- Los casos están anonimizados: sin artista, título, año, idioma declarado, etiqueta de selección ni resultados de embeddings. Anonimizar no es cegar: en una prueba posterior, el mismo modelo (Claude Opus 5.5, subagentes de Claude Code con muestreo por defecto) identificó 110 de las 120 letras a partir de estos mismos lotes (`results/story-v3/recognition_summary.csv`). Se entregan los bloques en orden (`b01`, `b02`, …); un bloque repetido aparece como `repeat_of`, sin texto.
 - Se lee solo el texto. Si se reconoce la canción, no se usan biografía, videoclip ni recepción.
 - Las salidas públicas contienen categorías, IDs y paráfrasis breves en español; nunca citas ni versos reconstruidos.
 

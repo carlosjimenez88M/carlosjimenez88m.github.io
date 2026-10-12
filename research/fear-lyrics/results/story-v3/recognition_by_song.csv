@@ -1,0 +1,121 @@
+song_id,claimed,title_correct,confidence,title,artist,year,language,period,selection_label,fear_weight
+s2002-f5ee215919ee,True,True,high,En el 2000,Natalia Lafourcade,2002,es,2000,ambiguous,0.0
+s1986-e6cc85a542a7,True,True,high,Hijo de la Luna,Mecano,1986,es,1980,ambiguous,1.0
+s2003-dcdb60208d54,True,True,high,Time Is Running Out,Muse,2003,en,2000,ambiguous,1.0
+s2015-d3c8624afc0a,True,True,high,Soy yo,Bomba Estéreo,2015,es,2010,control,0.0
+s2004-58ef65dc2ae6,True,True,medium,Miedo,M-Clan,2004,es,2000,fear,1.0
+s2005-50d6b72be723,True,True,high,Atrévete-te-te,Calle 13,2005,es,2000,control,0.0
+s1994-48d4a4094f38,True,True,high,Black Hole Sun,Soundgarden,1994,en,1990,ambiguous,1.0
+s2017-e60f8ab8a88d,True,True,high,Despacito,Luis Fonsi feat. Daddy Yankee,2017,es,2010,control,0.0
+s1998-81cadc29bda5,True,True,high,La Vida Es Un Carnaval,Celia Cruz,1998,es,1990,control,0.0
+s2010-c2d1291ca127,True,True,high,Latinoamérica,Calle 13,2010,es,2010,ambiguous,0.5
+s1999-e3d46788c16b,True,True,medium,Llamando a la Tierra,M-Clan,1999,es,1990,ambiguous,0.0
+s2013-877c19a80720,True,True,high,Vivir Mi Vida,Marc Anthony,2013,es,2010,control,0.0
+s2026-78ed609c656e,True,True,low,drop dead,Olivia Rodrigo,2026,en,2020,ambiguous,0.0
+s1987-b3350477e063,True,True,high,En algún lugar,Duncan Dhu,1987,es,1980,ambiguous,0.0
+s1989-0fb262c10117,True,True,high,Dr. Psiquiatra,Gloria Trevi,1989,es,1980,ambiguous,1.0
+s2000-8ece8cb48467,True,True,high,Stan,Eminem feat. Dido,2000,en,2000,ambiguous,1.0
+s1995-c008fc43a9e0,False,False,low,El duelo,La Ley,1995,es,1990,ambiguous,0.0
+s1984-1fd12840e045,True,True,high,Escuela de calor,Radio Futura,1984,es,1980,ambiguous,1.0
+s2019-00dfef5530e2,True,True,high,Blinding Lights,The Weeknd,2019,en,2010,ambiguous,0.0
+s2004-d35438c77a29,True,True,high,Malo,Bebe,2004,es,2000,fear,1.0
+s2019-1f8fdfe5b713,True,True,high,bury a friend,Billie Eilish,2019,en,2010,fear,1.0
+s2014-e8f5796fbb18,True,True,high,Bailando,"Enrique Iglesias feat. Descemer Bueno, Gente de Zona",2014,es,2010,control,0.0
+s2021-5de443a3c9ad,True,False,high,MONTERO (Call Me By Your Name),Lil Nas X,2021,en,2020,ambiguous,0.0
+s2022-460a59f8aa02,True,True,high,Anti-Hero,Taylor Swift,2022,en,2020,fear,1.0
+s2023-dd058a9c7e57,True,True,high,Flowers,Miley Cyrus,2023,en,2020,control,0.0
+s2026-9ca15afba134,False,False,low,SCANDIC,Quevedo,2026,es,2020,control,0.0
+s1986-9593910160b3,True,True,high,Livin' on a Prayer,Bon Jovi,1986,en,1980,ambiguous,1.0
+s1994-6ec1f44e2f91,True,True,high,Hurt,Nine Inch Nails,1994,en,1990,ambiguous,0.5
+s1990-5b29a6fedb71,True,True,high,Rayando el Sol,Maná,1990,es,1990,ambiguous,0.0
+s1998-83eba83d60c3,True,True,high,Ojos así,Shakira,1998,es,1990,control,0.0
+s2012-e276735a99fd,True,True,high,Déjenme llorar,Carla Morrison,2012,es,2010,ambiguous,1.0
+s2006-6771ec4b3699,True,True,high,Limón y sal,Julieta Venegas,2006,es,2000,control,0.0
+s1993-a759a1183939,True,True,high,Matador,Los Fabulosos Cadillacs,1993,es,1990,fear,1.0
+s2015-dddcd06febdd,True,True,high,Alright,Kendrick Lamar,2015,en,2010,ambiguous,1.0
+s2004-641528a4ed5c,True,True,high,La Camisa Negra,Juanes,2004,es,2000,control,0.0
+s1997-14dd5203e308,True,True,high,Corazón partío,Alejandro Sanz,1997,es,1990,ambiguous,0.0
+s2015-882fbab864d3,True,True,high,El perdón,Nicky Jam & Enrique Iglesias,2015,es,2010,ambiguous,0.0
+s1995-bba49f1a0479,True,True,high,Gangsta's Paradise,Coolio feat. L.V.,1995,en,1990,fear,1.0
+s2004-4388d9f56d33,True,True,low,Fuente de energía,Estopa,2004,es,2000,ambiguous,0.0
+s2000-a62b1066ea67,True,True,high,Crawling,Linkin Park,2000,en,2000,fear,1.0
+s1990-d5be4878b495,True,True,high,De música ligera,Soda Stereo,1990,es,1990,control,0.0
+s2018-fff1d8ae4511,True,True,high,Malamente,Rosalía,2018,es,2010,fear,1.0
+s1988-cb31a6e91407,True,True,high,"Don't Worry, Be Happy",Bobby McFerrin,1988,en,1980,control,1.0
+s1983-41bd50ac54c9,True,True,high,Sweet Dreams (Are Made of This),Eurythmics,1983,en,1980,ambiguous,0.0
+s1998-6df873c88bfb,True,True,high,Believe,Cher,1998,en,1990,control,0.0
+s2026-cbf016041e04,False,False,low,BbY WOW,"KAROL G, Judeline & rusowsky",2026,es,2020,ambiguous,0.0
+s2002-685ee025cb97,True,True,high,Sin ti no soy nada,Amaral,2002,es,2000,ambiguous,0.0
+s2003-da7b9dcde9ea,True,True,high,Numb,Linkin Park,2003,en,2000,ambiguous,1.0
+s2015-c11afde63d3a,True,True,high,Stressed Out,twenty one pilots,2015,en,2010,fear,1.0
+s2003-863da31c5eaa,True,True,high,Crazy In Love,Beyoncé feat. JAY-Z,2003,en,2000,control,0.0
+s1988-e8466d1c7f62,False,False,low,Viento,Caifanes,1988,es,1980,ambiguous,0.0
+s2012-cfadd926d9af,True,True,high,Skyfall,Adele,2012,en,2010,fear,1.0
+s1990-6c76920a30e3,True,True,high,Entre dos tierras,Héroes del Silencio,1990,es,1990,ambiguous,0.0
+s2026-2e43c234ac58,True,True,medium,Aperture,Harry Styles,2026,en,2020,ambiguous,0.0
+s2004-c8563d45233f,True,True,high,Boulevard of Broken Dreams,Green Day,2004,en,2000,ambiguous,0.0
+s2017-2c3252eb3c12,True,True,high,La Puerta Violeta,Rozalén,2017,es,2010,fear,1.0
+s1992-92d3c88cd13e,True,True,high,Creep,Radiohead,1992,en,1990,ambiguous,0.0
+s2018-048829cb6f42,True,True,high,This Is America,Childish Gambino,2018,en,2010,fear,1.0
+s2003-da41ea3510c2,True,True,high,Eres,Café Tacvba,2003,es,2000,control,0.0
+s1996-126a4f4bfee7,True,True,high,Wannabe,Spice Girls,1996,en,1990,control,0.0
+s2007-8249e638892e,True,True,high,No One,Alicia Keys,2007,en,2000,control,1.0
+s1982-fc0d5bdf6fc1,True,True,high,Mad World,Tears for Fears,1982,en,1980,ambiguous,1.0
+s1994-0ffc120badca,True,True,high,Amor prohibido,Selena,1994,es,1990,ambiguous,0.0
+s2023-4b5d4900ae9d,True,True,high,"Shakira: Bzrp Music Sessions, Vol. 53",Bizarrap & Shakira,2023,es,2020,ambiguous,0.0
+s2022-33440e51096b,True,True,high,El apagón,Bad Bunny,2022,es,2020,fear,0.0
+s1991-53d03a7367e9,True,True,high,Losing My Religion,R.E.M.,1991,en,1990,ambiguous,1.0
+s2026-2c83a5445b5f,False,False,low,Algo tú,Shakira & Beéle,2026,es,2020,ambiguous,1.0
+s1983-3c3a612ae99c,True,True,high,Sunday Bloody Sunday,U2,1983,en,1980,ambiguous,1.0
+s2020-d47d366ad197,True,True,high,Physical,Dua Lipa,2020,en,2020,control,0.0
+s1988-ea597ef91a3e,True,True,high,Fast Car,Tracy Chapman,1988,en,1980,ambiguous,0.5
+s1993-fdc60290dea2,True,True,high,Sin documentos,Los Rodríguez,1993,es,1990,ambiguous,0.0
+s2024-752f61769347,False,False,low,Tengo Un Pensamiento,Amaia,2024,es,2020,fear,1.0
+s2018-fc60221641ee,True,True,high,La cintura,Álvaro Soler,2018,es,2010,control,0.0
+s1989-96b2425c5303,True,True,high,No me importa nada,Luz Casal,1989,es,1980,control,0.0
+s2014-58e5b73d9890,True,True,high,Chandelier,Sia,2014,en,2010,ambiguous,1.0
+s2022-13d1e0238c36,True,True,high,Unholy,Sam Smith feat. Kim Petras,2022,en,2020,ambiguous,0.0
+s1985-53a3bd6d32fc,True,True,high,Devuélveme a mi chica,Hombres G,1985,es,1980,ambiguous,0.0
+s2014-27b61f0565ce,True,True,high,Out Of The Woods,Taylor Swift,2014,en,2010,fear,1.0
+s2021-27c16cbb8cff,True,True,high,Your Power,Billie Eilish,2021,en,2020,fear,1.0
+s2002-db211b5e0194,True,True,high,Lose Yourself,Eminem,2002,en,2000,ambiguous,1.0
+s2015-a121e4927d88,False,False,low,Tu falta de querer,Mon Laferte,2015,es,2010,ambiguous,0.0
+s2020-6f072260cb90,False,False,low,Ansiedad,Carla Morrison,2020,es,2020,fear,1.0
+s2021-a17cc29d59f5,True,True,high,Ay Mamá,Rigoberta Bandini,2021,es,2020,ambiguous,1.0
+s2020-059f8b62ba2b,True,True,high,Tú me dejaste de querer,"C. Tangana feat. Niño de Elche, La Húngara",2020,es,2020,ambiguous,0.0
+s2024-887094d904c9,True,True,high,Taste,Sabrina Carpenter,2024,en,2020,ambiguous,0.0
+s1991-64e5f7b9c689,True,True,high,Smells Like Teen Spirit,Nirvana,1991,en,1990,ambiguous,0.0
+s2006-eea05f46c025,True,True,high,Back to Black,Amy Winehouse,2006,en,2000,ambiguous,0.0
+s1995-4594ad47b7a4,True,True,high,You Oughta Know,Alanis Morissette,1995,en,1990,ambiguous,0.0
+s1982-60e7787d2b2d,True,True,high,Thriller,Michael Jackson,1982,en,1980,fear,1.0
+s2008-4db2a4ef136d,True,True,high,Disturbia,Rihanna,2008,en,2000,fear,1.0
+s2021-720093d2a7f8,True,True,high,Tacones rojos,Sebastián Yatra,2021,es,2020,control,0.0
+s2024-1b079dcfc6bb,True,False,high,Die With a Smile,Lady Gaga & Bruno Mars,2024,en,2020,ambiguous,0.5
+s2013-608a7aee9a18,True,True,high,Happy,Pharrell Williams,2013,en,2010,control,0.0
+s1986-9726c0e33862,True,True,high,Cruz de Navajas,Mecano,1986,es,1980,ambiguous,1.0
+s2002-74fa275abd80,True,True,high,A Dios Le Pido,Juanes,2002,es,2000,ambiguous,0.5
+s1998-162a4cdeebf7,True,True,high,Cuéntame al oído,La Oreja de Van Gogh,1998,es,1990,ambiguous,1.0
+s1988-fb5abe57ce5b,True,True,high,En la ciudad de la furia,Soda Stereo,1988,es,1980,ambiguous,1.0
+s2021-d73254620179,True,True,high,drivers license,Olivia Rodrigo,2021,en,2020,ambiguous,0.0
+s1983-753cd2a7d41b,True,True,high,Somebody's Watching Me,Rockwell,1983,en,1980,fear,1.0
+s1994-56ff6ca6c8bb,True,True,high,Zombie,The Cranberries,1994,en,1990,fear,1.0
+s1986-4a2c045c8d9a,True,True,high,El baile de los que sobran,Los Prisioneros,1986,es,1980,ambiguous,0.0
+s2001-1b296546902b,True,True,high,Color Esperanza,Diego Torres,2001,es,2000,fear,1.0
+s2015-377d525a4e3e,True,True,high,Hasta la raíz,Natalia Lafourcade,2015,es,2010,ambiguous,0.0
+s2021-8fa642fa4e3e,True,True,high,Todo de ti,Rauw Alejandro,2021,es,2020,control,0.0
+s2022-d221fdb58fc4,True,True,high,DESPECHÁ,Rosalía,2022,es,2020,control,0.0
+s1987-a97385504c5f,True,True,high,Lucha de gigantes,Nacha Pop,1987,es,1980,fear,1.0
+s2003-889e43d5e30e,True,True,high,Bring Me to Life,Evanescence,2003,en,2000,ambiguous,1.0
+s1984-8b16c1dac4a9,True,True,high,Wake Me Up Before You Go-Go,Wham!,1984,en,1980,control,0.0
+s1985-1f04a95f8e81,True,True,high,Running Up That Hill (A Deal with God),Kate Bush,1985,en,1980,ambiguous,0.0
+s1982-273644e36995,True,True,high,Bailando,Alaska y los Pegamoides,1982,es,1980,control,0.0
+s1984-b9c079cac51d,True,True,high,When Doves Cry,Prince,1984,en,1980,ambiguous,0.0
+s2013-a6ff366b38dd,True,True,high,Royals,Lorde,2013,en,2010,control,0.0
+s1983-bdacdb50f98b,True,True,high,Every Breath You Take,The Police,1983,en,1980,ambiguous,1.0
+s2026-533f3a1902f9,True,True,low,I Just Might,Bruno Mars,2026,en,2020,control,0.0
+s1995-dabe1459c0af,True,True,high,Don't Speak,No Doubt,1995,en,1990,ambiguous,1.0
+s1991-d25354f1d8f0,True,True,high,Enter Sandman,Metallica,1991,en,1990,fear,1.0
+s2012-2a81ecc1607c,True,True,high,Demons,Imagine Dragons,2012,en,2010,fear,1.0
+s2013-0457dee91c55,True,True,high,Take Me to Church,Hozier,2013,en,2010,ambiguous,0.5
+s2003-216b2931f02d,True,True,high,Toxic,Britney Spears,2003,en,2000,ambiguous,1.0
+s2005-f75507be9d35,True,True,high,La tortura,Shakira feat. Alejandro Sanz,2005,es,2000,ambiguous,0.0

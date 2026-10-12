@@ -123,8 +123,8 @@ EN = {
     'Giro a la agencia': 'Turn to agency', 'inicio': 'start', 'final': 'end', 'amenaza': 'threat', 'neutro': 'neutral',
     'control': 'control', 'Forma del arco entre las canciones con miedo, por período': 'Arc shape among fear songs, by period',
     'Cómo se mueve una canción: el estado de la voz, bloque a bloque': 'How a song moves: the state of the voice, block by block',
-    'Cada fila son dos tiras, una por lectura ciega, en el orden de la letra (estribillos repetidos incluidos). Derecha: forma del arco.':
-        'Each row holds two strips, one per blind reading, in lyric order (repeated choruses included). Right: arc shape.',
+    'Cada fila son dos tiras, una por lectura anonimizada, en el orden de la letra (estribillos repetidos incluidos). Derecha: forma del arco.':
+        'Each row holds two strips, one per anonymized reading, in lyric order (repeated choruses included). Right: arc shape.',
     'Estados de los lectores sin textos de la letra. El ancho de cada bloque es proporcional a su posición, no a su duración en el audio.':
         "Readers' states, without lyric text. Each block's width reflects its position, not its duration in the audio.",
     'amenaza, miedo': 'threat, fear', 'evitación': 'avoidance', 'súplica, pérdida, confesión': 'plea, loss, confession',
@@ -151,8 +151,8 @@ EN = {
     'Sanar, ser aceptado': 'Healing, being accepted',
 }
 EN_PATTERNS = [
-    (r'^(\d+) de 120 canciones tienen miedo explícito o implícito\. Fila: lugar de la amenaza según dos lecturas ciegas\.$',
-     r'\1 of 120 songs carry explicit or implied fear. Row: where the threat sits, according to two blind readings.'),
+    (r'^(\d+) de 120 canciones tienen miedo explícito o implícito\. Fila: lugar de la amenaza según dos lecturas anonimizadas\.$',
+     r'\1 of 120 songs carry explicit or implied fear. Row: where the threat sits, according to two anonymized readings.'),
     (r'(\d+(?:,\d+)?) canciones', r'\1 songs'),
     (r'^(\d+%) de los vecinos\ncomparten idioma$', r'\1 of neighbors\nshare the language'),
     (r'^kNN \(k = 10, validación agrupada por canción\) acierta la zona en (\d+%) de los pasajes, por debajo de asignar siempre '
@@ -316,7 +316,7 @@ def fig_locus_timeline(table: pd.DataFrame):
     height = y0
     fig, ax = plt.subplots(figsize=(13, 2.3 + height * 1.25))
     frame(fig, 'Del afuera al adentro: dónde sitúa cada canción la amenaza',
-          f'{len(fear)} de 120 canciones tienen miedo explícito o implícito. Fila: lugar de la amenaza según dos lecturas ciegas.',
+          f'{len(fear)} de 120 canciones tienen miedo explícito o implícito. Fila: lugar de la amenaza según dos lecturas anonimizadas.',
           'Año de primera edición de la grabación. Corpus: 12 EN + 12 ES por período, selección intencional; 2020–26 parcial. '
           'Las filas no miden intensidad.', top=1.0, bottom=.95, left=2.0, right=.2)
     for p in PERIODS[1:]:
@@ -570,7 +570,7 @@ def fig_story_strips(table: pd.DataFrame, states: pd.DataFrame, readings: pd.Dat
     names = dict((a, nm) for a, nm, _ in ARCS)
     fig, ax = plt.subplots(figsize=(13, .62 * n + 2.2))
     frame(fig, 'Cómo se mueve una canción: el estado de la voz, bloque a bloque',
-          'Cada fila son dos tiras, una por lectura ciega, en el orden de la letra (estribillos repetidos incluidos). Derecha: forma del arco.',
+          'Cada fila son dos tiras, una por lectura anonimizada, en el orden de la letra (estribillos repetidos incluidos). Derecha: forma del arco.',
           'Estados de los lectores sin textos de la letra. El ancho de cada bloque es proporcional a su posición, no a su duración en el audio.',
           top=1.05, bottom=1.05, left=2.6, right=1.5)
     for row, sid in enumerate(picks):

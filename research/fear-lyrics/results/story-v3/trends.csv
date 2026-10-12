@@ -1,19 +1,19 @@
-measure,column,slope_per_decade,p_two_sided,songs,weight
-lectura: amenaza interior (internal_self),threat_locus:internal_self,0.08182559784428814,0.0231976802319768,56,53.0
-lectura: amenaza colectiva,threat_locus:external_collective,-0.12901076984593227,0.010298970102989701,56,53.0
-lectura: amenaza de otra persona,threat_locus:external_person,0.020340082273356472,0.5951404859514049,56,53.0
-lectura: ficción / sobrenatural,threat_locus:supernatural_fiction,-0.03504524300849278,0.2216778322167783,56,53.0
-lectura: pérdida de un vínculo,threat_locus:relational_loss,0.026770046381374375,0.44345565443455653,56,53.0
-lectura: tiempo / incertidumbre,threat_locus:existential_time,0.022929911556829684,0.417958204179582,56,53.0
-lectura: respuesta de confesión,response:confession_naming,0.035636000911693284,0.29127087291270876,56,53.0
-lectura: respuesta de enfrentar/decidir,agentic,0.0874184117267403,0.07539246075392461,56,53.0
-lectura: respuesta de huir/someterse,passive,-0.025810325355850348,0.5535446455354465,56,53.0
-eje: interiorización (bloques de miedo),interiorizacion_fear,0.23410439985906184,0.013498650134986502,56,53.0
-eje: agencia (toda la letra),agencia_all,0.08788001379355781,0.20827917208279173,56,53.0
-eje: colectividad (bloques de miedo),colectividad_fear,-0.07141515587598177,0.400959904009599,56,53.0
-arco: giro a la agencia,arc_shape:turn_to_agency,0.06526644953291144,0.07729227077292271,56,53.0
-arco: escalada,arc_shape:escalation,-0.07664927453720453,0.0633936606339366,56,53.0
-arco: bucle,arc_shape:loop,-0.028155013039406884,0.5014498550144986,56,53.0
-arco: episodio,arc_shape:episodic,0.06911659013704458,0.0143985601439856,56,53.0
-voz: teme quien canta (yo o nosotros),first_person,0.12664273534333603,0.0045995400459954,56,53.0
-voz: teme quien canta (yo),who_fears:speaker,0.08865370859842915,0.0771922807719228,56,53.0
+measure,column,slope_per_decade,p_two_sided,songs,weight,q_bh
+lectura: amenaza interior (internal_self),threat_locus:internal_self,0.08182559784428814,0.0231976802319768,56,53.0,0.08351164883511648
+lectura: amenaza colectiva,threat_locus:external_collective,-0.12901076984593227,0.010298970102989701,56,53.0,0.0647935206479352
+lectura: amenaza de otra persona,threat_locus:external_person,0.020340082273356472,0.5951404859514049,56,53.0,0.5951404859514049
+lectura: ficción / sobrenatural,threat_locus:supernatural_fiction,-0.03504524300849278,0.2216778322167783,56,53.0,0.3627455436274554
+lectura: pérdida de un vínculo,threat_locus:relational_loss,0.026770046381374375,0.44345565443455653,56,53.0,0.5321467853214679
+lectura: tiempo / incertidumbre,threat_locus:existential_time,0.022929911556829684,0.417958204179582,56,53.0,0.5321467853214679
+lectura: respuesta de confesión,response:confession_naming,0.035636000911693284,0.29127087291270876,56,53.0,0.4369063093690631
+lectura: respuesta de enfrentar/decidir,agentic,0.0874184117267403,0.07539246075392461,56,53.0,0.15458454154584542
+lectura: respuesta de huir/someterse,passive,-0.025810325355850348,0.5535446455354465,56,53.0,0.5861060952728256
+eje: interiorización (bloques de miedo),interiorizacion_fear,0.23410439985906184,0.013498650134986502,56,53.0,0.0647935206479352
+eje: agencia (toda la letra),agencia_all,0.08788001379355781,0.20827917208279173,56,53.0,0.3627455436274554
+eje: colectividad (bloques de miedo),colectividad_fear,-0.07141515587598177,0.400959904009599,56,53.0,0.5321467853214679
+arco: giro a la agencia,arc_shape:turn_to_agency,0.06526644953291144,0.07729227077292271,56,53.0,0.15458454154584542
+arco: escalada,arc_shape:escalation,-0.07664927453720453,0.0633936606339366,56,53.0,0.15458454154584542
+arco: bucle,arc_shape:loop,-0.028155013039406884,0.5014498550144986,56,53.0,0.5641310868913109
+arco: episodio,arc_shape:episodic,0.06911659013704458,0.0143985601439856,56,53.0,0.0647935206479352
+voz: teme quien canta (yo o nosotros),first_person,0.12664273534333603,0.0045995400459954,56,53.0,0.0647935206479352
+voz: teme quien canta (yo),who_fears:speaker,0.08865370859842915,0.0771922807719228,56,53.0,0.15458454154584542
