@@ -1,6 +1,6 @@
 ---
 author: Carlos Daniel Jiménez
-date: 2026-10-11T18:00:00-06:00
+date: 2026-10-12T11:45:00-06:00
 title: "The Evolution of Songs About Fear: A Reading Through Embeddings"
 description: "Forty years of songs that talk about fear, read by a language model and measured with embeddings: the threat moved from the street into one's own mind, fear shifted to first-person confession, and songs learned to work through it."
 categories: ["Music Analysis", "Engineering"]
