@@ -1,7 +1,7 @@
 ---
 author: Carlos Daniel Jiménez
 date: 2026-10-11T18:00:00-06:00
-title: "The Evolution of Songs About Fear: An Experience Through Embeddings"
+title: "The Evolution of Songs About Fear: A Reading Through Embeddings"
 description: "Forty years of songs that talk about fear, read by a language model and measured with embeddings: the threat moved from the street into one's own mind, fear shifted to first-person confession, and songs learned to work through it."
 categories: ["Music Analysis", "Engineering"]
 tags: ["embeddings", "music", "lyrics", "narrative", "semantic-axes", "UMAP", "BERTopic", "evaluation"]
@@ -18,9 +18,9 @@ readerGuide:
       url: "/research/fear-lyrics/story/en/explorer.html"
 ---
 
-Far from criticizing or praising any particular era, I want to understand what songs mean, explore their relationships through embeddings, and follow how the story they tell unfolds along its narrative arc. Being able to visualize that evolution leads me to ask: **which feelings endure from one decade to the next? Which values or appreciations appear, change shape, or take on a different weight?**
+I am not here to criticize or praise any particular era. I want to understand what songs mean, explore how they relate to one another through embeddings, and follow how the story they tell unfolds along its narrative arc. Seeing that evolution laid out makes me ask: **which feelings endure from one decade to the next? Which values appear, change shape, or take on a different weight?**
 
-The social evolution of what worries us has a change of front that begins with how we perceive the city. Fear, as in the movies, first lived outside our doors, in the street, and ended up speaking the mantra of mental fear. That is what I set out to observe at the level of the narrative arc. This time I follow songs that talk about fear, from the eighties to 2026. I want to see what remains in their worries and what changes in the way they are told: who is afraid, what they fear, what they value, and how they respond. Listening to albums, that coexistence of permanence and change is part of what draws me to following a band's musical evolution. Here I try to turn that curiosity into a reading we can test and visualize.
+Over the decades, the front line of what worries us has moved, and the move starts with how we perceive the city. Fear, as in the movies, first lived outside our doors, in the street, and ended up as a mantra repeating inside our heads. That shift is what I set out to follow along the narrative arc. This time I follow songs that talk about fear, from the eighties to 2026. I want to see which worries remain and what changes in the way they are told: who is afraid, what they fear, what they value, and how they respond. When I listen to albums, that mix of permanence and change is part of what draws me to following a band's evolution. Here I try to turn that curiosity into a reading we can test and visualize.
 
 The short answer, in this sample of 120 songs in English and Spanish:
 
@@ -29,7 +29,7 @@ The short answer, in this sample of 120 songs in English and Spanish:
 3. **The ending seems to change.** Songs in which fear grows until the end decline, and songs that work through it rise, although both shifts are suggestive rather than firm (p ≈ 0.06–0.08). The obsessive loop, the chorus that never resolves, persists in every decade.
 4. **What is protected changed.** From staying safe, to dignity, and in the last decade, to healing. Love changes least: in every period, between a third and more than half of these songs protect it.
 
-I reached those conclusions with two measurements that never see each other's output: an **anonymized reading** of every lyric and the **geometry of an embedding model**. They are independent in execution, not in design: I chose the corpus and wrote the anchor sentences knowing the hypothesis, and the axes are validated against the readings themselves. Their agreement is what lets me state the direction of the change; where they disagree is, as we will see, the most useful lesson for anyone working with embeddings.
+I reached those conclusions with two measurements that never see each other's output: an **anonymized reading** of every lyric and the **geometry of an embedding model**. They are independent in execution, not in design: I chose the corpus and wrote the anchor sentences knowing the hypothesis, and the axes are validated against the readings themselves. Their agreement is what lets me state the direction of the change; where they disagree is, as we will see, the most useful lesson for anyone working with embeddings. If you came for the engineering, [What embeddings see, and what they miss](#what-embeddings-see-and-what-they-miss) opens with a short technical summary.
 
 ## How to read fear in a song
 
@@ -44,7 +44,7 @@ The corpus has **120 songs**: 12 in English and 12 in Spanish in each period (19
 - the **state of each block** of the lyric, from threat to control, and the shape of the arc;
 - **what it protects**: the value at stake.
 
-The protocol is published. The two readings agree on whether there is fear in 95% of songs (κ = 0.90), on where the threat is in 94% (κ = 0.92), and on the shape of the arc in 82% (κ = 0.76). One important caveat: the six readers are the same assistant with the same protocol, not six people, so this agreement measures the consistency of the procedure, not independent judgment. **56 of the 120 songs** carry fear according to at least one reading; 50, according to both.
+The protocol is published [in English](https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/research/fear-lyrics/story-reading-protocol.en.md) and in its [original Spanish](https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/research/fear-lyrics/story-reading-protocol.md). The two readings agree on whether there is fear in 95% of songs (κ = 0.90), on where the threat is in 94% (κ = 0.92), and on the shape of the arc in 82% (κ = 0.76). One important caveat: the six readers are the same assistant with the same protocol, not six people, so this agreement measures the consistency of the procedure, not independent judgment. **56 of the 120 songs** carry fear according to at least one reading; 50, according to both.
 
 **Anonymized is not blind.** Removing artist, title, and year does not blind a language model to *Thriller* or *Anti-Hero*. I ran a recognition test: given the same anonymized blocks, the same model named the title of 110 of the 120 songs (92%), including every fear song from 1980 to 2019. The readings can therefore carry the cultural interpretation the model absorbed about each song, and that is a risk for exactly the variable that matters most: a model that "knows" a 2019 song is about mental health can find mental health in it. The four fear songs it did not recognize are all from 2020–26 (*Ansiedad*, *Tengo Un Pensamiento*, *Algo tú*, *Die With a Smile*), so *Ansiedad*, the most "inside" song of that period, was read from its text alone; but four songs are too few to repeat the analysis with them. This is why the second measurement matters: an embedding only encodes the text of each block, so it is less exposed to what has been written about the song.
 
@@ -92,7 +92,15 @@ The right-hand column previews the technical part. If I ask the embedding space 
 
 ## What embeddings see, and what they miss
 
-This is the section that changed most from the first version of this study, and the one that interests me most as an engineer. In that version I tried to let the subtopics of fear emerge on their own, with BERTopic over the embeddings, and the groups turned out to be mostly language and vocabulary. Now I can explain why, and what works instead.
+> **The short version, for engineers.**
+> 1. Multilingual embeddings sort lyrics by language first: until each language's mean is removed, 100% of a song's nearest neighbors share its language.
+> 2. Free structure does not recover the concept. UMAP, clustering, and nearest neighbors group passages by scene, vocabulary, and chorus; a 10-nearest-neighbor classifier scores below the majority baseline (59% vs 65%).
+> 3. An explicit question does. An axis built from bilingual anchor sentences separates "inside" from "outside" songs with AUC 0.89 [0.79–0.96] and reproduces the readers' trend without seeing their labels.
+> 4. The instruction prefix does not measurably help: its gain over the same model is within bootstrap noise.
+> 5. Embeddings place a lyric better than they follow it: within a song, the correlation with the readers' states is 0.15.
+> 6. An LLM reader is not blind: it recognized 92% of the anonymized lyrics.
+
+A natural first attempt is to let the subtopics of fear emerge on their own, with BERTopic over the embeddings. When I tried it, the groups were mostly language and vocabulary. Here is why, and what works instead.
 
 ### 1. The first thing an embedding sees is the language
 
@@ -140,7 +148,7 @@ Can embeddings draw these arcs on their own? Only halfway. The correlation betwe
 
 ## What the voice protects
 
-I was interested in one more question: what makes something valuable to the one who sings. Fear is a good door, because it always fears losing something.
+I was interested in one more question: what makes something valuable to the person singing. Fear is a good way in, because what we fear is always losing something.
 
 {{< figure class="wide" link="/research/fear-lyrics/story/en/fear-values.svg" src="/research/fear-lyrics/story/en/fear-values.svg" alt="Six bar panels with the value at stake by period: staying safe, others' lives, the love bond, the self, dignity, healing" caption="Value at stake in the readers' paraphrases, coded with explicit keyword rules. A song can protect several things." >}}
 
@@ -159,11 +167,11 @@ Read in sequence, it tells another version of the same move: first the body is p
 
 ## What endures and what changes
 
-**Love** endures as what fear protects, and **the loop** endures: in every decade, at least three in ten of these songs circle their fear without resolving it, because a chorus is also a way of not being able to get out.
+**Love** endures as what fear protects, and **the loop** endures: in every decade, at least three in ten of these songs circle their fear without resolving it, because a chorus can also be a way of staying stuck.
 
 **The place** of the threat changes: it moved from the street to the home and from the home to the mind. **The person** who fears changes, from the narrated "you" to the "I" who confesses. **The ending** seems to change: songs appear to learn to work through fear as well as suffer it, although that shift is suggestive rather than firm. And **what is protected** changes: from surviving, to being dignified, and now to healing.
 
-In the eighties, fear was something that happened outside and that the song told. In the 2020s, it is something that happens inside and that the song confesses, sometimes in order to get out of it.
+In the eighties, fear was something that happened outside and that the song narrated. In the 2020s, it is something that happens inside and that the song confesses, sometimes in order to get out of it.
 
 For anyone working with embeddings, the lesson fits in two steps: **first, remove the language; then, ask.** A free map offers neighbors, and the neighbors of a lyric share a scene, vocabulary, or a chorus. An anchored direction, validated against an independent reading, answers the question you bring. And when what you want to measure is a movement inside the song, like an arc, you have to go back to reading. If the reader is a language model, test what it already knows first: anonymizing is not blinding.
 
@@ -171,7 +179,7 @@ For anyone working with embeddings, the lesson fits in two steps: **first, remov
 <summary><strong>Method, data, and reproduction</strong></summary>
 
 - **Corpus.** 120 lyrics with integrity hashes, from LRCLIB and Genius. The lyrics stay in a private cache; the public materials contain IDs, categories, scores, and short paraphrases without quotations. Year: first commercial release of the included recording.
-- **Reading.** `story-reading-protocol.md` (in Spanish). Six reader processes (Claude Opus 5.5 subagents in Claude Code, default sampling settings, temperature not set), 40 cases each, randomly assigned (seed 20261012), so every song has two readings from different readers. Recognition test: the same model, given the same anonymized blocks, named 110 of the 120 titles. A validator checks the schema, the IDs, and the order of the arc steps. Aggregation by fractional vote.
+- **Reading.** [Protocol in English](https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/research/fear-lyrics/story-reading-protocol.en.md) ([original in Spanish](https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/research/fear-lyrics/story-reading-protocol.md)). Six reader processes (Claude Opus 5.5 subagents in Claude Code, default sampling settings, temperature not set), 40 cases each, randomly assigned (seed 20261012), so every song has two readings from different readers. Recognition test: the same model, given the same anonymized blocks, named 110 of the 120 titles. A validator checks the schema, the IDs, and the order of the arc steps. Aggregation by fractional vote.
 - **Blocks.** Up to eight lines and at least four words, in order: 1,333 blocks with repetitions, 1,137 unique.
 - **Embeddings.** `intfloat/multilingual-e5-large-instruct` (1,024 dimensions, local), with and without the fear instruction. Multilingual MiniLM and E5 small for comparison. Language removed by centering (for neighborhoods and clustering) or by projecting out a direction estimated from parallel anchors (for axes and concepts).
 - **Axes and concepts.** `semantic-anchors.json`, written before projecting the lyrics. Internal validation (held-out anchors) and external validation (AUC against the readings, with 90% bootstrap intervals and paired differences between encoders).

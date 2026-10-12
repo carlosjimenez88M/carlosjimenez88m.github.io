@@ -18,7 +18,7 @@ Límites: las lecturas no son ciegas (el mismo modelo identifica 110 de las 120 
 
 - `miedo-embeddings-bertopic-rag.ipynb`: **cuaderno principal**, narrativo y ejecutado sin errores; lee solo `results/story-v3`.
 - `static/research/fear-lyrics/story/`: figuras del artículo (SVG y PNG) y `explorador.html`, explorador interactivo de las 56 canciones con miedo.
-- `story-reading-protocol.md`: protocolo de la lectura ciega por pares.
+- `story-reading-protocol.md` (y su traducción `story-reading-protocol.en.md`): protocolo de la lectura anonimizada por pares.
 - `semantic-anchors.json`: frases ancla bilingües de los ejes y conceptos, escritas antes de proyectar las letras.
 - `anexo-auditoria-metodologica.ipynb`: auditoría de la versión anterior (cuatro encoders sobre 40 canciones, BERTopic, Bayes, RAG con LangGraph). La genera `build_notebook.py`.
 

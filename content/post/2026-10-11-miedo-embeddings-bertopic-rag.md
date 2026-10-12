@@ -29,7 +29,7 @@ La respuesta corta, en esta muestra de 120 canciones en inglés y español:
 3. **El desenlace parece cambiar.** Bajan las canciones donde el miedo crece hasta el final y suben las que lo atraviesan, aunque ambos cambios son sugerentes y no firmes (p ≈ 0,06–0,08). El bucle obsesivo, el estribillo que no se resuelve, sigue ahí en todas las décadas.
 4. **Cambió lo que se protege.** De estar a salvo, a la dignidad y, en la última década, a sanar. El amor es lo que menos cambia: en cada período, entre un tercio y más de la mitad de estas canciones lo protege.
 
-Llegué a esas conclusiones con dos mediciones que no ven los resultados de la otra: una **lectura anonimizada** de cada letra y la **geometría de un modelo de embeddings**. Son independientes en su ejecución, no en su diseño: yo elegí el corpus y escribí las frases ancla conociendo la hipótesis, y los ejes se validan contra las propias lecturas. Que coincidan es lo que me permite afirmar la dirección del cambio; donde no coinciden está, como veremos, la lección más útil para quien trabaja con embeddings.
+Llegué a esas conclusiones con dos mediciones que no ven los resultados de la otra: una **lectura anonimizada** de cada letra y la **geometría de un modelo de embeddings**. Son independientes en su ejecución, no en su diseño: yo elegí el corpus y escribí las frases ancla conociendo la hipótesis, y los ejes se validan contra las propias lecturas. Que coincidan es lo que me permite afirmar la dirección del cambio; donde no coinciden está, como veremos, la lección más útil para quien trabaja con embeddings. Si vienes por la ingeniería, la sección [Lo que ven los embeddings, y lo que no](#lo-que-ven-los-embeddings-y-lo-que-no) empieza con un resumen técnico.
 
 ## Cómo se lee el miedo en una canción
 
@@ -44,7 +44,7 @@ El corpus tiene **120 canciones**: 12 en inglés y 12 en español en cada perío
 - el **estado de cada bloque** de la letra, de la amenaza al control, y la forma del arco;
 - **qué protege**: el valor en juego.
 
-El protocolo está publicado. Las dos lecturas coinciden en si hay miedo en el 95 % de las canciones (κ = 0,90), en dónde está la amenaza en el 94 % (κ = 0,92) y en la forma del arco en el 82 % (κ = 0,76). Hay un matiz importante: los seis lectores son el mismo asistente con el mismo protocolo, no seis personas, así que ese acuerdo mide consistencia del procedimiento, no independencia de criterio. **56 de las 120 canciones** tienen miedo según al menos una lectura; en 50, según ambas.
+El [protocolo](https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/research/fear-lyrics/story-reading-protocol.md) está publicado, también [en inglés](https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/research/fear-lyrics/story-reading-protocol.en.md). Las dos lecturas coinciden en si hay miedo en el 95 % de las canciones (κ = 0,90), en dónde está la amenaza en el 94 % (κ = 0,92) y en la forma del arco en el 82 % (κ = 0,76). Hay un matiz importante: los seis lectores son el mismo asistente con el mismo protocolo, no seis personas, así que ese acuerdo mide consistencia del procedimiento, no independencia de criterio. **56 de las 120 canciones** tienen miedo según al menos una lectura; en 50, según ambas.
 
 **Anonimizar no es cegar.** Quitar artista, título y año no impide que un modelo de lenguaje reconozca *Thriller* o *Anti-Hero*. Hice una prueba de reconocimiento: con los mismos bloques anonimizados, el mismo modelo nombró el título de 110 de las 120 canciones (92 %), incluidas todas las canciones con miedo de 1980 a 2019. Las lecturas pueden traer la interpretación cultural que el modelo aprendió de cada canción, y ese es un riesgo justo para la variable que más importa: un modelo que «sabe» que una canción de 2019 trata de salud mental puede encontrar salud mental en ella. Las cuatro canciones con miedo que no reconoció son de 2020–26 (*Ansiedad*, *Tengo Un Pensamiento*, *Algo tú*, *Die With a Smile*), así que *Ansiedad*, la más «adentro» de ese período, se leyó solo por su texto; pero cuatro canciones son muy pocas para repetir el análisis solo con ellas. Por eso importa la segunda medición: un embedding solo codifica el texto de cada bloque, así que está menos expuesto a lo que se ha escrito sobre la canción.
 
@@ -92,7 +92,15 @@ La columna de la derecha anticipa la parte técnica. Si le pregunto al espacio d
 
 ## Lo que ven los embeddings, y lo que no
 
-Esta es la sección que más cambió respecto de la primera versión de este estudio, y la que más me interesa como ingeniero. En esa versión intenté que los subtemas del miedo salieran solos, con BERTopic sobre los embeddings, y los grupos resultaron ser sobre todo idioma y vocabulario. Ahora puedo explicar por qué, y qué funciona en su lugar.
+> **La versión corta, para ingenieros.**
+> 1. Los embeddings multilingües ordenan las letras primero por idioma: hasta retirar la media de cada idioma, el 100 % de los vecinos más próximos de una canción comparte su idioma.
+> 2. La estructura libre no recupera el concepto. UMAP, el agrupamiento y los vecinos más próximos reúnen pasajes por escena, vocabulario y estribillo; un clasificador de 10 vecinos acierta menos que la línea base (59 % frente a 65 %).
+> 3. Una pregunta explícita sí lo recupera. Un eje construido con frases ancla bilingües separa las canciones «adentro» de las «afuera» con AUC 0,89 [0,79–0,96] y reproduce la tendencia de los lectores sin ver sus etiquetas.
+> 4. El prefijo de instrucción no ayuda de forma medible: su ganancia sobre el mismo modelo cae dentro del ruido del bootstrap.
+> 5. Los embeddings ubican una letra mejor de lo que siguen su movimiento: dentro de una canción, la correlación con los estados de los lectores es 0,15.
+> 6. Un lector basado en un modelo de lenguaje no es ciego: reconoció el 92 % de las letras anonimizadas.
+
+Un primer intento natural es dejar que los subtemas del miedo salgan solos, con BERTopic sobre los embeddings. Cuando lo probé, los grupos resultaron ser sobre todo idioma y vocabulario. Esto explica por qué, y qué funciona en su lugar.
 
 ### 1. Lo primero que ve un embedding es el idioma
 
@@ -171,7 +179,7 @@ Para quien trabaja con embeddings, la lección cabe en dos pasos: **primero, qui
 <summary><strong>Método, datos y reproducción</strong></summary>
 
 - **Corpus.** 120 letras con hashes de integridad, procedentes de LRCLIB y Genius. Las letras permanecen en una caché privada; los materiales públicos contienen IDs, categorías, puntuaciones y paráfrasis breves sin citas. Año: primera edición comercial de la grabación incluida.
-- **Lectura.** `story-reading-protocol.md`. Seis procesos lectores (subagentes de Claude Opus 5.5 en Claude Code, muestreo por defecto, sin fijar la temperatura), 40 casos cada uno y asignación aleatoria (semilla 20261012), de modo que cada canción tiene dos lecturas de lectores distintos. Prueba de reconocimiento: con los mismos bloques anonimizados, el mismo modelo nombró 110 de los 120 títulos. Un validador comprueba el esquema, los IDs y el orden de los pasos del arco. Agregación por voto fraccional.
+- **Lectura.** [Protocolo](https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/research/fear-lyrics/story-reading-protocol.md) ([versión en inglés](https://github.com/carlosjimenez88M/carlosjimenez88m.github.io/blob/master/research/fear-lyrics/story-reading-protocol.en.md)). Seis procesos lectores (subagentes de Claude Opus 5.5 en Claude Code, muestreo por defecto, sin fijar la temperatura), 40 casos cada uno y asignación aleatoria (semilla 20261012), de modo que cada canción tiene dos lecturas de lectores distintos. Prueba de reconocimiento: con los mismos bloques anonimizados, el mismo modelo nombró 110 de los 120 títulos. Un validador comprueba el esquema, los IDs y el orden de los pasos del arco. Agregación por voto fraccional.
 - **Bloques.** Hasta ocho líneas y al menos cuatro palabras, en orden: 1.333 bloques con repeticiones, 1.137 únicos.
 - **Embeddings.** `intfloat/multilingual-e5-large-instruct` (1.024 dimensiones, local), con instrucción de miedo y sin ella. MiniLM multilingüe y E5 small como comparación. Idioma retirado por centrado (para vecindarios y agrupamiento) o por proyección de una dirección estimada con anclas paralelas (para ejes y conceptos).
 - **Ejes y conceptos.** `semantic-anchors.json`, escrito antes de proyectar las letras. Validación interna (anclas fuera de muestra) y externa (AUC frente a las lecturas, con intervalos bootstrap del 90 % y diferencias pareadas entre encoders).
