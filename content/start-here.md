@@ -6,7 +6,7 @@ hideMeta: true
 ShowToc: false
 ---
 
-I study how AI systems interpret meaning and remember evidence. Musical narratives give me a setting for asking difficult questions; engineering gives me ways to examine the answers. Choose the path that fits what you want to do.
+I research music through embeddings and narrative arcs, and study how AI systems interpret meaning and remember evidence. Close reading, listening, and computational experiments help me examine how ideas develop across songs and albums. I also help engineering teams evaluate their own systems and decide what to change. Choose the path that fits what you want to do.
 
 ## Understand a question
 
@@ -28,7 +28,7 @@ Read the [methods and corrections notes](/research-notes/) alongside the results
 
 For a team operating an AI application, start with [Prompts Are Release Artifacts](/post/2026-09-08-mlflow-prompt-engineering/). It connects observed failures, versioned prompts, evaluation, and release decisions using a synthetic support-documentation example.
 
-If your team needs to investigate retrieval, memory, or unsupported answers, read about the [memory and evidence diagnostic](/work-with-me/).
+If your team needs to investigate retrieval, memory, or unsupported answers, read about the [AI reliability and evaluation diagnostic](/work-with-me/), with options for architecture review, optimization, and ongoing technical guidance.
 
 ## Explore the wider archive
 

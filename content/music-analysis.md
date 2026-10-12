@@ -1,7 +1,7 @@
 ---
 title: "Narrative Arcs in Music"
 layout: "hub"
-description: "How songs and albums develop ideas, and how computational interpretations can be examined against their evidence."
+description: "Music research through embeddings and narrative arcs: how songs and albums develop ideas, and what evidence supports a computational interpretation."
 hubTitle: "Writing on music and interpretation"
 hubDescription: "Essays on narrative, multilingual lyrics, and the limits of the measurements used to study them."
 hubCategories: ["Music Analysis"]
@@ -12,7 +12,9 @@ hubTags: ["music-analysis", "computational-musicology"]
 
 A theme can return with different words. A new voice can complicate what an earlier song appeared to say. An ending can resolve a tension, preserve it, or make us reconsider the beginning.
 
-I study those relationships through close reading, NLP, embeddings, and LLM-based experiments. The question is whether a computational account preserves the distinctions that matter to an interpretation — and what evidence would let us disagree with it.
+I study those relationships through close reading, NLP, embeddings, and LLM-based experiments. Narrative arcs help frame how an idea develops across a sequence; embeddings give me representations with which to explore relationships between passages. The question is whether a computational account preserves the distinctions that matter to an interpretation — and what evidence would let us disagree with it.
+
+Following a band's evolution across its discography is another source of questions. My [exploration of the Beatles' lyrical evolution](/post/2026-06-16-beatles-lyrical-evolution/) examines changes in their lyrics. The album-memory studies below address a different scale: how evidence relates within selected albums. Their representations do not capture the full sound or listening experience.
 
 Music is a subject of this research in its own right. It also provides demanding examples for [AI engineering](/ai-engineering/): memory, source attribution, multilingual retrieval, and the cost of reasoning over evidence.
 

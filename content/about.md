@@ -1,7 +1,7 @@
 ---
 title: "About"
 layout: "page"
-description: "Carlos Daniel Jiménez: AI engineering, statistics, and research into music, meaning, and evidence."
+description: "Carlos Daniel Jiménez: AI engineer with technical leadership experience, researching music, embeddings, narrative arcs, and reliable AI systems."
 hideMeta: true
 ShowToc: false
 ---
@@ -10,32 +10,46 @@ ShowToc: false
 
 ## Intro
 
-I think the finest evening imaginable is a conversation with Sabina and Asimov about how unreal the present feels, while a table nearby holds books by Ernest Hemingway.
+My idea of a perfect evening is a conversation with Sabina and Asimov about how unreal the present feels, with books by Ernest Hemingway on a nearby table.
 
-## Who Is Carlos Daniel?
+## Who I am
 
-* I'm Colombian
-* I live between Sweden and El Salvador
-* I work as an AI Software Engineer
-* I love Edge Computing, with GCP as my cloud
-* My research focuses on improving memory for LLMs through narrative-arc strategies, and then on inference optimization
-* I studied Economics, Philosophy, History, and Statistics
-* I define myself as someone who adores the sea and the acoustic guitar
-* I only listen to music on vinyl
-* When I'm not coding, I'm reading
-* I've lived and worked in: USA, Mexico, Chile, and Colombia
-* I love programming on the Raspberry Pi — doing it with Tmux and Nvim connected to the Raspberry Pi
+I'm Carlos Daniel Jiménez, a Colombian AI software engineer with experience in technical leadership and applied research. I studied economics, philosophy, history, and statistics, and those interests still shape the questions I bring to engineering: how we interpret evidence, how we explain uncertainty, and how ideas change over time.
 
-## About my work
+My work connects two enduring interests: understanding how music and stories develop meaning, and building AI systems whose answers can be examined against their evidence. I help engineering teams reason about retrieval, agent memory, evaluation, and the architectural choices behind quality and cost.
 
-I investigate how AI systems interpret meaning, retain evidence, and behave under practical constraints. On this site I connect [music research](/music-analysis/) with [AI engineering](/ai-engineering/), publishing experiments and their limitations. I also offer a [focused diagnostic for teams evaluating memory and retrieval](/work-with-me/).
+I currently live between Sweden and El Salvador. I've lived in Colombia, the United States, Mexico, Chile, Sweden, Spain, and El Salvador.
 
-Former AI Software Engineering Lead at Globant, where I worked end-to-end (e2e) across sectors such as Finance, Streaming, Healthcare, Human Resources, and Retail.
+I love the sea and the acoustic guitar. When I'm not coding, I'm usually reading.
 
-Worked as an AI Engineer at Yale University School of Medicine, developing products such as Voice-to-Text with Edge Computing, and time-series models for detecting responses to stimuli related to brain, mind, and cognition.
+## Coffee, vinyl, and stories
 
-Former Principal Data Scientist at the Inter-American Development Bank, working on LLM and NLP challenges, as well as risk assessment utilizing Machine Learning and statistical modeling (and sampling).
+I'm a coffee purist, with a particular interest in brewing methods. I enjoy understanding the bean, the extraction, and how each method brings out different qualities in the cup. Making coffee is a ritual of paying attention to the details.
 
-Former Data Science Lead at Mercado Libre, where I developed catalog autocomplete products for various sections of the company's portfolio, while concurrently developing anomalous activity detection models.
+I'm passionate about music on vinyl. What draws me in is following a band's evolution across its discography: how its sound changes, how its lyrics develop, and how one album opens a different chapter from the last. Listening is where my questions about music begin.
 
-Former Data Scientist at the UN, where I worked on geolocation models and environmental issues.
+I also study narrative arcs in literature: how a plot develops, how characters change, and how a later passage can reshape our reading of an earlier one. That interest in the movement of a story carries into the way I listen to albums and study their lyrics.
+
+## Music, embeddings, and narrative arcs
+
+[Music research](/music-analysis/) is a central part of my intellectual work. I use embeddings, NLP, and LLM-based experiments to explore how ideas recur, change, and connect across songs and albums. I am interested in narrative arcs: what a sequence develops, what an ending makes us reconsider, and what evidence supports a particular reading.
+
+My [literary mapping experiments](/post/2026-01-07-literary_mapping/) ask related questions about stories through vector representations and narrative maps. Close reading and listening give those representations something to answer to. Similarity in an embedding space is a starting point for interpretation; the meaning of a relationship still needs to be argued from the work itself.
+
+These questions also lead me to LLM and agent memory. An interpretation may depend on details separated by many pages or songs. A system has to retain and retrieve the evidence that supports it. My [album-memory studies](/experiments/) examine that problem through comparisons of memory strategies, retrieval, verification, and resource use. Their findings concern the experiments and representations used; applying them to another system requires its own evaluation.
+
+## Engineering and technical leadership
+
+I investigate how AI systems interpret meaning, retain evidence, and behave under practical constraints. In [AI engineering](/ai-engineering/), I publish experiments on retrieval, evaluation, agent memory, and inference optimization, with their methods and limitations available for inspection.
+
+My professional experience has given me different ways to approach those decisions:
+
+- **Globant — former AI Software Engineering Lead:** I worked end-to-end across finance, streaming, healthcare, human resources, and retail.
+- **Yale University School of Medicine — AI Engineer:** I developed voice-to-text products with edge computing and time-series models for detecting responses to stimuli related to brain, mind, and cognition.
+- **Inter-American Development Bank — former Principal Data Scientist:** I worked on LLM and NLP challenges, as well as risk assessment using machine learning, statistical modeling, and sampling.
+- **Mercado Libre — former Data Science Lead:** I developed catalog autocomplete products and models for detecting anomalous activity.
+- **UN — former Data Scientist:** I worked on geolocation models and environmental issues.
+
+I bring that experience to architectural questions: what evidence an application needs, what it should remember, how to evaluate its answers, and which changes merit the engineering effort. I offer [diagnostics and technical advisory](/work-with-me/) for teams working through those questions.
+
+I also enjoy building edge systems, with GCP as my cloud platform. One of my favorite ways to work is programming on a Raspberry Pi through Tmux and Neovim.

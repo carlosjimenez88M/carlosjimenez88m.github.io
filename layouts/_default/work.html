@@ -1,0 +1,92 @@
+{{ define "main" }}
+<article class="consulting-page">
+  <header class="consulting-hero">
+    <p class="eyebrow">Work with me · AI engineering &amp; technical advisory</p>
+    <h1>{{ .Params.heroTitle }}</h1>
+    <p class="consulting-lead">{{ .Params.heroLead }}</p>
+    <div class="consulting-actions">
+      <a class="consulting-button" href="{{ .Params.contactUrl | safeURL }}">Discuss your project <span aria-hidden="true">→</span></a>
+      <a href="#ways-to-work">Explore the options <span aria-hidden="true">↓</span></a>
+    </div>
+    <p class="consulting-note">{{ .Params.contactNote }}</p>
+  </header>
+
+  <aside class="consulting-background" aria-label="Professional background">
+    <img src="/img/perfil_con_emi.jpg" alt="Carlos Daniel Jiménez" width="64" height="64">
+    <div>
+      <p class="consulting-name">Carlos Daniel Jiménez</p>
+      <p>{{ .Params.background }}</p>
+      <a href="/about/">More about my background <span aria-hidden="true">→</span></a>
+    </div>
+  </aside>
+
+  <section class="consulting-section" id="ways-to-work" aria-labelledby="services-title">
+    <p class="eyebrow">Choose a starting point</p>
+    <h2 id="services-title">Three ways to work together</h2>
+    <div class="consulting-services">
+      {{ range .Params.services }}
+      <article class="consulting-card">
+        <p class="consulting-label">{{ .label }}</p>
+        <h3>{{ .title }}</h3>
+        <p>{{ .situation }}</p>
+        <p class="consulting-deliverable-label">What you receive</p>
+        <ul>
+          {{ range .deliverables }}<li>{{ . }}</li>{{ end }}
+        </ul>
+        <p class="consulting-scope">{{ .scope }}</p>
+        <a class="consulting-card-link" href="{{ .url | safeURL }}">{{ .cta }} <span aria-hidden="true">→</span></a>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="consulting-section" aria-labelledby="process-title">
+    <p class="eyebrow">From first conversation to a useful decision</p>
+    <h2 id="process-title">A straightforward process</h2>
+    <ol class="consulting-process">
+      {{ range $index, $step := .Params.process }}
+      <li>
+        <span class="consulting-step" aria-hidden="true">{{ add $index 1 }}</span>
+        <div><h3>{{ $step.title }}</h3><p>{{ $step.text }}</p></div>
+      </li>
+      {{ end }}
+    </ol>
+  </section>
+
+  <section class="consulting-section" aria-labelledby="work-title">
+    <p class="eyebrow">Examine the approach</p>
+    <h2 id="work-title">Public work you can inspect</h2>
+    <div class="consulting-work">
+      {{ range .Params.selectedWork }}
+      <article>
+        <p class="consulting-label">{{ .label }}</p>
+        <h3><a href="{{ .url }}">{{ .title }} <span aria-hidden="true">↗</span></a></h3>
+        <p>{{ .text }}</p>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="consulting-research post-content" aria-label="Research perspective">
+    {{ .Content }}
+  </section>
+
+  <section class="consulting-section consulting-faq" aria-labelledby="faq-title">
+    <h2 id="faq-title">Before we start</h2>
+    {{ range .Params.faq }}
+    <details>
+      <summary>{{ .question }}</summary>
+      <p>{{ .answer }}</p>
+    </details>
+    {{ end }}
+  </section>
+
+  <footer class="consulting-contact">
+    <p class="eyebrow">Let's start with your problem</p>
+    <h2>{{ .Params.contactTitle }}</h2>
+    <p>{{ .Params.contactText }}</p>
+    <a class="consulting-button" href="{{ .Params.contactUrl | safeURL }}">Discuss your project <span aria-hidden="true">→</span></a>
+    <a class="consulting-email" href="mailto:danieljimenez88m@gmail.com">danieljimenez88m@gmail.com</a>
+  </footer>
+</article>
+{{ end }}

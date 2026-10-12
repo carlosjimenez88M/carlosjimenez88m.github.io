@@ -1,4 +1,8 @@
 {{- /* KaTeX for Math Rendering */ -}}
+{{- if eq .Layout "work" }}
+{{- $consultingStyle := resources.Get "css/consulting.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $consultingStyle.RelPermalink }}" integrity="{{ $consultingStyle.Data.Integrity }}">
+{{- end }}
 {{- with .Param "socialImageAlt" }}
 <meta property="og:image:alt" content="{{ . }}">
 <meta name="twitter:image:alt" content="{{ . }}">

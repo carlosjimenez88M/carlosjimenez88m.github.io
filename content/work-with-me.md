@@ -1,49 +1,77 @@
 ---
 title: "Work with me"
-description: "A focused diagnostic for teams evaluating retrieval, agent memory, and the evidence behind AI answers."
-layout: "page"
+layout: "work"
 hideMeta: true
 ShowToc: false
+description: "AI reliability diagnostics, architecture reviews, and technical guidance for teams building RAG applications and AI agents."
+summary: "I help engineering teams understand where RAG applications and AI agents fail, evaluate the evidence behind their answers, and decide what to change next. Start with a focused reliability diagnostic, review architecture and resource use, or work with me on ongoing technical decisions. Each engagement has a defined scope, practical deliverables, and an agreed price. My independent research on music, embeddings, and narrative arcs informs how I think about representation, memory, and the limits of interpretation."
+heroTitle: "Clarity for your next AI decision."
+heroLead: "I help engineering teams evaluate RAG applications and AI agents, understand their tradeoffs, and make decisions grounded in evidence. Bring a workflow, an observed problem, or a decision your team needs to make."
+contactUrl: "mailto:danieljimenez88m@gmail.com?subject=AI%20engineering%20%E2%80%94%20initial%20conversation&body=System%2Fworkflow%3A%0A%0AProblem%2Fexample%3A%0A%0ADecision%2Fgoal%3A%0A"
+contactNote: "A few lines about your system and the question you are working through are enough to start."
+background: "AI engineering and data science experience at Globant, the Inter-American Development Bank, Mercado Libre, and Yale University School of Medicine."
+services:
+  - label: "A focused starting point"
+    title: "AI reliability diagnostic"
+    situation: "Your application gives plausible answers, but you need to understand which ones are supported and where the failures begin."
+    deliverables:
+      - "Error taxonomy and reusable evaluation rubric."
+      - "Review of retrieval, evidence, and memory."
+      - "Written report and a 60-minute team review."
+    scope: "One workflow · typically 20–30 cases · about two weeks. Timing and price agreed before starting."
+    cta: "Discuss a diagnostic"
+    url: "mailto:danieljimenez88m@gmail.com?subject=AI%20reliability%20diagnostic&body=System%2Fworkflow%3A%0A%0AProblem%2Fexample%3A%0A%0ADecision%2Fgoal%3A%0A"
+  - label: "A decision before more complexity"
+    title: "Architecture & resource review"
+    situation: "You are adding retrieval, memory, or agent steps and need to understand whether the extra complexity earns its cost."
+    deliverables:
+      - "Retrieval, memory, inference, and MLOps review."
+      - "One agreed baseline or alternative comparison."
+      - "Tradeoffs and prioritized engineering recommendations."
+    scope: "One workflow and one comparison. Quality, latency, and cost examined where records support them."
+    cta: "Discuss an architecture review"
+    url: "mailto:danieljimenez88m@gmail.com?subject=AI%20architecture%20and%20resource%20review&body=System%2Fworkflow%3A%0A%0AProblem%2Fexample%3A%0A%0ADecision%2Fgoal%3A%0A"
+  - label: "Support as your system evolves"
+    title: "Ongoing technical guidance"
+    situation: "Your engineers need a regular sounding board for evaluation, experiments, and the decisions that shape an evolving AI system."
+    deliverables:
+      - "Evaluation standards and reusable review criteria."
+      - "Experiment design and interpretation of results."
+      - "Architecture reviews as your system evolves."
+    scope: "An agreed cadence, scope, and price. Implementation can be discussed separately."
+    cta: "Discuss technical guidance"
+    url: "mailto:danieljimenez88m@gmail.com?subject=Ongoing%20AI%20technical%20guidance&body=System%2Fworkflow%3A%0A%0AProblem%2Fexample%3A%0A%0ADecision%2Fgoal%3A%0A"
+process:
+  - title: "Start with the problem"
+    text: "Send a short description of your workflow, one example or concern, and the decision you want to make. We use that to assess the fit."
+  - title: "Agree on the work"
+    text: "Before starting, we define the scope, deliverables, price, timing, and appropriate access to the material we need."
+  - title: "Leave with a decision"
+    text: "We review the findings together, distinguish evidence from uncertainty, and identify which change or experiment deserves your team's attention."
+selectedWork:
+  - label: "Memory & evaluation"
+    title: "Memory Is Not Context"
+    text: "A research case examining resource accounting, memory strategies, and a verifier that can still be wrong."
+    url: "/post/2026-09-11-memory-is-not-context/"
+  - label: "MLOps & release workflows"
+    title: "Prompts Are Release Artifacts"
+    text: "A proposed release workflow for prompts, explored through a synthetic documentation example."
+    url: "/post/2026-09-08-mlflow-prompt-engineering/"
+faq:
+  - question: "How is pricing agreed?"
+    answer: "I quote each engagement after we define the question, scope, deliverables, and access requirements. We agree on the price before the work starts; a diagnostic, architecture review, and ongoing guidance have their own scopes."
+  - question: "What should I prepare or share?"
+    answer: "Start with a non-sensitive description and an example you are authorized to share. If we proceed, we agree on the representative cases, traces, outputs, and source material required, along with appropriate access."
+  - question: "Does this include implementation?"
+    answer: "These engagements focus on evaluation, review, and technical decisions. Production integrations, large-scale data preparation, and implementation work need a separate agreed scope. Improvements in quality or cost are outcomes to measure."
+contactTitle: "What decision is your team working through?"
+contactText: "Tell me about your system, an example of the problem, and what you need to decide. We can use that to define a useful starting scope."
 ---
 
-## Does your AI answer have the evidence it needs?
+## Music, embeddings, and narrative arcs
 
-I help teams examine how their AI applications retrieve information, remember it, and turn it into an answer. The starting point is a concrete failure: a plausible response with weak support, an agent that loses a key distinction, or a memory policy whose cost is difficult to justify.
+My [independent music research](/music-analysis/) explores how ideas recur and change across songs, albums, and a band's discography. I use embeddings and NLP to study relationships between lyrics, then return to listening and close reading to examine what those relationships mean. I also study narrative arcs in literature: how a sequence develops an idea, and how a later passage changes our interpretation of an earlier one.
 
-I bring experience in AI engineering, NLP, statistics, and operating systems in production. My [research on musical narratives](/music-analysis/) explores related measurement problems; the work with your team starts from your application and its own evidence.
+These questions shape my [experiments on representation, memory, and verification](/experiments/). What does a representation preserve? Which detail must a system retrieve to support an interpretation? Where does a confident reading outrun the evidence?
 
-## A memory and evidence diagnostic
-
-We agree on one workflow and a small set of representative cases before starting. A typical starting scope is 20–30 cases, reviewed over two calendar weeks. Timing and price are agreed after checking access, complexity, and the work required.
-
-| You bring | We examine | You receive |
-|---|---|---|
-| A workflow and examples of answers that concern you | Retrieval, source attribution, support, and missing evidence | An error analysis tied to specific cases |
-| Traces or outputs and source material you are authorized to share | The context and calls behind the answer | A resource account where the available traces support it |
-| A decision your team needs to make | One practical baseline or alternative within the agreed scope | A comparison, a reusable rubric, and prioritized recommendations |
-
-The engagement ends with a written report and a 60-minute working session. We distinguish what the evidence establishes, what remains uncertain, and which experiment should come next. Improvements in quality or cost are outcomes to test, not guarantees.
-
-## When this is a useful fit
-
-- You have a prototype or an existing application and need a clearer evaluation process.
-- Your system retrieves relevant-looking material but sometimes draws unsupported conclusions.
-- You want to understand whether extra memory, retries, or agent steps earn their cost.
-
-Production integrations, large-scale data preparation, and ongoing implementation are scoped separately. If you need help defining the evaluation question first, describe that in your message.
-
-## See how I approach the work
-
-- [Memory Is Not Context](/post/2026-09-11-memory-is-not-context/) — a research case about resource accounting and a fallible verifier.
-- [Prompts Are Release Artifacts](/post/2026-09-08-mlflow-prompt-engineering/) — a proposed release workflow using a synthetic documentation example.
-- [Experiments and materials](/experiments/) — code, recorded outputs, review material, and the limits of each study.
-
-These are public research and educational examples. They are not client case studies or evidence of production improvements.
-
-## Tell me what your system is getting wrong
-
-[Email me about a diagnostic](mailto:danieljimenez88m@gmail.com?subject=Memory%20and%20evidence%20diagnostic)
-
-Tell me what you are building, one failure you want to understand, and the decision you need to make. Start with a non-sensitive description; we can agree on appropriate access before reviewing data.
-
-You can also find me on [LinkedIn](https://www.linkedin.com/in/djimenezm). For my background, read [About](/about/).
+The public work linked here consists of research studies and educational examples, with their own methods and limitations. They are not client results. Applying a finding to your system requires its own evaluation.
