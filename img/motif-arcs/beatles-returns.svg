@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="995.904pt" height="786.6pt" viewBox="0 0 995.904 786.6" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-16T10:24:15.823061</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Motif arcs study</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 786.6 
+L 995.904 786.6 
+L 995.904 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 23.885568 222.6438 
+L 325.207296 222.6438 
+Q 333.059328 222.6438 333.059328 216.4662 
+L 333.059328 126.891 
+Q 333.059328 120.7134 325.207296 120.7134 
+L 23.885568 120.7134 
+Q 16.033536 120.7134 16.033536 126.891 
+L 16.033536 216.4662 
+Q 16.033536 222.6438 23.885568 222.6438 
+z
+" clip-path="url(#p102cd878e1)" style="fill: #f5f7fa; stroke: #e4eaf0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 352.689408 222.6438 
+L 654.011136 222.6438 
+Q 661.863168 222.6438 661.863168 216.4662 
+L 661.863168 126.891 
+Q 661.863168 120.7134 654.011136 120.7134 
+L 352.689408 120.7134 
+Q 344.837376 120.7134 344.837376 126.891 
+L 344.837376 216.4662 
+Q 344.837376 222.6438 352.689408 222.6438 
+z
+" clip-path="url(#p102cd878e1)" style="fill: #f5f7fa; stroke: #e4eaf0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 681.493248 222.6438 
+L 982.814976 222.6438 
+Q 990.667008 222.6438 990.667008 216.4662 
+L 990.667008 126.891 
+Q 990.667008 120.7134 982.814976 120.7134 
+L 681.493248 120.7134 
+Q 673.641216 120.7134 673.641216 126.891 
+L 673.641216 216.4662 
+Q 673.641216 222.6438 681.493248 222.6438 
+z
+" clip-path="url(#p102cd878e1)" style="fill: #f5f7fa; stroke: #e4eaf0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 23.885568 377.0838 
+L 325.207296 377.0838 
+Q 333.059328 377.0838 333.059328 370.9062 
+L 333.059328 281.331 
+Q 333.059328 275.1534 325.207296 275.1534 
+L 23.885568 275.1534 
+Q 16.033536 275.1534 16.033536 281.331 
+L 16.033536 370.9062 
+Q 16.033536 377.0838 23.885568 377.0838 
+z
+" clip-path="url(#p102cd878e1)" style="fill: #f5f7fa; stroke: #e4eaf0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 352.689408 377.0838 
+L 654.011136 377.0838 
+Q 661.863168 377.0838 661.863168 370.9062 
+L 661.863168 281.331 
+Q 661.863168 275.1534 654.011136 275.1534 
+L 352.689408 275.1534 
+Q 344.837376 275.1534 344.837376 281.331 
+L 344.837376 370.9062 
+Q 344.837376 377.0838 352.689408 377.0838 
+z
+" clip-path="url(#p102cd878e1)" style="fill: #f5f7fa; stroke: #e4eaf0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 681.493248 377.0838 
+L 982.814976 377.0838 
+Q 990.667008 377.0838 990.667008 370.9062 
+L 990.667008 281.331 
+Q 990.667008 275.1534 982.814976 275.1534 
+L 681.493248 275.1534 
+Q 673.641216 275.1534 673.641216 281.331 
+L 673.641216 370.9062 
+Q 673.641216 377.0838 681.493248 377.0838 
+z
+" clip-path="url(#p102cd878e1)" style="fill: #f5f7fa; stroke: #e4eaf0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 23.885568 531.5238 
+L 325.207296 531.5238 
+Q 333.059328 531.5238 333.059328 525.3462 
+L 333.059328 435.771 
+Q 333.059328 429.5934 325.207296 429.5934 
+L 23.885568 429.5934 
+Q 16.033536 429.5934 16.033536 435.771 
+L 16.033536 525.3462 
+Q 16.033536 531.5238 23.885568 531.5238 
+z
+" clip-path="url(#p102cd878e1)" style="fill: #f5f7fa; stroke: #e4eaf0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 352.689408 531.5238 
+L 654.011136 531.5238 
+Q 661.863168 531.5238 661.863168 525.3462 
+L 661.863168 435.771 
+Q 661.863168 429.5934 654.011136 429.5934 
+L 352.689408 429.5934 
+Q 344.837376 429.5934 344.837376 435.771 
+L 344.837376 525.3462 
+Q 344.837376 531.5238 352.689408 531.5238 
+z
+" clip-path="url(#p102cd878e1)" style="fill: #f5f7fa; stroke: #e4eaf0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 681.493248 531.5238 
+L 982.814976 531.5238 
+Q 990.667008 531.5238 990.667008 525.3462 
+L 990.667008 435.771 
+Q 990.667008 429.5934 982.814976 429.5934 
+L 681.493248 429.5934 
+Q 673.641216 429.5934 673.641216 435.771 
+L 673.641216 525.3462 
+Q 673.641216 531.5238 681.493248 531.5238 
+z
+" clip-path="url(#p102cd878e1)" style="fill: #f5f7fa; stroke: #e4eaf0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 23.885568 685.9638 
+L 325.207296 685.9638 
+Q 333.059328 685.9638 333.059328 679.7862 
+L 333.059328 590.211 
+Q 333.059328 584.0334 325.207296 584.0334 
+L 23.885568 584.0334 
+Q 16.033536 584.0334 16.033536 590.211 
+L 16.033536 679.7862 
+Q 16.033536 685.9638 23.885568 685.9638 
+z
+" clip-path="url(#p102cd878e1)" style="fill: #f5f7fa; stroke: #e4eaf0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 352.689408 685.9638 
+L 654.011136 685.9638 
+Q 661.863168 685.9638 661.863168 679.7862 
+L 661.863168 590.211 
+Q 661.863168 584.0334 654.011136 584.0334 
+L 352.689408 584.0334 
+Q 344.837376 584.0334 344.837376 590.211 
+L 344.837376 679.7862 
+Q 344.837376 685.9638 352.689408 685.9638 
+z
+" clip-path="url(#p102cd878e1)" style="fill: #f5f7fa; stroke: #e4eaf0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 681.493248 685.9638 
+L 982.814976 685.9638 
+Q 990.667008 685.9638 990.667008 679.7862 
+L 990.667008 590.211 
+Q 990.667008 584.0334 982.814976 584.0334 
+L 681.493248 584.0334 
+Q 673.641216 584.0334 673.641216 590.211 
+L 673.641216 679.7862 
+Q 673.641216 685.9638 681.493248 685.9638 
+z
+" clip-path="url(#p102cd878e1)" style="fill: #f5f7fa; stroke: #e4eaf0; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 331.09632 171.6786 
+L 350.7264 171.6786 
+" clip-path="url(#p102cd878e1)" style="fill: none; stroke-dasharray: 1.1,1.815; stroke-dashoffset: 0; stroke: #d19042; stroke-width: 1.1"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 659.90016 171.6786 
+L 679.53024 171.6786 
+" clip-path="url(#p102cd878e1)" style="fill: none; stroke-dasharray: 1.1,1.815; stroke-dashoffset: 0; stroke: #d19042; stroke-width: 1.1"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 331.09632 326.1186 
+L 350.7264 326.1186 
+" clip-path="url(#p102cd878e1)" style="fill: none; stroke-dasharray: 1.1,1.815; stroke-dashoffset: 0; stroke: #d19042; stroke-width: 1.1"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 659.90016 326.1186 
+L 679.53024 326.1186 
+" clip-path="url(#p102cd878e1)" style="fill: none; stroke-dasharray: 1.1,1.815; stroke-dashoffset: 0; stroke: #d19042; stroke-width: 1.1"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 331.09632 480.5586 
+L 350.7264 480.5586 
+" clip-path="url(#p102cd878e1)" style="fill: none; stroke-dasharray: 1.1,1.815; stroke-dashoffset: 0; stroke: #2d8a85; stroke-width: 1.1"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 659.90016 480.5586 
+L 679.53024 480.5586 
+" clip-path="url(#p102cd878e1)" style="fill: none; stroke-dasharray: 1.1,1.815; stroke-dashoffset: 0; stroke: #2d8a85; stroke-width: 1.1"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 331.09632 634.9986 
+L 350.7264 634.9986 
+" clip-path="url(#p102cd878e1)" style="fill: none; stroke-dasharray: 1.1,1.815; stroke-dashoffset: 0; stroke: #2d8a85; stroke-width: 1.1"/>
+   </g>
+   <g id="line2d_8">
+    <path d="M 659.90016 634.9986 
+L 679.53024 634.9986 
+" clip-path="url(#p102cd878e1)" style="fill: none; stroke-dasharray: 1.1,1.815; stroke-dashoffset: 0; stroke: #2d8a85; stroke-width: 1.1"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="21.92256" y="24.738187" transform="rotate(-0 21.92256 24.738187)">The Beatles: constancy, acknowledgment, and changed valuation</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #617184" x="21.92256" y="48.407672" transform="rotate(-0 21.92256 48.407672)">Earlier target · relevant context · specified return. Context may be inside a target; columns are not three successive events.</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 11.4px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #d19042" x="21.92256" y="108.526219" transform="rotate(-0 21.92256 108.526219)">And I Love Her  ·  Stable assertion</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="33.700608" y="142.211438" transform="rotate(-0 33.700608 142.211438)">Reciprocal affection</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(33.700608 167.209313)">Gifts of affection answer the</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(33.700608 178.487438)">speaker's total devotion.</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #617184" x="33.700608" y="206.894395" transform="rotate(-0 33.700608 206.894395)">S005:B002</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="362.504448" y="142.211438" transform="rotate(-0 362.504448 142.211438)">Permanence asserted</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(362.504448 166.337438)">Closeness and the night sky accompany</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(362.504448 178.487438)">an assertion of lasting love.</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #617184" x="362.504448" y="206.894395" transform="rotate(-0 362.504448 206.894395)">S005:B003</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="691.308288" y="142.211438" transform="rotate(-0 691.308288 142.211438)">Declaration returns</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(691.308288 166.750172)">The same assurance returns; no</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(691.308288 178.487438)">intervening loss is narrated.</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #617184" x="691.308288" y="206.894395" transform="rotate(-0 691.308288 206.894395)">S005:B004</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9.1px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="26.83008" y="243.197531" transform="rotate(-0 26.83008 243.197531)">The return works as renewed assurance. An imagined horizon does not establish an accomplished change.</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 11.4px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #d19042" x="21.92256" y="262.966219" transform="rotate(-0 21.92256 262.966219)">I'm Happy Just to Dance with You  ·  Explicit acknowledgment</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="33.700608" y="296.651438" transform="rotate(-0 33.700608 296.651438)">Dancing is enough</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(33.700608 320.777438)">The speaker sets a limit on physical</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(33.700608 332.927438)">intimacy while seeking the dance.</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #617184" x="33.700608" y="361.334395" transform="rotate(-0 33.700608 361.334395)">S004:B002</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="362.504448" y="296.651438" transform="rotate(-0 362.504448 296.651438)">A rival is excluded</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(362.504448 320.777438)">A possible rival is dismissed; the</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(362.504448 332.927438)">speaker anticipates affection.</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #617184" x="362.504448" y="361.334395" transform="rotate(-0 362.504448 361.334395)">S004:B003 · S004:B004</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="691.308288" y="296.651438" transform="rotate(-0 691.308288 296.651438)">Love is acknowledged</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(691.308288 320.777438)">A discovery of love accompanies the</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(691.308288 332.927438)">recurring claim of sufficiency.</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #617184" x="691.308288" y="361.334395" transform="rotate(-0 691.308288 361.334395)">S004:B005</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 9.1px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="26.83008" y="397.637531" transform="rotate(-0 26.83008 397.637531)">The same boundary can persist while the speaker's account of their feeling becomes more explicit.</text>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 11.4px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #2d8a85" x="21.92256" y="417.406219" transform="rotate(-0 21.92256 417.406219)">Something  ·  Present commitment / future uncertainty</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="33.700608" y="451.091438" transform="rotate(-0 33.700608 451.091438)">Present attachment</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(33.700608 475.217438)">Attraction accompanies an</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(33.700608 487.367438)">unwillingness to leave.</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #617184" x="33.700608" y="515.774395" transform="rotate(-0 33.700608 515.774395)">S015:B001</text>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="362.504448" y="451.091438" transform="rotate(-0 362.504448 451.091438)">A future question</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(362.504448 475.217438)">Asked whether affection will grow, the</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(362.504448 487.367438)">voice cannot promise an answer.</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #617184" x="362.504448" y="515.774395" transform="rotate(-0 362.504448 515.774395)">S015:B002</text>
+   </g>
+   <g id="text_32">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="691.308288" y="451.091438" transform="rotate(-0 691.308288 451.091438)">Commitment returns</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(691.308288 476.089313)">Present attachment is reaffirmed after</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(691.308288 487.367438)">the limit on future knowledge.</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #617184" x="691.308288" y="515.774395" transform="rotate(-0 691.308288 515.774395)">S015:B003</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 9.1px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(26.83008 552.077531)">A present-tense attachment remains asserted. Future uncertainty adds a limit to what the voice claims to know; no reversed</text>
+    <text style="font-size: 9.1px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(26.83008 564.334094)">stance is demonstrated.</text>
+   </g>
+   <g id="text_36">
+    <text style="font-weight: 700; font-size: 11.4px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #2d8a85" x="21.92256" y="571.846219" transform="rotate(-0 21.92256 571.846219)">You Never Give Me Your Money  ·  Evaluative reversal</text>
+   </g>
+   <g id="text_37">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="33.700608" y="605.530656" transform="rotate(-0 33.700608 605.530656)">No prospects</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(33.700608 629.657438)">Lost money and work make the absence</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(33.700608 641.807438)">of a destination constraining.</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #617184" x="33.700608" y="670.214395" transform="rotate(-0 33.700608 670.214395)">S022:B002</text>
+   </g>
+   <g id="text_40">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="362.504448" y="605.531438" transform="rotate(-0 362.504448 605.531438)">A modifier within the return</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(362.504448 629.657438)">A positive description qualifies that</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(362.504448 641.807438)">absence inside the returning block.</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #617184" x="362.504448" y="670.214395" transform="rotate(-0 362.504448 670.214395)">S022:B003</text>
+   </g>
+   <g id="text_43">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="691.308288" y="605.531438" transform="rotate(-0 691.308288 605.531438)">The condition is revalued</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(691.308288 630.529313)">The same lack of direction is</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(691.308288 641.807438)">associated with a liberating feeling.</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 7.7px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #617184" x="691.308288" y="670.214395" transform="rotate(-0 691.308288 670.214395)">S022:B003</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 9.1px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(26.83008 706.517531)">The evaluation changes inside this adjacent pair. There is no separate intervening block; the departure scene comes</text>
+    <text style="font-size: 9.1px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(26.83008 718.774094)">afterward.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p102cd878e1">
+   <rect x="7.2" y="7.2" width="981.504" height="772.2"/>
+  </clipPath>
+ </defs>
+</svg>

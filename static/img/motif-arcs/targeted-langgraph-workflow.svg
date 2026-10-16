@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="997.2pt" height="559.152pt" viewBox="0 0 997.2 559.152" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-16T10:24:17.384976</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Motif arcs study</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 559.152 
+L 997.2 559.152 
+L 997.2 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 34.7184 209.847744 
+L 284.3496 209.847744 
+Q 299.0916 209.847744 299.0916 201.676464 
+L 299.0916 112.337136 
+Q 299.0916 104.165856 284.3496 104.165856 
+L 34.7184 104.165856 
+Q 19.9764 104.165856 19.9764 112.337136 
+L 19.9764 201.676464 
+Q 19.9764 209.847744 34.7184 209.847744 
+z
+" clip-path="url(#p56b76c9f3a)" style="fill: #f4f7fa; stroke: #e4eaf0; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 373.7844 209.847744 
+L 623.4156 209.847744 
+Q 638.1576 209.847744 638.1576 201.676464 
+L 638.1576 112.337136 
+Q 638.1576 104.165856 623.4156 104.165856 
+L 373.7844 104.165856 
+Q 359.0424 104.165856 359.0424 112.337136 
+L 359.0424 201.676464 
+Q 359.0424 209.847744 373.7844 209.847744 
+z
+" clip-path="url(#p56b76c9f3a)" style="fill: #f4f7fa; stroke: #e4eaf0; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 712.8504 209.847744 
+L 962.4816 209.847744 
+Q 977.2236 209.847744 977.2236 201.676464 
+L 977.2236 112.337136 
+Q 977.2236 104.165856 962.4816 104.165856 
+L 712.8504 104.165856 
+Q 698.1084 104.165856 698.1084 112.337136 
+L 698.1084 201.676464 
+Q 698.1084 209.847744 712.8504 209.847744 
+z
+" clip-path="url(#p56b76c9f3a)" style="fill: #f4f7fa; stroke: #e4eaf0; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 712.8504 389.615904 
+L 962.4816 389.615904 
+Q 977.2236 389.615904 977.2236 381.444624 
+L 977.2236 275.762736 
+Q 977.2236 267.591456 962.4816 267.591456 
+L 712.8504 267.591456 
+Q 698.1084 267.591456 698.1084 275.762736 
+L 698.1084 381.444624 
+Q 698.1084 389.615904 712.8504 389.615904 
+z
+" clip-path="url(#p56b76c9f3a)" style="fill: #f4f7fa; stroke: #e4eaf0; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 373.7844 389.615904 
+L 623.4156 389.615904 
+Q 638.1576 389.615904 638.1576 381.444624 
+L 638.1576 275.762736 
+Q 638.1576 267.591456 623.4156 267.591456 
+L 373.7844 267.591456 
+Q 359.0424 267.591456 359.0424 275.762736 
+L 359.0424 381.444624 
+Q 359.0424 389.615904 373.7844 389.615904 
+z
+" clip-path="url(#p56b76c9f3a)" style="fill: #f4f7fa; stroke: #e4eaf0; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 34.7184 389.615904 
+L 284.3496 389.615904 
+Q 299.0916 389.615904 299.0916 381.444624 
+L 299.0916 275.762736 
+Q 299.0916 267.591456 284.3496 267.591456 
+L 34.7184 267.591456 
+Q 19.9764 267.591456 19.9764 275.762736 
+L 19.9764 381.444624 
+Q 19.9764 389.615904 34.7184 389.615904 
+z
+" clip-path="url(#p56b76c9f3a)" style="fill: #f4f7fa; stroke: #e4eaf0; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="26.856" y="32.532071" transform="rotate(-0 26.856 32.532071)">LangGraph: bind the question before interpreting the return</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #617184" x="26.856" y="56.22768" transform="rotate(-0 26.856 56.22768)">Executed v2 workflow · every branch records its evidence addresses · generation uses a 1,000-token output cap</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="43.5636" y="131.045705" transform="rotate(-0 43.5636 131.045705)">1 · Retrieve candidates</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(43.5636 156.529454)">Motif description → small embedding</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(43.5636 169.129454)">Top 2 original lyric blocks</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(43.5636 182.601329)">No annotation-card index</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="382.6296" y="131.045705" transform="rotate(-0 382.6296 131.045705)">2 · Apply evidence policy</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(382.6296 156.529454)">Dense top 2 / selected endpoints /</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(382.6296 169.129454)">all retained song blocks</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(382.6296 181.729454)">Unequal input budgets</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="721.6956" y="131.045705" transform="rotate(-0 721.6956 131.045705)">3 · Bind the pair</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(721.6956 156.529454)">Specify earlier and return IDs</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(721.6956 169.129454)">Keep original presentation order</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(721.6956 181.729454)">Missing target permits abstention</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 289.300911 157.0068 
+Q 321.696619 157.0068 352.52708 157.0068 
+" style="fill: none; stroke: #617184; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 348.52708 155.0068 
+L 352.52708 157.0068 
+L 348.52708 159.0068 
+" style="fill: none; stroke: #617184; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 628.366911 157.0068 
+Q 660.762619 157.0068 691.59308 157.0068 
+" style="fill: none; stroke: #617184; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 687.59308 155.0068 
+L 691.59308 157.0068 
+L 687.59308 159.0068 
+" style="fill: none; stroke: #617184; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="721.6956" y="294.471305" transform="rotate(-0 721.6956 294.471305)">4 · Interpret separately</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(721.6956 319.955054)">OpenAI and Anthropic</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(721.6956 332.555054)">Function + target-voice continuity</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(721.6956 345.155054)">Contextual reason + counterreading</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 837.666 205.310483 
+Q 837.666 234.632563 837.666 262.389397 
+" style="fill: none; stroke: #617184; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 839.666 258.389397 
+L 837.666 262.389397 
+L 835.666 258.389397 
+" style="fill: none; stroke: #617184; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="382.6296" y="294.471305" transform="rotate(-0 382.6296 294.471305)">5 · Check the record</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(382.6296 319.955054)">Schema, exposed citation addresses,</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(382.6296 332.555054)">required-target binding</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(382.6296 345.155054)">No automated literary verdict</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 707.899089 328.60368 
+Q 675.503381 328.60368 644.67292 328.60368 
+" style="fill: none; stroke: #617184; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 648.67292 330.60368 
+L 644.67292 328.60368 
+L 648.67292 326.60368 
+" style="fill: none; stroke: #617184; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="43.5636" y="294.471305" transform="rotate(-0 43.5636 294.471305)">6 · Offline comparison</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(43.5636 319.955054)">Same evidence across providers</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(43.5636 332.555054)">Compare relation and voice fields</text>
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #17212b" transform="translate(43.5636 345.155054)">Inspect disagreement in the sources</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 368.833089 328.60368 
+Q 336.437381 328.60368 305.60692 328.60368 
+" style="fill: none; stroke: #617184; stroke-width: 1.4; stroke-linecap: round"/>
+    <path d="M 309.60692 330.60368 
+L 305.60692 328.60368 
+L 309.60692 326.60368 
+" style="fill: none; stroke: #617184; stroke-width: 1.4; stroke-linecap: round"/>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans', Arial, sans-serif; text-anchor: start; fill: #17212b" x="36.684" y="464.79168" transform="rotate(-0 36.684 464.79168)">What the graph guarantees</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #617184" transform="translate(36.684 479.75304)">An auditable path from question to exposed evidence to answer. Endpoint retention in two policies is a design choice.</text>
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', Arial, sans-serif; fill: #617184" transform="translate(36.684 494.75304)">Chronology within the fictional world, voice identity, and interpretive entailment still require critical reading.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p56b76c9f3a">
+   <rect x="7.2" y="7.2" width="982.8" height="544.752"/>
+  </clipPath>
+ </defs>
+</svg>

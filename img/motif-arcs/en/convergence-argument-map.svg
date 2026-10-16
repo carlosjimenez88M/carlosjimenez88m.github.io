@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="844.704pt" height="1324.370109pt" viewBox="0 0 844.704 1324.370109" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>motif-arcs/argument_map.py</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 1324.370109 
+L 844.704 1324.370109 
+L 844.704 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 295.65399 229.128962 
+Q 422.351969 229.128962 547.261094 229.128962 
+" clip-path="url(#p5ea17282e1)" style="fill: none; stroke: #247f75; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 542.061094 226.528962 
+L 547.261094 229.128962 
+L 542.061094 231.728962 
+z
+" clip-path="url(#p5ea17282e1)" style="fill: #247f75; stroke: #247f75; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 561.125729 346.783722 
+Q 624.946316 313.822286 687.177512 281.681724 
+" clip-path="url(#p5ea17282e1)" style="fill: none; stroke-dasharray: 5.92,2.56; stroke-dashoffset: 0; stroke: #247f75; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 681.364234 281.75782 
+L 687.177512 281.681724 
+L 683.750422 286.378004 
+z
+" clip-path="url(#p5ea17282e1)" style="fill: #247f75; stroke-dasharray: 5.92,2.56; stroke-dashoffset: 0; stroke: #247f75; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #243247" x="22.145472" y="110.0175" transform="rotate(-0 22.145472 110.0175)">Something</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10.4px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="22.145472" y="129.233119" transform="rotate(-0 22.145472 129.233119)">Two compatible claims: wanting to stay now does not require knowing how love will grow.</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 30.448512 279.662689 
+L 282.860928 279.662689 
+Q 292.824576 279.662689 292.824576 276.274953 
+L 292.824576 187.629198 
+Q 292.824576 184.241462 282.860928 184.241462 
+L 30.448512 184.241462 
+Q 20.484864 184.241462 20.484864 187.629198 
+L 20.484864 276.274953 
+Q 20.484864 279.662689 30.448512 279.662689 
+z
+" clip-path="url(#p5ea17282e1)" style="fill: #ffffff; stroke: #247f75; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 561.843072 279.662689 
+L 814.255488 279.662689 
+Q 824.219136 279.662689 824.219136 276.274953 
+L 824.219136 187.629198 
+Q 824.219136 184.241462 814.255488 184.241462 
+L 561.843072 184.241462 
+Q 551.879424 184.241462 551.879424 187.629198 
+L 551.879424 276.274953 
+Q 551.879424 279.662689 561.843072 279.662689 
+z
+" clip-path="url(#p5ea17282e1)" style="fill: #ffffff; stroke: #247f75; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 296.145792 405.291226 
+L 548.558208 405.291226 
+Q 558.521856 405.291226 558.521856 401.903491 
+L 558.521856 313.257736 
+Q 558.521856 309.87 548.558208 309.87 
+L 296.145792 309.87 
+Q 286.182144 309.87 286.182144 313.257736 
+L 286.182144 401.903491 
+Q 286.182144 405.291226 296.145792 405.291226 
+z
+" clip-path="url(#p5ea17282e1)" style="fill: #ffffff; stroke: #477cab; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="27.9576" y="176.901368" transform="rotate(-0 27.9576 176.901368)">FIRST APPEARANCE</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="559.35216" y="176.901368" transform="rotate(-0 559.35216 176.901368)">RETURN</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="293.65488" y="302.529906" transform="rotate(-0 293.65488 302.529906)">INTERVENING CONTEXT</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.9px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="22.145472" y="426.451713" transform="rotate(-0 22.145472 426.451713)">Counterreading: the present never guaranteed the future; no withdrawn promise has been established.</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 11.4px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #243247" x="40.41216" y="203.065998" transform="rotate(-0 40.41216 203.065998)">I want to stay</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #243247" transform="translate(40.41216 220.753224)">The voice wants to remain</text>
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #243247" transform="translate(40.41216 231.821974)">with the loved person.</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 8.7px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #247f75" x="40.41216" y="241.154489" transform="rotate(-0 40.41216 241.154489)">Affectionate voice</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.1px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="40.41216" y="251.744149" transform="rotate(-0 40.41216 251.744149)">Present</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8.1px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="40.41216" y="261.342734" transform="rotate(-0 40.41216 261.342734)">Desire asserted</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #596779" x="40.41216" y="271.079489" transform="rotate(-0 40.41216 271.079489)">S015:B001</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 11.4px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #243247" x="571.80672" y="203.066889" transform="rotate(-0 571.80672 203.066889)">Attachment continues</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #243247" transform="translate(571.80672 219.861974)">The wish to stay</text>
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #243247" transform="translate(571.80672 231.821974)">persists.</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 8.7px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #247f75" x="571.80672" y="241.154489" transform="rotate(-0 571.80672 241.154489)">Same voice, inferred</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8.1px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="571.80672" y="251.744149" transform="rotate(-0 571.80672 251.744149)">Present</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 8.1px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="571.80672" y="261.342734" transform="rotate(-0 571.80672 261.342734)">Desire reaffirmed</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #596779" x="571.80672" y="271.079489" transform="rotate(-0 571.80672 271.079489)">S015:B003</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 11.4px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #243247" x="306.10944" y="328.695426" transform="rotate(-0 306.10944 328.695426)">Will it grow? I do not know</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #243247" transform="translate(306.10944 346.381762)">The voice does not know</text>
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #243247" transform="translate(306.10944 357.450512)">how love will develop.</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 8.7px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #477cab" x="306.10944" y="366.783027" transform="rotate(-0 306.10944 366.783027)">Same voice, inferred</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 8.1px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="306.10944" y="377.372686" transform="rotate(-0 306.10944 377.372686)">Future</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 8.1px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="306.10944" y="386.971271" transform="rotate(-0 306.10944 386.971271)">Uncertainty stated</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #596779" x="306.10944" y="396.708027" transform="rotate(-0 306.10944 396.708027)">S015:B002</text>
+   </g>
+   <g id="text_25">
+    <g id="patch_7">
+     <path d="M 388.016273 220.974219 
+L 456.687727 220.974219 
+L 456.687727 206.229461 
+L 388.016273 206.229461 
+z
+" style="fill: #fcfcfa"/>
+    </g>
+    <text style="font-weight: 700; font-size: 9.7px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: middle; fill: #247f75" x="422.352" y="216.121945" transform="rotate(-0 422.352 216.121945)">persistence</text>
+   </g>
+   <g id="text_26">
+    <g id="patch_8">
+     <path d="M 652.62611 349.425869 
+L 718.490626 349.425869 
+L 718.490626 334.681112 
+L 652.62611 334.681112 
+z
+" style="fill: #fcfcfa"/>
+    </g>
+    <text style="font-weight: 700; font-size: 9.7px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: middle; fill: #247f75" x="685.558368" y="344.573596" transform="rotate(-0 685.558368 344.573596)">compatible</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_9">
+    <path d="M 295.65399 630.123962 
+Q 422.351969 630.123962 547.261094 630.123962 
+" clip-path="url(#pea747ebe92)" style="fill: none; stroke: #247f75; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 542.061094 627.523962 
+L 547.261094 630.123962 
+L 542.061094 632.723962 
+z
+" clip-path="url(#pea747ebe92)" style="fill: #247f75; stroke: #247f75; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 561.125729 747.778722 
+Q 624.946316 714.817286 687.177512 682.676724 
+" clip-path="url(#pea747ebe92)" style="fill: none; stroke: #b64f54; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 681.364234 682.75282 
+L 687.177512 682.676724 
+L 683.750422 687.373004 
+z
+" clip-path="url(#pea747ebe92)" style="fill: #b64f54; stroke: #b64f54; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #243247" x="22.145472" y="511.0125" transform="rotate(-0 22.145472 511.0125)">Master of Puppets</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 10.4px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="22.145472" y="530.228119" transform="rotate(-0 22.145472 530.228119)">The command persists. A dependent voice challenges its authority; the controller does not become the protester.</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 30.448512 680.657689 
+L 282.860928 680.657689 
+Q 292.824576 680.657689 292.824576 677.269953 
+L 292.824576 588.624198 
+Q 292.824576 585.236462 282.860928 585.236462 
+L 30.448512 585.236462 
+Q 20.484864 585.236462 20.484864 588.624198 
+L 20.484864 677.269953 
+Q 20.484864 680.657689 30.448512 680.657689 
+z
+" clip-path="url(#pea747ebe92)" style="fill: #ffffff; stroke: #247f75; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 561.843072 680.657689 
+L 814.255488 680.657689 
+Q 824.219136 680.657689 824.219136 677.269953 
+L 824.219136 588.624198 
+Q 824.219136 585.236462 814.255488 585.236462 
+L 561.843072 585.236462 
+Q 551.879424 585.236462 551.879424 588.624198 
+L 551.879424 677.269953 
+Q 551.879424 680.657689 561.843072 680.657689 
+z
+" clip-path="url(#pea747ebe92)" style="fill: #ffffff; stroke: #247f75; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 296.145792 806.286226 
+L 548.558208 806.286226 
+Q 558.521856 806.286226 558.521856 802.898491 
+L 558.521856 714.252736 
+Q 558.521856 710.865 548.558208 710.865 
+L 296.145792 710.865 
+Q 286.182144 710.865 286.182144 714.252736 
+L 286.182144 802.898491 
+Q 286.182144 806.286226 296.145792 806.286226 
+z
+" clip-path="url(#pea747ebe92)" style="fill: #ffffff; stroke: #b64f54; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="27.9576" y="577.896368" transform="rotate(-0 27.9576 577.896368)">FIRST APPEARANCE</text>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="559.35216" y="577.896368" transform="rotate(-0 559.35216 577.896368)">RETURN</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="293.65488" y="703.524906" transform="rotate(-0 293.65488 703.524906)">INTERVENING CONTEXT</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 8.9px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="22.145472" y="827.446713" transform="rotate(-0 22.145472 827.446713)">Counterreading: roles are inferred from dialogue; protest establishes neither escape nor a change in the controller.</text>
+   </g>
+   <g id="text_33">
+    <text style="font-weight: 700; font-size: 11.4px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #243247" x="40.41216" y="604.061889" transform="rotate(-0 40.41216 604.061889)">Control is asserted</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #243247" transform="translate(40.41216 620.856974)">A force claims power over</text>
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #243247" transform="translate(40.41216 632.816974)">the person who depends on it.</text>
+   </g>
+   <g id="text_35">
+    <text style="font-weight: 700; font-size: 8.7px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #247f75" x="40.41216" y="642.149489" transform="rotate(-0 40.41216 642.149489)">Controlling role</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 8.1px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="40.41216" y="652.739149" transform="rotate(-0 40.41216 652.739149)">Command in the present</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 8.1px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="40.41216" y="662.337734" transform="rotate(-0 40.41216 662.337734)">Claim of control</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #596779" x="40.41216" y="672.074489" transform="rotate(-0 40.41216 672.074489)">S032:B003</text>
+   </g>
+   <g id="text_39">
+    <text style="font-weight: 700; font-size: 11.4px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #243247" x="571.80672" y="604.061889" transform="rotate(-0 571.80672 604.061889)">The command returns</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #243247" transform="translate(571.80672 621.748224)">The claim of control returns</text>
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #243247" transform="translate(571.80672 632.816974)">after the protest.</text>
+   </g>
+   <g id="text_41">
+    <text style="font-weight: 700; font-size: 8.7px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #247f75" x="571.80672" y="642.149489" transform="rotate(-0 571.80672 642.149489)">Controlling role</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 8.1px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="571.80672" y="652.739149" transform="rotate(-0 571.80672 652.739149)">Command in the present</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 8.1px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="571.80672" y="662.337734" transform="rotate(-0 571.80672 662.337734)">Control reaffirmed</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #596779" x="571.80672" y="672.074489" transform="rotate(-0 571.80672 672.074489)">S032:B010</text>
+   </g>
+   <g id="text_45">
+    <text style="font-weight: 700; font-size: 11.4px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #243247" x="306.10944" y="729.690426" transform="rotate(-0 306.10944 729.690426)">Redress is demanded</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #243247" transform="translate(306.10944 746.485512)">The voice protests broken</text>
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #243247" transform="translate(306.10944 758.445512)">promises and asks for redress.</text>
+   </g>
+   <g id="text_47">
+    <text style="font-weight: 700; font-size: 8.7px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #b64f54" x="306.10944" y="767.778027" transform="rotate(-0 306.10944 767.778027)">Dependent role, inferred</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 8.1px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="306.10944" y="778.367686" transform="rotate(-0 306.10944 778.367686)">Present protest / past promises</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 8.1px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="306.10944" y="787.966271" transform="rotate(-0 306.10944 787.966271)">Complaint and request</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #596779" x="306.10944" y="797.703027" transform="rotate(-0 306.10944 797.703027)">S032:B007, B008, B009</text>
+   </g>
+   <g id="text_51">
+    <g id="patch_14">
+     <path d="M 388.016273 621.969219 
+L 456.687727 621.969219 
+L 456.687727 607.224461 
+L 388.016273 607.224461 
+z
+" style="fill: #fcfcfa"/>
+    </g>
+    <text style="font-weight: 700; font-size: 9.7px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: middle; fill: #247f75" x="422.352" y="617.116945" transform="rotate(-0 422.352 617.116945)">persistence</text>
+   </g>
+   <g id="text_52">
+    <g id="patch_15">
+     <path d="M 657.639798 750.420869 
+L 713.476938 750.420869 
+L 713.476938 735.676112 
+L 657.639798 735.676112 
+z
+" style="fill: #fcfcfa"/>
+    </g>
+    <text style="font-weight: 700; font-size: 9.7px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: middle; fill: #b64f54" x="685.558368" y="745.568596" transform="rotate(-0 685.558368 745.568596)">objection</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_16">
+    <path d="M 333.017036 1028.295849 
+Q 422.351905 1028.295849 509.897919 1028.295849 
+" clip-path="url(#p36b049d2c6)" style="fill: none; stroke: #247f75; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 504.697919 1025.695849 
+L 509.897919 1028.295849 
+L 504.697919 1030.895849 
+z
+" clip-path="url(#p36b049d2c6)" style="fill: #247f75; stroke: #247f75; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 333.017036 1163.805283 
+Q 422.351905 1163.805283 509.897919 1163.805283 
+" clip-path="url(#p36b049d2c6)" style="fill: none; stroke: #477cab; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 504.697919 1161.205283 
+L 509.897919 1163.805283 
+L 504.697919 1166.405283 
+z
+" clip-path="url(#p36b049d2c6)" style="fill: #477cab; stroke: #477cab; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 671.4432 1112.404945 
+Q 671.4432 1095.345433 671.4432 1080.074775 
+" clip-path="url(#p36b049d2c6)" style="fill: none; stroke: #b64f54; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 668.8432 1085.274775 
+L 671.4432 1080.074775 
+L 674.0432 1085.274775 
+z
+" clip-path="url(#p36b049d2c6)" style="fill: #b64f54; stroke: #b64f54; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="text_53">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #243247" x="22.145472" y="912.0075" transform="rotate(-0 22.145472 912.0075)">Puesto Pa’ Ti</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 10.4px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="22.145472" y="931.223119" transform="rotate(-0 22.145472 931.223119)">A promise and a refusal can share the return block without belonging to the same voice or making the same claim.</text>
+   </g>
+   <g id="patch_19">
+    <path d="M 30.448512 1076.006462 
+L 320.224608 1076.006462 
+Q 330.188256 1076.006462 330.188256 1072.618726 
+L 330.188256 983.972972 
+Q 330.188256 980.585236 320.224608 980.585236 
+L 30.448512 980.585236 
+Q 20.484864 980.585236 20.484864 983.972972 
+L 20.484864 1072.618726 
+Q 20.484864 1076.006462 30.448512 1076.006462 
+z
+" clip-path="url(#p36b049d2c6)" style="fill: #ffffff; stroke: #247f75; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 524.479392 1076.006462 
+L 814.255488 1076.006462 
+Q 824.219136 1076.006462 824.219136 1072.618726 
+L 824.219136 983.972972 
+Q 824.219136 980.585236 814.255488 980.585236 
+L 524.479392 980.585236 
+Q 514.515744 980.585236 514.515744 983.972972 
+L 514.515744 1072.618726 
+Q 514.515744 1076.006462 524.479392 1076.006462 
+z
+" clip-path="url(#p36b049d2c6)" style="fill: #ffffff; stroke: #247f75; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 30.448512 1210.10434 
+L 320.224608 1210.10434 
+Q 330.188256 1210.10434 330.188256 1206.716604 
+L 330.188256 1118.070849 
+Q 330.188256 1114.683113 320.224608 1114.683113 
+L 30.448512 1114.683113 
+Q 20.484864 1114.683113 20.484864 1118.070849 
+L 20.484864 1206.716604 
+Q 20.484864 1210.10434 30.448512 1210.10434 
+z
+" clip-path="url(#p36b049d2c6)" style="fill: #ffffff; stroke: #477cab; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 524.479392 1210.10434 
+L 814.255488 1210.10434 
+Q 824.219136 1210.10434 824.219136 1206.716604 
+L 824.219136 1118.070849 
+Q 824.219136 1114.683113 814.255488 1114.683113 
+L 524.479392 1114.683113 
+Q 514.515744 1114.683113 514.515744 1118.070849 
+L 514.515744 1206.716604 
+Q 514.515744 1210.10434 524.479392 1210.10434 
+z
+" clip-path="url(#p36b049d2c6)" style="fill: #ffffff; stroke: #b64f54; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_55">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="27.9576" y="973.245142" transform="rotate(-0 27.9576 973.245142)">FIRST APPEARANCE · B002</text>
+   </g>
+   <g id="text_56">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="521.98848" y="973.245142" transform="rotate(-0 521.98848 973.245142)">RETURN · TWO VOICES IN B012</text>
+   </g>
+   <g id="text_57">
+    <text style="font-weight: 700; font-size: 8.8px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="27.9576" y="1104.519906" transform="rotate(-0 27.9576 1104.519906)">INTERVENING REASONS · B006/7/11</text>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 8.9px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="22.145472" y="1234.08794" transform="rotate(-0 22.145472 1234.08794)">Counterreading: separating the voices within B012 requires finer annotation than these blocks provide.</text>
+   </g>
+   <g id="text_59">
+    <text style="font-weight: 700; font-size: 11.4px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #243247" x="40.41216" y="999.410662" transform="rotate(-0 40.41216 999.410662)">Commitment offered</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #243247" transform="translate(40.41216 1016.205748)">The voice promises to change</text>
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #243247" transform="translate(40.41216 1028.165748)">to restore the relationship.</text>
+   </g>
+   <g id="text_61">
+    <text style="font-weight: 700; font-size: 8.7px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #247f75" x="40.41216" y="1037.498263" transform="rotate(-0 40.41216 1037.498263)">Voice offering a return</text>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 8.1px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="40.41216" y="1048.087922" transform="rotate(-0 40.41216 1048.087922)">Future offered</text>
+   </g>
+   <g id="text_63">
+    <text style="font-size: 8.1px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="40.41216" y="1057.686507" transform="rotate(-0 40.41216 1057.686507)">Promise; not a proven event</text>
+   </g>
+   <g id="text_64">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #596779" x="40.41216" y="1067.423263" transform="rotate(-0 40.41216 1067.423263)">S053:B002</text>
+   </g>
+   <g id="text_65">
+    <text style="font-weight: 700; font-size: 11.4px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #243247" x="534.44304" y="999.410662" transform="rotate(-0 534.44304 999.410662)">The promise returns</text>
+   </g>
+   <g id="text_66">
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #243247" transform="translate(534.44304 1017.096998)">The offer of commitment</text>
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #243247" transform="translate(534.44304 1029.056998)">returns in the same block.</text>
+   </g>
+   <g id="text_67">
+    <text style="font-weight: 700; font-size: 8.7px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #247f75" x="534.44304" y="1037.498263" transform="rotate(-0 534.44304 1037.498263)">Voice offering a return</text>
+   </g>
+   <g id="text_68">
+    <text style="font-size: 8.1px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="534.44304" y="1048.087922" transform="rotate(-0 534.44304 1048.087922)">Future offered</text>
+   </g>
+   <g id="text_69">
+    <text style="font-size: 8.1px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="534.44304" y="1057.686507" transform="rotate(-0 534.44304 1057.686507)">Commitment repeated</text>
+   </g>
+   <g id="text_70">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #596779" x="534.44304" y="1067.423263" transform="rotate(-0 534.44304 1067.423263)">S053:B012</text>
+   </g>
+   <g id="text_71">
+    <text style="font-weight: 700; font-size: 11.4px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #243247" x="40.41216" y="1133.50854" transform="rotate(-0 40.41216 1133.50854)">Past harm recalled</text>
+   </g>
+   <g id="text_72">
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #243247" transform="translate(40.41216 1150.303625)">The voice recalls neglect and</text>
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #243247" transform="translate(40.41216 1162.263625)">questions the proposed return.</text>
+   </g>
+   <g id="text_73">
+    <text style="font-weight: 700; font-size: 8.7px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #477cab" x="40.41216" y="1171.59614" transform="rotate(-0 40.41216 1171.59614)">Voice objecting to a return</text>
+   </g>
+   <g id="text_74">
+    <text style="font-size: 8.1px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="40.41216" y="1182.1858" transform="rotate(-0 40.41216 1182.1858)">Past harm / present judgment</text>
+   </g>
+   <g id="text_75">
+    <text style="font-size: 8.1px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="40.41216" y="1191.784385" transform="rotate(-0 40.41216 1191.784385)">Reproach and appraisal</text>
+   </g>
+   <g id="text_76">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #596779" x="40.41216" y="1201.52114" transform="rotate(-0 40.41216 1201.52114)">S053:B006, B007, B011</text>
+   </g>
+   <g id="text_77">
+    <text style="font-weight: 700; font-size: 11.4px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #243247" x="534.44304" y="1133.50854" transform="rotate(-0 534.44304 1133.50854)">The other voice refuses</text>
+   </g>
+   <g id="text_78">
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #243247" transform="translate(534.44304 1150.303625)">The reply refuses to</text>
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #243247" transform="translate(534.44304 1162.263625)">resume the relationship.</text>
+   </g>
+   <g id="text_79">
+    <text style="font-weight: 700; font-size: 8.7px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #b64f54" x="534.44304" y="1171.59614" transform="rotate(-0 534.44304 1171.59614)">Voice objecting to a return</text>
+   </g>
+   <g id="text_80">
+    <text style="font-size: 8.1px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="534.44304" y="1182.1858" transform="rotate(-0 534.44304 1182.1858)">Present decision</text>
+   </g>
+   <g id="text_81">
+    <text style="font-size: 8.1px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="534.44304" y="1191.784385" transform="rotate(-0 534.44304 1191.784385)">Refusal</text>
+   </g>
+   <g id="text_82">
+    <text style="font-size: 8.7px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; text-anchor: start; fill: #596779" x="534.44304" y="1201.52114" transform="rotate(-0 534.44304 1201.52114)">S053:B012</text>
+   </g>
+   <g id="text_83">
+    <g id="patch_23">
+     <path d="M 388.016273 1018.729549 
+L 456.687727 1018.729549 
+L 456.687727 1003.984791 
+L 388.016273 1003.984791 
+z
+" style="fill: #fcfcfa"/>
+    </g>
+    <text style="font-weight: 700; font-size: 9.7px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: middle; fill: #247f75" x="422.352" y="1013.877275" transform="rotate(-0 422.352 1013.877275)">persistence</text>
+   </g>
+   <g id="text_84">
+    <g id="patch_24">
+     <path d="M 391.68257 1162.442813 
+L 453.02143 1162.442813 
+L 453.02143 1134.113508 
+L 391.68257 1134.113508 
+z
+" style="fill: #fcfcfa"/>
+    </g>
+    <text style="font-weight: 700; font-size: 9.7px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #477cab" transform="translate(394.20457 1144.97694)">reason for</text>
+    <text style="font-weight: 700; font-size: 9.7px; font-family: 'DejaVu Sans', 'Arial', sans-serif; fill: #477cab" transform="translate(403.286195 1156.619592)">refusal</text>
+   </g>
+   <g id="text_85">
+    <g id="patch_25">
+     <path d="M 714.10047 1102.011388 
+L 769.93761 1102.011388 
+L 769.93761 1087.266631 
+L 714.10047 1087.266631 
+z
+" style="fill: #fcfcfa"/>
+    </g>
+    <text style="font-weight: 700; font-size: 9.7px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: middle; fill: #b64f54" x="742.01904" y="1097.159115" transform="rotate(-0 742.01904 1097.159115)">objection</text>
+   </g>
+  </g>
+  <g id="text_86">
+   <text style="font-weight: 700; font-size: 23px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #243247" x="20.592" y="24.676406" transform="rotate(-0 20.592 24.676406)">Similarity, persistence, opposition</text>
+  </g>
+  <g id="text_87">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="20.592" y="52.344" transform="rotate(-0 20.592 52.344)">Three maps distinguishing a persistent stance from another voice's response</text>
+  </g>
+  <g id="text_88">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="20.592" y="87.912" transform="rotate(-0 20.592 87.912)">Source-linked editorial readings · manually positioned nodes · arrows = discourse relationships</text>
+  </g>
+  <g id="text_89">
+   <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #243247" x="20.592" y="1290.384" transform="rotate(-0 20.592 1290.384)">Green: persistence or compatibility    Red: objection    Blue: reason for refusal</text>
+  </g>
+  <g id="text_90">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Arial', sans-serif; text-anchor: start; fill: #596779" x="20.592" y="1315.008" transform="rotate(-0 20.592 1315.008)">Each box separates voice, time, modality and source IDs. Relationships are contestable editorial readings, not algorithmic inferences.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5ea17282e1">
+   <rect x="7.2" y="130.32" width="830.304" height="299.25"/>
+  </clipPath>
+  <clipPath id="pea747ebe92">
+   <rect x="7.2" y="531.315" width="830.304" height="299.25"/>
+  </clipPath>
+  <clipPath id="p36b049d2c6">
+   <rect x="7.2" y="932.31" width="830.304" height="299.25"/>
+  </clipPath>
+ </defs>
+</svg>

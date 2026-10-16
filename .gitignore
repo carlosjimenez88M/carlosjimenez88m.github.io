@@ -79,3 +79,12 @@ execution_log.txt
 # Private research inputs, provider responses, and local MLflow stores
 .research-cache/
 mlruns/
+
+# Local Spanish reading draft and intermediate editorial artifacts
+/content/local/
+/layouts/local/
+/research/motif-arcs/revisions/
+/research/motif-arcs/analisis-comparativo-es.ipynb
+/static/research/motif-arcs/convergencia.html
+/research/motif-arcs/convergencia.html
+/public/research/motif-arcs/convergencia.html
